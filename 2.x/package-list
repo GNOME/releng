@@ -27,7 +27,7 @@ libIDL			=		0.7.1		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <mic
 libart_lgpl		=		2.3.7		-			Raph Levien <raph@acm.org>
 libbonobo		=		1.107.0		frozen			Michael Meeks <michael@ximian.com>
 libbonoboui		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
-libghttp		gnome-http	1.0.9		*			Justin Maurer <justin@slashdot.org>
+libghttp		gnome-http	1.0.9		* to remove if better method found	Justin Maurer <justin@slashdot.org>
 libglade		=		1.99.3		not frozen		James Henstridge <james@daa.com.au>
 libgnome		=		1.107.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomecanvas		=		1.107.0		frozen			Anders Carlsson <andersca@gnu.org>
@@ -52,7 +52,7 @@ gnome-control-center	-		-		-			-
 gnome-core		=		-		see Desktop Core section		-
 gnome-games		=		-		mostly ported, minor issues		-
 gnome-media		=		-		mostly ported (forget solaris?)		Iain Holmes <iain@ximian.com>
-gnome-pim		=		-		*			-
+gnome-pim		=		-		* no porting action at all		-
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
 gnome-utils		=		-		see Desktop Utils section			-
 gtkhtml			-		-		gtkhtml2 is ported; Anders, Larry and BillH to develop "The Plan" (wrt accessibility, gtkhtml1, etc)	-
@@ -78,15 +78,15 @@ panel			gnome-core/panel	-	_v_ and the sun hackers working on it	-
 <section title="Desktop Utils (gnome-utils)">
 gcalc			gnome-utils	-		ported, accessibility issues	-
 gcharmap		gnome-utils	-		ported			-
-gcolorsel		-		-		*			-
+gcolorsel		-		-		* replaced by minimal colour selector		-
 gdialog			gnome-utils	-		ported			-
 gdict			gnome-utils	-		ported, applet doesn't compile			-
 gfloppy			gnome-utils	-		ported			Jonathan Blandford <jrb@redhat.com>
-gfontsel		-		-		*			-
+gfontsel		-		-		* replacement with fontcarton		-
 gsearchtool		gnome-utils	-		ported			-
 logview			gnome-utils	-		ported, some font issues		-
-meat-grinder		gnome-utils	-		*			-
-stripchart		-		-		*			-
+meat-grinder		gnome-utils	-		* prefer nautilus functionality		-
+stripchart		-		-		* not necessary, applets do the same	-
 </section>
 
 <section title="Fifth Toe">
