@@ -48,7 +48,7 @@ gcalc			gnome-utils	-		done			-
 gcharmap		gnome-utils	-		ported			-
 gcolorsel		-		-		hadess to replace	-
 gdialog			gnome-utils	-		ported			-
-gdict			gnome-utils	-		compiles, needs porting to GtkTextView, applet doesn't compile			-
+gdict			gnome-utils	-		ported, applet doesn't compile			-
 gdm			gdm2		-		branched, porting	George Jirka <jirka@5z.com>
 gedit			=		-		ported, paolo needs some help :)	Chema Celorio <chema@ximian.com>
 gfloppy			gnome-utils	-		ported			Jonathan Blandford <jrb@redhat.com>
@@ -57,7 +57,7 @@ ggv			-		-		-			-
 gnome-about		gnome-core/gnome-about	-	porting (Glynn)		Jacob Berkman <jacob@ximian.com>, George Jirka <jirka@5z.com>
 gnome-audio		-		-		-			-
 gnome-control-center	-		-		-			-
-gnome-games		-		-		-			-
+gnome-games		=		-		mostly ported, minor issues		-
 gnome-media		-		-		-			-
 gnome-pim		-		-		porting? (fifth toe?)	-
 gnome-terminal		gnome-core/gnome-terminal	-			-
