@@ -50,6 +50,7 @@ while (<STDIN>) {
 	# make contacts clicky
 	@contacts = split(/\,/, @module[4]);
 	foreach $contact (@contacts) {
+		$contact =~ s/@/ AT /;
 		$contact =~ s#(.*) <(.*)>#<a href="mailto:$2">$1</a>#;
 	}
 	$contacts = join(",", @contacts);

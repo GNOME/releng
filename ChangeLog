@@ -1,5 +1,9 @@
 2001-11-18  Jeff Waugh  <jdub@perkypants.org>
 
+	* releng2html.pl: spam-harvest deterring email address alteration
+
+2001-11-18  Jeff Waugh  <jdub@perkypants.org>
+
 	* 2.x/package-list: added language bindings section
 
 2001-11-18  Jeff Waugh  <jdub@perkypants.org>
