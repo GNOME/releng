@@ -1,13 +1,19 @@
-
+<?xml version="1.0"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4.0">
+<!ENTITY urlfiguresbase "../figures/">
+]>
+<sect1>
     <title>So, why GNOME?</title>
 
    
     <para>
-  Having seen some of the new features in GNOME 2.2, why choose GNOME
+  Having seen some of the new features in GNOME &version;, why choose GNOME
   over other desktop environments? Every GNOME volunteer has their own
   motivations, of course, but here are some of the common reasons many
   of us choose to work on GNOME.
-</para>
+  </para>
   
     <sect2>
       <title>Usability.</title>
@@ -17,40 +23,38 @@
     hyper-configurability.  Our <ulink
     url="http://developer.gnome.org/projects/gup/hig/"> Human
     Interface Guidelines</ulink>, developed by a team of UI
-    professionals and GNOME volunteers, and released before GNOME 2.2,
+    professionals and GNOME volunteers, and released before GNOME &version;,
     are the most complete Free Software usability guidelines yet. We
     believe that this focus on usability will produce a user
     environment that "just works" and as a result lets GNOME users-
     both experienced and inexperienced- focus on the task at hand
     instead of on their applications.
-</para>
-<figure>
-  <title>Usability</title>
+    </para>
+    <figure>
+      <title>Usability</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;why_preferences.png"/>
-  </screenshot>
-</figure>
+	<graphic format="PNG" fileref="&urlfiguresbase;why_preferences.png"/>
+      </screenshot>
+    </figure>
   
     
         
       
-    </sect2>
-    <sect2>
-      <title>Accessibility.</title>
+  </sect2>
+  <sect2>
+    <title>Accessibility.</title>
       
-        <para>
-          Beyond making GNOME easier to use for the average computer
-          user, GNOME has also taken the lead in making the unix
-          desktop accessible to those with disabilities. GNOME's
-          accessibility technologies allow (for example) the use of
-          braille readers, voice synthesizers, and pointing
-          devices. This has nice side effects for other users, as
-          well- for example, all of GNOME should now be keyboard
-          navigable, and many GNOME interfaces have more informative
-          tooltips. Many governments, including the US government,
-          require comprehensive accessibility support in software they
-          purchase. After dozens of person-years of effort, GNOME is
-          the only free software desktop to address this issue.
+    <para>
+      Beyond making GNOME easier to use for the average computer user, GNOME has
+          also taken the lead in making the unix desktop accessible to those
+          with disabilities. GNOME's accessibility technologies allow (for
+          example) the use of braille readers, voice synthesizers, and pointing
+          devices. This has nice side effects for other users, as well- for
+          example, all of GNOME should now be keyboard navigable, and many GNOME
+          interfaces have more informative tooltips. Many governments, including
+          the US government, require comprehensive accessibility support in
+          software they purchase. After dozens of person-years of effort, GNOME
+          is the only free software desktop to address this issue.
         </para>
       
     </sect2>
@@ -58,10 +62,11 @@
       <title>Improved performance</title>
       
         <para>
-          GNOME 2.0 and 2.2 are smaller and faster than previous
-          versions of GNOME, a welcome trend. The file manager in
-          particular continues to improve, as it now uses faster
-          techniques for rendering and icon creation.
+          GNOME 2.0 and later are smaller and faster than previous versions of
+          GNOME, bucking the common trend in computer software in which the
+          latest versions require ever more resources. The file manager in
+          particular continues to improve, as it now uses faster techniques for
+          rendering and icon creation.
         </para>
       
     </sect2>
@@ -70,7 +75,7 @@
        <para>
        The key libraries in the GNOME Development Platform carry
        guarantees of API and ABI stability. This means that 'porting'
-       an application from GNOME 2.0 to GNOME 2.2 (or to GNOME 2.4)
+       an application from GNOME 2.0 to GNOME &version; 
        should involve exactly nothing, if a developer does not wish to
        take advantage of new functionality in the libraries.
        </para>
@@ -103,7 +108,7 @@
       <title>Support.</title>
       
         <para>
-          Active contributors to GNOME 2.2 development include Red Hat,
+          Active contributors to GNOME &version; development include Red Hat,
           Sun Microsystems, Ximian, and Mandrake, all established
           experts who can help with your enterprise UNIX or Linux
           deployment.
@@ -111,3 +116,4 @@
       
     </sect2>
     
+</sect1>

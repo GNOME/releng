@@ -1,3 +1,9 @@
+2003-08-14 John Fleck <jfleck@inkstain.net>
+
+	* *.xml
+	finish conversion to xinclude, many edits
+	
+
 2003-08-09 John Fleck <jfleck@inkstain.net>
 
 	* release-notes.xml
