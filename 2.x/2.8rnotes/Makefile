@@ -1,9 +1,9 @@
-VERSION = 2.6
+VERSION = 2.8
 ROOTDOC = release-notes.xml
 
 docbook_sources = release-notes.xml rna11y.xml rnapplets.xml rnapplications.xml \
                   rncontrolcenter.xml rndesktop.xml rndocs.xml \
-                  rnhelp.xml rni18n.xml rnlockdown.xml rnmemorial.xml \
+                  rnhelp.xml rni18n.xml rnlockdown.xml \
                   rninstallation.xml rnplatform.xml rnstandards.xml \
                   rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml
 
