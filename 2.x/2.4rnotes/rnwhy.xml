@@ -18,7 +18,7 @@
     <sect2 id="rnwhy-usability">
       <title>Usability</title>
       <para>
-        GNOME is the only open source desktop projects to take a stand
+        GNOME is the only open source desktop project to take a stand
     for ease of use and UI consistency over feature creep and
     hyper-configurability.  Our <ulink
     url="http://developer.gnome.org/projects/gup/hig/"> Human
@@ -136,13 +136,14 @@
       
     </sect2>
     <sect2 id="rnwhy-support">
-      <title>Support</title>
+      <title>Support and Staying Power</title>
       
         <para>
-          Besides the active GNOME community, many of the biggest
-          supporters of the Unix desktop are GNOME contributors,
-          including HP, MandrakeSoft, Novell (through Ximian), Red
-          Hat, and Sun Microsystems.
+          GNOME is here to stay. Besides the active GNOME community
+          (which has now supported and developed GNOME for over five
+          years), many of the biggest supporters of the Unix desktop
+          are GNOME contributors, including HP, MandrakeSoft, Novell
+          (through Ximian), Red Hat, and Sun Microsystems.
         </para>
       
     </sect2>
