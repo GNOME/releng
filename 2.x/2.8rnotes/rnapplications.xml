@@ -1,4 +1,4 @@
-T<?xml version="1.0"?>
+<?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "figures/">
@@ -17,11 +17,13 @@ T<?xml version="1.0"?>
    and manage your emails, contacts, and calendar events.
    </para>
 
-   <para>Evolution is already well known and succesful, but this new version has some extra features: 
+   <para>Evolution is already well known and successful, but this new version has some extra features, such as: 
      <itemizedlist>
      <listitem><para>Support for multiple backends, so you can work with email and appointments from more than one server.</para></listitem>
      <listitem><para>Support for online calendars, in the iCalendar format. TODO: Is it iCalendar and/or Webcal? TODO: How do you actually do this in evo?</para></listitem>
-     <listitem><para>TODO: Surely there is lots more..</para></listitem>
+     <listitem><para>Support for Novell Groupwise and Microsoft Exchange.</para></listitem>
+     <listitem><para>Improved offline support for IMAP accounts.</para></listitem>
+     <listitem><para>Support for S/MIME, for authentication and encryption.</para></listitem>
      </itemizedlist>
 
 

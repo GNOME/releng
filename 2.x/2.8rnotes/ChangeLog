@@ -1,5 +1,10 @@
 2004-09-13  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnapplications.xml: Added more evo 2 changes, from 
+	www.novell.com/products/evolution/
+
+2004-09-13  Murray Cumming  <murrayc@murrayc.com>
+
 	* rninstallation: Remove reference to Desktop and Platform because it 
 	now includes the Platform too. It is just GNOME.
 
