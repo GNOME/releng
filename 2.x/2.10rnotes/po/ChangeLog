@@ -1,3 +1,9 @@
+2005-03-02  Danilo Šegan  <dsegan@gmx.net>
+
+	* sr.po: Updated Serbian translation.
+
+	* XMLFILES: Removed rnthanks.xml, added rntoc.xml.
+
 2005-03-02  Simos Xenitellis  <simos@gnome.org>
 
 	* el.po: Updated greek translation.
