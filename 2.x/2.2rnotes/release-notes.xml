@@ -606,20 +606,25 @@ and ported applications together. You can find many of these
 applications at the <ulink url="http://5toe.lyrical.net/">5th Toe
 website</ulink>. Major software releases based on the GNOME 2.2
 Developer Platform are expected in the next several months, including
-Ximian's powerful Evolution Personal Information Manager, the popular
-Galeon web browser, and Gnumeric and Abiword, two of the leading Free Software office tools. In addition, a large number of smaller apps will continue to provide a rich and usable environment for GNOME users.</para>
+Ximian's powerful Evolution personal information manager, the popular
+Galeon web browser, and Gnumeric and Abiword, two of the leading Free
+Software office tools. In addition, a large number of smaller apps
+will continue to provide a rich and usable environment for GNOME
+users.</para>
+
 <para>
-GNOME 2.4 will be more tightly integrated than ever before, making
-it a real competitor at the enterprise level, bringing a full suite of 
-productivity applications, utilities and accessories resulting in a 
-comprehensive and intuitive desktop user environment.
+GNOME 2.4 will continue GNOME 2.2's movement towards a more tightly
+integrated desktop, making it a real competitor at the enterprise
+level. This next release (expected in the late summer of 2003) should
+offer a full suite of productivity applications, utilities and
+accessories so that a GNOME user will never have to leave a simple,
+clean, powerful GNOME application.
 </para>
 <para>
-Further on down the line, we hope that GNOME 2.6 will 
-feature the next release of Gtk+, the GIMP Toolkit, introducing
-a new file selector widget, combination widget, powerful menu 
-and toolbar widgets based on XML and further advances in 
-accessibility, usability and internationalization.
+Six months after GNOME 2.4, we anticipate that GNOME 2.6 will feature
+the next release of Gtk+, introducing a new file selector widget,
+combination widget, powerful menu and toolbar widgets based on XML and
+further advances in accessibility, usability and internationalization.
 </para>
  </sect1>
   <sect1 id="rngettinginvolved">
