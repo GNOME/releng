@@ -73,7 +73,7 @@
     <title>What's New In GNOME &version;</title>
 
 <xi:include href="rndesktop.xml"/>
-
+<xi:include href="rncontrolcenter.xml"/>
 
   </sect1>
   <sect1 id="rnapplications">
@@ -149,6 +149,8 @@ further advances in accessibility, usability and internationalization.
       Join us today and see what a difference you can make.
     </para>
   </sect1>
+<xi:include href="rnnewmaintainers.xml"/>
+
 	    <appendix id="rncredits">
 	      <title>Credits</title>
 	      <para>These release notes were assembled by John Fleck with

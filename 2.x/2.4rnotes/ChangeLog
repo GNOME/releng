@@ -1,10 +1,17 @@
-2003-08-18 John Fleck <jfleck@inkstian.net>
+2003-08-18 John Fleck <jfleck@inkstainn.net>
+
+	add
+	* rnnewmaintainers.xml
+	add placeholder file for the "welcome to the
+	new maintainers" schtick
+
+2003-08-18 John Fleck <jfleck@inkstainn.net>
 
 	add
 	* rncontrolcenter.xml
 	add control center, various edits
 
-2003-08-17 John Fleck <jfleck@inkstian.net>
+2003-08-17 John Fleck <jfleck@inkstain.net>
 
 	added:
 	* rngcalctool.xml
