@@ -62,12 +62,13 @@ gnome-terminal
 gnome-user-docs
 gsearchtool
 gsm
+libgtop				=								needs patch for parallel install
 librsvg
 logview
 meat-grinder
 nautilus
 panel
-procman
+procman				=				1.1.0			"Pretty much ready"		Kevin Vandersloot <kfv101@psu.edu>					
 sawfish				-				-				porting to gnome 2.0?
 stripchart
 </section>
