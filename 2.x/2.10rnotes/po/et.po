@@ -7,80 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: releng\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-03 20:09+0300\n"
+"PO-Revision-Date: 2005-03-04 08:08+0300\n"
 "Last-Translator: Priit Laes <amd@store20.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../rnwhy.xml:8
-msgid "So, why GNOME?"
-msgstr "Siiski, milleks GNOME?"
-
-#: ../rnwhy.xml:11
-msgid "Having seen some of the new features in GNOME 2.10, why choose GNOME over other desktop environments? Every GNOME volunteer has their own motivations, of course, but here are some of the common reasons many of us choose to work on and use GNOME."
-msgstr "Olles näinud mõningaid täiendusi GNOME 2.10's, siis milleks ikkagi eelistada GNOME'i teiste töökeskkondade ees? Igal GNOME'i vabatahtlikul on oma nägemus, kuid siin on mõned neist põhjustest miks paljud meist on valinud oma igapäevaseks tööks just GNOME'i töökeskkonna."
-
-#: ../rnwhy.xml:19
-msgid "Usability"
-msgstr "Kasutusmugavus"
-
-#: ../rnwhy.xml:20
-msgid "GNOME is the only open source desktop project to take a stand for ease of use and UI consistency over feature creep and hyper-configurability. Our <ulink url=\"http://developer.gnome.org/projects/gup/hig/\"> Human Interface Guidelines</ulink>, developed by a team of GNOME volunteers and UI professionals, and released before GNOME 2.0, are the most complete Free Software usability guidelines in existence. Every application in the GNOME Desktop release has benefited from this focus on consistency and usability. We believe that this focus will produce a user environment that \"just works\" and as a result lets GNOME users -both experienced and inexperienced- focus on doing real work instead of struggling to learn new applications."
-msgstr "GNOME on ainus avatud lähtekoodiga töölaua projekt, mis on valinud lihtsuse ja keskkonna järjekindluse vastupidiselt veidratele omadustele ja hüper-seadistamisvõimalustele. Meie <ulink url=\"http://developer.gnome.org/projects/gup/hig/\"> Human Interface Guidelines</ulink>, välja töötatud meeskonna poolt, mis koosnes GNOME'i vabatahtlikest ja kasutajaliidese professionaalidest, ning avaldatud enne GNOME 2.0'i on kõige täiuslikum Vaba Tarkvara kasutuslihtsuse juhistest hetkel. Iga rakendus, mis kuulub GNOME'i töölaua juurde on saanud kasu selle tähelepanu keskpunktis olevast terviklikkusest ja kasutusmugavusest. Me usume, et selles suunas edasi minnes saame me lõpuks keskkonna, mis \"lihtsalt töötab\" ja selle tulemusel saavad GNOME'i kasutajad, nii kogemustega kui kogemusteta- teha oma tööd kiiremini, selle asemel, et rabeleda uue rakenduse tundmaõppimisega."
-
-#: ../rnwhy.xml:48
-msgid "Accessibility"
-msgstr "Hõlbustused"
-
-#: ../rnwhy.xml:50
-msgid "Beyond making GNOME easier to use for the average computer user, GNOME has also taken the lead in making the Unix desktop accessible to those with disabilities. The GNOME accessibility framework is used by our award-winning accessibility tools like the GNOME Onscreen Keyboard (gok), Gnopernicus, and Dasher. These allow the use of braille readers, voice synthesizers, and pointing devices. Many governments, including the US government, require comprehensive accessibility support in software they purchase. After dozens of person-years of effort, GNOME is the only free software desktop to thoroughly address this issue."
-msgstr "Lisaks sellele, et teha GNOME lihtsamaks tavalisele arvutikasutajale, on GNOME võtnud endale sihi teha Unixi töölaud ligipääsetavaks ka puuetega inimestele. GNOME'i ligipääsetavuse raamistik on kasutusel meie auhinnalistel juurdepääsetavuse tööriistades nagu GNOME'i Ekraaniklaviatuur (gok), Gnopernicus ja Dasher. Need programmid lubavad kasutada braille'i lugejaid, helisüntesaatoreid ja osutusseadmeid. Paljud valitsused, sealhulgas ka USA valitsus, nõuavad kõikehõlmavat ligipääsetavuse tuge tarkvaras, mida nad ostavad. Peale kümneid inimaastaid nõudnud pingutusi on GNOME ainus vaba tarkvara töölaud, mis on põhjalikult tegelenud selle küsimuse lahendamisega. "
-
-#: ../rnwhy.xml:66
-msgid "Interface Stability"
-msgstr "Liidese stabiilsus"
-
-#: ../rnwhy.xml:67
-msgid "The core libraries in the GNOME Development Platform carry guarantees of API and ABI stability. This means that 'porting' an application from GNOME 2.0 to GNOME 2.10 involves no work, if a developer does not wish to take advantage of new functionality in the libraries."
-msgstr ""
-
-#: ../rnwhy.xml:76
-msgid "Platform of Choice"
-msgstr ""
-
-#: ../rnwhy.xml:78
-msgid "Popular and robust Free Software applications such as Mozilla, Eclipse, Evolution, Gnumeric, Abiword, Gaim, X-Chat, and more are based on GNOME or GTK+. These applications are among the most powerful and capable in the Free Software world, and we expect that they'll only get better as they take more advantage of the GNOME development environment. In addition, other important desktop projects, like Mono, Java, and OpenOffice.org, are working on integrating with GNOME and GTK+."
-msgstr ""
-
-#: ../rnwhy.xml:93
-msgid "Organization"
-msgstr "Organisatsioon"
-
-#: ../rnwhy.xml:94
-msgid "GNOME 2.10 is the third 'time-based' GNOME release. Because GNOME releases on a regular schedule, contributors know that their contributions will be in a stable release and on the desktops of users everywhere within a short, predictable period after they contribute. In addition, people who want to deploy GNOME know that they can count on regular releases when they are planning rollouts or integration with their own products."
-msgstr ""
-
-#: ../rnwhy.xml:103
-msgid "Additionally, the GNOME Foundation allows companies to support GNOME, while at the same time ensuring the independence of the board by ensuring that they are selected by the developers who work on GNOME. This infrastructure helps organize releases, and sponsors the annual GUADEC conference and the regular North American summits."
-msgstr ""
-
-#: ../rnwhy.xml:114
-msgid "Licensing"
-msgstr "Litsentsimine"
-
-#: ../rnwhy.xml:116
-msgid "All GNOME platform libraries are licensed under the <ulink url=\"http://www.gnu.org/copyleft/lgpl.html\">LGPL</ulink> or similar license, so developing for the GNOME platform is 100% free of license fees, for developers of both Free and proprietary software."
-msgstr "Kõik GNOME'i platvormi teegid on litsentseeritud <ulink url=\"http://www.gnu.org/copyleft/lgpl.html\">LGPL</ulink> või sarnase litsentsi all, seega GNOME'i platvormi kasutamine arendustegevuseks on 100% vaba igasugustest litsentseerimistasudest kõigile vaba ja suletud tarkvara arendajaile."
-
-#: ../rnwhy.xml:125
-msgid "Support and Staying Power"
-msgstr ""
-
-#: ../rnwhy.xml:127
-msgid "GNOME is here to stay. Besides the active GNOME community (which has now supported and developed GNOME for over five years), many of the biggest supporters of the Unix desktop are GNOME contributors, including HP, MandrakeSoft, Novell (through Ximian), Red Hat, and Sun Microsystems."
-msgstr "GNOME on tulnud selleks, et jääda. Peale aktiivse GNOME'i kogukonna (mis on toetanud ja arendanud GNOME'i juba üle viie aasta), on GNOME'i toetajaks ka suurimad Unixi töölaua toetajad nagu HP, MandrakeSoft, Novell (läbi Ximiani), Red Hat ning Sun Microsystems."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -581,11 +513,11 @@ msgstr "Failihaldur"
 
 #: ../rndesktop.xml:13
 msgid "The file manager, also known as Nautilus, is even faster and more stable in GNOME 2.10, thanks to changes to its internal architecture. This should allow software developers to maintain and extend the file manager more easily in future."
-msgstr ""
+msgstr "Failihaldur, tuntud ka kui Nautilus on veelgi kiirem ja stabiilsem GNOME 2.10's, tänu muudatustele tema sisemises ülesehituses. See peaks kergendama tarkvaraarendajate tööd failihalduri hooldamisel ja laiendamisel tulevikus."
 
 #: ../rndesktop.xml:18
 msgid "Drag and drop with other applications, such as Mozilla and Firefox, now also works more smoothly."
-msgstr ""
+msgstr "\"Lohista ning lase lahti\" tugi erinevate rakenduste, nagu Mozilla ja Firefox, vahel töötab veidi sujuvamalt."
 
 #: ../rndesktop.xml:24
 msgid "The path button is now more obviously a button."
@@ -703,11 +635,11 @@ msgstr "Rakendused"
 
 #: ../rnapplications.xml:11
 msgid "Video Player"
-msgstr ""
+msgstr "Videomängija"
 
 #: ../rnapplications.xml:17
 msgid "The video player"
-msgstr ""
+msgstr "Videomängija"
 
 #: ../rnapplications.xml:13
 msgid "GNOME 2.10 now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration. <figure id=\"rnscreenshot-totem\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
@@ -731,7 +663,7 @@ msgstr "Veebibrauser"
 
 #: ../rnapplications.xml:55
 msgid "An improved fullscreen mode."
-msgstr ""
+msgstr "Täiustatud täisekraanrežiim."
 
 #: ../rnapplications.xml:56
 msgid "The location bar now indicates whether the site is secure, and shows its favicon."
@@ -823,11 +755,11 @@ msgstr "GnomeMeeting"
 
 #: ../rnapplications.xml:131
 msgid "GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is now shared with our Evolution email client, so you don't need to enter contact information in more than one place."
-msgstr ""
+msgstr "GnomeMeeting lubab kasutajatel üksteisega rääkida ja teineteist näha kasutades internetitelefoni (VoIP) ja videokonverentsi. Gnome 2.10's on aadressiraamat jagatud meie Evolutioni e-posti kliendiga, seega ei pea sa sisestama kontaktinfot rohkem kui ühte kohta."
 
 #: ../rnapplications.xml:138
 msgid "The internet telephony and video conferencing client"
-msgstr ""
+msgstr "Internetitelefoni ja videokonverentsi klient"
 
 #: ../rnapplications.xml:135
 msgid "Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject></mediaobject></screenshot></figure>"
@@ -881,7 +813,7 @@ msgstr "Paneeli elemendid"
 
 #: ../rnapplets.xml:10
 msgid "GNOME 2.10 includes major improvements to its panel items (also known as applets), providing new features and better integration with the rest of the desktop."
-msgstr ""
+msgstr "GNOME 2.10 sisaldab suuri edasiarendusi oma paneelielementidele (mis on tundud ka kui rakendid), pakkudes uut funktsionaalsust ja paremat ühilduvust ülejäänud töölauaga."
 
 #: ../rnapplets.xml:13
 msgid "The most visible change is the removal of the Actions panel menu and the addition of Places and Desktop menus. These provide fast access to the items you use most often, without navigating through sub-menus. For instance, the Places menu lists your home folder, your computer, networked servers, and the search feature. In the Desktop menu, you'll find your Preferences and Administration control panels, Log Out, and Help."
@@ -889,11 +821,11 @@ msgstr ""
 
 #: ../rnapplets.xml:15
 msgid "All of the panel menus are now defined by the cross-platform Freedesktop.org menu specification, so 3rd-party software may add itself to the Applications menu without even knowing about GNOME."
-msgstr ""
+msgstr "Kõik paneeli menüüd on nüüd defineeritud multiplatvormse Freedesktop.org menüü kirjelduse, seega kolmanda osapoolte tarkvara saab lisada ennast rakenduste menüüse, ilma et ta oleks kunagi GNOME'ist kuulnud."
 
 #: ../rnapplets.xml:17
 msgid "Also, most applets can now be partly transparent, when the panel itself is transparent."
-msgstr ""
+msgstr "Lisaks saavad enamus rakenditest olla osaliselt läbipaistvad, juhul kui paneel ise on läbipaistev."
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
@@ -921,11 +853,11 @@ msgstr ""
 
 #: ../rnapplets.xml:62
 msgid "Control Mounted Volumes"
-msgstr ""
+msgstr "Kontrolli külgehaagitud kettaid"
 
 #: ../rnapplets.xml:71
 msgid "Drive Mount"
-msgstr ""
+msgstr "Ketaste haakimine"
 
 #: ../rnapplets.xml:64
 msgid "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, and USB memory sticks. Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing you to mount them, eject them, or open them in the file manager. <figure id=\"rnscreenshot-applet-drivemount\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></imageobject><textobject><phrase>The drive mount applet.</phrase></textobject></mediaobject></screenshot></figure>"
@@ -949,15 +881,15 @@ msgstr "Helitugevuse reguleerija"
 
 #: ../rnapplets.xml:107
 msgid "A new mixer for your panel (combined with a new-look mixer on the desktop) gets the most from your sound hardware. Using the GStreamer multimedia framework, the mixer is now simpler and more convenient than before. The same multimedia framework powers Totem, Sound Juicer, the GNOME CD player and a variety of third-party applications, so changing the GNOME volume via the panel will change the volume of all these applications."
-msgstr ""
+msgstr "Uus helimikser sinu paneelil (kombineeritud uue väljanägemisega helimiksriga töölaual) võimaldab võtta viimast sinu heli riistvarast. Kasutades GStreamer'i multimeediaraamistikku, on helimikser nüüd hoopis lihtsam ja mugavam kui varem. Seesama multimeediaraamistik varustab ka Totem'it, Sound Juicer'it, GNOME'i CD-mängijat ja suurt valikut kolmanda osapoolte rakendusi, seega muutes GNOME'i helivaljusust paneeli kaudu, muudab see helivaljusust kõigis neis rakendustes."
 
 #: ../rnapplets.xml:116
 msgid "all new mixer for your panel"
-msgstr ""
+msgstr "täiesti uus helimikser sinu paneelil"
 
 #: ../rnapplets.xml:121
 msgid "All new mixer for your panel"
-msgstr ""
+msgstr "Täiesti uus helimikser sinu paneelil"
 
 #: ../rnapplets.xml:128
 msgid "Taking note"
@@ -982,7 +914,7 @@ msgstr "Spetsiaalselt sülearvutite jaoks"
 
 #: ../rnapplets.xml:155
 msgid "Monitor CPU Frequency Scaling"
-msgstr ""
+msgstr "Jälgi protsessori sageduse muutmist."
 
 #: ../rnapplets.xml:149
 msgid "GNOME now includes an applet to monitor your laptop's processor speed. The CPU Frequency Monitor watches variable-speed processors (such as those with Intel Speedstep or AMD PowerNow) to show their current status. You may even choose a different speed if you don't have automatic frequency scaling enabled. <figure id=\"rnscreenshot-applet-cpufreq\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></textobject></mediaobject></screenshot></figure>"
@@ -998,15 +930,15 @@ msgstr ""
 
 #: ../rnapplets.xml:172
 msgid "The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel."
-msgstr ""
+msgstr "CD-mängija paneelirakend on eemaldatud, seega sa ei näe enam CD-mängijat paneelil ka siis kui CD-plaati pole enam lugejas. Selle asemel avatakse CD sisestamisel GNOME'i CD-mängija, mida saab seejärel kontrollida teavitusikooni vahendusel, mis omakorda asub paneelil."
 
 #: ../rnapplets.xml:175
 msgid "The dedicated Wireless applet has been removed because the Network Monitor applet, introduced in GNOME 2.8, also includes wireless support."
-msgstr ""
+msgstr "Juhtmeta võrguühenduse rakendus on eemaldatud, seepärast et Võrgujälgimise rakend, mis nägi valgust GNOME 2.8's sisaldab endas ka juhtmeta ühenduse tuge."
 
 #: ../rnapplets.xml:178
 msgid "The Mailbox Monitor has been removed because it was unmaintained and insecure. We hope to have a solution integrated with our Evolution mail client in the future. If you don't use Evolution for your mail, you can use a third party application such as <link href=\"http://www.nongnu.org/mailnotify/\">mailnotify</link>."
-msgstr ""
+msgstr "Kirjakasti jälgija on samuti eemaldatud, kuna see oli hooldamata ning ebaturvaline. Me loodame, et sarnane lahendus integreeritakse kunagi Evolution'i e-posti kliendiga. Kui sa ei kasuta Evolution'it oma e-posti jaoks, siis saad kasutada kolmandate osapoolte rakendusi nagu <link href=\"http://www.nongnu.org/mailnotify/\">mailnotify</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1096,7 +1028,7 @@ msgstr ""
 
 #: ../release-notes.xml:151
 msgid "Getting Involved"
-msgstr ""
+msgstr "Kaasalöömine"
 
 #: ../release-notes.xml:152
 msgid "The core of GNOME's success is its many volunteers, both users and developers."
@@ -1104,15 +1036,15 @@ msgstr "GNOME'i põhiline edu seisneb paljudes vabatahtlikes, keda on nii kasuta
 
 #: ../release-notes.xml:156
 msgid "As a user, your contribution can be as simple as filing good bug reports. You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">simple bug assistant</ulink>. If you want to contribute more, you can join our active <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">bug-squad</ulink>."
-msgstr ""
+msgstr "Lihtsaim viis kasutajana kaastööd teha on veateadete saatmine. Veateateid saab saata meie Bugzilla vahendusel kasutades <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">lihtsat veateate abilist</ulink>. Kui soovid teha veelgi rohkem võid ühineda meie <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">veameeskonnaga</ulink>."
 
 #: ../release-notes.xml:164
 msgid "For developers, there is much exciting progress to be made in any of our active developer groups - Accessibility, Documentation, Usability, Translation, Web, Testing, Graphics, and Desktop &amp; Platform Development. Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you get started</ulink>."
-msgstr ""
+msgstr "Arendajatel on veel paljugi huvitavat teha meie aktiivsetes arendusgruppides - hõlbustused, dokumentatsioon, kasutusmugavus, tõlkimine, veeb, testimine, graafika ja töölaua ning platvormi arendus. Siin on <ulink url=\"http://live.gnome.org/JoinGnome\">juhend, mis peaks aitama sind järje peale</ulink>."
 
 #: ../release-notes.xml:171
 msgid "Helping on GNOME can be an incredibly satisfying experience, allowing you to meet a wide range of motivated, skilled, and helpful people all working towards a unified goal. Join us today and see what a difference you can make."
-msgstr ""
+msgstr "GNOME'i aitamine võib olla vägagi huvitav kogemus, mille abil on suk võimalik tutvuda suure ringkonna motiveeritud, kogemustega ja abivalmis inimestega, kes kõik töötavad ühe eesmärgi nimel. Liitu meiega juba täna ja vaata, mida sina suudad ära teha."
 
 #: ../release-notes.xml:180
 msgid "Credits"
@@ -1125,5 +1057,96 @@ msgstr "Need uue versiooni märkmed on koostatud Murray Cumming'u, Davyd Madeley
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../release-notes.xml:0
 msgid "translator-credits"
-msgstr "Priit Laes <amd@store20.com>, 2005Ivar Smolin <okul@linux.ee>, 2005"
+msgstr "Priit Laes <amd@store20.com>, 2005.Ivar Smolin <okul@linux.ee>, 2005"
+
+#~ msgid "So, why GNOME?"
+#~ msgstr "Siiski, milleks GNOME?"
+#~ msgid ""
+#~ "Having seen some of the new features in GNOME 2.10, why choose GNOME over "
+#~ "other desktop environments? Every GNOME volunteer has their own "
+#~ "motivations, of course, but here are some of the common reasons many of "
+#~ "us choose to work on and use GNOME."
+#~ msgstr ""
+#~ "Olles näinud mõningaid täiendusi GNOME 2.10's, siis milleks ikkagi "
+#~ "eelistada GNOME'i teiste töökeskkondade ees? Igal GNOME'i vabatahtlikul "
+#~ "on oma nägemus, kuid siin on mõned neist põhjustest miks paljud meist on "
+#~ "valinud oma igapäevaseks tööks just GNOME'i töökeskkonna."
+#~ msgid "Usability"
+#~ msgstr "Kasutusmugavus"
+#~ msgid ""
+#~ "GNOME is the only open source desktop project to take a stand for ease of "
+#~ "use and UI consistency over feature creep and hyper-configurability. Our "
+#~ "<ulink url=\"http://developer.gnome.org/projects/gup/hig/\"> Human "
+#~ "Interface Guidelines</ulink>, developed by a team of GNOME volunteers and "
+#~ "UI professionals, and released before GNOME 2.0, are the most complete "
+#~ "Free Software usability guidelines in existence. Every application in the "
+#~ "GNOME Desktop release has benefited from this focus on consistency and "
+#~ "usability. We believe that this focus will produce a user environment "
+#~ "that \"just works\" and as a result lets GNOME users -both experienced "
+#~ "and inexperienced- focus on doing real work instead of struggling to "
+#~ "learn new applications."
+#~ msgstr ""
+#~ "GNOME on ainus avatud lähtekoodiga töölaua projekt, mis on valinud "
+#~ "lihtsuse ja keskkonna järjekindluse vastupidiselt veidratele omadustele "
+#~ "ja hüper-seadistamisvõimalustele. Meie <ulink url=\"http://developer."
+#~ "gnome.org/projects/gup/hig/\"> Human Interface Guidelines</ulink>, välja "
+#~ "töötatud meeskonna poolt, mis koosnes GNOME'i vabatahtlikest ja "
+#~ "kasutajaliidese professionaalidest, ning avaldatud enne GNOME 2.0'i on "
+#~ "kõige täiuslikum Vaba Tarkvara kasutuslihtsuse juhistest hetkel. Iga "
+#~ "rakendus, mis kuulub GNOME'i töölaua juurde on saanud kasu selle "
+#~ "tähelepanu keskpunktis olevast terviklikkusest ja kasutusmugavusest. Me "
+#~ "usume, et selles suunas edasi minnes saame me lõpuks keskkonna, mis "
+#~ "\"lihtsalt töötab\" ja selle tulemusel saavad GNOME'i kasutajad, nii "
+#~ "kogemustega kui kogemusteta- teha oma tööd kiiremini, selle asemel, et "
+#~ "rabeleda uue rakenduse tundmaõppimisega."
+#~ msgid "Accessibility"
+#~ msgstr "Hõlbustused"
+#~ msgid ""
+#~ "Beyond making GNOME easier to use for the average computer user, GNOME "
+#~ "has also taken the lead in making the Unix desktop accessible to those "
+#~ "with disabilities. The GNOME accessibility framework is used by our award-"
+#~ "winning accessibility tools like the GNOME Onscreen Keyboard (gok), "
+#~ "Gnopernicus, and Dasher. These allow the use of braille readers, voice "
+#~ "synthesizers, and pointing devices. Many governments, including the US "
+#~ "government, require comprehensive accessibility support in software they "
+#~ "purchase. After dozens of person-years of effort, GNOME is the only free "
+#~ "software desktop to thoroughly address this issue."
+#~ msgstr ""
+#~ "Lisaks sellele, et teha GNOME lihtsamaks tavalisele arvutikasutajale, on "
+#~ "GNOME võtnud endale sihi teha Unixi töölaud ligipääsetavaks ka puuetega "
+#~ "inimestele. GNOME'i ligipääsetavuse raamistik on kasutusel meie "
+#~ "auhinnalistel juurdepääsetavuse tööriistades nagu GNOME'i "
+#~ "Ekraaniklaviatuur (gok), Gnopernicus ja Dasher. Need programmid lubavad "
+#~ "kasutada braille'i lugejaid, helisüntesaatoreid ja osutusseadmeid. Paljud "
+#~ "valitsused, sealhulgas ka USA valitsus, nõuavad kõikehõlmavat "
+#~ "ligipääsetavuse tuge tarkvaras, mida nad ostavad. Peale kümneid "
+#~ "inimaastaid nõudnud pingutusi on GNOME ainus vaba tarkvara töölaud, mis "
+#~ "on põhjalikult tegelenud selle küsimuse lahendamisega. "
+#~ msgid "Interface Stability"
+#~ msgstr "Liidese stabiilsus"
+#~ msgid "Organization"
+#~ msgstr "Organisatsioon"
+#~ msgid "Licensing"
+#~ msgstr "Litsentsimine"
+#~ msgid ""
+#~ "All GNOME platform libraries are licensed under the <ulink url=\"http://"
+#~ "www.gnu.org/copyleft/lgpl.html\">LGPL</ulink> or similar license, so "
+#~ "developing for the GNOME platform is 100% free of license fees, for "
+#~ "developers of both Free and proprietary software."
+#~ msgstr ""
+#~ "Kõik GNOME'i platvormi teegid on litsentseeritud <ulink url=\"http://www."
+#~ "gnu.org/copyleft/lgpl.html\">LGPL</ulink> või sarnase litsentsi all, "
+#~ "seega GNOME'i platvormi kasutamine arendustegevuseks on 100% vaba "
+#~ "igasugustest litsentseerimistasudest kõigile vaba ja suletud tarkvara "
+#~ "arendajaile."
+#~ msgid ""
+#~ "GNOME is here to stay. Besides the active GNOME community (which has now "
+#~ "supported and developed GNOME for over five years), many of the biggest "
+#~ "supporters of the Unix desktop are GNOME contributors, including HP, "
+#~ "MandrakeSoft, Novell (through Ximian), Red Hat, and Sun Microsystems."
+#~ msgstr ""
+#~ "GNOME on tulnud selleks, et jääda. Peale aktiivse GNOME'i kogukonna (mis "
+#~ "on toetanud ja arendanud GNOME'i juba üle viie aasta), on GNOME'i "
+#~ "toetajaks ka suurimad Unixi töölaua toetajad nagu HP, MandrakeSoft, "
+#~ "Novell (läbi Ximiani), Red Hat ning Sun Microsystems."
 
