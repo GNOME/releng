@@ -160,7 +160,7 @@
     </para>
   </sect1>
 
-<xi:include href="rnthanks.xml"/>
+<!--<xi:include href="rnthanks.xml"/>-->
       <appendix id="rncredits">
         <title>Credits</title>
         <para>These release notes were assembled by Murray Cumming, Colin Charles and many more.</para>

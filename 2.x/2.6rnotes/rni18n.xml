@@ -14,7 +14,8 @@
     GNOME &version; offers support for 36 languages (at least 80 percent of
     strings translated).
 
-    <figure id="rni18screenshot"> 
+<!--
+	<figure id="rni18screenshot"> 
         <title>GNOME in Chinese Characters</title> 
         <screenshot> 
         <mediaobject> 
@@ -28,6 +29,7 @@
         </mediaobject>
   </screenshot>
       </figure>
+-->
 
   </para>
 
