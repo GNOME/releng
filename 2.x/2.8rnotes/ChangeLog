@@ -1,5 +1,12 @@
 2004-09-13  Davyd Madeley  <davyd@madeley.id.au>
 
+	* figures/figure-epiphany+preferences.png:
+	* rnapplications.xml: Add Epiphany shot
+
+	* rni18n.xml: Fix errors in markup
+
+2004-09-13  Davyd Madeley  <davyd@madeley.id.au>
+
 	* figures/figure-add-to-panel.png:
 	* figures/figure-battstat-applet.png:
 	* figures/figure-gnome-system-tools.png:

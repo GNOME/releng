@@ -55,7 +55,7 @@
       <title>The web browser</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;epiphany.png" format="PNG"/></imageobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-epiphany+preferences.png" format="PNG"/></imageobject>
             <textobject><phrase>The web browser.</phrase></textobject>
         </mediaobject>
       </screenshot>
