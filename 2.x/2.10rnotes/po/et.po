@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: releng\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-02 21:07+0300\n"
+"PO-Revision-Date: 2005-03-03 08:51+0300\n"
 "Last-Translator: Priit Laes <amd@store20.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -83,25 +83,25 @@ msgstr "GNOME on tulnud selleks, et jääda. Peale aktiivse GNOME'i kogukonna (m
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:23
-msgid "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:41
-msgid "@@image: 'figures/fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:60
-msgid "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: 'figures/figure-dictionary.png'; md5=2c1962519057406be57f4b1b76604973"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:78
-msgid "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
+msgid "@@image: 'figures/figure-floppy-formatter.png'; md5=cc67b69fcf0049807a6b9656aa0d17e7"
 msgstr ""
 
 #: ../rnutilities.xml:8
@@ -114,33 +114,33 @@ msgstr "GNOME'i tööriistadele on lisandunud järgmiseid täiustusi:"
 
 #: ../rnutilities.xml:13
 #: ../rnutilities.xml:20
-#: ../rnutilities.xml:38
-#: ../rnutilities.xml:57
 msgid "Text Editor"
 msgstr "Tekstiredaktor"
 
 #: ../rnutilities.xml:15
 msgid "The GNOME text editor can now highlight the current line and when editing program source code, it highlights matching braces. Spell checking is improved too. It now only highlights mispelled words when you have actually finished typing the word, and many extra languages are supported and automatically identified."
-msgstr ""
+msgstr "GNOME'i tekstiredaktor toob nüüd aktiivse rea esile ja redigeerides mõne programmi lähtekoodi, tõstab esile ka üksteisega sobivad sulud. Lisaks on täiendatud ka õigekirjakonrtolli. Nüüd tuuakse kirjavigadega sõnad esile siis kui oled sõna trükkimise lõpetanud, lisandunud on ka mitmeid uusi keeli, mida automaatselt ära tunda püütakse."
 
 #: ../rnutilities.xml:17
-msgid "Many people will be glad to see that it no longer suggests saving changes when all changes have actually been undone. And in addition it even starts faster than previous versions. <figure id=\"rnscreenshot-gedit\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>The text editor, highlighting the current line.</phrase></textobject></mediaobject></screenshot></figure>"
+msgid "Many people will be glad to see that it no longer suggests saving changes when all changes have actually been undone. And in addition it even starts faster than previous versions. <figure id=\"rnscreenshot-gedit\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>The text editor, highlighting the current line.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnutilities.xml:33
+#: ../rnutilities.xml:38
 msgid "Archive Manager"
 msgstr "Arhiivihaldur"
 
 #: ../rnutilities.xml:35
-msgid "The GNOME archive manager can now open more types of archive, including AR, Debian, and 7-zip archives, and password-protected RAR archives. And if you use the single-click preference in the file manager, then the archive manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;fileroller.png\" format=\"PNG\"/></imageobject><textobject><phrase>The archive manager, asking for a password for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
+msgid "The GNOME archive manager can now open more types of archive, including AR, Debian, and 7-zip archives, and password-protected RAR archives. And if you use the single-click preference in the file manager, then the archive manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></imageobject><textobject><phrase>The archive manager, asking for a password for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnutilities.xml:52
+#: ../rnutilities.xml:57
 msgid "Dictionary"
 msgstr "Sõnaraamat"
 
 #: ../rnutilities.xml:54
-msgid "The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can be printed. <figure id=\"rnscreenshot-dictionary\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>The dictionary, suggesting possible spellings and a definition.</phrase></textobject></mediaobject></screenshot></figure>"
+msgid "The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can be printed. <figure id=\"rnscreenshot-dictionary\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>The dictionary, suggesting possible spellings and a definition.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnutilities.xml:70
@@ -149,7 +149,7 @@ msgid "Floppy Formatter"
 msgstr "Diskettide vormindaja"
 
 #: ../rnutilities.xml:72
-msgid "The GNOME Floppy Formatter utility now supports removable drives, such as USB drives, using the standard HAL system from freedesktop.org. <figure id=\"rnscreenshot-floppy\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;floppy.png\" format=\"PNG\"/></imageobject><textobject><phrase>Formatting a floppy disk.</phrase></textobject></mediaobject></screenshot></figure>"
+msgid "The GNOME Floppy Formatter utility now supports removable drives, such as USB drives, using the standard HAL system from freedesktop.org. <figure id=\"rnscreenshot-floppy\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></imageobject><textobject><phrase>Formatting a floppy disk.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnthemes.xml:2
@@ -174,20 +174,19 @@ msgstr "Süsteemihaldus"
 
 #: ../rnsysadmin.xml:11
 msgid "GNOME 2.10 provides some new features for system administration."
-msgstr ""
+msgstr "GNOME 2.10 sisaldab süsteemi haldamiseks mõningaid uusi rakendusi."
 
 #: ../rnsysadmin.xml:17
 msgid "System Tools"
 msgstr "Süsteemi tööriistad"
 
 #: ../rnsysadmin.xml:19
-#, fuzzy
 msgid "The system tools allow you to configure your system clock and your network connection, as well as manage the users and groups on your system. At present, these system tools are most appropriate for single computers rather than large networks of computers."
-msgstr "Süsteemi tööriistad lubavad sul seadistada süsteemi kella ning sinu võrguühendusi, lisaks veel hallata süsteemi kasutajaid ning kasutajagruppe. Praegu on need süsteemi tööriistad mõeldud rohkem küll üksikute arvutite seadistamiseks, mitte"
+msgstr "Süsteemi tööriistad lubavad sul seadistada süsteemi kella ning sinu võrguühendusi, lisaks veel hallata süsteemi kasutajaid ning kasutajagruppe. Praegu on need süsteemi tööriistad mõeldud küll rohkem üksikute arvutite, mitte tervete gruppide jaoks."
 
 #: ../rnsysadmin.xml:26
 msgid "Networking: Improved wireless support (WEP and ESSID detection), and IDSN connections."
-msgstr ""
+msgstr "Võrk: Täiustatud traadita andmeside toetus (WEP ja ESSID avastamine), ja IDSN ühendused."
 
 #: ../rnsysadmin.xml:27
 msgid "Users and Groups: Easier editing of group members."
@@ -592,7 +591,7 @@ msgstr ""
 
 #: ../rndesktop.xml:25
 msgid "When creating new files, renaming starts automatically."
-msgstr ""
+msgstr "Uue faili loomisel aktiveeritakse ümbernimetamine automaatselt."
 
 #: ../rndesktop.xml:26
 msgid "When using keyboard navigation to open the parent folder (Alt-Up), the current folder will be selected."
@@ -600,7 +599,7 @@ msgstr ""
 
 #: ../rndesktop.xml:22
 msgid "In addition, there are many small changes that demonstrate GNOME's attention to detail. For instance, <placeholder-1/>"
-msgstr ""
+msgstr "Lisaks on palju pisimuudatusi, mis demonstreerivad GNOME'i tähelepanu pisiasjadele. Näiteks <placeholder-1/>"
 
 #: ../rndesktop.xml:31
 msgid "clean-cut and powerful, the Nautilus file manager"
@@ -636,7 +635,7 @@ msgstr ""
 
 #: ../rndesktop.xml:59
 msgid "In addition, if an application takes a long time to start, your work will not be interrupted when it finally opens its window."
-msgstr ""
+msgstr "Lisaks veel, kui rakenduse käivitamiseks läheb kaua aega, siis kui programm on lõpuks oma akna avanud, sinu tööd ei katkestata."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -692,8 +691,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:142
-msgid "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
+#: ../rnapplications.xml:141
+msgid "@@image: 'figures/figure-gnome-meeting.png'; md5=71e89305beea456fbb73016fbb645010"
 msgstr ""
 
 #: ../rnapplications.xml:8
@@ -734,7 +733,7 @@ msgstr ""
 
 #: ../rnapplications.xml:56
 msgid "The location bar now indicates whether the site is secure, and shows its favicon."
-msgstr ""
+msgstr "Asukohariba näitab nüüd kas lehekülg on turvaline ning näitab tema tunnuspiltii."
 
 #: ../rnapplications.xml:57
 msgid "Bookmarks can be exported."
@@ -742,7 +741,7 @@ msgstr "Järjehoidjaid saab nüüd eksportida."
 
 #: ../rnapplications.xml:58
 msgid "An extension manager for extra features."
-msgstr ""
+msgstr "Lisarakenduste haldur lisafunktsioonide jaoks."
 
 #: ../rnapplications.xml:53
 msgid "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in 2.10 include <placeholder-1/>"
@@ -824,13 +823,12 @@ msgstr "GnomeMeeting"
 msgid "GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is now shared with our Evolution email client, so you don't need to enter contact information in more than one place."
 msgstr ""
 
-#. FIXME (hard)
-#: ../rnapplications.xml:139
+#: ../rnapplications.xml:138
 msgid "The internet telephony and video conferencing client"
 msgstr ""
 
 #: ../rnapplications.xml:135
-msgid "Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnomemeeting.png\" format=\"PNG\"/></imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject></mediaobject></screenshot></figure>"
+msgid "Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -867,6 +865,12 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:140
 msgid "@@image: 'figures/figure-applet-stickies.png'; md5=55648b50d6dde470bc89a2d9d51523d8"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:158
+msgid "@@image: 'figures/figure-applet-cpufreq.png'; md5=81a2482710b2157df4fc66697490d28a"
 msgstr ""
 
 #: ../rnapplets.xml:8
@@ -974,27 +978,31 @@ msgstr ""
 msgid "Specially for laptops"
 msgstr "Spetsiaalselt sülearvutite jaoks"
 
+#: ../rnapplets.xml:155
+msgid "Monitor CPU Frequency Scaling"
+msgstr ""
+
 #: ../rnapplets.xml:149
-msgid "GNOME now includes an applet to monitor your laptop's processor speed. The CPU Frequency Monitor watches variable-speed processors (such as those with Intel Speedstep or AMD PowerNow) to show their current status. You may even choose a different speed if you don't have automatic frequency scaling enabled."
-msgstr ""
-
-#: ../rnapplets.xml:158
-msgid "Removed Applets"
-msgstr "Eemaldatud rakendid"
-
-#: ../rnapplets.xml:159
-msgid "Three applets were removed in GNOME 2.10, replaced by better alternatives in most cases."
-msgstr ""
-
-#: ../rnapplets.xml:162
-msgid "The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel."
-msgstr ""
-
-#: ../rnapplets.xml:165
-msgid "The dedicated Wireless applet has been removed because the Network Monitor applet, introduced in GNOME 2.8, also includes wireless support."
+msgid "GNOME now includes an applet to monitor your laptop's processor speed. The CPU Frequency Monitor watches variable-speed processors (such as those with Intel Speedstep or AMD PowerNow) to show their current status. You may even choose a different speed if you don't have automatic frequency scaling enabled. <figure id=\"rnscreenshot-applet-cpufreq\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnapplets.xml:168
+msgid "Removed Applets"
+msgstr "Eemaldatud rakendid"
+
+#: ../rnapplets.xml:169
+msgid "Three applets were removed in GNOME 2.10, replaced by better alternatives in most cases."
+msgstr ""
+
+#: ../rnapplets.xml:172
+msgid "The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel."
+msgstr ""
+
+#: ../rnapplets.xml:175
+msgid "The dedicated Wireless applet has been removed because the Network Monitor applet, introduced in GNOME 2.8, also includes wireless support."
+msgstr ""
+
+#: ../rnapplets.xml:178
 msgid "The Mailbox Monitor has been removed because it was unmaintained and insecure. We hope to have a solution integrated with our Evolution mail client in the future. If you don't use Evolution for your mail, you can use a third party application such as <link href=\"http://www.nongnu.org/mailnotify/\">mailnotify</link>."
 msgstr ""
 
@@ -1090,7 +1098,7 @@ msgstr ""
 
 #: ../release-notes.xml:152
 msgid "The core of GNOME's success is its many volunteers, both users and developers."
-msgstr ""
+msgstr "GNOME'i põhiline edu seisneb paljudes vabatahtlikes, keda on nii kasutajate kui arendajate hulgas."
 
 #: ../release-notes.xml:156
 msgid "As a user, your contribution can be as simple as filing good bug reports. You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">simple bug assistant</ulink>. If you want to contribute more, you can join our active <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">bug-squad</ulink>."
@@ -1110,7 +1118,7 @@ msgstr "Autorid"
 
 #: ../release-notes.xml:181
 msgid "These release notes were assembled by Murray Cumming, Davyd Madeley, and the GNOME community."
-msgstr ""
+msgstr "Need uue versiooni märkmed on koostatud Murray Cumming'u, Davyd Madeley' ja GNOME'i kogukonna poolt."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../release-notes.xml:0
