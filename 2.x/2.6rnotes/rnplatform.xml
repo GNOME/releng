@@ -25,7 +25,7 @@
       <listitem><para>Action-based toolbar and menu API.</para></listitem>
       <listitem><para>Bidirectional improvements, for languages such as Arabic and Hebrew. GTK+ now automatically determines the direction for widgets based on their contents.</para></listitem>
       <listitem><para>Automatic text completion option for ComboBoxes and Entry widgets.</para></listitem>
-      <listitem><para>Speed-optimizization option for TreeViews.</para></listitem>
+      <listitem><para>Speed-optimization option for TreeViews.</para></listitem>
       <listitem><para>General performance improvements.</para></listitem>
     </itemizedlist>
 
