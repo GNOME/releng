@@ -7,9 +7,149 @@
     <title>Internationalization</title>
 
     <para>
-    Members of the worldwide <ulink
+    Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
-    Project</ulink> translated 100 percent of strings for ???  languages for
-    GNOME &version;, and nearly 100 percent for ??? more.</para>
-   
+    Project</ulink>, GNOME &version; offers support for 23 languages (at least
+    80 percent of strings translated).
+
+<!--    
+    <figure id="rni18screenshot"> 
+        <title>Nautilus Translated</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;nautilustranslated.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Nautilus Translated
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+-->
+  </para>
+
+  <para>Supported languages:
+
+    <itemizedlist>
+      <listitem>
+	<para>
+	   Czech
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Portuguese
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Serbian
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Serbian Latin
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Swedish
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Spanish
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  German
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	   Polish
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Korean
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Dutch
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Welsh
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  French
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Chinese Simplified
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Danish
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Greek
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Norwegian
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Chinese Traditional
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Malay
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Brazilian Portuguese
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Azerbaijani
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Belarusian
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Japanese
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Catalan
+	</para>
+      </listitem>
+    </itemizedlist>
+  </para>
+  <para>Another 16 languages are partially supported, with more than half of
+  their strings translate.</para>
 </sect1>
