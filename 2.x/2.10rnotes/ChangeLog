@@ -1,3 +1,7 @@
+2005-02-23  Danilo Šegan  <dsegan@gmx.net>
+
+	* po/*: Added simple translation infrastructure.
+
 2005-02-22  Murray Cumming  <murrayc@murrayc.com>
 
 	* releasenotes.xml: Use live.gnome.org/JoinGnome instead of the 
