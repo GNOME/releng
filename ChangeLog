@@ -1,3 +1,15 @@
+2002-12-22  Murray Cumming  <murrayc@usa.net>
+
+	* 2.x/package-list:
+	Changed versions to major versions only, 
+	assuming, for instance, that 2.1.x will become 2.2 at the final
+	release.
+	Removed the lists of individual panel applets and utils - they
+	are all in the same 2 modules.
+	* releng2html: Removed link to dot.plan - this has been renamed
+	and this link isn't used anyway - people copy and paste the table
+	section only.
+
 2002-09-15  Jeff Waugh  <jdub@perkypants.org>
 
 	* 2.x/g2releasenotes.xml: Updates for 2.0.2.

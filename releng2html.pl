@@ -9,7 +9,6 @@ print qq {<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:/
 	<title>Modules</title>
 </head>
 <body bgcolor="#ffffff">
-<a href="../">&lt;&lt; back to dot.plan...</a>
 <table cellspacing="0" cellpadding="4" width="100%">
 };
 while (<STDIN>) {
