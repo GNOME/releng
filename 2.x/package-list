@@ -104,7 +104,7 @@ pygtk			-		1.99.4		-			James Henstridge <james@daa.com.au>
 <section title="Developer Carpet Bag">
 ghex			-		-		-			-
 glade			-		-		-			-
-memprof			-		-		-			-
+memprof			=		-		crash on startup, blocking on libglade/gnomeui		Kristian Rietveld <kristian@planet.nl>
 anjuta			-		-		-			-
 </section>
 
