@@ -30,8 +30,8 @@ libghttp		gnome-http	1.0.9		* to remove if better method found	Justin Maurer <ju
 libglade		=		1.99.7		frozen			James Henstridge <james@daa.com.au>
 libgnome		=		1.111.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomecanvas		=		1.111.0		frozen			Anders Carlsson <andersca@gnu.org>
-libgnomeprint		=		1.111.0		-			Lauris Kaplinski <lauris@ximian.com>
-libgnomeprintui		=		1.110.0		-			Lauris Kaplinski <lauris@ximian.com>
+libgnomeprint		=		1.112.0		not frozen		Chema Celorio <chema@ximian.com>
+libgnomeprintui		=		1.112.0		not frozen		Chema Celorio <chema@ximian.com>
 libgnomeui		=		1.111.1		frozen			Anders Carlsson <andersca@gnu.org>
 libxml2			gnome-xml	2.4.15		frozen			Daniel Veillard <veillard@redhat.com>
 libxslt			=		1.0.12		frozen			Daniel Veillard <veillard@redhat.com>
@@ -150,7 +150,7 @@ abiword			-		-		-			-
 dia			-		-		-			-
 gnome-db		-		0.8.103		-			Rodrigo Moya <rodrigo@gnome-db.org>
 gnucash			-		-		-			-
-gnumeric		-		-		-			-
+gnumeric		-		1.1.2		-			Jody Goldberg <jody@gnome.org>
 guppi			-		-		-			-
 libgda			-		0.8.103		-			Rodrigo Moya <rodrigo@gnome-db.org>
 libgnomedb		-		0.8.103		-			Rodrigo Moya <rodrigo@gnome-db.org>
