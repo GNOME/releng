@@ -40,7 +40,7 @@
     </itemizedlist>
     </para>
 
-    <para>The parent-folders button shows the folder's full patch, and lets you quickly open one of the parent folders. You can find this button at the bottom-left of the folder window.
+    <para>The parent-folders button shows the folder's full path, and lets you quickly open one of the parent folders. You can find this button at the bottom-left of the folder window.
 
     <figure id="rnscreenshot-nautilus-parentfolders">
       <title>The parent-folders button</title>
@@ -55,11 +55,9 @@
 
     </para>
 
-    <para>Because some users are more familiar with the previous &quot;browse&quot; user interface, this is still available.</para>
+    <para>Because some users are more familiar with the previous &quot;browse&quot; user interface, this is still available from the right-click menu.</para>
 
-    <para>The organisation of the file system and network have been reorganized into the top-level &quot;Computer&quot; location.
-    This is where you can find your CD Rom and floppy drives and your hard disk's file system. This is also where you will see
-    your network drives, because you can now mount Windows SMB servers, and ftp, and sftp (ssh) locations here.</para>
+    <para>The top-level &quot;Computer&quot; location brings togther file system, removable media, and network shares.</para>
 
     <figure id="rnscreenshot-nautilus-computer">
       <title>The Computer location</title>
@@ -91,7 +89,8 @@
      <itemizedlist>
        <listitem><para>Complete keyboard navigation, so more experienced users can work even more efficiently.</para></listitem>
        <listitem><para>Type the first letters of a file to quickly select it.</para></listitem>
-       <listitem><para>User-definable templates to easily create new documents by copying existing empty documents.</para></listitem>
+       <listitem><para>User-definable template files to easily create new documents.</para></listitem>
+       <listitem><para>List view columns can be customized.</para></listitem>
        <listitem><para>Emblem support for list views, with a better treeview in the sidebar.</para></listitem>
        <listitem><para>The CD burner has better burn speed detection</para></listitem>
        <listitem><para>The file manager can identify and play more sound formats.</para></listitem>

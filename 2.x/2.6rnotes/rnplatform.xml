@@ -39,9 +39,9 @@
   </sect3>
 
   <sect3 id="rngstreamer">
-    <title>gstreamer</title>
+    <title>GStreamer</title>
 
-    <para>The gstreamer multimedia framework is gradually maturing, and is now used by several applications, such as
+    <para>The GStreamer multimedia framework is gradually maturing, and is now used by several applications, such as
     Sound Juicer, Rhythmbox, Totem, and Marlin.</para>
     <para>Improvements in GNOME &version; include:
 
