@@ -1,3 +1,9 @@
+2001-12-09  Jeff Waugh  <jdub@perkypants.org>
+
+	* releng2html.pl: render specially marked status fields in red for
+	  removal, yes this is dispicable, but it's dumb text grokking that humans
+	  also have to read.
+
 2001-11-20  Jeff Waugh  <jdub@perkypants.org>
 
 	* 2.x/package-list: gnome-utils update from KevinV (rock!)

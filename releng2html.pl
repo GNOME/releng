@@ -1,15 +1,15 @@
 #!/usr/bin/perl
 # Jeff's Totally Smeggy RelEng HTMLiser - 100% Smeg!
-use Date::Format;
 
 @linecolour = '#eeeeee', '#ffffff';
-$gendate = time2str("%Y/%m/%d %T", time());
 
-print "<!--#set var=\"last_modified\" value=\"\$Date: ";
-print $gendate;
-print " \$\" -->";
-
-print qq {
+print qq {<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Modules</title>
+</head>
+<body bgcolor="#ffffff">
+<a href="../">&lt;&lt; back to dot.plan...</a>
 <table cellspacing="0" cellpadding="4" width="100%">
 };
 while (<STDIN>) {
@@ -33,11 +33,11 @@ while (<STDIN>) {
 		next;
 	} elsif ($_ eq "</section>") {
 		# format end-of-sections
-		print qq{
-	<tr>
-		<td colspan="4">&nbsp;</td>
-	</tr>
-};
+		#		print qq{
+			#	<tr>
+			#		<td colspan="4">&nbsp;</td>
+			#	</tr>
+			#};
 		$count = 0;
 		next;
 	}
@@ -58,6 +58,10 @@ while (<STDIN>) {
 		$package = "<a href=\"http://cvs.gnome.org/lxr/source/@module[1]/\">@module[0]</a> [@module[1]]";
 	}
 
+	if (@module[3] =~ /\*.*/) {
+		$bg = "#ffdddd";
+	}
+
 	# make contacts clicky
 	@contacts = split(/\,/, @module[4]);
 	foreach $contact (@contacts) {
@@ -76,4 +80,6 @@ while (<STDIN>) {
 	</tr>};
 }
 
-print "\n</table>";
+print qq{</table>
+</body>
+</html>};
