@@ -15,8 +15,7 @@ Improvements to developer platform:
 
 
 system adminstration:
-  - searching in gconf-editor, ability to set default and mandatory settings when root, ability to see recently-modified keys.
-
+  
 
 DONE (maybe with TODOs in the text:
 
@@ -46,4 +45,5 @@ DONE (maybe with TODOs in the text:
 
 
 system adminstration:
-  - gnome-nettool, vino, searching in gconf-editor.
+  - gnome-nettool, vino, system tools.
+   - searching in gconf-editor, ability to set default and mandatory settings when root, ability to see recently-modified keys.

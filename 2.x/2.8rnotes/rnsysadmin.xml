@@ -70,6 +70,30 @@
     </figure>
     </para>
     </sect3>
+
+    <sect3 id="rnsysadmin-gconfeditor">
+    <title>Configuration Editor</title>
+
+    <para>
+    The configuration editor has the following new features:
+    <itemizedlist>
+      <listitem><para>Search the configuration database for a particular key, value, or description.</para></listitem>
+      <listitem><para>Edit default and mandatory values.</para></listitem>
+      <listitem><para>See recently-modified keys, in case you need to change their values again.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-sysadmin-gconfeditor">
+      <title>Configuration Editor - searching</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;gconfeditor.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>Configuration Editor - searching.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    </sect3>
    
    
 </sect2>

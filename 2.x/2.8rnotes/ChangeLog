@@ -1,3 +1,7 @@
+2004-09-08  Murray Cumming  <murrayc@murrayc.com>
+
+	* rnsysadmin.xml: Mention new gconf-editor features. 
+
 2004-09-07  Murray Cumming  <murrayc@murrayc.com>
 
 	* rnstandards.xml: Mentioned MIME spec.
