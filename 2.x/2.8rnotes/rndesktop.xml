@@ -72,6 +72,7 @@
   <para>Other File Manager improvements include:
     <itemizedlist>
       <listitem><para>Now allows access to password-protected FTP sites.</para></listitem>
+      <listitem><para>Copying a folder over a folder of the same name now offers to merge the two directories.</para></listitem>
       <listitem><para>The CD burner's preferences dialog has been simplified.</para></listitem>
     </itemizedlist>
   </para>

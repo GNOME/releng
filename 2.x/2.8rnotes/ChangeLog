@@ -1,5 +1,9 @@
 2004-09-09  Murray Cumming  <murrayc@murrayc.com>
 
+	* rndesktop.xml: Mention merging of folders when copying.
+
+2004-09-09  Murray Cumming  <murrayc@murrayc.com>
+
 	* release-notes.xml: Mention Davyd in credits.
 	* rndesktop.xml: Uses correct DNS Service Discovery terminology.
 
