@@ -1,0 +1,1707 @@
+# Ukrainian translation of gnome releasenotes
+# Maxim Dziumanenko <mvd@mylinux.com.ua>, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome releasenotes\n"
+"PO-Revision-Date: 2005-03-05 14:50 +0300\n"
+"Last-Translator: Maxim Dziumanenko <mvd@mylinux.com.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:24
+msgid ""
+"@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
+msgstr ""
+"@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:42
+msgid ""
+"@@image: 'figures/figure-file-roller.png'; "
+"md5=229f9191244247839f225df468a9c60c"
+msgstr ""
+"@@image: 'figures/figure-file-roller.png'; "
+"md5=229f9191244247839f225df468a9c60c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:61
+msgid ""
+"@@image: 'figures/figure-dictionary.png'; "
+"md5=2c1962519057406be57f4b1b76604973"
+msgstr ""
+"@@image: 'figures/figure-dictionary.png'; "
+"md5=2c1962519057406be57f4b1b76604973"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:79
+msgid ""
+"@@image: 'figures/figure-floppy-formatter.png'; "
+"md5=cc67b69fcf0049807a6b9656aa0d17e7"
+msgstr ""
+"@@image: 'figures/figure-floppy-formatter.png'; "
+"md5=cc67b69fcf0049807a6b9656aa0d17e7"
+
+#: ../rnutilities.xml:8
+msgid "Utilities"
+msgstr "Утиліти"
+
+#: ../rnutilities.xml:10
+msgid "The GNOME utilities have some improvements, such as:"
+msgstr "Вдосконалення в утилітах GNOME, такі як:"
+
+#: ../rnutilities.xml:13 ../rnutilities.xml:21
+msgid "Text Editor"
+msgstr "Текстовий редактор"
+
+#: ../rnutilities.xml:15
+msgid ""
+"The GNOME text editor can now highlight the current line and when editing "
+"program source code, it highlights matching braces. Spell checking is "
+"improved too. It now only highlights mispelled words when you have actually "
+"finished typing the word, and many extra languages are supported and "
+"automatically identified."
+msgstr ""
+"Текстовий редактор GNOME тепер може підсвічувати поточний рядок, а при "
+"редагуванні програмного коду може підсвічувати парні дужки. Також "
+"вдосконалено перевірку орфографії. Тепер неправильно написане слово "
+"підсвічується лише по завершенню вводу слова. Також додано підтримку "
+"перевірки орфографії для багатьох мов."
+
+#: ../rnutilities.xml:17
+msgid ""
+"Many people will be glad to see that it no longer suggests saving changes "
+"when all changes have actually been undone. And in addition it even starts "
+"faster than previous versions."
+msgstr ""
+"Тепер програма не пропонує зберегти зміни, якщо усі зроблені зімни було "
+"скасовано. Також програма запускається швидше ніж попередні версії. "
+
+#: ../rnutilities.xml:25
+msgid "The text editor, highlighting the current line."
+msgstr "Текстовий редактор, підсвічення поточного рядка."
+
+#: ../rnutilities.xml:33 ../rnutilities.xml:39
+msgid "Archive Manager"
+msgstr "Менеджер архівів"
+
+#: ../rnutilities.xml:35
+msgid ""
+"The GNOME archive manager can now open more types of archive, including AR, "
+"Debian, and 7-zip archives, and password-protected RAR archives. And if you "
+"use the single-click preference in the file manager, then the archive "
+"manager will now use single clicks too."
+msgstr ""
+"Менеджер архівів GNOME тепер може відкривати значно більшу кількість "
+"архівів: включно AR, Debian, архіви 7-zip, та захищені паролем архіви RAR. "
+"Якщо раніше ви користувались одиночним клацанням у файловому менеджері, то "
+"тепер одиночне клацання також підтримується у менеджері архівів."
+
+#: ../rnutilities.xml:43
+msgid "The archive manager, asking for a password for a RAR file."
+msgstr "Менеджер архівів запитує пароль до RAR-файлу."
+
+#: ../rnutilities.xml:52 ../rnutilities.xml:58
+msgid "Dictionary"
+msgstr "Словник"
+
+#: ../rnutilities.xml:54
+msgid ""
+"The GNOME Dictionary now suggests words when you aren't sure how to spell "
+"something. The definitions also contain links to external dictionary web "
+"sites, and the definitions can be printed."
+msgstr ""
+"Словник GNOME тепер пропонує варіанти написання для сілв, у написанні яких ви не впевнені. "
+"Визначення слів також тепер містять посилання на зовнішні веб-сайти, "
+"також визначення слів тепер можна друкувати."
+
+#: ../rnutilities.xml:62
+msgid "The dictionary, suggesting possible spellings and a definition."
+msgstr "Словник, що пропонує можливі варіанти написання."
+
+#: ../rnutilities.xml:70 ../rnutilities.xml:76
+msgid "Floppy Formatter"
+msgstr "Форматування дискет"
+
+#: ../rnutilities.xml:72
+msgid ""
+"The GNOME Floppy Formatter utility now supports removable drives, such as "
+"USB drives, using the standard HAL system from freedesktop.org."
+msgstr ""
+"Утиліта форматування для GNOME тепер підтримує змінні носії, такі як "
+"пристрої USB, що використовують стандартну підсистему HAL з freedesktop.org."
+
+#: ../rnutilities.xml:80
+msgid "Formatting a floppy disk."
+msgstr "Форматування дискети."
+
+#: ../rnthemes.xml:2
+msgid "Themes"
+msgstr "Теми"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnsysadmin.xml:36
+msgid ""
+"@@image: 'figures/figure-gnome-system-tools.png'; "
+"md5=65e08a4a7947a0a4c0638c249cb30e7a"
+msgstr ""
+"@@image: 'figures/figure-gnome-system-tools.png'; "
+"md5=65e08a4a7947a0a4c0638c249cb30e7a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnsysadmin.xml:61
+msgid ""
+"@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
+msgstr ""
+"@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
+
+#: ../rnsysadmin.xml:9
+msgid "System Administration"
+msgstr "Системне адміністрування"
+
+#: ../rnsysadmin.xml:11
+msgid "GNOME 2.10 provides some new features for system administration."
+msgstr "GNOME 2.10 має додаткові функції системного адміністрування."
+
+#: ../rnsysadmin.xml:17
+msgid "System Tools"
+msgstr "Системні утиліти"
+
+#: ../rnsysadmin.xml:19
+msgid ""
+"The system tools allow you to configure your system clock and your network "
+"connection, as well as manage the users and groups on your system. At "
+"present, these system tools are most appropriate for single computers rather "
+"than large networks of computers."
+msgstr ""
+"Системні утиліти дозволяють налаштовувати системний годинник та мережні "
+"з'єднання, а також керувати обліковими записами користувачів та груп. "
+"Наразі, ці утиліти більше підходять для одиночного комп'ютера, ніж для "
+"великої комп'ютерної мережі. "
+
+#: ../rnsysadmin.xml:26
+msgid ""
+"Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
+"connections."
+msgstr ""
+"Мережа: вдосконалено підтримку бездротових (визначення WEP та ESSID), та "
+"IDSN з'єднань."
+
+#: ../rnsysadmin.xml:27
+msgid "Users and Groups: Easier editing of group members."
+msgstr "Користувачі та групи: спрощено редагування учасників груп."
+
+#: ../rnsysadmin.xml:28
+msgid "Changes are applied instantly where appropriate."
+msgstr "Коли необхідно, зміни застосовуються негайно."
+
+#: ../rnsysadmin.xml:23
+msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
+msgstr "GNOME 2.10 вносить деякі вдосконалення, включено <placeholder-1/>"
+
+#: ../rnsysadmin.xml:33
+msgid "The Clock, Network, and Users/Groups tools"
+msgstr "Програми Годинник, Мережа та Користувачі/групи"
+
+#: ../rnsysadmin.xml:38
+msgid "The Clock, Network, and Users/Groups tools."
+msgstr "Програми Годинник, Мережа та Користувачі/групи"
+
+#: ../rnsysadmin.xml:46
+msgid "Log Viewer"
+msgstr "Перегляд журналів"
+
+#: ../rnsysadmin.xml:51
+msgid "Open multiple logs in the separate windows."
+msgstr "Відкривання декількох журналів у окремих вікнах."
+
+#: ../rnsysadmin.xml:52
+msgid "Open archived logs and logs on networked drives."
+msgstr "Відкривання архівних журналів та журналів на мережних пристроях."
+
+#: ../rnsysadmin.xml:53
+msgid "Copy logs to the clipboard."
+msgstr "Копіювання журналів"
+
+#: ../rnsysadmin.xml:48
+msgid ""
+"The GNOME log viewer has added a handy find feature, and an improved monitor "
+"mode. In addition, it can now <placeholder-1/>"
+msgstr ""
+"До програми перегляду журналів GNOME додано функцію пошуку, та вдосконалено режим контролю. "
+"Додатково тепер вона може <placeholder-1/>"
+
+#: ../rnsysadmin.xml:58
+msgid "The Log Viewer"
+msgstr "Перегляд журналів"
+
+#: ../rnsysadmin.xml:63
+msgid "The Log Viewer, during a search."
+msgstr "Перегляд журналів, пошук у журналі."
+
+#: ../rnstandards.xml:7
+msgid "Standards Compliance"
+msgstr "Відповідність стандартам"
+
+#: ../rnstandards.xml:9
+msgid ""
+"GNOME works closely with groups such as <ulink url=\"http://www.freedesktop."
+"org/wiki/Standards\">freedesktop.org</ulink>. Standards support is a big "
+"plus for GNOME users. Interoperability support improves the user experience "
+"by allowing GNOME, KDE, and other applications to work together more easily, "
+"and following open specifications helps ensure that user data is not trapped "
+"in proprietary formats."
+msgstr ""
+"GNOME тісно співпрацює з такими групами як <ulink url=\"http://www.freedesktop."
+"org/wiki/Standards\">freedesktop.org</ulink>. Підтримка стандартів є "
+"великим плюсом для користувачів GNOME. Підтримка сумісності покращує досвід "
+"користувачів, дозволяє простіше співпрацювати разом GNOME, KDE, та іншим "
+"програмам, та слідування відкритим специфікаціям дозволяє. бути впевненим, "
+"що дані користувача не потраплять у пастку приватних форматів."
+
+#: ../rnstandards.xml:19
+msgid ""
+"GNOME developers are working hard with other members of the free software "
+"community through Freedesktop.org on the development of standards to allow "
+"interoperability. Those standards include: <ulink url=\"http://www."
+"freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</"
+"ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec"
+"\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/"
+"recent-file-spec\">recent files</ulink>, <ulink url=\"http://www.freedesktop."
+"org/wiki/Standards_2fmenu_2dspec\">menus</ulink>, <ulink url=\"http://www."
+"freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop entries</"
+"ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html"
+"\">thumbnail management</ulink>, and the <ulink url=\"http://www.freedesktop."
+"org/Standards/systemtray-spec\">system tray</ulink> specifications. In "
+"addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, "
+"<ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://"
+"www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink "
+"url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
+msgstr ""
+"Розробники GNOME тісно співпрацюють з іншими учасниками спільноти вільного "
+"програмного забезпечення через Freedesktop.org над розробкою стандартів, "
+"маючи на меті досягнення сумісності. Ці стандарти включають: специфікації "
+"<ulink url=\"http://www."
+"freedesktop.org/Standards/shared-mime-info-spec\">спільної бази даних MIME</"
+"ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec"
+"\">теми значків</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/"
+"recent-file-spec\">нещодавно відкриванні файли</ulink>, <ulink url=\"http://www.freedesktop."
+"org/wiki/Standards_2fmenu_2dspec\">меню</ulink>, <ulink url=\"http://www."
+"freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop-елементи</"
+"ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html"
+"\">керування мініатюрами</ulink>, and the <ulink url=\"http://www.freedesktop."
+"org/Standards/systemtray-spec\">системний лоток</ulink>. Також"
+"GNOME підтримує <ulink url=\"http://www.omg.org/\">CORBA</ulink>, "
+"<ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://"
+"www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, та <ulink "
+"url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
+#: ../rnplatform.xml:9
+msgid "Platform Improvements"
+msgstr "Вдосконалення швидкодії"
+
+#: ../rnplatform.xml:13
+msgid ""
+"GTK+ 2.6 has new cell renderers, new buttons, an IconView, and a new about "
+"box."
+msgstr ""
+"GTK+ 2.6 має новий растеризатор комірок, нові кнопки, такі як IconView, та "
+"нове діалогове вікно про програму."
+
+#: ../rnplatform.xml:14
+msgid "glib 2.6 has an easier command-line parsing API."
+msgstr "glib 2.6 має спрощений API розбору командного рядка."
+
+#: ../rnplatform.xml:15
+msgid ""
+"The Platform Bindings now include full Python APIs for the GNOME Development "
+"Platform, via gnome-python. This in addition to the current C++, Java, Perl, "
+"and Python bindings, via the <ulink url=\"http://www.gtkmm.org/\">gtkmm</"
+"ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</"
+"ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, "
+"and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
+msgstr ""
+"Прив'язки до платформи тепер включають повний Python API для платформи "
+"розробки GNOME у gnome-python. Додатково до поточних прив'язок C++, Java, "
+"Perl, та Python, у проектах <ulink url=\"http://www.gtkmm.org/\">gtkmm</"
+"ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</"
+"ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, "
+"та <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>."
+
+#: ../rnplatform.xml:10
+msgid ""
+"The GNOME 2.10 Development Platform provides a stable base for third-party "
+"software developers, and for the GNOME Desktop itself. GNOME 2.10 adds some "
+"API improvements, while maintaining backwards compatibilty and API-"
+"stability. In particular this time we have: <placeholder-1/>"
+msgstr ""
+"Платформа розробки GNOME 2.10 надає стабільну основу для сторонніх "
+"розробників програм, та, власне, самого середовища GNOME. GNOME 2.10 додає "
+"деякі вдосконалення API, при підтримці зворотної сумісності та стабільності "
+"API. Зокрема, на цей час: <placeholder-1/>"
+
+#: ../rninstallation.xml:9
+msgid "Installation of GNOME 2.10"
+msgstr "Встановлення GNOME 2.10"
+
+#: ../rninstallation.xml:11
+msgid ""
+"For GNOME 2.10 we have a LiveCD, available from www.gnome.org. The LiveCD "
+"allows you to try a full GNOME desktop on Linux without installing anything "
+"on your hard drive. This is the best way to see for yourself what's new."
+msgstr ""
+"Для GNOME 2.10 є LiveCD, що доступний на www.gnome.org. LiveCD дозволяє "
+"випробувати повноцінне середовище GNOME на Linux не встановлюючи його на "
+"жорсткий диск. Це найкращий шлях для огляду новинок."
+
+#: ../rninstallation.xml:13
+msgid ""
+"For actual use, we recommend that you install official packages, such as "
+"those for your Linux distribution. Vendors are likely to package GNOME 2.10 "
+"relatively quickly, and to release new versions soon that include GNOME 2.10."
+msgstr ""
+"Для фактичного використання, ми рекомендуємо встановлювати офіціальні "
+"пакети, наприклад з дистрибутивів Linux. Розробники досить швидко створюють "
+"пакети для GNOME 2.10, та скоро випустять нові версії, що включатимуть GNOME "
+"2.10."
+
+#: ../rninstallation.xml:15
+msgid ""
+"However, if you would like to build GNOME from source code, to test the very "
+"latest versions, to provide feedback and improvements, we recommend a build "
+"tool; such as the <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</"
+"ulink> utility, for building from released tarballs, and <ulink url=\"http://"
+"www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from "
+"CVS."
+msgstr ""
+"Проте, якщо ви бажаєте зібрати GNOME з вихідного коду, щоб перевірити "
+"останню версію для зворотного зв'язку чи вдосконалень, ми рекомендуємо "
+"систему збирання: наприклад утиліту <ulink url=\"http://cipherfunk.org/"
+"garnome/\">GARNOME</ulink>, для збирання з tar-архівів, та <ulink url="
+"\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, для "
+"збирання з CVS."
+
+#: ../rni18n.xml:8
+msgid "Internationalization"
+msgstr "Інтернаціоналізація"
+
+#. Translators: I have only changed language count in here: s/40/33/
+#: ../rni18n.xml:10
+msgid ""
+"Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/"
+"projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of "
+"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
+"languages (at least 80 percent of strings translated)."
+msgstr ""
+"Дякуючи усім учасникам <ulink url=\"http://developer.gnome.org/projects/gtp/"
+"\">Проекту перекладу GNOME</ulink> з усього світу, під керівництвом "
+"Christian Rose та Kjartan Maraas, GNOME 2.10 підтримує 40 мов (принаймні 80 "
+"відсотків перекладених рядків)."
+
+#: ../rni18n.xml:41
+msgid "Albanian (5 million speakers)"
+msgstr "Албанська (5 мільйонів)"
+
+#: ../rni18n.xml:42
+msgid "Brazilian Portuguese (175 million)"
+msgstr "Бразильська португальська (175 мільйонів)"
+
+#: ../rni18n.xml:43
+msgid "Bulgarian (9 million)"
+msgstr "Болгарська (9мільйонів)"
+
+#: ../rni18n.xml:44
+msgid "Catalan (7 million)"
+msgstr "Каталонська (7 мільйонів)"
+
+#: ../rni18n.xml:45
+msgid "Chinese Simplified (over 1 billion)"
+msgstr "Китайська спрощена (понад 1 мільярд)"
+
+#: ../rni18n.xml:46
+msgid "Chinese Traditional (40 million)"
+msgstr "Китайська традиційна (40 мільйонів)"
+
+#: ../rni18n.xml:47
+msgid "Czech (11 million)"
+msgstr "Чеська (11 мільйонів)"
+
+#: ../rni18n.xml:48
+msgid "Danish (5.3 million)"
+msgstr "Датська (5.3 мільйонів)"
+
+#: ../rni18n.xml:49
+msgid "Dutch (over 21 million)"
+msgstr "Голландська (понад 21 мільйон)"
+
+#: ../rni18n.xml:50
+msgid "English (341 million)"
+msgstr "Англійська (341 мільйон)"
+
+#: ../rni18n.xml:51
+msgid "Finnish (over 5 million)"
+msgstr "Фінська (понад 5 мільйонів)"
+
+#: ../rni18n.xml:52
+msgid "French (over 75 million)"
+msgstr "Французька (понад 75 мільйонів)"
+
+#: ../rni18n.xml:53
+msgid "German (100 million)"
+msgstr "Німецька (100 мільйонів)"
+
+#: ../rni18n.xml:54
+msgid "Greek (15 million)"
+msgstr "Грецька (15 мільйонів)"
+
+#: ../rni18n.xml:55
+msgid "Gujarati (46 million)"
+msgstr "Ґуджараті (46 мільйонів)"
+
+#: ../rni18n.xml:56
+msgid "Hindi (370 million)"
+msgstr "Хінді (370 мільйонів)"
+
+#: ../rni18n.xml:57
+msgid "Hungarian (14.5 million)"
+msgstr "Угорська (14.5 мільйонів)"
+
+#: ../rni18n.xml:58
+msgid "Italian (60 million)"
+msgstr "Італійська (60 мільйонів)"
+
+#: ../rni18n.xml:59
+msgid "Japanese (over 125 million)"
+msgstr "Японська (понад 125 мільйонів)"
+
+#: ../rni18n.xml:60
+msgid "Korean (75 million)"
+msgstr "Корейська (75 мільйонів)"
+
+#: ../rni18n.xml:61
+msgid "Lithuanian (4 million)"
+msgstr "Литовська (4 мільйони)"
+
+#: ../rni18n.xml:62
+msgid "Norwegian Bookmal (5 million)"
+msgstr "Норвезька Бокмал (5 мільйонів)"
+
+#: ../rni18n.xml:63
+msgid "Panjabi (60 million)"
+msgstr "Пенджабі (60 мільйонів)"
+
+#: ../rni18n.xml:64
+msgid "Polish (44 million)"
+msgstr "Польська (44 мільйони)"
+
+#: ../rni18n.xml:65
+msgid "Portuguese (43 million)"
+msgstr "Португальська (43 мільйони)"
+
+#: ../rni18n.xml:66
+msgid "Russian (170 million)"
+msgstr "Російська (170 мільйонів)"
+
+#: ../rni18n.xml:67
+msgid "Romanian (26 million)"
+msgstr "Румунська (26 мільйонів)"
+
+#: ../rni18n.xml:68
+msgid "Serbian (10 million)"
+msgstr "Сербська (10 мільйонів)"
+
+#: ../rni18n.xml:69
+msgid "Spanish (over 350 million)"
+msgstr "Іспанська (понад 350 мільйонів)"
+
+#: ../rni18n.xml:70
+msgid "Swedish (9 million)"
+msgstr "Шведська (9 мільйонів)"
+
+#: ../rni18n.xml:71
+msgid "Tamil (61 million)"
+msgstr "Тамільська (61 мільйони)"
+
+#: ../rni18n.xml:72
+msgid "Turkish (150 million)"
+msgstr "Турецька (150 мільйонів)"
+
+#: ../rni18n.xml:73
+msgid "Ukrainian (50 million)"
+msgstr "Українська (50 мільйонів)"
+
+#: ../rni18n.xml:74
+msgid "Welsh (575,000)"
+msgstr "Уельська (575,000)"
+
+#: ../rni18n.xml:36
+msgid "Supported languages: <placeholder-1/>"
+msgstr "Підтримувані мови: <placeholder-1/>"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rngames.xml:20
+msgid ""
+"@@image: 'figures/figure-game-same-gnome.png'; "
+"md5=541a9af0979357c0e3e9910ba03bc240"
+msgstr ""
+"@@image: 'figures/figure-game-same-gnome.png'; "
+"md5=541a9af0979357c0e3e9910ba03bc240"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rngames.xml:39
+msgid ""
+"@@image: 'figures/figure-game-nibbles.png'; "
+"md5=8a6662f72c6fb3f6f295b3fe1f6e7e4e"
+msgstr ""
+"@@image: 'figures/figure-game-nibbles.png'; "
+"md5=8a6662f72c6fb3f6f295b3fe1f6e7e4e"
+
+#: ../rngames.xml:8
+msgid "Games"
+msgstr "Ігри"
+
+#: ../rngames.xml:9
+msgid ""
+"GNOME helps you achieve your goals, but sometimes your goal is to be "
+"distracted. That's when the GNOME games bring the fun."
+msgstr ""
+"GNOME допомагає досягнути вашої мети, але іноді треба відволікатись від неї. "
+"Тоді стануть у нагоді ігри для GNOME."
+
+#: ../rngames.xml:12 ../rngames.xml:17
+msgid "Same GNOME"
+msgstr "Той же GNOME"
+
+#: ../rngames.xml:14
+msgid ""
+"The Same GNOME game has a major new version, with better graphics, extra "
+"board sizes, and an undo feature in case you change your mind."
+msgstr ""
+"Гра \"Той же GNOME\" значно оновлена, має кращу графіку, додаткові розміри "
+"дошки та підтримує функцію повернення ходу, якщо ви передумали."
+
+#: ../rngames.xml:22
+msgid "The Same GNOME game."
+msgstr "Гра \"Той же GNOME\""
+
+#: ../rngames.xml:31
+msgid "Nibbles"
+msgstr "Хробак"
+
+#: ../rngames.xml:33
+msgid ""
+"Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you "
+"can browse your local network for other people to play against, via the same "
+"zero-configuration technique used by GnomeMeeting."
+msgstr ""
+"Наша філософія \"просто працює\" показова навіть на грі Хробак. Тепер ви "
+"можете шукати інших гравців у локальній мережі, використовуючи ту саму "
+"техніку нульового налаштовування, що використовується у Gnomemeeting."
+
+#: ../rngames.xml:36
+msgid "join a network game"
+msgstr "приєднання до мережної гри"
+
+#: ../rngames.xml:41
+msgid "Join a network game"
+msgstr "Приєднання до мережної гри"
+
+#: ../rndocs.xml:10
+msgid "Sysadmin, User, and Accessibility Guides"
+msgstr ""
+"Посібники системного адміністратора, посібник користувача та посібник з "
+"спеціальних можливостей."
+
+#: ../rndocs.xml:12
+msgid ""
+"Thanks to the efforts of the <ulink url=\"http://developer.gnome.org/"
+"projects/gdp/\">GNOME Documentation Project</ulink>, GNOME 2.10 comes with "
+"comprehensive and professional documentation. Careful attention has been "
+"taken to detail using free software's most complete <ulink url=\"http://"
+"developer.gnome.org/documents/style-guide/\">documentation style guide</"
+"ulink>. As in GNOME 2.8, each application shipped with GNOME 2.10 includes "
+"full user documentation."
+msgstr ""
+"Дякуючи зусиллям <ulink url=\"http://developer.gnome.org/projects/gdp/"
+"\">Проекту документування GNOME</ulink>, GNOME 2.10 постачається з "
+"вичерпною  та професійною документацією. Було приділено увагу для докладного "
+"опису використання вільного програмного забезпечення у <ulink url=\"http://"
+"developer.gnome.org/documents/style-guide/\">документації зі стилю "
+"написання</ulink>. Як і у GNOME 2.8, кожна програма у GNOME 2.10 "
+"постачається з повною документацією. У GNOME 2.10 значну частину "
+"документації перекладено українською мовою."
+
+#: ../rndocs.xml:22
+msgid ""
+"Learn to how to use GNOME with the Desktop User Guide. The User Guide and "
+"other documentation, including guides to system administration and GNOME's "
+"accessibility features, can be found on the <ulink url=\"http://www.gnome."
+"org/learn/\">GNOME Learn page</ulink>."
+msgstr ""
+"Навчитись користуватись GNOME можна за допомогою посібника користувача "
+"GNOME. Посібник користувача та інша документація, включно з посібником "
+"адміністратора та посібником із спеціальних можливостей, доступні на <ulink "
+"url=\"http://www.gnome.org/learn/\">Сторінці навчання GNOME</ulink>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rndesktop.xml:34
+msgid ""
+"@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
+msgstr ""
+"@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rndesktop.xml:47
+msgid ""
+"@@image: 'figures/figure-backgrounds.png'; "
+"md5=e1c401f328cb9443b5824eecedaf4a79"
+msgstr ""
+"@@image: 'figures/figure-backgrounds.png'; "
+"md5=e1c401f328cb9443b5824eecedaf4a79"
+
+#: ../rndesktop.xml:10
+msgid "Desktop"
+msgstr "Стільниця"
+
+#: ../rndesktop.xml:12
+msgid "The File Manager"
+msgstr "Файловий менеджер"
+
+#: ../rndesktop.xml:13
+msgid ""
+"The file manager, also known as Nautilus, is even faster and more stable in "
+"GNOME 2.10, thanks to changes to its internal architecture. This should "
+"allow software developers to maintain and extend the file manager more "
+"easily in future."
+msgstr ""
+"Файловий менеджер, також відомий як Nautilus, у GNOME2.10 став ще швидшим та "
+"більш стабільним завдяки змінам у його внутрішній архітектурі. Це має "
+"призвести до спрощення у майбутньому підтримування програми розробниками та "
+"її розширення."
+
+#: ../rndesktop.xml:18
+msgid ""
+"Drag and drop with other applications, such as Mozilla and Firefox, now also "
+"works more smoothly."
+msgstr ""
+"Перетягування у інші програми, такі як Mozilla та Firefox тепер працює більш "
+"гладко."
+
+#: ../rndesktop.xml:24
+msgid "The path button is now more obviously a button."
+msgstr "Кнопка шляху тепер більше схожа на кнопку."
+
+#: ../rndesktop.xml:25
+msgid "When creating new files, renaming starts automatically."
+msgstr "При створенні нових файлів, перейменування запускається автоматично."
+
+#: ../rndesktop.xml:26
+msgid ""
+"When using keyboard navigation to open the parent folder (Alt-Up), the "
+"current folder will be selected."
+msgstr ""
+"При використанні клавіатури для відкривання батьківської теки (Alt-Up), буде "
+"виділена поточна тека."
+
+#: ../rndesktop.xml:22
+msgid ""
+"In addition, there are many small changes that demonstrate GNOME's attention "
+"to detail. For instance, <placeholder-1/>"
+msgstr ""
+"Також, є багато невеликих змін, які демонструють увагу GNOME до подробиць. "
+"Наприклад, <placeholder-1/>"
+
+#: ../rndesktop.xml:31
+msgid "clean-cut and powerful, the Nautilus file manager"
+msgstr "потужний менеджер файлів Nautilus"
+
+#: ../rndesktop.xml:36
+msgid "The file manager"
+msgstr "Файловий менеджер"
+
+#: ../rndesktop.xml:41
+msgid ""
+"GNOME 2.10 provides a new selection of pre-installed background images and "
+"patterns, so your desktop can become your own."
+msgstr ""
+"GNOME 2.10 забезпечує новий вибір попередньо встановлених зображень для тла "
+"та шаблонів, тому ваша стільниця можна налаштувати на власний смак."
+
+#: ../rndesktop.xml:44
+msgid "a selection of simple yet artistic backgrounds"
+msgstr "вибір зразка художнього тла"
+
+#: ../rndesktop.xml:49
+msgid "Desktop backgrounds"
+msgstr "Тло стільниці"
+
+#: ../rndesktop.xml:56
+msgid "Window Behaviour"
+msgstr "Поведінка вікон"
+
+#: ../rndesktop.xml:57
+msgid ""
+"GNOME 2.10 has a new ability that you might not notice at first, "
+"implementing another cross-desktop Freedesktop.org standard."
+msgstr ""
+"У GNOME 2.10 є можливість, яку можна й не помітити, що реалізує інший, "
+"спільний для усіх графічних середовищ, стандарт Freedesktop.org."
+
+#: ../rndesktop.xml:58
+msgid ""
+"In the past, while typing something into one application when suddenly your "
+"instant messenger offered a chat request from your friend, your words would "
+"be typed into the chat window. Imagine if you were typing your password at "
+"the time. This should no longer happen in GNOME 2.10."
+msgstr ""
+"У минулому, коли ви вводили щось у програмі, та раптом ваша програма обміну "
+"миттєвими повідомленнями  отримувала запит на розмову від вашого товариша, "
+"слова, що ви набираєте, могли потрапити у  вікно розмови. Уявіть, що у цей "
+"час ви вводите пароль. Тепер це не трапляється у GNOME 2.10."
+
+#: ../rndesktop.xml:59
+msgid ""
+"In addition, if an application takes a long time to start, your work will "
+"not be interrupted when it finally opens its window."
+msgstr ""
+"Додатково, якщо запуск програми займає тривалий час, вашу роботу не буде "
+"перервано, коли вікно програми нарешті відкриється."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rncontrolcenter.xml:21
+msgid ""
+"@@image: 'figures/figure-keyboard-properties+layout.png'; "
+"md5=6f351cb81db99e786e4560301a410fcc"
+msgstr ""
+"@@image: 'figures/figure-keyboard-properties+layout.png'; "
+"md5=6f351cb81db99e786e4560301a410fcc"
+
+#: ../rncontrolcenter.xml:8
+msgid "Control Center"
+msgstr "Центр керування"
+
+#: ../rncontrolcenter.xml:11
+msgid "Keyboard Layouts"
+msgstr "Клавіатурні розкладки"
+
+#: ../rncontrolcenter.xml:13
+msgid ""
+"Selecting a keyboard layout is now simpler with the Keyboard control panel. "
+"Just click Add to choose from a list of international keyboard layouts. "
+"Before making your choice you can see the effect of key presses in the "
+"layout preview. The Layout Options section has also been reorganized as a "
+"simpler list of choices."
+msgstr ""
+"Вибір розкладки клавіатури у панелі керування клавіатурою тепер спрощено. "
+"Просто натисніть Додати для вибору розкладки зі списку міжнародних розкладок "
+"клавіатури. Перед затвердженням вибору можете оцінити ефект натискання у "
+"попередньому перегляді розкладки. Секцію \"Параметри розкладки\" також було "
+"реорганізовано у спрощений вибір варіантів."
+
+#: ../rncontrolcenter.xml:18
+msgid "Keyboard Preferences - Layouts"
+msgstr "Параметри клавіатури - Розкладки"
+
+#: ../rncontrolcenter.xml:23
+msgid ""
+"The Layouts tab, in the Keyboard Preferences control panel, while adding a "
+"new layout."
+msgstr ""
+"Вкладка Розкладки при додаванні нової розкладки у вікні параметрів клавіатури."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplications.xml:21
+msgid ""
+"@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
+msgstr ""
+"@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplications.xml:40
+msgid ""
+"@@image: 'figures/figure-soundjuicer.png'; "
+"md5=45107d7894144e15e2e3dabbe2310152"
+msgstr ""
+"@@image: 'figures/figure-soundjuicer.png'; "
+"md5=45107d7894144e15e2e3dabbe2310152"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplications.xml:64
+msgid ""
+"@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
+msgstr ""
+"@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplications.xml:95
+msgid ""
+"@@image: 'figures/figure-evolution-weather.png'; "
+"md5=ca12d0050f5514294bd4b54f47a899db"
+msgstr ""
+"@@image: 'figures/figure-evolution-weather.png'; "
+"md5=ca12d0050f5514294bd4b54f47a899db"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplications.xml:113
+msgid ""
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=b27a25dd54f1118e40b9104354bda815"
+msgstr ""
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=b27a25dd54f1118e40b9104354bda815"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplications.xml:135
+msgid ""
+"@@image: 'figures/figure-gnome-meeting.png'; "
+"md5=71e89305beea456fbb73016fbb645010"
+msgstr ""
+"@@image: 'figures/figure-gnome-meeting.png'; "
+"md5=71e89305beea456fbb73016fbb645010"
+
+#: ../rnapplications.xml:8
+msgid "Applications"
+msgstr "Програми"
+
+#: ../rnapplications.xml:11
+msgid "Video Player"
+msgstr "Програвач відео"
+
+#: ../rnapplications.xml:13
+msgid ""
+"GNOME 2.10 now includes the popular Totem video player, using GNOME's "
+"GStreamer multimedia framework. Totem provides the intuitive user interface "
+"that GNOME users expect, with automatic hardware detection instead of "
+"complex configuration."
+msgstr ""
+"У GNOME 2.10 тепер входить популярний програвач відео Totem, який "
+"використовує мультимедійне середовище GStreamer. Totem має інтуїтивний "
+"інтерфейс, з автоматичним визначенням обладнання."
+
+#: ../rnapplications.xml:18
+msgid "The video player"
+msgstr "програвач відео"
+
+#: ../rnapplications.xml:22
+msgid "The Totem video player."
+msgstr "Програвач відео Totem."
+
+#: ../rnapplications.xml:30
+msgid "Audio Extraction"
+msgstr "Копіювання звуку"
+
+#: ../rnapplications.xml:32
+msgid ""
+"The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for "
+"later playback on your PC or portable music player. Thanks to automatic "
+"downloading of song titles, you won't need to click more than a couple of "
+"buttons."
+msgstr ""
+"Програма копіювання звуку з компакт-дисків Sound Juicer просто копіює звук з "
+"компакт-дисків для подальшого відтворення на вашому комп'ютері чи "
+"портативному музичному програвачі. Завдяки автоматичному завантаженню назв "
+"пісень, вам не доведеться натискати більше ніж кілька кнопок."
+
+#: ../rnapplications.xml:37
+msgid "The audio extractor"
+msgstr "Копіювання звуку"
+
+#: ../rnapplications.xml:41
+msgid "The audio extractor."
+msgstr "Програма копіювання звуку з компакт-дисків"
+
+#: ../rnapplications.xml:49
+msgid "Web Browser"
+msgstr "Веб-переглядач"
+
+#: ../rnapplications.xml:53
+msgid "An improved fullscreen mode."
+msgstr "Вдосконалений повноекранний режим"
+
+#: ../rnapplications.xml:54
+msgid ""
+"The location bar now indicates whether the site is secure, and shows its "
+"favicon."
+msgstr ""
+"Панель адреси тепер показує, чи є сайт безпечним, та показує значок сайту."
+
+#: ../rnapplications.xml:55
+msgid "Bookmarks can be exported."
+msgstr "Закладки тепер можна експортувати."
+
+#: ../rnapplications.xml:56
+msgid "An extension manager for extra features."
+msgstr "Менеджер розширень має додаткові функції."
+
+#: ../rnapplications.xml:51
+msgid ""
+"GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully "
+"with the GNOME desktop environment. Improvements in 2.10 include "
+"<placeholder-1/>"
+msgstr ""
+"Веб-переглядач \"Epiphany\" побудований на базі Mozilla, але повністю "
+"інтегрований у графічне середовище GNOME. Вдосконалення у 2.10 включають "
+"<placeholder-1/>"
+
+#: ../rnapplications.xml:61
+msgid "The web browser"
+msgstr "Веб-переглядач"
+
+#: ../rnapplications.xml:65
+msgid "The web browser."
+msgstr "Веб-переглядач."
+
+#: ../rnapplications.xml:73
+msgid "Evolution"
+msgstr "Evolution"
+
+#: ../rnapplications.xml:75
+msgid ""
+"GNOME's integrated Email and Groupware client, Evolution supports "
+"traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. "
+"With Evolution you can read, write, and manage your emails, contacts, and "
+"calendar events."
+msgstr ""
+"Інтегрований поштовий клієнт та клієнт ПЗ для групової роботи Evolution "
+"підтримує традиційну електронну пошту, а також підтримує роботу з Novell "
+"Groupwise та Microsoft Exchange. Користуючись Evolution ви можете читати, "
+"писати та керувати вашою поштою, контактами, та календарними подіями."
+
+#: ../rnapplications.xml:80
+msgid ""
+"In GNOME 2.10 it's now easier to work offline with your email, calendar, and "
+"contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
+"will resynchronize when you go back online."
+msgstr ""
+"У GNOME 2.10 тепер простіше користуватись режимом автономної роботи з "
+"поштою, календарем та контактами, якщо ви користуєтесь IMAP, LDAP, WebCal, "
+"Groupwise, чи Exchange. Усі внесені зміни синхронізуються з сервером при "
+"черговому підключенні до мережі."
+
+#: ../rnapplications.xml:85
+msgid "Files can be attached to events."
+msgstr "До подій можна прикріплювати файли."
+
+#: ../rnapplications.xml:86
+msgid "Exceptions can be made in recurring events."
+msgstr "Для періодичних подій можна робити винятки."
+
+#: ../rnapplications.xml:87
+msgid "The calendar includes weather information (US only)."
+msgstr "Календар включає інформацію про погоду (лише для США)."
+
+#: ../rnapplications.xml:83
+msgid ""
+"This new version offers some other calendar improvements: <placeholder-1/>"
+msgstr "У цій версії запропоновано вдосконалення календаря: <placeholder-1/>"
+
+#: ../rnapplications.xml:92
+msgid "daily weather forecasts"
+msgstr "щоденні прогнози погоди"
+
+#: ../rnapplications.xml:96
+msgid "The Evolution calendar client."
+msgstr "Клієнт календаря Evolution."
+
+#: ../rnapplications.xml:103
+msgid "Groupwise shared folders and send options are now supported."
+msgstr "Тепер підтримуються спільні теки та параметри надсилання Groupwise."
+
+#: ../rnapplications.xml:104
+msgid "Exchange folder sizes and password expiry warnings are supported."
+msgstr ""
+"Підтримуються розміри тек Exchange та попередження про закінчення терміну "
+"дії паролів."
+
+#: ../rnapplications.xml:105
+msgid ""
+"The email user interface will be properly mirrored for right-to-left "
+"languages."
+msgstr ""
+"Інтерфейс клієнта електронної пошти тепер правильно віддзеркалюється для мов "
+"з письмом справа-наліво."
+
+#: ../rnapplications.xml:101
+msgid "And yet more new features: <placeholder-1/>"
+msgstr "Та ще багато функцій: <placeholder-1/>"
+
+#: ../rnapplications.xml:110
+msgid "The email client"
+msgstr "Поштовий клієнт"
+
+#: ../rnapplications.xml:114
+msgid "The Evolution email client."
+msgstr "Поштовий клієнт Evolution."
+
+#: ../rnapplications.xml:122
+msgid "GnomeMeeting"
+msgstr "GnomeMeeting"
+
+#: ../rnapplications.xml:124
+msgid ""
+"GnomeMeeting allows users to see and speak to each other via internet "
+"telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is "
+"now shared with our Evolution email client, so you don't need to enter "
+"contact information in more than one place."
+msgstr ""
+"GnomeMeeting дозволяє користувачам бачити один одного та розмовляти через "
+"Інтернет-телефонію (VoIP) та відеоконференцзв'язок. У GNOME 2.10 адресна "
+"книга тепер спільна з поштовим клієнтом Evolution, тому тепер не  доведеться "
+"вводити інформацію про контакт більш ніж у одному місці."
+
+#: ../rnapplications.xml:128
+msgid ""
+"Now you can even browse for other GnomeMeeting users on your local network "
+"without discovering their contact details first. And you can view your own "
+"video output side by side with the video from your conversation partner, so "
+"you see what they see."
+msgstr ""
+"Тепер ви можете бачити інших користувачів GnomeMeeting у вашій локальній "
+"мережі без необхідності явного їх пошуку. Та тепер можна бачити відеопотік з "
+"вашої сторони поруч із відеопотоком зі сторони ваших співрозмовників, тож ви "
+"можете бачити те ж саме, що бачать вони."
+
+#: ../rnapplications.xml:132
+msgid "The internet telephony and video conferencing client"
+msgstr "Клієнт Інтернет-телефонії та відеоконференцій"
+
+#: ../rnapplications.xml:136
+msgid "GnomeMeeting with side-by-side video."
+msgstr "GnomeMeeting з кількома відеопотоками."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:31
+msgid ""
+"@@image: 'figures/figure-applet-modem.png'; "
+"md5=e578e556196eb7b5e18e8e23dec80f3d"
+msgstr ""
+"@@image: 'figures/figure-applet-modem.png'; "
+"md5=e578e556196eb7b5e18e8e23dec80f3d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:53
+msgid ""
+"@@image: 'figures/figure-applet-trash.png'; "
+"md5=3cae86562b76ef6650be8d0fbe007907"
+msgstr ""
+"@@image: 'figures/figure-applet-trash.png'; "
+"md5=3cae86562b76ef6650be8d0fbe007907"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:76
+msgid ""
+"@@image: 'figures/figure-applet-drivemount.png'; "
+"md5=47fa7b661de0c2ae0223fa211145fa11"
+msgstr ""
+"@@image: 'figures/figure-applet-drivemount.png'; "
+"md5=47fa7b661de0c2ae0223fa211145fa11"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:97
+msgid ""
+"@@image: 'figures/figure-applet-weather.png'; "
+"md5=c3a54721c5872fe130c9c24d969310bf"
+msgstr ""
+"@@image: 'figures/figure-applet-weather.png'; "
+"md5=c3a54721c5872fe130c9c24d969310bf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:120
+msgid ""
+"@@image: 'figures/figure-applet-mixer.png'; "
+"md5=3db86d251e280b32c35142524d4759f2"
+msgstr ""
+"@@image: 'figures/figure-applet-mixer.png'; "
+"md5=3db86d251e280b32c35142524d4759f2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:141
+msgid ""
+"@@image: 'figures/figure-applet-stickies.png'; "
+"md5=55648b50d6dde470bc89a2d9d51523d8"
+msgstr ""
+"@@image: 'figures/figure-applet-stickies.png'; "
+"md5=55648b50d6dde470bc89a2d9d51523d8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:161
+msgid ""
+"@@image: 'figures/figure-applet-cpufreq.png'; "
+"md5=81a2482710b2157df4fc66697490d28a"
+msgstr ""
+"@@image: 'figures/figure-applet-cpufreq.png'; "
+"md5=81a2482710b2157df4fc66697490d28a"
+
+#: ../rnapplets.xml:8
+msgid "Panel Items"
+msgstr "Елементи панелі"
+
+#: ../rnapplets.xml:10
+msgid ""
+"GNOME 2.10 includes major improvements to its panel items (also known as "
+"applets), providing new features and better integration with the rest of the "
+"desktop."
+msgstr ""
+"GNOME 2.10 включає значні вдосконалення елементів панелі (також відомих як "
+"аплети), забезпечуються нові функції та краща інтеграція з іншою частиною "
+"стільниці."
+
+#: ../rnapplets.xml:13
+msgid ""
+"The most visible change is the removal of the Actions panel menu and the "
+"addition of Places and Desktop menus. These provide fast access to the items "
+"you use most often, without navigating through sub-menus. For instance, the "
+"Places menu lists your home folder, your computer, networked servers, and "
+"the search feature. In the Desktop menu, you'll find your Preferences and "
+"Administration control panels, Log Out, and Help."
+msgstr ""
+"Найбільш значна зміна - видалення з панелі меню Дії та додавання меню Місця "
+"та Стільниця. Вони надають швидкий доступ до найбільш уживаних елементів, не "
+"змушуючи шукати їх у підменю.  Наприклад, у меню Місця можна знайти домашню "
+"теку, ваш комп'ютер, сервери мережі та функції пошуку. У меню Стільниця, ви "
+"знайдете програми керування Параметри та Системні параметри, пункти "
+"Завершити роботу, та Довідка."
+
+#: ../rnapplets.xml:15
+msgid ""
+"All of the panel menus are now defined by the cross-platform Freedesktop.org "
+"menu specification, so 3rd-party software may add itself to the Applications "
+"menu without even knowing about GNOME."
+msgstr ""
+"Усі меню на панелі тепер визначаються крос-платформним стандартом "
+"Freedesktop.org, тому програми інших постачальників можуть додавати себе у "
+"меню Програми, навіть нічого не знаючи про GNOME."
+
+#: ../rnapplets.xml:17
+msgid ""
+"Also, most applets can now be partly transparent, when the panel itself is "
+"transparent."
+msgstr ""
+"Також, більшість аплетів тепер частково прозорі, якщо ваша панель - прозора."
+
+#: ../rnapplets.xml:22
+msgid "Integrated Modem Control"
+msgstr "Інтегрований контроль модему"
+
+#: ../rnapplets.xml:23
+msgid ""
+"GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
+"with GNOME System Tools."
+msgstr ""
+"У GNOME 2.10 є новий аплет керування модемом, інтегрований з системними утилітами GNOME."
+
+#: ../rnapplets.xml:28 ../rnapplets.xml:33
+msgid "The new modem control applet"
+msgstr "Новий аплет керування модемом"
+
+#: ../rnapplets.xml:41
+msgid "Panel Trashcan"
+msgstr "Смітник на панелі"
+
+#: ../rnapplets.xml:43
+msgid ""
+"GNOME 2.10 features an optional trashcan for your Panel. Just like the "
+"trashcan on your desktop, you can now drag and drop files and other items "
+"into the trash without minimizing your open windows."
+msgstr ""
+"GNOME 2.10 може містити Смітник на панелі. Подібно до смітника на "
+"стільниці, ви можете перетягувати файли та інші елементи у смітник не "
+"мінімізуючи ваші вікна."
+
+#: ../rnapplets.xml:50
+msgid "a Trashcan on your Panel"
+msgstr "Смітник на вашій панелі"
+
+#: ../rnapplets.xml:55
+msgid "Drag trash to your panel"
+msgstr "Перетягування у смітник на панелі"
+
+#: ../rnapplets.xml:63
+msgid "Control Mounted Volumes"
+msgstr "Керування підключенням томів"
+
+#: ../rnapplets.xml:65
+msgid ""
+"GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, "
+"and USB memory sticks. Now the volume mounter applet helps you to use these "
+"volumes without the difficulty of finding their icons on the desktop, behind "
+"your open windows. The applet shows the currently mounted (or unmountable) "
+"volumes, allowing you to mount them, eject them, or open them in the file "
+"manager."
+msgstr ""
+"GNOME 2.8 дозволив швидко підключати цифрові носії даних, такі як CD, DVD, "
+"та flash-диски USB. Тепер аплет підключення томів допоможе використовувати "
+"ці томи, не змушуючи шукати їх значки на стільниці заваленій відкритими "
+"вікнами. Аплет відображає підключені (чи не підключені) томи, що дозволяє "
+"підключати їх, витягувати носій,  відкривати їх вміст у файловому менеджері. "
+
+#: ../rnapplets.xml:73
+msgid "Drive Mount"
+msgstr "Підключення дисків"
+
+#: ../rnapplets.xml:78
+msgid "The drive mount applet."
+msgstr "Аплет підключення диску."
+
+#: ../rnapplets.xml:86
+msgid "Get even more weather"
+msgstr "Ще більше погоди"
+
+#: ../rnapplets.xml:87
+msgid ""
+"The weather monitor can now show even more locations than before, and the "
+"location names have been translated into non-English languages where "
+"appropriate. In addition, the forecast now includes sunrise and sunset "
+"calculations for most locations."
+msgstr ""
+"Індикатор погоди тепер може відображати погоду у більшій кількості місць, "
+"ніж раніше, та назви місцевостей було перекладено з англійської, де це "
+"доречно. Додатково, для більшості місць прогноз погоди тепер включає час "
+"сходу та заходу сонця."
+#: ../rnapplets.xml:94
+msgid "Weather Report"
+msgstr "Зведення погоди"
+
+#: ../rnapplets.xml:99
+msgid "The weather report applet."
+msgstr "Аплет Зведення погоди."
+
+#: ../rnapplets.xml:107
+msgid "Sound control"
+msgstr "Керування звуком"
+
+#: ../rnapplets.xml:108
+msgid ""
+"A new mixer for your panel (combined with a new-look mixer on the desktop) "
+"gets the most from your sound hardware. Using the GStreamer multimedia "
+"framework, the mixer is now simpler and more convenient than before. The "
+"same multimedia framework powers Totem, Sound Juicer, the GNOME CD player "
+"and a variety of third-party applications, so changing the GNOME volume via "
+"the panel will change the volume of all these applications."
+msgstr ""
+"Новий аплет регулятора гучності (у комбінації з новою програмою регулювання "
+"гучності) отримає максимум з вашого обладнання. Завдяки мультимедійній "
+"підсистемі GStreamer, регулятор гучності тепер простіший та зручніший ніж "
+"раніше. Та ж мультимедійна підсистема використовується у Totem, Sound "
+"Juicer, та програвачі компакт-дисків для GNOME, тому зміна гучності у аплеті "
+"впливає на всі ці програми."
+
+#: ../rnapplets.xml:117
+msgid "all new mixer for your panel"
+msgstr "Новий регулятор гучності на панелі"
+
+#: ../rnapplets.xml:122
+msgid "All new mixer for your panel"
+msgstr "Новий регулятор гучності на панелі"
+
+#: ../rnapplets.xml:129
+msgid "Taking note"
+msgstr "Нотатки"
+
+#: ../rnapplets.xml:130
+msgid ""
+"The popular Sticky Notes applet now makes it even easier to add PostIt-style "
+"notes on your desktop, thanks to a simpler user interface and many bug "
+"fixes. For instance, sticky notes will now stay on the correct workspace, or "
+"even a different monitor."
+msgstr ""
+"Популярний аплет Липкі нотатки тепер дозволяє просто створювати на стільниці "
+"нотатки у PostIt-стилі, завдяки спрощеному інтерфейсу та виправленню "
+"багатьох помилок. Наприклад нотатка залишається на відповідній робочій "
+"області, або навіть на іншому моніторі."
+
+#: ../rnapplets.xml:133
+msgid ""
+"And sticky notes now stay on top other windows, so you can't lose them. To "
+"hide the notes, simply use the applet's right-click menu."
+msgstr ""
+"Також тепер липкі нотатки залишаються над іншими вікнами, тому ви їх не "
+"загубите. Щоб сховати липкі нотатки, просто клацніть правою кнопкою на "
+"аплеті."
+
+#: ../rnapplets.xml:138 ../rnapplets.xml:143
+msgid "Sticky Notes"
+msgstr "Липкі нотатки"
+
+#: ../rnapplets.xml:149
+msgid "Specially for laptops"
+msgstr "Спеціально для портативних комп'ютерів"
+
+#: ../rnapplets.xml:150
+msgid ""
+"GNOME now includes an applet to monitor your laptop's processor speed. The "
+"CPU Frequency Monitor watches variable-speed processors (such as those with "
+"Intel Speedstep or AMD PowerNow) to show their current status. You may even "
+"choose a different speed if you don't have automatic frequency scaling "
+"enabled."
+msgstr ""
+"Тепер до GNOME входить аплет для контролю швидкості процесора портативного "
+"комп'ютера. Індикатор частоти процесора відображає швидкість процесора, який "
+"підтримує зміну частоти (наприклад Intel Speedstep чи AMD PowerNow). Навіть "
+"якщо автоматичну зміну частоти не активовано, ви можете вибрати частоту. "
+
+#: ../rnapplets.xml:158 ../rnapplets.xml:163
+msgid "Monitor CPU Frequency Scaling"
+msgstr "Індикатор частоти процесора"
+
+#: ../rnapplets.xml:171
+msgid "Removed Applets"
+msgstr "Видалені аплети"
+
+#: ../rnapplets.xml:172
+msgid ""
+"Three applets were removed in GNOME 2.10, replaced by better alternatives in "
+"most cases."
+msgstr ""
+"Три аплети видалено з GNOME 2.10, більшість замінена їх альтернативами."
+
+#: ../rnapplets.xml:175
+msgid ""
+"The CD Player panel applet has been removed, so you will not see a CD player "
+"on your panel when you don't even have a CD in your drive. Instead, "
+"inserting a CD will now start the GNOME CD Player, which can then be "
+"controlled from a notification icon that it places in your Panel."
+msgstr ""
+"Було видалено аплет CD-програвача. Натомість при вставленні компакт-диску "
+"запускається програвач компакт-дисків для GNOME, яким можна керувати за "
+"допомогою значка у області сповіщення вашої панелі."
+
+#: ../rnapplets.xml:178
+msgid ""
+"The dedicated Wireless applet has been removed because the Network Monitor "
+"applet, introduced in GNOME 2.8, also includes wireless support."
+msgstr ""
+"Було видалено окремий аплет бездротового зв'язку, тому що індикацію "
+"бездротового зв'язку підтримує новий аплет індикатора мережі, доданий у "
+"GNOME 2.8."
+
+#: ../rnapplets.xml:181
+msgid ""
+"The Mailbox Monitor has been removed because it was unmaintained and "
+"insecure. We hope to have a solution integrated with our Evolution mail "
+"client in the future. If you don't use Evolution for your mail, you can use "
+"a third party application such as <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
+msgstr ""
+"Аплет індикатора вхідної пошти було видалено, тому що він не підтримувався "
+"та не є безпечним. У майбутньому, ми сподіваємось отримати інтегроване "
+"рішення на основі поштового клієнта Evolution. Якщо у вас не встановлено "
+"Evolution, можете використовувати інші програми, такі як <link href=\"http://"
+"www.nongnu.org/mailnotify/\">mailnotify</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../release-notes.xml:22
+msgid ""
+"@@image: 'figures/figure-gnome-desktop.png'; "
+"md5=a25ee1cd47ba6e56ce09a67de0b45372"
+msgstr ""
+"@@image: 'figures/figure-gnome-desktop.png'; "
+"md5=a25ee1cd47ba6e56ce09a67de0b45372"
+
+#: ../release-notes.xml:16
+msgid "GNOME 2.10 Release Notes"
+msgstr "Примітки до випуску GNOME 2.10"
+
+#: ../release-notes.xml:19
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../release-notes.xml:24
+msgid "The GNOME Desktop"
+msgstr "Стільниця GNOME"
+
+#: ../release-notes.xml:27
+msgid ""
+"The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
+"platform free desktop environment."
+msgstr ""
+"Графічне середовище GNOME 2.10  - свіжий випуск популярного, мультиплатформного графічного середовища."
+
+#: ../release-notes.xml:30
+msgid ""
+"The GNOME desktop releases continue to arrive on schedule. GNOME 2.10 "
+"includes a number of interesting new features and hundreds of bug fixes. "
+"This time GNOME also includes a video player and a CD-ripping utility. You "
+"can learn more in the following sections."
+msgstr ""
+"Випуски середовища GNOME продовжують виходити за графіком. GNOME 2.10 "
+"включає кілька нових цікавих властивостей та виправлення сотень помилок. "
+"Наразі GNOME також включає програвач відео та програму копіювання звуку з "
+"компакт-дисків. Дізнатись подробиці можна з наступних розділів."
+
+#: ../release-notes.xml:32
+msgid ""
+"GNOME provides a user-friendly environment that \"just works\" for everyday "
+"users, without excess complexity or obscure features. At the same time we "
+"provide the rich flexibility experienced developers demand."
+msgstr ""
+"GNOME забезпечує дружелюбне до користувача середовище яке \"просто працює\", "
+"без надмірної складності та незрозумілих функцій. У той самий час ми "
+"забезпечуємо  велику гнучкість потреб для досвідчених розробників."
+
+#: ../release-notes.xml:37
+msgid ""
+"GNOME runs on a variety of platforms, including GNU/Linux (commonly called "
+"Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes powerful "
+"features such as world-class smooth text rendering, a first-class "
+"accessibility infrastructure, and a complete internationalization "
+"infrastructure that includes support for bi-directional text."
+msgstr ""
+"GNOME працює на великій кількості платформ, включно з GNU/Linux (часто "
+"називається просто Linux), Solaris, HP-UX, BSD та платформою Darwin від "
+"Apple. GNOME включає потужні функції, такі як гладку растеризацію тексту, "
+"першокласну підтримку спеціальних можливостей, та повну інтернаціоналізацію, "
+"що включає підтримку двонаправленого тексту."
+
+#: ../release-notes.xml:44
+msgid ""
+"Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, "
+"which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
+"start/2.8/notes/\">release notes</ulink>."
+msgstr ""
+"Звичайно, GNOME 2.10 включає усі вдосконалення зроблені GNOME 2.8, про які "
+"можна дізнатись у <ulink url=\"http://www.gnome.org/start/2.8/notes/"
+"\">примітках до випуску</ulink> до GNOME 2.8."
+
+#: ../release-notes.xml:48
+msgid ""
+"The Desktop release contains all the applications needed to provide basic "
+"user functionality. Major applications such as <application>Gnumeric</"
+"application> and <application>OpenOffice.org</application> are also "
+"available, but are developed in parallel on their own release cycle rather "
+"than being included in the core GNOME release."
+msgstr ""
+"Цей випуск графічного середовища містить усі необхідні для виконання базових "
+"функцій програми. Також доступні великі програми, такі як "
+"<application>Gnumeric</application> та <application>OpenOffice.org</"
+"application>,але вони розробляються паралельно за власним графіком випуску, "
+"та не прив'язані до графіку випуску основи середовища GNOME."
+
+#: ../release-notes.xml:55
+msgid ""
+"GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/"
+"philosophy/free-sw.html\">free software</ulink>."
+msgstr ""
+"GNOME - це частина проекту GNU, та є <ulink url=\"http://www.fsf.org/"
+"philosophy/free-sw.html\">вільним програмним забезпеченням</ulink>."
+
+#: ../release-notes.xml:59
+msgid ""
+"Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</"
+"link> section, or use the links at the right to learn more about this "
+"release and the GNOME Desktop in general."
+msgstr ""
+"Перейдіть одразу до розділу  <link linkend=\"rnwhatsnew\">Що нового</link>, "
+"або скористайтесь посиланнями праворуч для докладнішого опису цього випуску "
+"середовища GNOME, та загального його опису."
+
+#: ../release-notes.xml:67
+msgid "What's New In GNOME 2.10"
+msgstr "Що нового у GNOME 2.10"
+
+#: ../release-notes.xml:92
+msgid "Known Issues"
+msgstr "Відомі проблеми"
+
+#: ../release-notes.xml:93
+msgid ""
+"All software, when it is released, contains bugs the developers know about "
+"but have chosen, for a variety of reasons, not to fix before releasing. Free "
+"software is no different in this regard from proprietary software, except "
+"that with free software, we tell users about these problems."
+msgstr ""
+"Усі програми на момент випуску містять помилки, про які відомо розробникам, "
+"але з різних причин вони не були виправлені перед випуском. У цьому вільне "
+"програмне забезпечення не відрізняється від комерційного, за винятком того, "
+"що вільне програмне забезпечення відкрито інформує користувачів про ці "
+"проблеми."
+
+#: ../release-notes.xml:98
+msgid ""
+"We also encourage our users to report bugs so that they can be fixed. The "
+"best way to report bugs found in GNOME is to use the <ulink url=\"http://"
+"bugzilla.gnome.org/simple-bug-guide.cgi\">Simple Bug Guide</ulink>. This "
+"will take you through the necessary steps to file a quality bug report, and "
+"make sure that it is tagged appropriately. If you're too advanced for "
+"anything with the word 'simple' in it, there is also the <ulink url=\"http://"
+"bugzilla.gnome.org/enter_bug.cgi\">traditional bug form</ulink>. More "
+"details on bugs already reported can be found at our <ulink url=\"http://"
+"bugzilla.gnome.org/\">Bugzilla</ulink>. Among the most prominent GNOME 2.10 "
+"bugs:"
+msgstr ""
+"Також ми заохочуємо користувачів сповіщати про помилки, щоб їх можна було "
+"виправити. Найкращий шлях сповістити про знайдені у GNOME помилки - "
+"скористуватись <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi"
+"\">Простим гідом з помилок</ulink>. Цей помічник допоможе пройти необхідні "
+"кроки для заповнення звіту про помилку, та переконатись, що він правильно "
+"заповнений. Якщо ви занадто досвідчена особа, для усього із словом "
+"'простий', скористайтесь <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi"
+"\">традиційною формою звіту про помилку</ulink>. Докладніше про вже відомі "
+"помилки можна знайти на нашій сторінці <ulink url=\"http://bugzilla.gnome."
+"org/\">Bugzilla</ulink>. Найбільш відомі помилки GNOME 2.10:"
+
+#: ../release-notes.xml:111
+msgid "List of known issues"
+msgstr "Перелік відомих проблем"
+
+#: ../release-notes.xml:115
+msgid ""
+"<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozilla/"
+"Firefox new window focus</ulink>: When you launch Mozilla or Firefox and "
+"already have another Mozilla or Firefox window open, the new window may "
+"appear without focus and behind the window that does have focus. GNOME's "
+"mozilla-based Epiphany browser does not have this problem, and Mozilla "
+"hackers are working to quickly fix this in future versions of Mozilla and "
+"Firefox."
+msgstr ""
+"<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Фокус "
+"вводу у нових вікнах Mozilla/Firefox</ulink>: Після запуску Mozilla чи "
+"Firefox, якщо вже відкрито інше вікно Mozilla чи Firefox, нове вікно може "
+"відкритись без передачі йому фокусу вводу та за вікном, яке має фокус вводу. "
+"Побудований на Mozilla веб-переглядач Epiphany не має цієї проблеми. "
+"Розробники Mozilla працюють над швидким виправленням цієї помилки у "
+"майбутніх версіях Mozilla чи Firefox."
+
+#: ../release-notes.xml:125
+msgid ""
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Session "
+"startup temporary hang</ulink>: Applications with broken session management "
+"can cause login to hang for a few minutes at the splashscreen. The default "
+"session does not contain any such apps so this will only become a problem if "
+"you save your session on logout. If you run into this problem, just wait for "
+"the login to proceed and then remove any such applications before saving "
+"your session again."
+msgstr ""
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Зависання "
+"запуску сеансу</ulink>: Програми з поламаною підтримкою керуванням сеансом "
+"при вході у сеанс можуть призводити до зависання зображення-заставки на "
+"декілька хвилин. Типовий сеанс не включає таких програм, тому це "
+"проявляється лише якщо ви зберігаєте  стан сеансу при виході з нього. Якщо "
+"ви зіштовхнулись з цією проблемою, просто зачекайте до завершення процесу "
+"входу у сеанс та потім видаліть усі такі програми перед повторним "
+"збереженням вашого сеансу."
+
+#: ../release-notes.xml:112
+msgid "<placeholder-1/>"
+msgstr "<placeholder-1/>"
+
+#: ../release-notes.xml:141
+msgid "Looking to GNOME 2.12 and Beyond"
+msgstr "Погляд на GNOME 2.12 та подальші версії"
+
+#: ../release-notes.xml:143
+msgid ""
+"GNOME operates on a time-based release philosophy, an attempt to "
+"continuously provide the best of our developers' efforts to users as quickly "
+"as we can. Six months after GNOME 2.10, we anticipate that GNOME 2.12 will "
+"feature more integrated multimedia and communication functionality and "
+"further advances in accessibility, usability and internationalization. See "
+"also the <ulink url=\"http://live.gnome.org/RoadMap\">GNOME roadmap</ulink>."
+msgstr ""
+"GNOME опирається на прив'язаний до часу графік випуску, намагаючись постійно "
+"концентрувати найкращі зусилля розробників для користувачів настільки "
+"швидко, наскільки це можливо. Через шість місяців після виходу GNOME 2.10, "
+"очікуємо, що GNOME 2.12 матиме більш інтегровану мультимедійну та "
+"комунікаційну функціональність та подальше вдосконалення спеціальних "
+"можливостей, зручності та інтернаціоналізації. Також дивіться <ulink url="
+"\"http://live.gnome.org/RoadMap\">Графік виходу GNOME</ulink>."
+
+#: ../release-notes.xml:151
+msgid "Getting Involved"
+msgstr "Приєднання до команди"
+
+#: ../release-notes.xml:152
+msgid ""
+"The core of GNOME's success is its many volunteers, both users and "
+"developers."
+msgstr ""
+"Основа успіху GNOME - численні добровольці, як користувачі так і розробники."
+
+#: ../release-notes.xml:156
+msgid ""
+"As a user, your contribution can be as simple as filing good bug reports. "
+"You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla."
+"gnome.org/simple-bug-guide.cgi\">simple bug assistant</ulink>. If you want "
+"to contribute more, you can join our active <ulink url=\"http://developer."
+"gnome.org/projects/bugsquad/\">bug-squad</ulink>."
+msgstr ""
+"Як користувач, ваш внесок може полягати у простому заповненні докладних "
+"звітів про помилки. Ви можете надсилати помилки у нашу систему Bugzilla "
+"використовуючи <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi"
+"\">простий помічник з помилок</ulink>. Якщо бажаєте зробити більший внесок, "
+"приєднуйтесь до нашого <ulink url=\"http://developer.gnome.org/projects/"
+"bugsquad/\">bug-squad</ulink>."
+
+#: ../release-notes.xml:164
+msgid ""
+"For developers, there is much exciting progress to be made in any of our "
+"active developer groups - Accessibility, Documentation, Usability, "
+"Translation, Web, Testing, Graphics, and Desktop &amp; Platform Development. "
+"Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you "
+"get started</ulink>."
+msgstr ""
+"Для розробників більш захоплюючий прогрес можливий у наших активних групах "
+"розробки - спеціальних можливостей, документації, зручності, перекладу, веб-"
+"тестування, графіки, розробки стільниці та платформи. Ось <ulink url="
+"\"http://live.gnome.org/JoinGnome\">довідник, що допоможе почати</ulink>."
+
+#: ../release-notes.xml:171
+msgid ""
+"Helping on GNOME can be an incredibly satisfying experience, allowing you to "
+"meet a wide range of motivated, skilled, and helpful people all working "
+"towards a unified goal. Join us today and see what a difference you can make."
+msgstr ""
+"Допомога GNOME може стати вражаючим неймовірним досвідом, що дозволить вам "
+"познайомитись з великою кількістю мотивованих, кваліфікованих, та корисних "
+"людей, які разом працюють над досягненням спільної мети. Приєднуйтесь до нас "
+"зараз та побачите чого ви можете досягти."
+
+#: ../release-notes.xml:180
+msgid "Credits"
+msgstr "Подяки"
+
+#: ../release-notes.xml:181
+msgid ""
+"These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
+"GNOME community."
+msgstr ""
+"Ці примітки до випуску було зібрано Murray Cumming, Davyd Madeley, та "
+"спільнотою GNOME. Переклад українською виконав Максим Дзюманенко "
+"(<email>mvd@mylinux.com.ua</email>)"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: ../release-notes.xml:0
+msgid "translator-credits"
+msgstr "Максим Дзюманенко <mvd@mylinux.com.ua>, 2005"
