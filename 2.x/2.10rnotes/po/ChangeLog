@@ -12,7 +12,6 @@
 	* xml-it/figures/figure-gnome-desktop.png
 	* xml-it/figures/figure-nautilus.png
 	* xml-it/figures/figure-soundjuicer.png: Added
-
 	
 2005-03-08  Alessio Frusciante  <algol@firenze.linux.it>
 
@@ -39,6 +38,7 @@
 	* xml-da/figures/figure-game-nibbles.png: Added
 	* xml-da/figures/figure-evolution-mail.png: Added
 	* xml-da/figures/figure-evolution-weather.png: Added
+	* xml-da/figures/figure-gnome-meeting.png: Added
 
 2005-03-08  Vincent van Adrighem  <adrighem@gnome.org>
 
