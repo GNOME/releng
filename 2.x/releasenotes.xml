@@ -611,8 +611,8 @@
 			<para>gconf-editor-0.2.tar.bz2 &mdash; 4 MB</para>
 		  </listitem>
 		</orderedlist>
-		In addition to the disk space required to build each package (given in
-		parentheses in the above list), the total space required to install
+		In addition to the disk space required to build each package
+		(give after the dash in the above list), the total space required to install
 		these packages is 341 MB.
       </para>
       <para>
@@ -733,6 +733,73 @@
     <sect3 id="solaris">
       <title>Solaris</title>
       <para>Notes about building on Solaris.</para>
+	<para>
+	  The following packages above and beyond those found on a complete Solaris
+	  system are needed:
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		gettext 0.10.40
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		popt 1.6.2
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		freetype >= 2.0.2
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		libaudiofile >= 0.2.3 
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		sox >= 12.17.3
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		jpeg v6b
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		libpng 1.0.12
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		tiff 3.55
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		scrollkeeper 0.3.10
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		ghostscript 6.53
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</para>
+	<para>
+	  In addition, you need a compiler, either
+	  <application>gcc</application> or <application>Forte 6 update
+	    2</application>. Older versions of
+	  <application>forte/Sunpro</application> have been known to cause
+	  problems.
+	</para>
       <para>
 		There are a number of patches recommended for building GNOME on 
 		Solaris, which can be obtained from <ulink
