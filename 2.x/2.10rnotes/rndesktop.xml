@@ -27,9 +27,8 @@
     </itemizedlist>
     </para>
 
-  <!--figure id="rnscreenshot-nautilus">
-    FIXME
-    <title>The file managert</title>
+  <figure id="rnscreenshot-nautilus">
+    <title>clean-cut and powerful, the Nautilus file manager</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-nautilus.png" format="PNG"/>
@@ -37,13 +36,12 @@
         <textobject><phrase>The file manager</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure -->
+  </figure>
 
     <para>GNOME &version; provides a new selection of pre-installed background images and patterns, so your desktop can become your own.</para>
 
-  <!--figure id="rnscreenshot-backgrounds">
-    FIXME
-    <title>The file managert</title>
+  <figure id="rnscreenshot-backgrounds">
+    <title>a selection of simple yet artistic backgrounds</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-backgrounds.png" format="PNG"/>
@@ -51,7 +49,7 @@
         <textobject><phrase>Desktop backgrounds</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure -->
+  </figure>
   
   </sect3>
 

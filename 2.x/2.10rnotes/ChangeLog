@@ -1,3 +1,17 @@
+2005-03-01  Davyd Madeley  <davyd@madeley.id.au>
+
+	* figures/*: remove old figures
+	
+	* figures/figure-backgrounds.png:
+	* figures/figure-nautilus.png:
+	* figures/figure-epiphany.png:
+	* figures/figure-soundjuicer.png:
+	* figures/figure-evolution-weather.png:
+	* figures/figure-totem.png: Some figures. 5px dropshadow offset.
+	
+	* rnapplications.xml:
+	* rndesktop.xml: Update for figures.
+
 2005-03-01  Murray Cumming  <murrayc@murrayc.com>
 
 	* rndesktop.xml: Removed the TODOs, fixed stuff, after email from 

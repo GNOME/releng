@@ -88,9 +88,19 @@
      <itemizedlist>
      <listitem><para>Files can be attached to events.</para></listitem>
      <listitem><para>Exceptions can be made in recurring events.</para></listitem>
-     <listitem><para>The calendar includes weather information.</para></listitem>
+     <listitem><para>The calendar includes weather information (US only).</para></listitem>
      </itemizedlist>
    </para>
+   
+   <figure id="rnscreenshot-evolution-weather">
+      <title>daily weather forecasts</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-evolution-weather.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Evolution calendar client.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
 
    <para>And yet more new features:
      <itemizedlist>
@@ -101,8 +111,8 @@
    </para>
 
    <para>
-   <figure id="rnscreenshot-evolution">
-      <title>The email client</title>
+   <figure id="rnscreenshot-evolution-mail">
+      <title>FIXME - The email client</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-evolution-mail.png" format="PNG"/></imageobject>
@@ -125,7 +135,7 @@
     <para>Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see.
 
     <figure id="rnscreenshot-gnomemeeting">
-      <title>The internet telephony and video conferencing client</title>
+      <title>FIXME (hard) - The internet telephony and video conferencing client</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-gnomemeeting.png" format="PNG"/></imageobject>
