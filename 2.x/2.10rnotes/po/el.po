@@ -1,7 +1,3 @@
-# translation of el.po to
-# translation of el.po to
-# translation of el.po to
-# translation of el.po to Greek
 # Greek translation of release notes for GNOME 2.10.
 # Kostas Papadimas <pkst@gnome.org>, 2005.
 # Nikos Charonitakis <charosn@her.forthnet.gr>, 2005.
@@ -1568,12 +1564,13 @@ msgstr ""
 "υπολογιστών."
 
 #: ../rnsysadmin.xml:26 (para)
+#, fuzzy
 msgid ""
-"Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
+"Networking: Improved wireless support (WEP and ESSID detection), and ISDN "
 "connections."
 msgstr ""
 "Δικτύωση: Βελτιωμένη υποστήριξη ασύρματων ευρυζωνικών συνδέσεων (εντοπισμός "
-"WEP και ESSID), καθώς και συνδέσεων IDSN."
+"WEP και ESSID), καθώς και συνδέσεων ISDN."
 
 #: ../rnsysadmin.xml:27 (para)
 msgid "Users and Groups: Easier editing of group members."
