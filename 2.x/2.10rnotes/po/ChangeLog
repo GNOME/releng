@@ -1,3 +1,11 @@
+2005-03-08  Frank Arnold  <farnold@cvs.gnome.org>
+
+	* de.po: Updated German translation.
+	* xml-de/figures/figure-epiphany.png,
+	  xml-de/figures/figure-evolution-weather.png,
+	  xml-de/figures/figure-gedit.png,
+	  xml-de/figures/figure-gnome-desktop.png: Small modifications.
+
 2005-03-08  Laurent Dhima  <laurenti@alblinux.net>
 
  * sq.po: Updated Albanian translation.
