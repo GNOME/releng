@@ -35,14 +35,19 @@
   <sect3 id="rna11y-accessibility-gnopernicus">
   <title>Screen Reader and Magnifier</title>
 
-  <para>The Gnopernicus screen reader and magnifier has some new features in GNOME &version;.
+  <para>The Gnopernicus screen reader and magnifier has some new features in GNOME &version;, based on user needs.
 
-  TODO: rewrite this based on email asking for explanation: For instance, the magnifier can
-  now track the mouse and focus in either proportional, centered or push modes. The crosshair is rather useful for users with specific visual disabilities.
+  <itemizedlist>
+  <listitem><para>The &quot;watch any widget&quot; feature allows blind user to monitor changes to any part of the user interface. For
+  instance, blind users can track changes to a message field, while entering text in another.</para></listitem>
 
-  Blind users will appreciate the &quot;watch any widget&quot; feature as well as the &quot;describe my surroundings&quot;
-  feature. A very versatile presentation scheme based on role events and devices exist, and it would fulfill the most
-  sophisticated needs, including support for multi-layered numerical keypad control.
+  <listitem><para>The &quot;describe my surroundings&quot; feature gives blind users information about the context of
+  the currently focused UI component, via speech or braile.</para></listitem>
+
+  <listitem><para>And when used as an onscreen magnifier, gnopernicus now gives users even more control over tracking and
+  cursor presentation.</para></listitem>
+  </itemizedlist>
+
   </para>
 
   </sect3>
@@ -51,8 +56,9 @@
   <sect3 id="rna11y-accessibility-dasher">
   <title>Dasher</title>
 
-  <para>Dasher is a predictive input system that should be particularly useful to people with severe disabilities.  At the moment, it
-  allows text entry, but future versions should allow complete control of the desktop.
+  <para>Dasher is an innovative predictive input system that should be particularly useful to people with severe disabilities.
+  At the moment, it allows text entry, but future versions should allow complete control of the desktop. It is also useful on
+  small devices such as PDAs, to allow more efficient text entry without a keyboard.
 
   <figure id="rnscreenshot-accessibility-dasher">
     <title>Dasher</title>
