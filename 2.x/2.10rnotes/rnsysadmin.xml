@@ -60,7 +60,7 @@
           <mediaobject>
             <imageobject><imagedata fileref="&urlfiguresbase;figure-logviewer.png" format="PNG"/>
             </imageobject>
-          <textobject><phrase>The Log Viewer, during a seach.</phrase></textobject>
+          <textobject><phrase>The Log Viewer, during a search.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>

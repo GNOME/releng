@@ -1,3 +1,7 @@
+2005-03-03  Frank Arnold  <farnold@cvs.gnome.org>
+
+	* rnsysadmin.xml: Fixed a typo.
+
 2005-03-03  Murray Cumming  <murrayc@murrayc.com>
 
 	* release-notes.xml: Fix the caption of the desktop screenshot - 
