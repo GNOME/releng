@@ -111,11 +111,13 @@ stripchart		=		-		* not necessary, applets do the same	-
 </section>
 
 <section title="Fifth Toe">
-evolution		-		-		-			-
+evolution		=		1.0.1		not ported			-
 gal			-		-		-			-
 galeon			-		-		-			-
 ggv			=		-					Jaka Mocnik <jaka@gnu.org>
 gimp			-		-		-			-
+GNOMEMeeting    -		-		-			-
+GStreamer		-		-		-			-
 gtk-engines		-		-		-			-
 pan			-		-		-			-
 xchat			-		-		-			-
