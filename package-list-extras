@@ -28,7 +28,7 @@ eog                0.6         yes           no         yes       no
 GnomeICU           0.95.5      no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
 gabber             0.8.2       no            no         yes       yes         Julian Missig <julian@jabber.org>
 galeon             0.9pre3     yes           no         yes       yes         Marco Pesenti Gritti <mpeseng@tin.it>
-gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.point>
+gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.pt>
 Pan                0.9.3       no            no         yes       no          pan@superpimp.org
 Balsa              1.0.0                                                      Jay Painter <jpaint@balsa.net>
 Firestarter        0.6.0       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
