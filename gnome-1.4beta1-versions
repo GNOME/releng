@@ -9,7 +9,7 @@ control-center
 esound              
 gconf               
 gdk-pixbuf          
-gdm                 
+gdm                 2.0.98
 ggv                 
 ghex                
 glade               
