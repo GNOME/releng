@@ -1328,20 +1328,19 @@ In order to simplify sawfish code and user interface, viewports have
 		Note that these lists include fixes on unreleased branches, and a few things that were fixed after the 2.0.1 tarballs were released, so the numbers may be slightly inflated.
 	</para>
 	<para>
-		Significant bugs mentioned in the previous release notes, now fixed, are listed here:
+		Several bugs mentioned in the previous release notes have now been fixed and are listed here:
 	</para>
 	
     <sect2>
       <title>NFS-mounted $HOME directory</title>
       <para>
-		FIXED: For people with NFS-mounted <envar>$HOME</envar> directories, you 
-		cannot drag files from the <application>Nautilus</application> view 
-		windows to the <guilabel>trashcan</guilabel> (you get an error about 
-		the trash file not being a directory). You can still delete files by 
-		selecting and then pressing the <keycap>Delete</keycap> key, or by 
-		context-clicking on the item in question and selecting 
-		<guimenuitem>Send to Trash</guimenuitem>. This will be
-		fixed in the next release, and is <ulink
+		FIXED: For people with NFS-mounted
+		<envar>$HOME</envar> directories,it was not possible
+		to drag files from the
+		<application>Nautilus</application> view windows to
+		the <guilabel>trashcan</guilabel> (it would generate
+		an error about the trash file not being a
+		directory).This was <ulink
 		url="http://bugzilla.gnome.org/show_bug.cgi?id=82644">bug
 		82644</ulink>.
       </para>
@@ -1350,17 +1349,15 @@ In order to simplify sawfish code and user interface, viewports have
     <sect2 id="dotgnome">
       <title>.gnome</title>
       <para>
-		FIXED: &g2; uses <filename>$HOME/.gnome2</filename> and 
-		<filename>$HOME/.gnome2_private</filename> as 
-		directories for storing stuff. However, you cannot completely remove 
-		<filename>$HOME/.gnome</filename>, since
-		gnome-vfs needs it and does not create it, so any modifications that
-		gnome-vfs needs to save in the user's directory will not be saved. 
-		Thus, users need to create a 
-		<filename>$HOME/.gnome</filename> directory before 
-		starting &g2;. This will particularly affect people doing an 
-		install on a clean system or those who have removed .gnome to get 
-		around some upgrade problems. This will be fixed in
+		FIXED: &g2; uses <filename>$HOME/.gnome2</filename>
+		and <filename>$HOME/.gnome2_private</filename> as
+		directories for storing stuff. However, you could not
+		completely remove <filename>$HOME/.gnome</filename>,
+		since gnome-vfs needs it and did not create it, so any
+		modifications that gnome-vfs needs to save in the
+		user's directory would not be saved.  Thus, users
+		needed to create a <filename>$HOME/.gnome</filename>
+		directory before starting &g2;. This has been fixed in
 		2.0.1 and is <ulink
 		url="http://bugzilla.gnome.org/show_bug.cgi?id=84183">bug
 		84183</ulink>.
@@ -1369,10 +1366,9 @@ In order to simplify sawfish code and user interface, viewports have
     <sect2>
       <title>Cannot drag and drop from Nautilus list view</title>
       <para>
-FIXED: You can't drag and drop files from the list view as you can in the
-		icon view. It is hoped that this will be fixed in the
-		next release. You can track progress on this bug or
-		contribute yourself via <ulink
+FIXED: It wasn't possible to drag and drop files from the list view as
+		you can in the icon view. This is now fixed and was
+		<ulink
 		url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">bug
 		74974</ulink>.
       </para>
