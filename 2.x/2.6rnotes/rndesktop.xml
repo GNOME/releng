@@ -59,7 +59,7 @@
 
     <para>The organisation of the file system and network have been reorganized into the top-level &quot;Computer&quot; location.
     This is where you can find your CD Rom and floppy drives and your hard disk's file system. This is also where you will see
-    your network drives, because you can now mount Windows SMB servers, and ftp, sftp (ssh) and NFS locations here.</para>
+    your network drives, because you can now mount Windows SMB servers, and ftp, and sftp (ssh) locations here.</para>
 
     <figure id="rnscreenshot-nautilus-computer">
       <title>The Computer location</title>
