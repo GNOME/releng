@@ -12,6 +12,8 @@
 <!ENTITY rnterminal SYSTEM "rnterminal.xml">
 <!ENTITY rnmultihead SYSTEM "rnmultihead.xml">
 <!ENTITY rnthemes SYSTEM "rnthemes.xml">
+<!ENTITY rndocs SYSTEM "rndocs.xml">
+<!ENTITY rni18n SYSTEM "rni18n.xml">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
@@ -33,10 +35,13 @@
     internationalization and accessibility support, including support for
     bi-directional text.</para>
     <para>GNOME &version; builds on the successful GNOME 2.0.x releases, with
-    enhanced font rendering using font-config and Xft technology, improved
+    enhanced font rendering using fontconfig and Xft technology, improved
     usability and theme support and new utilities and
     applications. GNOME &version; also brings a new multimedia framework,
       <application>GStreamer</application>, to the desktop.</para>
+    <para>The Desktop and Platform release does not include large applications 
+      such as <application>Gnumeric</application>; those are developed in parallel
+      on their own natural release cycle.</para>
     <para>GNOME is part of the GNU Project, and is <ulink
     url="http://www.fsf.org/philosophy/free-sw.html">free
     software</ulink>.</para>
@@ -101,6 +106,14 @@
  
 
   </sect1>
+
+ <sect1 id="rndocs">
+  &rndocs;
+ </sect1>
+
+ <sect1 id="rni18n">
+  &rni18n;
+ </sect1>
 
   <sect1 id="rninstallation">
     <title>Installation of  the GNOME &version; Developer Platform and
