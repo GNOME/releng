@@ -6,7 +6,7 @@
 # 			- means not in gnome cvs or not applicable
 
 <section title="Developer Platform">
-GConf			=		1.1.4		frozen			Havoc Pennington <hp@redhat.com>
+GConf			=		1.1.5		frozen			Havoc Pennington <hp@redhat.com>
 ORBit2			=		2.3.98		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 at-spi			=		0.0.3		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 atk			=		0.7		not frozen		Bill Haneman <Bill.Haneman@sun.com>
