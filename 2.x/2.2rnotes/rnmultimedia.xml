@@ -1,6 +1,6 @@
 <sect2 id="rnmultimedia">
     <title>Multimedia</title>
-    <para>GNOME 2.2 includes the <ulink href="http://gstreamer.sourceforge.net/">GStreamer</ulink> multimedia framework for this first time. This has made the following functionality possible:</para>
+    <para>GNOME 2.2 includes the <ulink url="http://gstreamer.sourceforge.net/">GStreamer</ulink> multimedia framework for this first time. This has made the following functionality possible:</para>
 
     <sect3><title>Special views in the file manager</title>
     <para>

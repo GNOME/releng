@@ -27,10 +27,10 @@ and handling the file manager MIME types, this utility is very much more
 integrated with the desktop. TODO: link to the mention in the Panel section.</para>
 
   </sect3>
-
+<!--
     <para>TODO: This isn't really a user-visible feature. murrayc: We have brought back 'gdialog', the Gtk/GNOME version of the dialog
 utility. This utility is useful for using with scripts, in particular Nautilus
 scripts. Users may be interested in Zenity, a basic rewrite of 'gdialog', that
 should be released in the Fifth Toe, later this year.</para>
-
+-->
 </sect2>
