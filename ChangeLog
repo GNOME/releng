@@ -1,3 +1,9 @@
+2003-01-22  Mark McLoughlin  <mark@skynet.ie>
+
+	* 2.x/moduleinfo.py: add this list of what's in
+	the release so we can generate the build order and
+	dependancy diagram from it.
+
 2003-01-20  Alex Duggan  <aldug@astrolinux.com>
 
 	* 2.x/package-list: moved libvte to vte.  Approved by Murray.
