@@ -10,7 +10,9 @@
     Desktop</title>
 
    <para>We recommend that you use official installation packages, such as those for your linux distribution. Vendors are likely to package GNOME &version; relatively quickly, and to release new versions soon that include GNOME &version;. However, many people don't want to wait, and will want to build GNOME from source code, even though that is more difficult.</para>
-  
+
+   <para>Building from source is even more difficult than normal this time, because GNOME 2.8 requires your existing applications to register themselves in the new cross-desktop MIME-type system.</p>
+   <para>As with GNOME 2.6, you must define the XDG_DATA_DIRS environment variable to the path at which your MIME database is installed, for instance <literal>&lt;prefix&gt;/share</literal>.
 
     <sect2 id="rndeps">
       <title>External Dependencies</title>
