@@ -67,7 +67,7 @@
 <figure>
   <title>Notification Area</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_notification_areaTODO.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_notification_area.png"/>
   </screenshot>
 </figure>
 
@@ -81,7 +81,7 @@
 <figure>
   <title>Wireless Link</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_wirelessTODO.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_wireless.png"/>
   </screenshot>
 </figure>
 
