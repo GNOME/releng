@@ -18,7 +18,21 @@
     <abstract>
       <title>Introduction</title>
       <para>The GNOME &version; Desktop and Platform release is the latest
-    version of the popular, multi-platform free desktop environment.</para>
+	release of the popular, multi-platform free desktop environment.</para>
+      <para>GNOME &version; expands the offerings of the popular free software
+	destop, with a new web browser that based on the most standards-compliant
+	rendering widget available, the best accessibility tools available on
+	any platform, a number of new applications to make day-to-day desktop
+      use easier and a continued commitment to creating a computing environment
+      that "just works".</para>
+
+<!-- http://makeashorterlink.com/?S27F22875 bugzilla query to check fulfilled
+      enhancement requests since 2.2 courtesy aldug -->
+
+      <para>GNOME 2.4 includes ? new applications and more than 100
+      user-requested enhancements, evidence of the user-driven community
+      development process used to create each GNOME release.</para>
+
     <para>GNOME runs on a variety of platforms, including GNU/Linux (commonly
     called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes
     powerful features such as high-quality smooth text rendering, a first class
@@ -33,13 +47,15 @@
     demand. We have tried to avoid unnecessary complications or
     obscure features, sticking instead to a clear, unified
     vision.</para>
+<!-- my inclination (jfleck) is to not do this, unless we're really clear what it is
+    we're willing to commit to
 
 	<para>TODO: Forward-looking motivational statement. In the future you can look
 	forward to further enhancements from regularly scheduled GNOME
 	releases.</para>
-
-    <para>Of course GNOME 2.4 includes all of the improvements made in
-    GNOME &version;, which you can learn about <ulink
+-->
+    <para>Of course GNOME &version; includes all of the improvements made in
+    GNOME 2.2, which you can learn about <ulink
     url="http://www.gnome.org/start/2.2/notes/">here</ulink>.</para>
 
     <para>The Desktop and Platform release does not include large applications
@@ -64,8 +80,8 @@
   </sect1>
   <sect1 id="rnapplications">
     <title>Applications</title>
-    <para>GNOME &version; includes many new and improved applications.</para>
-  TODO: Reference separate .xml files via entities.
+    <para>GNOME &version; includes many new and improved applications.
+  TODO: Reference separate .xml files via entities.</para>
   </sect1>
 
  <sect1 id="rndocs">
