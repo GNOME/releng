@@ -1,3 +1,8 @@
+2003-09-09  Mark McLoughlin  <mark@skynet.ie>
+
+	* single_module/tools/list_translators.sh: play with the voodoo
+	a bit.
+
 2003-07-07  Mark McLoughlin  <mark@skynet.ie>
 
 	* single_module/tools/list_translators.sh: fix a couple of things.
