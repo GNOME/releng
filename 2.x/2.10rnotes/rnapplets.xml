@@ -8,24 +8,17 @@
   <title>Panel Items</title>
 
   <para>
-   GNOME &version; has had a significant focus on panel items (sometimes
-   referred to as applets). Many panel applications have been rewritten in order
-   to fully leverage new technology on the desktop, as well as give tighter
-   integration with the rest of the desktop.
+   GNOME &version; includes major improvements to its panel items (also known as applets), providing new features, and better integration with the rest of the desktop.
   </para>
 
   <para>
-   Most applets now support the transparent panel setting that has been
-   available in GNOME for a long time. Allowing users to be able to have
-   transparent, or translucent panels.
+   Most applets can now be partly transparent, when the panel itself is transparent.
   </para>
  
   <sect3 id="rnapplets-modemlights">
   <title>Integrated Modem Control</title>
   <para>
-   A new applet for controlling your Modem debuts in GNOME &version;. This
-   monitor integrates with GNOME System Tools to give you a unified method for
-   controlling and monitoring the state of your Modem.
+   GNOME &version; introduces a new applet for controlling your Modem, integrated with GNOME System Tools.
 
    <!-- figure id="rnscreenshot-panel-applet-modemlights">
     FIXME
@@ -46,11 +39,9 @@
   <title>Panel Trashcan</title>
 
   <para>
-   Oft requested, GNOME &version; features an optional trashcan for your Panel.
-   Just like the trashcan on your desktop, you can drag and drop onto the trash
-   to remove files and do other actions. Clicking on the trashcan will allow you
-   to view deleted items in Nautilus, or you can simply empty your trash from
-   the Panel.
+   GNOME &version; features an optional trashcan for your Panel.
+   Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash
+   without minimising your open windows.
 
   <!-- figure id="rnscreenshot-panel-applet-networkmonitor">
     FIXME
@@ -70,13 +61,10 @@
   <title>Control Mounted Volumes</title>
 
   <para>
-   In the age of removable, easy to use digital media, we are constantly adding
-   and removing volumes from our computer systems. The volume mounter applet
-   can help. Integrating into GNOME-VFS, the same interface that Nautilus uses
-   to mount and unmount volumes. This application shows you the current user
-   mountable (or unmountable) volumes, allowing you to mount them, eject them or
-   open them in Nautilus. It is the perfect compliment to Nautilus and the GNOME
-   Volume Manager.
+   GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, and USB memory sticks.
+   Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind 
+   your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing 
+   you to mount them, eject them, or open them in the file manager.
    
    <!-- figure id="rnscreenshot-panel-applet-batterymonitor">
     FIXME
@@ -96,11 +84,9 @@
   <sect3 id="rnapplets-gweather">
   <title>Get even more weather</title>
   <para>
-   The weather monitor has even more locations then ever before, and our team of
-   localisers have worked hard to clean up the weather locations available in
-   your area. In addition to this, we have improved the collection of weather
-   information and added new weather information, including sunrise and sunset
-   calculations for most of our locations.
+   The weather monitor can now show even more locations then before, and the 
+   location names have been translated into non-english languages where appropriate.
+   In addition, the forecast now includes sunrise and sunset calculations for most locations.</para>
 
    <!-- figure id="rnscreenshot-panel-applet-weather">
    FIXME
@@ -121,47 +107,44 @@
   <title>Sound control</title>
   <para>
    A new mixer for your panel (combined with a new look mixer on the desktop)
-   leaverages the most out of your sound hardware. Using the GStreamer
-   multimedia framework (the same framework that powers Totem, Sound Juicer,
-   the GNOME CD player and a pantheon of third party applications), the mixer is
-   now more flexible and stable then ever before. Additionally, like many
-   programs in GNOME &version; the look of the mixer is entirely themable via
-   the GNOME icon theme.
+   gets the most from your sound hardware. Using the GStreamer
+   multimedia framework, the mixer is now more convenient and stable then before. 
+   The same multimedia framework powers Totem, Sound Juicer, the GNOME CD player 
+   and a variety of third-party applications, so changing the GNOME volume 
+   via the panel will change the volume of all these applications. TODO: Is this last sentence true/new/meaningful?
   </para>
   </sect3>
 
   <sect3 id="rnapplets-stickynotes">
   <title>Taking note</title>
   <para>
-   The ever popular stickynote program, that leaves PostIt style notes on your
-   desktop has been improved to offer new features and become aware of your
-   different workspaces. Now if you have multiple workspaces, your stickynotes
-   will stay where they belong.
+   The popular Sticky Notes applet has a simpler user interface and many bugs have been fixed, so it's 
+   now even easier to add PostIt-style notes on your desktop. For instance, sticky notes will now stay 
+   on the correct workspace, or even a different monitor.
   </para>
-  <para>
-   Stickynotes now also act slightly differently from before. Stickynotes now
-   remain on top of the desktop so that you can't lose them. To hide the notes,
-   simply click on the icon and select to hide the stickynotes. Now your
-   stickynotes will always be where you expect them.
+  <para>And sticky motes now stay on top other windows, so you can't lose them. To hide the notes,
+   simply use the applet's right-click menu. 
   </para>
   </sect3>
 
   <sect3 id="rnapplet-cpufreq">
-  <title>Especially for laptops</title>
+  <title>Specially for laptops</title>
   <para>
-   GNOME now includes something to monitor the speed of your laptop CPU. The CPU
-   Frequency Monitor talks to frequency scalable processers (like those with
-   Intel Speedstep) to find out how fast they are currently running. It also
-   offers a selection of speeds for you to choose between if you don't have
-   automatic frequency scaling enabled.
+   GNOME now includes an applet to monitor your laptop's processor speed. The CPU
+   Frequency Monitor talks to variable-speed processers (such as those with 
+   Intel Speedstep) to show their current status. It even allows you to choose 
+   a different speed if you don't have automatic frequency scaling enabled.
   </para>
   </sect3>
 
+ 
   <para>
-   Some applets have gone away in GNOME &version; because they have either been
+TODO: Rewrote this:
+   Some applets have been removed in GNOME &version; because they have either been
    replaced by something better, or were unmainted and insecure. The three
    applets to be removed are, the CD Player applet, the standalone wireless
    monitor and mailbox check applet.
+
   </para>
   <para>
    The CD Player panel applet did not interoperate well with GNOME CD Player,
