@@ -1,3 +1,8 @@
+2005-03-01  Danilo Šegan  <dsegan@gmx.net>
+
+	* rni18n.xml: Update language lists with 50 best supported
+	languages as of now (those that don't make it will be removed).
+
 2005-03-02  Davyd Madeley  <davyd@madeley.id.au>
 
 	* figures/figure-applet-modem.png: Another figure. Probably about
@@ -21,6 +26,7 @@
 	* rnapplications.xml:
 	* rndesktop.xml: Update for figures.
 
+>>>>>>> 1.25
 2005-03-01  Murray Cumming  <murrayc@murrayc.com>
 
 	* rndesktop.xml: Removed the TODOs, fixed stuff, after email from 

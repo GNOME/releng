@@ -38,46 +38,55 @@
     <!-- languages on the list that are currently under quota, are marked with
     their current translation count -->
     <itemizedlist>
-      <!-- 100.00% --><listitem><para>Albanian (5 million speakers)</para></listitem>
-      <!-- 95.30% --><listitem><para>Arabic (235 million)</para></listitem>
-      <!-- 92.12% --><listitem><para>Azerbaijani (28 million)</para></listitem>
-      <!-- 84.37% --><listitem><para>Basque (580,000)</para></listitem>
-      <!-- 90.41% --><listitem><para>Bengali (189 million)</para></listitem>
-      <!-- 99.98% --><listitem><para>Brazilian Portuguese (175 million)</para></listitem>
-      <!-- 88.89% --><listitem><para>Bulgarian (9 million)</para></listitem>
-      <!-- 84.76% --><listitem><para>Catalan (7 million)</para></listitem>
-      <!-- 98.79% --><listitem><para>Chinese Simplified (over 1 billion)</para></listitem>
-      <!-- 91.73% --><listitem><para>Chinese Traditional (40 million)</para></listitem>
-      <!-- 99.97% --><listitem><para>Czech (11 million)</para></listitem>
-      <!-- 98.90% --><listitem><para>Danish (5.3 million)</para></listitem>
-      <!-- 99.22% --><listitem><para>Dutch (over 21 million)</para></listitem>
-      <!-- 0.00% --><listitem><para>English (341 million)</para></listitem>
-      <!-- 99.72% --><listitem><para>Finnish (over 5 million)</para></listitem>
-      <!-- 84.59% --><listitem><para>French (over 75 million)</para></listitem>
-      <!-- 99.96% --><listitem><para>German (100 million)</para></listitem>
-      <!-- 99.07% --><listitem><para>Greek (15 million)</para></listitem>
+      <!-- 97.00% --><listitem><para>Albanian (5 million speakers)</para></listitem>
+      <!-- 71.99% --><listitem><para>Arabic (235 million)</para></listitem>
+      <!-- 70.62% --><listitem><para>Azerbaijani (28 million)</para></listitem>
+      <!-- 66.07% --><listitem><para>Basque (580,000)</para></listitem>
+      <!-- 54.45% --><listitem><para>Belarusian (7 million)</para></listitem>
+      <!-- 55.75% --><listitem><para>Bengali (189 million)</para></listitem>
+      <!-- 57.67% --><listitem><para>Bosnian (3 million)</para></listitem>
+      <!-- 97.03% --><listitem><para>Brazilian Portuguese (175 million)</para></listitem>
+      <!-- 97.86% --><listitem><para>Bulgarian (9 million)</para></listitem>
+      <!-- 99.20% --><listitem><para>Catalan (7 million)</para></listitem>
+      <!-- 87.29% --><listitem><para>Chinese Simplified (over 1 billion)</para></listitem>
+      <!-- 77.66% --><listitem><para>Chinese Traditional (40 million)</para></listitem>
+      <!-- 59.72% --><listitem><para>Croatian (5 million)</para></listitem>
+      <!-- 99.98% --><listitem><para>Czech (11 million)</para></listitem>
+      <!-- 100.00% --><listitem><para>Danish (5.3 million)</para></listitem>
+      <!-- 96.36% --><listitem><para>Dutch (over 21 million)</para></listitem>
+      <!-- % --><listitem><para>English (341 million)</para></listitem>
+      <!-- 65.39% --><listitem><para>Estonian (1 million)</para></listitem>
+      <!-- 92.93% --><listitem><para>Finnish (over 5 million)</para></listitem>
+      <!-- 96.62% --><listitem><para>French (over 75 million)</para></listitem>
+      <!-- 100.00% --><listitem><para>German (100 million)</para></listitem>
+      <!-- 100.00% --><listitem><para>Greek (15 million)</para></listitem>
       <!-- 100.00% --><listitem><para>Gujarati (46 million)</para></listitem>
-      <!-- 82.66% --><listitem><para>Hindi (370 million)</para></listitem>
-      <!-- 87.68% --><listitem><para>Hungarian (14.5 million)</para></listitem>
-      <!-- 84.56% --><listitem><para>Italian (60 million)</para></listitem>
-      <!-- 100.00% --><listitem><para>Japanese (over 125 million)</para></listitem>
-      <!-- 91.54% --><listitem><para>Korean (75 million)</para></listitem>
-      <!-- 93.20% --><listitem><para>Lithuanian (4 million)</para></listitem>
-      <!-- 80.06% --><listitem><para>Malay (over 17 million)</para></listitem>
-      <!-- 94.53% --><listitem><para>Norwegian Bookmal (5 million)</para></listitem>
-      <!-- 82.56% --><listitem><para>Norwegian Nynorsk</para></listitem>
-      <!-- 100.00% --><listitem><para>Panjabi (60 million)</para></listitem>
-      <!-- 100.00% --><listitem><para>Polish (44 million)</para></listitem>
-      <!-- 100.00% --><listitem><para>Portuguese (43 million)</para></listitem>
-      <!-- 80.83% --><listitem><para>Romanian (26 million)</para></listitem>
-      <!-- 91.24% --><listitem><para>Russian (170 million)</para></listitem>
-      <!-- 100.00% --><listitem><para>Serbian (10 million)</para></listitem>
+      <!-- 76.71% --><listitem><para>Hindi (370 million)</para></listitem>
+      <!-- 84.73% --><listitem><para>Hungarian (14.5 million)</para></listitem>
+      <!-- 51.69% --><listitem><para>Indonesian (25 million)</para></listitem>
+      <!-- 79.51% --><listitem><para>Italian (60 million)</para></listitem>
+      <!-- 99.57% --><listitem><para>Japanese (over 125 million)</para></listitem>
+      <!-- 99.38% --><listitem><para>Korean (75 million)</para></listitem>
+      <!-- 100.00% --><listitem><para>Lithuanian (4 million)</para></listitem>
+      <!-- 65.07% --><listitem><para>Macedonian (1.5 million)</para></listitem>
+      <!-- 63.03% --><listitem><para>Malay (over 17 million)</para></listitem>
+      <!-- 57.33% --><listitem><para>Mongolian (10 million)</para></listitem>
+      <!-- 95.10% --><listitem><para>Norwegian Bookmal (5 million)</para></listitem>
+      <!-- 73.06% --><listitem><para>Norwegian Nynorsk (2 million)</para></listitem>
+      <!-- 92.40% --><listitem><para>Panjabi (60 million)</para></listitem>
+      <!-- 96.61% --><listitem><para>Polish (44 million)</para></listitem>
+      <!-- 92.37% --><listitem><para>Portuguese (43 million)</para></listitem>
+      <!-- 64.14% --><listitem><para>Romanian (26 million)</para></listitem>
+      <!-- 95.58% --><listitem><para>Russian (170 million)</para></listitem>
+      <!-- 91.64% --><listitem><para>Serbian (10 million)</para></listitem>
+      <!-- 61.33% --><listitem><para>Slovak (5 million)</para></listitem>
       <!-- 100.00% --><listitem><para>Spanish (over 350 million)</para></listitem>
-      <!-- 94.23% --><listitem><para>Swedish (9 million)</para></listitem>
-      <!-- 99.65% --><listitem><para>Tamil (61 million)</para></listitem>
-      <!-- 96.51% --><listitem><para>Turkish (150 million)</para></listitem>
-      <!-- 99.99% --><listitem><para>Ukrainian (50 million)</para></listitem>
-      <!-- 85.48% --><listitem><para>Welsh (575,000)</para></listitem>
+      <!-- 87.87% --><listitem><para>Swedish (9 million)</para></listitem>
+      <!-- 79.35% --><listitem><para>Tamil (61 million)</para></listitem>
+      <!-- 84.22% --><listitem><para>Turkish (150 million)</para></listitem>
+      <!-- 99.95% --><listitem><para>Ukrainian (50 million)</para></listitem>
+      <!-- 63.97% --><listitem><para>Vietnamese</para></listitem>
+      <!-- 81.78% --><listitem><para>Welsh (575,000)</para></listitem>
   </itemizedlist>
   </para>
   
