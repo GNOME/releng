@@ -19,11 +19,14 @@
 
    <para>Evolution is already well known and successful, but this new version has some extra features, such as: 
      <itemizedlist>
-     <listitem><para>Support for multiple backends, so you can work with email and appointments from more than one server.</para></listitem>
-     <listitem><para>Support for online calendars, in the iCalendar format. TODO: Is it iCalendar and/or Webcal? TODO: How do you actually do this in evo?</para></listitem>
      <listitem><para>Support for Novell Groupwise and Microsoft Exchange.</para></listitem>
-     <listitem><para>Improved offline support for IMAP accounts.</para></listitem>
      <listitem><para>Support for S/MIME, for authentication and encryption.</para></listitem>
+     <listitem><para>View multiple sets of appointments on one calendar.</para></listitem>
+     <listitem><para>Support for online calendars, in the Webcal format.</para></listitem>
+     <listitem><para>Improved offline support for IMAP accounts.</para></listitem>
+     <listitem><para>Support for Usenet newsgroups (NNTP).</para></listitem>
+     <listitem><para>Junk mail filtering, via SpamAssassin.</para></listitem>
+     <listitem><para>Many user interface improvements.</para></listitem>
      </itemizedlist>
 
 
