@@ -449,13 +449,13 @@
 			<para>audiofile-0.2.3.tar.bz2 &mdash; 17 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>esound-0.2.27.tar.bz2 &mdash; 5 MB</para>
+			<para>esound-0.2.28.tar.bz2 &mdash; 5 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>gtk-doc-0.9.tar.bz2 &mdash; 1 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>glib-2.0.3.tar.bz2 &mdash; 24 MB</para>
+			<para>glib-2.0.4.tar.bz2 &mdash; 24 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>linc-0.5.0.tar.bz2 &mdash; 4 MB</para>
@@ -467,7 +467,7 @@
 			<para>gnome-common-1.2.4.tar.bz2 &mdash; 2 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>pango-1.0.2.tar.bz2 &mdash; 26 MB</para>
+			<para>pango-1.0.3.tar.bz2 &mdash; 26 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>libIDL-0.8.0.tar.bz2 &mdash; 4 MB</para>
@@ -479,10 +479,10 @@
 			<para>intltool-0.22.tar.bz2	&mdash; 1 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>bonobo-activation-1.0.0.tar.bz2 &mdash; 14 MB</para>
+			<para>bonobo-activation-1.0.2.tar.bz2 &mdash; 14 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gtk+-2.0.3.tar.bz2 &mdash; 124 MB</para>
+			<para>gtk+-2.0.5.tar.bz2 &mdash; 124 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>GConf-1.2.0.tar.bz2 &mdash; 24 MB</para>
@@ -491,7 +491,7 @@
 			<para>libart_lgpl-2.3.8.tar.bz2	&mdash; 4 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>libzvt-1.99999.0.tar.bz2 &mdash; 7 MB</para>
+			<para>libzvt-2.0.0.tar.bz2 &mdash; 7 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>libbonobo-2.0.0.tar.bz2 &mdash; 39 MB</para>
@@ -500,7 +500,7 @@
 			<para>gnome-mime-data-2.0.0.tar.bz2 &mdash; 4 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-vfs-2.0.0.tar.bz2 &mdash; 37 MB</para>
+			<para>gnome-vfs-2.0.1.tar.bz2 &mdash; 37 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>libglade-2.0.0.tar.bz2 &mdash; 7 MB</para>
@@ -530,7 +530,7 @@
 			<para>libgtop-2.0.0.tar.bz2	&mdash; 18 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>librsvg-1.1.6.tar.bz2 &mdash; 3 MB</para>
+			<para>librsvg-2.0.0.tar.bz2 &mdash; 3 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>gail-0.16.tar.bz2 &mdash; 34 MB</para>
@@ -545,34 +545,34 @@
 			<para>gtk-engines-1.9.0.tar.bz2 &mdash; 6 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-desktop-2.0.0.tar.bz2 &mdash; 12 MB</para>
+			<para>gnome-desktop-2.0.1.tar.bz2 &mdash; 12 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-panel-2.0.0.tar.bz2 &mdash; 53 MB</para>
+			<para>gnome-panel-2.0.1.tar.bz2 &mdash; 53 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-session-2.0.0.tar.bz2 &mdash; 15 MB</para>
+			<para>gnome-session-2.0.1.tar.bz2 &mdash; 15 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>gnome-terminal-2.0.0.tar.bz2 &mdash; 11 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-utils-1.109.0.tar.bz2 &mdash; 27 MB</para>
+			<para>gnome-utils-2.0.0.tar.bz2 &mdash; 27 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>gnome-applets-2.0.0.tar.bz2 &mdash; 51 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>control-center-1.99.10.tar.bz2 &mdash; 47 MB</para>
+			<para>control-center-2.0.0.tar.bz2 &mdash; 47 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-games-2.0.0.tar.bz2 &mdash; 73 MB</para>
+			<para>gnome-games-2.0.1.tar.bz2 &mdash; 73 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>bug-buddy-2.1.6.tar.bz2 &mdash; 7 MB</para>
+			<para>bug-buddy-2.2.0.tar.bz2 &mdash; 7 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>eog-1.0.0.tar.bz2 &mdash; 16 MB</para>
+			<para>eog-1.0.1.tar.bz2 &mdash; 16 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>nautilus-2.0.0.tar.bz2 &mdash; 95 MB</para>
@@ -581,19 +581,19 @@
 			<para>gnome-system-monitor-2.0.0.tar.bz2 &mdash; 8 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>yelp-1.0.tar.bz2 &mdash; 10 MB</para>
+			<para>yelp-1.0.1.tar.bz2 &mdash; 10 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gedit2-1.199.0.tar.bz2 &mdash; 7 MB</para>
+			<para>gedit-2.0.0.tar.bz2 &mdash; 7 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>librep-2002-06-11.tar.bz2	&mdash; 10 MB</para>
+			<para>librep-0.16.tar.bz2	&mdash; 10 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>rep-gtk-2002-06-11.tar.bz2 &mdash; 8 MB</para>
+			<para>rep-gtk-0.16.tar.bz2 &mdash; 8 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>sawfish-2002-06-11.tar.bz2 &mdash; 17 MB</para>
+			<para>sawfish-2.0.tar.bz2 &mdash; 17 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>gnome-media-2.0.0.tar.bz2 &mdash; 29 MB</para>
@@ -609,6 +609,9 @@
 		  </listitem>
 		  <listitem>
 			<para>gconf-editor-0.2.tar.bz2 &mdash; 4 MB</para>
+		  </listitem>
+		  <listitem>
+		  	<para>gnome2-user-docs-1.93.tar.bz2 &mdash; 4 MB</para>
 		  </listitem>
 		</orderedlist>
 		In addition to the disk space required to build each package
