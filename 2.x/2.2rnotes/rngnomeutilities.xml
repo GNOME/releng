@@ -3,6 +3,19 @@
 
   <para>TODO: There must be more utilities to mention here.</para> 
 
+  <sect3><title>Text Editor</title>
+    <para>The gedit text-editor now provides spell-checking. And there's an output window to show feedback when doing special processing.</para>
+
+<figure>
+  <title>Text Editor</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;util_gedit.png"/>
+  </screenshot>
+</figure> 
+
+  </sect3>
+
+
   <sect3><title>Character Map</title>
     <para>The Character Map now has unicode support, allowing you to select a
 full range of characters in a wide range of fonts. Users may be interested in

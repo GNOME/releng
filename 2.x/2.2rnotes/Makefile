@@ -1,8 +1,8 @@
 DOCBOOK_STYLESHEET ?= customhtml.xsl
 
-docbook_sources = release-notes.xml  rnfileroller.xml rngnomeutilities.xml \
-                  rndesktop.xml rnpanel.xml rnfonts.xml rnterminal.xml \
-                  rnmultihead.xml rnmultimedia.xml rnmultimediakeys.xml rnthemes.xml
+docbook_sources = release-notes.xml rnfileroller.xml rni18n.xml rnmultimedia.xml rnterminal.xml rnwhy.xml \
+                  rndesktop.xml rnfonts.xml rnmultihead.xml rnpanel.xml rnthemes.xml rnwm.xml \
+                  rndocs.xml rngnomeutilities.xml rnmultimediakeys.xml rnstandards.xml rntoc.xml
 
 html: html/index.html
 
