@@ -37,14 +37,150 @@
 	</listitem>
       </itemizedlist>
     </sect2>
-    <sect2 id="userinterface">
+    
+    <sect2 id="ui">
       <title>User Interface</title>
-      <para>In general, we have tried to make the UI as elegant as we can, so
-      nontechnical users can use it, and so technical users can use it more
-      quickly and smoothly. Our focus is on better UI, not "more UI" or just
-      adding more config options. So you'll see the UI getting cleaner, starting
-      in 2.0 and continuing in releases after that.</para>
+      <para>
+	The GNOME 2 user interface has received a significant overhaul.  With
+	the brand new GNOME Human Interface Guidelines, GNOME 2 has been made
+	easier to use, more powerful and more consistent for technical and
+	nontechnical users alike. The release of GNOME 2 marks the beginning of
+	a new tradition in user interface improvement for the GNOME desktop.
+      </para>
+
+      <sect3 id="menusandpanel">
+	<title>Menus and Panel</title>
+	<para>
+	  Menus and Panel
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Windows can be dragged between workspaces with the Workspace Switcher
+		applet
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Easier menu editing with right-click menus
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Menus scroll when they get too big
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Smarter menus accommodate diagonal mouse movements
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</para>
+      </sect3>
+
+ <sect3 id="dialogs">
+	<title>Dialogs</title>
+	<para>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		File selector doesn't forget filenames when selecting a different
+		directory
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Revamped color and font selectors
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		New Run Program dialog with command completion
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Text fields include right-click menus for cutting, copying and
+		pasting text
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</para>
+      </sect3>
+
+ <sect3 id="iconsandthemes">
+	<title></title>
+	<para>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Brand new stock icons and color palette
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Support for theming of stock icons
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		CD Player and login screens are now themeable
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		A clean and attractive default appearance
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</para>
+      </sect3>
+
+ <sect3 id="applcations">
+	<title></title>
+	<para>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Redesigned and easier to use search tool
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Brand new lightweight help application
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Control center applets have been greatly simplified and reduced in
+		number
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Ever increasing compliance with freedesktop.org standards
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Rewritten terminal application with tabs and profiles
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		A brand new dynamic, centralized configuration system
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Many applications have been renamed to better suit their purpose
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</para>
+      </sect3>
     </sect2>
+
     <sect2 id="performance">
       <title>Performance</title>
       <para>According to users, GNOME 2 exhibits notable performance
@@ -129,59 +265,30 @@
 	</itemizedlist>
 	One major implication of Unicode is that the same code paths will now be
 	used for European and Asian text, so GNOME will almost certainly work
-	out-of-the-box for people in all countries. 
+	out-of-the-box for people in all countries (except for input methods). 
       </para>
     </sect2>
-    <sect2 id="guitweaks">
-      <title>GUI Tweaks</title>
-      <para>GNOME2 includes a host of interface changes to improve both
-      usability and performance:
-	<itemizedlist>
-	  <listitem>
-	    <para>
-	      Menus scroll when they are too big.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      File selector doesn't lose filenames on directory select.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      A revamped color selector.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Right-click menus with cut/copy/paste in text fields.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Can drag windows between workspaces in the workspace switcher
-	      applet.
-	    </para>
-	  </listitem>
-	  <listitem>
-	    <para>
-	      Menus do the thing where you can move diagonally into a submenu
-	      without popping down the submenu.
-	    </para>
-	  </listitem>
-	</itemizedlist>
-      </para>
-    </sect2>
+    
   </sect1>
   <sect1 id="platforms">
     <title>Platforms</title>
     <sect2 id="bsd">
       <title>BSD</title>
-      <para>Notes about building on BSD ????</para>
+      <para>The FreeBSD GNOME Project is providing <ulink
+      url="http://www.freebsd.org/gnome/">
+	  ports</ulink>.</para>
     </sect2>
     <sect2 id="solaris">
       <title>Solaris</title>
       <para>Notes about building on Solaris. ????</para>
+    </sect2>
+    <sect2 id="darwin">
+      <title>Darwin</title>
+      <para>
+	With the latest releases, the gtk family should build cleanly out of the
+	box. More work is needed to get GNOME running, however. A <ulink
+									url="http://mail.gnome.org/mailman/listinfo/gnome-darwin-list">gnome-darwin-list</ulink> has been set up for those interested in working on issue.
+      </para>
     </sect2>
     <sect2 id="linux">
       <title>Linux</title>
@@ -213,9 +320,8 @@
 	    <listitem>
 	      <para>texinfo (librep)</para></listitem>
 	    <listitem>
-	      <para>libgnome-dev (rep-gtk - that's libgnome 1.x, believe it or not)</para></listitem>
-	    <listitem>
-	      <para>libdb3-dev (GConf)</para></listitem>
+	      <para>libgnome-dev (rep-gtk - that's libgnome 1.x, believe it or
+	      not)</para></listitem> 
 	    <listitem>
 	      <para>libbz2-dev, zlib1g-dev (gnome-vfs, others)</para></listitem>
 	    <listitem>
@@ -308,20 +414,6 @@
 	      <para>texinfo</para>
 	    </listitem>
 	    <listitem>
-	      <para>db3</para>
-	    </listitem>
-	    <listitem>
-	      <para>db3-devel-- see note 3
-		<note>
-		  <para>
-		    We _may_ need db3x and db3x-devel, this needs confirming. I
-		    don't understand the precise difference between these
-		    packages. ????
-		  </para>
-		</note>
-	      </para>
-	    </listitem>
-	    <listitem>
 	      <para>bzip2</para>
 	    </listitem>
 	    <listitem>
@@ -381,7 +473,73 @@
 
       <sect3 id="mandrake">
 	<title>Mandrake</title>
-	<para>To come. ????</para>
+	<para>
+	  GNOME 2 binary packages are available in Mandrake Cooker <ulink
+									 url="http://www.mandrakelinux.com/en/cookerdevel.php3">(ie
+	  experimental / unstable) distribution
+	  (http://www.mandrakelinux.com/en/cookerdevel.php3 )</ulink>
+	  <warning>
+	    <para>
+	      These packages haven't yet been customized to fully integrate in
+	      Mandrake Linux (all available applications are not show in menu,
+	      some features available in Mandrake version of GNOME 1.4 have not
+	      been ported yet to GNOME 2).
+	    </para>
+	  </warning>
+	  These packages should only be used on full cooker system (not
+	  8.2/cooker mixed system) and feedback for these packages should be sent
+	  to the <ulink url="http://www.mandrakelinux.com/en/cookerdevel.php3">
+	    cooker mailing list</ulink>.
+	</para>
+	<para>
+	  All of the following packages are required for a full Mandrake
+	  build. Most should be installed by default and all will be available
+	  from the distribution itself. Packages are from Mandrake Linux
+	  8.2. (Hint : use urpmi <application>my_package</application> to
+	  install <application>my_package</application>)
+	  <programlisting>
+   1. gcc
+   2. make
+   3. glibc-devel
+   4. libpng3
+   5. libpng3-devel
+   6. libjpeg62
+   7. libjpeg62-devel
+   8. libtiff3-devel
+   9. libtiff3-devel
+  10. XFree86
+  11. XFree86-devel (Plus whatever XFree86 packages are required for the system
+	    to run.)
+  12. freetype2
+  13. freetype2-devel
+  14. popt
+  15. libgdbm2
+  16. libgdbm2-devel
+  17. libgmp3
+  18. libgmp3-devel (This is the GNU multi-precision library, not libgpm, the
+	    mouse library.) 
+  19. texinfo
+  20. bzip2
+  21. libbzip2_1
+  22. libbzip2_1-devel
+  23. zlib1
+  24. zlib1-devel
+  25. gettext
+  26. byacc or bison
+  27. flex
+  28. python >= 2.0 with expat support. This means you need to be able to start
+	    python, it has to be version 2.0 or greater and "from xml.parsers
+	    import expat" must work from the Python prompt. In other words,
+	    running python2 -c "from xml.parsers import expat" from a shell
+	    prompt and having no error reported is sufficient.
+  29. openjade
+  30. sgml-common
+  31. docbook-dtd41-sgml
+  32. docbook-dtd412-xml
+  33. docbook-style-xsl
+  34. docbook-style-dsssl
+	  </programlisting>  
+	</para>
       </sect3>
     </sect2>
   </sect1>
@@ -390,7 +548,7 @@
     <para>&g2; requires less resources than <acronym>GNOME</acronym> 1.4. We
       recommend a P400 or equivalent with 128M <acronym>RAM</acronym> for using
     the desktop, but it has been known to work on a system with as little as a
-      P233 with 96M <acronym>RAM</acronym>.</para>
+      P166 with 64M <acronym>RAM</acronym>.</para>
   </sect1>
   <sect1 id="installation">
     <title>Installation</title>
@@ -477,17 +635,117 @@
     </sect2>
     <sect2 id="parallellinstall">
       <title>Parallel Install</title>
-      <para>A paragraph about parallel installation. ????</para>
+      <para>
+	GNOME 2 may be installed in parallel with the GNOME 1.4.1 release
+	libraries, allowing you to use GNOME 2's primary desktop functions
+	&mdash; panels, Nautilus, etc. &mdash; while also running applications
+	that have not yet been ported and therefore still require GNOME 1.4
+	libraries.
+	<note>
+	  <para>
+	    For some GNOME 1.x apps, you need the GNOME 1.x control-center (eg:
+	    gnome-pilot for use in evolution).
+	  </para>
+	</note>
+
+      </para>
     </sect2>
     <sect2 id="buildscripts">
       <title>Build Scripts</title>
       <para>The many build scripts. ????</para>
     </sect2>
+    <sect2 id="giglink">
+      <title>GNOME Installation Guide</title>
+      <para>
+	Karsten Reincke has written a <ulink
+					     url="http://karubik.de/gig/2.0/index.html">GNOME
+					     Installation Guide</ulink>.
+      </para>
+    </sect2>
   </sect1>
+
+  <sect1 id="upgrading">
+    <title>Upgrading from GNOME 1.4</title>
+    <para>
+      After building and/or installing all of the packages successfully, there
+      are a couple of things that need to be done start using the latest
+      release.
+    </para>
+    <para>
+      Ensure that any existing GNOME 1.x sessions have been exited and check
+      that GConfd has stopped (run "ps ax | grep [g]conf"). If gconf is still
+      running, execute the command "gconftool-1 --shutdown" to stop it.
+    </para>
+    <para>
+      In order to have anti-aliased fonts in menus and applications, you will
+      need to make sure that the environment variable GDK_USE_XFT is exported
+      before running the appropriate applications. For example, you might put
+      the following in $HOME/.gnomerc:
+      <programlisting>
+	export GDK_USE_XFT=1
+	exec gnome-session
+      </programlisting>
+      (This is assuming you are using gdm as your interface to log into
+      GNOME. If you are starting X from a command prompt -- using 'startx' --
+      then just put the above lines into you $HOME/.xinitrc file.)
+    </para>
+    <para>
+      There have been cases of the initial login to GNOME 2 not going quite
+      smoothly and a lot of errors about CORBA connections not being completed
+      popping up in error boxes (and nothing else starting). This can be
+      probably fixed by stopping the session (returning to the gdm screen or to
+      the command prompt) and then (in a terminal) removing the
+      /tmp/orbit-&lt;user&gt; directory (and all of its contents), where
+      &lt;user&gt; is replaced with the appropriate user's login name.
+    </para>
+  </sect1>
+
+
   <sect1 id="quirks">
     <title>Quirks</title>
     <para>Things that may bite people.</para>
-    <sect2>
+    <sect2 id="autoapply">
+      <title>Auto-apply</title>
+      <para>
+	As a rule, preference capplets are now auto-apply, so do not be
+	surprised by the lack of an <guibutton>Apply</guibutton> button.
+      </para>
+    </sect2>
+    <sect2 id="tearablemenus">
+      <title>Tearable menus</title>
+      <para>
+	Tearable menus are gone by default. To reinstate them, use
+	<application>gconf-editor</application> and change the value of
+	<varname>/desktop/gnome/interface/menubar_detachable</varname> to TRUE.
+	<note>
+	  <para>
+	  Changing this GConf key does not instantly apply. To ensure that the
+	    change takes place, you must log out, kill any GNOME daemons still
+	    running (such as oafd), and log in again.
+	  </para>
+	</note>
+      </para>
+    </sect2>
+   
+    <sect2 id="cutandpaste">
+      <title>Cut and Paste</title>
+      <para>
+	The clipboard is a common source of confusion. GTK has always done the
+	right thing for the clipboard, and the version used in GNOME 2 is no
+	different. See
+	http://www.freedesktop.org/standards/clipboards.txt. If the clipboard
+	doesn't work it's because some application is not following the spec
+	correctly; please file bug reports for those applications. Note that Qt
+	2 does not follow the clipboard specs correctly, so correct applications
+	do not interoperate with Qt 2. Qt 3 fixes this problem.
+      </para>
+    </sect2>
+
+  </sect1>
+  <sect1 id="bugs">
+    <title>Known bugs</title>
+    <para>The GNOME 2 release contains a number of known bugs:</para>
+ <sect2>
       <title>NFS-mounted $HOME directory</title>
       <para>
 	For people with NFS-mounted $HOME directories, you cannot drag files
@@ -511,80 +769,61 @@
 	problems. This will be fixed in 2.0.1 (bug #84183).
       </para>
     </sect2>
-
-    <sect2 id="cutandpaste">
-      <title>Cut and Paste</title>
-      <para>
-	The clipboard is a common source of confusion. GTK has always done the
-	right thing for the clipboard, and the version used in GNOME 2 is no
-	different. See
-	http://www.freedesktop.org/standards/clipboards.txt. If the clipboard
-	doesn't work it's because some application is not following the spec
-	correctly; please file bug reports for those applications. Note that Qt
-	2 does not follow the clipboard specs correctly, so correct applications
-	do not interoperate with Qt 2. Qt 3 fixes this problem.
-      </para>
-    </sect2>
-
-  </sect1>
-  <sect1 id="bugs">
-    <title>Known bugs</title>
-    <para>The GNOME 2 release contains a number of known bugs:
-      <variablelist>
-	<varlistentry>
-	  <term>Drag and Drop fails to add menu items to applications:///</term>
-	  <listitem>
+      
+	<sect2>
+	  <title>Drag and Drop fails to add menu items to applications:///</title>
+	  
 	    <para>
 	      Bugzilla number <ulink
 				     url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>
 	    </para>
-	  </listitem>
-	</varlistentry>
-	<varlistentry>
-	  <term> Cannot rename items in applications:///</term>
-	  <listitem>
+	  
+	</sect2>
+	<sect2>
+	  <title> Cannot rename items in applications:///</title>
+	  
 	    <para>Bugzilla number <ulink
 					 url="http://bugzilla.gnome.org/show_bug.cgi?id=73773">73773</ulink></para>
-	  </listitem>
-	</varlistentry>
-	<varlistentry>
-	  <term>problems with mime type handling</term>
-	  <listitem>
+	  
+	</sect2>
+	<sect2>
+	  <title>problems with mime type handling</title>
+	  
 	    <para>
 	    Bugzilla number
 	      <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=75620">75620</ulink> </para>
-	  </listitem>
-	</varlistentry>
-	<varlistentry>
-	  <term>Internationalization of gnome-terminal is broken</term>
-	  <listitem>
+	  
+	</sect2>
+	<sect2>
+	  <title>Internationalization of gnome-terminal is broken</title>
+	  
 	    <para>
 	      Bugzilla number <ulink
 				     url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">78007</ulink>
 	    </para>
-	  </listitem>
-	</varlistentry>
-	<varlistentry>
-	  <term>vfolder monitors don't work in nautilus</term>
-	  <listitem>
+	  
+	</sect2>
+	<sect2>
+	  <title>vfolder monitors don't work in nautilus</title>
+	  
 	    <para>
 	      Bugzilla number <ulink
 				     url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>
 	    </para>
-	  </listitem>
-	</varlistentry>
-	<varlistentry>
-	  <term>system-global vfolder queries are lost when user changes something</term>
-	  <listitem>
+	  
+	</sect2>
+	<sect2>
+	  <title>system-global vfolder queries are lost when user changes something</title>
+	  
 	    <para>
 	      Bugzilla number <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>
 	    </para>
-	  </listitem>
-	</varlistentry>
-	<varlistentry>
-	  <term>Some features formerly provided by viewports no longer available
-	  in Sawfish</term>
-	  <listitem>
+	  
+	</sect2>
+	<sect2>
+	  <title>Some features formerly provided by viewports no longer available
+	  in Sawfish</title>
+	  
 	    <para>
 	      Bugzilla number <ulink
 				     url="http://bugzilla.gnome.org/show_bug.cgi?id=82337">82337</ulink> 
@@ -603,10 +842,10 @@
 		</para>
 	      </note>
 	    </para>
-	  </listitem>
-	</varlistentry>
-      </variablelist>
+	  
+	</sect2>
       
-    </para>
+      
+  
   </sect1>
 </article>
