@@ -1,7 +1,11 @@
-2005-03-04	Amanpreet Singh Alam <aalam@redhat.com>
+2005-03-04 Amanpreet Singh Alam <aalam@redhat.com>
 
-	* gnome210_press_release.pa.sxw: Added Punjabi (pa) Translation.
+ * gnome210_press_release.pa.sxw: Added Punjabi (pa) Translation.
 
 2005-03-03  Simos Xenitellis  <simos@gnome.org>
 
-	* gnome210_press_release.el.sxw: Added Greek translation.
+ * gnome210_press_release.el.sxw: Added Greek translation.
+
+2005-03-05 Laurent Dhima  <laurenti@alblinux.net>
+
+ * gnome210_press_release.sq.sxw: Added Albanian translation.
