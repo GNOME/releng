@@ -47,11 +47,11 @@
   <sect3 id="rnbrowser">
     <title>Web Browser</title>
 
-    <para>GNOME's Epiphany web browser has some more enhancements. For instance, working with bookmarks is now even easier:
+    <para>GNOME's &quot;Epiphany&quot; web browser, based on Mozilla, has some more enhancements. For instance, working with bookmarks is now even easier:
     <itemizedlist>
     <listitem><para>Bookmarks toolbars are easier to manipulate.</para></listitem>
     <listitem><para>Bookmarks hierarchies are preserved when importing.</para></listitem>
-    <listitem><para>Topic can be added directly from the new bookmark dialog.</para></listitem>
+    <listitem><para>Topics can be added directly from the new bookmark dialog.</para></listitem>
     <listitem><para>Whole bookmarks folders can be opened in tabs.</para></listitem>
     </itemizedlist>
     </para>
@@ -61,6 +61,7 @@
     <listitem><para>Popup windows can now be blocked for specific web sites.</para></listitem>
     <listitem><para>There is now an offline mode.</para></listitem>
     <listitem><para>System administrators can now lockdown more features.</para></listitem>
+    <listitem><para>Users can subscribe to  Webcal online calendars in Evolution by clicking on their links in the web browser.</para></listitem>
     </itemizedlist>
     </para>
    
