@@ -487,12 +487,6 @@ Need to theme TOC [or at least look pretty]
 Show good error messages in a dialog instead of the html view
 </item>
 <item done="no">
-Yelp doesn't display non-ASCII characters properly
-</item>
-<item done="no">
-Scrolling html-view doesn't work properly
-</item>
-<item done="no">
 Need to cache help pages
 </item>
 <item done="yes">
