@@ -68,6 +68,13 @@
      </figure>
 -->   
 
+  <para>
+   Finally, GNOME Volume Manager, a next generation volume managemant tool that
+   utilizes the new Hardware Abstraction Layer, is available to automatically
+   mount CDs, play music CDs, play DVDs (with appropriate player, such as Totem,
+   installed), and browse digital camera (with appropriate software, such as
+   F-Stop installed).
+  </para>
   </sect3>
 
   <sect3 id="rnevolution">

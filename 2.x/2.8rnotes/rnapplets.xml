@@ -10,8 +10,9 @@
   <sect3 id="rnapplets-network-monitor">
   <title>Network Monitor</title>
 
-  <para>The new Network Monitor applet shows whether your connection is active.
-  It can also tell you how many megabytes you have uploaded and downloaded.
+  <para>
+  The network monitor has been improved and now has support for wireless
+  interfaces, showing signal strength in the properties and on the panel.
 
   <figure id="rnscreenshot-panel-applet-networkmonitor">
     <title>Network Monitor</title>
@@ -26,31 +27,41 @@
   </para>
   </sect3>
 
-  <sect3 id="rnapplets-keyboard-indicator">
-  <title>Keyboard Indicator</title>
-  
-  <para>The new Keyboard Indicator applet shows the current keyboard layout and lets you choose another, without using the
-  keyboard shortcut.
+  <sect3 id="rnapplets-battery-applet">
+  <title>Battery Support</title>
 
-  <figure id="rnscreenshot-panel-applet-keyboardindicator">
-    <title>Keyboard Indicator</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicator.png" format="PNG"/>
-          </imageobject>
-        <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
-      </mediaobject>
-    </screenshot>
-  </figure>
+  <para>
+   The battery monitor has been improved dramatically. The applet now gives an
+   estimation of the time remaining as well as the remaining battery capacity.
+   In addition to this, the dialog to warn you of low battery power is now more
+   visible, more informative and vanishes automatically when your laptop in.
+  
+  <!-- FIXME: picture of battery applet with tooltip and warning dialog -->
+  
   </para>
-
   </sect3>
 
-  <sect3 id="rnapplets-keyboard-accessibility-status">
-  <title>Keyboard Accessibility Status</title>
+  <sect3 id="rnapplets-weather-applet">
+  <title>Weather Alerts</title>
+  <para>
+   The weather applet now has more locations then ever before. As well as
+   support for the new United Kingdom weather forecasts.
 
-  <para>See the accessibility section for information about the new Keyboard Accessibility Status applet.</para>
-
+  <!-- FIXME: show off forecast for Wales, or something -->
+   
+  </para>
   </sect3>
-  
+
+  <sect3 id="rnapplets-clock">
+  <title>Calendar Integration</title>
+  <para>
+   Never miss another appointment. The calendar view, available by clicking
+   on the clock now connects to Evolution to get your calendar and tasks.
+
+   <!-- FIXME: clock applet, maybe with GNOME ical mentioning
+               GNOME 2.8 release -->
+   
+  </para>
+  </sect3>
+
 </sect2>
