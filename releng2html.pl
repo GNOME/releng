@@ -3,10 +3,10 @@
 use Date::Format;
 
 @linecolour = '#eeeeee', '#ffffff';
-$date = time2str("%Y/%m/%d %T", time());
+$gendate = time2str("%Y/%m/%d %T", time());
 
 print qq{
-<!--#set var="last_modified" value="\$Date$date \$" -->
+<!--#set var="last_modified" value="\$Date$gendate \$" -->
 };
 
 print qq {
