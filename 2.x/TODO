@@ -1,5 +1,9 @@
 * add more info to package-list and confirm packages
 
+  - remove entries that are not separate tarballs, would be nice if we could
+	put notes in for 'subprograms' or something, will think about this for new
+	system
+
 * add bugzilla links (if required)
 
 * add TODO lists for each package? where should this live?
