@@ -43,7 +43,7 @@ pkgconfig		-		0.10.0		frozen			Havoc Pennington <hp@redhat.com>
 <section title="Desktop">
 bug-buddy		=		2.1.2		done?			Jacob Berkman <jacob@ximian.com>
 eel			=		1.1.2		porting along with Nautilus	Darin Adler <darin@bentspoon.com>
-eog			=		1.109.1		ported			Seth Nickell <snickell@stanford.edu>
+eog			=		0.111.0		ported			Jens Finke <jens@triq.net>, Seth Nickell <snickell@stanford.edu>
 gdm			gdm2		2.3.90.1	porting			George Jirka <jirka@5z.com>
 gedit2			=		1.110.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
 gnome-audio		-		-		* no longer relevant?	-
@@ -128,6 +128,7 @@ GStreamer		-		-		-			-
 gtk-engines		-		-		-			-
 pan			-		-		-			-
 xchat			-		-		-			-
+atomix 			=    		0.9.1           ported             	Jens Finke <jens@triq.net>
 </section>
 
 <section title="Language Bindings">
