@@ -2,6 +2,11 @@
 
 # usage: tranlators.sh LAST_RELEASE_TAG
 
+if [ ! $# -eq 2 ] ; then
+	echo "usage: $0 LAST_RELEASE_TAG"
+	exit 1;
+fi
+
 cvs diff -r $1 po/ChangeLog | \
   (awk  '/\+.*[a-z][a-zA-Z@]*\.po/ { print gensub ("[:,]", "\n", "g", $3); }' | \
     while read file; do

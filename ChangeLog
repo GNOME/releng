@@ -1,3 +1,8 @@
+2003-10-12  Bastien Nocera  <hadess@hadess.net>
+
+	* single_module/tools/list_translators.sh: print out the usage if
+	the number of arguments is not the right one
+
 2003-09-20  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* 2.x/2.4rnotes/rninstallation.xml: Move scrollkeeper up to
