@@ -1,3 +1,12 @@
+2005-03-02  Davyd Madeley  <davyd@madeley.id.au>
+
+	* figures/figure-applet-modem.png: Another figure. Probably about
+	  halfway through uploading them. In this one, the menu has a 3px
+	  dropshadow offset (since it's a menu). Please, feel free to email me
+	  if you want tips on how to reproduce these screenshots in you l10n.
+	
+	* rnapplets.xml: Add figure.
+
 2005-03-01  Davyd Madeley  <davyd@madeley.id.au>
 
 	* figures/*: remove old figures

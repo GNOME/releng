@@ -23,17 +23,16 @@
   <para>
    GNOME &version; introduces a new applet for controlling your Modem, integrated with GNOME System Tools.
 
-   <!-- figure id="rnscreenshot-panel-applet-modemlights">
-    FIXME
+   <figure id="rnscreenshot-applet-modem">
     <title>The new modem control applet</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-clock+calendar.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-modem.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The new modem control applet</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure -->
+  </figure>
    
   </para>
   </sect3>
