@@ -16,7 +16,7 @@
   <title>A GNOME Game</title>
     <screenshot>
       <mediaobject>
-        <imageobject><imagedata fileref="&urlfiguresbase;svg-gameTODO.png" format="PNG"/></imageobject>
+        <imageobject><imagedata fileref="&urlfiguresbase;svg-game.png" format="PNG"/></imageobject>
         <textobject><phrase>The GNOME Lines game.</phrase></textobject>
       </mediaobject>
     </screenshot>

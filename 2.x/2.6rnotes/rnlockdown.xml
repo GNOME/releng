@@ -36,15 +36,6 @@
 
   <para>These lockdown options can be configured by the system administrator with the gconf editor, and then distributed throughout the network.
   
-  <figure id="rnscreenshot-gconfeditor-lockdown">
-  <title>Lockdown configuration</title>
-    <screenshot>
-      <mediaobject>
-        <imageobject><imagedata fileref="&urlfiguresbase;lockdownTODO.png" format="PNG"/></imageobject>
-        <textobject><phrase>The configuration editor, showing a lockdown item.</phrase></textobject>
-      </mediaobject>
-    </screenshot>
-  </figure>
   </para>
 
 </sect2>

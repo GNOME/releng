@@ -63,10 +63,10 @@
     Other applications, such as the CD ripping tool Sound Juicer, can use these same audio profiles.
 
     <figure id="rnscreenshot-soundrecorder-audioprofiles">
-    <title>PDF Viewer</title>
+    <title>Sound Recorder</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;soundrecorderTODO.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;soundrecorder.png" format="PNG"/></imageobject>
           <textobject><phrase>The Sound Recorder, showing audio profiles.</phrase></textobject>
         </mediaobject>
       </screenshot>
@@ -85,7 +85,7 @@
     <title>PDF Viewer</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;volumecontrolTODO.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;volumecontrol.png" format="PNG"/></imageobject>
           <textobject><phrase>The Volume Control.</phrase></textobject>
         </mediaobject>
       </screenshot>
@@ -99,17 +99,6 @@
 
     <para>The latest GNOME search tool is faster, and you can now drag and drop files from it to the file manager, or right-click to delete files.
    
-    <figure id="rnscreenshot-search">
-    <title>Search For Files</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;searchTODO.png" format="PNG"/></imageobject>
-          <textobject><phrase>The Search tool.</phrase></textobject>
-        </mediaobject>
-      </screenshot>
-    </figure>
-    </para>
-
   </sect3>
 
   <sect3>
@@ -122,7 +111,7 @@
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;gedit.png" format="PNG"/></imageobject>
-          <textobject><phrase>The text editor, with syntax highlighting for C++.</phrase></textobject>
+          <textobject><phrase>The new Text Editor preferences dialog.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>

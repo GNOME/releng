@@ -63,17 +63,6 @@
   emulation of non-Latin physical keyboards.
 
 
- <figure id="rnscreenshot-accessibility-gok">
-    <title>On-Screen Keyboard</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;accessibility-gokTODO.png" format="PNG"/>
-          </imageobject>
-        <textobject><phrase>GOK, showing a Korean keyboard.</phrase></textobject>
-      </mediaobject>
-    </screenshot>
-  </figure>
-
   </para>
 
   <para>Other improvements include:
@@ -102,7 +91,7 @@
     <title>Dasher</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;accessibility-dasherTODO.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;dasher.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>Dasher.</phrase></textobject>
       </mediaobject>

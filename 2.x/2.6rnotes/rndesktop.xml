@@ -22,7 +22,7 @@
       <title>Simplified file management - the window is the folder</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-spatialTODO.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-spatial.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Spatial Nautilus</phrase></textobject>
           </mediaobject>
