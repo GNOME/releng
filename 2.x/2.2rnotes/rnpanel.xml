@@ -1,0 +1,60 @@
+ <sect2 id="rnpanel">
+    <title>The Panel</title>
+    <para></para>
+
+    <sect3><title>Show Desktop</title>
+    <para>
+    When the icons on your desktop are hidden by too many open windows, you can now quickly hide them and then bring them all back again by clicking the "Show Desktop" button in the panel.
+    </para>
+
+<figure>
+  <title>Show Desktop</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_show_desktop.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+    <sect3><title>Run Program</title>
+    <para>
+    To launch an application that is not already in your panel's menu you can now select, or type, its name in the "Run Program" dialog box. This is much simpler than opening a terminal window, typing the name and closing thee terminal.
+    </para>
+
+<figure>
+  <title>Run Program</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_action_run_program.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+    <sect3><title>Search For Files</title>
+    <para>You can now quickly find files via the Actions menu.
+    </para>
+
+<figure>
+  <title>Search For Files</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_action_search.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+    <sect3><title>Open Recent</title>
+    <para>
+    The Actions menu now lists the last few files that you have opened. Just select the file to open it with the appropriate application.
+    </para>
+
+<figure>
+  <title>Open Recent</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_action_open_recent.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+   
+  </sect2>

@@ -10,14 +10,14 @@
 <figure>
   <title>View As Audio</title>
   <screenshot>
-    <graphic format="PNG" fileref="&url_figures_base;nautilus_view_as_audio.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_view_as_audio.png"/>
   </screenshot>
 </figure>
 
 <figure>
   <title>View As Video</title>
   <screenshot>
-    <graphic format="PNG" fileref="&url_figures_base;nautilus_view_as_video.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_view_as_video.png"/>
   </screenshot>
 </figure>
       

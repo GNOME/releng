@@ -3,6 +3,7 @@
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.2.0">
 <!ENTITY rndesktop SYSTEM "rndesktop.xml">
+<!ENTITY rnpanel SYSTEM "rnpanel.xml">
 <!ENTITY rngnomeutils SYSTEM "rngnomeutilities.xml">
 <!ENTITY rnfileroller SYSTEM "rnfileroller.xml">
 <!ENTITY rnmultimedia SYSTEM "rnmultimedia.xml">
@@ -55,6 +56,7 @@
  */</para>
 
   &rndesktop;
+  &rnpanel;
   &rnmultimedia;
   &rngnomeutils;
   &rnfileroller;

@@ -13,7 +13,7 @@
 <figure>
   <title>Context Menu</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_context_menu_plugin.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbasee;nautilus_context_menu_plugin.png"/>
   </screenshot>
 </figure>
       
@@ -25,7 +25,7 @@
 <figure>
   <title>Property Pages</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_image.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbasee;nautilus_property_page_tab_image.png"/>
   </screenshot>
 </figure>
 
@@ -37,7 +37,7 @@
 <figure>
   <title>Nautilus Preferences</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_preferences.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbasee;nautilus_preferences.png"/>
   </screenshot>
 </figure>
 
