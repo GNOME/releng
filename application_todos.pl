@@ -47,8 +47,8 @@ while (<STDIN>) {
 	<td colspan="2">
 	<table width="100%">
 		<tr>
-		<td width="80%"><font color="ffffff" size="4"><B>$application<B>&nbsp;&nbsp;<small>[$authors]</small></td>
-		<td width="20%" align="right"><font color="ffffff"><small>[<a href="$link">TODO List</a>]</small></font></td>
+		<td width="80%"><font color="ffffff" size="4"><B>$application<B>&nbsp;&nbsp;<small>[$authors]</small></font></td>
+		<td width="20%" align="right"><small>[<a href="$link">TODO List</a>]</small></td>
 		</tr>
 	</table>
 	</td>
