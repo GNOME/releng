@@ -27,7 +27,7 @@
     <listitem><para>Disable the editing of bookmarks and toolbars.</para></listitem>
     <listitem><para>Disable the Back button, and all history.</para></listitem>
     <listitem><para>Hide the menu, toolbar, or statusbar by default.</para></listitem>
-    <listitem><para>Disable JavaScript's control over window chrome.</para></listitem>
+    <listitem><para>Disable JavaScript's control over window chrome, to prevent access to extra mozilla features.</para></listitem>
   </itemizedlist>
   </para>
 
