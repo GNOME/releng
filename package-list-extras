@@ -6,17 +6,17 @@ Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Co
                                                         Exists?   Release?
 gmc
 
-Gnumeric
-Dia
-Guppi
-AbiWord
-GnuCash
-Sodipodi
-gnome-db
-toutdoux
+Gnumeric           0.61                                                       Jody Goldberg <jgoldberg@home.com>
+Dia                0.86                                                       James Henstridge <james@daa.com.au>
+Guppi              0.35.1                                                     Jon Trowbridge <trow@gnu.org>
+AbiWord            0.7.12                                                     ???
+GnuCash            1.4.9                                                      devel@gnumatic.com
+Sodipodi           0.20                                                       Lauris Kaplinski <lauris@kaplinski.com>
+gnome-db           0.1.0                                                      Rodrigo Moya <rmoya@chez.com>
+toutdoux           1.2.4                                                      Philippe Roy <ph_roy@toutdoux.org>
 
-Anjuta IDE
-MemProf
+Anjuta IDE         0.1.2                                                      Kh. Naba Kumar Singh <kh_naba@yahoo.com> 
+MemProf            0.4.0                                                      Owen Taylor <otaylor@redhat.com>
 
 The GIMP
 gpaint
