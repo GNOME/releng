@@ -28,5 +28,12 @@
     With the help of GStreamer, GNOME's multimedia utilities, such as the Sound Recorder, can now work with a greater variety of file formats. 
     </para>
 
+<figure>
+  <title>Sound Recorder</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;multimedia_util_soundrecorder.png"/>
+  </screenshot>
+</figure>
+
    </sect2>  
    
