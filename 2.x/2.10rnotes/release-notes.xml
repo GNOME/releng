@@ -22,7 +22,7 @@
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-desktop.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The new modem control applet</phrase></textobject>
+        <textobject><phrase>The GNOME Desktop</phrase></textobject>
       </mediaobject>
     </screenshot>
 The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>

@@ -1,5 +1,10 @@
 2005-03-03  Murray Cumming  <murrayc@murrayc.com>
 
+	* release-notes.xml: Fix the caption of the desktop screenshot - 
+	it was copy/pasted from the control center.
+
+2005-03-03  Murray Cumming  <murrayc@murrayc.com>
+
 	* rncontrolcenter.xml: Fixed a typo. Sorry translators.
 
 2005-03-03  Davyd Madeley  <davyd@madeley.id.au>
