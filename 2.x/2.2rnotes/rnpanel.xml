@@ -4,7 +4,7 @@
 
     <para>Here are a few of the more significant GNOME panel improvements:</para>
 
-    <sect2><title>Show Desktop</title>
+    <sect3><title>Show Desktop</title>
     <para>
     When the icons on your desktop are hidden by too many open windows, you can now quickly hide them and then bring them all back again by clicking the "Show Desktop" button in the panel.
     </para>
@@ -16,9 +16,9 @@
   </screenshot>
 </figure>
 
-    </sect2>
+    </sect3>
 
-    <sect2><title>Search For Files</title>
+    <sect3><title>Search For Files</title>
     <para>As before, you can now quickly find files via the Actions menu. Now it has an improved user interface and better integration with the file manager, so you can drag and drop files from the results window. And, like the file manager, it can open files with the appropriate applications.
     </para>
 
@@ -29,9 +29,9 @@
   </screenshot>
 </figure>
 
-    </sect2>
+    </sect3>
 
-    <sect2><title>Open Recent</title>
+    <sect3><title>Open Recent</title>
     <para>
     The Actions menu now lists the last few files that you have opened. Just select the file to open it with the appropriate application.
     </para>
@@ -43,9 +43,9 @@
   </screenshot>
 </figure>
 
-    </sect2>
+    </sect3>
 
-  <sect2><title>Notification Area</title>
+  <sect3><title>Notification Area</title>
     <para>
     The panel now has a notification-area which applications such as instant messengers can use to inform you of significant events.
     </para>
@@ -57,9 +57,9 @@
   </screenshot>
 </figure>
 
-    </sect2>
+    </sect3>
    
-<sect2><title>Wireless Link Monitor</title>
+<sect3><title>Wireless Link Monitor</title>
     <para>
     A new Wireless Link Monitor applet has been added. This shows the strength of your wireless network connection.
     </para>
@@ -71,6 +71,6 @@
   </screenshot>
 </figure>
 
-    </sect2>
+    </sect3>
 
 

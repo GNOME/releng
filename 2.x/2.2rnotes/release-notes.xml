@@ -67,30 +67,31 @@
 
     </abstract>
   </articleinfo>
+<sect1 id="rnwhatsnew">
+    <title>What's New In GNOME 2.2</title>
 
-
-<sect1 id="rndesktop">
+<sect2 id="rndesktop">
   &rndesktop;
-</sect1>
-<sect1 id="rnpanel">
+</sect2>
+<sect2 id="rnpanel">
   &rnpanel;
-</sect1>
-<sect1 id="rnmultimedia">
+</sect2>
+<sect2 id="rnmultimedia">
   &rnmultimedia;
-</sect1>
- <sect1 id="rnthemes">
+</sect2>
+ <sect2 id="rnthemes">
   &rnthemes;
-</sect1>
- <sect1 id="rnfonts">
+</sect2>
+ <sect2 id="rnfonts">
   &rnfonts;
-</sect1>
- <sect1 id="rnmultihead">
+</sect2>
+ <sect2 id="rnmultihead">
   &rnmultihead;
- </sect1>
- <sect1 id="rnwm">
+ </sect2>
+ <sect2 id="rnwm">
   &rnwm;
- </sect1>
-
+ </sect2>
+  </sect1>
   <sect1 id="rnapplications">
     <title>Applications</title>
     <para>GNOME &version; includes many new and improved applications.</para>
@@ -570,37 +571,44 @@ More details on bugs already reported can be found at our <ulink url="http://bug
 
   </sect1>
 
+  <sect1 id="rnlookingahead">
+    <title>Looking to GNOME 2.4 and Beyond</title>
+    <para>We are already looking ahead to our next big release of the GNOME
+Desktop and Developer Platform.
+    </para>
+    <para>Over the last couple of months, there has been a huge amount of
+activity at the application level. GNOME 2.4 will start to merge many of these
+newly developed and ported applications together. Expect to see a release of
+Evolution, Ximian's powerful Mail, Address and Calendar client and Galeon, the
+popular web browser, for the GNOME 2 desktop later this year. These are just two
+applications from a list of many applications that we hope to see releases from
+next year. You
+      can find many of these applications at the <ulink
+	url="http://5toe.lyrical.net/">5th Toe website</ulink>.</para>
 
-<!--
-TODO: Glynn - I disagree with including this, but we can talk over the weekend.
-- John
-
-Looking ahead to GNOME 2.4 and beyond -
-=======================================
-We are already looking ahead to our next big release of the GNOME 
-Desktop and Developer Platform. 
-
-Over the last couple of months, there has been a huge amount of 
-activity at the application level. GNOME 2.4 will start to merge many
-of these newly developed and ported applications together. Expect to
-see a release of Evolution, Ximian's powerful Mail, Address and Calendar
-client and Galeon, the popular web browser, for the GNOME 2 
-desktop later this year. These are just two applications from a list of 
-many applications that we hope to see releases from next year. You
-can find many of these applications at the 5th Toe website - http://5toe.lyrical.net/.
-
+<para>
+Over the last couple of months, there has been a huge amount of activity at the
+application level. GNOME 2.4 will start to merge many of these newly developed
+and ported applications together. Expect to see a release of Evolution, Ximian's
+powerful Mail, Address and Calendar client and Galeon, the popular web browser,
+for the GNOME 2 desktop later this year. These are just two applications from a
+list of many applications that we hope to see releases from next year. You can
+find many of these applications at the 5th Toe website -
+http://5toe.lyrical.net/.</para>
+<para>
 GNOME 2.4 will be more tightly integrated than ever before, making
 it a real competitor at the enterprise level, bringing a full suite of 
 productivity applications, utilities and accessories resulting in a 
 comprehensive and intuitive desktop user environment.
-
+</para>
+<para>
 Further on down the line, we hope that GNOME 2.6 will 
 feature the next release of Gtk+, the GIMP Toolkit, introducing
 a new file selector widget, combination widget, powerful menu 
 and toolbar widgets based on XML and further advances in 
 accessibility, usability and internationalization.
--->
-
+</para>
+ </sect1>
   <sect1 id="rngettinginvolved">
     <title>Getting Involved</title>
     <para>
@@ -608,10 +616,12 @@ accessibility, usability and internationalization.
       developers.
     </para>
     <para>
-      As a user, your contribution can be as simple as filing good bug reports 
-      against the GNOME Desktop and Developer Platform. You can file bugs
-      in our Bugzilla using the simple bug assistant. If you feel that you would like
-      to contribute more, then perhaps think about joining our active <ulink url="http://developer.gnome.org/projects/bugsquad/">bug-squad</ulink>.
+      As a user, your contribution can be as simple as filing good bug
+      reports. You can file bugs in our Bugzilla using the <ulink
+      url="http://bugzilla.gnome.org/simple-bug-guide.cgi">simple bug
+      assistant</ulink>. If you want to contribute more, you can join our active
+      <ulink
+      url="http://developer.gnome.org/projects/bugsquad/">bug-squad</ulink>.
     </para>
     <para>
       From a developer aspect, there is much exciting progress to be made in any
