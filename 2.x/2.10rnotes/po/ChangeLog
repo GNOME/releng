@@ -1,3 +1,9 @@
+2005-03-02  Simos Xenitellis  <simos@gnome.org>
+
+	* el.po: Updated greek translation.
+	* xml-el: Created directory.
+	* xml-el/figures: Created directory.
+
 2005-03-02  Nikos Charonitakis  <charosn@her.forthnet.gr>
 
 	* el.po: Updated Greek translation.
