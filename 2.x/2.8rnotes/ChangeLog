@@ -1,5 +1,9 @@
 2004-09-07  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnstandards.xml: Mentioned MIME spec.
+
+2004-09-07  Murray Cumming  <murrayc@murrayc.com>
+
 	* rninstallation.xml: Mentioned MIME changes, and XDG_DATA_DIRS.
 	* TODO: Updated to show what is still to be done.
 
