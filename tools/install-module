@@ -1,0 +1,259 @@
+#!/bin/bash
+# Full path to 'GNOME' FTP directory. On widget, this is '/ftp/pub/GNOME'
+FTPROOT=/ftp/pub/GNOME
+# Initialise status variables
+UNATTENDED=
+KEEP=
+SAMEVERSION=
+
+
+# How to use install-module
+usage() {
+	echo "Usage: install-module [OPTION] TARBALL
+Install new tarball to GNOME FTP master and mirrors.
+Example: install-module -k metacity-2.4.1.tar.gz
+
+Parameters:
+  -h, --help          display this help and exit
+  -k, --keep          do not delete the original tarball.
+  -u, --unattended    do not prompt for confirmation. NOTE: An unattended
+                      install will not provide any extra information to help
+                      you avoid an invalid (and potentially messy) installation.
+                      It is recommended that you do not use this unless you
+                      are *very* sure.
+
+Report bugs to <gnome-sysadmin@gnome.org>"
+}
+
+
+# Process parameters
+while [ "$1" ]; do
+	case "$1" in
+		--help|-h)
+			usage
+			exit
+		;;
+		--keep|-k)
+			KEEP=1
+			shift
+		;;
+		--unattended|-u)
+			UNATTENDED=1
+			shift
+		;;
+		*.tar.gz|*.tar.bz2)
+			TARBALL="$(pwd)/$1"
+			shift
+		;;
+	esac
+done
+
+
+# Check tarball validity
+if [ ! -f "$TARBALL" ]; then
+	echo "$TARBALL DOES NOT EXIST!"
+	echo
+	usage
+	exit 1
+fi
+
+
+# Pull out required information from tarball name
+FORMAT=$(echo $TARBALL | sed "s/.*\.\(tar.*\)/\1/")
+FILENAME=$(basename $TARBALL .$FORMAT)
+MODULE=$(echo $FILENAME | sed "s#\([A-Za-z0-9\_\+\-]*\)-[[:digit:]].*#\1#")
+VERSION=$(echo $FILENAME | sed "s#$MODULE-\(.*\)#\1#i")
+MAJMIN=$(echo $VERSION | sed "s#\([[:digit:]]\+\.[[:digit:]]\+\).*#\1#")
+LOCATION=$FTPROOT/sources/$MODULE/$MAJMIN
+URL="http://ftp.gnome.org/pub/GNOME/sources/$MODULE/$MAJMIN/$FILENAME"
+
+
+# Prompt for confirmation and check for common installation errors
+if [ -z $UNATTENDED ]; then
+	echo "      Module: $MODULE"
+	echo "     Version: $VERSION"
+	echo "     Maj.Min: $MAJMIN"
+	echo " Destination: $LOCATION/"
+
+	# Does the module directory exist? If not, show warning.
+	if [ -d $FTPROOT/sources/$MODULE ]; then : ; else
+		echo
+		echo "  WARNING: $MODULE is not present in the archive!"
+		echo "           Are you sure that it is new and/or the correct module name?"
+	fi
+
+	# Does the tarball version exist? If so, show warning.
+	if [ -f $LOCATION/$FILENAME.$FORMAT ]; then
+		SAMEVERSION=1
+		echo
+		echo "  WARNING: $FILENAME.$FORMAT already exists in the archive!"
+		echo "           Are you sure that you want to replace it? This is generally"
+		echo "           not a good idea."
+	fi
+	
+	echo
+	echo -n "Install $MODULE? [Y/n] "
+	read CONTINUE
+	# Continue if empty or response starts with y -> cute, huh?
+	if [ -z $CONTINUE ] || echo $CONTINUE | grep -qi ^y; then : ; else
+		echo
+		echo "Module installation cancelled. Please report any problems with this"
+		echo "script to gnome-sysadmin@gnome.org. Thanks."
+		exit
+	fi
+	echo
+fi
+
+
+# Set the umask for the duration of this script
+umask 0002
+
+
+# Create destination directory and copy tarball
+# If we can't create the directory, bomb out!
+if mkdir -p $LOCATION/; then : ; else
+	echo "FATAL: Could not create module directory!"
+	exit 1
+fi
+cp -f $TARBALL $LOCATION/
+# Just in case the original file wasn't group writable
+chmod ug+w,a+r $LOCATION/$FILENAME.$FORMAT
+
+
+# Create alternate format destination tarball
+case $FORMAT in
+	tar.gz)
+		echo "Creating bzip2 archive..."
+		gunzip -dc $TARBALL | bzip2 > $LOCATION/$FILENAME.tar.bz2
+	;;
+	tar.bz2)
+		echo "Creating gzip archive..."
+		bunzip2 -dc $TARBALL | gzip > $LOCATION/$FILENAME.tar.gz
+	;;
+	*)
+		echo "What on earth is this format?"
+		echo "FATAL: This should have been checked earlier or something!"
+		exit 1
+	;;
+esac
+
+
+# diff against previous LATEST-IS- file,
+# unless the file doesn't exist and we haven't set the SAMEVERSION
+if [ -L $LOCATION/LATEST-IS-* ] && [ -z $SAMEVERSION ]; then
+	OLDVERSION=$(basename $LOCATION/LATEST-IS-* | sed "s#LATEST-IS-\(.*\)#\1#")
+	OLDTARBALL=$MODULE-$OLDVERSION.tar.gz
+	echo "Creating diff between $MODULE $OLDVERSION and $VERSION..."
+	
+	# Create a fairly unique temp directory from module/version/pid
+	TEMPDIR=/tmp/$MODULE-$VERSION-$$
+	mkdir -p $TEMPDIR
+	cd $TEMPDIR
+
+	# Unpack the tarballs
+	tar xzf $LOCATION/$OLDTARBALL
+	tar xzf $LOCATION/$FILENAME.tar.gz
+
+	# Generate diff file, ignoring translations
+	diff -Nru -x *.gmo -x *.mo --speed-large-files --minimal $MODULE-$OLDVERSION $MODULE-$VERSION > diff
+	# If there are binary differences, skip this process
+	if grep -q "^Binary files" diff; then
+		echo "Binary files differ, discarding diff file..."
+	else
+		DIFFFILE=$MODULE-$OLDVERSION-$VERSION.diff.gz
+		gzip -9 diff
+		mv -f diff.gz $LOCATION/$DIFFFILE
+		chown :ftpadmin $LOCATION/$DIFFFILE
+		(cd $LOCATION; md5sum $DIFFFILE > $DIFFFILE.md5)
+	fi
+
+	# Return and clean up
+	cd -
+	rm -rf $TEMPDIR
+fi
+
+
+echo "Generating md5sums..."
+(cd $LOCATION;
+	md5sum $FILENAME.tar.gz > $FILENAME.tar.gz.md5;
+	md5sum $FILENAME.tar.bz2 > $FILENAME.tar.bz2.md5)
+
+
+echo -n "Updating LATEST files..."
+(cd $LOCATION; rm -f LATEST-IS-*; ln -s $FILENAME.tar.gz LATEST-IS-$VERSION)
+# Wait for LATEST file lock to disappear, but only for ten seconds
+LOCKFILE=$FTPROOT/LATEST.lock
+while [ -f $LOCKFILE ] && [ $TIMEOUT != "++++" ]; do
+	echo -n " ..."
+	sleep 2
+	TIMEOUT="$TIMEOUT+"
+done
+echo
+# Create LATEST file lock
+touch $LOCKFILE
+# Prepend URL and current date to LATEST file
+LATEST=$FTPROOT/LATEST
+LATESTNEW=/tmp/LATEST.$$
+(echo "$URL.tar.gz|$(date -R)"; cat $LATEST) | head -n 20 > $LATESTNEW
+cat $LATESTNEW > $LATEST
+rm -f $LATESTNEW
+# Generate RSS file
+if [ -f /usr/local/bin/generate-ftp-rss ]; then
+	/usr/local/bin/generate-ftp-rss $LATEST
+fi
+# Remove LATEST lockfile
+rm -f $LOCKFILE
+
+
+echo "Informing ftp-release-list..."
+WHO="$(getent passwd $USER | cut -d : -f 5 | cut -d , -f 1)"
+if [ -z "$WHO" ]; then
+	WHO=$USER
+else
+	WHO="$WHO ($USER)"
+fi
+(echo "From: $WHO <install-module@widget.gnome.org>";
+ echo "To: FTP Releases <ftp-release-list@gnome.org>";
+ echo "Subject: $MODULE $VERSION";
+ echo "Reply-To: gnome-hackers@gnome.org";
+ echo;
+ echo "       Module: $MODULE";
+ echo "      Version: $VERSION";
+ echo "  Uploaded by: $WHO";
+ echo;
+ echo "$URL.tar.gz";
+ echo "  md5sum: $(cat $LOCATION/$FILENAME.tar.gz.md5 | cut -d ' ' -f 1)";
+ echo "    size: $(du -sh $LOCATION/$FILENAME.tar.gz | cut -f 1)";
+ echo;
+ echo "$URL.tar.bz2";
+ echo "  md5sum: $(cat $LOCATION/$FILENAME.tar.bz2.md5 | cut -d ' ' -f 1)";
+ echo "    size: $(du -sh $LOCATION/$FILENAME.tar.bz2 | cut -f 1)";
+ echo;
+ echo "-- ";
+ echo "An RSS 2.0 feed of ftp-release-list is available at:";
+ echo "http://ftp.gnome.org/pub/GNOME/LATEST.xml";) | /usr/sbin/sendmail ftp-release-list@gnome.org
+
+
+# Delete the original tarball unless asked to keep it
+if [ -z $KEEP ]; then
+	echo "Deleting original tarball..."
+	rm -f $TARBALL
+fi
+
+
+# Signal the mirrors
+echo
+echo "Signalling mirror update process..."
+if [ -f /usr/local/bin/signal-ftp-sync ]; then
+	/usr/local/bin/signal-ftp-sync
+	# Tell user about ftp.gnome.org
+	echo
+	echo "Your tarball will appear in the following location on ftp.gnome.org:"
+	echo
+	echo "  $(dirname $URL)/"
+	echo
+	echo "It is important to retain the trailing slash for compatibility with"
+	echo "broken http clients, and to use http as it is less taxing on the server."
+else
+	echo "Mirror update failed! The sync script does not exist."
+fi

@@ -1,3 +1,13 @@
+2003-06-07  Murray Cumming  <murrayc@usa.net>
+
+	* 2.x/package-list: Removed all sections except Platform and Desktop.
+	The rest was out-of-date and unused.
+	* Moved 1.4 stuff to the 1.x directory.
+	* Added docs and tools directories with some initial stuff gathered
+	from the release team.
+	* Added single_release directory also with docs and tools, for stuff
+	that is is helpful to individual maintainers.
+
 2003-02-01 John Fleck <jfleck@inkstain.net>
 
 	* 2.x/2.2rnotes/release-notes.xml
