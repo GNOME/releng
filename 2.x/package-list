@@ -68,6 +68,7 @@ gsm			gnome-core/gsm	-		-			-
 gtkhtml			-		-		gtkhtml2 is ported; Anders, Larry and BillH to develop "The Plan" (wrt accessibility, gtkhtml1, etc)	-
 libgtop			=		-		ported, branch is libgtop-GNOME-2-0-port		Kevin Vandersloot <kfv101@psu.edu>
 librsvg			-		-		-			-
+libwnck			=		-		native			Havoc Pennington <hp@redhat.com>
 libzvt2			-		1.104.0		-			-
 logview			gnome-utils	-		ported, some font issues		-
 meat-grinder		-		-		-			-
