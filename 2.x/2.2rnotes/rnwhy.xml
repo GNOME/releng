@@ -9,22 +9,23 @@
   
     <sect2>
       <title>Usability.</title>
-      
-        <para>
-          
-    <mediaobject>
-      <imageobject>
-	<imagedata fileref="&urlfiguresbase;why_preferences.png" format="PNG"/>
-      </imageobject>
-    </mediaobject>
-    GNOME is one of the few open source projects to take a stand for end
+      <para>
+        GNOME is one of the few open source projects to take a stand for end
           user usability over geeky hyper-configurability.
     Our <ulink
           url="http://developer.gnome.org/projects/gup/hig/"> User Interface
           Guidelines</ulink>, developed by a team of UI professionals, are the
           most complete guidelines yet from the open source community.
-
-        </para>
+</para>
+<figure>
+  <title>Usability</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;why_preferences.png"/>
+  </screenshot>
+</figure>
+  
+    
+        
       
     </sect2>
     <sect2>
