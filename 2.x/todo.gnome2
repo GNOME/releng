@@ -88,26 +88,26 @@ Saving files in locale encoding when needed
 <item done="no">
 Removing unused code from gedit-file-selector-util.c
 </item>
-<item done="no">
-Implementing case sensitive Find and Replace
+<item done="yes">
+Implementing case sensitive Find and Replace (EXPERIMENTAL)
 </item>
-<item done="no">
+<item done="yes">
 Proofreading all strings (this is a task for a native english person)
 </item>
 <item done="yes">
 Save window size when exiting 
 </item>
-<item done="no">
+<item done="yes">
 Adding plugins support
 </item>
 <item done="no">
-Porting old plugins
+Finishing to port old plugins
 </item>
 <item done="no">
 Writing new user docs
 </item>
-<item done="no">
-Backup file every x minutes (snorp is working on it)
+<item done="yes">
+Backup file every x minutes
 </item>
 <item done="no">
 The remote files should be read in an async way
@@ -131,7 +131,7 @@ Adding a MDI Mode page to Preferences dialog (already implemented, to be debugge
 Adding a Tabs page to Preferences dialog (already implemented, 
 but gedit_view_set_tab_size is broken, see pango-layout.c function ensure_tab_width) 		
 </item>
-<item done="no">
+<item done="yes">
 Add a +<lnum> option (like vi)
 </item>
 <item done="no">
