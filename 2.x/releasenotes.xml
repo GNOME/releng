@@ -1232,6 +1232,8 @@ reported that way.
 		url="http://bugzilla.gnome.org/gnome-20-report.html">Bugzilla</ulink>.  Among the most 
 	  prominent GNOME 2 bugs:
     </para>
+<!--
+Fixed in GNOME2.0.1.
     <sect2>
       <title>NFS-mounted $HOME directory</title>
       <para>
@@ -1278,40 +1280,55 @@ You can't drag and drop files from the list view as you can in the
 		74974</ulink>.
       </para>
     </sect2>
+-->
     <sect2>
       <title>Menu editing is incomplete</title>
       <para>
 Because a number of bugs existed in the menu editing implementation,
 and the best fixes for some of them may not be reverse compatible, it
-was decided to remove most menu editing functionality in this
-release. It will be fixed and re-enabled in the 2.0.1 release. In the
-meantime, a number of related bugs are filed, including <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>, <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73773">73773</ulink>, <ulink
-											      url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>, and <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>. Details on the menu architecture and tips for manual editing of menus can be found <ulink url="http://www.gnome.org/start/2.0/menuediting.html">here</ulink>.
+was decided to remove most menu editing functionality in the current
+release. It is currently nearing completion and will be available in
+the 2.0.2 release of GNOME.  In the meantime, it can be best tracked
+with <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">bug
+86322</ulink>. Details on the menu architecture and tips for manual
+editing of menus can be found <ulink
+url="http://www.gnome.org/start/2.0/menuediting.html">here</ulink>.
       </para>
     </sect2>
     <sect2>
-      <title>new mime type handlers are not always visible in nautilus</title>
-      <para>
-	    Mime-type handling in GNOME 2 is generally much improved
-		over GNOME1.4. However, when a new mime-type handler
-		is installed in GNOME 2, it does not show up correctly
-		in Nautilus right-click menus. It is hoped that this
-		will be fixed in GNOME 2.0.1. Track it at <ulink
-		url="http://bugzilla.gnome.org/show_bug.cgi?id=75620">bug
-		75620</ulink>.
-	  </para>
+      <title>new mime type handlers are not always visible in
+	    nautilus</title> 
+<para>
+Mime-type handling in GNOME 2 is generally much improved over
+	    GNOME1.4. However, when a new mime-type handler is
+	    installed in GNOME 2, it does not show up correctly in
+	    Nautilus right-click menus. This is now fixed in CVS but
+	    was not fixed in time for the 2.0.1 release.</para>
     </sect2>
     <sect2>
       <title>Internationalization of gnome-terminal is broken</title>
       <para>Unfortunately, gnome-terminal is broken in many non-ASCII
       locales. A fix for this was proposed but caused many other
-      problems and as a result, was withdrawn. The author has been
-      working on fixing some of the bugs and it should be fixed in
-      GNOME 2.0.1. This is bugzilla number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">bug 78007</ulink>.
+      problems and as a result, was withdrawn. The current progress
+      can be tracked in bugzilla number <ulink
+      url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">bug
+      78007</ulink> or in the libzvt-i18n branch of the zvt module.
 	    </para>
+    </sect2>
+    <sect2>
+      <title>Nautilus default desktop selections have changed colors</title>
+      <para>
+      In the process of fixing bug <ulink
+      url="http://bugzilla.gnome.org/show_bug.cgi?id=82194">bug
+      82194</ulink>, the way nautilus displays selected text on the
+      desktop was changed; this makes all existing nautilus themes use
+      the gtk selection color in this case. This may look like a bug
+      but it is, in fact, a feature :) If the old behavior is still
+      desired, the theme has to be fixed. For more on this, including
+      how to fix themes to display the old behavior, see Federico's
+      emails to <ulink
+      url="http://lists.gnome.org/archives/nautilus-list/2002-August/msg00041.html">nautilus
+      list.</ulink></para>
     </sect2>
     <sect2>
       <title>Some features formerly provided by viewports no longer available
