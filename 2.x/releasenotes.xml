@@ -169,8 +169,9 @@
 			</listitem>
 			<listitem>
 			  <para>
-				<application>Control center capplets</application> have been 
-				greatly simplified and reduced in number
+				<application>Control center</application>
+				applications for controlling GNOME 2 properties
+				have been greatly simplified and reduced in number
 			  </para>
 			</listitem>
 			<listitem>
@@ -261,9 +262,9 @@
       </para>
       <para>
 		This would allow a high-level scripting feature with commands
-		such as "activate the <guimenu>File</guimenu> menu, choose 
+		such as &quot;activate the <guimenu>File</guimenu> menu, choose 
 		<guimenuitem>Open</guimenuitem>, <guimenuitem>Select All</guimenuitem>,
-		<guimenuitem>Copy</guimenuitem>" This kind of scripting would use high 
+		<guimenuitem>Copy</guimenuitem>&quot; This kind of scripting would use high 
 		level user comprehensible GUI features and would not depend on special
 		application support for scripting. It would just work automatically 
 		with any GTK app. 
@@ -300,9 +301,12 @@
       <title>XML</title>
       <para>
 	GNOME 2 marks the first GNOME release to use <ulink
-							    url="http://www.xmlsoft.org/">libxml</ulink>,
+							    url="http://www.xmlsoft.org/">libxml2</ulink>,
 	one of the most complete and standards-compliant
-	free <acronym>XML</acronym>libraries available.
+	free <acronym>XML</acronym>libraries available. It includes
+							    <application>libxslt</application>,
+	a complete implementation of
+	the <acronym>XSLT</acronym> specification.
       </para>
     </sect2>
 
@@ -419,329 +423,7 @@
       </variablelist>
     </para>
   </sect1>
-  <sect1 id="platforms">
-    <title>Platforms</title>
-    <sect2 id="bsd">
-      <title>BSD</title>
-      <para>
-		The FreeBSD GNOME Project is providing <ulink url="http://www.freebsd.org/gnome/">
-		  ports</ulink>.
-	  </para>
-    </sect2>
-    <sect2 id="solaris">
-      <title>Solaris</title>
-      <para>Notes about building on Solaris.</para>
-      <para>
-		There are a number of patches recommended for building GNOME on 
-		Solaris, which can be obtained from <ulink
-		  url="http://sunsolve.Sun.COM/pub-cgi/show.pl?target=patches/patch-access">http://sunsolve.Sun.COM/pub-cgi/show.pl?target=patches/patch-access</ulink>:
-		<programlisting>
-	* Solaris8/sparc:
-        108528-14  108827-20  108989-02  110934-07  111293-04  112396-02
-        108652-51  108987-09  110380-04  111111-03  111310-01  112438-01
-
-    * Solaris8/x86:
-        108529-14  108828-22  108990-02  110935-07  111294-03  111311-01
-        112439-01  108653-41  108988-09  110403-04  111112-03  111307-03
-        112397-02
-	</programlisting>
-      </para>
-      <note>
-		<para>
-		  If you are using the native iconv implementation on Solaris
-		  instead of libiconv, you'll need to make sure that you have 
-		  the converters between locale encodings and UTF-8 installed.
-		  At a minimum you'll need the SUNWuiu8 package. You probably
-		  should also install the SUNWciu8, SUNWhiu8, SUNWjiu8, and
-		  SUNWkiu8 packages.  
-		</para>
-      </note>
-    </sect2>
-    <sect2 id="darwin">
-      <title>Darwin</title>
-      <para>
-		With the latest releases, the GTK family builds cleanly out of 
-		the box. More work is needed to get GNOME running, however. A <ulink
-		  url="http://mail.gnome.org/mailman/listinfo/gnome-darwin-list">
-		  gnome-darwin-list</ulink> has been set up for those interested in 
-		working on issue.
-      </para>
-    </sect2>
-    <sect2 id="linux">
-      <title>GNU/Linux</title>
-      <para>
-		Building GNOME 2 on GNU/Linux requires a number of standard packages
-		included with most distributions. Below are listings of the packages as
-		they are named in several of the most common distributions.
-	  </para>
-      <sect3 id="debian">
-		<title>Debian</title>
-		<para>
-		  <orderedlist>
-			<listitem>
-			  <para>libpng2-dev</para>
-			</listitem>
-			<listitem>
-			  <para>libjpeg-dev</para>
-			</listitem>
-			<listitem>
-			  <para>libtiff-dev</para>
-			</listitem>
-			<listitem>
-			  <para>xlibs-dev</para>
-			</listitem>
-			<listitem>
-			  <para>libpopt-dev</para></listitem>
-			<listitem>
-			  <para>libgdbmg1-dev (librep)</para></listitem>
-			<listitem>
-			  <para>libgmp3-dev (librep)</para></listitem>
-			<listitem>
-			  <para>texinfo (librep)</para></listitem>
-			<listitem>
-			  <para>libgnome-dev (rep-gtk - that's libgnome 1.x, believe it or
-				not)</para></listitem> 
-			<listitem>
-			  <para>libbz2-dev, zlib1g-dev (gnome-vfs, others)</para></listitem>
-			<listitem>
-			  <para>python2.2 + python2.2-xml (libglade)</para></listitem>
-			<listitem>
-			  <para>docbook-xml (Docbook DTD 4.1.2) + docbook-xsl (Docbook XSL Stylesheets)</para></listitem>
-			<listitem>
-			  <para>libncurses5-dev (gnome-utils)</para></listitem>
-		  </orderedlist>
-		</para>
-      </sect3>
-	  
-      <sect3 id="redhat">
-		<title>Red Hat</title>
-		<para>
-		  All of the following packages are required for a full build. Most
-		  should be installed by default and all will be available from the
-		  distribution itself. Alternatively, www.rpmfind.net is a good place 
-		  to find the appropriate packages. I have used the 
-		  <quote>official</quote> Red Hat names for each one. This is taken 
-		  from a Red Hat 7.3 box, so it should be the same names across all 
-		  Red Hat 7.x boxes and there are possibly some small changes on the 
-		  6.x boxes (plus some version problems on those boxes, too).
-		  <orderedlist>
-			<listitem>
-			  <para>gcc</para>
-			</listitem>
-			<listitem>
-			  <para>make</para>
-			</listitem>
-			<listitem>
-			  <para> glibc-devel</para>
-			</listitem>
-			<listitem>
-			  <para>libpng</para>
-			</listitem>
-			<listitem>
-			  <para> libpng-devel</para>
-			</listitem>
-			<listitem>
-			  <para>libjpeg</para>
-			</listitem>
-			<listitem>
-			  <para> libjpeg-devel</para>
-			</listitem>
-			<listitem>
-			  <para>libtiff</para>
-			</listitem>
-			<listitem>
-			  <para> libtiff-devel</para>
-			</listitem>
-			<listitem>
-			  <para>XFree86</para>
-			</listitem>
-			<listitem>
-			  <para> XFree86-devel
-				<note>
-				  <para>Plus whatever XFree86 packages are required for the
-					system to run.</para>
-				</note>
-			  </para>
-			</listitem>
-			<listitem>
-			  <para>freetype</para>
-			</listitem>
-			<listitem>
-			  <para>freetype-devel</para>
-			</listitem>
-	    <listitem>
-	      <para>popt</para>
-			</listitem>
-			<listitem>
-			  <para>gdbm</para>
-			</listitem>
-			<listitem>
-			  <para> gdbm-devel</para>
-			</listitem>
-			<listitem>
-			  <para>gmp</para>
-			</listitem>
-			<listitem>
-			  <para> gmp-devel
-				<note>
-				  <para>This is the GNU multi-precision library, not libgpm, 
-					the mouse library.</para>
-				</note>
-			  </para>
-			</listitem>
-			<listitem>
-			  <para>texinfo</para>
-			</listitem>
-			<listitem>
-			  <para>bzip2</para>
-			</listitem>
-			<listitem>
-			  <para>bzip2-libs</para>
-			</listitem>
-			<listitem>
-			  <para>bzip2-devel</para>
-			</listitem>
-			<listitem>
-			  <para>zlib</para>
-			</listitem>
-			<listitem>
-			  <para>zlib-devel</para>
-			</listitem>
-			<listitem>
-			  <para>gettext</para>
-			</listitem>
-			<listitem>
-			  <para>byacc or bison</para>
-			</listitem>
-			<listitem>
-			  <para>flex</para>
-			</listitem>
-			<listitem>
-			  <para>python >= 2.0 with expat support
-				<note>
-				  <para>
-					This means you need to be able to start python, it has
-					to be version 2.0 or greater and <quote>from xml.parsers 
-					  import expat</quote> must work from the Python prompt. 
-		    In other words, running <cmdsynopsis>
-<command>python2</command> 
-					<arg>-c</arg>
-		    </cmdsynopsis> <quote>from xml.parsers import expat</quote> 
-					from a shell prompt and having no error reported is 
-					sufficient.
-				  </para>
-				</note>
-			  </para>
-			</listitem>
-			<listitem>
-			  <para>openjade</para>
-			</listitem>
-			<listitem>
-			  <para>sgml-common</para>
-			</listitem>
-			<listitem>
-			  <para>docbook-dtds</para>
-			</listitem>
-			<listitem>
-			  <para>xml-common
-			  </para>
-			</listitem>
-			<listitem>
-			  <para>docbook-style-xsl</para>
-			</listitem>
-			<listitem>
-			  <para>docbook-style-dsssl</para>
-			</listitem>
-		  </orderedlist>
-		</para>
-      </sect3>
-	  
-      <sect3 id="mandrake">
-		<title>Mandrake</title>
-		<para>
-		  GNOME 2 binary packages are available in Mandrake Cooker <ulink
-			url="http://www.mandrakelinux.com/en/cookerdevel.php3">(ie
-			experimental / unstable) distribution
-			(http://www.mandrakelinux.com/en/cookerdevel.php3 )</ulink>
-		  <warning>
-			<para>
-			  These packages haven't yet been customized to fully integrate in
-			  Mandrake Linux (all available applications are not show in menu,
-			  some features available in Mandrake version of GNOME 1.4 have not
-			  been ported yet to GNOME 2).
-			</para>
-		  </warning>
-		  These packages should only be used on full cooker system (not
-		  8.2/cooker mixed system) and feedback for these packages should be 
-		  sent to the <ulink url="http://www.mandrakelinux.com/en/cookerdevel.php3">
-			cooker mailing list</ulink>.
-		</para>
-		<para>
-		  All of the following packages are required for a full Mandrake
-		  build. Most should be installed by default and all will be available
-		  from the distribution itself. Packages are from Mandrake Linux
-		  8.2. (Hint : use urpmi <replaceable>my_package</replaceable> to
-		  install <replaceable>my_package</replaceable>)
-		  <orderedlist>
-			<listitem><para>gcc</para></listitem>
-			<listitem><para>make</para></listitem>
-			<listitem><para>glibc-devel</para></listitem>
-			<listitem><para>libpng3</para></listitem>
-			<listitem><para>libpng3-devel</para></listitem>
-			<listitem><para>libjpeg62</para></listitem>
-			<listitem><para>libjpeg62-devel</para></listitem>
-			<listitem><para>libtiff3-devel</para></listitem>
-			<listitem><para>libtiff3-devel</para></listitem>
-			<listitem><para>XFree86</para></listitem>
-			<listitem><para>
-				XFree86-devel (Plus whatever XFree86 packages are required 
-				for the system to run.)
-			  </para></listitem>
-			<listitem><para>freetype2</para></listitem>
-			<listitem><para>freetype2-devel</para></listitem>
-			<listitem><para>popt</para></listitem>
-			<listitem><para>libgdbm2</para></listitem>
-			<listitem><para>libgdbm2-devel</para></listitem>
-			<listitem><para>libgmp3</para></listitem>
-			<listitem><para>libgmp3-devel (This is the GNU multi-precision 
-				library, not libgpm, the mouse library.)</para></listitem>
-			<listitem><para>texinfo</para></listitem>
-			<listitem><para>bzip2</para></listitem>
-			<listitem><para>libbzip2_1</para></listitem>
-			<listitem><para>libbzip2_1-devel</para></listitem>
-			<listitem><para>zlib1</para></listitem>
-			<listitem><para>zlib1-devel</para></listitem>
-			<listitem><para>gettext</para></listitem>
-			<listitem><para>byacc or bison</para></listitem>
-			<listitem><para>flex</para></listitem>
-			<listitem><para>python >= 2.0 with expat support. This means you 
-				need to be able to start python, it has to be version 2.0 or 
-				greater and <quote>from xml.parsers import expat</quote> must 
-				work from the Python prompt. In other words, running 
-				<cmdsynopsis><command>python2</command> <arg>-c</arg>
-				</cmdsynopsis> <quote>from xml.parsers import expat</quote> 
-				from a shell prompt and having no error reported is sufficient.
-			  </para></listitem>
-			<listitem><para>openjade</para></listitem>
-			<listitem><para>sgml-common</para></listitem>
-			<listitem><para>docbook-dtd41-sgml</para></listitem>
-			<listitem><para>docbook-dtd412-xml</para></listitem>
-			<listitem><para>docbook-style-xsl</para></listitem>
-			<listitem><para>docbook-style-dsssl</para></listitem>
-		  </orderedlist>
-		</para>
-      </sect3>
-    </sect2>
-  </sect1>
-  <sect1 id="systemrequirements">
-    <title>System Requirements</title>
-    <para>
-	  &g2; requires less resources than GNOME 1.4. We
-      recommend a P400 or equivalent with 128M RAM for using
-	  the desktop, but it has been known to work on a system with as little 
-	  as a P166 with 64M RAM.
-	</para>
-  </sect1>
+  
   <sect1 id="installation">
     <title>Installation</title>
     <sect2 id="buildorder">
@@ -937,7 +619,7 @@
 		It is possible to build all these packages in a different location from
 		the default <filename class="directory"><replaceable>/usr/local
 	  </replaceable></filename> (by passing the <cmdsynopsis>
-<arg>--prefix=
+<arg choice="plain">--prefix=
 		  <replaceable>location</replaceable></arg>
 	</cmdsynopsis> flag to the 
 		<command>configure</command> script in each tarball). If you do that,
@@ -984,9 +666,9 @@
 		  Installation Guide</ulink>.
       </para>
     </sect2>
-  </sect1>
+ 
 
-  <sect1 id="upgrading">
+  <sect2 id="upgrading">
     <title>Upgrading from GNOME 1.4</title>
     <para>
       After building and/or installing all of the packages successfully, there
@@ -995,17 +677,9 @@
     </para>
     <para>
       Ensure that any existing GNOME 1.x sessions have been exited and check
-      that GConfd has stopped (run 
-      <cmdsynopsis>
-      <command>ps</command> <arg>ax</arg>
-      </cmdsynopsis> | <cmdsynopsis> 
-	  <command>grep</command> <arg>[g]conf</arg>
-      </cmdsynopsis>). If 
-	  <application>gconf</application> is still running, execute the command 
-      <cmdsynopsis>
-	<command>gconftool-1</command> <arg>--shutdown</arg>
-      </cmdsynopsis>
-      to stop it.
+      that GConfd has stopped (run <userinput>ps ax | grep [g]conf</userinput>).
+	  If <application>gconf</application> is still running, execute the command
+	  <userinput>gconftool-1 --shutdown </userinput> to stop it.
     </para>
     <para>
       In order to have anti-aliased fonts in menus and applications, you will
@@ -1044,8 +718,341 @@
 	  <replaceable>user</replaceable> is replaced with the appropriate user's 
 	  login name.
     </para>
-  </sect1>
+  </sect2>
 
+<!-- platforms goes here -->
+<sect2 id="platforms">
+    <title>Platforms</title>
+    <sect3 id="bsd">
+      <title>BSD</title>
+      <para>
+		The FreeBSD GNOME Project is providing <ulink url="http://www.freebsd.org/gnome/">
+		  ports</ulink>.
+	  </para>
+    </sect3>
+    <sect3 id="solaris">
+      <title>Solaris</title>
+      <para>Notes about building on Solaris.</para>
+      <para>
+		There are a number of patches recommended for building GNOME on 
+		Solaris, which can be obtained from <ulink
+		  url="http://sunsolve.Sun.COM/pub-cgi/show.pl?target=patches/patch-access">http://sunsolve.Sun.COM/pub-cgi/show.pl?target=patches/patch-access</ulink>:
+		<programlisting>
+	* Solaris8/sparc:
+        108528-14  108827-20  108989-02  110934-07  111293-04  112396-02
+        108652-51  108987-09  110380-04  111111-03  111310-01  112438-01
+
+    * Solaris8/x86:
+        108529-14  108828-22  108990-02  110935-07  111294-03  111311-01
+        112439-01  108653-41  108988-09  110403-04  111112-03  111307-03
+        112397-02
+	</programlisting>
+      </para>
+      <note>
+		<para>
+		  If you are using the native iconv implementation on Solaris
+		  instead of libiconv, you'll need to make sure that you have 
+		  the converters between locale encodings and UTF-8 installed.
+		  At a minimum you'll need the SUNWuiu8 package. You probably
+		  should also install the SUNWciu8, SUNWhiu8, SUNWjiu8, and
+		  SUNWkiu8 packages.  
+		</para>
+      </note>
+    </sect3>
+    <sect3 id="darwin">
+      <title>Darwin</title>
+      <para>
+		With the latest releases, the GTK family builds cleanly out of 
+		the box. More work is needed to get GNOME running, however. A <ulink
+		  url="http://mail.gnome.org/mailman/listinfo/gnome-darwin-list">
+		  gnome-darwin-list</ulink> has been set up for those interested in 
+		working on issue.
+      </para>
+    </sect3>
+    <sect3 id="linux">
+      <title>GNU/Linux</title>
+      <para>
+		Building GNOME 2 on GNU/Linux requires a number of standard packages
+		included with most distributions. Below are listings of the packages as
+		they are named in several of the most common distributions.
+	  </para>
+      <sect4 id="debian">
+		<title>Debian</title>
+		<para>
+		  <orderedlist>
+			<listitem>
+			  <para>libpng2-dev</para>
+			</listitem>
+			<listitem>
+			  <para>libjpeg-dev</para>
+			</listitem>
+			<listitem>
+			  <para>libtiff-dev</para>
+			</listitem>
+			<listitem>
+			  <para>xlibs-dev</para>
+			</listitem>
+			<listitem>
+			  <para>libpopt-dev</para></listitem>
+			<listitem>
+			  <para>libgdbmg1-dev (librep)</para></listitem>
+			<listitem>
+			  <para>libgmp3-dev (librep)</para></listitem>
+			<listitem>
+			  <para>texinfo (librep)</para></listitem>
+			<listitem>
+			  <para>libgnome-dev (rep-gtk - that's libgnome 1.x, believe it or
+				not)</para></listitem> 
+			<listitem>
+			  <para>libbz2-dev, zlib1g-dev (gnome-vfs, others)</para></listitem>
+			<listitem>
+			  <para>python2.2 + python2.2-xml (libglade)</para></listitem>
+			<listitem>
+			  <para>docbook-xml (Docbook DTD 4.1.2) + docbook-xsl (Docbook XSL Stylesheets)</para></listitem>
+			<listitem>
+			  <para>libncurses5-dev (gnome-utils)</para></listitem>
+		  </orderedlist>
+		</para>
+      </sect4>
+	  
+      <sect4 id="redhat">
+		<title>Red Hat</title>
+		<para>
+		  All of the following packages are required for a full build. Most
+		  should be installed by default and all will be available from the
+		  distribution itself. Alternatively, www.rpmfind.net is a good place 
+		  to find the appropriate packages. I have used the 
+		  <quote>official</quote> Red Hat names for each one. This is taken 
+		  from a Red Hat 7.3 box, so it should be the same names across all 
+		  Red Hat 7.x boxes and there are possibly some small changes on the 
+		  6.x boxes (plus some version problems on those boxes, too).
+		  <orderedlist>
+			<listitem>
+			  <para>gcc</para>
+			</listitem>
+			<listitem>
+			  <para>make</para>
+			</listitem>
+			<listitem>
+			  <para> glibc-devel</para>
+			</listitem>
+			<listitem>
+			  <para>libpng</para>
+			</listitem>
+			<listitem>
+			  <para> libpng-devel</para>
+			</listitem>
+			<listitem>
+			  <para>libjpeg</para>
+			</listitem>
+			<listitem>
+			  <para> libjpeg-devel</para>
+			</listitem>
+			<listitem>
+			  <para>libtiff</para>
+			</listitem>
+			<listitem>
+			  <para> libtiff-devel</para>
+			</listitem>
+			<listitem>
+			  <para>XFree86</para>
+			</listitem>
+			<listitem>
+			  <para> XFree86-devel
+				<note>
+				  <para>Plus whatever XFree86 packages are required for the
+					system to run.</para>
+				</note>
+			  </para>
+			</listitem>
+			<listitem>
+			  <para>freetype</para>
+			</listitem>
+			<listitem>
+			  <para>freetype-devel</para>
+			</listitem>
+	    <listitem>
+	      <para>popt</para>
+			</listitem>
+			<listitem>
+			  <para>gdbm</para>
+			</listitem>
+			<listitem>
+			  <para> gdbm-devel</para>
+			</listitem>
+			<listitem>
+			  <para>gmp</para>
+			</listitem>
+			<listitem>
+			  <para> gmp-devel
+				<note>
+				  <para>This is the GNU multi-precision library, not libgpm, 
+					the mouse library.</para>
+				</note>
+			  </para>
+			</listitem>
+			<listitem>
+			  <para>texinfo</para>
+			</listitem>
+			<listitem>
+			  <para>bzip2</para>
+			</listitem>
+			<listitem>
+			  <para>bzip2-libs</para>
+			</listitem>
+			<listitem>
+			  <para>bzip2-devel</para>
+			</listitem>
+			<listitem>
+			  <para>zlib</para>
+			</listitem>
+			<listitem>
+			  <para>zlib-devel</para>
+			</listitem>
+			<listitem>
+			  <para>gettext</para>
+			</listitem>
+			<listitem>
+			  <para>byacc or bison</para>
+			</listitem>
+			<listitem>
+			  <para>flex</para>
+			</listitem>
+			<listitem>
+			  <para>python >= 2.0 with expat support
+				<note>
+				  <para>
+					This means you need to be able to start python, it has
+					to be version 2.0 or greater and <quote>from xml.parsers 
+					import expat</quote> must work from the Python prompt. 
+					In other words, running <userinput>python2 -c &quot;from
+					xml.parsers import expat&quot;</userinput> from a shell
+					prompt and having no error reported is sufficient.
+				  </para>
+				</note>
+			  </para>
+			</listitem>
+			<listitem>
+			  <para>openjade</para>
+			</listitem>
+			<listitem>
+			  <para>sgml-common</para>
+			</listitem>
+			<listitem>
+			  <para>docbook-dtds</para>
+			</listitem>
+			<listitem>
+			  <para>xml-common
+			  </para>
+			</listitem>
+			<listitem>
+			  <para>docbook-style-xsl</para>
+			</listitem>
+			<listitem>
+			  <para>docbook-style-dsssl</para>
+			</listitem>
+		  </orderedlist>
+		</para>
+      </sect4>
+	  
+      <sect4 id="mandrake">
+		<title>Mandrake</title>
+		<para>
+		  GNOME 2 binary packages are available in Mandrake Cooker <ulink
+			url="http://www.mandrakelinux.com/en/cookerdevel.php3">(ie
+			experimental / unstable) distribution
+			(http://www.mandrakelinux.com/en/cookerdevel.php3 )</ulink>
+		  <warning>
+			<para>
+			  These packages haven't yet been customized to fully integrate in
+			  Mandrake Linux (all available applications are not show in menu,
+			  some features available in Mandrake version of GNOME 1.4 have not
+			  been ported yet to GNOME 2).
+			</para>
+		  </warning>
+		  These packages should only be used on full cooker system (not
+		  8.2/cooker mixed system) and feedback for these packages should be 
+		  sent to the <ulink url="http://www.mandrakelinux.com/en/cookerdevel.php3">
+			cooker mailing list</ulink>.
+		</para>
+		<para>
+		  All of the following packages are required for a full Mandrake
+		  build. Most should be installed by default and all will be available
+		  from the distribution itself. Packages are from Mandrake Linux
+		  8.2. (Hint : use urpmi <replaceable>my_package</replaceable> to
+		  install <replaceable>my_package</replaceable>)
+		  <orderedlist>
+			<listitem><para>gcc</para></listitem>
+			<listitem><para>make</para></listitem>
+			<listitem><para>glibc-devel</para></listitem>
+			<listitem><para>libpng3</para></listitem>
+			<listitem><para>libpng3-devel</para></listitem>
+			<listitem><para>libjpeg62</para></listitem>
+			<listitem><para>libjpeg62-devel</para></listitem>
+			<listitem><para>libtiff3-devel</para></listitem>
+			<listitem><para>libtiff3-devel</para></listitem>
+			<listitem><para>XFree86</para></listitem>
+			<listitem><para>
+				XFree86-devel (Plus whatever XFree86 packages are required 
+				for the system to run.)
+			  </para></listitem>
+			<listitem><para>freetype2</para></listitem>
+			<listitem><para>freetype2-devel</para></listitem>
+			<listitem><para>popt</para></listitem>
+			<listitem><para>libgdbm2</para></listitem>
+			<listitem><para>libgdbm2-devel</para></listitem>
+			<listitem><para>libgmp3</para></listitem>
+			<listitem><para>libgmp3-devel (This is the GNU multi-precision 
+				library, not libgpm, the mouse library.)</para></listitem>
+			<listitem><para>texinfo</para></listitem>
+			<listitem><para>bzip2</para></listitem>
+			<listitem><para>libbzip2_1</para></listitem>
+			<listitem><para>libbzip2_1-devel</para></listitem>
+			<listitem><para>zlib1</para></listitem>
+			<listitem><para>zlib1-devel</para></listitem>
+			<listitem><para>gettext</para></listitem>
+			<listitem><para>byacc or bison</para></listitem>
+			<listitem><para>flex</para></listitem>
+			<listitem><para>python >= 2.0 with expat support. This means you 
+				need to be able to start python, it has to be version 2.0 or 
+				greater and <quote>from xml.parsers import expat</quote> must 
+				work from the Python prompt. In other words, running 
+				<userinput>python2 -c &quot;from xml.parsers import
+				expat&quot;</userinput> from a shell prompt and having no
+				error reported is sufficient.
+			  </para></listitem>
+			<listitem><para>openjade</para></listitem>
+			<listitem><para>sgml-common</para></listitem>
+			<listitem><para>docbook-dtd41-sgml</para></listitem>
+			<listitem><para>docbook-dtd412-xml</para></listitem>
+			<listitem><para>docbook-style-xsl</para></listitem>
+			<listitem><para>docbook-style-dsssl</para></listitem>
+		  </orderedlist>
+		</para>
+      </sect4>
+	<sect4 id="gentoo">
+	  <title>Gentoo</title>
+	  <para>
+	    <ulink url="http://www.gentoo.org/">Gentoo Linux</ulink> provides
+	    GNOME 2 support. Details <ulink
+	    url="http://www.gentoo.org/~spider/">here</ulink>.
+	  </para>
+	</sect4>
+
+    </sect3>
+  </sect2>
+  <sect2 id="systemrequirements">
+    <title>System Requirements</title>
+    <para>
+	As discussed <xref linkend="performance"/>, &g2; requires less resources than GNOME 1.4. We
+      recommend a P400 or equivalent with 128M RAM for using
+	  the desktop, but it has been known to work on a system with as little 
+	  as a P166 with 64M RAM.
+	</para>
+  </sect2>
+
+
+ </sect1>
   <sect1 id="themes">
     <title>Themes</title>
     <para>
@@ -1055,6 +1062,7 @@
 	  <application>GDM</application>, <application>Nautilus</application>
       and more.
     </para>
+
 
     <para>
       A GNOME themes web site, <ulink
@@ -1068,7 +1076,7 @@
     <sect2 id="autoapply">
       <title>Auto-apply</title>
       <para>
-		As a rule, preference capplets are now auto-apply, so do not be
+		As a rule, preference dialogs are now auto-apply, so do not be
 		surprised by the lack of an <guibutton>Apply</guibutton> button.
       </para>
     </sect2>
@@ -1082,8 +1090,8 @@
 		  <para>
 			Changing this GConf key does not instantly apply. To ensure that 
 			the change takes place, you must log out, kill any GNOME daemons 
-			still running (such as <application>oafd</application>), and log 
-			in again.
+			still running (such as
+			<application>bonobo-activation</application>), and log in again.
 		  </para>
 		</note>
       </para>
@@ -1109,8 +1117,8 @@
     </sect2>
 
   </sect1>
-  <sect1 id="bugs">
-    <title>Bugs</title>
+  <sect1 id="errors">
+    <title>Known Issues</title>
     <para>
 	  All software, when it is released, contains bugs the developers know
 	  about but have elected, for a variety of reasons, not to fix before
@@ -1245,12 +1253,12 @@ In order to simplify sawfish code and user interface, viewports have
   <sect1 id="gettinginvolved">
     <title>Getting Involved</title>
     <para>
-      While GNOME 2 has drawn significant corporate support, the core of its
+      The core of GNOME 2's
       success is its volunteers, both developers and users. As a user, your
       contribution can be as simple as filing good bug reports. GNOME's bugs are
       found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Bugmeister Luis
       Villa has set up a <ulink
-				url="http://bugzilla.gnome.org/simple-bug-guide.cgi">simple bug-fling interface</ulink> to make it easier to file useful reports.
+				url="http://bugzilla.gnome.org/simple-bug-guide.cgi">simple bug-filing interface</ulink> to make it easier to file useful reports.
     </para>
     <para>
       If you would like to take the next step, developers, documenters, web
@@ -1266,8 +1274,8 @@ In order to simplify sawfish code and user interface, viewports have
       <para>
 	Menu editing in the GNOME 2 desktop has undergone a large amount of re-work
 	to move to using <ulink
-				url="http://developer.gnome.org/doc/API/gnome-vfs/">gnome-vfs</ulink>, the filesystem abstraction library and
-	the implementation of a<ulink url="http://www.freedesktop.org">shared
+				url="http://developer.gnome.org/doc/API/gnome-vfs/">gnome-vfs</ulink>, the file system abstraction library and
+	the implementation of a <ulink url="http://www.freedesktop.org">shared
 	vfolder spec</ulink> between GNOME and other
 	desktops for the X Window System. 
       </para>
@@ -1284,8 +1292,8 @@ In order to simplify sawfish code and user interface, viewports have
 	  With no standard location, 3rd party application developers do not
 	  know where to install their .desktop files for them to be picked up by
 	  the menu. Many distributions have their own idea of where this
-	  location should be, creating a large amount of uneccessary
-	  inconsistancy and heartache trying to integrate your application on
+	  location should be, creating a large amount of unecessary
+	  inconsistency and heartache trying to integrate your application on
 	  various distributions.
 	</para>
       </sect2>
@@ -1293,8 +1301,8 @@ In order to simplify sawfish code and user interface, viewports have
 	<title>Structure of menu is set by the location on disk</title>
 	<para>
 	  With a set location, and consequently a set menu structure, it is not
-	  possible to change the layout of the menus without adversly affecting
-	  3rd party application developers. This inflexibility has biten many
+	  possible to change the layout of the menus without adversely affecting
+	  3rd party application developers. This inflexibility has bitten many
 	  people in the past.
 	</para>
       </sect2>
@@ -1331,7 +1339,7 @@ In order to simplify sawfish code and user interface, viewports have
 	where each entry is a link to another .directory file.
       </para>
       <para>
-	With the introduction of this mechanism, it has been neccessary to
+	With the introduction of this mechanism, it has been necessary to
 	introduce 2 new keys to the .desktop file format -
       </para>
       <sect2 id="categories">
