@@ -868,16 +868,11 @@
 			<listitem>
 			  <para>texinfo (librep)</para></listitem>
 			<listitem>
-			  <para>libgnome-dev (rep-gtk - that's libgnome 1.x, believe it or
-				not)</para></listitem> 
-			<listitem>
 			  <para>libbz2-dev, zlib1g-dev (gnome-vfs, others)</para></listitem>
 			<listitem>
 			  <para>python2.2 + python2.2-xml (libglade)</para></listitem>
 			<listitem>
 			  <para>docbook-xml (Docbook DTD 4.1.2) + docbook-xsl (Docbook XSL Stylesheets)</para></listitem>
-			<listitem>
-			  <para>libncurses5-dev (gnome-utils)</para></listitem>
 		  </orderedlist>
 		</para>
       </sect4>
