@@ -33,13 +33,15 @@ glib                1.2.8                                             Tim Janik 
                                                                       Owen Taylor <otaylor@redhat.com>
 gnome-applets       1.2.0
 gnome-audio         1.0.0
-gnome-core          1.2.0
+gnome-core          1.2.0                     Yes           Yes       Jacob Berkman <jacob@helixcode.com>
+                                                                      George Lebl <jirka@5z.com>
 gnome-games         1.2.0                                             Ian Peters <itp@helixcode.com>
 gnome-libs          1.2.0                                             Miguel de Icaza <miguel@helixcode.com>
 gnome-media         1.2.0                     No            No        Peter Teichman <pat@gnu.org>
 gnome-pim           1.2.0
 gnome-print         0.20                      Yes           Yes 
-gnome-utils         1.2.0
+gnome-user-docs     1.0.0                     Yes           No        Dan Mueth <d-mueth@uchicago.edu>
+gnome-utils         1.2.0                     Yes           No        Gregory McLean <gregm@comstar.net> 
 gtk+                1.2.8                                             Tim Janik <timj@redhat.com>, 
                                                                       Owen Taylor <otaylor@redhat.com>
 gtk-engines         0.10
@@ -50,7 +52,7 @@ libglade            0.13                      Yes           Yes       James Hens
 libgtop             1.0.7
 libxml              1.8.9                     Yes           Yes       Daniel Veillardd <Daniel.Veillard@w3.org>
 mc                  4.5.49
-users-guide         1.1-9
+users-guide         1.1-9                     Yes           No        Dan Mueth <d-mueth@uchicago.edu>
 
 
 GNOME Office packages
