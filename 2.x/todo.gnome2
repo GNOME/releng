@@ -1,0 +1,414 @@
+
+##############################################################################################
+## gnome-control-center 
+##############################################################################################
+#<application name="gnome-control-center" authors="jrb,hovinen,zaphod" link="">
+#</application>
+
+##############################################################################################
+## bug-buddy 
+##############################################################################################
+<application name="bug-buddy" authors="jacob@ximian.com" link="">
+<item done="no">
+Help stuff doesn't build correctly, nor is it hooked up yet
+</item>
+<item done="no">
+Add ability to use an external mailer when filing a bug
+</item>
+<item done="no">
+Add ability to use a proxy
+</item>
+</application>
+
+##############################################################################################
+## nautilus 
+##############################################################################################
+#<application name="nautilus" authors="darin,anders" link="">
+#</application>
+
+##############################################################################################
+## gedit
+##############################################################################################
+<application name="gedit" authors="paolo_eli.maggi@katamail.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gedit/TODO&rev=&root=/cvs/gnome">
+<item done="no">
+Saving files in locale encoding when needed.
+</item>
+<item done="no">
+Removing unused code from gedit-file-selector-util.c
+</item>
+<item done="no">
+Implementing case sensitive Find and Replace
+</item>
+<item done="no">
+Check all strings (this is a task for a native english person)
+</item>
+<item done="no">
+Save window size when exiting 
+</item>
+<item done="no">
+Adding plugins support
+</item>
+<item done="no">
+Porting old plugins
+</item>
+<item done="no">
+Writing new user docs
+</item>
+<item done="no">
+Backup file every x minutes (snorp is working on it)
+</item>
+<item done="no">
+The remote files should be read in an async way
+</item>
+<item done="no">
+Backup files before crashing, like AbiWord (I hope this code will never be used)
+</item>
+<item done="no">
+Save menubar and toolbar layout 
+</item>
+<item done="no">
+Instant apply in Preferences dialog
+</item>
+<item done="no">
+Print from line x to line y
+</item>
+<item done="no">
+Improve the behavior of the undo actions merging code when dealing with non ASCII text 
+</item>
+<item done="no">
+Adding a MDI Mode page to Preferences dialog (already implemented, to be debugged)
+</item>
+<item done="no">
+Adding a Tabs page to Preferences dialog (already implemented, 
+but gedit_view_set_tab_size is broken, see pango-layout.c function ensure_tab_width) 		
+</item>
+<item done="no">
+Add a +<lnum> option (like vi)
+</item>
+<item done="no">
+Session management
+</item>
+</application>
+
+##############################################################################################
+## gnome-core 
+##############################################################################################
+#<application name="gnome-core" authors="george,jacob,mark,glynn,alex" link="">
+#</application>
+
+##############################################################################################
+## glade 
+##############################################################################################
+<application name="glade" authors="damon@ximian.com, jacob@ximian.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=glade/TODO&rev=glade-gnome2-branch&root=/cvs/gnome">
+<item done="no">
+Finish support for the following Gtk+ basic widgets - &nbsp;
+GtkWindow, GtkMenuBar, GtkToolbar, GtkLabel, GtkEntry, GtkCombo, GtkToggleButton, GtkCheckButton, GtkRadioButton, GtkList, GtkCList, GtkCTree,
+GtkOptionMenu, GtkProgressBar, GtkStatusbar, GtkDialog, GtkColorSelectionDialog, GtkFontSelectionDialog, GtkFixed, GtkHPaned, GtkVPaned, GtkNotebook,
+GtkFrame, GtkScrolledWindow, GtkHScale, GtkVScale
+</item>
+<item done="no">
+Finish support for the following Gtk+ additional widgets - &nbsp;
+GtkHScale, GtkVScale, GtkHRuler, GtkVRuler, GtkAccelLabel, GtkCalendar, GtkLayout, GtkAspectFrame, GtkHScrollbar, GtkVScrollbar, GtkColorSelection,
+GtkFontSelection
+</item>
+<item done="no">
+Add support for the following Gtk+ widgets - &nbsp;
+GtkHSV, GtkTextView, GtkTreeView
+</item>
+<item done="no">
+Add support for the following GNOME widgets - &nbsp;
+GnomeIconEntry, GnomePixmapEntry
+</item>
+<item done="no">
+Add support for the following bonobo widgets - &nbsp;
+BonoboWindow
+</item>
+<item done="no">
+Save project options and signal handler modification times separately
+</item>
+<item done="no">
+Check common widget properties - especially things like choice options
+and default values.
+</item>
+<item done="no">
+Check signal parameters are still the same, so the code we output is still
+OK. No doubt there are lots of new signals to add as well.
+</item>
+<item done="no">
+Accessibility
+</item>
+<item done="no">
+Clean up build.
+</item>
+</application>
+
+##############################################################################################
+## gnome-applets 
+##############################################################################################
+<application name="gnome-applets" authors="kvf101@psu.edu" link="">
+<item done="no">
+battery - to be replaced by battstat. Looks like porting has begun, but I
+don't know how far
+</item>
+<item done="no">
+charpick - ported but crashes. It looks like it's an issue with global
+variables and how the bonobo applets work (I think this is an issue with
+other applets also). Prefs not ported.
+</item>
+<item done="no">
+gkb-new: needs prefs porting.
+</item>
+<item done="no">
+gweather - not ported at all. This needs porting from ghttp to gnome-vfs.
+</item>
+<item done="no">
+gtik - not ported at all. This needs porting from ghttp to gnome-vfs.
+</item>
+<item done="no">
+mini-commander - needs prefs. It runs and works but I think it probably
+has a few bugs
+</item>
+<item done="no">
+mixer - ported, but needs to respond to panel background changes to get
+transparency right.
+</item>
+<item done="no">
+multiload - mostly ported, but prefs dialog needs completion
+</item>
+<item done="no">
+screenshooter - The zillion prefs need porting. This applet could just
+call the panel screenshooter app
+</item>
+<item done="no">
+Only multiload passes the DISABLE_DEPRECATED flags. The good part is
+that most of them have their prefs ported which is the hard part. It
+would be pretty trivial (though laborsome) for someone to go through and
+change all the gtk_->g_ stuff etc.
+</item>
+</application>
+
+##############################################################################################
+## gnome-games
+##############################################################################################
+<application name="gnome-games" authors="jpablo@gnome.org" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-games/TODO&rev=&root=/cvs/gnome">
+<item done="no">
+Help->game menu is not working on any game.
+</item>
+<item done="no">
+Wipe out all the clock.[ch] files around and use libgames-support/games-clock
+</item>
+<item done="no">
+Port everything to GConf, it will be post 2.0 (or before if we have time to finish everything else)
+</item>
+<item done="no">
+The only games compiling with *_DISABLE_DEPRECATED are: glines, game-gnome, gnotravex and gattax
+</item>
+<item done="no">
+Aisleriot has some problems on the magic scrollmenu it's using, need a pretty dialog to chose the game would be better
+</item>
+<item done="no">
+Gnome Stones has some font problems
+</item>
+<item done="no">
+Gnome Stones feels slow to play
+</item>
+<item done="no">
+Gnometris does not update the window size when you change the field size
+</item>
+<item done="no">
+We may want to update to xbill 2.1 since it's rewriten in
+C and inclues a gtk interface already
+</item>
+</application>
+
+##############################################################################################
+## gnome-media 
+##############################################################################################
+<application name="gnome-media" authors="iain@ximian.com" link="">
+<item done="no">
+Gnome-CD needs a preferences dialog and some preferences
+</item>
+<item done="no">
+Gnome-CD needs a CDDB/track editor
+</item>
+<item done="no">
+Gnome-CD needs non-Linux ports. The framework for the cd stuff should be
+portable to anything, as opposed to  GTCD where it was nasty, but it
+needs ported. I'll do Solaris if someone sends me a Sparc... :)
+</item>
+<item done="no">
+The CDDB parser could do with some work
+</item>
+<item done="no">
+Gnome-CD needs things like Repeat track, repeat CD implemented and time
+remaining, track time remaining
+</item>
+<item done="no">
+Gnome-CD needs an about box
+</item>
+<item done="no">
+Gnome-CD theme stuff could be optimised, but I only added it today, so give me
+time.
+</item>
+<item done="no">
+GMix - started making the backend OS independant like gnome-cd, but never
+got time to finish it. It works fine on Linux, but is basically
+unportable to any other OS.
+</item>
+<item done="no">
+VU-Meter testing. Has been ported.
+</item>
+<item done="no">
+GRecord - never got it to work on GNOME 1.4. Has been ported.
+</item>
+<item done="no">
+CDDBSlave2 has problems with gnome-vfs. Possibly a problem with gnome-vfs.
+</item>
+<item done="no">
+CDDBSlave2 - possibly ported to gnet, then use some http freedb interface
+</item>
+<item done="no">
+I'd *LOVE* it if CDDBSlave2 did all the parsing of CDDB entries and
+was able to pass the information in an already parsed state to
+applications, no need for apps to duplicate code and all that.
+</item>
+<item done="no">
+I'd also *LOVE* it if CDDBSlave2 could do things like giving the user
+a choice if multiple discs are returned for a query.
+</item>
+<item done="no">
+I'd also also also *LOVE LOVE LOVE* it, if the CDDBSlave was able to
+export a BonoboControl that could be used as a CDDB editor. But that's
+in the future.
+</item>
+<item done="no">
+CDDBSlave2 has problems with activation.
+</item>
+</application>
+
+##############################################################################################
+## gnome-utils
+##############################################################################################
+<application name="gnome-utils" authors="jirka@5z.com, kvf101@psu.edu" link="">
+<item done="no">
+Make distcheck.
+</item>
+<item done="no">
+Use gnome-vfs in meat grinder
+</item>
+<item done="no">
+Logview is broken with respect to dates and locale
+</item>
+<item done="no">
+Logview should start using GtkTreeView instead of custom drawing crap
+</item>
+</application>
+
+##############################################################################################
+## procman
+##############################################################################################
+#<application name="procman" authors="kevin" link="">
+#</application>
+
+##############################################################################################
+## gdm
+##############################################################################################
+<application name="gdm" authors="jirka@5z.com" link="">
+<item done="no">
+Fix locales, it's all screwed up now
+</item>
+<item done="no">
+Use the new greeter as well (we can by default use greeter
+on local and gdmlogin on remote)
+</item>
+<item done="no">
+Need to fix config thingie to support the case of multiple greeters
+</item>
+</application>
+
+##############################################################################################
+## sawfish 
+##############################################################################################
+#<application name="sawfish" authors="john,sander" link="">
+#</application>
+
+##############################################################################################
+## scrollkeeper 
+##############################################################################################
+<application name="scrollkeeper" authors="d-mueth@uchicago.edu" link="https://sourceforge.net/tracker/?group_id=11543&atid=111543">
+<item done="no">
+Investigate the "Premature end of data in tag ..." error spews it gets
+when processing many SGML files.
+</item>
+<item done="no">
+Fix link to stylesheet
+</item>
+<item done="no">
+Make sure that docs with invalid categories are placed into the most
+appropriate "Other" section.
+</item>
+<item done="no">
+Improve information dumped to log files, including date and time stamp.
+</item>
+<item done="no">
+Add appropriate flags to various commands to allow for easy use by
+non-root users.  This means each command must accept a flag for the
+database path, and possibly for a log file and other files.
+</item>
+<item done="no">
+Write an OMF-writing tutorial, and add it to the web page
+</item>
+<item done="no">
+Write 0.4 specifications
+</item>
+<item done="no">
+Go forth and test, especially in with various documents (SGML and XML)
+and with various locales.
+</item>
+</application>
+
+##############################################################################################
+## yelp 
+##############################################################################################
+<application name="yelp" authors="micke@codefactory.se, alexl@redhat.com, malcolm@commsecure.com.au, jfleck@inkstain.net" link="http://bugzilla.gnome.org/buglist.cgi?product=Yelp&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED">
+<item done="no">
+Need to cache help pages
+</item>
+<item done="no">
+Default GNOME help page toc:info and toc:man URIs should be supported
+</item>
+<item done="no">
+Support has to be added for searching keywords in Scrollkeeper
+</item>
+<item done="no">
+Open external links in a browser
+</item>
+<item done="no">
+Bookmarks should be supported
+</item>
+<item done="no">
+Add support for a recently-viewed list.
+</item>
+<item done="no">
+Contents -> Recently viewed, Bookmarks
+</item>
+<item done="no">
+Add a throbber
+</item>
+<item done="no">
+history has to be fixed to work with different views and different sections
+in those views.
+</item>
+<item done="no">
+Two stage home-view. 
+First stage 'toc:' shows / from the tree.
+Second stage, 'toc:man, toc:info, toc:GNOME' shows the sublevel with
+corresponding name.
+</item>
+</application>
+
+##############################################################################################
+## gconf-editor 
+##############################################################################################
+#<application name="gconf-editor" authors="anders" link="">
+#</application>

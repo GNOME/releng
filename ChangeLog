@@ -1,3 +1,9 @@
+2002-01-13  Glynn Foster  <glynn.foster@sun.com>
+
+	* 2.x/todo.gnome2: Add todo list of most of the gnome2 core applications.
+	* application_todos.pl: Add exhibit A - poopy perl script for generating 
+	dotplan mongo todo list webpage.
+
 2002-01-05  Jamin Gray <jgray@writeme.com> 
 
 	* 2.x/package-list: added contact and version info for galeon, gnomemeeting 
