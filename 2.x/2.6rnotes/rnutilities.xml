@@ -22,7 +22,7 @@
     <title>Character Map </title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;gucharmapTODO.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gucharmap.png" format="PNG"/></imageobject>
           <textobject><phrase>The Character Map, showing characters from the TODO script.</phrase></textobject>
         </mediaobject>
       </screenshot>
@@ -121,7 +121,7 @@
     <title>Search For Files</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;geditTODO.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gedit.png" format="PNG"/></imageobject>
           <textobject><phrase>The text editor, with syntax highlighting for C++.</phrase></textobject>
         </mediaobject>
       </screenshot>
