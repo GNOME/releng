@@ -52,6 +52,9 @@
     </abstract>
 
   </articleinfo>
+
+<xi:include href="rnmemorial.xml"/>
+
 <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
 

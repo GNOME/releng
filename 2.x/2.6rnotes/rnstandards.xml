@@ -19,15 +19,15 @@
     <para>
     GNOME developers are working hard with other members of the free software
     community through Freedesktop.org on the development of standards to allow
-    interoperability. Those standards include: <a href="http://www.freedesktop.org/Standards/icon-theme-spec">icon themes</a>,
-    <a href="http://www.freedesktop.org/Standards/recent-file-spec">recent files</a>,
-    <a href="http://triq.net/~jens/thumbnail-spec/index.html">thumbnail management</a>,
-    and the <a href="http://www.freedesktop.org/Standards/systemtray-spec">system tray</a> specifications. In addition, GNOME
-    supports <a href="http://www.omg.org/">CORBA</a>, <a href="http://www.w3.org/XML/">XML</a>,
-    <a href="http://www.freedesktop.org/Standards/XDND">Xdnd</a>,
-    <a href="http://www.freedesktop.org/standards/wm-spec">EWMH</a>,
-    <a href="http://www.freedesktop.org/Standards/xembed-spec"XEMBED<a/>,
-    <a href="http://www.freedesktop.org/Standards/xsettings-spec">XSETTINGS,
-    and <a href="http://www.xfree86.org/current/xsmp.html">XSMP</a>.
+    interoperability. Those standards include: <ulink url="http://www.freedesktop.org/Standards/icon-theme-spec">icon themes</ulink>,
+    <ulink url="http://www.freedesktop.org/Standards/recent-file-spec">recent files</ulink>,
+    <ulink url="http://triq.net/~jens/thumbnail-spec/index.html">thumbnail management</ulink>,
+    and the <ulink url="http://www.freedesktop.org/Standards/systemtray-spec">system tray</ulink> specifications. In addition, GNOME
+    supports <ulink url="http://www.omg.org/">CORBA</ulink>, <ulink url="http://www.w3.org/XML/">XML</ulink>,
+    <ulink url="http://www.freedesktop.org/Standards/XDND">Xdnd</ulink>,
+    <ulink url="http://www.freedesktop.org/standards/wm-spec">EWMH</ulink>,
+    <ulink url="http://www.freedesktop.org/Standards/xembed-spec">XEMBED</ulink>,
+    <ulink url="http://www.freedesktop.org/Standards/xsettings-spec">XSETTINGS</ulink>,
+    and <ulink url="http://www.xfree86.org/current/xsmp.html">XSMP</ulink>.
     </para>
 </sect1>

@@ -4,7 +4,7 @@ DOCBOOK_STYLESHEER ?= http://docbook.sourceforge.net/release/xsl/current/html/ch
 
 docbook_sources = release-notes.xml rna11y.xml rnapplets.xml rnapplications.xml \
                   rncontrolcenter.xml rndesktop.xml rndocs.xml \
-                  rnhelp.xml rni18n.xml rnlockdown.xml \
+                  rnhelp.xml rni18n.xml rnlockdown.xml rnmemorial.xml \
                   rninstallation.xml rnplatform.xml rnstandards.xml \
                   rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml rnwm.xml
 
@@ -25,6 +25,6 @@ rsync_args = -vz --rsh ssh
 
 upload_path = murrayc.com/temp/release
 upload-test-html: html/index.html
-	rsync $(rsync_args) figures/*.png $$USER@murrayc.com:$(upload_path)/html/figures/
+	rsync $(rsync_args) figures/*.png figures/*.jpg $$USER@murrayc.com:$(upload_path)/html/figures/
 	rsync $(rsync_args) -r html/ $$USER@murrayc.com:$(upload_path)/html/
 

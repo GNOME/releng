@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect1 id="rnmemorial">
+
+    <title>In Memory</title>
+
+    <para>
+     <figure id="rnpicture-inmemory-dudes">
+      <title>Ettore, Mark, and Chema</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;inmemory-dudes.jpg" format="JPG"/>
+            </imageobject>
+            <textobject><phrase>Ettore, Mark, and Chema</phrase></textobject>
+          </mediaobject>
+       </screenshot>
+     </figure>
+
+     The GNOME family lost three of our closest members during the last release cycle. All three were passionate about GNOME, and 
+     free software, and all were young. This release is dedicated to them and to their memories; happy hacking, dudes.
+     </para>
+
+     <sect2>
+     <title>Chema Celorio</title>
+     <para>Chema hacked on gnomeprint, gnumeric, and the ximian setup tools (later GNOME Setup Tools.) He also initiated and organized 
+     the gnome-love project. At Ximian, he also led the HPUX and Desktop teams before moving into sales. Chema passed away in November 
+     while pursuing his other passion, skydiving, where he had completed over a thousand jumps.</para>
+     </sect2>
+
+     <sect2>
+     <title>Mark Finlay</title>
+     <para>Mark contributed to a number of GNOME projects, including the bugsquad and usability team, and pushed for the creation of 
+     the gnomesupport.org forums. Mark passed away in January, having just completed his first semester at university.</para>
+     </sect2>
+     
+     <sect2>
+     <title>Ettore Perazzoli</title>
+     <para>Ettore hacked on a number of GNOME projects, including gnome-vfs, Evolution, and f-spot. At Ximian, he led the Evolution
+     team. Ettore passed away in December.</para>
+     </sect2>
+
+</sect1>
