@@ -567,7 +567,7 @@ gnome2-user-docs
 More details on bugs already reported can be found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version; bugs:</para>
 
     <sect2><title>Threading in GStreamer</title> <para>GStreamer uses
-    its own theading implementation, which has some known issues. They
+    its own threading implementation, which has some known issues. They
     are discussed in more detail in the <ulink
     url="http://www.gstreamer.net/releases/0.6.0/notice.php">GStreamer
     0.6 Release Notes.</ulink></para>
@@ -614,15 +614,15 @@ users.</para>
 <para>
 GNOME 2.4 will continue GNOME 2.2's movement towards a more tightly
 integrated desktop, making it a real competitor at the enterprise
-level. This next release (expected in the late summer of 2003) should
+level. This next release - expected in the late (northern) summer of 2003 - should
 offer a full suite of productivity applications, utilities and
 accessories so that a GNOME user will never have to leave a simple,
 clean, powerful GNOME application.
 </para>
 <para>
 Six months after GNOME 2.4, we anticipate that GNOME 2.6 will feature
-the next release of Gtk+, introducing a new file selector widget,
-combination widget, powerful menu and toolbar widgets based on XML and
+the next release of Gtk+, introducing new file selector and
+"combo" widgets, powerful menu and toolbar widgets and
 further advances in accessibility, usability and internationalization.
 </para>
  </sect1>

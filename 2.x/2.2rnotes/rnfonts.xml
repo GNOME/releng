@@ -5,20 +5,12 @@
 
 The new Fonts control panel has simple and detailed configuration pages for hinting and subpixel anti-aliasing. Font installation is now incredibly simple- you can simply drop new fonts into ~/.fonts, and they will work throughout GNOME. Thanks to Keith Packard for his work on fontconfig!</para>
 <para>
-Complementing this technology, Jim Gettys and the GNOME Foundation Board worked with Bitstream, Inc. to arrange the donation of the <ulink url="http://www.bitstream.com/categories/products/fonts/vera/">Vera font family</ulink> to the Free Software community. While not available for the GNOME 2.2.0 release, they will be released shortly, allowing all GNOME users to take advantage of the technology present in 2.2.0 with beautiful, high-quality fonts.
+Complementing this technology, Jim Gettys and the GNOME Foundation Board worked with Bitstream, Inc. to arrange the donation of the <ulink url="http://www.bitstream.com/categories/products/fonts/vera/">Vera font family</ulink> to the Free Software community. While not available for the GNOME 2.2.0 release, they will be released shortly, allowing all GNOME users to take advantage of the technology present in 2.2.0 with beautiful, high-quality fonts. In the mean time, you can see Vera font family in the screenshots throughout the release notes.
 </para>
    
 <figure>
   <title>Fonts Control Panel</title>
   <screenshot>
     <graphic format="PNG" fileref="&urlfiguresbase;control_panel_fonts.png"/>
-  </screenshot>
-</figure>
-
-
-<figure>
-  <title>Fonts Control Panel</title>
-  <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;control_panel_fonts_details.png"/>
   </screenshot>
 </figure>
