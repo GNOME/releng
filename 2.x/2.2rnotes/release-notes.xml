@@ -20,7 +20,7 @@
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
-<article>
+<article id="index">
   <articleinfo>
     <title>GNOME &version; Release Notes</title>
     <abstract>

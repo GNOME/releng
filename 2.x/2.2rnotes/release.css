@@ -50,8 +50,10 @@ h5.title {
         }
 
 img	{
-	 margin-left: 200px;
-	 align: left;
+	margin-left: 200px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
 	 }	 
 
 div.itemizedlist {
@@ -69,3 +71,8 @@ div.navheader {
 	margin-left: 100px;
 	margin-right: 100px;
 }
+
+p img	{
+
+	 float: left;
+	 }	 

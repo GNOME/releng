@@ -10,10 +10,7 @@
     </para>
 
       <sect3><title>Context menu plug-ins</title>
-      <para>Context-sensitive menus can now link the file manager to functions
-      performed by other applications. In this illustration, Fileroller, our new
-      archive-handling application, has added a menu items when you right-click
-      on an archive.</para>
+      
 
 <figure>
   <title>Context Menu</title>
@@ -21,13 +18,13 @@
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_context_menu_plugin.png"/>
   </screenshot>
 </figure>
-      
+      <para>Context-sensitive menus can now link the file manager to functions
+      performed by other applications. In this illustration, Fileroller, our new
+      archive-handling application, has added a menu items when you right-click
+      on an archive.</para>
 </sect3>
 
       <sect3><title>Property tab plug-ins.</title>
-      <para>The file manager's properties dialog now shows custom tabs for special
-      file formats, such as images or media files. For instance, you can see the
-      dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
 
 <figure>
   <title>Property Page - Audio</title>
@@ -35,7 +32,6 @@
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_audio.png"/>
   </screenshot>
 </figure>
-
 <figure>
   <title>Property Page - Image</title>
   <screenshot>
@@ -43,26 +39,34 @@
   </screenshot>
 </figure>
 
+      <para>The file manager's properties dialog now shows custom tabs for special
+      file formats, such as images or media files. For instance, you can see the
+      dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
+
+
+
+
       </sect3>
 
       <sect3><title>Improved Preferences dialog</title>
-      <para>The new file manager preferences dialog illustrates the GNOME design
-      philosophy: clean, simple and usable..</para>
-
+      
+<para>
 <figure>
   <title>File Manager Preferences</title>
   <screenshot>
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_preferences.png"/>
   </screenshot>
 </figure>
-
+</para>
+<para>The new file manager preferences dialog illustrates the GNOME design
+      philosophy: clean, simple and usable.</para>
       </sect3>
-
-      <sect3><title>Multi-head support</title>
+</sect2>
+      <sect2><title>Multi-head support</title>
       <para>Like the rest of GNOME 2.2, Nautilus is now multi-head aware. For instance, if you launch an application from a particular screen, it will now appear on that screen.</para>
-      </sect3>
+      </sect2>
     
-    </sect2>
+    
 
     <sect2><title>Startup Notification</title>
     <para>GNOME can now show that an application is starting, so you don't feel the need 

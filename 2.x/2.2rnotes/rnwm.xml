@@ -19,6 +19,7 @@
     <para>
   Early versions of Metacity were in wide use a month or two after GNOME 2.0, 
   so many people will already be familiar with its basic features:
+</para>
   <itemizedlist>
     <listitem>
       <para>
@@ -55,11 +56,12 @@
       </para>
     </listitem>
   </itemizedlist>
-    </para>
+    
 
     <para>
   Some new features that may not be in the version of Metacity you've
   tried before:
+</para>
   <itemizedlist>
     <listitem>
       <para>
@@ -110,4 +112,3 @@
       </para>
     </listitem>
   </itemizedlist>
- </para>
