@@ -8,3 +8,6 @@ gnome-release-set.sh:
   release on the ftp server.
  Currently installed as /home/jdub/bin/release.
 
+gnome-bindings-release-set.sh:
+  Like gnome-release-set.sh, but the versions file has an extra "programming language" column, and it puts the tarballs in
+  a sub-directory for that programming language.
