@@ -1,3 +1,21 @@
+2005-03-02  Davyd Madeley  <davyd@madeley.id.au>
+
+	* rnapplets.xml:
+	* rngames.xml:
+	* rnsysadmin.xml: Add images.
+	
+	* figures/figure-applet-modem.png: Fixed up strange image.
+	
+	* figures/figure-applet-drivemount.png:
+	* figures/figure-applet-stickies.png:
+	* figures/figure-applet-trash.png:
+	* figures/figure-game-nibbles.png:
+	* figures/figure-game-same-gnome.png:
+	* figures/figure-gnome-system-tools.png:
+	* figures/figure-keyboard-properties+layout.png:
+	* figures/figure-logviewer.png: New images.
+	
+
 2005-03-02  Simos Xenitellis  <simos@gnome.org>
 
 	* el.po: Reviewed Greek translation.

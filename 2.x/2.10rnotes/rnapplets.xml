@@ -45,17 +45,16 @@
    Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash
    without minimising your open windows.
 
-  <!-- figure id="rnscreenshot-panel-applet-networkmonitor">
-    FIXME
-    <title>Network Monitor - wireless connection</title>
+  <figure id="rnscreenshot-applet-trash">
+    <title>a Trashcan on your Panel</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-netstatus.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-trash.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The Network Monitor panel applet, showing a wireless connection.</phrase></textobject>
+        <textobject><phrase>Drag trash to your panel</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure -->
+  </figure>
   </para>
   </sect3>
 
@@ -68,17 +67,16 @@
    your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing 
    you to mount them, eject them, or open them in the file manager.
    
-   <!-- figure id="rnscreenshot-panel-applet-batterymonitor">
-    FIXME
-    <title>Battery Monitor</title>
+   <figure id="rnscreenshot-applet-drivemount">
+    <title>Volume Monitor</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-battstat-applet.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-drivemount.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The battery monitor applet.</phrase></textobject>
+        <textobject><phrase>the volume monitor</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure -->
+  </figure>
   
   </para>
   </sect3>
@@ -126,6 +124,16 @@
    simply use the applet's right-click menu. 
   </para>
   </sect3>
+   <figure id="rnscreenshot-applet-stickies">
+    <title>Sticky Notes</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-stickies.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>Sticky Notes</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
 
   <sect3 id="rnapplet-cpufreq">
   <title>Specially for laptops</title>
