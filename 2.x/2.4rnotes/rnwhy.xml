@@ -4,7 +4,7 @@
 <!ENTITY version "2.4">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
-<sect1>
+<sect1 id="rnwhy">
     <title>So, why GNOME?</title>
 
    
@@ -15,7 +15,7 @@
   of us choose to work on GNOME.
   </para>
   
-    <sect2>
+    <sect2 id="rnwhy-usability">
       <title>Usability</title>
       <para>
         GNOME is one of the few open source projects to take a stand
@@ -41,7 +41,7 @@
         
       
   </sect2>
-  <sect2>
+  <sect2 id="rnwhy-accessibility">
     <title>Accessibility</title>
       
     <para>
@@ -58,7 +58,7 @@
         </para>
       
     </sect2>
-    <sect2>
+    <sect2 id="rnwhy-performance">
       <title>Improved performance</title>
       
         <para>
@@ -70,7 +70,7 @@
         </para>
       
     </sect2>
-    <sect2>
+    <sect2 id="rnwhy-interface">
        <title>Interface Stability</title>
        <para>
        The key libraries in the GNOME Development Platform carry
@@ -80,7 +80,7 @@
        take advantage of new functionality in the libraries.
        </para>
     </sect2>
-    <sect2>
+    <sect2 id="rnwhy-mature">
       <title>Mature applications</title>
       
         <para>
@@ -93,7 +93,7 @@
         </para>
       
     </sect2>
-    <sect2>
+    <sect2 id="rnwhy-licensing">
       <title>Licensing</title>
       
         <para>
@@ -104,7 +104,7 @@
         </para>
       
     </sect2>
-    <sect2>
+    <sect2 id="rnwhy-support">
       <title>Support</title>
       
         <para>

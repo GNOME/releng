@@ -4,7 +4,7 @@
 <!ENTITY version "2.4">
 <!ENTITY oldversion "2.2">
 ]>
-<appendix>
+<appendix id="rnthanks">
   <title>Thanks</title>
   <para>The GNOMEs who bring you this software are too numerous to mention by
   name, but in addition to the folks mentioned above, a few contributors deserve

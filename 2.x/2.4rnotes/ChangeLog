@@ -1,3 +1,10 @@
+2003-09-09  Shaun McCance  <shaunm@gnome.org>
+
+	* release-notes.xml:
+	* rnthanks.xml:
+	* rnwhy.xml:
+	- Added id attributes so Yelp's stylesheets can build HTML.
+
 2003-09-09  Andrew Sobala  <aes@gnome.org>
 
 	* release-notes.xml: added "Known Issues" and myself to the credits..

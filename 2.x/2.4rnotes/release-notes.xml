@@ -114,7 +114,7 @@
 		  url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the
 		most prominent GNOME &version; bugs:</para>
 
-    <sect2><title>List of known issues</title>
+    <sect2 id="rnknownissues-list"><title>List of known issues</title>
     <para>
       <itemizedlist>
         <listitem>
