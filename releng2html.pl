@@ -1,8 +1,13 @@
 #!/usr/bin/perl
-
 # Jeff's Totally Smeggy RelEng HTMLiser - 100% Smeg!
+use Date::Format;
 
 @linecolour = '#eeeeee', '#ffffff';
+$date = time2str("%Y/%m/%d %T", time());
+
+print qq{
+<!--#set var="last_modified" value="\$Date$date \$" -->
+};
 
 while (<STDIN>) {
 	chomp;
@@ -15,10 +20,10 @@ while (<STDIN>) {
 <h3>$_</h3>
 <table cellspacing="0" cellpadding="4" width="100%">
 	<tr bgcolor="#cccccc">
-		<th>package</th>
-		<th>version</th>
-		<th>status</th>
-		<th>contacts</th>
+		<th align="left">package</th>
+		<th align="left">version</th>
+		<th align="left">status</th>
+		<th align="left">contacts</th>
 	</tr>
 };
 		next;
@@ -40,11 +45,11 @@ while (<STDIN>) {
 	
 	# make the cvs/module stuff pretty and understandable
 	if (@module[1] eq "=") {
-		$cvs = "<a href=\"http://cvs.gnome.org/lxr/source/@module[0]/\">@module[0]</a>";
+		$package = "<a href=\"http://cvs.gnome.org/lxr/source/@module[0]/\">@module[0]</a>";
 	} elsif (@module[1] eq "-" || @module[1] eq "") {
-		$cvs = "@module[0]";
+		$package = "@module[0]";
 	} else {
-		$cvs = "<a href=\"http://cvs.gnome.org/lxr/source/@module[1]/\">@module[0]</a> [@module[1]]";
+		$package = "<a href=\"http://cvs.gnome.org/lxr/source/@module[1]/\">@module[0]</a> [@module[1]]";
 	}
 
 	# make contacts clicky
@@ -58,7 +63,7 @@ while (<STDIN>) {
 	# clag out a header
 	print qq{
 	<tr bgcolor="$bg" valign="top">
-		<td>$cvs</td>
+		<td nowrap>$package</td>
 		<td>@module[2]</td>
 		<td>@module[3]</td>
 		<td>$contacts</td>

@@ -1,5 +1,11 @@
 2001-11-18  Jeff Waugh  <jdub@perkypants.org>
 
+	* releng3html.pl: Updated, with some "what not to do" help from Gman. ;)
+	* 2.x/package-list: With Gman's additions, plus some decrackification for
+	  vim users (ie. me).
+
+2001-11-18  Jeff Waugh  <jdub@perkypants.org>
+
 	* releng2html.pl: spam-harvest deterring email address alteration
 
 2001-11-18  Jeff Waugh  <jdub@perkypants.org>
