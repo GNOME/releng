@@ -11,21 +11,13 @@
 
   <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-     Nautilus continues to become the fastest and most stable file browser
-     available, with the focus of Nautilus &version; being increased stability
-     and speed.
+     The file manager, also known as Nautilus, is even faster and more stable in 
+     GNOME &version;, thanks to changes to its internal architecture. This should 
+     allow software developers to extend the file manager more easily in future.
     </para>
     <para>
-     Nautilus now has improved interoperability with other applications (such as
-     Mozilla and Firefox) and more navigation options in both spatial and
-     browser modes.
-    </para>
-    <para>
-     Part of improving the stability of Nautilus &version; involved the removal
-     of the venerable Bonobo Views. These have now been replaced by the more
-     powerful Nautilus Views. Nautilus Views allow the Nautilus file browser to
-     be more easily extensible by other developers. Allowing Nautilus to display
-     data in a variety of different ways.
+     The file manager now also works more smoothly with other applications, such as
+     Mozilla and Firefox, and has more navigation options. TODO: What options, exactly?
     </para>
   </sect3>
 
