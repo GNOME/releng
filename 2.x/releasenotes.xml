@@ -1335,7 +1335,7 @@ In order to simplify sawfish code and user interface, viewports have
       <title>NFS-mounted $HOME directory</title>
       <para>
 		FIXED: For people with NFS-mounted
-		<envar>$HOME</envar> directories,it was not possible
+		<envar>$HOME</envar> directories, it was not possible
 		to drag files from the
 		<application>Nautilus</application> view windows to
 		the <guilabel>trashcan</guilabel> (it would generate
