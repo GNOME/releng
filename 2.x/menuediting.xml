@@ -7,37 +7,49 @@
     <sect1 id="introduction">
       <title>Introduction</title>
       <para>
-	Menu editing in the GNOME 2 desktop has undergone a large amount of re-work
+	Menu editing in the GNOME 2 desktop has undergone a large amount of 
+re-work
 	to move to using <ulink
-				url="http://developer.gnome.org/doc/API/gnome-vfs/">gnome-vfs</ulink>, the file system abstraction library and
-	the implementation of a <ulink url="http://www.freedesktop.org">shared
+				
+url="http://developer.gnome.org/doc/API/gnome-vfs/">gnome-vfs</ulink>, the file system abstraction library and
+	the implementation of a <ulink 
+url="http://www.freedesktop.org">shared
 	vfolder spec</ulink> between GNOME and other
 	desktops for the X Window System. 
       </para>
       <para>
 	The menus in GNOME are based on a collection of <ulink
-									      url="http://www.freedesktop.org/standards/desktop-entry-spec/desktop-entry-spec.html">.desktop files</ulink>
-	arranged in a suitable  order depending on their contents.  For GNOME
-	1.4, there were 2 main problems with the  way these .desktop files were
+									      
+url="http://www.freedesktop.org/standards/desktop-entry-spec/desktop-entry-spec.html">.desktop 
+files</ulink>
+	arranged in a suitable  order depending on their contents.  For 
+GNOME
+	1.4, there were 2 main problems with the  way these .desktop files 
+were
 	handled:
       </para>
       <sect2 id="nostandardlocation">
 	<title>No Standard Location</title>
 	<para>
 	  With no standard location, 3rd party application developers do not
-	  know where to install their .desktop files for them to be picked up by
+	  know where to install their .desktop files for them to be picked 
+up by
 	  the menu. Many distributions have their own idea of where this
 	  location should be, creating a large amount of unecessary
-	  inconsistency and heartache trying to integrate your application on
+	  inconsistency and heartache trying to integrate your application 
+on
 	  various distributions.
 	</para>
       </sect2>
       <sect2 id="menustructureproblem">
 	<title>Structure of menu is set by the location on disk</title>
 	<para>
-	  With a set location, and consequently a set menu structure, it is not
-	  possible to change the layout of the menus without adversely affecting
-	  3rd party application developers. This inflexibility has bitten many
+	  With a set location, and consequently a set menu structure, it is 
+not
+	  possible to change the layout of the menus without adversely 
+affecting
+	  3rd party application developers. This inflexibility has bitten 
+many
 	  people in the past.
 	</para>
       </sect2>
@@ -46,22 +58,29 @@
       <title>How Does It All Work?</title>
       <para>
 	The menu system, as mentioned in the previous section, is based on
-	gnome-vfs using a  'vfolder' mechanism. Menu vfolders aren't much unlike
+	gnome-vfs using a  'vfolder' mechanism. Menu vfolders aren't much 
+unlike
 	Evolution's mail vfolders in that they filter out the menu items, in
 	this case the .desktop files, according to their category.
       </para>
       <para>
 	The vfolders are based around <ulink
-					     url="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-vfs/doc/vfolder-info-spec.dtd&amp;rev=&amp;root=/cvs/gnome">.vfolder-info files</ulink>, which are xml
+					     
+url="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-vfs/doc/vfolder-info-spec.dtd&amp;rev=&amp;root=/cvs/gnome">.vfolder-info 
+files</ulink>, which are xml
 	based. In this  file you specify how your menu should filter the
-	.desktop files in terms of  order, category, whether it should include
-	optional .desktop file locations, omit  certain .desktop files and many
+	.desktop files in terms of  order, category, whether it should 
+include
+	optional .desktop file locations, omit  certain .desktop files and 
+many
 	other rules.
       </para>
       <para>
 	Each menu is based on a .directory file, which for all intents and
       purposes is another .desktop file.
-      </para>
+      </para><para>
+The order of items, both menu items and menu categories, is  determined alphabetically based on the name field in the .desktop  or  .directory file as appropriate. 
+</para>
       <para>
 	With the introduction of this mechanism, it has been necessary to
 	introduce 2 new keys to the .desktop file format -
@@ -69,9 +88,12 @@
       <sect2 id="categories">
 	<title>Categories</title>
 	<para>
-	  This key describes the application and it's potential position within
-							    the menus. It is based on a set of distinct, non free form, <ulink
-							    url="http://www.freedesktop.org/standards/FIXME/vfolder-spec.html">keywords</ulink>.</para>
+	  This key describes the application and it's potential position 
+within
+							    the menus. It is based on a set of distinct, non free 
+form, <ulink
+							    
+url="http://www.freedesktop.org/standards/FIXME/vfolder-spec.html">keywords</ulink>.</para>
 	<para>
 	  For example, an application like GNOME Calculator would have the
 	  following in its .desktop - 
@@ -84,7 +106,8 @@
       <sect2 id="showonlyin">
 	<title>ShowOnlyIn</title>
 	<para>
-	  This optional key is used when some applications is desktop specific
+	  This optional key is used when some applications is desktop 
+specific
 	  eg. GNOME Panel Preferences.
 	</para>
       </sect2>
@@ -94,29 +117,49 @@
       <para>
 	<warning>
 	  <para>
-	    The following is included only for benefit of system administrators
+	    The following is included only for benefit of system 
+administrators
 	    and others who need fine-grained control over menu
 	    configurations. It is not supported.
 	  </para>
 	</warning>
 	The standard default location for .desktop files is
-	/usr/share/applications, or if that is not available
-	$prefix/share/applications. The best advice is to look at the existing
-	examples of the various files and try to copy by example.
+      <filename>/usr/share/applications</filename>, or if that is not 
+available
+      <filename>$prefix/share/applications</filename>. The best 
+advice is to
+      look at the existing examples of the various files and try to 
+copy by
+      example.
       </para>
     <para>
-      The standard location for applications.vfolder.info is
-      <filename>$prefix/etc/gnome-vfs-2.0/vfolders</filename>. These can also be
-      mirrored in <filename>~/.gnome2/vfolders</filename>. If you want global
-      menus, edit files in <varname>$prefix</varname>, if you want per user edit
-      files in user directory.
+      The standard location for applications.vfolder.info and .directory files is
+      <filename>$prefix/etc/gnome-vfs-2.0/vfolders</filename>. These 
+can also be
+      mirrored in <filename>~/.gnome2/vfolders</filename> (.desktop 
+files in
+      subdir applications). If you want global menus, edit files in
+      <varname>$prefix</varname>, if you want per user edit
+      files in user directory. The files in user directory take 
+precedence over
+      system files. Changes to system files will not override user 
+settings.
     </para>
       <sect2 id="addentries">
 	<title>To Add Menu Entries</title>
 	<para>
-	 Create a desktop file using an existing file as a template. edit this
+	 Create a desktop file using an existing file as a template. edit 
+this
 	 file and add/edit a &quot;Categories=&quot; line at the bottom. 
-	</para>
+This
+	 should include a keyword matching the appropriate menu item eg: for 
+an
+	 Internet app you should have 
+	<programlisting>
+Categories=Application;Network
+	</programlisting>
+      </para>
+	
 	<para>
 	  Restart the panel.
 	</para>
@@ -124,45 +167,36 @@
       <sect2 id="removeentries">
 	<title>To Remove Menu Entries</title>
 	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info to 
-	  include an &lt;Exclude&gt; &lt;/Exclude&gt; entry for the appropriate
+	Edit appropriate <filename>applications.vfolder-info</filename> to 
+	  include an &lt;Exclude&gt; &lt;/Exclude&gt; entry for the 
+appropriate
 	  .desktop file.
 	</para>
 	<para>
 	  Restart the panel.
 	</para>
       </sect2>
-      <sect2 id="changeorderapps">
-	<title>To change the order of the 'Applications' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Root.order.
-	</para>
-      </sect2>
-      <sect2 id="changeorderprefs">
-	<title>To change the order of the 'Desktop Preferences' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Settings.order
-	</para>
-      </sect2>
       <sect2 id="remaddsubmenuapps">
 	<title>To remove/add submenus in the 'Applications' menu</title>
 	<para>
-	  Edit $prefix/share/gnome/vfolders/Root.order
+	Edit appropriate <filename>applications.vfolder-info</filename>.
 	</para>
-	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info.
-	</para>
+      <para>
+	Create appropriate <filename>.directory</filename> file (remember 
+name
+	is set by the name field in the <filename>.directory</filename> 
+file).
+      </para>
       </sect2>
       <sect2 id="createnewsubresearchapp">
-	<title>To create a new submenu 'Research' in the 'Applications' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Root.order to include 'Research'
-	</para>
+	<title>To create a new submenu 'Research' in the 'Applications' 
+menu</title>
 	<para>
 	  Add $prefix/share/gnome/vfolders/Research.directory
 	</para>
 	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info
+	Edit appropriate <filename>applications.vfolder-info</filename> 
+file.
 	</para>
       </sect2>
     </sect1>
@@ -170,8 +204,11 @@
       <title>Additional Information</title>
       <para>
 	Additional details on manual editing of menus can be found <ulink
-									  url="http://www.redtux.demon.co.uk/docs/gnome_menu_edit_doc.20_6.html">
+									  
+url="http://www.redtux.demon.co.uk/docs/gnome_menu_edit_doc.20_6.html">
 									  here</ulink>.
       </para>
     </sect1>
   </article>
+
+
