@@ -9,8 +9,8 @@
     <para>
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
-    Project</ulink>, under the leadership of Christian Rose and Perell&oacute; Mar&iacute;n,
-    GNOME &version; offers support for 23 languages (at least 80 percent of
+    Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas,
+    GNOME &version; offers support for 25 languages (at least 80 percent of
     strings translated).
 
 <!--    
@@ -36,121 +36,131 @@
     <itemizedlist>
       <listitem>
 	<para>
-	   Czech
+	  Azerbaijani 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Portuguese
+	  Belarusian 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Serbian
+	  Catalan 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Serbian Latin
+	  Czech 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Swedish
+	  Welsh 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Spanish
+	  Danish 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  German
+	  German 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	   Polish
+	  Greek 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Korean
+	  Spanish 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Dutch
+	  Finnish 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Welsh
+	  French 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  French
+	  Italian 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Chinese Simplified
+	  Japanese 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Danish
+	  Korean 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Greek
+	  Malay 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Norwegian
+	  Dutch 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Chinese Traditional
+	  Polish 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Malay
+	  Portuguese 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Brazilian Portuguese
+	  Brazilian Portuguese 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Azerbaijani
+	  Slovenian 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Belarusian
+	  Serbian 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Japanese
+	  Serbian Latin 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Catalan
+	  Swedish 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Chinese Simplified 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Chinese Traditional 
 	</para>
       </listitem>
     </itemizedlist>
   </para>
-  <para>Another 16 languages are partially supported, with more than half of
+  <para>Another 15 languages are partially supported, with more than half of
   their strings translated.</para>
 </sect1>

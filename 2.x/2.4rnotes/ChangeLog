@@ -1,3 +1,8 @@
+2003-08-31  Danilo Šegan  <dsegan@gmx.net>
+
+	* rni18n.xml: Updated the list of supported languages, replaced
+	Carlos Perrelo with Kjartan Maraas.
+
 2003-08-29 John Fleck <jfleck@inkstain.net>
 
 	* rninstallation.xml
