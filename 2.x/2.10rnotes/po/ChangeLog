@@ -1,3 +1,8 @@
+2005-03-09  Vincent Untz  <vincent@vuntz.net>
+
+	* xml-fr/figures/*: added
+	* xml-fr/.cvsignore: added
+
 2005-03-08  Raphael Higino  <raphaelh@cvs.gnome.org>
 
 	* pt_BR.po: Updated Brazilian Portuguese translation.
