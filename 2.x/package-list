@@ -7,7 +7,7 @@
 
 <section title="Developer Platform">
 GConf			=		1.1.4		frozen			Havoc Pennington <hp@redhat.com>
-ORBit2			=		2.3.97		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+ORBit2			=		2.3.98		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 at-spi			=		0.0.3		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 atk			=		0.7		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 audiofile		-		0.2.3		frozen			Michael Pruett <mpruett@sgi.com>
@@ -24,7 +24,7 @@ gtk-doc			=		0.9		-			Owen Taylor <owen@redhat.com>
 intltool		=		0.12		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
 libIDL			=		0.7.1		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 libart_lgpl		=		2.3.7		-			Raph Levien <raph@acm.org>
-libbonobo		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
+libbonobo		=		1.107.0		frozen			Michael Meeks <michael@ximian.com>
 libbonoboui		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
 libghttp		gnome-http	1.0.9		remove?			Justin Maurer <justin@slashdot.org>
 libglade		=		1.99.3		not frozen		James Henstridge <james@daa.com.au>
@@ -35,7 +35,7 @@ libgnomeprintui		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeui		=		1.106.0		frozen			Anders Carlsson <andersca@gnu.org>
 libxml2			gnome-xml	2.4.10		frozen			Daniel Veillard <veillard@redhat.com>
 libxslt			=		1.0.7		frozen			Daniel Veillard <veillard@redhat.com>
-linc			=		0.1.7		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+linc			=		0.1.10		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.22		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
