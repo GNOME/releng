@@ -1,3 +1,14 @@
+2001-11-16  Jeff Waugh  <jdub@perkypants.org>
+
+	* 2.x/package-list
+	* releng2html.pl
+
+	Added initial 2.x release engineering files. Set out like this so that we
+	can keep sane releng info here, tidy, for many releases. Should make for a
+	good archive.
+
+	Please note that the package-list is somewhat incomplete.
+
 2001-09-27  Carlos Perelló Marín <carlos@gnome-db.org>
 
 	* gnome-1.4.1-branches: Updated info for gnome-utils && oaf.
