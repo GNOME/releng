@@ -32,22 +32,22 @@
 
   <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
-    <para>Building on the excellent groundwork in the GNOME 2.0.x releases, the
-    last 6 months have allowed us to improve usability, performance and
-    accessibility support. Many new features have been added, along with new
-    applications making the GNOME 2.2.0 a very feature rich desktop.</para>
+    <para>Building on the excellent groundwork in the GNOME 2.0.x releases, we spent
+    6 months improving usability, performance and
+    accessibility support. We also added new functionality, including new
+    applications, producing a very feature-rich GNOME 2.2 desktop. You can read about these new features in the next few sections.</para>
 
-    <para>The developer platform has had a chance to mature since GNOME 2.0.x,
-      with the result that several new applications are now starting to use our
-      powerful new developer framework. We would encourage new and existing
-      developers to use the GNOME 2.2 platform, to take advantage of many of the
-      features our libraries have to offer.</para>
-    <para>[insert stuff from other people here]</para>
-    <para>[Comment: I really think that we should ditch the rest of the content
-          that is available in the 2.0 release notes, and add a link
-	  somewhere in the text - I guess at 'excellent groundwork in
-	  the GNOME 2.0.x releases' as above]</para>
-    <para>/* NOTE: This section needs lots of HARD CORE PIMP ACTION 
+    <para>GNOME is now even more user-friendly yet complete for both everyday users and experienced developers. We have tried to avoid unnecessary complications or obscure features and hope that GNOME 2.2 demonstrates a clear, unified vision.</para>
+
+    <para>The GNOME 2 developer platform has matured further and is now widely used. While GNOME 2.0 was a major upgrade to the underlying platform which was inevitably delayed, GNOME &version is a simpler time-based release which includes whatever improvements have been completed since the previous release. In future you can look forward to further enhancements from these regularly-scheduled releases.</para>
+
+    <para>Most major GNOME-based applications have been ported to GNOME 2, and the new platform has allowed the development of several new applications. We would encourage new and existing developers to use the GNOME 2.2 platform, to take advantage of its features.</para>
+
+    <para>Of course GNOME 2.2 includes all of the improvements made in GNOME 2.0, which you can learn about <ulink url="http://www.gnome.org/start/2.0/releasenotes.html">here<ulink>.
+
+    <para>TODO: [insert stuff from other people here]</para>
+   
+    <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
  */</para>
   </sect1>
   &rngnomeutils;
@@ -58,7 +58,7 @@
     <title>Installation of  the GNOME &version; Developer Platform and
     Desktop</title>
 <!--
-   /* NOTE: Do we need to list the full list of stuff to build on each
+   /* TODO: Do we need to list the full list of stuff to build on each
  * platform? This seems overly complicated to me. If we do wish to
  * go with this, then Redhat just requires installing libfam-devel, 
  * libbbz2-devel - updating pkg-config and away you. I have absolutely
@@ -491,7 +491,7 @@ gnome2-user-docs
 
   <sect1 id="themes">
     <title>Themes</title>
-    <para>NOTE: I think we a) either dump this section and move it into the 
+    <para>TODO: I think we a) either dump this section and move it into the 
       'What's new' section above' or b) mention the new theme selector
       in the 'What's new' section and leave this section for explaining the
       great work that Jonathan and Seth and Jody have done. I'm thinking perhaps
@@ -499,8 +499,28 @@ gnome2-user-docs
  </para>
   </sect1>
 
+
+  <sect1 id="rnknownissues">
+    <title>Known Issues</title>
+    <para>All software, when it is released, contains bugs the developers know about but have elected, for a variety of reasons, not to fix before releasing. Free software is no different in this regard from proprietary software, except that with free software, we tell users about them.</para>
+
+    <para>We also encourage our users to report bugs so that they can be fixed. The best way to report bugs found in GNOME is to use the <ulink href="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug Guide</ulink>. This will take you through the necessary steps to file a quality bug report, and make sure that it is tagged appropriately. If you're too advanced for anything with the word 'simple' in it, there is also the <ulink href="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug form</ulink>.
+
+More details on bugs already reported can be found at our <ulink href="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version bugs:</para>
+
+    <sect2><title>TODO something</title>
+    <para></para>
+    </sect2>
+
+    <sect2><title>TODO something</title>
+    <para></para>
+    </sect2>
+
+  </sect1>
+
+
 <!--
-Glynn - I disagree with including this, but we can talk over the weekend.
+TODO: Glynn - I disagree with including this, but we can talk over the weekend.
 - John
 
 Looking ahead to GNOME 2.4 and beyond -
@@ -524,7 +544,7 @@ comprehensive and intuitive desktop user environment.
 
 Further on down the line, we hope that GNOME 2.6 will 
 feature the next release of Gtk+, the GIMP Toolkit, introducing
-a new file selector widgets, combination widget, powerful menu 
+a new file selector widget, combination widget, powerful menu 
 and toolbar widgets based on XML and further advances in 
 accessibility, usability and internationalization.
 -->
@@ -539,7 +559,7 @@ accessibility, usability and internationalization.
       As a user, your contribution can be as simple as filing good bug reports 
       against the GNOME Desktop and Developer Platform. You can file bugs
       in our Bugzilla using the simple bug assistant. If you feel that you would like
-      to contribute more, then perhaps think about joining our active bug squad.
+      to contribute more, then perhaps think about joining our active <ulink href="http://developer.gnome.org/projects/bugsquad/">bug-squad</ulink>.
     </para>
     <para>
       From a developer aspect, there is much exciting progress to be made in any
