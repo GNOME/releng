@@ -1,3 +1,8 @@
+2004-09-09  Murray Cumming  <murrayc@murrayc.com>
+
+	* release-notes.xml: Mention Davyd in credits.
+	* rndesktop.xml: Uses correct DNS Service Discovery terminology.
+
 2004-09-08  Murray Cumming  <murrayc@murrayc.com>
 
 	* rnsysadmin.xml: Mention new gconf-editor features. 

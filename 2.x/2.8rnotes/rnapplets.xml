@@ -20,6 +20,26 @@
   </figure>
   </para>
  
+  <sect3 id="rnapplets-clock">
+  <title>Calendar Integration</title>
+  <para>
+   Never miss another appointment. The calendar view, available by clicking
+   on the clock, now connects to Evolution to show your calendar and tasks.
+
+   <figure id="rnscreenshot-panel-applet-clock">
+    <title>The clock, showing the GNOME release date</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-clock.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The clock, showing the GNOME release date.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+   
+  </para>
+  </sect3>
+
   <sect3 id="rnapplets-network-monitor">
   <title>Network Monitor</title>
 
@@ -44,7 +64,7 @@
   <title>Battery Support</title>
 
   <para>
-   The battery monitor has been improved dramatically. It now estimagtes the time remaining as well as the remaining battery capacity.
+   The battery monitor has been improved dramatically. It now estimates the time remaining as well as the remaining battery capacity.
    In addition, the low battery warning is now more
    visible, more informative and vanishes automatically when you plug your laptop back in.
   
@@ -75,26 +95,6 @@
           <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-weather.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The weather report applet.</phrase></textobject>
-      </mediaobject>
-    </screenshot>
-  </figure>
-   
-  </para>
-  </sect3>
-
-  <sect3 id="rnapplets-clock">
-  <title>Calendar Integration</title>
-  <para>
-   Never miss another appointment. The calendar view, available by clicking
-   on the clock, now connects to Evolution to show your calendar and tasks.
-
-   <figure id="rnscreenshot-panel-applet-clock">
-    <title>The clock, showing the GNOME release date</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-clock.png" format="PNG"/>
-          </imageobject>
-        <textobject><phrase>The clock, showing the GNOME release date.</phrase></textobject>
       </mediaobject>
     </screenshot>
   </figure>

@@ -42,16 +42,15 @@
      </figure>
 
     <para>
-    GNOME now supports Apple's OpenTalk protocol (previously named Rendezvous) also known as
-    DNS Service Discovery. This allows you to view available shares in your Network view. TODO: Should we call this OpenTalk, Rendezvous, or DNS Discovery?
+    GNOME now supports <literal>DNS-Based Service Discovery</literal>, also known as Rendezvous in Apple's products. This allows you to view locally-available shares in your Network view.
     </para>
-    <figure id="rnscreenshot-nautilus-opentalk">
+    <figure id="rnscreenshot-nautilus-dnsdiscovery">
       <title>Network Shares</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-opentalk.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-dnsdiscovery.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>Network Shares, featuring an OpenTalk share</phrase></textobject>
+            <textobject><phrase>Network view, featuring a local server.</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
