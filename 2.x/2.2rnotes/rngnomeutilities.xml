@@ -2,7 +2,7 @@
   <title>Utilities</title>
 
   <sect3><title>Text Editor</title>
-    <para>The gedit text-editor now provides spell-checking. And there's an output window to show feedback when doing special processing.</para>
+    <para>The gedit text-editor now provides spell-checking, among other plugins. There is also a new output window to show feedback when doing special processing. Additionally, it uses the new recent files functionality.</para>
 
 <figure>
   <title>Text Editor</title>
