@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 2.10rnotes HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: (null)\n"
-"PO-Revision-Date: 2005-03-06 21:18+0700\n"
+"PO-Revision-Date: 2005-03-07 18:26+0700\n"
 "Last-Translator: Ahmad Riza H Nst <ari@160c.afraid.org>\n"
 "Language-Team: Indonesian <sukarelawan@gnome.linux.or.id>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../release-notes.xml:23
+#: ../release-notes.xml:22
 msgid ""
 "@@image: 'figures/figure-gnome-desktop.png'; "
 "md5=a25ee1cd47ba6e56ce09a67de0b45372"
@@ -31,19 +31,17 @@ msgstr "GNOME 2.10 Catatan Terbitan"
 msgid "Introduction"
 msgstr "Pengenalan"
 
-#: ../release-notes.xml:20
+#: ../release-notes.xml:24
+msgid "The GNOME Desktop"
+msgstr "Desktop GNOME"
+
+#: ../release-notes.xml:27
 msgid ""
-"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-desktop.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The GNOME Desktop</phrase></textobject></"
-"mediaobject></screenshot> The GNOME 2.10 Desktop is the latest release of "
-"the ever popular, multi-platform free desktop environment."
+"The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
+"platform free desktop environment."
 msgstr ""
-"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-desktop.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Desktop GNOME.</phrase></textobject></"
-"mediaobject></screenshot>Desktop GNOME 2.10 adalah terbitan terakhir dari "
-"yang pernah populer, lingkungan dekstop multi platform yang bebas."
+"Desktop GNOME 2.10 adalah terbitan terakhir dari yang populer, lingkungan "
+"dekstop bebas yang multi platform."
 
 #: ../release-notes.xml:30
 msgid ""
@@ -131,7 +129,7 @@ msgstr "Apa yang baru pada GNOME 2.10"
 
 #: ../release-notes.xml:92
 msgid "Known Issues"
-msgstr "Isue yang Diketahui"
+msgstr "Isu yang Diketahui"
 
 #: ../release-notes.xml:93
 msgid ""
@@ -143,9 +141,8 @@ msgstr ""
 "Seluruh perangkat lunak, ketika diterbitkan, berisi kesalahan yang telah "
 "diketahui oleh para pengembang tetapi telah dipilih, untuk alasan yang "
 "beragam, tidak dibetulkan sebelum diterbitkan. Perangkat lunak bebas tidak "
-"berbeda dengan hormat dari perangkat lunak paten, terkecuali yang "
-"menggunakan perangkat luna gratis, kami memberitahukan pengguna tentang "
-"masalah ini."
+"berbeda dari perangkat lunak paten, terkecuali yang dengan yang menggunakan "
+"perangkat lunak gratis, kami memberitahukan pengguna tentang masalah ini."
 
 #: ../release-notes.xml:98
 msgid ""
@@ -163,11 +160,11 @@ msgstr ""
 "Kami juga memberanikan pengguna kami untuk melaporkan kesalahan sehingga "
 "dapat diperbaiki mereka. Cara terbaik untuk melaporkan kesalahan yang "
 "ditemukan di GNOME adalah menggunakan <ulink url=\"http://bugzilla.gnome.org/"
-"simple-bug-guide.cgi\">Panduan Kesalahan Sederhana</ulink>. Ha ini akan "
+"simple-bug-guide.cgi\">Panduan Kesalahan Sederhana</ulink>. Hal ini akan "
 "membawa anda melalui langkah-langkah penting untuk membuat file laporan "
 "kesalahan yang berkualitas, dan memastikan bahwa laporan tersebut ditulis "
 "dengan sesuai. Jika anda terlalu ahli untuk semua kata 'sederhana', ada juga "
-"<ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">formulis kesalahan "
+"<ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">formulir kesalahan "
 "tradisional</ulink>. Lebih rinci pada pelaporan kesalahan dapat ditemukan "
 "pada <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink> kami. "
 "Bersamaan dengan kesalahan GNOME 2.10 yang menonjol:"
@@ -185,18 +182,18 @@ msgid ""
 "mozilla-based Epiphany browser does not have this problem, and Mozilla "
 "hackers are working to quickly fix this in future versions of Mozilla and "
 "Firefox."
-msgstr "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\">Fokus "
-"jendela baru Mozilla/Firefox</ulink>: ketika anda menjalankan Mozilla ataupun Firefox dan"
-"sudah memiliki jendela Mozilla ataupun Firefox yang telah terbuka, jendela baru akan "
-"muncul tanpa fokus dan dibelakang jendela yang yang memiliki fokus. Browser GNOME"
-"Epiphany yang berbasiskan mozilla tidak memiliki masalah ini, dan hacker Mozilla "
-"bekerja begitu cepat untuk memperbaiki hal ini pada versi Mozilla dan Firefox yang akan "
-"datang."
-""
+msgstr ""
+"<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\">Fokus "
+"jendela baru Mozilla/Firefox</ulink>: ketika anda menjalankan Mozilla "
+"ataupun Firefox dan sudah memiliki jendela Mozilla ataupun Firefox yang telah "
+"terbuka, jendela baru akan muncul tanpa fokus dan dibelakang jendela yang "
+"yang memiliki fokus. Browser GNOME Epiphany yang berbasiskan mozilla tidak "
+"memiliki masalah ini, dan hacker Mozilla bekerja begitu cepat untuk "
+"memperbaiki hal ini pada versi Mozilla dan Firefox yang akan datang."
 
 #: ../release-notes.xml:125
 msgid ""
-"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Session "
 "startup temporary hang</ulink>: Applications with broken session management "
 "can cause login to hang for a few minutes at the splashscreen. The default "
 "session does not contain any such apps so this will only become a problem if "
@@ -205,13 +202,12 @@ msgid ""
 "your session again."
 msgstr ""
 "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
-"Startup hang untuk sementara</ulink>: Applikasi dengan pengelola sesi yang rusak "
-"dapat menyebabkan login menjadi hang untuk beberapa menit pada saat layar sekilas. Session "
-"default tidak mengandung aplikasi apapun jadi hal ini hanya akan menjadi masalah "
-"jika anda menyimpan session anda pada saat logout. Jika anda mengalami masalah ini, tunggu "
-"saja login di proses dan kemudian hilangkan aplikasi apa saja sebelum menyimpan session "
-"anda kembali."
-""
+"Startup hang untuk sementara</ulink>: Applikasi dengan pengelola sesi yang "
+"rusak dapat menyebabkan login menjadi hang untuk beberapa menit pada saat "
+"layar sekilas. Session default tidak mengandung aplikasi apapun jadi hal ini "
+"hanya akan menjadi masalah jika anda menyimpan session anda pada saat "
+"logout. Jika anda mengalami masalah ini, tunggu saja login di proses dan "
+"kemudian hilangkan aplikasi apa saja sebelum menyimpan session anda kembali."
 
 #: ../release-notes.xml:112
 msgid "<placeholder-1/>"
@@ -232,10 +228,11 @@ msgid ""
 msgstr ""
 "GNOME beroperasi pada filosofi terbitan berdasarkan waktu, suatu usaha untuk "
 "secara terus menerus menyediakan usaha terbaik dari pengembang kami untuk "
-"pengguna secepat yang kami bisa. Enam bulan setelah GNOME 2.10, kami mengantisipasi "
-"bahwa GNOME 2.12 akan memberikan kemampuan multimedia yang lebih menyatu dan "
-"fungsionalitas komunikasi serta peningkatan lebih lanjut pada aksesibilitas, usability dan internasionalisasi."
-"Lihat juga <ulink url=\"http://live.gnome.org/RoadMap\">Perjalanan GNOME</ulink>."
+"pengguna secepat yang kami bisa. Enam bulan setelah GNOME 2.10, kami "
+"mengantisipasi bahwa GNOME 2.12 akan memberikan kemampuan multimedia yang "
+"lebih menyatu dan fungsionalitas komunikasi serta peningkatan lebih lanjut "
+"pada aksesibilitas, usability dan internasionalisasi.Lihat juga <ulink url="
+"\"http://live.gnome.org/RoadMap\">Perjalanan GNOME</ulink>."
 
 #: ../release-notes.xml:151
 msgid "Getting Involved"
@@ -246,8 +243,8 @@ msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
 msgstr ""
-"Kesuksesan GNOME adalah berkat para sukarelawannya, baik pengguna dan "
-"para pengembang."
+"Kesuksesan GNOME adalah berkat para sukarelawannya, baik pengguna dan para "
+"pengembang."
 
 #: ../release-notes.xml:156
 msgid ""
@@ -257,11 +254,12 @@ msgid ""
 "to contribute more, you can join our active <ulink url=\"http://developer."
 "gnome.org/projects/bugsquad/\">bug-squad</ulink>."
 msgstr ""
-"Sebagai seorang pengguna, kontribusi anda dapat sesederhana mengisi laporan kesalahan. "
-"Anda dapat membuat file kesalahan pada Bugzilla kami dengan menggunakan <ulink url=\"http://bugzilla."
-"gnome.org/simple-bug-guide.cgi\">asisten kesalahan sederhana</ulink>. Jika anda ingin "
-"lebih berkontribusi, anda dapat bergabung dengan <ulink url=\"http://developer."
-"gnome.org/projects/bugsquad/\">pasukan kesalahan</ulink> kami."
+"Sebagai seorang pengguna, kontribusi anda dapat sesederhana mengisi laporan "
+"kesalahan. Anda dapat membuat file kesalahan pada Bugzilla kami dengan "
+"menggunakan <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi"
+"\">asisten kesalahan sederhana</ulink>. Jika anda ingin lebih berkontribusi, "
+"anda dapat bergabung dengan <ulink url=\"http://developer.gnome.org/projects/"
+"bugsquad/\">pasukan kesalahan</ulink> kami."
 
 #: ../release-notes.xml:164
 msgid ""
@@ -271,11 +269,11 @@ msgid ""
 "Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you "
 "get started</ulink>."
 msgstr ""
-"Untuk para pengembang, ada proses yang lebih mengasikkan untuk dilakukan pada setiap "
-"kelompok pengembang kami yang aktif - Aksesibilitas, Dokumentasi, Usability, "
-"Terjemahan, Web, Pencobaan, Grafis dan Desktop &amp; Pengembangan Plafform. "
-"Ini <ulink url=\"http://live.gnome.org/JoinGnome\">panduan untuk membantu anda mulai"
-"</ulink>."
+"Untuk para pengembang, ada proses yang lebih mengasikkan untuk dilakukan "
+"pada setiap kelompok pengembang kami yang aktif - Aksesibilitas, "
+"Dokumentasi, Usability, Terjemahan, Web, Pencobaan, Grafis dan Desktop &amp; "
+"Pengembangan Plafform. Ini <ulink url=\"http://live.gnome.org/JoinGnome"
+"\">panduan untuk membantu anda mulai</ulink>."
 
 #: ../release-notes.xml:171
 msgid ""
@@ -283,10 +281,10 @@ msgid ""
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
-"Membantu pada GNOME dapat menjadi pengalaman yang sangat memuaskan, "
-"membuat anda dapat bertemua dengan orang yang mimiliki motivasi bermacam-macam, "
-"berkeahlian dan mau menolong, keseluruhannya bekerja untuk satu tujuan. Bergabung dengan "
-"kami hari ini dan lihat perbedaan yang telah anda buat."
+"Membantu pada GNOME dapat menjadi pengalaman yang sangat memuaskan, membuat "
+"anda dapat bertemu dengan orang yang mimiliki motivasi bermacam-macam, "
+"berkeahlian dan mau menolong, keseluruhannya bekerja untuk satu tujuan. "
+"Bergabung dengan kami hari ini dan lihat perbedaan yang telah anda buat."
 
 #: ../release-notes.xml:180
 msgid "Credits"
@@ -297,12 +295,12 @@ msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
 msgstr ""
-"Catatan terbitan ini dirakit oleh Murray Cumming, Davyd madeley dan"
-"komunitas GNOME."
+"Catatan terbitan ini dirakit oleh Murray Cumming, Davyd madeley dankomunitas "
+"GNOME."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:30
+#: ../rnapplets.xml:31
 msgid ""
 "@@image: 'figures/figure-applet-modem.png'; "
 "md5=e578e556196eb7b5e18e8e23dec80f3d"
@@ -312,7 +310,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:52
+#: ../rnapplets.xml:53
 msgid ""
 "@@image: 'figures/figure-applet-trash.png'; "
 "md5=3cae86562b76ef6650be8d0fbe007907"
@@ -322,7 +320,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:74
+#: ../rnapplets.xml:76
 msgid ""
 "@@image: 'figures/figure-applet-drivemount.png'; "
 "md5=47fa7b661de0c2ae0223fa211145fa11"
@@ -332,7 +330,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:95
+#: ../rnapplets.xml:97
 msgid ""
 "@@image: 'figures/figure-applet-weather.png'; "
 "md5=c3a54721c5872fe130c9c24d969310bf"
@@ -342,7 +340,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:119
+#: ../rnapplets.xml:120
 msgid ""
 "@@image: 'figures/figure-applet-mixer.png'; "
 "md5=3db86d251e280b32c35142524d4759f2"
@@ -352,7 +350,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:140
+#: ../rnapplets.xml:141
 msgid ""
 "@@image: 'figures/figure-applet-stickies.png'; "
 "md5=55648b50d6dde470bc89a2d9d51523d8"
@@ -362,7 +360,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:158
+#: ../rnapplets.xml:161
 msgid ""
 "@@image: 'figures/figure-applet-cpufreq.png'; "
 "md5=81a2482710b2157df4fc66697490d28a"
@@ -380,9 +378,9 @@ msgid ""
 "applets), providing new features and better integration with the rest of the "
 "desktop."
 msgstr ""
-"GNOME 2.10 mengikut sertakan peningkatan utama pada benda benda di panel ( yang dikenal "
-"juga sebagai applet), menyediakan kemampuan baru dan penyatuan yang lebih baik dengan "
-"desktop."
+"GNOME 2.10 mengikut sertakan peningkatan utama pada benda benda di panel "
+"( yang dikenal juga sebagai applet), menyediakan kemampuan baru dan "
+"penyatuan yang lebih baik dengan desktop."
 
 #: ../rnapplets.xml:13
 msgid ""
@@ -396,9 +394,9 @@ msgstr ""
 "Perubahan yang paling kentara adalah penghilangan menu panel Aksi dan dan "
 "penambahan menu Tempat dan Desktop. Hal ini menyediakan akses yang cepat "
 "pada benda yang sering anda gunakan, tanpa mencari melalui sub menu. Sebagai "
-"contoh, menu Tempat mendaftarkan folder pada home anda, komputer anda, server jaringan "
-"dan fasilitas pencarian. Pada menu Desktop, anda akan menemukan Setingan dan "
-"panel kendali Administrasi, Log Out dan Bantuan."
+"contoh, menu Tempat mendaftarkan folder pada home anda, komputer anda, "
+"server jaringan dan fasilitas pencarian. Pada menu Desktop, anda akan "
+"menemukan Setingan dan panel kendali Administrasi, Log Out dan Bantuan."
 
 #: ../rnapplets.xml:15
 msgid ""
@@ -406,137 +404,114 @@ msgid ""
 "menu specification, so 3rd-party software may add itself to the Applications "
 "menu without even knowing about GNOME."
 msgstr ""
-"Seluruh menu panel pada saat ini telah didefinisikan oleh spesifikasi menu Freedesktop.org "
-"yang berplatform silang, sehingga perangkat lunak pihak ke-3 dapat menambahkan dirinya "
-"ke menu aplikasi tanpa harus mengetahui tentang GNOME."
+"Seluruh menu panel pada saat ini telah didefinisikan oleh spesifikasi menu "
+"Freedesktop.org yang berplatform silang, sehingga perangkat lunak pihak ke-3 "
+"dapat menambahkan dirinya ke menu aplikasi tanpa harus mengetahui tentang "
+"GNOME."
 
 #: ../rnapplets.xml:17
 msgid ""
 "Also, most applets can now be partly transparent, when the panel itself is "
 "transparent."
 msgstr ""
-"Juga, kebanyakan aplet sekarang dapat ditransparankan secara sebagaian, ketika panel "
-"itu sendiri transparan."
+"Juga, kebanyakan applet sekarang dapat ditransparankan secara sebagian, "
+"ketika panel itu sendiri transparan."
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
 msgstr "Pengendali Modem Terintegrasi."
 
-#: ../rnapplets.xml:27
-msgid "The new modem control applet"
-msgstr "Aplet kendali modem yang baru"
-
 #: ../rnapplets.xml:23
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
-"with GNOME System Tools. <figure id=\"rnscreenshot-applet-modem"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The new modem control applet</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"with GNOME System Tools."
 msgstr ""
-"GNOME 2.10 memperkenalkan aplet baru untuk mengatur Modem anda, menyatu "
-"dengan Alat Sistem GNOME. <figure id=\"rnscreenshot-applet-modem"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Applet pengatur modem yang baru</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"GNOME 2.10 memperkenalkan applet baru untuk mengatur Modem anda, menyatu "
+"dengan Alat Sistem GNOME."
+
+#: ../rnapplets.xml:28 ../rnapplets.xml:33
+msgid "The new modem control applet"
+msgstr "Applet kendali modem yang baru"
 
 #: ../rnapplets.xml:41
 msgid "Panel Trashcan"
 msgstr "Panel Tong Sampah"
 
-#: ../rnapplets.xml:49
-msgid "a Trashcan on your Panel"
-msgstr "Sebuah Tong Sampah pada Panel anda"
-
 #: ../rnapplets.xml:43
 msgid ""
 "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
 "trashcan on your desktop, you can now drag and drop files and other items "
-"into the trash without minimising your open windows. <figure id="
-"\"rnscreenshot-applet-trash\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-applet-trash.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Drag trash to your panel</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"into the trash without minimizing your open windows."
 msgstr ""
-"GNOME 2.10 memfasilitasi pilihan tong sampah untuk Panel anda. Sama seperti "
-"tong sampah pada desktop anda, sekarang anda dapat menarik dan meletakkan "
-"file dan benda lain ke dalam tong tanpa menyembunyikan jendela anda yang "
-"lagi terbuka. <figure id=\"rnscreenshot-applet-trash\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-applet-trash.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Tarik tong ke panel anda</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"GNOME 2.10 memiliki kelebihan pilihan tong sampah pada Penel anda. Seperti tong "
+"sampah pada desktop anda, anda sekarang dapat menarik dan meletakkan file serta "
+"benda lain ke tong tanpa mengecilkan jendela anda yang telah terbuka."
 
-#: ../rnapplets.xml:62
+#: ../rnapplets.xml:50
+msgid "a Trashcan on your Panel"
+msgstr "Sebuah Tong Sampah pada Panel anda"
+
+#: ../rnapplets.xml:55
+msgid "Drag trash to your panel"
+msgstr "Tarik Tong Sampah ke panel anda"
+
+#: ../rnapplets.xml:63
 msgid "Control Mounted Volumes"
 msgstr "Kendali Volume Terkait"
 
-#: ../rnapplets.xml:71
-msgid "Drive Mount"
-msgstr "Kait Drive"
-
-#: ../rnapplets.xml:64
+#: ../rnapplets.xml:65
 msgid ""
 "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, "
 "and USB memory sticks. Now the volume mounter applet helps you to use these "
 "volumes without the difficulty of finding their icons on the desktop, behind "
 "your open windows. The applet shows the currently mounted (or unmountable) "
 "volumes, allowing you to mount them, eject them, or open them in the file "
-"manager. <figure id=\"rnscreenshot-applet-drivemount\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The drive mount applet.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"manager."
 msgstr ""
 "GNOME 2.8 membolehkan anda untuk dengan mudah mengkaitkan media digital "
 "anda, seperti CD, DVD, memory USB. Sekarang applet pengkait isi membantu "
 "anda untuk menggunakan isi ini tanpa kesulitan menemukan icon mereka di "
 "desktop, disamping jendela anda yang terbuka. Applet menampilkan isi yang "
 "sedang terkait (atau terlepas), membolehkan anda untuk mengkaitkan mereka, "
-"mengeluarkan mereka, ataupun membuka mereka dalam pengelola file. <figure id="
-"\"rnscreenshot-applet-drivemount\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Applet kait drive.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"mengeluarkan mereka, ataupun membuka mereka dalam pengelola file."
 
-#: ../rnapplets.xml:85
+#: ../rnapplets.xml:73
+msgid "Drive Mount"
+msgstr "Kait Drive"
+
+#: ../rnapplets.xml:78
+msgid "The drive mount applet."
+msgstr "Applet kendali kait drive."
+
+#: ../rnapplets.xml:86
 msgid "Get even more weather"
 msgstr "Dapatkan cuaca"
 
-#: ../rnapplets.xml:92
-msgid "Weather Report"
-msgstr "Laporan Cuaca"
-
-#: ../rnapplets.xml:86
+#: ../rnapplets.xml:87
 msgid ""
-"The weather monitor can now show even more locations then before, and the "
-"location names have been translated into non-english languages where "
+"The weather monitor can now show even more locations than before, and the "
+"location names have been translated into non-English languages where "
 "appropriate. In addition, the forecast now includes sunrise and sunset "
-"calculations for most locations. <figure id=\"rnscreenshot-applet-weather"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The weather report applet.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"calculations for most locations."
 msgstr ""
 "Pemantau cuaca sekarang dapat menampilkan lebih banyak lokasi dari pada "
 "sebelumnya, dan nama lokasi telah diterjemahkan kepada bukan bahasa inggris "
 "kalau sesuai. Sebagai tambahan, sekarang lamaran cuaca mengikut sertakan "
 "perhitungan matahari terbit dan matahari terbenam untuk kebanyak lokasi. "
-"<figure·id=\"rnscreenshot-applet-weather\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata·fileref=\"&urlfiguresbase;"
-"figure-applet-weather.png\"·format=\"PNG\"/></"
-"imageobject><textobject><phrase>Applet laporan cuaca.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
-#: ../rnapplets.xml:106
+#: ../rnapplets.xml:94
+msgid "Weather Report"
+msgstr "Laporan Cuaca"
+
+#: ../rnapplets.xml:99
+msgid "The weather report applet."
+msgstr "Applet laporan cuaca"
+
+#: ../rnapplets.xml:107
 msgid "Sound control"
 msgstr "Kendali Suara"
 
-#: ../rnapplets.xml:107
+#: ../rnapplets.xml:108
 msgid ""
 "A new mixer for your panel (combined with a new-look mixer on the desktop) "
 "gets the most from your sound hardware. Using the GStreamer multimedia "
@@ -545,111 +520,107 @@ msgid ""
 "and a variety of third-party applications, so changing the GNOME volume via "
 "the panel will change the volume of all these applications."
 msgstr ""
-"Mixer baru untuk panel anda (dikombinasikan dengan mixer tampilan baru pada desktop) "
-"dapatkan yang paling dari perangkat suara anda. Menggunakan kerangka kerja multimedia "
-"GStreamer, mixer sekarang lebih sederhana dan lebih mudah dari sebelumnya. Kerangka kerja "
-"multimedia yang sama telah memperkuat Totem, Sound Juicer, pemutar CD GNOME "
-"dan bermacam aplikasi pihak ke tiga, jadi merubah volume suara melalui panel akan mengubah "
-"volume suara dari seluruh aplikasi ini."
+"Mixer baru untuk panel anda (dikombinasikan dengan mixer tampilan baru pada "
+"desktop) dapatkan yang paling dari perangkat suara anda. Menggunakan "
+"kerangka kerja multimedia GStreamer, mixer sekarang lebih sederhana dan "
+"lebih mudah dari sebelumnya. Kerangka kerja multimedia yang sama telah "
+"memperkuat Totem, Sound Juicer, pemutar CD GNOME dan bermacam aplikasi pihak "
+"ke tiga, jadi merubah volume suara melalui panel akan mengubah volume suara "
+"dari seluruh aplikasi ini."
 
-#: ../rnapplets.xml:116
+#: ../rnapplets.xml:117
 msgid "all new mixer for your panel"
-msgstr "mixerbaru untuk panel anda"
+msgstr "mixer baru untuk panel anda"
 
-#: ../rnapplets.xml:121
+#: ../rnapplets.xml:122
 msgid "All new mixer for your panel"
 msgstr "Mixer baru untuk panel anda"
 
-#: ../rnapplets.xml:128
+#: ../rnapplets.xml:129
 msgid "Taking note"
 msgstr "Mengambil catatan"
 
-#: ../rnapplets.xml:129
+#: ../rnapplets.xml:130
 msgid ""
 "The popular Sticky Notes applet now makes it even easier to add PostIt-style "
 "notes on your desktop, thanks to a simpler user interface and many bug "
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
 msgstr ""
-"Applet catatan tempel yang populer sekarang membuat lebih mudah untuk menambahkan "
-"catatan bergaya postit pada dekstop anda, terima kasih pada antar muka pengguna yang "
-"sederhana dan perbaikan kesalahan yang banyak. Sebagai contoh, catatan tempel sekarang "
-"akan tetap pada ruang kerja yang tepat, atau bahkan pada monitor yang berbeda."
+"Applet catatan tempel yang populer sekarang membuat lebih mudah untuk "
+"menambahkan catatan bergaya postit pada dekstop anda, terima kasih pada "
+"antar muka pengguna yang sederhana dan perbaikan kesalahan yang banyak. "
+"Sebagai contoh, catatan tempel sekarang akan tetap pada ruang kerja yang "
+"tepat, atau bahkan pada monitor yang berbeda."
 
-#: ../rnapplets.xml:132
+#: ../rnapplets.xml:133
 msgid ""
 "And sticky notes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
 msgstr ""
-"Dan catatan tempel sekarang tetap berada di atas jendela lain, jadi anda tidak akan kehilangan mereka. "
-"Untuk menyembunyikan catatan, gunakan saja menu klik kanan applet."
+"Dan catatan tempel sekarang tetap berada di atas jendela lain, jadi anda "
+"tidak akan kehilangan mereka. Untuk menyembunyikan catatan, gunakan saja "
+"menu klik kanan applet."
 
-#: ../rnapplets.xml:137 ../rnapplets.xml:142
+#: ../rnapplets.xml:138 ../rnapplets.xml:143
 msgid "Sticky Notes"
 msgstr "Catatan Tempel"
 
-#: ../rnapplets.xml:148
+#: ../rnapplets.xml:149
 msgid "Specially for laptops"
 msgstr "Teristimewa untuk laptops"
 
-#: ../rnapplets.xml:155
-msgid "Monitor CPU Frequency Scaling"
-msgstr "Penskalaan pemantau frekuensi CPU"
-
-#: ../rnapplets.xml:149
+#: ../rnapplets.xml:150
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
 "CPU Frequency Monitor watches variable-speed processors (such as those with "
 "Intel Speedstep or AMD PowerNow) to show their current status. You may even "
 "choose a different speed if you don't have automatic frequency scaling "
-"enabled. <figure id=\"rnscreenshot-applet-cpufreq\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-applet-cpufreq.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"enabled."
 msgstr ""
 "GNOME sekarang mengikut sertakan sebuah applet untuk memantau kecepatan "
 "prosesor anda. Pemantau frekuensi CPU melihat kecepatan variabel prosesor "
 "(seperti yang Intel Speedstep atau AMD PowerNow) untuk menampilkan status "
 "terkini. Anda bahkan memilih kecepatan yang berbeda jika anda tidak memiliki "
-"penskalaan frekuensi secara automatis : aktif.<figure id=\"rnscreenshot-"
-"applet-cpufreq\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-applet-cpufreq.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Pemantau Penskalaan Frekuensi CPU</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"penskalaan frekuensi secara automatis : aktif."
 
-#: ../rnapplets.xml:168
+#: ../rnapplets.xml:158 ../rnapplets.xml:163
+msgid "Monitor CPU Frequency Scaling"
+msgstr "Penskalaan pemantau frekuensi CPU"
+
+#: ../rnapplets.xml:171
 msgid "Removed Applets"
 msgstr "Applet yang telah dibuang"
 
-#: ../rnapplets.xml:169
+#: ../rnapplets.xml:172
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
 msgstr ""
-"Tiga applet telah dibuang pada GNOME 2.10, digantikan dengan alternatif yang lebih baik "
-"dalam kebanyakan kasus."
+"Tiga applet telah dibuang pada GNOME 2.10, digantikan dengan alternatif yang "
+"lebih baik dalam kebanyakan kasus."
 
-#: ../rnapplets.xml:172
+#: ../rnapplets.xml:175
 msgid ""
 "The CD Player panel applet has been removed, so you will not see a CD player "
 "on your panel when you don't even have a CD in your drive. Instead, "
 "inserting a CD will now start the GNOME CD Player, which can then be "
 "controlled from a notification icon that it places in your Panel."
 msgstr ""
-"Panel pemutar CD telah dibuang, jadi anda tidak akan melihat sebuah pemutar CD "
-"pada panel anda ketika anda tidak memiliki CD pada drive anda. Malahan, "
+"Panel pemutar CD telah dibuang, jadi anda tidak akan melihat sebuah pemutar "
+"CD pada panel anda ketika anda tidak memiliki CD pada drive anda. Malahan, "
 "memasukkan CD sekarang akan memulai pemutar CD GNOME, yang kemudian dapat "
 "dikendalikan dari icon pemberitahuan yang ditempatkan pada panel anda."
 
-#: ../rnapplets.xml:175
+#: ../rnapplets.xml:178
 msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
 msgstr ""
+"Applet dedicated nirkabel telah dibuang karena applet Pemantau Jaringan, diperkenalkan "
+"pada GNOME 2.8, juga mengikut sertakan dukungan nirkabel."
 
-#: ../rnapplets.xml:178
+#: ../rnapplets.xml:181
 msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
 "insecure. We hope to have a solution integrated with our Evolution mail "
@@ -657,10 +628,15 @@ msgid ""
 "a third party application such as <ulink url=\"http://www.nongnu.org/"
 "mailnotify/\">mailnotify</ulink>."
 msgstr ""
+"Pemantau Kotak surat telah dibuang karena tidak dipelihara dan tidak aman. "
+"Kami berharap memiliki solusi yang menyatu dengan pelanggan surat Evolution "
+"kami pada masa depan. Jika anda tidak menggunakan Evolution pada surat anda, "
+"anda dapat menggunakan aplikasi pihak ketiga seperti <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:20
+#: ../rnapplications.xml:21
 msgid ""
 "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 msgstr ""
@@ -678,7 +654,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:67
+#: ../rnapplications.xml:64
 msgid ""
 "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 msgstr ""
@@ -686,7 +662,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:99
+#: ../rnapplications.xml:95
 msgid ""
 "@@image: 'figures/figure-evolution-weather.png'; "
 "md5=ca12d0050f5514294bd4b54f47a899db"
@@ -696,7 +672,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:118
+#: ../rnapplications.xml:113
 msgid ""
 "@@image: 'figures/figure-evolution-mail.png'; "
 "md5=b27a25dd54f1118e40b9104354bda815"
@@ -706,7 +682,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:141
+#: ../rnapplications.xml:135
 msgid ""
 "@@image: 'figures/figure-gnome-meeting.png'; "
 "md5=71e89305beea456fbb73016fbb645010"
@@ -722,67 +698,60 @@ msgstr "Aplikasi"
 msgid "Video Player"
 msgstr "Pemutar Video"
 
-#: ../rnapplications.xml:17
-msgid "The video player"
-msgstr "Pemutar video "
-
 #: ../rnapplications.xml:13
 msgid ""
 "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
 "GStreamer multimedia framework. Totem provides the intuitive user interface "
 "that GNOME users expect, with automatic hardware detection instead of "
-"complex configuration. <figure id=\"rnscreenshot-totem\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
-"Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
+"complex configuration."
 msgstr ""
 "GNOME 2.10 sekarang mengikut sertakan Totem pemutar video yang populer, "
 "menggunakan kerangka kerja multimedia GStreamer GNOME. Totem menyediakan "
 "antar muka pengguna yang intuitif seperti yang diinginkan pengguna GNOME, "
 "dengan pengenalan perangkat keras secara automatis dari pada konfigurasi "
-"yang kompleks. <figure·id=\"rnscreenshot-totem\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata·fileref=\"&urlfiguresbase;"
-"figure-totem.png\"·format=\"PNG\"/></imageobject><textobject><phrase>Pemutar "
-"video Totem.</phrase></textobject></mediaobject></screenshot></figure>"
+"yang rumit."
 
-#: ../rnapplications.xml:31
+#: ../rnapplications.xml:18
+msgid "The video player"
+msgstr "Pemutar video "
+
+#: ../rnapplications.xml:22
+msgid "The Totem video player."
+msgstr "Pemutar video Totem."
+
+#: ../rnapplications.xml:30
 msgid "Audio Extraction"
 msgstr "Penguraian Suara"
+
+#: ../rnapplications.xml:32
+msgid ""
+"The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for "
+"later playback on your PC or portable music player. Thanks to automatic "
+"downloading of song titles, you won't need to click more than a couple of "
+"buttons."
+msgstr ""
+"Sound Juicer yang paling dicintai \"pemotong CD\" dengan mudah menguraikan "
+"suara dari CD untuk kemudian dapat dimainkan pada PC anda ataupun pemutar "
+"musik portabel lain. Terima kasih untuk downloading judul lagu yang "
+"automatis, anda tidak akan mengklik sepasang tombol."
 
 #: ../rnapplications.xml:37
 msgid "The audio extractor"
 msgstr "Pengurai suara"
 
-#: ../rnapplications.xml:33
-msgid ""
-"The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for "
-"later playback on your PC or portable music player. Thanks to automatic "
-"downloading of song titles, you won't need to click more than a couple of "
-"buttons. <figure id=\"rnscreenshot-soundjuicer\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-soundjuicer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The audio extractor.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
-msgstr ""
-"Sound Juicer yang paling dicintai \"pemotong CD\" dengan mudah menguraikan "
-"suara dari CD untuk kemudian dapat dimainkan pada PC anda ataupun pemutar "
-"musik portabel lain. Terima kasih untuk downloading judul lagu yang "
-"automatis, anda tidak akan mengklik sepasang tombol. <figure id="
-"\"rnscreenshot-soundjuicer\"><title>Pengurai suara</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Pengurai suara.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+#: ../rnapplications.xml:41
+msgid "The audio extractor."
+msgstr "Pengurai suara."
 
-#: ../rnapplications.xml:51
+#: ../rnapplications.xml:49
 msgid "Web Browser"
 msgstr "Browser Web"
 
-#: ../rnapplications.xml:55
+#: ../rnapplications.xml:53
 msgid "An improved fullscreen mode."
 msgstr "Mode layar penuh yang telah ditingkatkan."
 
-#: ../rnapplications.xml:56
+#: ../rnapplications.xml:54
 msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
@@ -790,15 +759,15 @@ msgstr ""
 "Petunjuk lokasi sekarang menandakan apakah situs adalah aman, dan "
 "menampilkan faviconnya."
 
-#: ../rnapplications.xml:57
+#: ../rnapplications.xml:55
 msgid "Bookmarks can be exported."
 msgstr "Bookmark dapat diekspor."
 
-#: ../rnapplications.xml:58
+#: ../rnapplications.xml:56
 msgid "An extension manager for extra features."
 msgstr "Pengelola ekstensi untuk fasilitas ekstra."
 
-#: ../rnapplications.xml:53
+#: ../rnapplications.xml:51
 msgid ""
 "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully "
 "with the GNOME desktop environment. Improvements in 2.10 include "
@@ -808,143 +777,134 @@ msgstr ""
 "penuh dengan lingkungan desktop GNOME. Peningkatan pada 2.10 termasuk "
 "<placeholder-1/>"
 
-#: ../rnapplications.xml:64
+#: ../rnapplications.xml:61
 msgid "The web browser"
 msgstr "Browser web"
 
-#: ../rnapplications.xml:62
-msgid ""
-"<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
-"web browser.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
-"<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-epiphany.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Browserweb.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+#: ../rnapplications.xml:65
+msgid "The web browser."
+msgstr "Browser web."
 
-#: ../rnapplications.xml:77
+#: ../rnapplications.xml:73
 msgid "Evolution"
 msgstr "Evolution"
 
-#: ../rnapplications.xml:79
+#: ../rnapplications.xml:75
 msgid ""
 "GNOME's integrated Email and Groupware client, Evolution supports "
 "traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. "
 "With Evolution you can read, write, and manage your emails, contacts, and "
 "calendar events."
 msgstr ""
+"Pelanggan surat GNOME dan Groupware, dukungan setup surat tradisional "
+"Evolution, sebagaimana Novell Groupwise dan Microsoft Exchange. "
+"Dengan Evolution anda dapat membaca dan mengelola email anda, alamat, dan "
+"agenda kalender."
 
-#: ../rnapplications.xml:84
+#: ../rnapplications.xml:80
 msgid ""
 "In GNOME 2.10 it's now easier to work offline with your email, calendar, and "
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
 "will resynchronize when you go back online."
 msgstr ""
+"Pada GNOME 2.10 sekarang lebih mudah untuk bekerja offline dengan surat anda, kalender dan "
+"alamat jika anda menggunakan IMAP, LDAP, WebCal, Groupwise ataupun Exchange. Perubahan "
+"yang anda lakukan akan di samakan ketika anda online kembali."
 
-#: ../rnapplications.xml:89
+#: ../rnapplications.xml:85
 msgid "Files can be attached to events."
-msgstr ""
+msgstr "File dapat dilampirkan ke agenda."
 
-#: ../rnapplications.xml:90
+#: ../rnapplications.xml:86
 msgid "Exceptions can be made in recurring events."
-msgstr ""
-
-#: ../rnapplications.xml:91
-msgid "The calendar includes weather information (US only)."
-msgstr ""
+msgstr "Pengecualian dapat dibuat untuk agenda berulang."
 
 #: ../rnapplications.xml:87
+msgid "The calendar includes weather information (US only)."
+msgstr "Kalender mengikut sertakan informasi cuaca (US saja)."
+
+#: ../rnapplications.xml:83
 msgid ""
 "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
+"Versi baru ini menawarkan peningkatan lain dari kalender: <placeholder-1/>"
+
+#: ../rnapplications.xml:92
+msgid "daily weather forecasts"
+msgstr "laporan cuaca sehari-hari."
 
 #: ../rnapplications.xml:96
-msgid "daily weather forecasts"
-msgstr ""
-
-#: ../rnapplications.xml:100
 msgid "The Evolution calendar client."
-msgstr ""
+msgstr "Pelanggan kalender Evolution."
 
-#: ../rnapplications.xml:107
+#: ../rnapplications.xml:103
 msgid "Groupwise shared folders and send options are now supported."
-msgstr ""
+msgstr "Berbagi direktori Groupwise dan pilihan kirim sekarang telah didukung."
 
-#: ../rnapplications.xml:108
+#: ../rnapplications.xml:104
 msgid "Exchange folder sizes and password expiry warnings are supported."
-msgstr ""
+msgstr "Ukuran direktori Exchange dan peringatan masa berlaku password telah didukung."
 
-#: ../rnapplications.xml:109
+#: ../rnapplications.xml:105
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
 msgstr ""
+"Antar muka surat pengguna akan di cerminkan sesuai dengan "
+"bahasa dari kanan ke kiri."
+""
 
-#: ../rnapplications.xml:105
+#: ../rnapplications.xml:101
 msgid "And yet more new features: <placeholder-1/>"
-msgstr ""
+msgstr "Dan banyak lagi kelebihan yang baru: <placeholder-1/>"
 
-#: ../rnapplications.xml:115
+#: ../rnapplications.xml:110
 msgid "The email client"
-msgstr ""
+msgstr "Pelanggan surat"
 
-#: ../rnapplications.xml:113
-msgid ""
-"<figure id=\"rnscreenshot-evolution-mail\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-evolution-mail.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Evolution email client.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
-msgstr ""
-"<figure id=\"rnscreenshot-evolution-mail\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-evolution-mail.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Pelanggan email Evolution.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+#: ../rnapplications.xml:114
+msgid "The Evolution email client."
+msgstr "Pelanggan surat Evolution."
 
-#: ../rnapplications.xml:129
+#: ../rnapplications.xml:122
 msgid "GnomeMeeting"
-msgstr ""
+msgstr "GnomeMeeting"
 
-#: ../rnapplications.xml:131
+#: ../rnapplications.xml:124
 msgid ""
 "GnomeMeeting allows users to see and speak to each other via internet "
 "telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is "
 "now shared with our Evolution email client, so you don't need to enter "
 "contact information in more than one place."
 msgstr ""
+"GnomeMeeting memudahkan anda untuk melihat dan bicara dengan orang lain melalui "
+"telepon internet (VoIP) dan konfrensi video. Pada GNOME 2.10 buku alamat sekarang "
+"berbagi dengan pelanggan surat Evolution kami, jadi anda tidak perlu memasukkan informasi "
+"alamat lebih dari satu kali."
 
-#: ../rnapplications.xml:138
-msgid "The internet telephony and video conferencing client"
-msgstr ""
-
-#: ../rnapplications.xml:135
+#: ../rnapplications.xml:128
 msgid ""
-"Now you can even browse for other Gnome Meeting users on your local network "
+"Now you can even browse for other GnomeMeeting users on your local network "
 "without discovering their contact details first. And you can view your own "
 "video output side by side with the video from your conversation partner, so "
-"you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-"
-"1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"you see what they see."
 msgstr ""
 "Sekarang anda dapat mencari pengguna Gnome Meeting yang lain pada jaringan "
-"lokaltanpa harus menemukan alamat rinci kontak mereka pertama kali. Dan anda "
-"dapat melihat video anda sendiri sisi-ke-sisi dengan video dari teman "
-"ngobrol anda, jadianda lihat apa yang dia lihat. <figure id=\"rnscreenshot-"
-"gnomemeeting\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-meeting.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Gnome Meeting dengan video sisi ke sisi.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"lokal tanpa harus menemukan alamat rinci kontak mereka pertama kali. Dan anda "
+"dapat melihat video anda sendiri sisi-demi-sisi dengan video dari teman "
+"ngobrol anda, jadi anda lihat apa yang dia lihat."
+
+#: ../rnapplications.xml:132
+msgid "The internet telephony and video conferencing client"
+msgstr "Pelanggan Telepon Internet dan konfrensi video."
+
+#: ../rnapplications.xml:136
+msgid "GnomeMeeting with side-by-side video."
+msgstr "GnomeMeeting dengan video sisi-demi-sisi."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rncontrolcenter.xml:20
+#: ../rncontrolcenter.xml:21
 msgid ""
 "@@image: 'figures/figure-keyboard-properties+layout.png'; "
 "md5=6f351cb81db99e786e4560301a410fcc"
@@ -960,35 +920,31 @@ msgstr "Pusat Kendali"
 msgid "Keyboard Layouts"
 msgstr "Susunan Keyboard"
 
-#: ../rncontrolcenter.xml:17
-msgid "Keyboard Preferences - Layouts"
-msgstr "Setingan - Susunan Keyboard"
-
 #: ../rncontrolcenter.xml:13
 msgid ""
 "Selecting a keyboard layout is now simpler with the Keyboard control panel. "
 "Just click Add to choose from a list of international keyboard layouts. "
 "Before making your choice you can see the effect of key presses in the "
 "layout preview. The Layout Options section has also been reorganized as a "
-"simpler list of choices. <figure id=\"rnscreenshot-controlpanel-"
-"keyboardlayouts\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-keyboard-properties+layout.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Layouts tab, in the Keyboard Preferences "
-"control panel, while adding a new layout.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"simpler list of choices."
 msgstr ""
 "Memilih suatu susunan keyboard sekarang sudah lebih mudah dengan panel "
 "kendali Keyboard. Klik saja Tambah untuk memilih dari suatu daftar sususan "
 "keyboard internasional. Sebelum membuat pilihan anda, anda dapat melihat "
 "akibat dari kunci yang ditekan pada preview susunan. Bagian pilihan susunan "
-"juga telah diatur ulang sebagai daftar pilihan yang lebih sederhana. <figure "
-"id=\"rnscreenshot-controlpanel-keyboardlayouts\"><title>Setingan - Susunan "
-"Keyboard</title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Tab Susunan, pada panel kendali Setingan "
-"Keyboard, ketika menambahkan sebuah susunan baru.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"juga telah diatur ulang sebagai daftar pilihan yang lebih sederhana."
+
+#: ../rncontrolcenter.xml:18
+msgid "Keyboard Preferences - Layouts"
+msgstr "Setingan - Susunan Keyboard"
+
+#: ../rncontrolcenter.xml:23
+msgid ""
+"The Layouts tab, in the Keyboard Preferences control panel, while adding a "
+"new layout."
+msgstr ""
+"Tab susunan, pada setingan panel kendali Keyboard, ketika menambahkan "
+"susunan baru."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1059,7 +1015,7 @@ msgid ""
 "to detail. For instance, <placeholder-1/>"
 msgstr ""
 "Sebagai tambahan, ada begitu banyak perubahan kecil yang menunjukkan "
-"perhatian GNOME terhadap hal yang rinci. Sebagai kejadian, <placeholder-1/>"
+"perhatian GNOME terhadap hal yang rinci. Sebagai contoh, <placeholder-1/>"
 
 #: ../rndesktop.xml:31
 msgid "clean-cut and powerful, the Nautilus file manager"
@@ -1208,9 +1164,9 @@ msgstr "Nibbles"
 msgid ""
 "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you "
 "can browse your local network for other people to play against, via the same "
-"zero-configuration technique used by Gnome Meeting."
+"zero-configuration technique used by GnomeMeeting."
 msgstr ""
-"Filosofi \"bekerja\" kami bahkan kelihatan di permainan Nibbles. Sekarang "
+"Filosofi \"langsung bekerja\" kami bahkan kelihatan di permainan Nibbles. Sekarang "
 "anda dapat mencari orang pada jaringan lokal anda untuk bermain bersama, "
 "melalui teknik konfigurasi yang sama dengan Gnome Meeting."
 
@@ -1226,11 +1182,12 @@ msgstr "Gabung sebuah permainan jaringan"
 msgid "Internationalization"
 msgstr "Internasionalisasi"
 
+#. Translators: I have only changed language count in here: s/40/33/
 #: ../rni18n.xml:10
 msgid ""
 "Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/"
 "projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of "
-"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 40 "
+"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
 msgstr ""
 "Terima kasih untuk anggota dari seluruh dunia <ulink url=\"http://developer."
@@ -1243,222 +1200,136 @@ msgid "Albanian (5 million speakers)"
 msgstr "Albania (5 juta pembicara)"
 
 #: ../rni18n.xml:42
-msgid "Arabic (235 million)"
-msgstr "Arab (235 juta)"
-
-#: ../rni18n.xml:43
-msgid "Azerbaijani (28 million)"
-msgstr "Azerbaijan (28 juta)"
-
-#: ../rni18n.xml:44
-msgid "Basque (580,000)"
-msgstr "Basqu (580,000)"
-
-#: ../rni18n.xml:45
-msgid "Belarusian (7 million)"
-msgstr "Belarusia (7 juta)"
-
-#: ../rni18n.xml:46
-msgid "Bengali (189 million)"
-msgstr "Manggali (189 juta)"
-
-#: ../rni18n.xml:47
-msgid "Bosnian (3 million)"
-msgstr "Bosnia (3 juta)"
-
-#: ../rni18n.xml:48
 msgid "Brazilian Portuguese (175 million)"
 msgstr "Brazil Portugis (175 juta)"
 
-#: ../rni18n.xml:49
+#: ../rni18n.xml:43
 msgid "Bulgarian (9 million)"
 msgstr "Bulgaria (9 juta)"
 
-#: ../rni18n.xml:50
+#: ../rni18n.xml:44
 msgid "Catalan (7 million)"
 msgstr "Katalan (7 juta)"
 
-#: ../rni18n.xml:51
+#: ../rni18n.xml:45
 msgid "Chinese Simplified (over 1 billion)"
 msgstr "Cina sederhana (lebih 1 miliar)"
 
-#: ../rni18n.xml:52
+#: ../rni18n.xml:46
 msgid "Chinese Traditional (40 million)"
 msgstr "Cina tradisional (40 juta)"
 
-#: ../rni18n.xml:53
-msgid "Croatian (5 million)"
-msgstr "Kroasia (5 juta)"
-
-#: ../rni18n.xml:54
+#: ../rni18n.xml:47
 msgid "Czech (11 million)"
 msgstr "Cesnya (11 juta)"
 
-#: ../rni18n.xml:55
+#: ../rni18n.xml:48
 msgid "Danish (5.3 million)"
 msgstr "Denmark (5,3 juta)"
 
-#: ../rni18n.xml:56
+#: ../rni18n.xml:49
 msgid "Dutch (over 21 million)"
 msgstr "Belanda (lebih 21 juta)"
 
-#: ../rni18n.xml:57
+#: ../rni18n.xml:50
 msgid "English (341 million)"
 msgstr "Inggris (341 juta)"
 
-#: ../rni18n.xml:58
-msgid "Estonian (1 million)"
-msgstr "Estonia (1 juta)"
-
-#: ../rni18n.xml:59
+#: ../rni18n.xml:51
 msgid "Finnish (over 5 million)"
 msgstr "Finlandia (lebih 5 juta)"
 
-#: ../rni18n.xml:60
+#: ../rni18n.xml:52
 msgid "French (over 75 million)"
 msgstr "Prancis (lebih 75 juta)"
 
-#: ../rni18n.xml:61
+#: ../rni18n.xml:53
 msgid "German (100 million)"
 msgstr "Jerman (100 juta)"
 
-#: ../rni18n.xml:62
+#: ../rni18n.xml:54
 msgid "Greek (15 million)"
 msgstr "Yunani (15 juta)"
 
-#: ../rni18n.xml:63
+#: ../rni18n.xml:55
 msgid "Gujarati (46 million)"
 msgstr "Gujarat (46 juta)"
 
-#: ../rni18n.xml:64
+#: ../rni18n.xml:56
 msgid "Hindi (370 million)"
 msgstr "Hindi (370 juta)"
 
-#: ../rni18n.xml:65
+#: ../rni18n.xml:57
 msgid "Hungarian (14.5 million)"
 msgstr "Hungaria (14,5 juta)"
 
-#: ../rni18n.xml:66
-msgid "Indonesian (25 million)"
-msgstr "Indonesia (25 juta)"
-
-#: ../rni18n.xml:67
+#: ../rni18n.xml:58
 msgid "Italian (60 million)"
 msgstr "Italia (60 juta)"
 
-#: ../rni18n.xml:68
+#: ../rni18n.xml:59
 msgid "Japanese (over 125 million)"
 msgstr "Jepang (lebih 125 juta)"
 
-#: ../rni18n.xml:69
+#: ../rni18n.xml:60
 msgid "Korean (75 million)"
 msgstr "Korea (75 juta)"
 
-#: ../rni18n.xml:70
+#: ../rni18n.xml:61
 msgid "Lithuanian (4 million)"
 msgstr "Lituania (4 juta)"
 
-#: ../rni18n.xml:71
-msgid "Macedonian (1.5 million)"
-msgstr "makedonia (1,5 juta)"
-
-#: ../rni18n.xml:72
-msgid "Malay (over 17 million)"
-msgstr "Malaysia (lebih 17 juta)"
-
-#: ../rni18n.xml:73
-msgid "Mongolian (10 million)"
-msgstr "Mongolia (10 juta)"
-
-#: ../rni18n.xml:74
+#: ../rni18n.xml:62
 msgid "Norwegian Bookmal (5 million)"
 msgstr "Norwegia Bookmal (5 juta)"
 
-#: ../rni18n.xml:75
-msgid "Norwegian Nynorsk (2 million)"
-msgstr "Norwegia Nynorsk (2 juta)"
-
-#: ../rni18n.xml:76
+#: ../rni18n.xml:63
 msgid "Panjabi (60 million)"
 msgstr "Punjab (60 juta)"
 
-#: ../rni18n.xml:77
+#: ../rni18n.xml:64
 msgid "Polish (44 million)"
 msgstr "Polandia (44 juta)"
 
-#: ../rni18n.xml:78
+#: ../rni18n.xml:65
 msgid "Portuguese (43 million)"
 msgstr "Portugis (43 juta)"
 
-#: ../rni18n.xml:79
-msgid "Romanian (26 million)"
-msgstr "Rumania (26 juta)"
-
-#: ../rni18n.xml:80
+#: ../rni18n.xml:66
 msgid "Russian (170 million)"
 msgstr "Rusia (170 juta)"
 
-#: ../rni18n.xml:81
+#: ../rni18n.xml:67
 msgid "Serbian (10 million)"
 msgstr "Serbia (10 juta)"
 
-#: ../rni18n.xml:82
-msgid "Slovak (5 million)"
-msgstr "Sloakia (5 juta)"
-
-#: ../rni18n.xml:83
+#: ../rni18n.xml:68
 msgid "Spanish (over 350 million)"
 msgstr "Spanyol (lebih 350 juta)"
 
-#: ../rni18n.xml:84
+#: ../rni18n.xml:69
 msgid "Swedish (9 million)"
 msgstr "Swedia (9 juta)"
 
-#: ../rni18n.xml:85
+#: ../rni18n.xml:70
 msgid "Tamil (61 million)"
 msgstr "Tamil (61 juta)"
 
-#: ../rni18n.xml:86
+#: ../rni18n.xml:71
 msgid "Turkish (150 million)"
 msgstr "Turki (150 juta)"
 
-#: ../rni18n.xml:87
+#: ../rni18n.xml:72
 msgid "Ukrainian (50 million)"
 msgstr "Ukraina (50 juta)"
 
-#: ../rni18n.xml:88
-msgid "Vietnamese"
-msgstr "Vietnam"
-
-#: ../rni18n.xml:89
+#: ../rni18n.xml:73
 msgid "Welsh (575,000)"
 msgstr "Wales (575.000)"
 
 #: ../rni18n.xml:36
 msgid "Supported languages: <placeholder-1/>"
 msgstr "Bahasa yang telah didukung: <placeholder-1/>"
-
-#: ../rni18n.xml:93
-msgid ""
-"Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian Nynorsk, "
-"Panjabi and Tamil are new supported languages in GNOME 2.10, thanks to the "
-"hard work of their translators. Also worthy of mention is that British "
-"English and Canadian English are also supported."
-msgstr ""
-"Catat bahwa Basqu, Bulgaria, Gujarat, Hindi, Hungaria, Norwegia Nynorsk, "
-"Punjab dan Tamil adalah bahasa yang baru didukung pada GNOME 2.10, terima "
-"kasih pada kerja keras penterjemah mereka. Juga pemberitahuan penting bahwa "
-"Inggris British dan Inggris Kanada telah juga didukung."
-
-#: ../rni18n.xml:98
-msgid ""
-"Another 9 languages are partially supported, with more than half of their "
-"strings translated. Croatian and Mongolian are particularly close to "
-"\"supported\" status."
-msgstr ""
-"9 bahasa yang lain juga sebagian telah didukung. dengan lebih dari setengah "
-"dari string telah diterjemahkan. Kroasia dan Mongolia secara khusus sangat "
-"dengan ke status \"telah didukung\"."
 
 #: ../rninstallation.xml:9
 msgid "Installation of GNOME 2.10"
@@ -1554,9 +1425,9 @@ msgstr "Memenuhi Standard"
 #: ../rnstandards.xml:9
 msgid ""
 "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop."
-"org/standards/\">freedesktop.org</ulink>. Standards support is a big plus "
-"for GNOME users. Interoperability support improves the user experience by "
-"allowing GNOME, KDE, and other applications to work together more easily, "
+"org/wiki/Standards\">freedesktop.org</ulink>. Standards support is a big "
+"plus for GNOME users. Interoperability support improves the user experience "
+"by allowing GNOME, KDE, and other applications to work together more easily, "
 "and following open specifications helps ensure that user data is not trapped "
 "in proprietary formats."
 msgstr ""
@@ -1585,7 +1456,7 @@ msgid ""
 "addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, "
 "<ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www."
 "freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www."
-"freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www."
 "freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://"
 "www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink "
 "url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
@@ -1612,7 +1483,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnsysadmin.xml:37
+#: ../rnsysadmin.xml:36
 msgid ""
 "@@image: 'figures/figure-gnome-system-tools.png'; "
 "md5=65e08a4a7947a0a4c0638c249cb30e7a"
@@ -1673,61 +1544,45 @@ msgstr "Perubahan dilaksanakan secara langsung apabila sesuai."
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr "GNOME 2.10 menyajikan beberapa peningkatan, termasuk <placeholder-1/>"
 
-#: ../rnsysadmin.xml:34
+#: ../rnsysadmin.xml:33
 msgid "The Clock, Network, and Users/Groups tools"
 msgstr "Jam, Jaringan, dan alat Pengguna/Kelompok"
 
-#: ../rnsysadmin.xml:32
-msgid ""
-"<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-system-tools.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Clock, Network, and Users/Groups tools.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
-"<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-system-tools.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Jam, Jaringan dan alat Pengguna/Kelompok.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+#: ../rnsysadmin.xml:38
+msgid "The Clock, Network, and Users/Groups tools."
+msgstr "Jam, Jaringan, dan alat Pengguna/Kelompok."
 
-#: ../rnsysadmin.xml:47
+#: ../rnsysadmin.xml:46
 msgid "Log Viewer"
 msgstr "Penampil Log"
 
-#: ../rnsysadmin.xml:52
+#: ../rnsysadmin.xml:51
 msgid "Open multiple logs in the separate windows."
 msgstr "Buka beberapa log dalam jendela terpisah."
 
-#: ../rnsysadmin.xml:53
+#: ../rnsysadmin.xml:52
 msgid "Open archived logs and logs on networked drives."
 msgstr "Buka log yang telah diarsipkan dan logs pada drive jaringan."
 
-#: ../rnsysadmin.xml:54
+#: ../rnsysadmin.xml:53
 msgid "Copy logs to the clipboard."
 msgstr "Saling logs ke clipboard."
+
+#: ../rnsysadmin.xml:48
+msgid ""
+"The GNOME log viewer has added a handy find feature, and an improved monitor "
+"mode. In addition, it can now <placeholder-1/>"
+msgstr ""
+"Penampil log GNOME telah menambahkan fasilitas penemu yang bagus dan meningkatkan "
+"mode pemantau. Sebagai tambahan, sekarang dapat <placeholder-1/>"
 
 #: ../rnsysadmin.xml:58
 msgid "The Log Viewer"
 msgstr "Penampil Log"
 
-#: ../rnsysadmin.xml:49
-msgid ""
-"The GNOME log viewer has added a handy find feature, and an improved monitor "
-"mode. In addition, it can now <placeholder-1/><figure id=\"rnscreenshot-"
-"sysadmin-logviewer\"><placeholder-2/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-logviewer.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
-"Log Viewer, during a search.</phrase></textobject></mediaobject></"
-"screenshot></figure>"
-msgstr ""
-"Penampil log GNOME telah menambahkan fasilitas pencari yang handal dan mode "
-"monitor yang telah ditingkatkan. Sebagai tambahan, dia sekarang <placeholder-"
-"1/><figure id=\"rnscreenshot-sysadmin-logviewer\"><title>Penampil Log</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Penampil log, lagi mencari.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+#: ../rnsysadmin.xml:63
+msgid "The Log Viewer, during a search."
+msgstr "Penampil Log, selagi mencari."
 
 #: ../rnthemes.xml:2
 msgid "Themes"
@@ -1735,7 +1590,7 @@ msgstr "Tema"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:23
+#: ../rnutilities.xml:24
 msgid ""
 "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 msgstr ""
@@ -1743,7 +1598,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:41
+#: ../rnutilities.xml:42
 msgid ""
 "@@image: 'figures/figure-file-roller.png'; "
 "md5=229f9191244247839f225df468a9c60c"
@@ -1753,7 +1608,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:60
+#: ../rnutilities.xml:61
 msgid ""
 "@@image: 'figures/figure-dictionary.png'; "
 "md5=2c1962519057406be57f4b1b76604973"
@@ -1763,7 +1618,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:78
+#: ../rnutilities.xml:79
 msgid ""
 "@@image: 'figures/figure-floppy-formatter.png'; "
 "md5=cc67b69fcf0049807a6b9656aa0d17e7"
@@ -1779,7 +1634,7 @@ msgstr "Utilitas"
 msgid "The GNOME utilities have some improvements, such as:"
 msgstr "Utilitas GNOME memiliki beberapa kemajuan, seperti:"
 
-#: ../rnutilities.xml:13 ../rnutilities.xml:20
+#: ../rnutilities.xml:13 ../rnutilities.xml:21
 msgid "Text Editor"
 msgstr "Editor Teks"
 
@@ -1801,22 +1656,17 @@ msgstr ""
 msgid ""
 "Many people will be glad to see that it no longer suggests saving changes "
 "when all changes have actually been undone. And in addition it even starts "
-"faster than previous versions. <figure id=\"rnscreenshot-gedit"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The text editor, highlighting the current "
-"line.</phrase></textobject></mediaobject></screenshot></figure>"
+"faster than previous versions."
 msgstr ""
-"Banyak orang akan senang ketika melihat tidak ada lagi yang menyarankan "
-"menyimpan perubahan ketika seluruh seluruh perubahan telah tersimpan. "
-"Sebagai tambahan, juga dapat mulai lebih cepat dari versi sebelumnya. "
-"<figure·id=\"rnscreenshot-gedit\"><title>Editor Teks</"
-"title><screenshot><mediaobject><imageobject><imagedata·fileref="
-"\"&urlfiguresbase;gedit.png\"·format=\"PNG\"/></"
-"imageobject><textobject><phrase>Editor Teks,·menandai baris.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"Banyak orang akan senang melihat bahwa tidak ada saran menyimpan perubahan "
+"ketika seluruh perubahan tidak dilakukan. Dan sebagai tambahan, sekarang mulai "
+"lebih cepat dari versi sebelumnya."
 
-#: ../rnutilities.xml:33 ../rnutilities.xml:38
+#: ../rnutilities.xml:25
+msgid "The text editor, highlighting the current line."
+msgstr "Editor Teks, menandai baris."
+
+#: ../rnutilities.xml:33 ../rnutilities.xml:39
 msgid "Archive Manager"
 msgstr "Pengatur Arsip"
 
@@ -1825,23 +1675,18 @@ msgid ""
 "The GNOME archive manager can now open more types of archive, including AR, "
 "Debian, and 7-zip archives, and password-protected RAR archives. And if you "
 "use the single-click preference in the file manager, then the archive "
-"manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-file-roller.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The archive manager, asking for a password "
-"for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
+"manager will now use single clicks too."
 msgstr ""
 "Pengatur arsip GNOME sekarang dapat membuka lebih banyak jenis arsip, "
 "termasuk AR, Debian dan arsip 7-zip, dan arsip RAR yang terlindungi "
 "password. Dan jika anda menggunakan setingan sekali klik pada pengatur file, "
-"maka pengatur arsip akan menggunakan sekali klik juga. <figure·id="
-"\"rnscreenshot-fileroller\"><title>Editor Teks</"
-"title><screenshot><mediaobject><imageobject><imagedata·fileref="
-"\"&urlfiguresbase;fileroller.png\"·format=\"PNG\"/></"
-"imageobject><textobject><phrase>Pengatur arsip,·meminta password untuk file "
-"RAR.</phrase></textobject></mediaobject></screenshot></figure>"
+"maka pengatur arsip akan menggunakan sekali klik juga."
 
-#: ../rnutilities.xml:52 ../rnutilities.xml:57
+#: ../rnutilities.xml:43
+msgid "The archive manager, asking for a password for a RAR file."
+msgstr "Pengelola arsip, meminta password untuk file RAR."
+
+#: ../rnutilities.xml:52 ../rnutilities.xml:58
 msgid "Dictionary"
 msgstr "Kamus"
 
@@ -1849,49 +1694,264 @@ msgstr "Kamus"
 msgid ""
 "The GNOME Dictionary now suggests words when you aren't sure how to spell "
 "something. The definitions also contain links to external dictionary web "
-"sites, and the definitions can be printed. <figure id=\"rnscreenshot-"
-"dictionary\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-dictionary.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The dictionary, suggesting possible "
-"spellings and a definition.</phrase></textobject></mediaobject></"
-"screenshot></figure>"
+"sites, and the definitions can be printed."
 msgstr ""
-"Kamus GNOME sekarang menyarankan kata ketika anda tidak yakin untuk mengeja "
-"sesuatu. Definisinya juga mengandung sambungan ke web site kamus luar dan "
-"definis tersebut dapat dicetak. <figure id=\"rnscreenshot-dictionary"
-"\"><title>Editor Teks</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;dictionary.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Kamus, menyarankan kemungkinan pengejaan dan "
-"sebuah definisi.</phrase></textobject></mediaobject></screenshot></figure>"
+"Kamus GNOME sekarang menyarankan kata ketika anda tidak yakin bagaimana "
+"mengeja sesuatu. Definisi juga mengandung sambungan ke situs kamus web luar "
+"dan definisinya dapat dicetak."
 
-#: ../rnutilities.xml:70 ../rnutilities.xml:75
+#: ../rnutilities.xml:62
+msgid "The dictionary, suggesting possible spellings and a definition."
+msgstr "Kamus, menyarankan mengejaan dan definisi yang memungkinkan."
+
+#: ../rnutilities.xml:70 ../rnutilities.xml:76
 msgid "Floppy Formatter"
 msgstr "Pemformat Floppy"
 
 #: ../rnutilities.xml:72
 msgid ""
 "The GNOME Floppy Formatter utility now supports removable drives, such as "
-"USB drives, using the standard HAL system from freedesktop.org. <figure id="
-"\"rnscreenshot-floppy\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-floppy-formatter.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"USB drives, using the standard HAL system from freedesktop.org."
 msgstr ""
-"Pemformat Floppy GNOME sekarang mendukung drive removable, seperti drive "
-"USB, menggunakan sistem standard HAL dari freedesktop.org. <figure·id="
-"\"rnscreenshot-floppy\"><title>Pembentuk Floppy</"
-"title><screenshot><mediaobject><imageobject><imagedata·fileref="
-"\"&urlfiguresbase;floppy.png\"·format=\"PNG\"/></"
-"imageobject><textobject><phrase>Sedang memformat sebuah floppy disk.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"Pemformat Floppy GNOME sekarang telah mendukung drive removable, seperti "
+"drive USB, menggunakan sistem standard HAL dari freedesktop.org."
+
+#: ../rnutilities.xml:80
+msgid "Formatting a floppy disk."
+msgstr "Memformat sebuah floppy disk."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../rnutilities.xml:0
 msgid "translator-credits"
-msgstr ""
+msgstr "Ahmad Riza H Nst  <ari@160c.afraid.org>"
+
+#~ msgid ""
+#~ "<screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-desktop.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The GNOME Desktop</phrase></textobject></"
+#~ "mediaobject></screenshot> The GNOME 2.10 Desktop is the latest release of "
+#~ "the ever popular, multi-platform free desktop environment."
+#~ msgstr ""
+#~ "<screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-desktop.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Desktop GNOME.</phrase></textobject></"
+#~ "mediaobject></screenshot>Desktop GNOME 2.10 adalah terbitan terakhir dari "
+#~ "yang pernah populer, lingkungan dekstop multi platform yang bebas."
+
+#~ msgid ""
+#~ "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
+#~ "with GNOME System Tools. <figure id=\"rnscreenshot-applet-modem"
+#~ "\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The new modem control applet</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME 2.10 memperkenalkan aplet baru untuk mengatur Modem anda, menyatu "
+#~ "dengan Alat Sistem GNOME. <figure id=\"rnscreenshot-applet-modem"
+#~ "\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Applet pengatur modem yang baru</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
+#~ "trashcan on your desktop, you can now drag and drop files and other items "
+#~ "into the trash without minimising your open windows. <figure id="
+#~ "\"rnscreenshot-applet-trash\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Drag trash to your panel</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME 2.10 memfasilitasi pilihan tong sampah untuk Panel anda. Sama "
+#~ "seperti tong sampah pada desktop anda, sekarang anda dapat menarik dan "
+#~ "meletakkan file dan benda lain ke dalam tong tanpa menyembunyikan jendela "
+#~ "anda yang lagi terbuka. <figure id=\"rnscreenshot-applet-trash"
+#~ "\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Tarik tong ke panel anda</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-epiphany.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The web browser.</phrase></textobject></"
+#~ "mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-epiphany.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Browserweb.</phrase></textobject></"
+#~ "mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "<figure id=\"rnscreenshot-evolution-mail\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-evolution-mail.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The Evolution email client.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "<figure id=\"rnscreenshot-evolution-mail\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-evolution-mail.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Pelanggan email Evolution.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+
+#~ msgid "Arabic (235 million)"
+#~ msgstr "Arab (235 juta)"
+
+#~ msgid "Azerbaijani (28 million)"
+#~ msgstr "Azerbaijan (28 juta)"
+
+#~ msgid "Basque (580,000)"
+#~ msgstr "Basqu (580,000)"
+
+#~ msgid "Belarusian (7 million)"
+#~ msgstr "Belarusia (7 juta)"
+
+#~ msgid "Bengali (189 million)"
+#~ msgstr "Manggali (189 juta)"
+
+#~ msgid "Bosnian (3 million)"
+#~ msgstr "Bosnia (3 juta)"
+
+#~ msgid "Croatian (5 million)"
+#~ msgstr "Kroasia (5 juta)"
+
+#~ msgid "Estonian (1 million)"
+#~ msgstr "Estonia (1 juta)"
+
+#~ msgid "Indonesian (25 million)"
+#~ msgstr "Indonesia (25 juta)"
+
+#~ msgid "Macedonian (1.5 million)"
+#~ msgstr "makedonia (1,5 juta)"
+
+#~ msgid "Malay (over 17 million)"
+#~ msgstr "Malaysia (lebih 17 juta)"
+
+#~ msgid "Mongolian (10 million)"
+#~ msgstr "Mongolia (10 juta)"
+
+#~ msgid "Norwegian Nynorsk (2 million)"
+#~ msgstr "Norwegia Nynorsk (2 juta)"
+
+#~ msgid "Romanian (26 million)"
+#~ msgstr "Rumania (26 juta)"
+
+#~ msgid "Slovak (5 million)"
+#~ msgstr "Sloakia (5 juta)"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnam"
+
+#~ msgid ""
+#~ "Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian "
+#~ "Nynorsk, Panjabi and Tamil are new supported languages in GNOME 2.10, "
+#~ "thanks to the hard work of their translators. Also worthy of mention is "
+#~ "that British English and Canadian English are also supported."
+#~ msgstr ""
+#~ "Catat bahwa Basqu, Bulgaria, Gujarat, Hindi, Hungaria, Norwegia Nynorsk, "
+#~ "Punjab dan Tamil adalah bahasa yang baru didukung pada GNOME 2.10, terima "
+#~ "kasih pada kerja keras penterjemah mereka. Juga pemberitahuan penting "
+#~ "bahwa Inggris British dan Inggris Kanada telah juga didukung."
+
+#~ msgid ""
+#~ "Another 9 languages are partially supported, with more than half of their "
+#~ "strings translated. Croatian and Mongolian are particularly close to "
+#~ "\"supported\" status."
+#~ msgstr ""
+#~ "9 bahasa yang lain juga sebagian telah didukung. dengan lebih dari "
+#~ "setengah dari string telah diterjemahkan. Kroasia dan Mongolia secara "
+#~ "khusus sangat dengan ke status \"telah didukung\"."
+
+#~ msgid ""
+#~ "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-system-tools.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The Clock, Network, and Users/Groups "
+#~ "tools.</phrase></textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-system-tools.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Jam, Jaringan dan alat Pengguna/Kelompok."
+#~ "</phrase></textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "The GNOME log viewer has added a handy find feature, and an improved "
+#~ "monitor mode. In addition, it can now <placeholder-1/><figure id="
+#~ "\"rnscreenshot-sysadmin-logviewer\"><placeholder-2/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The Log Viewer, during a search.</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Penampil log GNOME telah menambahkan fasilitas pencari yang handal dan "
+#~ "mode monitor yang telah ditingkatkan. Sebagai tambahan, dia sekarang "
+#~ "<placeholder-1/><figure id=\"rnscreenshot-sysadmin-logviewer"
+#~ "\"><title>Penampil Log</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Penampil log, lagi mencari.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "Many people will be glad to see that it no longer suggests saving changes "
+#~ "when all changes have actually been undone. And in addition it even "
+#~ "starts faster than previous versions. <figure id=\"rnscreenshot-gedit"
+#~ "\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The text editor, highlighting the current "
+#~ "line.</phrase></textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Banyak orang akan senang ketika melihat tidak ada lagi yang menyarankan "
+#~ "menyimpan perubahan ketika seluruh seluruh perubahan telah tersimpan. "
+#~ "Sebagai tambahan, juga dapat mulai lebih cepat dari versi sebelumnya. "
+#~ "<figure·id=\"rnscreenshot-gedit\"><title>Editor Teks</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata·fileref="
+#~ "\"&urlfiguresbase;gedit.png\"·format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Editor Teks,·menandai baris.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "The GNOME Dictionary now suggests words when you aren't sure how to spell "
+#~ "something. The definitions also contain links to external dictionary web "
+#~ "sites, and the definitions can be printed. <figure id=\"rnscreenshot-"
+#~ "dictionary\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The dictionary, suggesting possible "
+#~ "spellings and a definition.</phrase></textobject></mediaobject></"
+#~ "screenshot></figure>"
+#~ msgstr ""
+#~ "Kamus GNOME sekarang menyarankan kata ketika anda tidak yakin untuk "
+#~ "mengeja sesuatu. Definisinya juga mengandung sambungan ke web site kamus "
+#~ "luar dan definis tersebut dapat dicetak. <figure id=\"rnscreenshot-"
+#~ "dictionary\"><title>Editor Teks</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;dictionary.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Kamus, menyarankan kemungkinan pengejaan "
+#~ "dan sebuah definisi.</phrase></textobject></mediaobject></screenshot></"
+#~ "figure>"
+
+#~ msgid ""
+#~ "The GNOME Floppy Formatter utility now supports removable drives, such as "
+#~ "USB drives, using the standard HAL system from freedesktop.org. <figure "
+#~ "id=\"rnscreenshot-floppy\"><placeholder-1/"
+#~ "><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Pemformat Floppy GNOME sekarang mendukung drive removable, seperti drive "
+#~ "USB, menggunakan sistem standard HAL dari freedesktop.org. <figure·id="
+#~ "\"rnscreenshot-floppy\"><title>Pembentuk Floppy</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata·fileref="
+#~ "\"&urlfiguresbase;floppy.png\"·format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Sedang memformat sebuah floppy disk.</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
 
 #~ msgid "So, why GNOME?"
 #~ msgstr "Jadi, mengapa GNOME?"
