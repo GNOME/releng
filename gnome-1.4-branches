@@ -6,17 +6,17 @@ Name             Frozen           Branch
 ORBit              Yes          orbit-stable-0-5
 audiofile          Yes
 bonobo             Yes          (to be determined)
-esound
+esound             Yes          HEAD (no unstable development planned) 
 gconf              Yes          gconf-1-0
 gdk-pixbuf         Yes          HEAD (unstable version is moved to Gtk+)
 glib               Yes          glib-1-2
 gnome-libs         Yes          gnome-libs-1-0
-gnome-print        Yes
+gnome-print        Yes          (in progress)  
 gnome-vfs          Yes          gnome-vfs-1
 gtk+               Yes          gtk-1-2
 imlib
 gnome-http         Yes          HEAD (will be dead for gnome 2, no unstable branch)
-libglade
+libglade           Yes          HEAD (will branch when unstable glade development begins)
 libgtop            Yes          LIBGTOP_STABLE_1_0
 gnome-xml          Yes          LIB_XML_1_BRANCH
 oaf                Yes          oaf-stable-0-6
@@ -27,11 +27,11 @@ Language Bindings
 ------------------
 Name             Frozen           Branch
 --------------------------------------------
-gnome-guile
-gnome-python
+gnome-guile        Yes
+gnome-python       Yes            gtk-gnome-1-2
 gnome--          (in progress)
 gtkmm              Yes
-libsigc++
+libsigc++          Yes
 panel--            Yes    
 
 

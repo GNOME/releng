@@ -1,0 +1,49 @@
+Versions of packages for GNOME 1.4 Beta 1
+
+ORBit               
+ammonite            
+audiofile           
+bonobo              
+bug-buddy           
+control-center      
+esound              
+gconf               
+gdk-pixbuf          
+gdm                 
+ggv                 
+ghex                
+glade               
+glib                
+gnome--             
+gnome-applets       
+gnome-audio         
+gnome-core          
+gnome-games         
+gnome-guile         
+gnome-libs          
+gnome-media         
+gnome-pim           
+gnome-print         0.25
+gnome-python        
+gnome-user-docs     
+gnome-utils         
+gnome-vfs           0.5
+gtk+                
+gtk-engines         
+gtkmm               
+gtop                
+imlib               
+libghttp            
+libglade            
+libgtop             
+libsigc++           
+libxml              
+medusa              0.3.0
+nautilus            0.8
+oaf                 
+panel--                   
+rep-gtk             
+sawfish             
+users-guide         
+xalf                
+xml-i18n-tools      

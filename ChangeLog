@@ -1,3 +1,13 @@
+2001-02-11  Maciej Stachowiak  <mjs@eazel.com>
+
+	* gnome-1.4-branches: updated esound, gnome-print, libglade,
+	gnome-guile, gnome-python, libsigc++
+	
+	* gnome-1.4beta1-versions: New file where we will list the
+	versions that actually go in for GNOME 1.4 beta 1
+	
+	* package-list: Sorted list, update some info and email addresses.
+
 2001-02-09  Maciej Stachowiak  <mjs@eazel.com>
 
 	* gnome-1.4-branches: 
