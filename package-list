@@ -48,7 +48,7 @@ imlib               1.9.8.1
 libghttp            1.0.6
 libglade            0.13
 libgtop             1.0.7
-libxml              1.8.7                                             Daniel Veillardd <Daniel.Veillard@w3.org>
+libxml              1.8.9                     Yes           Yes       Daniel Veillardd <Daniel.Veillard@w3.org>
 mc                  4.5.49
 users-guide         1.1-9
 
