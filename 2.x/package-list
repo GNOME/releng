@@ -66,14 +66,14 @@ gnome-user-docs		-		-		-			-
 gsearchtool		gnome-utils	-		ported			-
 gsm			gnome-core/gsm	-		-			-
 gtkhtml			-		-		gtkhtml2 is ported; Anders, Larry and BillH to develop "The Plan" (wrt accessibility, gtkhtml1, etc)	-
-libgtop			=		-		1.x needs parallel install patch, head patch available (hadess)		-
+libgtop			=		-		ported, branch is libgtop-GNOME-2-0-port		Kevin Vandersloot <kfv101@psu.edu>
 librsvg			-		-		-			-
 libzvt2			-		1.104.0		-			-
 logview			gnome-utils	-		ported, some font issues		-
 meat-grinder		-		-		-			-
 nautilus		=		-		much porting work going on		Darin Adler <darin@bentspoon.com>
 panel			gnome-core/panel	-	_v_ and the sun hackers working on it	-
-procman			=		1.1.0		depends on 1.x platform libgtop		Kevin Vandersloot <kfv101@psu.edu>
+procman			=		1.1.0		ported			Kevin Vandersloot <kfv101@psu.edu>
 rep			-		-		-			John Harper <jsh@pixelslut.com>
 rep-gtk			=		-		mostly ported		John Harper <jsh@pixelslut.com>
 sawfish			=		-		see rep-gtk		John Harper <jsh@pixelslut.com>
