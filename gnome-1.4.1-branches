@@ -61,6 +61,7 @@ gnome-media	    HEAD
 gnome-pim	    HEAD
 gnome-utils         HEAD
 gtop                HEAD
+librsvg             librsvg-1-0
 medusa              HEAD
 nautilus            HEAD
 gtk-engines         HEAD
