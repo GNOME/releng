@@ -1,5 +1,9 @@
 2005-02-20  Murray Cumming  <murrayc@murrayc.com>
 
+	* press_release/gnome210_press_release.wml: First version finished.
+
+2005-02-20  Murray Cumming  <murrayc@murrayc.com>
+
 	* releasenotes.xml: Added a continue-to link so people do not think 
 	that is all there is.
 	* rnapplications.xml: Added epiphany and skeleton for evolution.
