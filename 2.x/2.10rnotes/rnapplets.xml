@@ -43,7 +43,7 @@
   <para>
    GNOME &version; features an optional trashcan for your Panel.
    Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash
-   without minimising your open windows.
+   without minimizing your open windows.
   </para>
 
   <figure id="rnscreenshot-applet-trash">
@@ -85,8 +85,8 @@
   <sect3 id="rnapplets-gweather">
   <title>Get even more weather</title>
   <para>
-   The weather monitor can now show even more locations then before, and the 
-   location names have been translated into non-english languages where appropriate.
+   The weather monitor can now show even more locations than before, and the 
+   location names have been translated into non-English languages where appropriate.
    In addition, the forecast now includes sunrise and sunset calculations for most locations.
   </para>
 
