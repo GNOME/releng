@@ -104,7 +104,7 @@
     
     <para>GNOME &version; and GNOME applications benefit from improvements in the user interface toolkit. Most
     importantly, you will notice an improved file selection dialog box when opening or saving files. This shows
-    the same filessytem icons as you see in the &quot;Computer&quot; location on your desktop, and can remember
+    the same filesystem icons as you see in the &quot;Computer&quot; location on your desktop, and can remember
     bookmarks for your favourite locations, so you can quickly get to your files.</para>
 
     <figure id="rnscreenshot-filechooser">

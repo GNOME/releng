@@ -11,13 +11,13 @@
     <para>
     Thanks to some dramatic text-processing performance improvements, the GNOME online help viewer is now much faster than in previous versions, so it is now more responsive and usable.
    
-    <figure id="rnscreenshot-nautilus-spatial">
-      <title>Simplified file management - the window is the folder</title>
+    <figure id="rnscreenshot-help">
+      <title>The GNOME Help browser</title>
         <screenshot>
           <mediaobject>
             <imageobject><imagedata fileref="&urlfiguresbase;helpTODO.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>Spatial Nautilus</phrase></textobject>
+            <textobject><phrase>The GNOME Help browser</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>

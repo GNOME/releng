@@ -12,7 +12,7 @@
   <sect3>
     <title>Character Map</title>
     
-    <para>GNOME's Unicode character picker has been improved, so it is now even easier to paste unusual characters into your documents. For instance,
+    <para>GNOME's Unicode character picker has been improved, so it is now even easier to paste unusual characters into your documents. Improvements include:
     <itemizedlist>
       <listitem><para>Searching for a character is now easier.</para></listitem>
       <listitem><para>It is easier to see one set of characters at a time.</para></listitem>

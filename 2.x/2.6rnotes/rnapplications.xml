@@ -43,12 +43,12 @@
     <title>GnomeMeeting</title>
 
     <para>GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing.
-    In GNOME &version; you will notice a redesigned dialpad, eaier speed dialing, and an improved setup assistant.
+    In GNOME &version; you will notice a redesigned dialpad, easier speed dialing, and an improved setup assistant.
     </para>
 
-    <para>Other improvements include
+    <para>Other improvements include:
     <itemizedlist>
-    <listitem><para>Improved integration with IPBX systems</para></listitem>
+    <listitem><para>Improved integration with IPBX systems.</para></listitem>
     <listitem><para>More control for system administrators - see the Lockdown section.</para></listitem>
     <listitem><para>Support for extra audio and video devices via a new plugins system.</para></listitem>
     </itemizedlist>
