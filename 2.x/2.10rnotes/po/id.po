@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 2.10rnotes HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: (null)\n"
-"PO-Revision-Date: 2005-03-07 18:26+0700\n"
+"PO-Revision-Date: 2005-03-12 21:55+0700\n"
 "Last-Translator: Ahmad Riza H Nst <ari@160c.afraid.org>\n"
 "Language-Team: Indonesian <sukarelawan@gnome.linux.or.id>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgid ""
 "platform free desktop environment."
 msgstr ""
 "Desktop GNOME 2.10 adalah terbitan terakhir dari yang populer, lingkungan "
-"dekstop bebas yang multi platform."
+"desktop bebas yang multi platform."
 
 #: ../release-notes.xml:30
 msgid ""
@@ -53,7 +53,7 @@ msgstr ""
 "Penerbitan desktop GNOME berlanjut untuk tiba tepat waktu. GNOME 2.10 "
 "mengikut sertakan sejumlah fasilitas baru dan ratusan perbaikan kesalahan. "
 "Saat ini GNOME juga mengikut sertakan pemutar video dan utilitas pemotong "
-"CD. Andadapat belajar lebih pada bagian berikut."
+"CD. Anda dapat belajar lebih pada bagian berikut."
 
 #: ../release-notes.xml:32
 msgid ""
@@ -100,7 +100,7 @@ msgid ""
 "than being included in the core GNOME release."
 msgstr ""
 "Terbitan Desktop berisi seluruh aplikasi yang dibutuhkan untuk menyediakan "
-"fungsionalitas penggua. Aplikasi utama seperti <application>Gnumeric</"
+"fungsionalitas pengguna. Aplikasi utama seperti <application>Gnumeric</"
 "application> dan <application>OpenOffice.org</application> juga tersedia, "
 "tetapi di bangun secara sejajar pada siklus terbitan mereka sendiri dari "
 "pada terikut pada terbitan inti GNOME."
@@ -141,8 +141,8 @@ msgstr ""
 "Seluruh perangkat lunak, ketika diterbitkan, berisi kesalahan yang telah "
 "diketahui oleh para pengembang tetapi telah dipilih, untuk alasan yang "
 "beragam, tidak dibetulkan sebelum diterbitkan. Perangkat lunak bebas tidak "
-"berbeda dari perangkat lunak paten, terkecuali yang dengan yang menggunakan "
-"perangkat lunak gratis, kami memberitahukan pengguna tentang masalah ini."
+"berbeda dari perangkat lunak paten, terkecuali, dengan perangkat lunak gratis, "
+"kami memberitahukan pengguna tentang masalah ini."
 
 #: ../release-notes.xml:98
 msgid ""
@@ -185,10 +185,10 @@ msgid ""
 msgstr ""
 "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\">Fokus "
 "jendela baru Mozilla/Firefox</ulink>: ketika anda menjalankan Mozilla "
-"ataupun Firefox dan sudah memiliki jendela Mozilla ataupun Firefox yang telah "
-"terbuka, jendela baru akan muncul tanpa fokus dan dibelakang jendela yang "
-"yang memiliki fokus. Browser GNOME Epiphany yang berbasiskan mozilla tidak "
-"memiliki masalah ini, dan hacker Mozilla bekerja begitu cepat untuk "
+"ataupun Firefox dan sudah memiliki jendela Mozilla ataupun Firefox yang "
+"telah terbuka, jendela baru akan muncul tanpa fokus dan dibelakang jendela "
+"yang yang memiliki fokus. Browser GNOME Epiphany yang berbasiskan mozilla "
+"tidak memiliki masalah ini, dan hacker Mozilla bekerja begitu cepat untuk "
 "memperbaiki hal ini pada versi Mozilla dan Firefox yang akan datang."
 
 #: ../release-notes.xml:125
@@ -231,7 +231,7 @@ msgstr ""
 "pengguna secepat yang kami bisa. Enam bulan setelah GNOME 2.10, kami "
 "mengantisipasi bahwa GNOME 2.12 akan memberikan kemampuan multimedia yang "
 "lebih menyatu dan fungsionalitas komunikasi serta peningkatan lebih lanjut "
-"pada aksesibilitas, usability dan internasionalisasi.Lihat juga <ulink url="
+"pada aksesibilitas, usability dan internasionalisasi. Lihat juga <ulink url="
 "\"http://live.gnome.org/RoadMap\">Perjalanan GNOME</ulink>."
 
 #: ../release-notes.xml:151
@@ -282,7 +282,7 @@ msgid ""
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
 "Membantu pada GNOME dapat menjadi pengalaman yang sangat memuaskan, membuat "
-"anda dapat bertemu dengan orang yang mimiliki motivasi bermacam-macam, "
+"anda dapat bertemu dengan orang yang memiliki motivasi bermacam-macam, "
 "berkeahlian dan mau menolong, keseluruhannya bekerja untuk satu tujuan. "
 "Bergabung dengan kami hari ini dan lihat perbedaan yang telah anda buat."
 
@@ -295,7 +295,7 @@ msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
 msgstr ""
-"Catatan terbitan ini dirakit oleh Murray Cumming, Davyd madeley dankomunitas "
+"Catatan terbitan ini dirakit oleh Murray Cumming, Davyd Madeley dankomunitas "
 "GNOME."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -378,8 +378,8 @@ msgid ""
 "applets), providing new features and better integration with the rest of the "
 "desktop."
 msgstr ""
-"GNOME 2.10 mengikut sertakan peningkatan utama pada benda benda di panel "
-"( yang dikenal juga sebagai applet), menyediakan kemampuan baru dan "
+"GNOME 2.10 mengikut sertakan peningkatan utama pada benda-benda di panel "
+"(yang dikenal juga sebagai applet), menyediakan kemampuan baru dan "
 "penyatuan yang lebih baik dengan desktop."
 
 #: ../rnapplets.xml:13
@@ -391,7 +391,7 @@ msgid ""
 "the search feature. In the Desktop menu, you'll find your Preferences and "
 "Administration control panels, Log Out, and Help."
 msgstr ""
-"Perubahan yang paling kentara adalah penghilangan menu panel Aksi dan dan "
+"Perubahan yang paling kentara adalah penghilangan menu panel Aksi serta "
 "penambahan menu Tempat dan Desktop. Hal ini menyediakan akses yang cepat "
 "pada benda yang sering anda gunakan, tanpa mencari melalui sub menu. Sebagai "
 "contoh, menu Tempat mendaftarkan folder pada home anda, komputer anda, "
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
-msgstr "Pengendali Modem Terintegrasi."
+msgstr "Pengendali Modem Yang Menyatu."
 
 #: ../rnapplets.xml:23
 msgid ""
@@ -443,9 +443,10 @@ msgid ""
 "trashcan on your desktop, you can now drag and drop files and other items "
 "into the trash without minimizing your open windows."
 msgstr ""
-"GNOME 2.10 memiliki kelebihan pilihan tong sampah pada Penel anda. Seperti tong "
-"sampah pada desktop anda, anda sekarang dapat menarik dan meletakkan file serta "
-"benda lain ke tong tanpa mengecilkan jendela anda yang telah terbuka."
+"GNOME 2.10 memiliki kelebihan pilihan tong sampah pada Panel anda. Seperti "
+"tong sampah pada desktop anda, anda sekarang dapat menarik dan meletakkan "
+"file serta benda lain ke tong tanpa mengecilkan jendela anda yang telah "
+"terbuka."
 
 #: ../rnapplets.xml:50
 msgid "a Trashcan on your Panel"
@@ -495,9 +496,9 @@ msgid ""
 "calculations for most locations."
 msgstr ""
 "Pemantau cuaca sekarang dapat menampilkan lebih banyak lokasi dari pada "
-"sebelumnya, dan nama lokasi telah diterjemahkan kepada bukan bahasa inggris "
-"kalau sesuai. Sebagai tambahan, sekarang lamaran cuaca mengikut sertakan "
-"perhitungan matahari terbit dan matahari terbenam untuk kebanyak lokasi. "
+"sebelumnya dan nama lokasi telah diterjemahkan kalau sesuai. "
+"Sebagai tambahan, sekarang ramalan cuaca mengikut sertakan "
+"perhitungan matahari terbit dan matahari terbenam untuk kebanyak lokasi."
 
 #: ../rnapplets.xml:94
 msgid "Weather Report"
@@ -530,7 +531,7 @@ msgstr ""
 
 #: ../rnapplets.xml:117
 msgid "all new mixer for your panel"
-msgstr "mixer baru untuk panel anda"
+msgstr "Mixer baru untuk panel anda"
 
 #: ../rnapplets.xml:122
 msgid "All new mixer for your panel"
@@ -547,7 +548,7 @@ msgid ""
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
 msgstr ""
-"Applet catatan tempel yang populer sekarang membuat lebih mudah untuk "
+"Applet catatan tempel yang populer sekarang telah lebih memudahkan untuk "
 "menambahkan catatan bergaya postit pada dekstop anda, terima kasih pada "
 "antar muka pengguna yang sederhana dan perbaikan kesalahan yang banyak. "
 "Sebagai contoh, catatan tempel sekarang akan tetap pada ruang kerja yang "
@@ -581,7 +582,7 @@ msgstr ""
 "GNOME sekarang mengikut sertakan sebuah applet untuk memantau kecepatan "
 "prosesor anda. Pemantau frekuensi CPU melihat kecepatan variabel prosesor "
 "(seperti yang Intel Speedstep atau AMD PowerNow) untuk menampilkan status "
-"terkini. Anda bahkan memilih kecepatan yang berbeda jika anda tidak memiliki "
+"terkini. Anda bahkan dapat memilih kecepatan yang berbeda jika anda tidak memiliki "
 "penskalaan frekuensi secara automatis : aktif."
 
 #: ../rnapplets.xml:158 ../rnapplets.xml:163
@@ -617,8 +618,8 @@ msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
 msgstr ""
-"Applet dedicated nirkabel telah dibuang karena applet Pemantau Jaringan, diperkenalkan "
-"pada GNOME 2.8, juga mengikut sertakan dukungan nirkabel."
+"Applet dedicated nirkabel telah dibuang karena applet Pemantau Jaringan, "
+"diperkenalkan pada GNOME 2.8, juga mengikut sertakan dukungan nirkabel."
 
 #: ../rnapplets.xml:181
 msgid ""
@@ -631,8 +632,8 @@ msgstr ""
 "Pemantau Kotak surat telah dibuang karena tidak dipelihara dan tidak aman. "
 "Kami berharap memiliki solusi yang menyatu dengan pelanggan surat Evolution "
 "kami pada masa depan. Jika anda tidak menggunakan Evolution pada surat anda, "
-"anda dapat menggunakan aplikasi pihak ketiga seperti <ulink url=\"http://www.nongnu.org/"
-"mailnotify/\">mailnotify</ulink>."
+"anda dapat menggunakan aplikasi pihak ketiga seperti <ulink url=\"http://www."
+"nongnu.org/mailnotify/\">mailnotify</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -730,10 +731,10 @@ msgid ""
 "downloading of song titles, you won't need to click more than a couple of "
 "buttons."
 msgstr ""
-"Sound Juicer yang paling dicintai \"pemotong CD\" dengan mudah menguraikan "
+"\"Pemotong CD\" nya Sound Juicer yang paling dicintai dengan mudah menguraikan "
 "suara dari CD untuk kemudian dapat dimainkan pada PC anda ataupun pemutar "
 "musik portabel lain. Terima kasih untuk downloading judul lagu yang "
-"automatis, anda tidak akan mengklik sepasang tombol."
+"automatis, anda tidak akan mengklik lebih dari sepasang tombol."
 
 #: ../rnapplications.xml:37
 msgid "The audio extractor"
@@ -756,7 +757,7 @@ msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
 msgstr ""
-"Petunjuk lokasi sekarang menandakan apakah situs adalah aman, dan "
+"Penanda lokasi sekarang menandakan apakah situs adalah aman, dan "
 "menampilkan faviconnya."
 
 #: ../rnapplications.xml:55
@@ -773,8 +774,8 @@ msgid ""
 "with the GNOME desktop environment. Improvements in 2.10 include "
 "<placeholder-1/>"
 msgstr ""
-"Web browser GNOME \"Epiphany\" berdasarkan Mozilla telah menyatu secara "
-"penuh dengan lingkungan desktop GNOME. Peningkatan pada 2.10 termasuk "
+"Web browser GNOME \"Epiphany\" yang berdasarkan Mozilla telah menyatu secara "
+"penuh dengan lingkungan desktop GNOME. Peningkatan pada 2.10 termasuk:"
 "<placeholder-1/>"
 
 #: ../rnapplications.xml:61
@@ -796,10 +797,10 @@ msgid ""
 "With Evolution you can read, write, and manage your emails, contacts, and "
 "calendar events."
 msgstr ""
-"Pelanggan surat GNOME dan Groupware, dukungan setup surat tradisional "
-"Evolution, sebagaimana Novell Groupwise dan Microsoft Exchange. "
-"Dengan Evolution anda dapat membaca dan mengelola email anda, alamat, dan "
-"agenda kalender."
+"Pelanggan surat GNOME dan Groupware yang telah menyatu, dukungan setup surat tradisional "
+"Evolution, sebagaimana Novell Groupwise dan Microsoft Exchange. Dengan "
+"Evolution anda dapat membaca dan mengelola surat anda, alamat, dan agenda "
+"kalender."
 
 #: ../rnapplications.xml:80
 msgid ""
@@ -807,9 +808,10 @@ msgid ""
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
 "will resynchronize when you go back online."
 msgstr ""
-"Pada GNOME 2.10 sekarang lebih mudah untuk bekerja offline dengan surat anda, kalender dan "
-"alamat jika anda menggunakan IMAP, LDAP, WebCal, Groupwise ataupun Exchange. Perubahan "
-"yang anda lakukan akan di samakan ketika anda online kembali."
+"Pada GNOME 2.10 sekarang lebih mudah untuk bekerja offline dengan surat "
+"anda, kalender dan alamat jika anda menggunakan IMAP, LDAP, WebCal, "
+"Groupwise ataupun Exchange. Perubahan yang anda lakukan akan di samakan "
+"ketika anda online kembali."
 
 #: ../rnapplications.xml:85
 msgid "Files can be attached to events."
@@ -821,7 +823,7 @@ msgstr "Pengecualian dapat dibuat untuk agenda berulang."
 
 #: ../rnapplications.xml:87
 msgid "The calendar includes weather information (US only)."
-msgstr "Kalender mengikut sertakan informasi cuaca (US saja)."
+msgstr "Kalender mengikut sertakan informasi cuaca (AS saja)."
 
 #: ../rnapplications.xml:83
 msgid ""
@@ -843,16 +845,17 @@ msgstr "Berbagi direktori Groupwise dan pilihan kirim sekarang telah didukung."
 
 #: ../rnapplications.xml:104
 msgid "Exchange folder sizes and password expiry warnings are supported."
-msgstr "Ukuran direktori Exchange dan peringatan masa berlaku password telah didukung."
+msgstr ""
+"Ukuran direktori Exchange dan peringatan masa berlaku password telah "
+"didukung."
 
 #: ../rnapplications.xml:105
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
 msgstr ""
-"Antar muka surat pengguna akan di cerminkan sesuai dengan "
-"bahasa dari kanan ke kiri."
-""
+"Antar muka surat pengguna akan di cerminkan sesuai dengan bahasa dari kanan "
+"ke kiri."
 
 #: ../rnapplications.xml:101
 msgid "And yet more new features: <placeholder-1/>"
@@ -877,10 +880,10 @@ msgid ""
 "now shared with our Evolution email client, so you don't need to enter "
 "contact information in more than one place."
 msgstr ""
-"GnomeMeeting memudahkan anda untuk melihat dan bicara dengan orang lain melalui "
-"telepon internet (VoIP) dan konfrensi video. Pada GNOME 2.10 buku alamat sekarang "
-"berbagi dengan pelanggan surat Evolution kami, jadi anda tidak perlu memasukkan informasi "
-"alamat lebih dari satu kali."
+"GnomeMeeting memudahkan anda untuk melihat dan bicara dengan orang lain "
+"melalui telepon internet (VoIP) dan konfrensi video. Pada GNOME 2.10 buku "
+"alamat berbagi dengan pelanggan surat Evolution kami, jadi anda "
+"tidak perlu memasukkan informasi alamat lebih dari satu kali."
 
 #: ../rnapplications.xml:128
 msgid ""
@@ -890,8 +893,8 @@ msgid ""
 "you see what they see."
 msgstr ""
 "Sekarang anda dapat mencari pengguna Gnome Meeting yang lain pada jaringan "
-"lokal tanpa harus menemukan alamat rinci kontak mereka pertama kali. Dan anda "
-"dapat melihat video anda sendiri sisi-demi-sisi dengan video dari teman "
+"lokal tanpa harus menemukan alamat rinci kontak mereka pertama kali. Dan "
+"anda dapat melihat video anda sendiri sisi-demi-sisi dengan video dari teman "
 "ngobrol anda, jadi anda lihat apa yang dia lihat."
 
 #: ../rnapplications.xml:132
@@ -979,7 +982,7 @@ msgid ""
 "allow software developers to maintain and extend the file manager more "
 "easily in future."
 msgstr ""
-"Pengelola file, juga dikenal sebagai Nautilus, bahkan lebih cepat dan lebih "
+"Pengelola file, juga dikenal sebagai Nautilus, lebih cepat dan lebih "
 "stabil pada GNOME 2.10, terima kasih pada perubahan arsitektur internalnya. "
 "Hal ini seharusnya membolehkan para pengembang perangkat lunak untuk "
 "memelihara dan mengembangkan pengelola file ini secara lebih mudah di masa "
@@ -1019,7 +1022,7 @@ msgstr ""
 
 #: ../rndesktop.xml:31
 msgid "clean-cut and powerful, the Nautilus file manager"
-msgstr "potongan yang bersih dan kuat, pengelola file Nautilus"
+msgstr "Potongan yang bersih dan kuat, pengelola file Nautilus"
 
 #: ../rndesktop.xml:36
 msgid "The file manager"
@@ -1035,7 +1038,7 @@ msgstr ""
 
 #: ../rndesktop.xml:44
 msgid "a selection of simple yet artistic backgrounds"
-msgstr "suatu pilihan dari latar belakang artistik yang sederhana"
+msgstr "Suatu pilihan dari latar belakang artistik yang sederhana"
 
 #: ../rndesktop.xml:49
 msgid "Desktop backgrounds"
@@ -1089,11 +1092,11 @@ msgid ""
 "full user documentation."
 msgstr ""
 "Terima kasih untuk usaha <ulink url=\"http://developer.gnome.org/projects/"
-"gdp/\">Proyek Dokumentasi GNOME/ulink>, GNOME 2.10 datang dengan dokumentasi "
+"gdp/\">Proyek Dokumentasi GNOME</ulink>, GNOME 2.10 datang dengan dokumentasi "
 "yang lengkap dan profesional. Perhatian yang mendalam dan terinci "
-"menggunakan perangkat lunak yang paling lengkap <ulink url=\"http://"
-"developer.gnome.org/documents/style-guide/\">panduan gaya dokumentasi</"
-"ulink>. Sebagaimana dalam GNOME 2.8, setiap aplikasi yang dikirimkan dengan "
+"menggunakan <ulink url=\"http://developer.gnome.org/documents/style-guide/\">"
+"panduan gaya dokumentasi</ulink> perangkat lunak bebas yang paling lengkap. "
+"Sebagaimana dalam GNOME 2.8, setiap aplikasi yang dikirimkan dengan "
 "GNOME 2.10 telah dilengkapi dengan dokumentasi pengguna yang lengkap."
 
 #: ../rndocs.xml:22
@@ -1166,9 +1169,9 @@ msgid ""
 "can browse your local network for other people to play against, via the same "
 "zero-configuration technique used by GnomeMeeting."
 msgstr ""
-"Filosofi \"langsung bekerja\" kami bahkan kelihatan di permainan Nibbles. Sekarang "
-"anda dapat mencari orang pada jaringan lokal anda untuk bermain bersama, "
-"melalui teknik konfigurasi yang sama dengan Gnome Meeting."
+"Filosofi \"langsung bekerja\" kami bahkan kelihatan di permainan Nibbles. "
+"Sekarang anda dapat mencari orang pada jaringan lokal anda untuk bermain "
+"bersama, melalui teknik konfigurasi yang sama dengan Gnome Meeting."
 
 #: ../rngames.xml:36
 msgid "join a network game"
@@ -1190,8 +1193,8 @@ msgid ""
 "Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
 msgstr ""
-"Terima kasih untuk anggota dari seluruh dunia <ulink url=\"http://developer."
-"gnome.org/projects/gtp/\">Proyek Penterjemahan GNOME</ulink>, di bawah "
+"Terima kasih untuk anggota <ulink url=\"http://developer."
+"gnome.org/projects/gtp/\">Proyek Penterjemahan GNOME</ulink> dari seluruh dunia , di bawah "
 "kepemimpinan Christian Rose dan Kjartan Maraas, GNOME 2.10 menawarkan "
 "dukungan untuk 40 bahasa (paling tidak 80 persen string telah diterjemahkan)."
 
@@ -1300,30 +1303,34 @@ msgid "Russian (170 million)"
 msgstr "Rusia (170 juta)"
 
 #: ../rni18n.xml:67
+msgid "Romanian (26 million)"
+msgstr "Rumania (26 juta)"
+
+#: ../rni18n.xml:68
 msgid "Serbian (10 million)"
 msgstr "Serbia (10 juta)"
 
-#: ../rni18n.xml:68
+#: ../rni18n.xml:69
 msgid "Spanish (over 350 million)"
 msgstr "Spanyol (lebih 350 juta)"
 
-#: ../rni18n.xml:69
+#: ../rni18n.xml:70
 msgid "Swedish (9 million)"
 msgstr "Swedia (9 juta)"
 
-#: ../rni18n.xml:70
+#: ../rni18n.xml:71
 msgid "Tamil (61 million)"
 msgstr "Tamil (61 juta)"
 
-#: ../rni18n.xml:71
+#: ../rni18n.xml:72
 msgid "Turkish (150 million)"
 msgstr "Turki (150 juta)"
 
-#: ../rni18n.xml:72
+#: ../rni18n.xml:73
 msgid "Ukrainian (50 million)"
 msgstr "Ukraina (50 juta)"
 
-#: ../rni18n.xml:73
+#: ../rni18n.xml:74
 msgid "Welsh (575,000)"
 msgstr "Wales (575.000)"
 
@@ -1412,7 +1419,7 @@ msgid ""
 "API improvements, while maintaining backwards compatibilty and API-"
 "stability. In particular this time we have: <placeholder-1/>"
 msgstr ""
-"Platform Pengembangan GNOME 2.10 menyediakan basis standard untuk pengembang "
+"Platform pengembangan GNOME 2.10 menyediakan basis standard untuk pengembang "
 "perangkat lunak pihak ketiga, dan untuk Desktop GNOME itu sendiri. GNOME "
 "2.10 menambahkan beberapa peningkatan API, selagi memelihara kompatibilitas "
 "ke belakang dan kestabilan API. Khususnya saat ini kami punya: <placeholder-"
@@ -1431,7 +1438,7 @@ msgid ""
 "and following open specifications helps ensure that user data is not trapped "
 "in proprietary formats."
 msgstr ""
-"GNOME bekerja secara dekat dengan kelompok-kelompok seperti <ulink url="
+"GNOME bekerja dekat dengan kelompok-kelompok seperti <ulink url="
 "\"http://www.freedesktop.org/standards/\">freedesktop.org</ulink>. Dukungan "
 "standard adalah kelebihan besar untuk pengguna GNOME. Dukungan "
 "interoperabilitas meningkatkan pengalaman dengan membiarkan GNOME, KDE dan "
@@ -1526,10 +1533,10 @@ msgstr ""
 
 #: ../rnsysadmin.xml:26
 msgid ""
-"Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
+"Networking: Improved wireless support (WEP and ESSID detection), and ISDN "
 "connections."
 msgstr ""
-"Jaringan: Dukungan nirkabel telah ditingkatkan (deteksi WEP dan ESSEID) dan "
+"Jaringan: Dukungan nirkabel telah ditingkatkan (deteksi WEP dan ESSID) dan "
 "sambungan ISDN."
 
 #: ../rnsysadmin.xml:27
@@ -1566,15 +1573,15 @@ msgstr "Buka log yang telah diarsipkan dan logs pada drive jaringan."
 
 #: ../rnsysadmin.xml:53
 msgid "Copy logs to the clipboard."
-msgstr "Saling logs ke clipboard."
+msgstr "Salin logs ke clipboard."
 
 #: ../rnsysadmin.xml:48
 msgid ""
 "The GNOME log viewer has added a handy find feature, and an improved monitor "
 "mode. In addition, it can now <placeholder-1/>"
 msgstr ""
-"Penampil log GNOME telah menambahkan fasilitas penemu yang bagus dan meningkatkan "
-"mode pemantau. Sebagai tambahan, sekarang dapat <placeholder-1/>"
+"Penampil log GNOME telah menambahkan fasilitas penemu yang bagus dan "
+"meningkatkan mode pemantau. Sebagai tambahan, sekarang dapat <placeholder-1/>"
 
 #: ../rnsysadmin.xml:58
 msgid "The Log Viewer"
@@ -1659,8 +1666,8 @@ msgid ""
 "faster than previous versions."
 msgstr ""
 "Banyak orang akan senang melihat bahwa tidak ada saran menyimpan perubahan "
-"ketika seluruh perubahan tidak dilakukan. Dan sebagai tambahan, sekarang mulai "
-"lebih cepat dari versi sebelumnya."
+"ketika seluruh perubahan tidak dilakukan. Dan sebagai tambahan, sekarang "
+"dapat mulai lebih cepat dari versi sebelumnya."
 
 #: ../rnutilities.xml:25
 msgid "The text editor, highlighting the current line."
@@ -1836,9 +1843,6 @@ msgstr "Ahmad Riza H Nst  <ari@160c.afraid.org>"
 
 #~ msgid "Norwegian Nynorsk (2 million)"
 #~ msgstr "Norwegia Nynorsk (2 juta)"
-
-#~ msgid "Romanian (26 million)"
-#~ msgstr "Rumania (26 juta)"
 
 #~ msgid "Slovak (5 million)"
 #~ msgstr "Sloakia (5 juta)"
