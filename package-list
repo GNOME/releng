@@ -5,52 +5,58 @@ Version in last relase: version that was in the previous GNOME release (1.2)
 New version:            will we want a new version of the package?
 Critical:               Are we unwilling/unable to ship without the new version? (or
                         without the package at all, if it's new for this release?)
-Maintainer:             The maintainer of the package. If the package is
-                        unmaintained, or the nominal maintainer is not
-                        willing to work with the GNOME release
-                        process, a "GNOME maintainer" for the package
-                        is an OK substitute. We need a maintainer for
-                        every package.
+
+Contact:                A contact for the release coordinators who can make releases,
+                        provide info about package readiness,
+                        etc. Preferrably the maintainer of the
+                        package. If the package is unmaintained, or
+                        the nominal maintainer is not willing to work
+                        with the GNOME release process, a "GNOME
+                        maintainer" for the package is an OK
+                        substitute. We need a maintainer for every
+                        package.
 
 
-Package             Version in last release   New Version   Critical  Maintainer
+Package             Version in last release   New Version   Critical  Contact
 
-ORBit               0.5.1                     Yes           Yes       Elliot Lee
+ORBit               0.5.1                     Yes           Yes       Elliot Lee <sopwith@redhat.com>
 audiofile           0.1.9
-bug-buddy           1.0                                               Jacob Berkman
+bug-buddy           1.0                                               Jacob Berkman <jacob@helixcode.com>
 control-center      1.2.0                     Yes
 esound              0.2.18                    
-gdk-pixbuf          0.8.0                                             Federico Mena-Quintero
+gdk-pixbuf          0.8.0                                             Federico Mena-Quintero <federico@helixcode.com>
 gdm                 2.0beta4
 ggv                 0.95
 ghex                1.1.3
 glade               0.5.9
-glib                1.2.8                                             Tim Janik, Owen Taylor
+glib                1.2.8                                             Tim Janik <timj@redhat.com>, 
+                                                                      Owen Taylor <otaylor@redhat.com>
 gnome-applets       1.2.0
 gnome-audio         1.0.0
 gnome-core          1.2.0
 gnome-games         1.2.0
-gnome-libs          1.2.0                                             Miguel de Icaza
+gnome-libs          1.2.0                                             Miguel de Icaza <miguel@helixcode.com>
 gnome-media         1.2.0
 gnome-pim           1.2.0
 gnome-print         0.20                      Yes           Yes 
 gnome-utils         1.2.0
-gtk+                1.2.8                                             Tim Janik, Owen Taylor
+gtk+                1.2.8                                             Tim Janik <timj@redhat.com>, 
+                                                                      Owen Taylor <otaylor@redhat.com>
 gtk-engines         0.10
 gtop                1.0.8
 imlib               1.9.8.1
 libghttp            1.0.6
 libglade            0.13
 libgtop             1.0.7
-libxml              1.8.7                                             Daniel Veillard
+libxml              1.8.7                                             Daniel Veillardd <Daniel.Veillard@w3.org>
 mc                  4.5.49
 users-guide         1.1-9
 
 
 GNOME Office packages
 
-dia-0.85.tar.gz       -> ../../sources/dia/dia-0.85.tar.gz
-gnumeric-0.54.tar.gz  -> ../../sources/gnumeric/gnumeric-0.54.tar.gz
+dia                 0.85
+gnumeric            0.54
 
 
 
