@@ -2,12 +2,14 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.2.0">
+<!ENTITY rndesktop SYSTEM "rndesktop.xml">
 <!ENTITY rngnomeutils SYSTEM "rngnomeutilities.xml">
 <!ENTITY rnfileroller SYSTEM "rnfileroller.xml">
 <!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
 <!ENTITY rngnomeapplets SYSTEM "rngnomeapplets.xml">
-
+<!ENTITY url_figures_base "../figures/"> 
 ]>
+
 <article>
   <articleinfo>
     <title>GNOME &version; Release Notes</title>
@@ -39,17 +41,18 @@
 
     <para>GNOME is now even more user-friendly yet complete for both everyday users and experienced developers. We have tried to avoid unnecessary complications or obscure features and hope that GNOME 2.2 demonstrates a clear, unified vision.</para>
 
-    <para>The GNOME 2 developer platform has matured further and is now widely used. While GNOME 2.0 was a major upgrade to the underlying platform which was inevitably delayed, GNOME &version is a simpler time-based release which includes whatever improvements have been completed since the previous release. In future you can look forward to further enhancements from these regularly-scheduled releases.</para>
+    <para>The GNOME 2 developer platform has matured further and is now widely used. While GNOME 2.0 was a major upgrade to the underlying platform which was inevitably delayed, GNOME &version; is a simpler time-based release which includes whatever improvements have been completed since the previous release. In future you can look forward to further enhancements from these regularly-scheduled releases.</para>
 
     <para>Most major GNOME-based applications have been ported to GNOME 2, and the new platform has allowed the development of several new applications. We would encourage new and existing developers to use the GNOME 2.2 platform, to take advantage of its features.</para>
 
-    <para>Of course GNOME 2.2 includes all of the improvements made in GNOME 2.0, which you can learn about <ulink url="http://www.gnome.org/start/2.0/releasenotes.html">here<ulink>.
+    <para>Of course GNOME 2.2 includes all of the improvements made in GNOME 2.0, which you can learn about <ulink url="http://www.gnome.org/start/2.0/releasenotes.html">here</ulink>.</para>
 
     <para>TODO: [insert stuff from other people here]</para>
    
     <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
  */</para>
   </sect1>
+  &rndesktop;
   &rngnomeutils;
   &rnfileroller;
   &rnmultimediakeys;
@@ -506,7 +509,7 @@ gnome2-user-docs
 
     <para>We also encourage our users to report bugs so that they can be fixed. The best way to report bugs found in GNOME is to use the <ulink href="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug Guide</ulink>. This will take you through the necessary steps to file a quality bug report, and make sure that it is tagged appropriately. If you're too advanced for anything with the word 'simple' in it, there is also the <ulink href="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug form</ulink>.
 
-More details on bugs already reported can be found at our <ulink href="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version bugs:</para>
+More details on bugs already reported can be found at our <ulink href="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version; bugs:</para>
 
     <sect2><title>TODO something</title>
     <para></para>
@@ -564,13 +567,13 @@ accessibility, usability and internationalization.
     <para>
       From a developer aspect, there is much exciting progress to be made in any
       of our active developer groups - Accessibility, Documentation, Usability,
-      Translation, Web, Testing, Graphics and Destkop &amp; Platform Development.
-      Choosing a role that suits you may be difficult at first, but here is a guide
-      to help you make your decision [link to joining-gnome].
+      Translation, Web, Testing, Graphics and Destkop &amp; Platform Development. Many of these
+      sub-projects have web pages on <ulink href="http://developer.gnome.org/projects/">developer.gnome.org</ulink>. Choosing a role that suits you may be difficult at first, but here is a guide
+      to help you make your decision [TODO: link to joining-gnome].
     </para>
     <para>
       Helping on GNOME can be an incredibly satisfying experience, allowing you
-      to meet a wide culture of motivated people all working towards a unified goal.
+      to meet a wide range of motivated, skilled, and helpful people all working towards a unified goal.
       Join us today and see what a difference you can make.
     </para>
   </sect1>
