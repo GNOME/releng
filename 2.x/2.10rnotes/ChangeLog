@@ -1,3 +1,8 @@
+2005-02-28  Murray Cumming  <murrayc@murrayc.com>
+
+	* rnapplets.xml: Rewrote removed applets section.
+	* Some other small fixes suggested by Frank Arnold.
+
 2005-02-23  Danilo Šegan  <dsegan@gmx.net>
 
 	* po/*: Added simple translation infrastructure.

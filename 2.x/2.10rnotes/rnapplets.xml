@@ -109,9 +109,9 @@
   <sect3 id="rnapplets-mixer">
   <title>Sound control</title>
   <para>
-   A new mixer for your panel (combined with a new look mixer on the desktop)
+   A new mixer for your panel (combined with a new-look mixer on the desktop)
    gets the most from your sound hardware. Using the GStreamer
-   multimedia framework, the mixer is now more convenient and stable then before. 
+   multimedia framework, the mixer is now simpler and more convenient than before. 
    The same multimedia framework powers Totem, Sound Juicer, the GNOME CD player 
    and a variety of third-party applications, so changing the GNOME volume 
    via the panel will change the volume of all these applications. TODO: Is this last sentence true/new/meaningful?
@@ -121,11 +121,9 @@
   <sect3 id="rnapplets-stickynotes">
   <title>Taking note</title>
   <para>
-   The popular Sticky Notes applet has a simpler user interface and many bugs have been fixed, so it's 
-   now even easier to add PostIt-style notes on your desktop. For instance, sticky notes will now stay 
-   on the correct workspace, or even a different monitor.
+   The popular Sticky Notes applet now makes it even easier to add PostIt-style notes on your desktop, thanks to a simpler user interface and many bug fixes. For instance, sticky notes will now stay on the correct workspace, or even a different monitor.
   </para>
-  <para>And sticky motes now stay on top other windows, so you can't lose them. To hide the notes,
+  <para>And sticky notes now stay on top other windows, so you can't lose them. To hide the notes,
    simply use the applet's right-click menu. 
   </para>
   </sect3>
@@ -134,37 +132,30 @@
   <title>Specially for laptops</title>
   <para>
    GNOME now includes an applet to monitor your laptop's processor speed. The CPU
-   Frequency Monitor talks to variable-speed processers (such as those with 
-   Intel Speedstep) to show their current status. It even allows you to choose 
+   Frequency Monitor watches variable-speed processors (such as those with 
+   Intel Speedstep or AMD PowerNow) to show their current status. You may even choose 
    a different speed if you don't have automatic frequency scaling enabled.
   </para>
   </sect3>
 
- 
+  <sect3 id="rnapplet-removed">
+  <title>Removed Applets</title>
   <para>
-TODO: Rewrite this:
-   Some applets have been removed in GNOME &version; because they have either been
-   replaced by something better, or were unmainted and insecure. The three
-   applets to be removed are, the CD Player applet, the standalone wireless
-   monitor and mailbox check applet.
-
+   Three applets were removed in GNOME &version;, replaced by better alternatives in most cases.
   </para>
   <para>
-   The CD Player panel applet did not interoperate well with GNOME CD Player,
-   instead now inserting a CD will start GNOME CD Player automatically, it can
-   then be controlled from the user interface or from a notification icon that
-   is placed in your Panel.
+   The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel.
   </para>
   <para>
-   The standalone wireless applet has now been superseeded by GNOME Netstatus,
-   which has had wireless support since GNOME 2.8.
+   The dedicated Wireless applet has been removed because the Network Monitor applet, introduced in GNOME 2.8, also includes wireless support.
   </para>
   <para>
-   The mailbox monitor has been removed because it was unmaintained and
-   insecure. We hope to have an solution integrated with Evolution in the
+   The Mailbox Monitor has been removed because it was unmaintained and
+   insecure. We hope to have a solution integrated with our Evolution mail client in the
    future. If you don't use Evolution for your mail, you can use a third party
    application such as <link
    href="http://www.nongnu.org/mailnotify/">mailnotify</link>.
   </para>
+  </sect3>
 
 </sect2>

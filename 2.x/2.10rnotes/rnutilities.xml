@@ -37,7 +37,7 @@
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;fileroller.png" format="PNG"/></imageobject>
-          <textobject><phrase>The file manager, asking for a password for a RAR file.</phrase></textobject>
+          <textobject><phrase>The archive manager, asking for a password for a RAR file.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>
