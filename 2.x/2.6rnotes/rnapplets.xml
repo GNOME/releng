@@ -6,49 +6,43 @@
 ]>
 <sect2 id="rnapplets">
   <title>Applets</title>
-  <para>Maintainer Kevin Vandersloot and the many GNOME Applets hackers have
-  done substantial work on the GNOME applets package, one of the core sources of
-  GNOME's functionality. A new Sticky Notes applet by Loban Rahman has been
-  added, and major effort, primarily by Dennis Cranston, has gone into usability
-  to make the applets behavior consistent with GNOME's Human Interface
-  Guidelines.
-    
-    <figure id="rnstickynotes"> 
-        <title>Sticky Notes Applet</title> 
-        <screenshot> 
-        <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;stickynotes.png"
-			format="PNG"/> 
-          </imageobject>
- 	  <textobject> 
- 	    <phrase>Sticky Notes Applet
-            </phrase> 
-          </textobject> 
-        </mediaobject> 
-	</screenshot> 
-      </figure> 
 
+  <para>The new Network Monitor applet shows whether your connection is active.
+  It can also tell you how many megabytes you have uploaded and downloaded.
+
+  <figure id="rnscreenshot-panel-applet-networkmonitor">
+    <title>Network Monitor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitorTODO.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The Network Monitor panel applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
   </para>
+  
+  <para>As mentioned in the Control Panel section, the Keyboard Indicator applet shows the current keyboard layout and lets
+  you choose another, without using the keyboard shortcut. TODO: Remove the duplication?
+
+  <figure id="rnscreenshot-panel-applet-keyboardindicator">
+    <title>Keyboard Indicator</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicatorTODO.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+
   <para>Other improvements to the applets include:
+  TODO
   <itemizedlist>
-      <listitem>
-	<para>Fitts' law complience for the applets. You can now click on the
-	  screen edge to control an applet.</para>
-      </listitem>
-      <listitem>
-	<para>IPv6 support for Modemlights and the Inbox Monitor</para>
-      </listitem>
-      <listitem>
-	<para>You can now edit/add/remove palettes to the character picker and
-	select them from a menu.</para>
-      </listitem>
-      <listitem>
-	<para>Character Palette can now display any UTF8 character.</para>
-      </listitem>
-      <listitem>
-	<para>You can now select which channel to control with the Volume
-	Control.</para>
-    </listitem> 
+    <listitem><para></para></listitem>
+    <listitem><para></para></listitem>
   </itemizedlist>
   </para>
+  
 </sect2>

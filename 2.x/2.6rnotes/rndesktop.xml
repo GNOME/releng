@@ -11,7 +11,7 @@
 
     <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-    Nautilus, the GNOME file manager has several significant improvements in GNOME &version;;. In particular, it now has a simpler
+    Nautilus, the GNOME file manager has several significant improvements in GNOME &version;. In particular, it now has a simpler
     and more intuitive user interface, and is very responsive. This should make users feel more comfortable and productive.
     </para>
 
@@ -167,8 +167,42 @@
          </mediaobject>
       </screenshot>
     </figure>
-     </para>
+    </para>
 
      
   </sect3>
+
+  <sect3 id="rnbrowser">
+    <title>Web Browser</title>
+
+    <para>GNOME's Epiphany web browser is one of the most-used applications, so you will be glade to hear that it has lots of
+    improvements in GNOME &version;, based on user feedback. In particular, the user interface has been fine-tuned yet more, to
+    make browsing an even more pleasant experience. TODO: Rephrase this so it sounds more substantial.</para>
+
+    <para>Other improvements include
+    <itemizedlist>
+    <listitem><para>Auto-completion of the URL has been improved.</para></listitem>
+    <listitem><para>Files can now be downloaded quickly to a standard folder, and there is improved feedback while that is happening.</para></listitem>
+    <listitem><para>You can now undo changes in Forms, and you will be warned when closing a partially filled-out form.</para></listitem>
+    <listitem><para>Font sizes can be chosen via points rather than pixels.</para></listitem>
+    <listitem><para>The toolbars have been improved, and can be edited more easily.</para></listitem>
+    <listitem><para>Bookmarks can be imported from custom file formats.</para></listitem>
+    <listitem><para>Browser history can be sorted by time.</para></listitem>
+    <listitem><para>Dialog boxes have been improved.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-epiphany">
+      <title>The web browser</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;epiphanyTODO.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The web browser.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+  
 </sect2>
