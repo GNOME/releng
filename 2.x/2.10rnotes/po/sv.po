@@ -52,7 +52,7 @@ msgstr ""
 "figure-gnome-desktop.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>GNOME-skrivbordet</phrase></textobject></"
 "mediaobject></screenshot> Skrivbordsmiljön GNOME 2.10 är den senaste utgåvan "
-"av den evigt populära och fria skrivbordsmiljön för flera plattformar."
+"av den mycket populära och fria skrivbordsmiljön för flera plattformar."
 
 #: ../release-notes.xml:30 (para)
 msgid ""
@@ -100,7 +100,7 @@ msgid ""
 "start/2.8/notes/\">release notes</ulink>."
 msgstr ""
 "Självklart innehåller GNOME 2.10 alla förbättringar som gjordes i GNOME 2.8, "
-"som du kan läsa mer om på i <ulink url=\"http://www.gnome.org/start/2.8/"
+"som du kan läsa mer om i <ulink url=\"http://www.gnome.org/start/2.8/"
 "notes/\">utgåveinformationen</ulink> för GNOME 2.8."
 
 #: ../release-notes.xml:48 (para)
