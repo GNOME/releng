@@ -66,12 +66,12 @@ libgnomeprintui		=		2.2		-		Chema Celorio <chema@ximian.com>
 libgtkhtml		gtkhtml2	2.2		-		-
 libgtop			=		2.0		-		Kevin Vandersloot <kfv101@psu.edu>
 librsvg			=		2.2		-			-
-libvte			=		1.0		-
 libwnck			=		2.2		-		Havoc Pennington <hp@redhat.com>		
 metacity		=		2.6
 nautilus		=		2.2		-		Alex Larsson <alexl@redhat.com>, Darin Adler <darin@bentspoon.com>	-
 nautilus-media		=		1.0
 scrollkeeper		-		1.0		-
+vte			=		1.0		-
 yelp			=		2.2		-		Mikael Hallendal <micke@codefactory.se>
 </section>
 
