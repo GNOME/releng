@@ -14,6 +14,8 @@
 <!ENTITY rnthemes SYSTEM "rnthemes.xml">
 <!ENTITY rndocs SYSTEM "rndocs.xml">
 <!ENTITY rni18n SYSTEM "rni18n.xml">
+<!ENTITY rnwm SYSTEM "rnwm.xml">
+<!ENTITY rnstandards SYSTEM "rnstandards.xml">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
@@ -97,6 +99,10 @@
  <sect1 id="rnmultihead">
   &rnmultihead;
  </sect1>
+ <sect1 id="rnwm">
+  &rnwm;
+ </sect1>
+
   <sect1 id="rnapplications">
     <title>Applications</title>
     <para>GNOME &version; includes many new and improved applications.</para>
@@ -114,6 +120,11 @@
  <sect1 id="rni18n">
   &rni18n;
  </sect1>
+
+ <sect1 id="rnstandards">
+  &rnstandards;
+ </sect1>
+
 
   <sect1 id="rninstallation">
     <title>Installation of  the GNOME &version; Developer Platform and

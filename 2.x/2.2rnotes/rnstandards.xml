@@ -1,0 +1,14 @@
+
+    <title>Standards Compliance</title>
+
+    <para>
+  GNOME works closely with groups such as <ulink
+  url="http://www.freedesktop.org/standards/">freedesktop.org</ulink> to support
+  interoperability and avoid proprietary lock-in.
+    </para>
+   
+    <para>
+  Specifications supported in GNOME 2.2 include: CORBA, XML, Xdnd, EWMH, 
+  XEMBED, the system tray spec, XSETTINGS, icon themes, recent files, 
+  thumbnail management, and XSMP.
+    </para>
