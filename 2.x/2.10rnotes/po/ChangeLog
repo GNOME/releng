@@ -1,5 +1,11 @@
 2005-03-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* th.po: Updated Thai translation.
+	* xml-th/figures/*: Updated screenshots using more compact font.
+	Added more 5 screenshots.
+
+2005-03-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* th.po: Added Thai translation.
 	* xml-th/figures/*: Added some Thai screenshots (not finished).
 
