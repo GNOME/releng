@@ -1,1 +1,24 @@
-- Mention support for reduced resources (metacity wireframe mode)
+Stuff to mention in GNOME 2.8 release notes:
+(edit this file)
+
+- File manager:
+  - Estimated time remaining when copying lots of data.  
+  - New standard file-type association system - used-by/works with KDE.
+    - Context Menu/Open With
+    - File Properties/Open With
+  - Access to password-protected servers, such as FTP sites. (It asks for a password.)
+  - Browse for local network servers (via OpenTalk), such as windows file servers.
+  - cd burner: Simpler UI - is this really different enough to mention?
+- New themes (Industrial and glider)
+- panel: Simpler way to choose panel applets. 
+- battery monitor applet: Improvement. What exactly?
+
+- New modules:
+  - evolution
+  - gnome-system-tools: Change the system clock, the users/groups, the network connection.
+  - vino: Allow a system administrator to control your computer.
+  - gnome-nettool: Provide useful information to your system adminstrator, in the event of network problems.
+ 
+
+system adminstration:
+  - gnome-nettool, vino, searching in gconf-editor.
