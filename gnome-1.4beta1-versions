@@ -34,7 +34,7 @@ gtkmm
 gtop                
 imlib               
 libghttp            
-libglade            
+libglade            0.16
 libgtop             
 libsigc++           
 libxml              
@@ -46,4 +46,4 @@ rep-gtk
 sawfish             
 users-guide         
 xalf                
-xml-i18n-tools      
+xml-i18n-tools      0.8
