@@ -1,3 +1,9 @@
+2004-10-17  Curtis Hovey  <sinzui@cox.net>
+
+	* 2.x/style/navigation/top-users.xml:
+	
+	Add art & themes to the top naviation to match the rest of w.g.o.
+
 2003-10-27  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* single_module/tools/list_translators.sh: Add -u to the cvs command
