@@ -29,6 +29,10 @@ msgid ""
 "special thanks for exceptional contributions toward making this release "
 "possible: TODO: Update this for 2.10, if we have time."
 msgstr ""
+"Gnomerne som har bragt dig dette programmel er for talrige til at blive "
+"nævnt ved navn. Udover de folk som er nævnt ovenfor, fortjener en del "
+"bidragydere dog at blive takket for deres ganske særlige bidrag til at "
+"gøre denne udgivelse mulig:"
 
 #: ../rnthanks.xml:16
 msgid "Dennis Cranston for gnome-search-tool"
@@ -131,6 +135,10 @@ msgid ""
 "communication code, cleaning up the encoding and languages implementation, "
 "speeding up the tabs menu updating in Epiphany"
 msgstr ""
+"Christian Persch for at stoppe hukommelseshuller, forbedre kildeteksten "
+"for kommunikation mellem vindue og fane, oprydning i implementationen for "
+"tegnkodning og sprog, forøge hastigheden af opdateringen af faneblade i "
+"Epiphany."
 
 #: ../rnthanks.xml:81
 msgid ""
@@ -146,6 +154,9 @@ msgid ""
 "and drop of urls of links to bookmarks toolbar and adding nice touches to "
 "the bookmarks views like sorting"
 msgstr ""
+"Xan Lopez for at polere Epiphany's skarpe kanter, hvilket inkluderer "
+"træk og slip af adresser til bogmærkeværktøjslinjen og dejlige ændringer "
+"af visninger af bogmærker såsom sortering."
 
 #: ../rnthanks.xml:90
 msgid "Steve Chaplin, for making gnomine really shine"
@@ -177,6 +188,11 @@ msgid ""
 "allows you to try a full GNOME desktop on Linux without installing anything "
 "on your hard drive. This is the best way to see for yourself what's new."
 msgstr ""
+"For Gnome 2.10 har vi en Live-cd tilgængelig fra www.gnome.org. Denne "
+"Live-cd gør det muligt for dig at prøve en komplet version af Gnome "
+"skrivebordsmiljøet uden at installere noget som helst på din disk. "
+"Dette er den bedste måde hvorpå du kan se hvad der er blevet ændret "
+"siden sidst."
 
 #: ../rninstallation.xml:13
 msgid ""
@@ -184,6 +200,10 @@ msgid ""
 "those for your Linux distribution. Vendors are likely to package GNOME 2.10 "
 "relatively quickly, and to release new versions soon that include GNOME 2.10."
 msgstr ""
+"Til daglig brug anbefaler vi dig at du installere officielle pakker, såsom "
+"dem der er lavet til din Linux-distribution. Distributører vil sandsynligvis "
+"pakke Gnome 2.10 relativt hurtigt og udgive nye versioner som inkluderer "
+"Gnome 2.10."
 
 #: ../rninstallation.xml:15
 msgid ""
@@ -206,6 +226,10 @@ msgid ""
 "of course, but here are some of the common reasons many of us choose to work "
 "on and use GNOME."
 msgstr ""
+"Efter at have set nogle af de nye faciliteter i Gnome 2.10, hvorfor så vælge "
+"Gnome frem for andre skrivebordsmiljøer? Hver Gnome-frivillig har "
+"selvfølgelig sin egen motivation, men her er nogle af de mest almindelige "
+"grunde til at mange af os vælger at arbejde på og bruge Gnome."
 
 #: ../rnwhy.xml:19
 msgid "Usability"
@@ -541,6 +565,9 @@ msgid ""
 "strings translated. Croatian and Mongolian are particularly close to "
 "\"supported\" status."
 msgstr ""
+"9 andre sprog er delvist understøttet, hvor halvdelen af deres strenge er "
+"oversat. Især kroatisk og mongolsk er meget tæt på at have status som "
+"værende \"understøttet\"."
 
 #: ../rndocs.xml:10
 msgid "Sysadmin, User, and Accessibility Guides"
@@ -649,6 +676,9 @@ msgid ""
 "can browse your local network for other people to play against, via the same "
 "zero-configuration technique used by Gnome Meeting."
 msgstr ""
+"Vores \"Det virker bare\"-filosofi er endda synlig i spillet Orme. Nu kan "
+"du gennemse dit lokale netværk efter andre folk at spille med, via den samme "
+"ingen-konfigurations-teknik som bruges af GnomeMeeting."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -760,6 +790,9 @@ msgid ""
 "applets), providing new features and better integration with the rest of the "
 "desktop."
 msgstr ""
+"Gnome 2.10 inkluderer store forbedringer af panelobjekterne (også kendt som "
+"panelprogrammer), nye faciliteter og bedre integration med resten af "
+"skrivebordsmiljøet."
 
 #: ../rnapplets.xml:13
 msgid ""
@@ -777,6 +810,9 @@ msgid ""
 "menu specification, so 3rd-party software may add itself to the Applications "
 "menu without even knowing about GNOME."
 msgstr ""
+"Alle panelmenuerne er nu defineret af Freedesktop.org's menuspecifikation "
+"for flere platforme, hvilket vil sige at tredjeparts programmer nu kan "
+"tilføje sig selv til menuen \"Programmer\" uden overhovedet at kende til Gnome."
 
 #: ../rnapplets.xml:17
 msgid ""
@@ -808,6 +844,9 @@ msgid ""
 "trashcan on your desktop, you can now drag and drop files and other items "
 "into the trash without minimising your open windows."
 msgstr ""
+"Gnome 2.10 tilbyder muligheden for en papirkuv til dit panel. Ligesom "
+"papirkurven på dit skrivebord, kan du trække og slippe filer og andre "
+"objekter til papirkurven uden at minimere dine åbne vinduer."
 
 #: ../rnapplets.xml:64
 msgid "Control Mounted Volumes"
@@ -1192,6 +1231,8 @@ msgid ""
 "with the GNOME desktop environment. Improvements in 2.10 include "
 "<placeholder-1/>"
 msgstr ""
+"Gnomes webbrowser \"Epiphany\" er baseret på Mozilla, men integrerer fuldt ud "
+"me skrivebordsmiljøet. Forbedringer i Gnome 2.10 inkluderer <placeholder-1/>"
 
 #: ../rnapplications.xml:64
 msgid "The web browser"
@@ -1223,6 +1264,9 @@ msgid ""
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
 "will resynchronize when you go back online."
 msgstr ""
+"I Gnome 2.10 er det nu lettere at arbejde afkoblet med e-post, kalender og "
+"kontakter hvis du bruger IMAP, LDAP, WebCal, GroupWise eller Exchange. Dine "
+"ændringer gensynkroniserer når du bliver opkoblet igen."
 
 #: ../rnapplications.xml:89
 msgid "Files can be attached to events."
@@ -1320,6 +1364,9 @@ msgid ""
 "GNOME 2.10, thanks to changes to its internal architecture. This should "
 "allow software developers to extend the file manager more easily in future."
 msgstr ""
+"Filhåndteringen også kendt som Nautilus er endnu hurtigere og mere stabil i "
+"Gnome 2.10, takket være ændringer i dens interne arkitektur. Dette betyder "
+"at programudviklere vil kunne udvide filhåndteringen nemmere i fremtiden."
 
 #: ../rndesktop.xml:18
 msgid ""
@@ -1327,6 +1374,8 @@ msgid ""
 "as Mozilla and Firefox, (TODO: Is this just drag-and-drop? If so, let's just "
 "say that.) and has more navigation options. TODO: What options, exactly?"
 msgstr ""
+"Filhåndteringen arbejder nu bedre sammen med andre programmer, såsom "
+"Mozilla og Firefox og har flere indstillinger for navigation."
 
 #: ../rndesktop.xml:25
 msgid "The path button is now more obviously a button."
@@ -1430,6 +1479,9 @@ msgid ""
 "users, without excess complexity or obscure features. At the same time we "
 "provide the rich flexibility experienced developers demand."
 msgstr ""
+"Gnome tilbyder et brugervenligt miljø \"der bare virker\" til hverdags "
+"brugere, uden unødvendig kompleksitet og underlige faciliteter. På samme "
+"tid tilbydes den rige fleksibilitet som erfarne udviklere kræver."
 
 #: ../release-notes.xml:28
 msgid ""
@@ -1446,6 +1498,10 @@ msgid ""
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
 "start/2.8/notes/\">release notes</ulink>."
 msgstr ""
+"Selvfølgelig inkluderer Gnome 2.10 alle de forbedringer som er lavet til "
+"Gnome 2.8, disse kan du læse om i "
+"<ulink url=\"http://www.gnome.org/start/2.8/notes/\">"
+"Gnome 2.8-udgivelsesnoterne</ulink>."
 
 #: ../release-notes.xml:39
 msgid ""
@@ -1471,6 +1527,10 @@ msgid ""
 "link> section, or use the links at the right to learn more about this "
 "release and the GNOME Desktop in general."
 msgstr ""
+"Vær venlig at fortsætte til sektionen "
+"<link linkend=\"rnwhatsnew\">Hvad nyt</link> eller brug henvisningerne "
+"til højre for at læse mere om denne udgivelse og generelt om "
+"skrivebordsmiljøet Gnome."
 
 #: ../release-notes.xml:58
 msgid "What's New In GNOME 2.10"
@@ -1525,6 +1585,10 @@ msgid ""
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
+"At hjælpe med Gnome kan være en utrolig tilfredsstillende oplevelse. "
+"Det giver dig mulighed for at mødes med en bred vifte at motiverede, dygtige, "
+"og hjælpsomme mennesker, som alle arbejder hen mod det samme mål. Slut dig "
+"til os i dag og se hvilken forskel du kan gøre."
 
 #: ../release-notes.xml:157
 msgid "Credits"
