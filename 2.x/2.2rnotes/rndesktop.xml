@@ -27,10 +27,17 @@
       <sect3><title>Property tab plug-ins.</title>
       <para>The Nautilus ile properties dialog now shows custom tabs for special
       file formats, such as images or media files. For instance, you can see the
-      dimensions of a graphic file, or the ID3 tags from an MP3 file.</para>
+      dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
 
 <figure>
-  <title>Property Pages</title>
+  <title>Property Page - Audio</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_audio.png"/>
+  </screenshot>
+</figure>
+
+<figure>
+  <title>Property Page - Image</title>
   <screenshot>
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_image.png"/>
   </screenshot>
