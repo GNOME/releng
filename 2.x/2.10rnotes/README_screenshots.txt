@@ -1,4 +1,4 @@
-Screensots
+Screenshots
 
 We get the shadow effect on the windows like this, in GIMP
 
@@ -19,3 +19,15 @@ o Shift shadown layer below the screenshot
 o Choose the crop tool
 o Select the entire image with the crop tool, click auto shrink, click crop
 o Either flatten it to get a background colour or merge the layers to keep it transparent
+
+
+In addition, there is a flash animation tutorial at
+
+1. How to drop shadow
+http://planet.hellug.gr/misc/rec_dropshadow.html
+
+(for menus, reduce offset from 5, to 3).
+
+2. How to do blending on the previous image (step 1)
+http://planet.hellug.gr/misc/rec_dropshadowblend.html
+
