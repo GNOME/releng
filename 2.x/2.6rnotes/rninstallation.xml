@@ -420,6 +420,7 @@ gstreamer
 gst-plugins
 </para>
 </listitem>
+<listitem>
 <para>
 gnome-media
 </para>
