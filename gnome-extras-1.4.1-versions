@@ -2,7 +2,7 @@ Versions of extra app packages for GNOME 1.4.1
 
 gmc             4.5.54
 
-Gnumeric        0.66
+Gnumeric        0.67
 Dia             0.88.1
 Guppi           0.35.5 
 AbiWord         0.7.14
@@ -13,9 +13,9 @@ toutdoux        1.2.7
 
 Anjuta IDE      0.1.4
 
-gob             1.0.7   
-gal             0.5
-gtkhtml         0.9.2
+gob             1.0.10   
+gal             0.9.0
+gtkhtml         0.9.3
 libgda          0.2.10
 
 The GIMP        1.2.1
@@ -23,8 +23,8 @@ eog             0.6
 
 GnomeICU        0.96.1
 gabber          0.8.2
-galeon          0.10.2
-gtm             0.4.9 
+galeon          0.11.1
+gtm             0.4.9
 Pan             0.9.6
 Balsa           1.0.0
 Firestarter     0.6.1 

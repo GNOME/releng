@@ -48,7 +48,7 @@ libghttp            1.0.9      No            Yes        --        Yes         Sh
 libglade            0.16       No            Yes        --                    James Henstridge <james@daa.com.au>
 libgtop             1.0.13     No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
 libsigc++           1.0.1      No            No         Yes       ??          Karl Nelson <kenelson@ece.ucdavis.edu>
-libxml              1.8.13     No            No         Yes                   Daniel Veillard <Daniel.Veillard@w3.org>
+libxml              1.8.14     No            No         Yes                   Daniel Veillard <Daniel.Veillard@w3.org>
 medusa              0.5.0                                                     Rebecca Schulman <rebecka@eazel.com>
 nautilus            1.0.4                                                     Darin Adler <darin@eazel.com>
 oaf                 0.6.5 			                              Maciej Stachowiak <mjs@eazel.com> 
@@ -56,11 +56,9 @@ panel--                                                                       ER
 rep-gtk                                                                       John Harper <jsh@eazel.com>
 sawfish                                                                       John Harper <jsh@eazel.com> 
 users-guide         1.1-9      Yes           Yes        --        Yes         Dan Mueth <d-mueth@uchicago.edu>
-xalf                                                                          Peter Astrand <astrand@lysator.liu.se>
+xalf                0.12                                                          Peter Astrand <astrand@lysator.liu.se>
 xml-i18n-tools                                                                Kenneth Christiansen <kenneth@gnu.org>
                                                                               Maciej Stachowiak <mjs@eazel.com>
 
 
 (3) help stuff needs to be updated
-
-
