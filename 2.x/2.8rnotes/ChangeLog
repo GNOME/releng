@@ -1,0 +1,15 @@
+2004-09-06  Murray Cumming  <murrayc@murrayc.com>
+
+	* rndesktop.xml: Put the nautilus bits in here from TODO.
+	* rnapplications.xml: Move the evolution part here from rndesktop.xml,
+	and mentioned some epiphany stuff that I see in their NEWS file.
+
+2004-09-05  Murray Cumming  <murrayc@murrayc.com>
+
+	* rndesktop.xml: Rewrote the MIME-type bit. Hopefully it's correct.
+
+2004-09-01  Murray Cumming  <murrayc@murrayc.com>
+
+	* Added early version of the press release, mostly with text from 
+	a draft of the 2.6 one.
+
