@@ -12,15 +12,15 @@ gdk-pixbuf         Yes          HEAD (unstable version is moved to Gtk+)
 glib               Yes          glib-1-2
 gnome-libs         Yes          gnome-libs-1-0
 gnome-print        Yes          gnome-1-4-branch
-gnome-vfs          Yes          gnome-vfs-1
+gnome-vfs          Yes          gnome-vfs-1-0
 gtk+               Yes          gtk-1-2
 imlib
 gnome-http         Yes          HEAD (will be dead for gnome 2, no unstable branch)
 libglade           Yes          HEAD (will branch when unstable glade development begins)
 libgtop            Yes          LIBGTOP_STABLE_1_0
 gnome-xml          Yes          LIB_XML_1_BRANCH
-oaf                Yes          oaf-stable-0-6
-xml-i18n-tools     Yes          (in progress)
+oaf                Yes          oaf-stable-0-5
+xml-i18n-tools     Yes          xml-i18n-tools-stable-1-x
 
 
 Language Bindings
@@ -59,11 +59,9 @@ gnome-audio
 gnome-core          HEAD
 gnome-games
 gnome-media
-gnome-pim
+gnome-pim	    HEAD
 gnome-utils         HEAD
 gtop                HEAD
 medusa              HEAD
-nautilus            HEAD
+nautilus            nautilus-1
 gtk-engines         HEAD
-
-

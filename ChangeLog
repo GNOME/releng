@@ -1,46 +1,57 @@
+2001-03-09  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* gnome-1.4-branches: Updated branch info for ORBit, nautilus,
+	xml-i18n-tools.
+	
 2001-02-27  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: updated gedit
+        * gnome-extras-1.4beta1-versions, package-list-extras: updated gedit
 
 2001-02-27  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: updated gnumeric, guppi
+	* gnome-extras-1.4beta1-versions, package-list-extras: updated gnumeric,
+	guppi
 
 2001-02-27  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: updated gtm
+	* gnome-extras-1.4beta1-versions, package-list-extras: updated gtm
 
 2001-02-26  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: updated GnomeICU's version number
+	* gnome-extras-1.4beta1-versions, package-list-extras: updated GnomeICU's
+	version number
 
 2001-02-26  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: updated AbiWord, Anjuta IDE, gob, GnomeICU, Firestarter, gnomoku,
-    bombermaze, Atomix, radioactive, and galeon
+	* gnome-extras-1.4beta1-versions, package-list-extras: updated AbiWord, 
+	Anjuta IDE, gob, GnomeICU, Firestarter, gnomoku, bombermaze, Atomix, 
+	radioactive, and galeon
 
 2001-02-26  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: removed memprof
-    at owen's request and XPenguins applet after talking with the author
-    about its state.
+	* gnome-extras-1.4beta1-versions, package-list-extras: removed memprof
+	at owen's request and XPenguins applet after talking with the author
+	about its state.
 
 2001-02-24  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: added libgda (gnome-db depends on it)
+	* gnome-extras-1.4beta1-versions, package-list-extras: added libgda
+	(gnome-db depends on it)
 
 2001-02-16  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: added gtkhtml
+	* gnome-extras-1.4beta1-versions, package-list-extras: added gtkhtml
 
 2001-02-16  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: added gal 
+	* gnome-extras-1.4beta1-versions, package-list-extras: added gal 
 
 2001-02-16  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras: updated Guppi, GnuCash, AbiWord, Sodipodi, gnome-db, toutdoux, anjunta, memprof, gtm,
-    balsa, bombermaze, atomix, gfaz, fpm, merlin's cpu fire applet, and googlizer.  This completes the extra apps.. 
+	* gnome-extras-1.4beta1-versions, package-list-extras: updated Guppi,
+	GnuCash, AbiWord, Sodipodi, gnome-db, toutdoux, anjunta, memprof, gtm,
+	balsa, bombermaze, atomix, gfaz, fpm, merlin's cpu fire applet, and
+	googlizer.  This completes the extra apps.. 
 
 2001-02-15  Maciej Stachowiak  <mjs@eazel.com>
 
