@@ -68,12 +68,12 @@
    you to mount them, eject them, or open them in the file manager.
    
    <figure id="rnscreenshot-applet-drivemount">
-    <title>Volume Monitor</title>
+    <title>Drive Mount</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-drivemount.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>the volume monitor</phrase></textobject>
+        <textobject><phrase>The drive mount applet.</phrase></textobject>
       </mediaobject>
     </screenshot>
   </figure>

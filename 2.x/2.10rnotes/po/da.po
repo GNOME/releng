@@ -14,23 +14,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../release-notes.xml:23
+#, fuzzy
+msgid ""
+"@@image: 'figures/figure-gnome-desktop.png'; "
+"md5=a25ee1cd47ba6e56ce09a67de0b45372"
+msgstr ""
+"@@image: 'figures/figure-gnome-system-tools.png'; md5=THIS FILE DOESN'T EXIST"
+
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
 msgstr "Gnome 2.10 udgivelsesnoter"
 
-#: ../release-notes.xml:18
+#: ../release-notes.xml:19
 msgid "Introduction"
 msgstr "Introduktion"
 
-#: ../release-notes.xml:19
+#: ../release-notes.xml:20
 msgid ""
-"The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
-"platform free desktop environment."
+"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnome-desktop.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The new modem control applet</phrase></"
+"textobject></mediaobject></screenshot> The GNOME 2.10 Desktop is the latest "
+"release of the ever popular, multi-platform free desktop environment."
 msgstr ""
-"Skrivebordsmiljøet Gnome 2.10 er den nyeste udgivelse af det mere og mere "
-"populære frie skrivebordsmiljø til flere platforme."
 
-#: ../release-notes.xml:21
+#: ../release-notes.xml:30
 msgid ""
 "The GNOME desktop releases continue to arrive on schedule. GNOME 2.10 "
 "includes a number of interesting new features and hundreds of bug fixes. "
@@ -38,7 +49,7 @@ msgid ""
 "can learn more in the following sections."
 msgstr ""
 
-#: ../release-notes.xml:23
+#: ../release-notes.xml:32
 msgid ""
 "GNOME provides a user-friendly environment that \"just works\" for everyday "
 "users, without excess complexity or obscure features. At the same time we "
@@ -48,7 +59,7 @@ msgstr ""
 "brugere, uden unødvendig kompleksitet og underlige faciliteter. På samme tid "
 "tilbydes den rige fleksibilitet som erfarne udviklere kræver."
 
-#: ../release-notes.xml:28
+#: ../release-notes.xml:37
 msgid ""
 "GNOME runs on a variety of platforms, including GNU/Linux (commonly called "
 "Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes powerful "
@@ -57,7 +68,7 @@ msgid ""
 "infrastructure that includes support for bi-directional text."
 msgstr ""
 
-#: ../release-notes.xml:35
+#: ../release-notes.xml:44
 msgid ""
 "Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, "
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
@@ -67,7 +78,7 @@ msgstr ""
 "Gnome 2.8, disse kan du læse om i <ulink url=\"http://www.gnome.org/"
 "start/2.8/notes/\">Gnome 2.8-udgivelsesnoterne</ulink>."
 
-#: ../release-notes.xml:39
+#: ../release-notes.xml:48
 msgid ""
 "The Desktop release contains all the applications needed to provide basic "
 "user functionality. Major applications such as <application>Gnumeric</"
@@ -76,7 +87,7 @@ msgid ""
 "than being included in the core GNOME release."
 msgstr ""
 
-#: ../release-notes.xml:46
+#: ../release-notes.xml:55
 msgid ""
 "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">free software</ulink>."
@@ -84,7 +95,7 @@ msgstr ""
 "Gnome er en del af GNU-projektet og er <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">frit programmel</ulink>."
 
-#: ../release-notes.xml:50
+#: ../release-notes.xml:59
 msgid ""
 "Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</"
 "link> section, or use the links at the right to learn more about this "
@@ -94,15 +105,15 @@ msgstr ""
 "link> eller brug henvisningerne til højre for at læse mere om denne "
 "udgivelse og generelt om skrivebordsmiljøet Gnome."
 
-#: ../release-notes.xml:58
+#: ../release-notes.xml:67
 msgid "What's New In GNOME 2.10"
 msgstr "Hvad er nyt i Gnome 2.10"
 
-#: ../release-notes.xml:82
+#: ../release-notes.xml:91
 msgid "Known Issues"
 msgstr "Kendte problemer"
 
-#: ../release-notes.xml:83
+#: ../release-notes.xml:92
 msgid ""
 "All software, when it is released, contains bugs the developers know about "
 "but have chosen, for a variety of reasons, not to fix before releasing. Free "
@@ -110,7 +121,7 @@ msgid ""
 "that with free software, we tell users about these problems."
 msgstr ""
 
-#: ../release-notes.xml:88
+#: ../release-notes.xml:97
 msgid ""
 "We also encourage our users to report bugs so that they can be fixed. The "
 "best way to report bugs found in GNOME is to use the <ulink url=\"http://"
@@ -124,11 +135,11 @@ msgid ""
 "bugs:"
 msgstr ""
 
-#: ../release-notes.xml:101
+#: ../release-notes.xml:110
 msgid "List of known issues"
 msgstr "Liste over kendte problemer"
 
-#: ../release-notes.xml:105
+#: ../release-notes.xml:114
 msgid ""
 "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozilla/"
 "Firefox new window focus</ulink>: When you launch Mozilla or Firefox and "
@@ -139,7 +150,7 @@ msgid ""
 "Firefox."
 msgstr ""
 
-#: ../release-notes.xml:115
+#: ../release-notes.xml:124
 msgid ""
 "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
 "startup temporary hang</ulink>: Applications with broken session management "
@@ -150,7 +161,7 @@ msgid ""
 "your session again."
 msgstr ""
 
-#: ../release-notes.xml:125
+#: ../release-notes.xml:134
 msgid ""
 "TODO: Luis, should we include any of the others? Kjartan applied the VTE "
 "patch and rolled a tarball but didn't put it on ftp.gnome.org perhaps "
@@ -162,16 +173,16 @@ msgid ""
 "to list it under the \"known\" issues section)."
 msgstr ""
 
-#: ../release-notes.xml:102
+#: ../release-notes.xml:111
 #, fuzzy
 msgid "<placeholder-1/>"
 msgstr "Understøttede sprog: <placeholder-1/>"
 
-#: ../release-notes.xml:142
+#: ../release-notes.xml:151
 msgid "Looking to GNOME 2.12 and Beyond"
 msgstr "Ser på Gnome 2.12 og hinsides"
 
-#: ../release-notes.xml:144
+#: ../release-notes.xml:153
 msgid ""
 "GNOME operates on a time-based release philosophy, an attempt to "
 "continuously provide the best of our developers' efforts to users as quickly "
@@ -181,18 +192,18 @@ msgid ""
 "also the <ulink url=\"http://live.gnome.org/RoadMap\">GNOME roadmap</ulink>."
 msgstr ""
 
-#: ../release-notes.xml:152
+#: ../release-notes.xml:161
 msgid "Getting Involved"
 msgstr "At blive involveret"
 
-#: ../release-notes.xml:153
+#: ../release-notes.xml:162
 msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
 msgstr ""
 "Kernen af Gnomes succes er dens mange frivillige, både brugere og Udviklere."
 
-#: ../release-notes.xml:157
+#: ../release-notes.xml:166
 msgid ""
 "As a user, your contribution can be as simple as filing good bug reports. "
 "You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla."
@@ -201,7 +212,7 @@ msgid ""
 "gnome.org/projects/bugsquad/\">bug-squad</ulink>."
 msgstr ""
 
-#: ../release-notes.xml:165
+#: ../release-notes.xml:174
 msgid ""
 "For developers, there is much exciting progress to be made in any of our "
 "active developer groups - Accessibility, Documentation, Usability, "
@@ -210,7 +221,7 @@ msgid ""
 "get started</ulink>."
 msgstr ""
 
-#: ../release-notes.xml:172
+#: ../release-notes.xml:181
 msgid ""
 "Helping on GNOME can be an incredibly satisfying experience, allowing you to "
 "meet a wide range of motivated, skilled, and helpful people all working "
@@ -221,11 +232,11 @@ msgstr ""
 "hjælpsomme mennesker, som alle arbejder hen mod det samme mål. Slut dig til "
 "os i dag og se hvilken forskel du kan gøre."
 
-#: ../release-notes.xml:181
+#: ../release-notes.xml:190
 msgid "Credits"
 msgstr "Bidragydere"
 
-#: ../release-notes.xml:182
+#: ../release-notes.xml:191
 msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
@@ -393,10 +404,13 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:118
+#, fuzzy
 msgid ""
-"@@image: 'figures/figure-evolution-mail.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=b27a25dd54f1118e40b9104354bda815"
 msgstr ""
-"@@image: 'figures/figure-evolution-mail.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'figures/figure-evolution-weather.png'; "
+"md5=ca12d0050f5514294bd4b54f47a899db"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -564,7 +578,8 @@ msgid "And yet more new features: <placeholder-1/>"
 msgstr "Og endnu flere nye faciliteter: <placeholder-1/>"
 
 #: ../rnapplications.xml:115
-msgid "FIXME - The email client"
+#, fuzzy
+msgid "The email client"
 msgstr "E-post-programmet"
 
 #: ../rnapplications.xml:113
@@ -727,7 +742,8 @@ msgid "Keyboard Layouts"
 msgstr "Tastaturlayouts"
 
 #: ../rncontrolcenter.xml:17
-msgid "FIXME: Keyboard Preferences - Layouts"
+#, fuzzy
+msgid "Keyboard Preferences - Layouts"
 msgstr "Indstillinger for tastatur - Layouts"
 
 #: ../rncontrolcenter.xml:13
@@ -780,7 +796,29 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:131
+#: ../rnapplets.xml:95
+#, fuzzy
+msgid ""
+"@@image: 'figures/figure-applet-weather.png'; "
+"md5=c3a54721c5872fe130c9c24d969310bf"
+msgstr ""
+"@@image: 'figures/figure-evolution-weather.png'; "
+"md5=ca12d0050f5514294bd4b54f47a899db"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:119
+#, fuzzy
+msgid ""
+"@@image: 'figures/figure-applet-mixer.png'; "
+"md5=3db86d251e280b32c35142524d4759f2"
+msgstr ""
+"@@image: 'figures/figure-applet-modem.png'; "
+"md5=e2b682efac29fc5ea4c29fe408b7fcab"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:140
 #, fuzzy
 msgid ""
 "@@image: 'figures/figure-applet-stickies.png'; "
@@ -896,19 +934,27 @@ msgstr ""
 msgid "Get even more weather"
 msgstr "Få endnu mere vejr"
 
+#: ../rnapplets.xml:92
+msgid "Weather Report"
+msgstr ""
+
 #: ../rnapplets.xml:86
 msgid ""
 "The weather monitor can now show even more locations then before, and the "
 "location names have been translated into non-english languages where "
 "appropriate. In addition, the forecast now includes sunrise and sunset "
-"calculations for most locations."
+"calculations for most locations. <figure id=\"rnscreenshot-applet-weather"
+"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The weather report applet.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplets.xml:107
+#: ../rnapplets.xml:106
 msgid "Sound control"
 msgstr "Lydkontrol"
 
-#: ../rnapplets.xml:108
+#: ../rnapplets.xml:107
 msgid ""
 "A new mixer for your panel (combined with a new-look mixer on the desktop) "
 "gets the most from your sound hardware. Using the GStreamer multimedia "
@@ -918,11 +964,19 @@ msgid ""
 "the panel will change the volume of all these applications."
 msgstr ""
 
-#: ../rnapplets.xml:119
+#: ../rnapplets.xml:116
+msgid "all new mixer for your panel"
+msgstr ""
+
+#: ../rnapplets.xml:121
+msgid "All new mixer for your panel"
+msgstr ""
+
+#: ../rnapplets.xml:128
 msgid "Taking note"
 msgstr "Skriv notater"
 
-#: ../rnapplets.xml:120
+#: ../rnapplets.xml:129
 msgid ""
 "The popular Sticky Notes applet now makes it even easier to add PostIt-style "
 "notes on your desktop, thanks to a simpler user interface and many bug "
@@ -930,7 +984,7 @@ msgid ""
 "even a different monitor."
 msgstr ""
 
-#: ../rnapplets.xml:123
+#: ../rnapplets.xml:132
 msgid ""
 "And sticky notes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
@@ -938,15 +992,15 @@ msgstr ""
 "Notessedler bliver nu foran andre vinduer, så du ikke glemmer dem. For at "
 "skjule notessedlerne benyttes panelprogrammets højrekliksmenu."
 
-#: ../rnapplets.xml:128 ../rnapplets.xml:133
+#: ../rnapplets.xml:137 ../rnapplets.xml:142
 msgid "Sticky Notes"
 msgstr ""
 
-#: ../rnapplets.xml:139
+#: ../rnapplets.xml:148
 msgid "Specially for laptops"
 msgstr "Specielt for bærbare"
 
-#: ../rnapplets.xml:140
+#: ../rnapplets.xml:149
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
 "CPU Frequency Monitor watches variable-speed processors (such as those with "
@@ -955,11 +1009,11 @@ msgid ""
 "enabled."
 msgstr ""
 
-#: ../rnapplets.xml:149
+#: ../rnapplets.xml:158
 msgid "Removed Applets"
 msgstr "Fjernede panelprogrammer"
 
-#: ../rnapplets.xml:150
+#: ../rnapplets.xml:159
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
@@ -967,7 +1021,7 @@ msgstr ""
 "Tre panelprogrammer blev fjernet i Gnome 2.10, disse er blevet udskiftet med "
 "bedre alternativer i de fleste tilfælde."
 
-#: ../rnapplets.xml:153
+#: ../rnapplets.xml:162
 msgid ""
 "The CD Player panel applet has been removed, so you will not see a CD player "
 "on your panel when you don't even have a CD in your drive. Instead, "
@@ -975,7 +1029,7 @@ msgid ""
 "controlled from a notification icon that it places in your Panel."
 msgstr ""
 
-#: ../rnapplets.xml:156
+#: ../rnapplets.xml:165
 msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
@@ -984,7 +1038,7 @@ msgstr ""
 "panelprogrammet Netværksovervåger introduceret i Gnome 2.8 også understøtter "
 "trådløs."
 
-#: ../rnapplets.xml:159
+#: ../rnapplets.xml:168
 msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
 "insecure. We hope to have a solution integrated with our Evolution mail "
@@ -1645,12 +1699,12 @@ msgstr ""
 
 #: ../rninstallation.xml:15
 msgid ""
-"However, many advanced users would like to build GNOME from source code, to "
-"test the very latest versions, to provide feedback and improvements. To help "
-"with this, we recommend the <ulink url=\"http://cipherfunk.org/garnome/"
-"\">GARNOME</ulink> utility, for building from released tarballs, and <ulink "
-"url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for "
-"building from CVS."
+"However, if you would like to build GNOME from source code, to test the very "
+"latest versions, to provide feedback and improvements, we recommend a build "
+"tool; such as the <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</"
+"ulink> utility, for building from released tarballs, and <ulink url=\"http://"
+"www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from "
+"CVS."
 msgstr ""
 
 #: ../rnthanks.xml:8
@@ -1826,6 +1880,18 @@ msgstr ""
 "\n"
 "Dansk-gruppen <dansk@klid.dk>\n"
 "Mere info: http://www.klid.dk/dansk/"
+
+#~ msgid ""
+#~ "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
+#~ "platform free desktop environment."
+#~ msgstr ""
+#~ "Skrivebordsmiljøet Gnome 2.10 er den nyeste udgivelse af det mere og mere "
+#~ "populære frie skrivebordsmiljø til flere platforme."
+
+#~ msgid ""
+#~ "@@image: 'figures/figure-evolution-mail.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgstr ""
+#~ "@@image: 'figures/figure-evolution-mail.png'; md5=THIS FILE DOESN'T EXIST"
 
 #~ msgid ""
 #~ "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=THIS FILE "
