@@ -19,13 +19,11 @@
   includes full user documentation.</para>
   <para>
   Learn to how to use GNOME with the <ulink
-  url="http://www.gnome.org/learn/users-guide/2.2/">User***
+  url="http://www.gnome.org/learn/users-guide/">Desktop User
   Guide</ulink>.
   </para>
-  <para>
-    A comprehensive Learn GNOME <ulink
-      url="http://www.gnome.org/learn/admin-guide/2.2/"> System
-      Administrator Guide</ulink> also is in ongoing development.
-  </para>
+  <para>Other documentation, including guides to system administration and
+    GNOME's accessibility features, can be found on the <ulink
+      url="http://www.gnome.org/learn/">GNOME Learn page</ulink>.</para>
    
 </sect1>

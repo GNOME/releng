@@ -1,3 +1,10 @@
+2003-08-31 John Fleck <jfleck@inkstain.net>
+
+	* rnstandards.xml
+	* rndocs.xml
+	* release-notes.xml
+	miscellaneous edits
+
 2003-08-31  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Updated the list of supported languages, replaced

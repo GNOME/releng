@@ -16,14 +16,14 @@
     <title>DRAFT GNOME &version; Release Notes</title>
     <abstract>
       <title>Introduction</title>
-      <para>The GNOME &version; Desktop and Platform release is the latest
+      <para>The GNOME &version; Desktop and Platform is the latest
 	release of the popular, multi-platform free desktop environment.</para>
       <para>GNOME &version; expands the offerings of the popular free software
-	desktop, with a new web browser that's based on the most standards-compliant
-	rendering widget available, the best accessibility tools available on
-	any platform, a number of new applications to make day-to-day desktop
-      use easier and a continued commitment to creating a computing environment
-      that "just works".</para>
+	desktop, with a new web browser that's based on the most
+	standards-compliant
+	rendering widget available, improved accessibility tools, a number of
+      new applications to make day-to-day desktop use easier and a continued
+      commitment to creating a computing environment that "just works".</para>
 
 <!-- http://makeashorterlink.com/?S27F22875 bugzilla query to check fulfilled
       enhancement requests since 2.2 courtesy aldug -->
@@ -46,19 +46,12 @@
     obscure features, sticking instead to a clear, unified
     vision of a usable, powerful desktop.</para>
 
-<!-- my inclination (jfleck) is to not do this, unless we're really clear what it is
-    we're willing to commit to
-
-	<para>TODO: Forward-looking motivational statement. In the future you can look
-	forward to further enhancements from regularly scheduled GNOME
-	releases.</para>
--->
     <para>Of course GNOME &version; includes all of the improvements made in
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
     url="http://www.gnome.org/start/2.2/notes/">release notes</ulink>.</para>
 
     <para>The Desktop and Platform release contains all the applications needed
-	to provide basic user functionality. In addition, major applications
+	to provide basic user functionality. Major applications
 	such as <application>Gnumeric</application> and
 	<application>Evolution</application> also are available, but are are
 	developed in parallel on their own natural release cycle rather than

@@ -17,7 +17,7 @@
     </para>
    
     <para>
-  Freedesktop.org specifications for which GNOME &version; supports
+  Freedesktop.org specifications that GNOME &version; supports
   include: icon themes, recent files, thumbnail management, and the
   system tray spec. In addition, GNOME 2 supports CORBA, XML, Xdnd,
   EWMH, XEMBED, XSETTINGS, and XSMP.
