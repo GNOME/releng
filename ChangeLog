@@ -1,5 +1,9 @@
 2001-02-15  Maciej Stachowiak  <mjs@eazel.com>
 
+	* gnome-1.4beta1-versions: Updated gtk+, glib, gtk-engines.
+
+2001-02-15  Maciej Stachowiak  <mjs@eazel.com>
+
 	* gnome-1.4beta1-versions: updated gnome-games, gnome-pim,
 	gnome-user-docs; removed users-guide at Dan Mueth's request.
 
