@@ -1,5 +1,10 @@
 2005-02-22  Murray Cumming  <murrayc@murrayc.com>
 
+	* Added rngames.xml.
+	* rndesktop.xml: Included rngames.xml.
+
+2005-02-22  Murray Cumming  <murrayc@murrayc.com>
+
 	* rndesktop.xml: Mention metacity focus-stealing prevention.
 	* rnapplets.xml: Mention new Places and Desktop menus, replacing 
 	Actions, and mention freedesktop menu spec.

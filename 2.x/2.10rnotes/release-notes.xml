@@ -62,6 +62,7 @@
     <xi:include href="rncontrolcenter.xml" />
     <xi:include href="rnapplets.xml"/>
     <xi:include href="rnsysadmin.xml"/>
+    <xi:include href="rngames.xml"/>
     <xi:include href="rnplatform.xml"/>
 </sect1>
 

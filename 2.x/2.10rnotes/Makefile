@@ -3,7 +3,7 @@ ROOTDOC = release-notes.xml
 
 docbook_sources = release-notes.xml rnapplets.xml rnapplications.xml rnthemes.xml \
                   rncontrolcenter.xml rndesktop.xml rndocs.xml rnsysadmin.xml \
-                  rni18n.xml \
+                  rni18n.xml rngames.xml \
                   rninstallation.xml rnplatform.xml rnstandards.xml \
                   rntoc.xml rnwhy.xml
 
