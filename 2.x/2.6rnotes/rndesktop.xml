@@ -32,10 +32,11 @@
 
     <para>Continued use should show that a great deal of thought has gone into this new user interface, though at first you might
     notice only that new folders are opened in new windows instead of changing the existing window. As you navigate to a folder,
-    you might find that there are too many folders open on your screen. You should use one of these techniques to prevent this:
+    you might find that there are too many folders open on your screen. You can:
     <itemizedlist>
       <listitem><para>Hold down the shift key when double-clicking, or double-click the middle mouse button. This closes the current folder when opening the new folder.</para></listitem>
-      <listitem><para>Choose &quot;Close Parent Folders&quot; from the File menu.</para></listitem>
+      <listitem><para>Choose &quot;Close Parent Folders&quot; from the File menu, or press Shift-Control-W.</para></listitem>
+      <listitem><para>Choose &quot;Open Location&quot; from the File menu, or press Control-L.</para></listitem>
     </itemizedlist>
     </para>
 
