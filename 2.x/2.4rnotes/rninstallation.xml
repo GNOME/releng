@@ -28,10 +28,11 @@
 		url="http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.14.0.tar.gz">http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.14.0.tar.gz</ulink></para>
 	  </listitem>
 	  <listitem>
-	    <para>Xft/font-config, available at <ulink
-	    url="http://nexp.cs.pdx.edu/fontconfig/release/fcpackage.2_1.tar.gz">http://nexp.cs.pdx.edu/fontconfig/release/fcpackage.2_1.tar.gz</ulink></para>
-	    <para>From the fcpackage distribution, you will need to separately
-	    build Xft and font-config. XFree86 4.2 or greater also is recommended.</para>
+		<para>The Xft2 and fontconfig family of libraries, available at <ulink
+	    url="http://fontconfig.org/">http://fontconfig.org/</ulink></para>
+		<para>Note that while these libraries are available as part of XFree86
+		4.3, the newer versions from fontconfig.org are highly
+		recommended.</para>
 	  </listitem>
 	  <listitem>
 	    <para>FreeType 2.0.9 or greater, available at <ulink url="http://www.freetype.org/">http://www.freetype.org/</ulink></para>

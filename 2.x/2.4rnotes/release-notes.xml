@@ -15,12 +15,12 @@
     <title>DRAFT GNOME &version; Release Notes</title>
     <abstract>
       <title>Introduction</title>
-      <para>The GNOME &version; Desktop and Platform is the latest
+      <para>The GNOME &version; Desktop is the latest
 	release of the popular, multi-platform free desktop environment.</para>
       <para>GNOME &version; expands the offerings of the popular free software
 	desktop, with a new web browser based on the most
 	standards-compliant
-	rendering widget available, improved accessibility tools, a number of
+	rendering engine available, improved accessibility tools, a number of
       new applications to make day-to-day desktop use easier and a continued
       commitment to creating a computing environment that "just works".</para>
 
@@ -49,7 +49,7 @@
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
     url="http://www.gnome.org/start/2.2/notes/">release notes</ulink>.</para>
 
-    <para>The Desktop and Platform release contains all the applications needed
+    <para>The Desktop release contains all the applications needed
 	to provide basic user functionality. Major applications
 	such as <application>Gnumeric</application> and
 	<application>Evolution</application> also are available, but are

@@ -16,7 +16,7 @@
   </para>
   
     <sect2>
-      <title>Usability.</title>
+      <title>Usability</title>
       <para>
         GNOME is one of the few open source projects to take a stand
     for ease of use and UI consistency over geeky
@@ -42,7 +42,7 @@
       
   </sect2>
   <sect2>
-    <title>Accessibility.</title>
+    <title>Accessibility</title>
       
     <para>
       Beyond making GNOME easier to use for the average computer user, GNOME has
@@ -81,7 +81,7 @@
        </para>
     </sect2>
     <sect2>
-      <title>Mature applications.</title>
+      <title>Mature applications</title>
       
         <para>
           Popular and robust applications such as Mozilla, Galeon,
@@ -94,7 +94,7 @@
       
     </sect2>
     <sect2>
-      <title>Licensing.</title>
+      <title>Licensing</title>
       
         <para>
           All GNOME platform libraries are licensed under the <ulink
