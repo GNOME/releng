@@ -1,14 +1,13 @@
-2005-03-08  Martin Willemoes Hansen  <mwh@localhost.localdomain>
+2005-03-08  Martin Willemoes Hansen  <mwh@sysrq.dk>
 
 	* da.po: Updated Danish translation.
+	* xml-da/figures/figure-gedit.png: Added
+	* xml-da/figures/figure-epiphany.png: Added
+	* xml-da/figures/figure-gnome-desktop.png: Added
 
 2005-03-08  Vincent van Adrighem  <adrighem@gnome.org>
 
 	* nl.po: Dutch Translation updated by Tino Meinen
-
-2005-03-08  Martin Willemoes Hansen  <mwh@sysrq.dk>
-
-	* xml-da/figures/figure-gedit.png: Added
 
 2005-03-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
@@ -79,7 +78,7 @@
 
 	* uk.po: Added Ukrainian translation.
 
-2005-03-07  Martin Willemoes Hansen  <mwh@localhost.localdomain>
+2005-03-07  Martin Willemoes Hansen  <mwh@sysrq.dk>
 
 	* da.po: Updated Danish translation.
 
