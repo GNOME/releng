@@ -46,7 +46,7 @@ gtk-engines         0.10
 gtop                1.0.8
 imlib               1.9.8.1
 libghttp            1.0.6
-libglade            0.13
+libglade            0.13                      Yes           Yes       James Henstridge <james@daa.com.au>
 libgtop             1.0.7
 libxml              1.8.9                     Yes           Yes       Daniel Veillardd <Daniel.Veillard@w3.org>
 mc                  4.5.49
@@ -55,7 +55,7 @@ users-guide         1.1-9
 
 GNOME Office packages
 
-dia                 0.85
+dia                 0.85                      Yes            No       James Henstridge <james@daa.com.au>
 gnumeric            0.54                      Yes            No       Jody Goldberg <jgoldberg@home.com>
 
 
