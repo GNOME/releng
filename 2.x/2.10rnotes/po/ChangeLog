@@ -1,3 +1,8 @@
+2005-03-03  Danilo Šegan  <dsegan@gmx.net>
+
+	* release-notes.pot: Added a POT file for those having problems
+	with building xml2po. 
+
 2005-03-02  Priit Laes  <amd@store20.com>
 
 	* et.po: Estonian translation updated.
