@@ -10,7 +10,7 @@
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
     Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas,
-    GNOME &version; offers support for 25 languages (at least 80 percent of
+    GNOME &version; offers support for 26 languages (at least 80 percent of
     strings translated).
 
 <!--    
@@ -46,7 +46,22 @@
       </listitem>
       <listitem>
 	<para>
+	  Brazilian Portuguese 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
 	  Catalan 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Chinese Simplified 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Chinese Traditional 
 	</para>
       </listitem>
       <listitem>
@@ -56,27 +71,12 @@
       </listitem>
       <listitem>
 	<para>
-	  Welsh 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
 	  Danish 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  German 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Greek 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Spanish 
+	  Dutch 
 	</para>
       </listitem>
       <listitem>
@@ -87,6 +87,16 @@
       <listitem>
 	<para>
 	  French 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  German 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Greek 
 	</para>
       </listitem>
       <listitem>
@@ -111,7 +121,7 @@
       </listitem>
       <listitem>
 	<para>
-	  Dutch 
+	  Norwegian bokm&aaring;l 
 	</para>
       </listitem>
       <listitem>
@@ -126,16 +136,6 @@
       </listitem>
       <listitem>
 	<para>
-	  Brazilian Portuguese 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Slovenian 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
 	  Serbian 
 	</para>
       </listitem>
@@ -146,17 +146,22 @@
       </listitem>
       <listitem>
 	<para>
+	  Slovenian 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Spanish 
+	</para>
+      </listitem>
+      <listitem>
+	<para>
 	  Swedish 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Chinese Simplified 
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Chinese Traditional 
+	  Welsh 
 	</para>
       </listitem>
     </itemizedlist>
