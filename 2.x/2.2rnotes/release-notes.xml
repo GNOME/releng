@@ -15,6 +15,7 @@
 <!ENTITY rndocs SYSTEM "rndocs.xml">
 <!ENTITY rni18n SYSTEM "rni18n.xml">
 <!ENTITY rnwm SYSTEM "rnwm.xml">
+<!ENTITY rnwhy SYSTEM "rnwhy.xml">
 <!ENTITY rnstandards SYSTEM "rnstandards.xml">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
@@ -23,14 +24,9 @@
   <articleinfo>
     <title>GNOME &version; Release Notes</title>
     <abstract>
-      <title>Welcome to GNOME &version;</title>
-      <para>This is the abstract.</para>
-    </abstract>
-  </articleinfo>
-  <sect1 id="rnintroduction">
-    <title>Introduction</title>
-    <para>The GNOME &version; Desktop and Platform release is the latest version
-    of the popular, multi-platform free desktop environment.</para>
+      <title>Introduction</title>
+      <para>The GNOME &version; Desktop and Platform release is the latest
+    version of the popular, multi-platform free desktop environment.</para>
     <para>GNOME runs on a variety of platforms, including GNU/Linux (commonly
     called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes
     powerful features such as high-quality smooth text rendering and first class
@@ -41,14 +37,15 @@
     usability and theme support and new utilities and
     applications. GNOME &version; also brings a new multimedia framework,
       <application>GStreamer</application>, to the desktop.</para>
-    <para>The Desktop and Platform release does not include large applications 
-      such as <application>Gnumeric</application>; those are developed in parallel
-      on their own natural release cycle.</para>
+    <para>The Desktop and Platform release does not include large applications
+      such as <application>Gnumeric</application>; those are developed in
+      parallel on their own natural release cycle.</para>
     <para>GNOME is part of the GNU Project, and is <ulink
     url="http://www.fsf.org/philosophy/free-sw.html">free
     software</ulink>.</para>
-  </sect1>
-
+    </abstract>
+  </articleinfo>
+  
   <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
     <para>We spent the six months since the GNOME 2.0 release improving
@@ -81,6 +78,7 @@
     <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
  */</para>
   </sect1>
+
 <sect1 id="rndesktop">
   &rndesktop;
 </sect1>
@@ -125,6 +123,9 @@
   &rnstandards;
  </sect1>
 
+  <sect1 id="rnwhy">
+    &rnwhy;
+  </sect1>
 
   <sect1 id="rninstallation">
     <title>Installation of  the GNOME &version; Developer Platform and

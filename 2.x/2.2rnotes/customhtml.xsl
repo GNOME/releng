@@ -14,7 +14,7 @@
 <xsl:param name="html.stylesheet">release.css</xsl:param>
 
 <!-- only sect1's in TOC -->
-<xsl:param name="toc.section.depth">1</xsl:param>
+<xsl:param name="toc.section.depth">2</xsl:param>
 
 <!-- lose the rules in headers and footers -->
 <xsl:param name="header.rule">0</xsl:param>

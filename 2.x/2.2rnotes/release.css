@@ -1,8 +1,8 @@
 body { background: #CCCC99 }
 
 p {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
         text-align: left;
         }
 
@@ -13,48 +13,59 @@ li p {
 }
 
 h1.title {
-	 margin-left: 100px;
-	 margin-right: 100px;
+	 margin-left: 200px;
+	 margin-right: 200px;
 	 text-align: center;
         }
 
 
 h2.title {
-	 margin-left: 100px;	
-	 margin-right: 100px;
+	 margin-left: 200px;	
+	 margin-right: 200px;
 	 text-align: left;
         }
 
 div.toc {
-	margin-left: 100px;
-        margin-right: 100px;
+	margin-left: 200px;
+        margin-right: 200px;
         text-align: left;
         }
 
 h3.title {
-	 margin-left: 100px;
-	 margin-right: 100px;	
+	 margin-left: 200px;
+	 margin-right: 200px;	
 	 text-align: left;
         }
 
 h4.title {
-	 margin-left: 100px;
-	 margin-right: 100px;	
+	 margin-left: 200px;
+	 margin-right: 200px;	
 	 text-align: left;
         }
 
 h5.title {
-	 margin-left: 100px;
-	 margin-right: 100px;	
+	 margin-left: 200px;
+	 margin-right: 200px;	
 	 text-align: left;
         }
 
 img	{
-	 margin-left: 100px;
+	 margin-left: 200px;
+	 align: left;
 	 }	 
 
 div.itemizedlist {
-	margin-left: 100px;
-	margin-right: 100px;	
+	margin-left: 200px;
+	margin-right: 200px;	
 	text-align: left;
         }
+
+div.navfooter {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+div.navheader {
+	margin-left: 100px;
+	margin-right: 100px;
+}

@@ -10,10 +10,10 @@
     </para>
 
       <sect3><title>Context menu plug-ins</title>
-      <para>Context-sensitive menus can now link Nautilus to functions performed
-      by other applications. In this illustration, Fileroller, our new
-      archive-handling application, has added a menu
-      items when you right-click on an archive.</para>
+      <para>Context-sensitive menus can now link the file manager to functions
+      performed by other applications. In this illustration, Fileroller, our new
+      archive-handling application, has added a menu items when you right-click
+      on an archive.</para>
 
 <figure>
   <title>Context Menu</title>
@@ -25,7 +25,7 @@
 </sect3>
 
       <sect3><title>Property tab plug-ins.</title>
-      <para>The Nautilus ile properties dialog now shows custom tabs for special
+      <para>The file manager's properties dialog now shows custom tabs for special
       file formats, such as images or media files. For instance, you can see the
       dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
 
@@ -46,11 +46,11 @@
       </sect3>
 
       <sect3><title>Improved Preferences dialog</title>
-      <para>The new Nautilus preferences dialog illustrates the GNOME design
+      <para>The new file manager preferences dialog illustrates the GNOME design
       philosophy: clean, simple and usable..</para>
 
 <figure>
-  <title>Nautilus Preferences</title>
+  <title>File Manager Preferences</title>
   <screenshot>
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_preferences.png"/>
   </screenshot>
