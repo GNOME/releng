@@ -6,7 +6,7 @@ Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Co
                                                         Exists?   Release?
 gmc
 
-Gnumeric           0.61                                                       Jody Goldberg <jgoldberg@home.com>
+Gnumeric           0.61        no            no         yes       yes         Jody Goldberg <jgoldberg@home.com>
 Dia                0.86                                                       James Henstridge <james@daa.com.au>
 Guppi              0.35.2      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
 AbiWord            0.7.12                                                     ???
