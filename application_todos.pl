@@ -2,7 +2,7 @@
 
 # This script is even more poopier than Jeff's. It's quite amazing how badly I suck at perl. 
 # Instructions: ./application_todos.pl < 2.x/todo.gnome
-#               Copy generated file into web-devel-2/content/dotplan
+#               Copy generated file into web-devel-2/content/dotplan/todos/main.c
 #		Curse Gman for creating such a hassle
 #		Drink more beer
 #
