@@ -9,7 +9,15 @@
   </articleinfo>
   <sect1>
     <title>Introduction</title>
-    <para>Gee Whiz Intro Goes Here ???</para>
+    <para>GNOME 2 is the newest version of the complete, free and easy-to-use
+    desktop environment. In addition to basic desktop functionality, it also
+    includes a powerful application framework for the software developer, with
+    support for object embedding, internationalization, accessibility and
+    </para>
+    <para>
+      GNOME is part of the <ulink url="http://www.gnu.org/">GNU</ulink> project,
+      and is free software.
+    </para>
   </sect1>
   <sect1>
     <title>What's New in GNOME 2</title>
@@ -57,11 +65,6 @@
 	      <para>
 		Windows can be dragged between workspaces with the Workspace Switcher
 		applet
-	      </para>
-	    </listitem>
-	    <listitem>
-	      <para>
-		Easier menu editing with right-click menus
 	      </para>
 	    </listitem>
 	    <listitem>
@@ -280,7 +283,32 @@
     </sect2>
     <sect2 id="solaris">
       <title>Solaris</title>
-      <para>Notes about building on Solaris. ????</para>
+      <para>Notes about building on Solaris.</para>
+      <para>
+	There are a number of patches recommended for building GNOME on Solaris,
+	which can be obtained from <ulink
+					  url="http://sunsolve.Sun.COM/pub-cgi/show.pl?target=patches/patch-access">http://sunsolve.Sun.COM/pub-cgi/show.pl?target=patches/patch-access</ulink>:
+	<programlisting>
+	* Solaris8/sparc:
+        108528-14  108827-20  108989-02  110934-07  111293-04  112396-02
+        108652-51  108987-09  110380-04  111111-03  111310-01  112438-01
+
+        * Solaris8/x86:
+        108529-14  108828-22  108990-02  110935-07  111294-03  111311-01
+        112439-01  108653-41  108988-09  110403-04  111112-03  111307-03
+        112397-02
+	</programlisting>
+      </para>
+      <note>
+	<para>
+	  If you are using the native iconv implementation on Solaris
+	  instead of libiconv, you'll need to make sure that you have 
+	  the converters between locale encodings and UTF-8 installed.
+	  At a minimum you'll need the SUNWuiu8 package. You probably
+	  should also install the SUNWciu8, SUNWhiu8, SUNWjiu8, and
+	  SUNWkiu8 packages.  
+	</para>
+      </note>
     </sect2>
     <sect2 id="darwin">
       <title>Darwin</title>
@@ -700,6 +728,21 @@
     </para>
   </sect1>
 
+  <sect1 id="themes">
+    <title>Themes</title>
+    <para>
+      Themes &mdash; changing the look of your desktop &mdash; are a favorite
+      preoccupation for many GNOME users. GNOME2 offers abundant opportunities
+      to play with themes, including gtk+, the window managers, GDM, Nautilus
+      and more.
+    </para>
+
+    <para>
+      A GNOME themes web site, <ulink
+      url="http://www.sunshineinabag.co.uk/">Sunshine in a Bag</ulink>, has been
+      established.
+    </para>
+  </sect1>
 
   <sect1 id="quirks">
     <title>Quirks</title>
@@ -744,8 +787,18 @@
   </sect1>
   <sect1 id="bugs">
     <title>Known bugs</title>
-    <para>The GNOME 2 release contains a number of known bugs:</para>
- <sect2>
+    <para>All software, when it is released, contains bugs the developers know
+    about but have elected, for a variety of reasons, not to fix before
+    releasing. Free software is no different in this regard from proprietary
+    software, except that with free software, we tell users about them.
+    </para>
+    <para>
+      Full details on outstanding GNOME bugs can be found at our <ulink
+									url="http://bugzilla.gnome.org/">Bugzilla</ulink>.
+									
+      Among the most prominent GNOME 2 bugs:
+    </para>
+    <sect2>
       <title>NFS-mounted $HOME directory</title>
       <para>
 	For people with NFS-mounted $HOME directories, you cannot drag files
@@ -769,14 +822,19 @@
 	problems. This will be fixed in 2.0.1 (bug #84183).
       </para>
     </sect2>
+    <sect2>
+      <title>Cannot drag and drop from Nautilus list view</title>
+      <para>
+	Bugzilla number <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">74974</ulink>
+      </para>
+    </sect2>
+    <sect2>
+      <title>Drag and Drop fails to add menu items to applications:///</title>
       
-	<sect2>
-	  <title>Drag and Drop fails to add menu items to applications:///</title>
-	  
-	    <para>
-	      Bugzilla number <ulink
-				     url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>
-	    </para>
+      <para>
+	Bugzilla number <ulink
+			       url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>
+      </para>
 	  
 	</sect2>
 	<sect2>
