@@ -481,15 +481,27 @@ and with various locales.
 ##############################################################################################
 <application name="yelp" authors="micke@codefactory.se, alexl@redhat.com" link="http://bugzilla.gnome.org/buglist.cgi?product=Yelp&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED">
 <item done="no">
+Need to theme TOC [or at least look pretty]
+</item>
+<item done="no">
+Show good error messages in a dialog instead of the html view
+</item>
+<item done="no">
+Yelp doesn't display non-ASCII characters properly
+</item>
+<item done="no">
+Scrolling html-view doesn't work properly
+</item>
+<item done="no">
 Need to cache help pages
 </item>
-<item done="no">
+<item done="yes">
 Default GNOME help page toc:info and toc:man URIs should be supported
 </item>
-<item done="no">
+<item done="yes">
 Support has to be added for searching keywords in Scrollkeeper
 </item>
-<item done="no">
+<item done="yes">
 Open external links in a browser
 </item>
 <item done="no">
@@ -502,13 +514,13 @@ Add support for a recently-viewed list.
 Contents -> Recently viewed, Bookmarks
 </item>
 <item done="no">
-Add a throbber
+Add a throbber/visual feedback
 </item>
-<item done="no">
+<item done="yes">
 history has to be fixed to work with different views and different sections
 in those views.
 </item>
-<item done="no">
+<item done="yes">
 Two stage home-view. 
 First stage 'toc:' shows / from the tree.
 Second stage, 'toc:man, toc:info, toc:GNOME' shows the sublevel with
