@@ -7,11 +7,9 @@
     <title>Internationalization</title>
 
     <para>
-    Due to GNOME's strict string freeze policy leading up to the release,
-    the <ulink url="http://developer.gnome.org/projects/gtp/">GNOME Translation
-    Project</ulink> was able to translate 100 percent of strings for ???
-    languages by release time, and  nearly 100 percent for ??? more.  The string
-    freeze will continue on the &version; branch, so more and more translations will
-    be completed in upcoming point releases.</para>
+    Members of the worldwide <ulink
+    url="http://developer.gnome.org/projects/gtp/">GNOME Translation
+    Project</ulink> translated 100 percent of strings for ???  languages for
+    GNOME &version;, and nearly 100 percent for ??? more.</para>
    
 </sect1>
