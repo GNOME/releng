@@ -1,3 +1,7 @@
+2005-03-08  Martin Willemoes Hansen  <mwh@sysrq.dk>
+
+	* xml-da/figures/figure-gedit.png: Added
+
 2005-03-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* th.po: Updated Thai translation (proper translation of "just works").
@@ -12,68 +16,68 @@
 
 2005-03-08  Laurent Dhima  <laurenti@alblinux.net>
 
- * sq.po: Updated Albanian translation.
+	* sq.po: Updated Albanian translation.
 
 2005-03-08  Abel Cheung  <maddog@linuxhall.org>
 
- * zh_TW.po: New traditional Chinese translation.
+	* zh_TW.po: New traditional Chinese translation.
 
 2005-03-08  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: Updated French translation.
+	* fr.po: Updated French translation.
 
 2005-03-08  Amanpreet Singh Alam <amanpreetalam@yahoo.com>
 
- * pa.po: Punjabi (Gurmukhi) is updated
+	* pa.po: Punjabi (Gurmukhi) is updated
 
 2005-03-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
- * th.po: Updated Thai translation (ISDN typo).
+	* th.po: Updated Thai translation (ISDN typo).
 
 2005-03-08  Vincent van Adrighem  <adrighem@gnome.org>
 
- * nl.po: Dutch Translation updated by Reinout van Schouwen
+	* nl.po: Dutch Translation updated by Reinout van Schouwen
 
 2005-03-08  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
 
- * es.po: Added Spanish translation.
+	* es.po: Added Spanish translation.
 
 2005-03-08  Nikos Charonitakis  <charosn@her.forthnet.gr>
 
- * el.po: Updated Greek translation.
+	* el.po: Updated Greek translation.
 
 2005-03-08  Nikos Charonitakis  <charosn@her.forthnet.gr>
 
- * el.po: Updated Greek translation.
+	* el.po: Updated Greek translation.
 
 2005-03-07  Simos Xenitellis  <simos@gnome.org>
 
- * el.po: Fixed ISDN typo.
+	* el.po: Fixed ISDN typo.
 
 2005-03-07  Simos Xenitellis  <simos@gnome.org>
 
- * el.po: Updated Greek translation.
+	* el.po: Updated Greek translation.
 
 2005-03-07  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: Updated French translation.
+	* fr.po: Updated French translation.
 
 2005-03-07  Raphael Higino  <raphaelh@cvs.gnome.org>
 
- * pt_BR.po: Updated Brazilian Portuguese translation.
- * release-notes.pot: Updated to current version.
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+	* release-notes.pot: Updated to current version.
  
 2005-03-07  Maxim Dziumanenko <mvd@mylinux.com.ua>
 
- * uk.po: Added Ukrainian translation.
+	* uk.po: Added Ukrainian translation.
 
 2005-03-07  Martin Willemoes Hansen  <mwh@localhost.localdomain>
 
- * da.po: Updated Danish translation.
+	* da.po: Updated Danish translation.
 
 2005-03-07  Laurent Dhima  <laurenti@alblinux.net>
 
- * sq.po: Added Albanian translation by
+	* sq.po: Added Albanian translation by
                  Elian Myftiu <elian@alblinux.net>.
  
 2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
@@ -373,7 +377,7 @@ a2005-03-04  Ahmad Riza H Nst  <ari@160c.afraid.org>
 
 2005-02-25  Frank Arnold  <farnold@cvs.gnome.org>
 
- * de.po: Partially updated German translation.
+	* de.po: Partially updated German translation.
 
 2005-02-24  Hendrik Richter  <hendrik@gnome-de.org>
 
