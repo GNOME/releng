@@ -79,7 +79,8 @@
  <xi:include href="rnwhy.xml"/>
 
  <xi:include href="rninstallation.xml"/>
-
+<!-- Luis sucks and knows it -->
+<!--
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
     <para>All software, when it is released, contains bugs the developers know
@@ -114,7 +115,7 @@
     </sect2>
 
     </sect1>
-
+-->
     <sect1 id="rnlookingahead">
    <title>Looking to GNOME 2.6 and Beyond</title>
 
