@@ -76,7 +76,10 @@
 
  <xi:include href="rnstandards.xml"/>
 
+<!-- Did I mention I suck? -->
+<!--
  <xi:include href="rnwhy.xml"/>
+-->
 
  <xi:include href="rninstallation.xml"/>
 <!-- Luis sucks and knows it -->
