@@ -30,8 +30,8 @@ libgnomecanvas		=				1.105.0
 libgnomeprint		=				1.106.0
 libgnomeprintui		=				1.106.0
 libgnomeui			=				1.105.0
-libxml2				gnome-xml		2.4.9
-libxslt				=				-
+libxml2				gnome-xml		2.4.9				-				Daniel Veillard <veillard@redhat.com>
+libxslt				=				1.0.6				-				Daniel Veillard <veillard@redhat.com>
 linc				=				0.1.7
 pango				=				0.21
 pkgconfig			-				0.8.0

@@ -1,3 +1,7 @@
+Thu Nov 15 20:06:10 CET 2001 Daniel Veillard <veillard@redhat.com>
+
+	* 2.x/package-list: libxml2 and libxslt info
+
 2001-11-16  Jeff Waugh  <jdub@perkypants.org>
 
 	* 2.x/TODO: needed a 2.x releng todo list :)
