@@ -93,7 +93,7 @@
  <xi:include href="rninstallation.xml"/>
 
  <xi:include href="rnplatform.xml"/>
-<!--
+
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
     <para>All software, when it is released, contains bugs the developers know
@@ -114,12 +114,34 @@
 		  url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the
 		most prominent GNOME &version; bugs:</para>
 
-    <sect2><title>TODO</title>
-    <para>TODO</para>
+    <sect2><title>List of known issues</title>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para>The <application>Stock Ticker</application> applet is unable
+          to download data in GNOME 2.4.0.</para>
+        </listitem>
+        <listitem>
+          <para>The <application>Panel</application> stores configuration in a
+          different format to previous versions of GNOME. The configuration is
+          migrated to the new format when the <application>Panel</application>
+          first starts. After that, changes made to the configuration in GNOME
+          2.4 will not be reflected in older GNOME sessions and vice versa.</para>
+        </listitem>
+        <listitem>
+          <para>The desktop is now located in the directory Desktop, instead of
+          .gnome-desktop. If you are running GNOME 2.4 in parallel with an
+          older version of GNOME, you should rename the .gnome-desktop
+          directory to Desktop and make a symlink linking .gnome-desktop to
+          Desktop. This will ensure your desktop is the same in all versions
+          of GNOME.</para>
+        </listitem>
+      </itemizedlist>
+    </para>
     </sect2>
 
     </sect1>
--->
+
     <sect1 id="rnlookingahead">
 	 <title>Looking to GNOME 2.6 and Beyond</title> 
 	      
@@ -168,6 +190,6 @@
 	      <title>Credits</title>
 	      <para>These release notes were assembled by John Fleck with
 	      contributions from Dave Camp, Sayamindu Dasgupta, Murray Cumming,
-	      Luis Villa, Jeff Waugh and many more.</para>
+	      Andrew Sobala, Luis Villa, Jeff Waugh and many more.</para>
 	    </appendix>
 </article>
