@@ -1,3 +1,12 @@
+#############################################################################################
+## This is the data file for the GNOME 2.0 TODO list. Feel free to add more items and mark
+## existing ones as 'complete' ie. <item done="yes">...</item>
+## Once you have updated this file, run ./application_todos.pl < 2.x/todo.gnome2
+## You will then get a generated file called gnome2_application_todos.html. Please cut and 
+## paste the contents into the file web-devel-2/content/dotplan/todos/main.in in the 
+## developer.gnome.org cvs module and commit *both*
+## Maybe we should get this automatically building instead.
+#############################################################################################
 
 ##############################################################################################
 ## gnome-control-center 

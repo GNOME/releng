@@ -1,5 +1,10 @@
 2002-01-13  Glynn Foster  <glynn.foster@sun.com>
 
+	* 2.x/todo.gnome2: Update with some documentation on how to update
+	web.
+
+2002-01-13  Glynn Foster  <glynn.foster@sun.com>
+
 	* 2.x/todo.gnome2: Add todo list of most of the gnome2 core applications.
 	* application_todos.pl: Add exhibit A - poopy perl script for generating 
 	dotplan mongo todo list webpage.
