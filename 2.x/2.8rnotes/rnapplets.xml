@@ -30,7 +30,7 @@
     <title>The clock, showing the GNOME release date</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-clock.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-clock+calendar.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The clock, showing the GNOME release date.</phrase></textobject>
       </mediaobject>

@@ -1,5 +1,13 @@
 2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
 
+	* figures/figure-clock+calendar.png:
+	* figures/figure-evolution-mail.png: Evolution screenshots
+
+	* rnapplets.xml:
+	* rnapplications.xml: Set correct paths for figures
+
+2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
+
 	* figures/figure-keyboard-layout+preview.png:
 	* rncontrolcenter.xml: Keyboard layout screenshot
 
