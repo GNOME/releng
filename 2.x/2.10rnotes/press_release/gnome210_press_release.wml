@@ -9,52 +9,45 @@
 
 <body>
 
-<h1>GNOME 2.8 DESKTOP AND DEVELOPER PLATFORM UNVEILED</h1>
+<h1>GNOME 2.10 DESKTOP AND DEVELOPER PLATFORM RELEASED</h1>
 
-<p><center><i>New version of the popular, multi-platform desktop environment offers greater ease, speed and convenience.</i></center></p>
+<p><center><i>New version of the popular, multi-platform desktop environment offers greater ease and convenience.</i></center></p>
 
-<p>BOSTON, Mass - September 15, 2004 - The GNOME Foundation today released the latest version of the GNOME Desktop and Developer Platform. Version 2.8 adds greater usability, speed and better internationalization to the desktop environment. </p>
+<p>BOSTON, Mass - March 9, 2005 - The GNOME Project today released the latest version of the GNOME Desktop and Developer Platform, the leading desktop for Linux and Unix operating systems. Version 2.10 improves the usability, stability, and power of GNOME by integrating multimedia, adding development possibilities, and including thousands of changes which refine the easiest and friendliest free software desktop.</p>
 
-<p>"Once again, GNOME has delivered more features and usability, on a predictable schedule," said Nat Friedman, GNOME Foundation Chairman. "GNOME 2.8 provides a comfortable environment in which users can achieve their everyday goals."</p>
+<p>In keeping with GNOME's 'users first' philosophy, GNOME makes stable releases every six months. This delivers improvements to users quickly, and allows developers and distributors to plan their GNOME-based products with confidence. As a result, distributions such as Fedora, SUSE, and Ubuntu will include GNOME 2.10 in the next release of their products, providing GNOME 2.10 to millions of users.</p>
 
-<p>Users can look forward to:</p>
+<p>Key features GNOME 2.10 users can look forward to include:</p>
 <ul>
-<li>Automatic detection of removable devices.</li>
-<li>Automatic detection of local servers.</li>
-<li>The Evolution email client, calendar, and address book.</li>
-<li>Improved internationalization support.  GNOME 2.8 fully supports 40 languages, with improved support for an additional 50+.   </li>
+<li>An integrated video player, one-click CD 'ripping', and improved media format support. This makes the Linux desktop's multimedia support more competitive with the leading proprietary operating systems.</li>
+<li>More auto-detection of hardware and network servers, demonstrating GNOME's focus on software that 'Just Works' without distracting or confusing users.</li>
+<li>Better integration between applications, including improved links between GNOME applications, and use of cross-platform standards, improving both the user and ISV experience.</li>
+<li>Continued polish and stability, based on user feedback. GNOME 2.10 includes thousands of bug fixes and usability improvements since GNOME 2.8 was released in September.</li>
 </ul>
 
-<p>System Administrators will welcome:</p>
-<ul>
-<li>Remote control of users' desktops via the VNC server.</li>
-<li>Network tools that allow users to provide diagnostic information.</li>
-</ul>
+<p>"This GNOME release is exciting", says Christian Schaller, Fluendo Business Manager and GStreamer development team member.  "Not only is GNOME fixing problems for end users, but by working actively with other free software communities like freedesktop.org, GStreamer, and GTK+, GNOME is driving forward the entire Free Software desktop."</p>
 
-<p>Developers will see:</p>
-<ul>
-<li>Incremental backwards-compatible API additions.</li>
-<li>The ability to develop GNOME software in C++, Java, Perl, and Python, as well as C.</li>
-</ul>
-
-<p>"This release demonstrates GNOME's major steps toward 'just works' hardware
-support, system configuration and deep collaboration integration", said Jeff
-Waugh, GNOME Release Team Manager. "These features will have immediate value for our users, and long-term value for application developers who will be
-able to integrate important user data such as contacts and calendaring into
-their applications." </p>
-
-<p>GNOME is supported on a variety of platforms, including GNU/Linux (more commonly referred to as Linux), Solaris&tm; Operating Environment, HP-UX, Unix, BSD and Apple's Darwin. GNOME is distributed as part of their offerings by leading Linux distributions worldwide. </p>
+<p>"We're having lots fun doing this", said Luis Villa, GNOME Foundation Board member and contributor.  "Instead of just talking about vaporware that takes years to come out, GNOME's developers are creating concrete improvements and delivering these to our users twice a year. This is something no proprietary desktop vendor matches."</p>
 
 <h3>Availability</h3>
-<p>GNOME 2.8 will soon be available via popular Linux distributions as part of their offerings.</p>
+<p>GNOME 2.10 will soon be available as part of most popular Linux distributions. For those who can't wait, the new GNOME LiveCD (available from <a href="http://www.gnome.org/start/2.10/">www.gnome.org/start/2.10/</a>) allows users and other interested parties to test the latest GNOME desktop by burning a CD and rebooting - no installation necessary.</p>
 
-<p>Developers, system administrators and advanced users wishing to install the GNOME 2.8 Desktop and Developer Platform now may freely download the software at <a href="http://www.gnome.org/">www.gnome.org</a>. The software includes the GNOME 2.8 desktop interface, file manager, menus and utilities, as well as the complete set of development tools and libraries.</p>
+<p>Developers and advanced users wishing to install the GNOME 2.10 Desktop and Developer Platform now may download the software at <a href="http://ftp.gnome.org/pub/GNOME/desktop/">http://ftp.gnome.org/pub/GNOME/desktop/</a>  The software includes the source code for the GNOME 2.10 desktop interface and a complete set of developer tools and libraries.</p>
 
 <h3>About GNOME</h3>
-<p>GNOME is a free software project that is continuing to develop a complete, easy to use desktop for use on a variety of platforms. The GNOME desktop is used by millions of people around the world. More than 500 software developers from every corner of the globe, including more than 100 full-time, paid developers, contribute their time and effort to the project.</p>
+<p>GNOME is a free software project developing a complete, easy to use desktop.  Besides including central desktop components like system menus, a file manager, web browser, and utilities, GNOME is a complete development environment allowing developers to create new applications.</p>
+
+<p>More than 500 software developers from every continent, including more than 100 paid developers, contribute their time and effort to the project.  Sponsors include industry leaders like Fluendo, HP, IBM, Novell, Red Hat, and Sun.  GNOME is supported on a variety of platforms, including GNU/Linux (more commonly referred to as Linux), Solaris Operating Environment, HP-UX, Unix, BSD and Apple's Darwin.</p>
+
+<p>The GNOME desktop is used by millions of people around the world.  GNOME is a standard part of all leading Linux and Unix distributions worldwide, including those of popular community distributions like Debian, Fedora Core, and SUSE, and is the default desktop on major enterprise Linux distributions like Red Hat Enterprise Linux and Sun Java Desktop System.  GNOME is also the desktop of choice for some of the world's biggest Linux desktop deployments, including large government deployments in Extremadura, Spain, and Sao Paolo, Brazil.  GNOME's technology is used by major Linux ISVs like Firefox, the Eclipse Project, and Real Networks.</p>
+
+<p>More information on GNOME can be found at <a href="http://www.gnome.org">http://www.gnome.org/</a></p>
 
 <h3>About the GNOME Foundation</h3>
-<p>Comprised of hundreds of volunteer developers and industry-leading companies, the GNOME Foundation is an organization committed to supporting the advancement of GNOME. The Foundation is a member directed, non-profit organization that provides financial, organizational and legal support to the GNOME project and helps determine its vision and roadmap. GNOME is an entirely free user environment for desktops, networked servers and portable devices. The architecture and design of GNOME includes a technically advanced development platform and a powerful end-user desktop environment. Major leading software industry and computer manufacturers support the GNOME development effort, which is led by a worldwide community of volunteers and paid developers. More information on GNOME and the GNOME Foundation can be found at <a href="http://www.gnome.org/">www.gnome.org.</a></p>
+<p>Comprised of hundreds of volunteer developers and industry-leading companies, the GNOME Foundation is an organization committed to supporting the advancement of GNOME.  The Foundation is a member directed, non-profit organization that provides financial, organizational and legal support to the GNOME project and helps determine its vision and roadmap.  More information on the GNOME Foundation can be found at <a href="http://foundation.gnome.org">http://foundation.gnome.org/</a></p>
+
+<h3>Press Inquiries</h3>
+<o>Please direct press inquiries to gnome-press-contact@gnome.org.</p>
 
 <p><i>Linux is a trademark of Linus Torvalds.  All other names and trademarks are the property of their respective owners.</i></p>
 
