@@ -32,24 +32,9 @@
     powerful features such as high-quality smooth text rendering and first class
     internationalization and accessibility support, including support for
     bi-directional text.</para>
-    <para>GNOME &version; builds on the successful GNOME 2.0.x releases, with
-    enhanced font rendering using fontconfig and Xft technology, improved
-    usability and theme support and new utilities and
-    applications. GNOME &version; also brings a new multimedia framework,
-      <application>GStreamer</application>, to the desktop.</para>
-    <para>The Desktop and Platform release does not include large applications
-      such as <application>Gnumeric</application>; those are developed in
-      parallel on their own natural release cycle.</para>
-    <para>GNOME is part of the GNU Project, and is <ulink
-    url="http://www.fsf.org/philosophy/free-sw.html">free
-    software</ulink>.</para>
-    </abstract>
-  </articleinfo>
-  
-  <sect1 id="rnintroduction">
-    <title>Introduction</title>
+    
     <para>We spent the six months since the GNOME 2.0 release improving
-    usability, performance and accessibility support. We also added new
+    usability, performance, appearance, and accessibility support. We also added new
     functionality, including new applications, producing a feature-rich
     GNOME 2.2 desktop.</para>
 
@@ -72,12 +57,17 @@
 
     <para>Of course GNOME 2.2 includes all of the improvements made in GNOME 2.0, which you can learn about <ulink url="http://www.gnome.org/start/2.0/releasenotes.html">here</ulink>.</para>
 
-    <para>TODO: [insert stuff from other people here]</para>
-   
-    <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
- */</para>
+    <para>The Desktop and Platform release does not include large applications
+      such as <application>Gnumeric</application>; those are developed in
+      parallel on their own natural release cycle.</para>
 
-  </sect1>
+    <para>GNOME is part of the GNU Project, and is <ulink
+    url="http://www.fsf.org/philosophy/free-sw.html">free
+    software</ulink>.</para>
+
+    </abstract>
+  </articleinfo>
+
 
 <sect1 id="rndesktop">
   &rndesktop;
