@@ -11,17 +11,28 @@
     <title>Introduction</title>
     <para>
 	  GNOME 2 is the newest version of the complete, free and easy-to-use
-	  desktop environment. In addition to basic desktop functionality, it also
-	  includes a powerful application framework for the software developer, 
-	  with support for object embedding, internationalization, accessibility 
-	  and GNOME is part of the <ulink url="http://www.gnu.org/">GNU project</ulink>,
+	  desktop environment. In addition to basic desktop functionality, it 
+	  includes a powerful application framework for software developers, 
+	  with support for object embedding, internationalization and accessibility. 
+	  GNOME is part of the <ulink url="http://www.gnu.org/">GNU project</ulink>,
       and is free software.
+    </para>
+    <para>
+      The GNOME 2 Desktop and Developer platform includes a complete suite of
+      libraries necessary to support GNOME applications. It also includes all
+      the basic utilities for your day-to-day computing, from a simple
+      weather monitor to a powerful file manager.
+    </para>
+    <para>
+      GNOME 2 is compatible with a number of platforms, including GNU/Linux,
+      Solaris, HP-UX, Unix and BSD.
     </para>
   </sect1>
   <sect1>
     <title>What's New in GNOME 2</title>
     <para>
-      GNOME 2 introduces a number of new features to improve both performance
+      The lengthy GNOME 2 development cycle allwed the introduction of a number
+      of features introduces that improve performance
       and usability. It also includes a powerful new framework that can be
       leveraged by developers.
     </para>
@@ -80,7 +91,7 @@
 		</para>
       </sect3>
 	  
-	  <sect3 id="dialogs">
+      <sect3 id="dialogs">
 		<title>Dialogs</title>
 		<para>
 		  <itemizedlist>
@@ -158,13 +169,13 @@
 			</listitem>
 			<listitem>
 			  <para>
-				<application>Control center applets</application> have been 
+				<application>Control center capplets</application> have been 
 				greatly simplified and reduced in number
 			  </para>
 			</listitem>
 			<listitem>
 			  <para>
-				Ever increasing compliance with <ulink url="http://freedesktop.org" type="http">
+				Increasing compliance with <ulink url="http://freedesktop.org" type="http">
 				  freedesktop.org</ulink> standards
 			  </para>
 			</listitem>
@@ -192,7 +203,7 @@
     <sect2 id="performance">
       <title>Performance</title>
       <para>
-		According to users, GNOME 2 exhibits notable performance
+		GNOME 2 exhibits notable performance
 		improvements over its predecessors and some competitors, even on older,
 		slower machines:
 	  </para>
@@ -206,7 +217,7 @@
 			laptop, is a pleasant change).</emphasis>
 		</para>
 		<para>
-		  <emphasis>(And to brag, its a faster than Windows XP on my laptop, 
+		  <emphasis>(And to brag, its faster than Windows XP on my laptop, 
 			too&hellip; XP takes a shine longer to fire up 
 			<application>Explorer</application>, and various other tasks are 
 			slightly faster.)</emphasis>
@@ -216,7 +227,8 @@
 		<title>Mads Villadsen</title>
 		<para>
 		  <emphasis>I run it quite comfortably on a K6-300 with 96MB
-			RAM. Everything feels at least as fast as with GNOME 1.4 - and
+			RAM. Everything feels at least as fast as with GNOME 1.4
+			&mdash; and
 			<application>Nautilus</application> has become really usable as 
 			well. All in all it is pleasure to use :-)</emphasis>
 		</para>
@@ -327,7 +339,7 @@
     <sect2 id="darwin">
       <title>Darwin</title>
       <para>
-		With the latest releases, the GTK family should build cleanly out of 
+		With the latest releases, the GTK family builds cleanly out of 
 		the box. More work is needed to get GNOME running, however. A <ulink
 		  url="http://mail.gnome.org/mailman/listinfo/gnome-darwin-list">
 		  gnome-darwin-list</ulink> has been set up for those interested in 
@@ -335,9 +347,9 @@
       </para>
     </sect2>
     <sect2 id="linux">
-      <title>Linux</title>
+      <title>GNU/Linux</title>
       <para>
-		Building GNOME 2 on Linux requires a number of standard packages
+		Building GNOME 2 on GNU/Linux requires a number of standard packages
 		included with most distributions. Below are listings of the packages as
 		they are named in several of the most common distributions.
 	  </para>
@@ -902,7 +914,7 @@
     <title>Themes</title>
     <para>
       Themes &mdash; changing the look of your desktop &mdash; are a favorite
-      preoccupation for many GNOME users. GNOME2 offers abundant opportunities
+      preoccupation for many GNOME users. GNOME 2 offers abundant opportunities
       to play with themes, including gtk+, the window managers, 
 	  <application>GDM</application>, <application>Nautilus</application>
       and more.
@@ -970,9 +982,9 @@
 	  software, except that with free software, we tell users about them.
     </para>
     <para>
-We also, of course, encourage our users to report bugs so that they
+We also encourage our users to report bugs so that they
 can be fixed. The best way
-to report bugs against GNOME2 is to use the <ulink
+to report bugs found in GNOME 2 is to use the <ulink
 url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug
 Guide</ulink>. The Simple Bug Guide will take you through the
 necessary steps to file a quality bug report, and make sure that it is
@@ -1049,11 +1061,11 @@ meantime, a number of related bugs are filed, including <ulink
     <sect2>
       <title>new mime type handlers are not always visible in nautilus</title>
       <para>
-	    Mime-type handling in GNOME2 is generally much improved
+	    Mime-type handling in GNOME 2 is generally much improved
 		over GNOME1.4. However, when a new mime-type handler
-		is installed in GNOME2, it does not show up correctly
+		is installed in GNOME 2, it does not show up correctly
 		in Nautilus right-click menus. It is hoped that this
-		will be fixed in GNOME2.0.1. Track it at <ulink
+		will be fixed in GNOME 2.0.1. Track it at <ulink
 		url="http://bugzilla.gnome.org/show_bug.cgi?id=75620">bug
 		75620</ulink>.
 	  </para>
