@@ -12,10 +12,9 @@ re-work
 	to move to using <ulink
 				
 url="http://developer.gnome.org/doc/API/gnome-vfs/">gnome-vfs</ulink>, the file system abstraction library and
-	the implementation of a <ulink 
-url="http://www.freedesktop.org">shared
-	vfolder spec</ulink> between GNOME and other
-	desktops for the X Window System. 
+	an implementation of a <ulink 
+url="http://www.freedesktop.org">proposed 
+	vfolder spec</ulink>.
       </para>
       <para>
 	The menus in GNOME are based on a collection of <ulink

@@ -1,3 +1,7 @@
+2002-07-08  Glynn Foster  <glynn.foster@sun.com>
+
+	* 2.x/menuediting.xml: Fix to avoid making incorrect statements.
+
 2002-06-20  Eric Baudais  <baudais@kkpsi.org>
 
 	* 2.x/g2releasenotes.xml: Redid the markup at jfleck's request.
