@@ -28,13 +28,12 @@
 -->
   </para>
   <para>
-    Epiphany uses the simplest interface possible for a
-    browser. Simple does not necessarily mean less powerful. Its
-    design is based on the belief that commonly used browsers of today
-    are too big, buggy, and bloated. Epiphany achieves simplicity by
-    focusing on web browsing, and by tightly integrating with other
-    parts of the GNOME platform, instead of reproducing that
-    functionality in the browser.
+    Developed by a team led by Marco Pesenti Gritti, Epiphany uses the
+    simplest interface possible for a browser. Simple does not necessarily mean
+    less powerful. Its design is based on the belief that commonly used browsers
+    of today are too big, buggy, and bloated. Epiphany achieves simplicity by
+    focusing on web browsing, and by tightly integrating with other parts of the
+    GNOME platform, instead of reproducing that functionality in the browser.
   </para>
   <para>
     Epiphany also works to ensure freedom of choice by being standards

@@ -1,3 +1,13 @@
+2003-09-06 John Fleck <jfleck@inkstain.net>
+      
+	* release-notes.xml
+	* rnepiphany.xml
+        * rni18n.xml
+        * rnnewmaintainers.xml
+      	* rnthanks.xml
+	add various name thanks, and thanks file at 
+	the end
+
 2003-09-06  Jeff Waugh  <jdub@perkypants.org>
 
 	* Fix some Desktop / Developer Platform comments.

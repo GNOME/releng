@@ -159,7 +159,7 @@
     </para>
   </sect1>
 <xi:include href="rnnewmaintainers.xml"/>
-
+<xi:include href="rnthanks.xml"/>
 	    <appendix id="rncredits">
 	      <title>Credits</title>
 	      <para>These release notes were assembled by John Fleck with

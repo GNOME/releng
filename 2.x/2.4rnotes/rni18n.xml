@@ -166,6 +166,12 @@
       </listitem>
     </itemizedlist>
   </para>
+  <para>Especially notable here is the work by Danilo Segan and the other
+  members of the Serbian translation team, along with Dafydd Harries and the
+  Wels team. Both teams have brought their language from an unsupported and
+  virtually untranslated status, to a fully complete status in the short
+  timeframe since the last GNOME release. This means having translated 16642
+  messages in just a few months, which is a most remarkable effort.</para>
   <para>Another 15 languages are partially supported, with more than half of
   their strings translated.</para>
 </sect1>

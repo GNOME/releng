@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4">
+<!ENTITY oldversion "2.2">
+]>
+<appendix>
+  <title>Thanks</title>
+  <para>The GNOMEs who bring you this software are too numerous to mention by
+  name, but in addition to the folks mentioned above, a few contributors deserve
+  special thanks for exceptional contributions toward making this release
+  possible:</para>
+
+  <itemizedlist>
+    <listitem>
+      <para>Dennis Cranston for gnome-search-tool</para>
+    </listitem>
+    <listitem>
+      <para>Mike Newman for his work on the zenity gdialog wrapper</para>
+    </listitem>
+    <listitem>
+      <para></para>
+    </listitem>
+    <listitem>
+      <para></para>
+    </listitem>
+    <listitem>
+      <para></para>
+    </listitem>
+    <listitem>
+      <para></para>
+    </listitem>
+    <listitem>
+      <para></para>
+    </listitem>
+ <listitem>
+      <para></para>
+    </listitem>
+    <listitem>
+      <para></para>
+    </listitem>
+  </itemizedlist>
+</appendix>
