@@ -1,3 +1,9 @@
+2003-06-12  Mark McLoughlin  <mark@skynet.ie>
+
+	* single_module/tools/list_translators.sh: fix buglet
+	where the .po filename is printed instead of just the
+	language code.
+
 2003-06-07  Murray Cumming  <murrayc@usa.net>
 
 	* 2.x/package-list: Removed all sections except Platform and Desktop.
