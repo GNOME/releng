@@ -15,7 +15,7 @@
   <para>The GConf daemon now maintains its locks in /tmp by default which
     means GConf will not attempt to contact a daemon on a remote
     machine if the user is using a shared NFS home directory. To use
-    the old behaviour of maintaining the lock in ~/.gconfd, you can
+    the old behavior of maintaining the lock in ~/.gconfd, you can
     set the GCONF_GLOBAL_LOCKS environment variable.</para>
   <para>gconf_entry_copy(), gconf_entry_ref() and gconf_entry_unref()
     added for memory management of GConfEntry. gconf_entry_free() is
@@ -23,10 +23,37 @@
     <para>A number of options have been added to gconftool:
       <itemizedlist>
 	<listitem>
-	  <para></para>
+	  <para>--dump and --load to allow the dumping and loading of parts of
+        the GConf tree to and from xml. Useful, for making copies of
+        your preferences and such.</para>
+	</listitem>
+	<listitem>
+	  <para>--get-type to find out the type of a key</para>
+	</listitem>
+	<listitem>
+	  <para>--get-list-size and --get-list-element for more fine-grained
+        access to lists.</para>
+	</listitem>
+	<listitem>
+	  <para>--makefile-uninstall-rule to allow schemas to be
+        un-installed.</para>
 	</listitem>
       </itemizedlist>
 
     </para>
+  </sect2>
+  <sect2 id="rngnomevfs">
+    <title>gnome-vfs</title>
+    <para>Gnome-vfs includes a number of improvements that may be of interest to
+    developers. Gconf keys can now be set to not use the proxy settings for
+    some domains/ips. A new uri-scheme, "dav:", has been added,  which behaves
+    essentially the same as "http:" but is preferred for referencing webdav
+    resources, so those uris will open in the right app and not always
+    in the web browser.</para>
+    <para>A new "gnome_vfs_url_show()" function has been added to show a uri
+    with the default handler for it. This replaces gnome_url_show() in libgnome
+    (which now calls the new gnome-vfs function). The new code also looks at the
+    mime type of the file, in addition to special-case handlers for some types
+    of URIs.</para>
   </sect2>
 </sect1>
