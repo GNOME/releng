@@ -3,11 +3,11 @@
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"[
 <!ENTITY g2 "GNOME 2">
 ]>
-<article id="intro">
+<article id="index">
   <articleinfo>
     <title>GNOME2 Release Notes</title>
   </articleinfo>
-  <sect1>
+  <sect1 id="introduction">
     <title>Introduction</title>
     <para>
 	  GNOME 2 is the newest version of the complete, free and easy-to-use
@@ -28,7 +28,7 @@
       Solaris, HP-UX, Unix and BSD.
     </para>
   </sect1>
-  <sect1>
+  <sect1 id="whatsnew">
     <title>What's New in GNOME 2</title>
     <para>
       The lengthy GNOME 2 development cycle allowed the introduction of a number
