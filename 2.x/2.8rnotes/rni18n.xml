@@ -10,8 +10,8 @@
     <para>
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
-    Project</ulink>, under the leadership of Christian Rose, Kjartan Maraas, and Danilo Segan
-    GNOME &version; offers support for 36 languages (at least 80 percent of
+    Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas
+    GNOME &version; offers support for 40 languages (at least 80 percent of
     strings translated).
 
 <!--
@@ -47,6 +47,7 @@
       <!-- 88.89% --><listitem><para>Bulgarian (9 million)</para></listitem>
       <!-- 84.76% --><listitem><para>Catalan (7 million)</para></listitem>
       <!-- 98.79% --><listitem><para>Chinese Simplified (over 1 billion)</para></listitem>
+      <!-- 91.73% --><listitem><para>Chinese Traditional (40 million)</para></listitem>
       <!-- 99.97% --><listitem><para>Czech (11 million)</para></listitem>
       <!-- 98.90% --><listitem><para>Danish (5.3 million)</para></listitem>
       <!-- 99.22% --><listitem><para>Dutch (over 21 million)</para></listitem>
@@ -62,11 +63,13 @@
       <!-- 100.00% --><listitem><para>Japanese (over 125 million)</para></listitem>
       <!-- 91.54% --><listitem><para>Korean (75 million)</para></listitem>
       <!-- 93.20% --><listitem><para>Lithuanian (4 million)</para></listitem>
+      <!-- 80.06% --><listitem><para>Malay (over 17 million)</para></listitem>
       <!-- 94.53% --><listitem><para>Norwegian Bookmal (5 million)</para></listitem>
       <!-- 82.56% --><listitem><para>Norwegian Nynorsk</para></listitem>
       <!-- 100.00% --><listitem><para>Panjabi (60 million)</para></listitem>
       <!-- 100.00% --><listitem><para>Polish (44 million)</para></listitem>
       <!-- 100.00% --><listitem><para>Portuguese (43 million)</para></listitem>
+      <!-- 80.83% --><listitem><para>Romanian (26 million)</para></listitem>
       <!-- 91.24% --><listitem><para>Russian (170 million)</para></listitem>
       <!-- 100.00% --><listitem><para>Serbian (10 million)</para></listitem>
       <!-- 100.00% --><listitem><para>Spanish (over 350 million)</para></listitem>
@@ -74,6 +77,7 @@
       <!-- 99.65% --><listitem><para>Tamil (61 million)</para></listitem>
       <!-- 96.51% --><listitem><para>Turkish (150 million)</para></listitem>
       <!-- 99.99% --><listitem><para>Ukrainian (50 million)</para></listitem>
+      <!-- 85.48% --><listitem><para>Welsh (575,000)</para></listitem>
   </itemizedlist>
   </para>
   
@@ -82,6 +86,6 @@
   thanks to the hard work of their translators. Note that British English
   and Canadian English are also supported.</para>
   
-  <para>Another 12 languages are partially supported, with more than half of
-  their strings translated. Chinese Traditional, Croatian, Malay, Mongolian and Welsh are particularly close to &quot;supported&quot; status.</para>
+  <para>Another 9 languages are partially supported, with more than half of
+  their strings translated. Croatian and Mongolian are particularly close to &quot;supported&quot; status.</para>
 </sect1>
