@@ -20,7 +20,7 @@
       <title>New MIME system</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;gnome-new-mime-system.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-nautilus-context-menu.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Select an application</phrase></textobject>
           </mediaobject>
@@ -34,7 +34,7 @@
       <title>Add a new file handler</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;gnome-vfs-properties-edit-mime.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-nautilus-properties+add-application.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Add an application to the list of handlers</phrase></textobject>
           </mediaobject>
