@@ -24,7 +24,8 @@
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-accessibilityTODO.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The Keyboard Accessibility Status applet, showing that the Shift and Control keys have been pressed.</phrase></textobject>
+        <textobject><phrase>The Keyboard Accessibility Status applet,
+      showing that the Shift and Control keys are latched.</phrase></textobject>
       </mediaobject>
     </screenshot>
   </figure>
