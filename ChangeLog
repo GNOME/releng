@@ -1,3 +1,8 @@
+2001-02-12  Maciej Stachowiak  <mjs@eazel.com>
+
+	* gnome-1.4beta1-versions: ORBit 0.5.7, gnome-media 1.2.0 and
+	esound 0.2.22 were declared ready for 1.4 beta 1 by maintainers.
+
 2001-02-11  Maciej Stachowiak  <mjs@eazel.com>
 
 	* gnome-1.4beta1-versions: gdm 2.0.98 is ready for beta 1.

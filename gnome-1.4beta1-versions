@@ -1,12 +1,12 @@
 Versions of packages for GNOME 1.4 Beta 1
 
-ORBit               
+ORBit               0.5.7
 ammonite            
 audiofile           
 bonobo              
 bug-buddy           
 control-center      
-esound              
+esound              0.2.22
 gconf               
 gdk-pixbuf          
 gdm                 2.0.98
@@ -21,7 +21,7 @@ gnome-core
 gnome-games         
 gnome-guile         
 gnome-libs          
-gnome-media         
+gnome-media         1.2.0         
 gnome-pim           
 gnome-print         0.25
 gnome-python        
