@@ -10,7 +10,7 @@
     <para>
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
-    Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas
+    Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas,
     GNOME &version; offers support for 40 languages (at least 80 percent of
     strings translated).
 
@@ -83,7 +83,7 @@
   
   <para>Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian Nynorsk, Panjabi and Tamil
   are new supported languages in GNOME &version;,
-  thanks to the hard work of their translators. Note that British English
+  thanks to the hard work of their translators. Also worthy of mention is that British English
   and Canadian English are also supported.</para>
   
   <para>Another 9 languages are partially supported, with more than half of
