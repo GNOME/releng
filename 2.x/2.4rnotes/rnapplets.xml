@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY version "2.4">
+]>
+<sect2 id="rnapplets">
+  <title>Applets</title>
+  <para>Maintainer Kevin Vandersloot and his team have done substantial work on
+  the GNOME applets package, one of the core sources of GNOME's functionality. A
+  new Sticky Notes applet by Loban Rahman has been added, and major effort,
+  primarily by Dennis Cranston, has gone into usability to make the applets
+  behavior consistent with GNOME's Human Interface Guidelines.
+<!--    
+    <figure id="rnstickynotes"> 
+        <title>Sticky Notes Applet</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;stickynotes.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Sticky Notes Applet
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+-->
+  </para>
+  <para>Other improvements to the applets include:
+  <itemizedlist>
+      <listitem>
+	<para>Fitts' law complience for the applets. You can now click on the
+	  screen edge to control an applet.</para>
+      </listitem>
+      <listitem>
+	<para>IPv6 support for Modemlights and the Inbox Monitor</para>
+      </listitem>
+      <listitem>
+	<para>You can now edit/add/remove palettes to the character picker and
+	select them from a menu.</para>
+      </listitem>
+      <listitem>
+	<para>Character Palette can now display any UTF8 character.</para>
+      </listitem>
+      <listitem>
+	<para>You can now select which channel to control with the Volume
+	Control.</para>
+    </listitem> 
+  </itemizedlist>
+  </para>
+</sect2>

@@ -10,5 +10,23 @@
   number of improvements to the underlying platform that should be
   appreciated by developers building applications on top of GNOME's powerful
   framework.</para>
-  <para></para>
+  <sect2 id="rngconf">
+    <title>GConf</title>
+  <para>The GConf daemon now maintains its locks in /tmp by default which
+    means GConf will not attempt to contact a daemon on a remote
+    machine if the user is using a shared NFS home directory. To use
+    the old behaviour of maintaining the lock in ~/.gconfd, you can
+    set the GCONF_GLOBAL_LOCKS environment variable.</para>
+  <para>gconf_entry_copy(), gconf_entry_ref() and gconf_entry_unref()
+    added for memory management of GConfEntry. gconf_entry_free() is
+    deprecated.</para>
+    <para>A number of options have been added to gconftool:
+      <itemizedlist>
+	<listitem>
+	  <para></para>
+	</listitem>
+      </itemizedlist>
+
+    </para>
+  </sect2>
 </sect1>

@@ -19,25 +19,75 @@
       <para>Mike Newman for his work on the zenity gdialog wrapper</para>
     </listitem>
     <listitem>
-      <para></para>
+      <para>Bill Haneman and Calumn Benson for Keyboard Accessibility Status
+      applet</para>
     </listitem>
     <listitem>
-      <para></para>
+      <para>Shailesh Mittal for IPv6 support</para>
     </listitem>
     <listitem>
-      <para></para>
+      <para>Irene Ryan, Eugene O'Connor and Pat Costello for
+      documentation work throughout GNOME</para>
     </listitem>
     <listitem>
-      <para></para>
+      <para>Malcolm Tredinnick for settings for "dont-proxy-for-this-domain" in
+      gnome-vfs</para>
     </listitem>
     <listitem>
-      <para></para>
-    </listitem>
- <listitem>
-      <para></para>
+      <para>Frank Worsley for gnome_vfs_url_show suport</para>
     </listitem>
     <listitem>
+      <para>Anders Carlsson - Convert file attributes from stringlists to
+      bitmasks in Nautilus</para>
+    </listitem>
+    <listitem>
+      <para>Glynn Foster - Nicer Nautilus bookmarks dialog</para>
+    </listitem>
+    <listitem>
+      <para>Marco Pesenti Gritti - icon theme throbber support in Nautilus</para>
+    </listitem>
+  <listitem>
+      <para>Frederic Crozat - important Nautilus bugfixes</para>
+    </listitem>
+  <listitem>
+      <para>J&uuml;rg Billeter and Wolfgang Pichler - worked on the multiroot tree
+      sidebar</para>
+    </listitem>
+  <listitem>
+      <para>Soren Sandmann - high-performance model for the Nautilus listview</para>
+    </listitem>
+  <listitem>
+      <para>Johan Dahlin - file size and count for the Nautilus multi-file
+      property dialog</para>
+    </listitem>
+  <listitem>
+      <para>Bastien Nocera for use of the new samba library for smb support in
+      gnome-vfs-extras</para>
+    </listitem>
+  <listitem>
+      <para>Bastien Nocera for DVD burning and other goodness in
+      nautilus-cd-burner</para>
+    </listitem>
+  <listitem>
+      <para>Ross Burton for write to cd context menu, bugfixes in
+      nautilus-cd-burner</para>
+    </listitem>
+  <listitem>
+      <para>Bob Doan for cdrw blanking support in nautilus-cd-burner</para>
+    </listitem>
+  <listitem>
       <para></para>
     </listitem>
+  <listitem>
+      <para></para>
+    </listitem>
+  <listitem>
+      <para></para>
+    </listitem>
+  <listitem>
+      <para></para>
+    </listitem>
+  
   </itemizedlist>
+
 </appendix>
