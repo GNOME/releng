@@ -99,8 +99,62 @@ Implementing session management
 ##############################################################################################
 ## gnome-core 
 ##############################################################################################
-#<application name="gnome-core" authors="george,jacob,mark,glynn,alex" link="">
-#</application>
+<application name="gnome-core" authors="jirka@5z.com, jacob@ximian.com, mark@skynet.ie, glynn.foster@sun.com, alexl@redhat.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-core/panel/TODO&rev=&root=/cvs/gnome">
+<item done="no">
+Fix up schema files for panels on small, medium and large screens according to the
+Usability Team's wishes [don't know what they are yet].
+</item>
+<item done="no">
+Create schema files for panel items on small, medium and large screens according to  Nils Pedersen's proposal.
+</item>
+<item done="no">
+Implement default and user-defined panel names, to aid accessibility.
+</item>
+<item done="no">
+Implement a New/Delete/Edit panel profile dialog.
+</item>
+<item done="no">
+Implement gconf notifies on all profile gconf keys so that if another panel instance
+is running the same profile, then changing one setup will result in changing the other.
+</item>
+<item done="no">
+Make all panel configuration saving instant apply, and remove the need for panel timeouts.
+</item>
+<item done="no">
+Check that session manager is handling the saving of panel sessions with --profile=some_profile properly.
+</item>
+<item done="no">
+Move all the construct/new functions in panel code to less arguments and gobject properties.
+</item>
+<item done="no">
+Fix libpanel_applet so that pixmap backgrounds work.
+</item>
+<item done="no">
+Size negotiation for applets. Basically make sure this works. It should be no
+different than the usual GtkWidget size request/allocation. The
+applets shouldn't be allowed to be any bigger than the panel. The
+other issue is with applets that want to expand to fill the available
+space on the panel. At the moment this is solved with getExpandFlags,
+but this ends up with some freaky stuff going on when you're moving
+applets. Maybe we should consider having a re-sizable flag which would          
+make the applets have grabs for re-sizing.
+</item>
+<item done="no">
+Middle mouse button dragging doesn't seem to work for some reason. The          
+button presses are being forwarded in BonoboPlug so its is some other
+issue. Effects out of process applets.
+</item>
+<item done="no">
+libpanel_applet leaks like a three week old baby.
+</item>
+<item done="no">
+The popup menu for applets doesn't appear outside of the panel. Use
+bonobo_control_do_popup_full.
+</item>
+<item done="no">
+We need a replacement for the "Applet Died - Reload ?" dialog box.
+</item>
+</application>
 
 ##############################################################################################
 ## glade 
