@@ -10,6 +10,7 @@
 <!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
 <!ENTITY rnterminal SYSTEM "rnterminal.xml">
 <!ENTITY rnmultihead SYSTEM "rnmultihead.xml">
+<!ENTITY rnthemes SYSTEM "rnthemes.xml">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
@@ -58,6 +59,7 @@
   &rndesktop;
   &rnpanel;
   &rnmultimedia;
+  &rnthemes;
   &rngnomeutils;
   &rnfileroller;
   &rnmultimediakeys;
@@ -497,17 +499,6 @@ gnome2-user-docs
       downloads the tarballs from a specified location and builds them for
       you. To find out more information visit the GARNOME web page.</para>
     </sect2>
-  </sect1>
-
-
-  <sect1 id="themes">
-    <title>Themes</title>
-    <para>TODO: I think we a) either dump this section and move it into the 
-      'What's new' section above' or b) mention the new theme selector
-      in the 'What's new' section and leave this section for explaining the
-      great work that Jonathan and Seth and Jody have done. I'm thinking perhaps
-    b) might be quite nice, with references to http://art.gnome.org.
- </para>
   </sect1>
 
 

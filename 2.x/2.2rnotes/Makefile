@@ -2,7 +2,7 @@ DOCBOOK_STYLESHEET ?= http://docbook.sourceforge.net/release/xsl/current/html/ch
 
 docbook_sources = release-notes.xml  rnfileroller.xml rngnomeutilities.xml \
                   rndesktop.xml rnpanel.xml rnterminal.xml \
-                  rnmultihead.xml rnmultimedia.xml rnmultimediakeys.xml
+                  rnmultihead.xml rnmultimedia.xml rnmultimediakeys.xml rnthemes.xml
 
 html: html/index.html
 
