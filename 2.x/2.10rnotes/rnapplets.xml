@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.8">
+]>
+<sect2 id="rnapplets">
+  <title>Panel Applets</title>
+
+  <para>GNOME &version; offers a clearer way to choose panel applets. This replaces the previous hierarchical menu.
+  <figure id="rnscreenshot-panel-add">
+    <title>The panel - choosing an applet</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-add-to-panel.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The panel - choosing an applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+ 
+  <sect3 id="rnapplets-clock">
+  <title>Calendar Integration</title>
+  <para>
+   Never miss another appointment. The calendar view, available by clicking
+   on the clock, now connects to Evolution to show your calendar and tasks.
+
+   <figure id="rnscreenshot-panel-applet-clock">
+    <title>The clock, showing the GNOME release date</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-clock+calendar.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The clock, showing the GNOME release date.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+   
+  </para>
+  </sect3>
+
+  <sect3 id="rnapplets-network-monitor">
+  <title>Network Monitor</title>
+
+  <para>
+  The network monitor has been improved and now has support for wireless
+  interfaces, showing signal strength in the properties dialog and on the panel.
+
+  <figure id="rnscreenshot-panel-applet-networkmonitor">
+    <title>Network Monitor - wireless connection</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-netstatus.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The Network Monitor panel applet, showing a wireless connection.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+  </sect3>
+
+  <sect3 id="rnapplets-battery-applet">
+  <title>Battery Support</title>
+
+  <para>
+   The battery monitor has been improved dramatically. It now estimates the time remaining as well as the remaining battery capacity.
+   In addition, the low battery warning is now more
+   visible, more informative and vanishes automatically when you plug your laptop back in.
+  
+   <figure id="rnscreenshot-panel-applet-batterymonitor">
+    <title>Battery Monitor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-battstat-applet.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The battery monitor applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  
+  </para>
+  </sect3>
+
+  <sect3 id="rnapplets-weather-applet">
+  <title>Weather Alerts</title>
+  <para>
+   The weather applet now has more locations than ever before. As well as
+   support for the new United Kingdom weather forecasts.
+
+   <figure id="rnscreenshot-panel-applet-weather">
+    <title>Weather Report</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-weather-report.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The weather report applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+   
+  </para>
+  </sect3>
+
+</sect2>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.8">
+]>
+<sect2 id="rnhelp">
+
+    <title>System Administration</title>
+    
+    <para>
+    Based on feedback from system administrators, GNOME &version; provides several new features to make their lives easier. 
+    </para>
+
+    <sect3 id="rnsysadmin-vino">
+    <title>Remote Desktop - VNC server</title>
+
+    <para>GNOME &version; now includes a VNC (virtual network computing) server, allowing remote control of a user's desktop. For instance, a system administrator could control the user's applications, to make changes, or to just demonstrate how to perform tasks.</para>
+
+    <para>The new Remote Desktop Preferences control panel lets users choose how much control should be allowed.
+
+    <figure id="rnscreenshot-sysadmin-vncserver-preferences">
+      <title>Remote Desktop Preferences</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-vino-settings.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Remote Desktop Preferences control panel.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    </sect3>
+
+    <sect3 id="rnsysadmin-systemtools">
+    <title>System Tools</title>
+
+    <para>
+    The new system tools allow you to configure your system clock and your network connection, as well as manage the users and groups on your system. Previously, most Linux/*BSD/UNIX distributors provided their own tools, all with their own problems. The GNOME developers hope that they will work together on these unified tools to provide a consistent and reliable solution.</para>
+    <para>At present, these system tools are most appropriate for single computers rather than large networks of computers.</para>
+
+    <para>
+    <figure id="rnscreenshot-sysadmin-systemtools">
+      <title>The Clock, Network, and Users/Groups tools</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-system-tools.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Clock, Network, and Users/Groups tools.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    </sect3>
+
+    <sect3 id="rnsysadmin-networktools">
+    <title>Network Tools</title>
+
+    <para>
+    The new network tools allow users to provide diagnostic information to system administrators when they have problems with their network connection or with certain network services. Although the same functionality is available from the command-line, we think that system administrators will find it much easier to guide users through the simpler user interface of the network tools.
+    <figure id="rnscreenshot-sysadmin-networktools">
+      <title>A selection of tools for network diagnostics</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-nettool.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Clock, Network, and Users/Groups tools.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    </sect3>
+
+    <sect3 id="rnsysadmin-gconfeditor">
+    <title>Configuration Editor</title>
+
+    <para>
+    The configuration editor has the following new features:
+    <itemizedlist>
+      <listitem><para>Search the configuration database for a particular key, value, or description.</para></listitem>
+      <listitem><para>Edit default and mandatory values.</para></listitem>
+      <listitem><para>See recently-modified keys, in case you need to change their values again.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-sysadmin-gconfeditor">
+      <title>Configuration Editor - searching</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-gconf-editor-search.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>Configuration Editor - searching.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    </sect3>
+   
+   
+</sect2>

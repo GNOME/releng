@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<title>GNOME press releases</title>
+<meta name="cvsdate" content="$Id$" />
+</head>
+
+<body>
+
+<h1>GNOME 2.8 DESKTOP AND DEVELOPER PLATFORM UNVEILED</h1>
+
+<p><center><i>New version of the popular, multi-platform desktop environment offers greater ease, speed and convenience.</i></center></p>
+
+<p>BOSTON, Mass - September 15, 2004 - The GNOME Foundation today released the latest version of the GNOME Desktop and Developer Platform. Version 2.8 adds greater usability, speed and better internationalization to the desktop environment. </p>
+
+<p>"Once again, GNOME has delivered more features and usability, on a predictable schedule," said Nat Friedman, GNOME Foundation Chairman. "GNOME 2.8 provides a comfortable environment in which users can achieve their everyday goals."</p>
+
+<p>Users can look forward to:</p>
+<ul>
+<li>Automatic detection of removable devices.</li>
+<li>Automatic detection of local servers.</li>
+<li>The Evolution email client, calendar, and address book.</li>
+<li>Improved internationalization support.  GNOME 2.8 fully supports 40 languages, with improved support for an additional 50+.   </li>
+</ul>
+
+<p>System Administrators will welcome:</p>
+<ul>
+<li>Remote control of users' desktops via the VNC server.</li>
+<li>Network tools that allow users to provide diagnostic information.</li>
+</ul>
+
+<p>Developers will see:</p>
+<ul>
+<li>Incremental backwards-compatible API additions.</li>
+<li>The ability to develop GNOME software in C++, Java, Perl, and Python, as well as C.</li>
+</ul>
+
+<p>"This release demonstrates GNOME's major steps toward 'just works' hardware
+support, system configuration and deep collaboration integration", said Jeff
+Waugh, GNOME Release Team Manager. "These features will have immediate value for our users, and long-term value for application developers who will be
+able to integrate important user data such as contacts and calendaring into
+their applications." </p>
+
+<p>GNOME is supported on a variety of platforms, including GNU/Linux (more commonly referred to as Linux), Solaris&tm; Operating Environment, HP-UX, Unix, BSD and Apple's Darwin. GNOME is distributed as part of their offerings by leading Linux distributions worldwide. </p>
+
+<h3>Availability</h3>
+<p>GNOME 2.8 will soon be available via popular Linux distributions as part of their offerings.</p>
+
+<p>Developers, system administrators and advanced users wishing to install the GNOME 2.8 Desktop and Developer Platform now may freely download the software at <a href="http://www.gnome.org/">www.gnome.org</a>. The software includes the GNOME 2.8 desktop interface, file manager, menus and utilities, as well as the complete set of development tools and libraries.</p>
+
+<h3>About GNOME</h3>
+<p>GNOME is a free software project that is continuing to develop a complete, easy to use desktop for use on a variety of platforms. The GNOME desktop is used by millions of people around the world. More than 500 software developers from every corner of the globe, including more than 100 full-time, paid developers, contribute their time and effort to the project.</p>
+
+<h3>About the GNOME Foundation</h3>
+<p>Comprised of hundreds of volunteer developers and industry-leading companies, the GNOME Foundation is an organization committed to supporting the advancement of GNOME. The Foundation is a member directed, non-profit organization that provides financial, organizational and legal support to the GNOME project and helps determine its vision and roadmap. GNOME is an entirely free user environment for desktops, networked servers and portable devices. The architecture and design of GNOME includes a technically advanced development platform and a powerful end-user desktop environment. Major leading software industry and computer manufacturers support the GNOME development effort, which is led by a worldwide community of volunteers and paid developers. More information on GNOME and the GNOME Foundation can be found at <a href="http://www.gnome.org/">www.gnome.org.</a></p>
+
+<p><i>Linux is a trademark of Linus Torvalds.  All other names and trademarks are the property of their respective owners.</i></p>
+
+</body>
+</html>

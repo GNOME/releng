@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.8">
+]>
+  <sect2 id="rncontrolcenter">
+  <title>Control Center</title>
+
+  <sect3 id="rn-controlcenter-keyboard">
+  <title>Keyboard Layouts</title>
+
+    <para>The Keyboard control panel can now show an on-screen preview of each keyboard layout. Just press the key on your keyboard to see how it will be recognised with the layout.
+
+    <figure id="rnscreenshot-controlpanel-keyboardlayouts">
+      <title>Keyboard Preferences - Layouts</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-keyboard-properties+layout.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel, with a layout preview.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+</sect2>
