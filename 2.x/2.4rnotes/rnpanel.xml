@@ -1,0 +1,76 @@
+
+    <title>Panel</title>
+    <para>The panel can now be themed along with the rest of the desktop, using GNOME's new icon theming, which allows all applications (including the panel, file manager, and others) to share icons for commonly used concepts like folders, file types, and directional arrows.</para>
+
+    <para>Here are a few of the more significant GNOME panel improvements:</para>
+
+    <sect3><title>Show Desktop</title>
+    <para>
+    When the icons on your desktop are hidden by too many open windows, you can now quickly hide them and then bring them all back again by clicking the "Show Desktop" button in the panel, or using the ctl+alt+d keyboard shortcut.
+    </para>
+
+<figure>
+  <title>Show Desktop</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_show_desktop.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+    <sect3><title>Search For Files</title>
+    <para>As before, you can quickly find files via the Actions menu. Now it has an improved user interface and better integration with the file manager, so you can drag and drop files from the results window. And, like the file manager, it can open files with the appropriate applications.
+    </para>
+
+<figure>
+  <title>Search For Files</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_action_search.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+    <sect3><title>Open Recent</title>
+    <para>
+    The Actions menu now lists the last few files that you have opened. Just select the file to open it with the appropriate application. Other applications, like gedit, also share this functionality with the panel, and more applications will pick this up in future releases.
+    </para>
+
+<figure>
+  <title>Open Recent</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_action_open_recent.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+  <sect3><title>Notification Area</title>
+    <para>
+    The panel now has a notification-area which applications such as instant messengers can use to inform you of significant events.
+    </para>
+
+<figure>
+  <title>Notification Area</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_notification_area.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+   
+<sect3><title>Wireless Link Monitor</title>
+    <para>
+    A new Wireless Link Monitor applet has been added. This shows the strength of your wireless network connection.
+    </para>
+
+<figure>
+  <title>Wireless Link</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_wireless.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
+

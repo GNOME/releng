@@ -1,0 +1,85 @@
+
+    <title>Desktop</title>
+    <para></para>
+
+    <sect3><title>The File Manager</title>
+    <para>
+    The user interface of Nautilus, the GNOME file manager, has undergone a
+    significant overhaul since the release of GNOME 2.0, making it easier to use
+    and more powerfully integrated with the rest of the desktop and applications.
+    </para>
+<!--
+      <sect4><title>Network Servers</title>
+
+      <para>TODO</para>
+
+      </sect4>
+
+-->
+      <sect4><title>Context menu plug-ins</title>
+      
+
+<figure>
+  <title>Context Menu</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_context_menu_plugin.png"/>
+  </screenshot>
+</figure>
+      <para>Context-sensitive menus can now link the file manager to functions
+      performed by other applications. In this illustration, Fileroller, our new
+      archive-handling application, has added menu items when you right-click
+      on an archive.</para>
+</sect4>
+
+      <sect4><title>Property tab plug-ins.</title>
+
+<figure>
+  <title>Property Page - Audio</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_audio.png"/>
+  </screenshot>
+</figure>
+<figure>
+  <title>Property Page - Image</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_image.png"/>
+  </screenshot>
+</figure>
+
+      <para>The file manager's properties dialog now shows custom tabs for special
+      file formats, such as images or media files. For instance, you can see the
+      dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
+
+      </sect4>
+
+      <sect4><title>Improved Preferences dialog</title>
+      
+<para>
+<figure>
+  <title>File Manager Preferences</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_preferences.png"/>
+  </screenshot>
+</figure>
+</para>
+      <para>The new file manager preferences dialog illustrates the GNOME design
+      philosophy: clean, simple and usable.</para>
+
+     <para>User interface improvements such as this are thanks partly to increasing use of the GNOME <ulink url="http://developer.gnome.org/projects/gup/hig/">Human Interface Guidelines</ulink>. The HIG had its 1.0 release during the GNOME &version; release process, and as a result, the GNOME Desktop is now easier to use and easier to learn than ever.</para>
+
+      </sect4>
+</sect3>
+      
+ 
+    <sect3><title>Startup Notification</title> <para>GNOME can now
+    show that an application is starting, so you don't feel the need
+    to click a second time. For instance, if the application supports
+    it, the cursor may change to a clock while the application starts
+    if the application supports startup notification. Unlike some past
+    attempts at UNIX startup notification, the new standard is
+    reliable and robust, in keeping with the GNOME philosophy of
+    things that "just work."
+    </para>
+    
+
+    </sect3>

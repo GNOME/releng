@@ -1,0 +1,114 @@
+
+    <title>Metacity Window Manager</title>
+
+    <para>
+  GNOME 2.2 officially incorporates the Metacity window manager, a fully 
+  integrated window manager that uses GTK+ for UI elements, communicates 
+  tightly with the panel and other desktop elements, and is configured straight
+  from the GNOME preferences dialogs.
+    </para>
+
+    <para>
+  At the same time, all interaction between the window manager and the desktop 
+  is done via documented standards (see <xref linkend="rnstandards"/>), 
+  so you can substitute the window manager of your choice from a long 
+  list of available options: Sawfish, fvwm2, icewm, Waimea, Openbox, 
+  are just some of them.
+    </para>
+
+    <para>
+  Early versions of Metacity were in wide use a month or two after GNOME 2.0, 
+  so many people will already be familiar with its basic features:
+</para>
+  <itemizedlist>
+    <listitem>
+      <para>
+        Does not expose the concept of "window manager" to the user. 
+        For example, keybindings are configured in the GNOME 
+        "Keybindings" dialog, theme is configured in the GNOME 
+        "Theme" dialog.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Simple XML theme format is designed to allow a single theme
+        to work with large and small font sizes, button reordering, 
+        and other user preferences. No more editing the theme 
+        to change your preferences.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Like all of GNOME, full keyboard navigation, including navigation to the
+        panel and the desktop background.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Inherits the standard GTK+ internationalization support.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Uses GTK+ to draw window frames, tracking colors, fonts, and so forth
+        from the GTK+ theme. (Colors may not be tracked by all Metacity themes,
+        but any Metacity theme can choose to do so.)
+      </para>
+    </listitem>
+  </itemizedlist>
+    
+
+    <para>
+  Some new features that may not be in the version of Metacity you've
+  tried before:
+</para>
+  <itemizedlist>
+    <listitem>
+      <para>
+        Themeable icons in the window menu.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Handles dynamic resolution changes via Xrandr extension.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Supports keybindings with &lt;Super&gt;, &lt;Hyper&gt; and &lt;Meta&gt; 
+        keys. (Including Windows logo key.)
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Supports stay-on-top and stay-below hints.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Allows window buttons to be rearranged (close button on left, etc.), 
+        as a user preference, not part of the theme.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Better multihead support.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Startup notification support.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Numerous performance optimizations, especially for high-latency 
+        connections.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Numerous bug fixes and behavior tweaks.
+      </para>
+    </listitem>
+  </itemizedlist>

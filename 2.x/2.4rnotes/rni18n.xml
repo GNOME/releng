@@ -1,0 +1,15 @@
+
+    <title>Internationalization</title>
+
+    <para>
+  Due to GNOME's strict string freeze policy leading up to the release,
+  the <ulink url="http://developer.gnome.org/projects/gtp/">GNOME Translation Project</ulink> was able to translate 100 percent of strings for 14 languages by release time, and 
+  nearly 100 percent for 12 more.  The string freeze will continue on the 
+  2.2 branch, so more and more translations will be completed in the coming weeks.
+    </para>
+   
+    <para>
+  In this release, GTK+ 2.2 has improved support for right-to-left 
+  languages, and support for OpenType Indic fonts, adding to the excellent 
+  internationalization support already available in GTK+ 2.0.
+    </para>
