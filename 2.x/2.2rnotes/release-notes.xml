@@ -9,7 +9,7 @@
 <!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
 <!ENTITY rngnomeapplets SYSTEM "rngnomeapplets.xml">
 <!ENTITY rnmultihead SYSTEM "rnmultihead.xml">
-<!ENTITY url_figures_base "../figures/"> 
+<!ENTITY urlfiguresbase "../figures/">
 ]>
 
 <article>
@@ -514,9 +514,9 @@ gnome2-user-docs
     <title>Known Issues</title>
     <para>All software, when it is released, contains bugs the developers know about but have elected, for a variety of reasons, not to fix before releasing. Free software is no different in this regard from proprietary software, except that with free software, we tell users about them.</para>
 
-    <para>We also encourage our users to report bugs so that they can be fixed. The best way to report bugs found in GNOME is to use the <ulink href="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug Guide</ulink>. This will take you through the necessary steps to file a quality bug report, and make sure that it is tagged appropriately. If you're too advanced for anything with the word 'simple' in it, there is also the <ulink href="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug form</ulink>.
+    <para>We also encourage our users to report bugs so that they can be fixed. The best way to report bugs found in GNOME is to use the <ulink url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug Guide</ulink>. This will take you through the necessary steps to file a quality bug report, and make sure that it is tagged appropriately. If you're too advanced for anything with the word 'simple' in it, there is also the <ulink url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug form</ulink>.
 
-More details on bugs already reported can be found at our <ulink href="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version; bugs:</para>
+More details on bugs already reported can be found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version; bugs:</para>
 
     <sect2><title>TODO something</title>
     <para></para>
@@ -569,13 +569,13 @@ accessibility, usability and internationalization.
       As a user, your contribution can be as simple as filing good bug reports 
       against the GNOME Desktop and Developer Platform. You can file bugs
       in our Bugzilla using the simple bug assistant. If you feel that you would like
-      to contribute more, then perhaps think about joining our active <ulink href="http://developer.gnome.org/projects/bugsquad/">bug-squad</ulink>.
+      to contribute more, then perhaps think about joining our active <ulink url="http://developer.gnome.org/projects/bugsquad/">bug-squad</ulink>.
     </para>
     <para>
       From a developer aspect, there is much exciting progress to be made in any
       of our active developer groups - Accessibility, Documentation, Usability,
       Translation, Web, Testing, Graphics and Destkop &amp; Platform Development. Many of these
-      sub-projects have web pages on <ulink href="http://developer.gnome.org/projects/">developer.gnome.org</ulink>. Choosing a role that suits you may be difficult at first, but here is a guide
+      sub-projects have web pages on <ulink url="http://developer.gnome.org/projects/">developer.gnome.org</ulink>. Choosing a role that suits you may be difficult at first, but here is a guide
       to help you make your decision [TODO: link to joining-gnome].
     </para>
     <para>
