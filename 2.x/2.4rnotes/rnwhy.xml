@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 <sect1>
@@ -97,21 +97,20 @@
       <title>Licensing.</title>
       
         <para>
-          All GNOME libraries are licensed under the <ulink
-          url="http://www.gnu.org/copyleft/lgpl.html">LGPL</ulink>, so
-          developing for the GNOME platform is 100% free of license
+          All GNOME platform libraries are licensed under the <ulink
+          url="http://www.gnu.org/copyleft/lgpl.html">LGPL</ulink> or similar
+          license, so developing for the GNOME platform is 100% free of license
           fees, both for developers of Free and proprietary software.
         </para>
       
     </sect2>
     <sect2>
-      <title>Support.</title>
+      <title>Support</title>
       
         <para>
           Active contributors to GNOME &version; development include Red Hat,
           Sun Microsystems, Ximian, and Mandrake, all established
-          experts who can help with your enterprise UNIX or Linux
-          deployment.
+          experts who can help with your UNIX or Linux deployment.
         </para>
       
     </sect2>
