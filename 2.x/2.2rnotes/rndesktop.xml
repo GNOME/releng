@@ -65,19 +65,18 @@
       <para>The new file manager preferences dialog illustrates the GNOME design
       philosophy: clean, simple and usable.</para>
 
-     <para>User interface improvements such as this are thanks partly to increasing use of the GNOME <ulink url="http://developer.gnome.org/projects/gup/hig/">Human Interface Guidelines</ulink>.</para>
+     <para>User interface improvements such as this are thanks partly to increasing use of the GNOME <ulink url="http://developer.gnome.org/projects/gup/hig/">Human Interface Guidelines</ulink>. The HIG had its 1.0 release during the GNOME &version; release process, and as a result, the GNOME Desktop is now easier to use and easier to learn than ever.</para>
 
       </sect4>
 </sect3>
       
  
-    <sect3><title>Startup Notification</title>
-    <para>GNOME can now show that an application is starting, so you don't feel the need 
-    to click a second time. For instance, the cursor may change to a clock while the 
-    application starts.
+    <sect3><title>Startup Notification</title> <para>GNOME can now
+    show that an application is starting, so you don't feel the need
+    to click a second time. For instance, the cursor may change to a
+    clock while the application starts if the application supports
+    startup notification.
     </para>
     
 
     </sect3>
-   
- 
