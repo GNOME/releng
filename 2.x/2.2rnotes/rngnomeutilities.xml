@@ -19,14 +19,6 @@ later this year.</para>
 
   </sect3>
 
-  <sect3><title>Search For Files</title>
-    <para>The Search for Files dialog has undergone several changes that add to
-the overall usability and feel of the utility. It now allows you to drag and
-drop files from the search results pane. With the addition of adding icon theme
-and handling the file manager MIME types, this utility is very much more
-integrated with the desktop. TODO: link to the mention in the Panel section.</para>
-
-  </sect3>
 <!--
     <para>TODO: This isn't really a user-visible feature. murrayc: We have brought back 'gdialog', the Gtk/GNOME version of the dialog
 utility. This utility is useful for using with scripts, in particular Nautilus

@@ -9,3 +9,5 @@
   Xinerama and multiple screens in major desktop components
   such as the file manager, window manager, and panel.
   </para>
+
+  <para>For instance, if you launch an application from a particular screen, it will now appear on that screen.</para>

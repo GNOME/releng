@@ -5,8 +5,8 @@
     <sect2><title>The File Manager</title>
     <para>
     The user interface of Nautilus, the GNOME file manager, has undergone a
-    significant overhaul since the release of GNOME 2.0 to make it easier to use
-    and more powerfully integrated with the rest of the desktop and applications.:
+    significant overhaul since the release of GNOME 2.0, making it easier to use
+    and more powerfully integrated with the rest of the desktop and applications.
     </para>
 
       <sect3><title>Context menu plug-ins</title>
@@ -43,9 +43,6 @@
       file formats, such as images or media files. For instance, you can see the
       dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
 
-
-
-
       </sect3>
 
       <sect3><title>Improved Preferences dialog</title>
@@ -58,16 +55,15 @@
   </screenshot>
 </figure>
 </para>
-<para>The new file manager preferences dialog illustrates the GNOME design
+      <para>The new file manager preferences dialog illustrates the GNOME design
       philosophy: clean, simple and usable.</para>
+
+     <para>User interface improvements such as this are thanks partly to increasing use of the GNOME <ulink url="http://developer.gnome.org/projects/gup/hig/">Human Interface Guidelines</ulink>.</para>
+
       </sect3>
 </sect2>
-      <sect2><title>Multi-head support</title>
-      <para>Like the rest of GNOME 2.2, Nautilus is now multi-head aware. For instance, if you launch an application from a particular screen, it will now appear on that screen.</para>
-      </sect2>
-    
-    
-
+      
+ 
     <sect2><title>Startup Notification</title>
     <para>GNOME can now show that an application is starting, so you don't feel the need 
     to click a second time. For instance, the cursor may change to a clock while the 

@@ -1,6 +1,6 @@
 
     <title>Panel</title>
-    <para>The panel can now be themed along with the rest of the desktop, including icon theming. And like the rest of GNOME 2.2, it supports multi-head systems.</para>
+    <para>The panel can now be themed along with the rest of the desktop, including icon theming.</para>
 
     <para>Here are a few of the more significant GNOME panel improvements:</para>
 
@@ -18,22 +18,8 @@
 
     </sect2>
 
-    <sect2><title>Run Program</title>
-    <para>
-    To launch an application that is not already in your panel's menu you can now select, or type, its name in the "Run Program" dialog box. This is much simpler than opening a terminal window, typing the name and closing thee terminal.
-    </para>
-
-<figure>
-  <title>Run Program</title>
-  <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;panel_action_run_program.png"/>
-  </screenshot>
-</figure>
-
-    </sect2>
-
     <sect2><title>Search For Files</title>
-    <para>You can now quickly find files via the Actions menu.
+    <para>As before, you can now quickly find files via the Actions menu. Now it has an improved user interface and better integration with the file manager, so you can drag and drop files from the results window. And, like the file manager, it can open files with the appropriate applications.
     </para>
 
 <figure>

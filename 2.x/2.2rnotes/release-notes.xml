@@ -542,12 +542,12 @@ gnome2-user-docs
     </sect2>
 
     <sect2 id="rngarnome">
-      <title>Garnome</title>
+      <title>GARNOME</title>
       <para>If you do not wish to go through the proccess of manually building
       each module yourself,  then you might consider using GARNOME, a GNOME
       distribution based on the GAR ports system. GARNOME automatically
       downloads the tarballs from a specified location and builds them for
-      you. To find out more information visit the GARNOME web page.</para>
+      you. To find out more information visit the <ulink url="http://www.gnome.org/~jdub/garnome/">GARNOME web page</ulink>.</para>
     </sect2>
   </sect1>
 
