@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 2.10rnotes HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: (null)\n"
-"PO-Revision-Date: 2005-03-12 21:55+0700\n"
+"PO-Revision-Date: 2005-03-12 22:18+0700\n"
 "Last-Translator: Ahmad Riza H Nst <ari@160c.afraid.org>\n"
 "Language-Team: Indonesian <sukarelawan@gnome.linux.or.id>\n"
 "MIME-Version: 1.0\n"
@@ -1109,7 +1109,7 @@ msgstr ""
 "Belajar bagaimana menggunakan GNOME dengan Panduan Pengguna Desktop. Panduan "
 "Pengguna dan dokumentasi yang lain, termasuk panduan untuk sistem "
 "administrasi dan fasilitas aksesibilitas GNOME, dapat ditemukan di "
-"<ulink·url=\"http://www.gnome.org/learn/\">halaman belajar GNOME</ulink>."
+"<ulink url=\"http://www.gnome.org/learn/\">halaman belajar GNOME</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
