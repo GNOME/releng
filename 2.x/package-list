@@ -27,14 +27,14 @@ libart_lgpl		=		2.3.8		-			Raph Levien <raph@acm.org>
 libbonobo		=		1.110.0		frozen			Michael Meeks <michael@ximian.com>
 libbonoboui		=		1.110.0		frozen			Michael Meeks <michael@ximian.com>
 libghttp		gnome-http	1.0.9		* to remove if better method found	Justin Maurer <justin@slashdot.org>
-libglade		=		1.99.6		frozen			James Henstridge <james@daa.com.au>
+libglade		=		1.99.7		frozen			James Henstridge <james@daa.com.au>
 libgnome		=		1.110.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomecanvas		=		1.110.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.110.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeprintui		=		1.110.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeui		=		1.110.0		frozen			Anders Carlsson <andersca@gnu.org>
-libxml2			gnome-xml	2.4.13		frozen			Daniel Veillard <veillard@redhat.com>
-libxslt			=		1.0.10		frozen			Daniel Veillard <veillard@redhat.com>
+libxml2			gnome-xml	2.4.14		frozen			Daniel Veillard <veillard@redhat.com>
+libxslt			=		1.0.11		frozen			Daniel Veillard <veillard@redhat.com>
 linc			=		0.1.16		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.24		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.10.0		frozen			Havoc Pennington <hp@redhat.com>
@@ -51,7 +51,7 @@ control-center		=		1.99.2		-			Richard Hestilow <hestilow@ximian.com>
 gnome-core		=		1.5.5		see Desktop Core section		-
 gnome-games		=		1.90.1		mostly ported, minor issues		Juan Pablo Mendoza <jpablo@gnome.org>
 gnome-media		=		1.112.0		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
-gnome-system-monitor	procman		1.1.2		ported			Kevin Vandersloot <kfv101@psu.edu>
+gnome-system-monitor	procman		1.1.3		ported			Kevin Vandersloot <kfv101@psu.edu>
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
 gnome-utils		=		1.98.0		see Desktop Utils section		-
 libgail-gnome		-		0.4		-			-
@@ -62,6 +62,8 @@ libwnck			=		0.2		new			Havoc Pennington <hp@redhat.com>
 libzvt			=		1.110.0		ported, accessibility issues	Jacob Berkman <jacob@ximian.com>
 metatheme		=		0.9.2		new/porting from ximian		Richard Hestilow <hestilow@ximian.com>
 nautilus		=		1.1.3		much porting work going on	Darin Adler <darin@bentspoon.com>
+nautilus-gtkhtml	=		-		-			-
+nautilus-mozilla	=		1.1.2		-			-
 rep			librep		-		-			John Harper <jsh@pixelslut.com>
 rep-gtk			=		-		mostly ported		John Harper <jsh@pixelslut.com>
 sawfish			=		-		see rep-gtk		John Harper <jsh@pixelslut.com>
@@ -70,7 +72,7 @@ yelp			=		0.1		new			Mikael Hallendal <micke@codefactory.se>
 </section>
 
 <section title="Desktop Core (gnome-core)" cvsbase="gnome-core">
-gnome-applets		applets		1.91.1		see Desktop Applets	-
+gnome-applets		applets		1.91.1		see Desktop Applets	Kevin Vandersloot <kfv101@psu.edu>	
 gnome-about		=		-		porting (Glynn)		Jacob Berkman <jacob@ximian.com>, George Jirka <jirka@5z.com>
 gnome-terminal		=		-		-			-
 gsm			=		-		-			-
@@ -78,32 +80,38 @@ panel			=		-		_v_ and the sun hackers working on it	-
 </section>
 
 <section title="Desktop Applets (gnome-core/applets)" cvsbase="gnome-core/applets">
+battstat		=		-		ported, minor issues	-
 cdplayer		=		-		ported			-
-charpick		=		-		ported, not working	-
+charpick		=		-		ported			-
 clock			=		-		ported			-
 desk-guide		=		-		new libwnck-based code	-
+drivemount		=		-		ported			-
 fish			=		-		ported			-
-gol			=		-		-			-
-gticker			=		-		-			-
-gweather		=		-		gnome-http depends	-
-mailcheck		=		-		-			-
-mini-commander		=		-		-			-
+geyes			=		-		ported			-
+gkb-new			=		-		ported			-
+gtik		 	=		-		ported (stock ticker)	-
+gol			=		-		not being ported	-
+gticker			=		-		not being ported	-
+gweather		=		-		mostly ported		-
+mailcheck		=		-		ported			-
+mini-commander		=		-		mostly ported		-
 mixer			=		-		ported			-
 modemlights		=		-		ported			-
-odometer		=		-		ported			-
-screenshooter		=		-		ported			-
+multiload		=		-		ported			-
+odometer		=		-		not being ported	-
+screenshooter		=		-		* prefer panel screenshooter			-
 tasklist		=		-		new libwnck-based code	-
 </section>
 
 <section title="Desktop Utils (gnome-utils)" cvsbase="gnome-utils">
-gcalc			=		-		ported, accessibility issues	-
+gcalc			=		-		ported			-
 gcharmap		=		-		ported			-
 gcolorsel		=		-		* should be replaced with minimal colour selector	-
 gdialog			=		-		ported			-
 gfloppy			=		-		ported			Jonathan Blandford <jrb@redhat.com>
-gfontsel		mini-utils/gfontsel	-	* should be replaced with fontcarton		-
+gfontsel		mini-utils/gfontsel	-	* fontcarton not ported, will be removed		-
 gsearchtool		=		-		ported			-
-logview			=		-		ported, some font issues		-
+logview			=		-		ported, need to remove custom widget		-
 meat-grinder		=		-		* prefer nautilus functionality		-
 stripchart		=		-		* not necessary, applets do the same	-
 </section>
