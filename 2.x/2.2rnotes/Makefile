@@ -14,7 +14,7 @@ html/index.html: $(docbook_sources)
 
 
 validate: release-notes.xml
-	xmllint --xinclude --valid --noout --catalogs $<
+	xmllint --xinclude --valid --noout --noent --catalogs $<
 
 rsync_args = -vz --rsh ssh 
 #rsync_args = -vz --rsh ssh --delete --delete-after
