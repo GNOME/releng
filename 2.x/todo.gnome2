@@ -85,7 +85,7 @@ Add ability to use a proxy
 <item done="no">
 Saving files in locale encoding when needed
 </item>
-<item done="no">
+<item done="yes">
 Removing unused code from gedit-file-selector-util.c
 </item>
 <item done="yes">
@@ -101,7 +101,13 @@ Save window size when exiting
 Adding plugins support
 </item>
 <item done="no">
-Finishing to port old plugins
+Porting the email plugin
+</item>
+<item done="no">
+Porting the sort plugin
+</item>
+<item done="no">
+Porting the ASCII table plugin
 </item>
 <item done="no">
 Writing new user docs
@@ -127,7 +133,7 @@ Improve the behavior of the undo actions merging code when dealing with non ASCI
 <item done="no">
 Adding a MDI Mode page to Preferences dialog (already implemented, to be debugged)
 </item>
-<item done="no">
+<item done="yes">
 Adding a Tabs page to Preferences dialog (already implemented, 
 but gedit_view_set_tab_size is broken, see pango-layout.c function ensure_tab_width) 		
 </item>
