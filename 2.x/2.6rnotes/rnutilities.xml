@@ -23,7 +23,7 @@
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;gucharmap.png" format="PNG"/></imageobject>
-          <textobject><phrase>The Character Map, showing characters from the TODO script.</phrase></textobject>
+          <textobject><phrase>The Character Map, showing Bengali characters.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>
@@ -47,7 +47,7 @@
     <title>PDF Viewer</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;gdpfTODO.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gdpf.png" format="PNG"/></imageobject>
           <textobject><phrase>The PDF Viewer, with page thumbnails.</phrase></textobject>
         </mediaobject>
       </screenshot>

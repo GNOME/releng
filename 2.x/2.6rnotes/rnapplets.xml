@@ -36,7 +36,7 @@
     <title>Keyboard Indicator</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicatorTODO.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicator.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
       </mediaobject>

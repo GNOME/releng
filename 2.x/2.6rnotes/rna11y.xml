@@ -22,7 +22,7 @@
     <title>Keyboard Indicator</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-accessibilityTODO.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-accessibility.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The Keyboard Accessibility Status applet,
       showing that the Shift and Control keys are latched.</phrase></textobject>

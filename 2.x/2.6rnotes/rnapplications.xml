@@ -52,17 +52,7 @@
     <listitem><para>More control for system administrators - see the Lockdown section.</para></listitem>
     <listitem><para>Support for extra audio and video devices via a new plugins system.</para></listitem>
     </itemizedlist>
-
-    <figure id="rnscreenshot-gnomemeeting">
-      <title>GnomeMeeting</title>
-        <screenshot>
-          <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;gnomemeetingTODO.png" format="PNG"/></imageobject>
-            <textobject><phrase>GnomeMeeting.</phrase></textobject>
-        </mediaobject>
-      </screenshot>
-    </figure>
-    </para>
+	</para>
 
   </sect3>
   
