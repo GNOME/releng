@@ -1296,11 +1296,11 @@
 		  <para>The following has been reported as a workaround when added to
 		  <filename>.sawfishrc</filename>:
 		  <programlisting>
-			  ;; Get viewports back
-			  (setq customize-command-classes '(default viewport))
-			  
-			  ;; (setq viewport-dimensions '(NUMBER_OF_COLS . NUMBER_OF_ROWS))
-			  (setq viewport-dimensions '(6 . 1))  ;; example
+  ;; Get viewports back
+  (setq customize-command-classes '(default viewport))
+
+  ;; (setq viewport-dimensions '(NUMBER_OF_COLS . NUMBER_OF_ROWS))
+  (setq viewport-dimensions '(6 . 1))  ;; example
 		  </programlisting>
 		  </para>
 	    </note>
