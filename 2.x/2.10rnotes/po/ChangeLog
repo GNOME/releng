@@ -1,94 +1,98 @@
+2005-03-07  Martin Willemoes Hansen  <mwh@localhost.localdomain>
+
+	* da.po: Updated Danish translation.
+
 2005-03-07  Laurent Dhima  <laurenti@alblinux.net>
 
- * sq.po: Added Albanian translation by
- Elian Myftiu <elian@alblinux.net>.
+        * sq.po: Added Albanian translation by
+                 Elian Myftiu <elian@alblinux.net>.
  
 2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
- * th.po: Updated Thai translation.
+        * th.po: Updated Thai translation.
 
 2005-03-07  Takeshi AIHANA <aihana@jcom.home.ne.jp>
 
- * ja.po: Updated Japanese translation.
+        * ja.po: Updated Japanese translation.
 
 2005-03-07  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: Updated French translation.
+        * fr.po: Updated French translation.
 
 2005-03-07  Ahmad Riza H Nst  <ari@160c.afraid.org>
 
- * id.po: Updated Indonesian Translation (finished 242 messages)
- * xml-id/figures/: Added png file (original, not translated)
+        * id.po: Updated Indonesian Translation (finished 242 messages)
+        * xml-id/figures/: Added png file (original, not translated)
 
 2005-03-07  Vincent van Adrighem  <adrighem@gnome.org>
 
- * nl.po: Dutch Translation updated by Tino Meinen (again)
+        * nl.po: Dutch Translation updated by Tino Meinen (again)
 
 2005-03-07  Priit Laes  <amd@store20.com>
 
- * et.po: Estonian translation updated.
+        * et.po: Estonian translation updated.
 
 2005-03-07  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: Updated French translation. Thanks to Jean Bréfort for his
- help.
+        * fr.po: Updated French translation. 
+	  Thanks to Jean Bréfort for his help.
 
 2005-03-07  Christian Rose  <menthos@menthos.com>
 
- * sv.po: Updated Swedish translation.
+	* sv.po: Updated Swedish translation.
 
 2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
- * th.po: Fixed typo in wm-spec URL.
- * xml-th/figures/figure-gnome-desktop.png: Scaled down and put some
- background.
+	* th.po: Fixed typo in wm-spec URL.
+	* xml-th/figures/figure-gnome-desktop.png: Scaled down and put some
+	  background.
 
 2005-03-07  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: Fix wrong tag in French translation.
+	* fr.po: Fix wrong tag in French translation.
 
 2005-03-07  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: Updated French translation.
+	* fr.po: Updated French translation.
 
 2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
- * xml-th/figures/figure-file-roller.png: Added Thai screenshot.
+	* xml-th/figures/figure-file-roller.png: Added Thai screenshot.
 
 2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
- * th.po: Updated Thai translation.
- * xml-th/figures/*: Added soundjuicer screenshot. Adjust some others.
- Removed untranslated screenshots.
+	* th.po: Updated Thai translation.
+	* xml-th/figures/*: Added soundjuicer screenshot. Adjust some others.
+	  Removed untranslated screenshots.
 
 2005-03-07  Vincent van Adrighem  <adrighem@gnome.org>
 
- * nl.po: Dutch Translation updated by Tino Meinen
+	* nl.po: Dutch Translation updated by Tino Meinen
 
 2005-03-06  Raphael Higino  <raphaelh@cvs.gnome.org>
 
- * pt_BR.po: Updated Brazilian Portuguese translation.
+	* pt_BR.po: Updated Brazilian Portuguese translation.
 
 2005-03-07  Christian Rose  <menthos@menthos.com>
 
- * sv.po: Updated Swedish translation.
+	* sv.po: Updated Swedish translation.
 
 2005-03-06  Raphael Higino  <raphaelh@cvs.gnome.org>
 
- * pt_BR.po: Addad Brazilian Portuguese translation.
+	* pt_BR.po: Addad Brazilian Portuguese translation.
 
 2005-03-06  Vincent Untz  <vincent@vuntz.net>
 
- * fr.po: First version of french translation.
+	* fr.po: First version of french translation.
 
 2005-03-06  Frank Arnold  <farnold@cvs.gnome.org>
 
- * de.po: Updated German translation.
- * release-notes.pot: Updated to current version. 
+	* de.po: Updated German translation.
+	* release-notes.pot: Updated to current version. 
 
 2005-03-06  Christian Rose  <menthos@menthos.com>
 
- * sv.po: Updated Swedish translation.
+	* sv.po: Updated Swedish translation.
 
 2005-03-06  Frank Arnold  <farnold@cvs.gnome.org>
 
@@ -300,7 +304,7 @@ a2005-03-04  Ahmad Riza H Nst  <ari@160c.afraid.org>
 
 2005-02-25  Frank Arnold  <farnold@cvs.gnome.org>
 
- * de.po: Partially updated German translation.
+	* de.po: Partially updated German translation.
 
 2005-02-24  Hendrik Richter  <hendrik@gnome-de.org>
 
