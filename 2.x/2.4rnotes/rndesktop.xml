@@ -59,7 +59,7 @@
 	  <para>Multi-rooted tree view</para>
 	</listitem>
      <listitem>
-	  <para>support for ".hidden" files, allowing users to create a list of
+	  <para>Support for ".hidden" files, allowing users to create a list of
 	  files that will be hidden by Nautilus</para>
 	</listitem>
       </itemizedlist>

@@ -19,7 +19,7 @@
       <para>Mike Newman for his work on the zenity gdialog wrapper</para>
     </listitem>
     <listitem>
-      <para>Bill Haneman and Calumn Benson for Keyboard Accessibility Status
+      <para>Bill Haneman and Calum Benson for Keyboard Accessibility Status
       applet</para>
     </listitem>
     <listitem>
@@ -38,7 +38,7 @@
     </listitem>
     <listitem>
       <para>Anders Carlsson - Convert file attributes from stringlists to
-      bitmasks in Nautilus</para>
+      bitmasks in Nautilus, and also .hidden file support</para>
     </listitem>
     <listitem>
       <para>Glynn Foster - Nicer Nautilus bookmarks dialog</para>
@@ -62,11 +62,7 @@
     </listitem>
   <listitem>
       <para>Bastien Nocera for use of the new samba library for smb support in
-      gnome-vfs-extras</para>
-    </listitem>
-  <listitem>
-      <para>Bastien Nocera for DVD burning and other goodness in
-      nautilus-cd-burner</para>
+      gnome-vfs-extras, and also for DVD burning in nautilus-cd-burner</para>
     </listitem>
   <listitem>
       <para>Ross Burton for write to cd context menu, bugfixes in
@@ -101,10 +97,6 @@
       <para>Jeroen Zwartepoorte, Eric Ritezel, James Willcox and Gustavo
       Giraldez for their contributions to gedit and gtksourceview</para>
     </listitem>
-   <listitem>
-      <para></para>
-    </listitem>
-  
   </itemizedlist>
 
 </appendix>

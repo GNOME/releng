@@ -122,6 +122,11 @@
           to download data in GNOME 2.4.0.</para>
         </listitem>
         <listitem>
+          <para><application>GPDF</application> does not support printing in
+          GNOME 2.4.0. It is planned to add this functionality later in
+          the GNOME 2.4 release series.</para>
+        </listitem>
+        <listitem>
           <para>The <application>Panel</application> stores configuration in
           format different from previous versions of GNOME. The configuration is
           migrated to the new format when the <application>Panel</application>
@@ -131,10 +136,10 @@
         <listitem>
           <para>The desktop is now located in the directory Desktop, instead of
           .gnome-desktop. If you are running GNOME 2.4 in parallel with an
-          older version of GNOME, you should rename the .gnome-desktop
-          directory to Desktop and make a symlink linking .gnome-desktop to
-          Desktop. This will ensure your desktop is the same in all versions
-          of GNOME.</para>
+          older version of GNOME, you should place a symlink to the Desktop
+          directory inside the .gnome-desktop directory so that you can
+          access your new desktop from an old version of GNOME.
+          </para>
         </listitem>
       </itemizedlist>
     </para>

@@ -25,7 +25,7 @@
 	<itemizedlist>
 	  <listitem>
 	    <para>pkg-config, available at <ulink
-		url="http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.14.0.tar.gz">http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.14.0.tar.gz</ulink></para>
+		url="http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.15.0.tar.gz">http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.15.0.tar.gz</ulink></para>
 	  </listitem>
 	  <listitem>
 		<para>The Xft2 and fontconfig family of libraries, available at <ulink
