@@ -34,7 +34,7 @@ glib                1.2.8                                             Tim Janik 
 gnome-applets       1.2.0
 gnome-audio         1.0.0
 gnome-core          1.2.0
-gnome-games         1.2.0
+gnome-games         1.2.0                                             Ian Peters <itp@helixcode.com>
 gnome-libs          1.2.0                                             Miguel de Icaza <miguel@helixcode.com>
 gnome-media         1.2.0
 gnome-pim           1.2.0
