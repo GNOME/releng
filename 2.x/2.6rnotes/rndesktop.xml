@@ -11,7 +11,7 @@
 
     <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-    Nautilus, the GNOME file manager has several significant improvements in GNOME $version;. In particular, it now has a simpler
+    Nautilus, the GNOME file manager has several significant improvements in GNOME &version;;. In particular, it now has a simpler
     and more intuitive user interface, and is very responsive. This should make users feel more comfortable and productive.
     </para>
 
@@ -118,31 +118,57 @@
   </sect3>
     
 
-  <sect3 id="rngedit">
-    <title>Gedit Syntax Highlighting</title>
-    <para>Paolo Maggi and the <application>Gedit</application> hackers
-    have added syntax highlighting to GNOME's workhorse text editor:
+  <sect3 id="rncontrolpanel">
+    <title>Control Panel</title>
 
-    <figure id="rngeditsyntaxscreenshot"> 
-        <title>Gedit Syntax Highlighting</title> 
-        <screenshot> 
-        <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;gedit.png"
-			format="PNG"/> 
-          </imageobject>
- 	  <textobject> 
- 	    <phrase>Gedit with Syntax Highlighting
-            </phrase> 
-          </textobject> 
-        </mediaobject> 
-	</screenshot> 
-      </figure> 
+    <para>GNOME &version; makes it easier to use multiple keyboard layouts. For instance, you might choose to press both
+    shift keys together to change from a U.S. English keyboard layout to a Russian keyboard layout, and then back again, to
+    enter one russian word in the middle of an english sentence. This is particularly useful to the millions of people in
+    the world who regularly communicate in more than one language.
 
-      With the use of the <application>GtkSourceView</application> package,
-      <application>Gedit</application> now supports syntax highlighting for text
- 	    written in Ada, C, C++, IDL, Java, HTML, Latex, XML, Perl and
- 	    Python.
-
+    <figure id="rnscreenshot-controlpanel-keyboardlayouts">
+      <title>Keyboard Preferences - Layouts</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardlayoutsTODO.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
     </para>
+
+    <para>The Keyboard Indicator panel applet shows the current keyboard layout and lets you choose another,
+    without using the keyboard shortcut.
+
+    <figure id="rnscreenshot-panel-applet-keyboardindicator">
+      <title>Keyboard Indicator</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicatorTODO.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+     
+    <para>GNOME &version; also integrates the multimedia keys into the regular Keyboard
+    Shortcuts control panel, making it easy to use your keyboard's special keys to change
+    volume or control music or video applications. This functionality was previously in the Acme utility.
+
+    <figure id="rnscreenshot-controlpanel-multimediakeys">
+     <title>Keyboard Shortcuts</title>
+       <screenshot>
+         <mediaobject>
+           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardshortcutsTODO.png" format="PNG"/>
+           </imageobject>
+           <textobject><phrase>The Keyboard Shortcuts control panel.</phrase></textobject>
+         </mediaobject>
+      </screenshot>
+    </figure>
+     </para>
+
+     
   </sect3>
 </sect2>
