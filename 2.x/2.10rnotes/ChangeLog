@@ -1,3 +1,15 @@
+2005-02-19  Murray Cumming  <murrayc@murrayc.com>
+
+	* rnreleasenotes.xml: Move applications above desktop, because we have 
+	2 new apps and not much to say about nautilus. Readded control center, 
+	so we can mention the keyboard layout preferences improvements.
+	* rnapplications.xml: Mention the new applications. Still need to do
+	the changes to the others.
+	* rnutilities. Mentioned gedit changes. Still need to do the others.
+	* I moved some stuff on live.gnome.org/ReleaseNotes to a Done section.
+	* press_release/gnome210_press_release.sxw: Done apart from the 2nd 
+	quote and some more bullet points.
+
 2005-02-17  Murray Cumming  <murrayc@murrayc.com>
 
 	* rndesktop.xml, rnapplets.xml: Tidied up the new text, to make it 
