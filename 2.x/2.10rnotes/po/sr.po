@@ -686,6 +686,15 @@ msgstr ""
 "Гномов веб читач „Спознаја“ је заснован на Мозили али се у потпуности уклапа "
 "у радно окружење Гном. Побољшања у 2.10 укључују <placeholder-1/>"
 
+#: ../rnapplications.xml:64 (title)
+msgid "The web browser"
+msgstr "Веб читач"
+
+#: ../rnapplications.xml:68 (phrase)
+#, fuzzy
+msgid "The web browser."
+msgstr "Веб читач"
+
 #: ../rnapplications.xml:77 (title)
 msgid "Evolution"
 msgstr "Еволуција"
@@ -749,6 +758,15 @@ msgstr ""
 #: ../rnapplications.xml:105 (para)
 msgid "And yet more new features: <placeholder-1/>"
 msgstr "И још нових могућности: <placeholder-1/>"
+
+#: ../rnapplications.xml:115 (title)
+msgid "The email client"
+msgstr "Програм за пошту"
+
+#: ../rnapplications.xml:119 (phrase)
+#, fuzzy
+msgid "The Evolution email client."
+msgstr "Програм Еволуције за календар."
 
 #: ../rnapplications.xml:129 (title)
 msgid "GnomeMeeting"
@@ -1316,6 +1334,14 @@ msgstr ""
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr ""
 
+#: ../rnsysadmin.xml:34 (title)
+msgid "The Clock, Network, and Users/Groups tools"
+msgstr ""
+
+#: ../rnsysadmin.xml:39 (phrase)
+msgid "The Clock, Network, and Users/Groups tools."
+msgstr ""
+
 #: ../rnsysadmin.xml:47 (title)
 msgid "Log Viewer"
 msgstr ""
@@ -1517,9 +1543,6 @@ msgstr "Данило Шеган <danilo@gnome.org>, 2005"
 #~ msgid "The audio extractor"
 #~ msgstr "Извлачење песама"
 
-#~ msgid "The web browser"
-#~ msgstr "Веб читач"
-
 #, fuzzy
 #~ msgid ""
 #~ "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
@@ -1534,9 +1557,6 @@ msgstr "Данило Шеган <danilo@gnome.org>, 2005"
 #~ "phrase></textobject></mediaobject></screenshot> Гном 2.10 окружење је "
 #~ "најновије издање увек популарног, вишеплатформског слободног радног "
 #~ "окружења."
-
-#~ msgid "The email client"
-#~ msgstr "Програм за пошту"
 
 #, fuzzy
 #~ msgid ""

@@ -10,25 +10,25 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:24(None) 
+#: ../rnutilities.xml:23(None) 
 msgid "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:42(None) 
+#: ../rnutilities.xml:41(None) 
 msgid "@@image: 'figures/figure-file-roller.png'; md5=229f9191244247839f225df468a9c60c"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:61(None) 
+#: ../rnutilities.xml:60(None) 
 msgid "@@image: 'figures/figure-dictionary.png'; md5=2c1962519057406be57f4b1b76604973"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:79(None) 
+#: ../rnutilities.xml:78(None) 
 msgid "@@image: 'figures/figure-floppy-formatter.png'; md5=cc67b69fcf0049807a6b9656aa0d17e7"
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 msgid "The GNOME utilities have some improvements, such as:"
 msgstr ""
 
-#: ../rnutilities.xml:13(title) ../rnutilities.xml:21(title) 
+#: ../rnutilities.xml:13(title) 
 msgid "Text Editor"
 msgstr ""
 
@@ -49,47 +49,31 @@ msgid "The GNOME text editor can now highlight the current line and when editing
 msgstr ""
 
 #: ../rnutilities.xml:17(para) 
-msgid "Many people will be glad to see that it no longer suggests saving changes when all changes have actually been undone. And in addition it even starts faster than previous versions."
+msgid "Many people will be glad to see that it no longer suggests saving changes when all changes have actually been undone. And in addition it even starts faster than previous versions. <figure id=\"rnscreenshot-gedit\"><title>Text Editor</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>The text editor, highlighting the current line.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnutilities.xml:25(phrase) 
-msgid "The text editor, highlighting the current line."
-msgstr ""
-
-#: ../rnutilities.xml:33(title) ../rnutilities.xml:39(title) 
+#: ../rnutilities.xml:33(title) 
 msgid "Archive Manager"
 msgstr ""
 
 #: ../rnutilities.xml:35(para) 
-msgid "The GNOME archive manager can now open more types of archive, including AR, Debian, and 7-zip archives, and password-protected RAR archives. And if you use the single-click preference in the file manager, then the archive manager will now use single clicks too."
+msgid "The GNOME archive manager can now open more types of archive, including AR, Debian, and 7-zip archives, and password-protected RAR archives. And if you use the single-click preference in the file manager, then the archive manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller\"><title>Archive Manager</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-file-roller.png\" format=\"PNG\"/></imageobject><textobject><phrase>The archive manager, asking for a password for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnutilities.xml:43(phrase) 
-msgid "The archive manager, asking for a password for a RAR file."
-msgstr ""
-
-#: ../rnutilities.xml:52(title) ../rnutilities.xml:58(title) 
+#: ../rnutilities.xml:52(title) 
 msgid "Dictionary"
 msgstr ""
 
 #: ../rnutilities.xml:54(para) 
-msgid "The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can be printed."
+msgid "The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can be printed. <figure id=\"rnscreenshot-dictionary\"><title>Dictionary</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>The dictionary, suggesting possible spellings and a definition.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnutilities.xml:62(phrase) 
-msgid "The dictionary, suggesting possible spellings and a definition."
-msgstr ""
-
-#: ../rnutilities.xml:70(title) ../rnutilities.xml:76(title) 
+#: ../rnutilities.xml:70(title) 
 msgid "Floppy Formatter"
 msgstr ""
 
 #: ../rnutilities.xml:72(para) 
-msgid "The GNOME Floppy Formatter utility now supports removable drives, such as USB drives, using the standard HAL system from freedesktop.org."
-msgstr ""
-
-#: ../rnutilities.xml:80(phrase) 
-msgid "Formatting a floppy disk."
+msgid "The GNOME Floppy Formatter utility now supports removable drives, such as USB drives, using the standard HAL system from freedesktop.org. <figure id=\"rnscreenshot-floppy\"><title>Floppy Formatter</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></imageobject><textobject><phrase>Formatting a floppy disk.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnthemes.xml:2(title) 
@@ -98,7 +82,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnsysadmin.xml:36(None) 
+#: ../rnsysadmin.xml:37(None) 
 msgid "@@image: 'figures/figure-gnome-system-tools.png'; md5=65e08a4a7947a0a4c0638c249cb30e7a"
 msgstr ""
 
@@ -140,40 +124,32 @@ msgstr ""
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr ""
 
-#: ../rnsysadmin.xml:33(title) 
+#: ../rnsysadmin.xml:34(title) 
 msgid "The Clock, Network, and Users/Groups tools"
 msgstr ""
 
-#: ../rnsysadmin.xml:38(phrase) 
+#: ../rnsysadmin.xml:39(phrase) 
 msgid "The Clock, Network, and Users/Groups tools."
 msgstr ""
 
-#: ../rnsysadmin.xml:46(title) 
+#: ../rnsysadmin.xml:47(title) 
 msgid "Log Viewer"
 msgstr ""
 
-#: ../rnsysadmin.xml:51(para) 
+#: ../rnsysadmin.xml:52(para) 
 msgid "Open multiple logs in the separate windows."
 msgstr ""
 
-#: ../rnsysadmin.xml:52(para) 
+#: ../rnsysadmin.xml:53(para) 
 msgid "Open archived logs and logs on networked drives."
 msgstr ""
 
-#: ../rnsysadmin.xml:53(para) 
+#: ../rnsysadmin.xml:54(para) 
 msgid "Copy logs to the clipboard."
 msgstr ""
 
-#: ../rnsysadmin.xml:48(para) 
-msgid "The GNOME log viewer has added a handy find feature, and an improved monitor mode. In addition, it can now <placeholder-1/>"
-msgstr ""
-
-#: ../rnsysadmin.xml:58(title) 
-msgid "The Log Viewer"
-msgstr ""
-
-#: ../rnsysadmin.xml:63(phrase) 
-msgid "The Log Viewer, during a search."
+#: ../rnsysadmin.xml:49(para) 
+msgid "The GNOME log viewer has added a handy find feature, and an improved monitor mode. In addition, it can now <placeholder-1/><figure id=\"rnscreenshot-sysadmin-logviewer\"><title>The Log Viewer</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Log Viewer, during a search.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnstandards.xml:7(title) 
@@ -181,11 +157,11 @@ msgid "Standards Compliance"
 msgstr ""
 
 #: ../rnstandards.xml:9(para) 
-msgid "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop.org/wiki/Standards\">freedesktop.org</ulink>. Standards support is a big plus for GNOME users. Interoperability support improves the user experience by allowing GNOME, KDE, and other applications to work together more easily, and following open specifications helps ensure that user data is not trapped in proprietary formats."
+msgid "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop.org/standards/\">freedesktop.org</ulink>. Standards support is a big plus for GNOME users. Interoperability support improves the user experience by allowing GNOME, KDE, and other applications to work together more easily, and following open specifications helps ensure that user data is not trapped in proprietary formats."
 msgstr ""
 
 #: ../rnstandards.xml:19(para) 
-msgid "GNOME developers are working hard with other members of the free software community through Freedesktop.org on the development of standards to allow interoperability. Those standards include: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recent files</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menus</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop entries</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">thumbnail management</ulink>, and the <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink> specifications. In addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
+msgid "GNOME developers are working hard with other members of the free software community through Freedesktop.org on the development of standards to allow interoperability. Those standards include: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recent files</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menus</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop entries</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">thumbnail management</ulink>, and the <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink> specifications. In addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
 msgstr ""
 
 #: ../rnplatform.xml:9(title) 
@@ -406,7 +382,7 @@ msgid "Nibbles"
 msgstr ""
 
 #: ../rngames.xml:33(para) 
-msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by GnomeMeeting."
+msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by Gnome Meeting."
 msgstr ""
 
 #: ../rngames.xml:36(title) 
@@ -511,7 +487,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rncontrolcenter.xml:21(None) 
+#: ../rncontrolcenter.xml:20(None) 
 msgid "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=6f351cb81db99e786e4560301a410fcc"
 msgstr ""
 
@@ -524,20 +500,12 @@ msgid "Keyboard Layouts"
 msgstr ""
 
 #: ../rncontrolcenter.xml:13(para) 
-msgid "Selecting a keyboard layout is now simpler with the Keyboard control panel. Just click Add to choose from a list of international keyboard layouts. Before making your choice you can see the effect of key presses in the layout preview. The Layout Options section has also been reorganized as a simpler list of choices."
-msgstr ""
-
-#: ../rncontrolcenter.xml:18(title) 
-msgid "Keyboard Preferences - Layouts"
-msgstr ""
-
-#: ../rncontrolcenter.xml:23(phrase) 
-msgid "The Layouts tab, in the Keyboard Preferences control panel, while adding a new layout."
+msgid "Selecting a keyboard layout is now simpler with the Keyboard control panel. Just click Add to choose from a list of international keyboard layouts. Before making your choice you can see the effect of key presses in the layout preview. The Layout Options section has also been reorganized as a simpler list of choices. <figure id=\"rnscreenshot-controlpanel-keyboardlayouts\"><title>Keyboard Preferences - Layouts</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel, while adding a new layout.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:21(None) 
+#: ../rnapplications.xml:20(None) 
 msgid "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 msgstr ""
 
@@ -549,25 +517,25 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:64(None) 
+#: ../rnapplications.xml:67(None) 
 msgid "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:95(None) 
+#: ../rnapplications.xml:99(None) 
 msgid "@@image: 'figures/figure-evolution-weather.png'; md5=ca12d0050f5514294bd4b54f47a899db"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:113(None) 
+#: ../rnapplications.xml:118(None) 
 msgid "@@image: 'figures/figure-evolution-mail.png'; md5=b27a25dd54f1118e40b9104354bda815"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:135(None) 
+#: ../rnapplications.xml:141(None) 
 msgid "@@image: 'figures/figure-gnome-meeting.png'; md5=71e89305beea456fbb73016fbb645010"
 msgstr ""
 
@@ -580,184 +548,160 @@ msgid "Video Player"
 msgstr ""
 
 #: ../rnapplications.xml:13(para) 
-msgid "GNOME 2.10 now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration."
+msgid "GNOME 2.10 now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration. <figure id=\"rnscreenshot-totem\"><title>The video player</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplications.xml:18(title) 
-msgid "The video player"
-msgstr ""
-
-#: ../rnapplications.xml:22(phrase) 
-msgid "The Totem video player."
-msgstr ""
-
-#: ../rnapplications.xml:30(title) 
+#: ../rnapplications.xml:31(title) 
 msgid "Audio Extraction"
 msgstr ""
 
-#: ../rnapplications.xml:32(para) 
-msgid "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for later playback on your PC or portable music player. Thanks to automatic downloading of song titles, you won't need to click more than a couple of buttons."
+#: ../rnapplications.xml:33(para) 
+msgid "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for later playback on your PC or portable music player. Thanks to automatic downloading of song titles, you won't need to click more than a couple of buttons. <figure id=\"rnscreenshot-soundjuicer\"><title>The audio extractor</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></imageobject><textobject><phrase>The audio extractor.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplications.xml:37(title) 
-msgid "The audio extractor"
-msgstr ""
-
-#: ../rnapplications.xml:41(phrase) 
-msgid "The audio extractor."
-msgstr ""
-
-#: ../rnapplications.xml:49(title) 
+#: ../rnapplications.xml:51(title) 
 msgid "Web Browser"
 msgstr ""
 
-#: ../rnapplications.xml:53(para) 
+#: ../rnapplications.xml:55(para) 
 msgid "An improved fullscreen mode."
 msgstr ""
 
-#: ../rnapplications.xml:54(para) 
+#: ../rnapplications.xml:56(para) 
 msgid "The location bar now indicates whether the site is secure, and shows its favicon."
 msgstr ""
 
-#: ../rnapplications.xml:55(para) 
+#: ../rnapplications.xml:57(para) 
 msgid "Bookmarks can be exported."
 msgstr ""
 
-#: ../rnapplications.xml:56(para) 
+#: ../rnapplications.xml:58(para) 
 msgid "An extension manager for extra features."
 msgstr ""
 
-#: ../rnapplications.xml:51(para) 
+#: ../rnapplications.xml:53(para) 
 msgid "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in 2.10 include <placeholder-1/>"
 msgstr ""
 
-#: ../rnapplications.xml:61(title) 
+#: ../rnapplications.xml:64(title) 
 msgid "The web browser"
 msgstr ""
 
-#: ../rnapplications.xml:65(phrase) 
+#: ../rnapplications.xml:68(phrase) 
 msgid "The web browser."
 msgstr ""
 
-#: ../rnapplications.xml:73(title) 
+#: ../rnapplications.xml:77(title) 
 msgid "Evolution"
 msgstr ""
 
-#: ../rnapplications.xml:75(para) 
+#: ../rnapplications.xml:79(para) 
 msgid "GNOME's integrated Email and Groupware client, Evolution supports traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. With Evolution you can read, write, and manage your emails, contacts, and calendar events."
 msgstr ""
 
-#: ../rnapplications.xml:80(para) 
+#: ../rnapplications.xml:84(para) 
 msgid "In GNOME 2.10 it's now easier to work offline with your email, calendar, and contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes will resynchronize when you go back online."
 msgstr ""
 
-#: ../rnapplications.xml:85(para) 
+#: ../rnapplications.xml:89(para) 
 msgid "Files can be attached to events."
 msgstr ""
 
-#: ../rnapplications.xml:86(para) 
+#: ../rnapplications.xml:90(para) 
 msgid "Exceptions can be made in recurring events."
 msgstr ""
 
-#: ../rnapplications.xml:87(para) 
+#: ../rnapplications.xml:91(para) 
 msgid "The calendar includes weather information (US only)."
 msgstr ""
 
-#: ../rnapplications.xml:83(para) 
+#: ../rnapplications.xml:87(para) 
 msgid "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
 
-#: ../rnapplications.xml:92(title) 
+#: ../rnapplications.xml:96(title) 
 msgid "daily weather forecasts"
 msgstr ""
 
-#: ../rnapplications.xml:96(phrase) 
+#: ../rnapplications.xml:100(phrase) 
 msgid "The Evolution calendar client."
 msgstr ""
 
-#: ../rnapplications.xml:103(para) 
+#: ../rnapplications.xml:107(para) 
 msgid "Groupwise shared folders and send options are now supported."
 msgstr ""
 
-#: ../rnapplications.xml:104(para) 
+#: ../rnapplications.xml:108(para) 
 msgid "Exchange folder sizes and password expiry warnings are supported."
 msgstr ""
 
-#: ../rnapplications.xml:105(para) 
+#: ../rnapplications.xml:109(para) 
 msgid "The email user interface will be properly mirrored for right-to-left languages."
 msgstr ""
 
-#: ../rnapplications.xml:101(para) 
+#: ../rnapplications.xml:105(para) 
 msgid "And yet more new features: <placeholder-1/>"
 msgstr ""
 
-#: ../rnapplications.xml:110(title) 
+#: ../rnapplications.xml:115(title) 
 msgid "The email client"
 msgstr ""
 
-#: ../rnapplications.xml:114(phrase) 
+#: ../rnapplications.xml:119(phrase) 
 msgid "The Evolution email client."
 msgstr ""
 
-#: ../rnapplications.xml:122(title) 
+#: ../rnapplications.xml:129(title) 
 msgid "GnomeMeeting"
 msgstr ""
 
-#: ../rnapplications.xml:124(para) 
+#: ../rnapplications.xml:131(para) 
 msgid "GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is now shared with our Evolution email client, so you don't need to enter contact information in more than one place."
 msgstr ""
 
-#: ../rnapplications.xml:128(para) 
-msgid "Now you can even browse for other GnomeMeeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see."
-msgstr ""
-
-#: ../rnapplications.xml:132(title) 
-msgid "The internet telephony and video conferencing client"
-msgstr ""
-
-#: ../rnapplications.xml:136(phrase) 
-msgid "GnomeMeeting with side-by-side video."
+#: ../rnapplications.xml:135(para) 
+msgid "Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><title>The internet telephony and video conferencing client</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:31(None) 
+#: ../rnapplets.xml:30(None) 
 msgid "@@image: 'figures/figure-applet-modem.png'; md5=e578e556196eb7b5e18e8e23dec80f3d"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:53(None) 
+#: ../rnapplets.xml:52(None) 
 msgid "@@image: 'figures/figure-applet-trash.png'; md5=3cae86562b76ef6650be8d0fbe007907"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:76(None) 
+#: ../rnapplets.xml:74(None) 
 msgid "@@image: 'figures/figure-applet-drivemount.png'; md5=47fa7b661de0c2ae0223fa211145fa11"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:97(None) 
+#: ../rnapplets.xml:95(None) 
 msgid "@@image: 'figures/figure-applet-weather.png'; md5=c3a54721c5872fe130c9c24d969310bf"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:120(None) 
+#: ../rnapplets.xml:119(None) 
 msgid "@@image: 'figures/figure-applet-mixer.png'; md5=3db86d251e280b32c35142524d4759f2"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:141(None) 
+#: ../rnapplets.xml:140(None) 
 msgid "@@image: 'figures/figure-applet-stickies.png'; md5=55648b50d6dde470bc89a2d9d51523d8"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:161(None) 
+#: ../rnapplets.xml:158(None) 
 msgid "@@image: 'figures/figure-applet-cpufreq.png'; md5=81a2482710b2157df4fc66697490d28a"
 msgstr ""
 
@@ -786,11 +730,7 @@ msgid "Integrated Modem Control"
 msgstr ""
 
 #: ../rnapplets.xml:23(para) 
-msgid "GNOME 2.10 introduces a new applet for controlling your Modem, integrated with GNOME System Tools."
-msgstr ""
-
-#: ../rnapplets.xml:28(title) ../rnapplets.xml:33(phrase) 
-msgid "The new modem control applet"
+msgid "GNOME 2.10 introduces a new applet for controlling your Modem, integrated with GNOME System Tools. <figure id=\"rnscreenshot-applet-modem\"><title>The new modem control applet</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The new modem control applet</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
 #: ../rnapplets.xml:41(title) 
@@ -798,116 +738,88 @@ msgid "Panel Trashcan"
 msgstr ""
 
 #: ../rnapplets.xml:43(para) 
-msgid "GNOME 2.10 features an optional trashcan for your Panel. Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash without minimising your open windows."
+msgid "GNOME 2.10 features an optional trashcan for your Panel. Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash without minimising your open windows. <figure id=\"rnscreenshot-applet-trash\"><title>a Trashcan on your Panel</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></imageobject><textobject><phrase>Drag trash to your panel</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplets.xml:50(title) 
-msgid "a Trashcan on your Panel"
-msgstr ""
-
-#: ../rnapplets.xml:55(phrase) 
-msgid "Drag trash to your panel"
-msgstr ""
-
-#: ../rnapplets.xml:63(title) 
+#: ../rnapplets.xml:62(title) 
 msgid "Control Mounted Volumes"
 msgstr ""
 
-#: ../rnapplets.xml:65(para) 
-msgid "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, and USB memory sticks. Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing you to mount them, eject them, or open them in the file manager."
+#: ../rnapplets.xml:64(para) 
+msgid "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, and USB memory sticks. Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing you to mount them, eject them, or open them in the file manager. <figure id=\"rnscreenshot-applet-drivemount\"><title>Drive Mount</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></imageobject><textobject><phrase>The drive mount applet.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplets.xml:73(title) 
-msgid "Drive Mount"
-msgstr ""
-
-#: ../rnapplets.xml:78(phrase) 
-msgid "The drive mount applet."
-msgstr ""
-
-#: ../rnapplets.xml:86(title) 
+#: ../rnapplets.xml:85(title) 
 msgid "Get even more weather"
 msgstr ""
 
-#: ../rnapplets.xml:87(para) 
-msgid "The weather monitor can now show even more locations then before, and the location names have been translated into non-english languages where appropriate. In addition, the forecast now includes sunrise and sunset calculations for most locations."
+#: ../rnapplets.xml:86(para) 
+msgid "The weather monitor can now show even more locations then before, and the location names have been translated into non-english languages where appropriate. In addition, the forecast now includes sunrise and sunset calculations for most locations. <figure id=\"rnscreenshot-applet-weather\"><title>Weather Report</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></imageobject><textobject><phrase>The weather report applet.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplets.xml:94(title) 
-msgid "Weather Report"
-msgstr ""
-
-#: ../rnapplets.xml:99(phrase) 
-msgid "The weather report applet."
-msgstr ""
-
-#: ../rnapplets.xml:107(title) 
+#: ../rnapplets.xml:106(title) 
 msgid "Sound control"
 msgstr ""
 
-#: ../rnapplets.xml:108(para) 
+#: ../rnapplets.xml:107(para) 
 msgid "A new mixer for your panel (combined with a new-look mixer on the desktop) gets the most from your sound hardware. Using the GStreamer multimedia framework, the mixer is now simpler and more convenient than before. The same multimedia framework powers Totem, Sound Juicer, the GNOME CD player and a variety of third-party applications, so changing the GNOME volume via the panel will change the volume of all these applications."
 msgstr ""
 
-#: ../rnapplets.xml:117(title) 
+#: ../rnapplets.xml:116(title) 
 msgid "all new mixer for your panel"
 msgstr ""
 
-#: ../rnapplets.xml:122(phrase) 
+#: ../rnapplets.xml:121(phrase) 
 msgid "All new mixer for your panel"
 msgstr ""
 
-#: ../rnapplets.xml:129(title) 
+#: ../rnapplets.xml:128(title) 
 msgid "Taking note"
 msgstr ""
 
-#: ../rnapplets.xml:130(para) 
+#: ../rnapplets.xml:129(para) 
 msgid "The popular Sticky Notes applet now makes it even easier to add PostIt-style notes on your desktop, thanks to a simpler user interface and many bug fixes. For instance, sticky notes will now stay on the correct workspace, or even a different monitor."
 msgstr ""
 
-#: ../rnapplets.xml:133(para) 
+#: ../rnapplets.xml:132(para) 
 msgid "And sticky notes now stay on top other windows, so you can't lose them. To hide the notes, simply use the applet's right-click menu."
 msgstr ""
 
-#: ../rnapplets.xml:138(title) ../rnapplets.xml:143(phrase) 
+#: ../rnapplets.xml:137(title) ../rnapplets.xml:142(phrase) 
 msgid "Sticky Notes"
 msgstr ""
 
-#: ../rnapplets.xml:149(title) 
+#: ../rnapplets.xml:148(title) 
 msgid "Specially for laptops"
 msgstr ""
 
-#: ../rnapplets.xml:150(para) 
-msgid "GNOME now includes an applet to monitor your laptop's processor speed. The CPU Frequency Monitor watches variable-speed processors (such as those with Intel Speedstep or AMD PowerNow) to show their current status. You may even choose a different speed if you don't have automatic frequency scaling enabled."
+#: ../rnapplets.xml:149(para) 
+msgid "GNOME now includes an applet to monitor your laptop's processor speed. The CPU Frequency Monitor watches variable-speed processors (such as those with Intel Speedstep or AMD PowerNow) to show their current status. You may even choose a different speed if you don't have automatic frequency scaling enabled. <figure id=\"rnscreenshot-applet-cpufreq\"><title>Monitor CPU Frequency Scaling</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
 
-#: ../rnapplets.xml:158(title) ../rnapplets.xml:163(phrase) 
-msgid "Monitor CPU Frequency Scaling"
-msgstr ""
-
-#: ../rnapplets.xml:171(title) 
+#: ../rnapplets.xml:168(title) 
 msgid "Removed Applets"
 msgstr ""
 
-#: ../rnapplets.xml:172(para) 
+#: ../rnapplets.xml:169(para) 
 msgid "Three applets were removed in GNOME 2.10, replaced by better alternatives in most cases."
 msgstr ""
 
-#: ../rnapplets.xml:175(para) 
+#: ../rnapplets.xml:172(para) 
 msgid "The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel."
 msgstr ""
 
-#: ../rnapplets.xml:178(para) 
+#: ../rnapplets.xml:175(para) 
 msgid "The dedicated Wireless applet has been removed because the Network Monitor applet, introduced in GNOME 2.8, also includes wireless support."
 msgstr ""
 
-#: ../rnapplets.xml:181(para) 
+#: ../rnapplets.xml:178(para) 
 msgid "The Mailbox Monitor has been removed because it was unmaintained and insecure. We hope to have a solution integrated with our Evolution mail client in the future. If you don't use Evolution for your mail, you can use a third party application such as <ulink url=\"http://www.nongnu.org/mailnotify/\">mailnotify</ulink>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../release-notes.xml:22(None) 
+#: ../release-notes.xml:23(None) 
 msgid "@@image: 'figures/figure-gnome-desktop.png'; md5=a25ee1cd47ba6e56ce09a67de0b45372"
 msgstr ""
 
@@ -919,12 +831,8 @@ msgstr ""
 msgid "Introduction"
 msgstr ""
 
-#: ../release-notes.xml:24(phrase) 
-msgid "The GNOME Desktop"
-msgstr ""
-
-#: ../release-notes.xml:27(para) 
-msgid "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-platform free desktop environment."
+#: ../release-notes.xml:20(para) 
+msgid "<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-desktop.png\" format=\"PNG\"/></imageobject><textobject><phrase>The GNOME Desktop</phrase></textobject></mediaobject></screenshot> The GNOME 2.10 Desktop is the latest release of the ever popular, multi-platform free desktop environment."
 msgstr ""
 
 #: ../release-notes.xml:30(para) 
@@ -980,7 +888,7 @@ msgid "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozil
 msgstr ""
 
 #: ../release-notes.xml:125(para) 
-msgid "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Session startup temporary hang</ulink>: Applications with broken session management can cause login to hang for a few minutes at the splashscreen. The default session does not contain any such apps so this will only become a problem if you save your session on logout. If you run into this problem, just wait for the login to proceed and then remove any such applications before saving your session again."
+msgid "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session startup temporary hang</ulink>: Applications with broken session management can cause login to hang for a few minutes at the splashscreen. The default session does not contain any such apps so this will only become a problem if you save your session on logout. If you run into this problem, just wait for the login to proceed and then remove any such applications before saving your session again."
 msgstr ""
 
 #: ../release-notes.xml:141(title) 
