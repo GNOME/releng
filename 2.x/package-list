@@ -34,8 +34,8 @@ libgnomecanvas		=		1.109.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.109.1		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeprintui		=		1.109.1		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeui		=		1.108.0		frozen			Anders Carlsson <andersca@gnu.org>
-libxml2			gnome-xml	2.4.12		frozen			Daniel Veillard <veillard@redhat.com>
-libxslt			=		1.0.9		frozen			Daniel Veillard <veillard@redhat.com>
+libxml2			gnome-xml	2.4.13		frozen			Daniel Veillard <veillard@redhat.com>
+libxslt			=		1.0.10		frozen			Daniel Veillard <veillard@redhat.com>
 linc			=		0.1.13		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.23		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
@@ -56,10 +56,10 @@ gnome-media		=		-		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com
 gnome-pim		=		-		* no porting action at all		-
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
 gnome-utils		=		1.97.0		see Desktop Utils section		-
-libgtkhtml		gtkhtml2	1.99.0		ported, rendering issues		-
+libgtkhtml		gtkhtml2	1.99.2		ported, rendering issues		-
 libgtop			=		1.90.1		ported, branch is libgtop-GNOME-2-0-port		Kevin Vandersloot <kfv101@psu.edu>
 librsvg			=		1.1.1		-			-
-libwnck			=		-		new			Havoc Pennington <hp@redhat.com>
+libwnck			=		0.2		new			Havoc Pennington <hp@redhat.com>
 libzvt2			libzvt		1.109.0		ported, accessibility issues	Jacob Berkman <jacob@ximian.com>
 metatheme		metatheme	0.9.0		new/porting from ximian		Richard Hestilow <hestilow@ximian.com>
 nautilus		=		-		much porting work going on	Darin Adler <darin@bentspoon.com>
