@@ -5,13 +5,12 @@ msgstr ""
 "Project-Id-Version: GNOME-2.10 release-notes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: (null)\n"
-"PO-Revision-Date: 2005-03-07 16:02+0100\n"
+"PO-Revision-Date: 2005-03-08 01:30+0100\n"
 "Last-Translator: Elian Myftiu <elian@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
+"Content-Transfer-Encoding: 8bit"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -39,7 +38,7 @@ msgstr "@@image: 'figures/figure-floppy-formatter.png'; md5=cc67b69fcf0049807a6b
 
 #: ../rnutilities.xml:8(title)
 msgid "Utilities"
-msgstr "Veglat"
+msgstr "Vegla"
 
 #: ../rnutilities.xml:10(para)
 msgid "The GNOME utilities have some improvements, such as:"
@@ -47,7 +46,7 @@ msgstr "Veglat e GNOME kanë disa përmirësime, si:"
 
 #: ../rnutilities.xml:13(title) ../rnutilities.xml:21(title)
 msgid "Text Editor"
-msgstr "Editori i tekstit"
+msgstr "Editor Teksti"
 
 #: ../rnutilities.xml:15(para)
 msgid "The GNOME text editor can now highlight the current line and when editing program source code, it highlights matching braces. Spell checking is improved too. It now only highlights mispelled words when you have actually finished typing the word, and many extra languages are supported and automatically identified."
@@ -125,7 +124,7 @@ msgstr "GNOME 2.10 afron disa karakteristika të reja për administrimin e siste
 
 #: ../rnsysadmin.xml:17(title)
 msgid "System Tools"
-msgstr "Veglat e sistemit"
+msgstr "Vegla Sistemi"
 
 #: ../rnsysadmin.xml:19(para)
 msgid "The system tools allow you to configure your system clock and your network connection, as well as manage the users and groups on your system. At present, these system tools are most appropriate for single computers rather than large networks of computers."
@@ -137,11 +136,11 @@ msgstr "Rrjeti: Mbështetje e përmirësuar për rrjetin pa fije (zbulim WEP dhe
 
 #: ../rnsysadmin.xml:27(para)
 msgid "Users and Groups: Easier editing of group members."
-msgstr "Përdorues dhe grupet: Ndryshim më i lehtë i anëtarëve të grupit."
+msgstr "Përdorues dhe Grupe: Ndryshim më i lehtë i anëtarëve të grupit."
 
 #: ../rnsysadmin.xml:28(para)
 msgid "Changes are applied instantly where appropriate."
-msgstr "Nëse korrekte, ndryshimet aplikohen menjëherë."
+msgstr "Ndryshimet aplikohen menjëherë aty ku duhet"
 
 #: ../rnsysadmin.xml:23(para)
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
@@ -149,15 +148,15 @@ msgstr "GNOME 2.10 sjell disa përmirësime, përfshirë <placeholder-1/>"
 
 #: ../rnsysadmin.xml:33(title)
 msgid "The Clock, Network, and Users/Groups tools"
-msgstr "Instrumentët për Orën, Rrjetin, dhe Përdorues/Grupet"
+msgstr "Instrumentët për Orën, Rrjetin, dhe Përdoruesit/Grupet"
 
 #: ../rnsysadmin.xml:38(phrase)
 msgid "The Clock, Network, and Users/Groups tools."
-msgstr "Instrumentët për orën, rrjetin, dhe përdorues/grupet"
+msgstr "Instrumentët për Orën, Rrjetin, dhe Përdoruesit/Grupet."
 
 #: ../rnsysadmin.xml:46(title)
 msgid "Log Viewer"
-msgstr "Shikuesi i regjistrimeve"
+msgstr "Shikues Regjistrimesh"
 
 #: ../rnsysadmin.xml:51(para)
 msgid "Open multiple logs in the separate windows."
@@ -165,7 +164,7 @@ msgstr "Hap regjistrime shumëfishe në dritare të veçanta."
 
 #: ../rnsysadmin.xml:52(para)
 msgid "Open archived logs and logs on networked drives."
-msgstr "Hap regjistrime të arkivuar dhe regjistrime tek disqet në rrjet."
+msgstr "Hap regjistrime të arkivuar dhe ato tek disqet në rrjet."
 
 #: ../rnsysadmin.xml:53(para)
 msgid "Copy logs to the clipboard."
@@ -177,22 +176,19 @@ msgstr "Shikuesi i regjistrimit GNOME ka shtuar një mundësi kërkimi dhe një 
 
 #: ../rnsysadmin.xml:58(title)
 msgid "The Log Viewer"
-msgstr "Shikuesi i regjistrimeve"
+msgstr "Shikuesi i Regjistrimeve"
 
 #: ../rnsysadmin.xml:63(phrase)
 msgid "The Log Viewer, during a search."
-msgstr "Shikuesi i regjistrimeve, gjatë një kërkimi."
+msgstr "Shikuesi i Regjistrimeve, gjatë një kërkimi."
 
 #: ../rnstandards.xml:7(title)
 msgid "Standards Compliance"
-msgstr "Plotësimi i standarteve"
+msgstr "Plotësim Standardesh"
 
 #: ../rnstandards.xml:9(para)
 msgid "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop.org/wiki/Standards\">freedesktop.org</ulink>. Standards support is a big plus for GNOME users. Interoperability support improves the user experience by allowing GNOME, KDE, and other applications to work together more easily, and following open specifications helps ensure that user data is not trapped in proprietary formats."
-msgstr ""
-"GNOME punon në bashkpunim të ngushtë me grupe si <ulink "
-"url=\"http://www.freedesktop.org/wiki/Standards/\">freedesktop.org</ulink> Plotësimi i  standardeve është diçka shumë pozitive për përdoruesit e GNOME-s. Pajtueshmëria përmirëson "
-"eksperiencën e përdoruesit duke lejuar GNOME, KDE, e programe të tjerë të punojnë së bashku më lehtësisht. Gjithashtu, duke ndjekur ndihma të hapura të sakta sigurohet mos bllokimi i të dhënave të përdoruesit në formate të patentuar."
+msgstr "GNOME punon në bashkpunim të ngushtë me grupe si <ulink url=\"http://www.freedesktop.org/wiki/Standards/\">freedesktop.org</ulink> Plotësimi i  standardeve është diçka shumë pozitive për përdoruesit e GNOME-s. Pajtueshmëria përmirëson eksperiencën e përdoruesit duke lejuar GNOME, KDE, e programe të tjerë të punojnë së bashku më lehtësisht. Gjithashtu, duke ndjekur ndihma të hapura të sakta sigurohet mos bllokimi i të dhënave të përdoruesit në formate të patentuar."
 
 #: ../rnstandards.xml:19(para)
 msgid "GNOME developers are working hard with other members of the free software community through Freedesktop.org on the development of standards to allow interoperability. Those standards include: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recent files</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menus</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop entries</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">thumbnail management</ulink>, and the <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink> specifications. In addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
@@ -200,7 +196,7 @@ msgstr "Zhvilluesit e GNOME po bashkpunojnë në menyrë të ngushtë me anëtar
 
 #: ../rnplatform.xml:9(title)
 msgid "Platform Improvements"
-msgstr "Përmirësime platforme"
+msgstr "Përmirësime Platforme"
 
 #: ../rnplatform.xml:13(para)
 msgid "GTK+ 2.6 has new cell renderers, new buttons, an IconView, and a new about box."
@@ -212,18 +208,11 @@ msgstr "glib 2.6 ka një API analizues me rresht komande akoma më të thjeshtë
 
 #: ../rnplatform.xml:15(para)
 msgid "The Platform Bindings now include full Python APIs for the GNOME Development Platform, via gnome-python. This in addition to the current C++, Java, Perl, and Python bindings, via the <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
-msgstr ""
-"Veglat e Platformës tashmë përfshijnë API të plotë për Python për \"Platformën "
-"Zhvilluese GNOME\", me anë të gnome-python. Kjo përveç veglave të tanishme C+"
-"+, Java, Perl dhe Python, falë projekteve <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, dhe <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>."
+msgstr "Veglat e Platformës tashmë përfshijnë API të plotë për Python për \"Platformën Zhvilluese GNOME\", me anë të gnome-python. Kjo përveç veglave të tanishme C++, Java, Perl dhe Python, falë projekteve <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, dhe <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>."
 
 #: ../rnplatform.xml:10(para)
 msgid "The GNOME 2.10 Development Platform provides a stable base for third-party software developers, and for the GNOME Desktop itself. GNOME 2.10 adds some API improvements, while maintaining backwards compatibilty and API-stability. In particular this time we have: <placeholder-1/>"
-msgstr ""
-"Platforma Zhvilluese GNOME 2.10 të pajis me një bazë të qëndrueshme për "
-"zhvillues \"software\"-i të palëve të treta, dhe për vetë Hapësirën e Punës "
-"GNOME. GNOME 2.10 shton disa përmirësime API, duke ruajtur përputhshmërinë "
-"dhe qëndrueshmërinë API. Në veçanti tani kemi: <placeholder-1/>"
+msgstr "Platforma Zhvilluese GNOME 2.10 të pajis me një bazë të qëndrueshme për zhvillues \"software\"-i të palëve të treta, dhe për vetë Hapësirën e Punës GNOME. GNOME 2.10 shton disa përmirësime API, duke ruajtur përputhshmërinë dhe qëndrueshmërinë API. Në veçanti tani kemi: <placeholder-1/>"
 
 #: ../rninstallation.xml:9(title)
 msgid "Installation of GNOME 2.10"
@@ -231,44 +220,40 @@ msgstr "Instalimi i GNOME 2.10"
 
 #: ../rninstallation.xml:11(para)
 msgid "For GNOME 2.10 we have a LiveCD, available from www.gnome.org. The LiveCD allows you to try a full GNOME desktop on Linux without installing anything on your hard drive. This is the best way to see for yourself what's new."
-msgstr "Për GNOME 2.10 kemi një LiveCD, që mund të merret nga www.gnome.org. LiveCD ju jep mundësinë të provoni hapësirën e plotë të punës GNOME në Linux pa instaluar asgjë tek disku fiks i kompjuterit tuaj. Kjo është dhe rruga më e mirë për shikuar të rejat e afruara."
+msgstr "Për GNOME 2.10 kemi një LiveCD, që mund të merret nga www.gnome.org. LiveCD të jep mundësinë të provosh hapësirën e plotë të punës GNOME në Linux pa instaluar asgjë tek disku fiks i kompjuterit tënd. Kjo është dhe rruga më e mirë për të parë të rejat e fundit."
 
 #: ../rninstallation.xml:13(para)
 msgid "For actual use, we recommend that you install official packages, such as those for your Linux distribution. Vendors are likely to package GNOME 2.10 relatively quickly, and to release new versions soon that include GNOME 2.10."
-msgstr "Për përdorim të përditshëm, të këshillojmë instaimin e paketave zyrtare, si ato për shpërndarjen tënde Linux. Shitësit ngjan t'a paketojnë GNOME 2.10 relativisht shpejt, dhe të publikojnë versione të reja që përmbajnë GNOME 2.10 së shpejti."
+msgstr "Për përdorim të përditshëm, të këshillojmë instalimin e paketave zyrtare, si ato për shpërndarjen tënde Linux. Shitësit ngjan t'a paketojnë GNOME 2.10 relativisht shpejt, dhe të publikojnë versione të reja që përmbajnë GNOME 2.10 së shpejti."
 
 #: ../rninstallation.xml:15(para)
 msgid "However, if you would like to build GNOME from source code, to test the very latest versions, to provide feedback and improvements, we recommend a build tool; such as the <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</ulink> utility, for building from released tarballs, and <ulink url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from CVS."
-msgstr "Megjithatë, nëse dëshironi të instaloni GNOME nga kodi burues, për të provuar versionet më të fundit, për të afruar përshtypje dhe propozime, ju rekomandojmë një instrument përpilimi, si <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</ulink>, për të përpiluar nga paketat zyrtare të lëshuara, apo <ulink url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, për të përpiluar nga CVS."
+msgstr "Megjithatë, nëse dëshiron të instalosh GNOME nga kodi burues, për të provuar versionet më të fundit, për të afruar përshtypje dhe propozime, të rekomandojmë një instrument përpilimi, si <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</ulink>, për të përpiluar nga paketat zyrtare të lëshuara, apo <ulink url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, për të përpiluar nga CVS."
 
 #: ../rni18n.xml:8(title)
 msgid "Internationalization"
-msgstr "Ndërkombëtarizimi"
+msgstr "Ndërkombëtarizim"
 
 #. Translators: I have only changed language count in here: s/40/33/
 #: ../rni18n.xml:10(para)
 msgid "Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 languages (at least 80 percent of strings translated)."
-msgstr ""
-"Falë anëtarëve anë e mbarë botës të <ulink url=\"http://developer.gnome.org/"
-"projects/gtp/\">Projektit të Përkthimit të GNOME</ulink> , nën udhëheqjen "
-"e Christian Rose dhe Kjartan Maraas, GNOME 2.10 ofron mbështetje për 33 "
-"gjuhë të ndryshme (përkthyer të paktën 80 përqind e vargjeve)."
+msgstr "Falë anëtarëve anë e mbarë botës të <ulink url=\"http://developer.gnome.org/projects/gtp/\">Projektit të Përkthimit të GNOME</ulink> , nën udhëheqjen e Christian Rose dhe Kjartan Maraas, GNOME 2.10 ofron mbështetje për 33 gjuhë të ndryshme (përkthyer të paktën 80 përqind e vargjeve)."
 
 #: ../rni18n.xml:41(para)
 msgid "Albanian (5 million speakers)"
-msgstr "Shqip (5 milion folës)"
+msgstr "Shqip (5 milionë folës)"
 
 #: ../rni18n.xml:42(para)
 msgid "Brazilian Portuguese (175 million)"
-msgstr "Portugeze Braziliane (175 milion)"
+msgstr "Portugeze Braziliane (175 milionë)"
 
 #: ../rni18n.xml:43(para)
 msgid "Bulgarian (9 million)"
-msgstr "Bullgarisht (9 milion)"
+msgstr "Bullgarisht (9 milionë)"
 
 #: ../rni18n.xml:44(para)
 msgid "Catalan (7 million)"
-msgstr "Katalane (7 milion)"
+msgstr "Katalane (7 milionë)"
 
 #: ../rni18n.xml:45(para)
 msgid "Chinese Simplified (over 1 billion)"
@@ -276,15 +261,15 @@ msgstr "Kinezçe e Thjeshtuar (mbi 1 miliardë)"
 
 #: ../rni18n.xml:46(para)
 msgid "Chinese Traditional (40 million)"
-msgstr "Kinezçe Tradicionale (40 milion)"
+msgstr "Kinezçe Tradicionale (40 milionë)"
 
 #: ../rni18n.xml:47(para)
 msgid "Czech (11 million)"
-msgstr "Çekisht (11 milion)"
+msgstr "Çekisht (11 milionë)"
 
 #: ../rni18n.xml:48(para)
 msgid "Danish (5.3 million)"
-msgstr "Danisht (5.3 million)"
+msgstr "Danisht (5.3 milionë)"
 
 #: ../rni18n.xml:49(para)
 msgid "Dutch (over 21 million)"
@@ -292,7 +277,7 @@ msgstr "Hollandisht (mbi 21 milionë)"
 
 #: ../rni18n.xml:50(para)
 msgid "English (341 million)"
-msgstr "Anglisht (341 milion)"
+msgstr "Anglisht (341 milionë)"
 
 #: ../rni18n.xml:51(para)
 msgid "Finnish (over 5 million)"
@@ -304,27 +289,27 @@ msgstr "Frengjisht (mbi 75 milionë)"
 
 #: ../rni18n.xml:53(para)
 msgid "German (100 million)"
-msgstr "Gjermanisht (100 milion)"
+msgstr "Gjermanisht (100 milionë)"
 
 #: ../rni18n.xml:54(para)
 msgid "Greek (15 million)"
-msgstr "Greqisht (15 milion)"
+msgstr "Greqisht (15 milionë)"
 
 #: ../rni18n.xml:55(para)
 msgid "Gujarati (46 million)"
-msgstr "Gujarati (46 milion)"
+msgstr "Gujarati (46 milionë)"
 
 #: ../rni18n.xml:56(para)
 msgid "Hindi (370 million)"
-msgstr "Hindi (370 milion)"
+msgstr "Hindi (370 milionë)"
 
 #: ../rni18n.xml:57(para)
 msgid "Hungarian (14.5 million)"
-msgstr "Hungarisht (14.5 milion)"
+msgstr "Hungarisht (14.5 milionë)"
 
 #: ../rni18n.xml:58(para)
 msgid "Italian (60 million)"
-msgstr "Italisht (60 milion)"
+msgstr "Italisht (60 milionë)"
 
 #: ../rni18n.xml:59(para)
 msgid "Japanese (over 125 million)"
@@ -332,35 +317,35 @@ msgstr "Japonisht (mbi 125 milionë)"
 
 #: ../rni18n.xml:60(para)
 msgid "Korean (75 million)"
-msgstr "Koreane (75 milion)"
+msgstr "Koreane (75 milionë)"
 
 #: ../rni18n.xml:61(para)
 msgid "Lithuanian (4 million)"
-msgstr "Lituanisht (4 milion)"
+msgstr "Lituanisht (4 milionë)"
 
 #: ../rni18n.xml:62(para)
 msgid "Norwegian Bookmal (5 million)"
-msgstr "Norvegjishte Bookmal (5 milion)"
+msgstr "Norvegjishte Bookmal (5 milionë)"
 
 #: ../rni18n.xml:63(para)
 msgid "Panjabi (60 million)"
-msgstr "Panjabi (60 milion)"
+msgstr "Panjabi (60 milionë)"
 
 #: ../rni18n.xml:64(para)
 msgid "Polish (44 million)"
-msgstr "Polonisht (44 milion)"
+msgstr "Polonisht (44 milionë)"
 
 #: ../rni18n.xml:65(para)
 msgid "Portuguese (43 million)"
-msgstr "Portugalisht (43 milion)"
+msgstr "Portugalisht (43 milionë)"
 
 #: ../rni18n.xml:66(para)
 msgid "Russian (170 million)"
-msgstr "Rusisht (170 milion)"
+msgstr "Rusisht (170 milionë)"
 
 #: ../rni18n.xml:67(para)
 msgid "Serbian (10 million)"
-msgstr "Serbisht (10 milion)"
+msgstr "Serbisht (10 milionë)"
 
 #: ../rni18n.xml:68(para)
 msgid "Spanish (over 350 million)"
@@ -368,15 +353,15 @@ msgstr "Spanjisht (mbi 350 milionë)"
 
 #: ../rni18n.xml:69(para)
 msgid "Swedish (9 million)"
-msgstr "Suedisht (9 milion)"
+msgstr "Suedisht (9 milionë)"
 
 #: ../rni18n.xml:70(para)
 msgid "Tamil (61 million)"
-msgstr "Tamil (61 milion)"
+msgstr "Tamil (61 milionë)"
 
 #: ../rni18n.xml:71(para)
 msgid "Turkish (150 million)"
-msgstr "Turqisht (150 milion)"
+msgstr "Turqisht (150 milionë)"
 
 #: ../rni18n.xml:72(para)
 msgid "Ukrainian (50 million)"
@@ -416,7 +401,7 @@ msgstr "GNOME \"Njëlloj\""
 
 #: ../rngames.xml:14(para)
 msgid "The Same GNOME game has a major new version, with better graphics, extra board sizes, and an undo feature in case you change your mind."
-msgstr "Loja GNOME Njëlloj ka dalë në një version më të ri, me grafikë të përmirësuar, madhësi të tjera kutie, dhe një mundësi zhbërje në rast se ndryshon mendje."
+msgstr "Loja GNOME \"Njëlloj\" ka dalë në një version më të ri, me grafikë të përmirësuar, madhësi të tjera kutie, dhe një mundësi zhbërje në rast se ndryshon mendje."
 
 #: ../rngames.xml:22(phrase)
 msgid "The Same GNOME game."
@@ -424,7 +409,7 @@ msgstr "Loja GNOME Njëlloj."
 
 #: ../rngames.xml:31(title)
 msgid "Nibbles"
-msgstr "Kafshatat e vogla"
+msgstr "Kafshatat e Vogla"
 
 #: ../rngames.xml:33(para)
 msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by GnomeMeeting."
@@ -444,10 +429,7 @@ msgstr "Administrator Sistemi, Përdorues, dhe Udhëzime Açesibiliteti"
 
 #: ../rndocs.xml:12(para)
 msgid "Thanks to the efforts of the <ulink url=\"http://developer.gnome.org/projects/gdp/\">GNOME Documentation Project</ulink>, GNOME 2.10 comes with comprehensive and professional documentation. Careful attention has been taken to detail using free software's most complete <ulink url=\"http://developer.gnome.org/documents/style-guide/\">documentation style guide</ulink>. As in GNOME 2.8, each application shipped with GNOME 2.10 includes full user documentation."
-msgstr ""
-"Falë përpjekjeve të <ulink "
-"url=\"http://developer.gnome.org/projects/gdp/\">Projektit Dokumentacioni GNOME</ulink> GNOME 2.10 vjen me dokumentacion gjithëpërfshirës dhe profesional. Vëmendje e kujdesshme dhe e hollësishme është arritur duke përdorur <ulink url=\"http://developer.gnome.org/"
-"documents/style-guide/\">një dokumentacion udhëzues të stilit</ulink> të plotë. Ashtu si në GNOME 2.8, çdo program që vjen bashkë me GNOME 2.10 përfshin dokumentacion të plotë."
+msgstr "Falë përpjekjeve të <ulink url=\"http://developer.gnome.org/projects/gdp/\">Projektit Dokumentacioni GNOME</ulink> GNOME 2.10 vjen me dokumentacion gjithëpërfshirës dhe profesional. Vëmendje e kujdesshme dhe e hollësishme është arritur duke përdorur <ulink url=\"http://developer.gnome.org/documents/style-guide/\">një dokumentacion udhëzues të stilit</ulink> të plotë. Ashtu si në GNOME 2.8, çdo program që vjen bashkë me GNOME 2.10 përfshin dokumentacion të plotë."
 
 #: ../rndocs.xml:22(para)
 msgid "Learn to how to use GNOME with the Desktop User Guide. The User Guide and other documentation, including guides to system administration and GNOME's accessibility features, can be found on the <ulink url=\"http://www.gnome.org/learn/\">GNOME Learn page</ulink>."
@@ -467,21 +449,19 @@ msgstr "@@image: 'figures/figure-backgrounds.png'; md5=e1c401f328cb9443b5824eece
 
 #: ../rndesktop.xml:10(title)
 msgid "Desktop"
-msgstr "Hapësira e punës"
+msgstr "Hapësirë Pune"
 
 #: ../rndesktop.xml:12(title)
 msgid "The File Manager"
-msgstr "Organizuesi i file"
+msgstr "Organizuesi i File-ve"
 
 #: ../rndesktop.xml:13(para)
 msgid "The file manager, also known as Nautilus, is even faster and more stable in GNOME 2.10, thanks to changes to its internal architecture. This should allow software developers to maintain and extend the file manager more easily in future."
-msgstr "Organizuesi i file, njohur gjithashtu si Nautilus, është akoma më i shpejtë dhe i qëndrueshën tek GNOME 2.10, falë ndryshimeve në arkitekturën e tij të brendshme. Në këtë menyrë zhvilluesit e programeve do t'a kenë më të lehtë të mirëmbajnë dhe të zgjerojnë organizuesin e file në të ardhmen."
+msgstr "Organizuesi i file-ve, i njohur gjithashtu si Nautilus, është akoma më i shpejtë dhe më i qëndrueshën në GNOME 2.10, falë ndryshimeve në arkitekturën e tij të brendshme. Në këtë menyrë zhvilluesit e programeve do t'a kenë më të lehtë të mirëmbajnë dhe të zgjerojnë organizuesin e file-ve në të ardhmen."
 
 #: ../rndesktop.xml:18(para)
 msgid "Drag and drop with other applications, such as Mozilla and Firefox, now also works more smoothly."
-msgstr ""
-"\"Tërhiq dhe lësho\" me programe të tjerë, si Mozilla dhe Firefox, tashmë punon "
-"më mirë."
+msgstr "\"Tërhiq dhe lësho\" me programe të tjerë, si Mozilla dhe Firefox, tashmë punon më mirë."
 
 #: ../rndesktop.xml:24(para)
 msgid "The path button is now more obviously a button."
@@ -501,11 +481,11 @@ msgstr "Për më tepër, ka shumë ndryshime të vogla që tregojnë kujdesin e 
 
 #: ../rndesktop.xml:31(title)
 msgid "clean-cut and powerful, the Nautilus file manager"
-msgstr "i pastër dhe i fuqishëm, Nautilus - organizuesi i file"
+msgstr "i pastër dhe i fuqishëm, Nautilus - organizuesi i file-ve"
 
 #: ../rndesktop.xml:36(phrase)
 msgid "The file manager"
-msgstr "Organizuesi i file"
+msgstr "Organizuesi i file-ve"
 
 #: ../rndesktop.xml:41(para)
 msgid "GNOME 2.10 provides a new selection of pre-installed background images and patterns, so your desktop can become your own."
@@ -517,11 +497,11 @@ msgstr "një zgjedhje sfondesh ekrani të thjeshta por artistike"
 
 #: ../rndesktop.xml:49(phrase)
 msgid "Desktop backgrounds"
-msgstr "Sfonde për hapësirën e punës"
+msgstr "Sfonde hapësire pune"
 
 #: ../rndesktop.xml:56(title)
 msgid "Window Behaviour"
-msgstr "Sjellja e dritares"
+msgstr "Sjellje Dritareje"
 
 #: ../rndesktop.xml:57(para)
 msgid "GNOME 2.10 has a new ability that you might not notice at first, implementing another cross-desktop Freedesktop.org standard."
@@ -529,11 +509,11 @@ msgstr "GNOME 2.10 tashmë ka një aftësi të re që mund të mos e vësh re n�
 
 #: ../rndesktop.xml:58(para)
 msgid "In the past, while typing something into one application when suddenly your instant messenger offered a chat request from your friend, your words would be typed into the chat window. Imagine if you were typing your password at the time. This should no longer happen in GNOME 2.10."
-msgstr "Në të shkuarën, ndërsa shkruaje diçka në një program ndodhte që befas dërguesi i çastit (IM) të ofronte një kërkesë fjalosjeje nga një mik i yti, fjalët do shtypeshin në atë dritare bisede. Përfytyro sikur në atë çast të ishe duke shtypur një fjalëkalim tëndin. Kjo nuk duhet të ndodhë më në GNOME 2.10."
+msgstr "Në të kaluarën, ndërsa shkruaje diçka në një program ndodhte, që befas dërguesi i çastit (IM) të ofronte një kërkesë fjalosjeje nga një njohur i yti, fjalët do shtypeshin në atë dritare bisede. Përfytyro sikur në atë çast të ishe duke shtypur një fjalëkalim tëndin. Kjo nuk duhet të ndodhë më në GNOME 2.10."
 
 #: ../rndesktop.xml:59(para)
 msgid "In addition, if an application takes a long time to start, your work will not be interrupted when it finally opens its window."
-msgstr "Për më tepër, nëse një programi i duhet shumë kohë të nisë, puna tënde nuk do ndërpritet deri kur ky të ketë hapur dritaren e tij."
+msgstr "Për më tepër, nëse një programi i duhet shumë kohë të nisë, puna jote nuk do të ndërpritet deri kur ky të ketë hapur dritaren e tij."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -543,11 +523,11 @@ msgstr "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=6f351cb81d
 
 #: ../rncontrolcenter.xml:8(title)
 msgid "Control Center"
-msgstr "Qendra e kontrollit"
+msgstr "Qendër Kontrolli"
 
 #: ../rncontrolcenter.xml:11(title)
 msgid "Keyboard Layouts"
-msgstr "Planimetritë e tastierës"
+msgstr "Planimetri Tastiere"
 
 #: ../rncontrolcenter.xml:13(para)
 msgid "Selecting a keyboard layout is now simpler with the Keyboard control panel. Just click Add to choose from a list of international keyboard layouts. Before making your choice you can see the effect of key presses in the layout preview. The Layout Options section has also been reorganized as a simpler list of choices."
@@ -555,7 +535,7 @@ msgstr "Të zgjedhësh një planimetri tastiere tashmë është më e lehtë me 
 
 #: ../rncontrolcenter.xml:18(title)
 msgid "Keyboard Preferences - Layouts"
-msgstr "Preferimet e tastierës - Planimetritë"
+msgstr "Preferime Tastiere - Planimetri"
 
 #: ../rncontrolcenter.xml:23(phrase)
 msgid "The Layouts tab, in the Keyboard Preferences control panel, while adding a new layout."
@@ -599,11 +579,11 @@ msgstr "@@image: 'figures/figure-gnome-meeting.png'; md5=71e89305beea456fbb73016
 
 #: ../rnapplications.xml:8(title)
 msgid "Applications"
-msgstr "Programet"
+msgstr "Programe"
 
 #: ../rnapplications.xml:11(title)
 msgid "Video Player"
-msgstr "Riprodhuesi video"
+msgstr "Riprodhues Videosh"
 
 #: ../rnapplications.xml:13(para)
 msgid "GNOME 2.10 now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration."
@@ -611,35 +591,35 @@ msgstr "GNOME 2.10 tashmë përfshin riprodhuesin e njohur të filmave Totem, du
 
 #: ../rnapplications.xml:18(title)
 msgid "The video player"
-msgstr "Riprodhuesi video"
+msgstr "Riprodhuesi i videos"
 
 #: ../rnapplications.xml:22(phrase)
 msgid "The Totem video player."
-msgstr "Totem - riprodhuesi i filmave."
+msgstr "Totem - riprodhuesi i videos."
 
 #: ../rnapplications.xml:30(title)
 msgid "Audio Extraction"
-msgstr "Nxjerrja e muzikës"
+msgstr "Përftim Muzike"
 
 #: ../rnapplications.xml:32(para)
 msgid "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for later playback on your PC or portable music player. Thanks to automatic downloading of song titles, you won't need to click more than a couple of buttons."
-msgstr "I shumë-dashuri Sound Juicer, \"Grabitësi i CD-ve\" nxjerr lehtësisht këngë nga CD për ti dëgjuar më vonë në PC-në tënd apo në riprodhuesin e muzikës portativ. Falë shkarkimit automatik të titujve të këngëve, nuk do të duhet gjë tjetër veç klikimit të disa pulsantëve."
+msgstr "Shumë i dashturi Sound Juicer, CD-rrjepësi me të cilin përftohen lehtë gjurmët muzikore prej CD-ve, për ti përdorur më vonë në PC-në tënd apo në riprodhuesin portativ të muzikës. Falë shkarkimit automatik të titujve të këngëve, nuk do të të duhet gjë tjetër veç klikimit të disa pulsantëve."
 
 #: ../rnapplications.xml:37(title)
 msgid "The audio extractor"
-msgstr "Nxjerrëi i muzikës"
+msgstr "Përftuesi i muzikës"
 
 #: ../rnapplications.xml:41(phrase)
 msgid "The audio extractor."
-msgstr "Nxjerrëi i muzikës."
+msgstr "Përftuesi i muzikës."
 
 #: ../rnapplications.xml:49(title)
 msgid "Web Browser"
-msgstr "Shfletuesi web"
+msgstr "Shfletues Web"
 
 #: ../rnapplications.xml:53(para)
 msgid "An improved fullscreen mode."
-msgstr "Një modalitet i përmirësuar me ekran të plotë."
+msgstr "Një modalitet i përmirësuar ekrani të plotë."
 
 #: ../rnapplications.xml:54(para)
 msgid "The location bar now indicates whether the site is secure, and shows its favicon."
@@ -687,7 +667,7 @@ msgstr "Në ngjarje ripërsëritëse mund të krijohen përjashtime."
 
 #: ../rnapplications.xml:87(para)
 msgid "The calendar includes weather information (US only)."
-msgstr "Kalendari përfshin të dhëna moti (vetëm US)."
+msgstr "Kalendari përfshin të dhëna moti (vetëm SHBA)."
 
 #: ../rnapplications.xml:83(para)
 msgid "This new version offers some other calendar improvements: <placeholder-1/>"
@@ -711,7 +691,7 @@ msgstr "Madhësitë e kartelave të Exchange dhe skadimi i fjalëkalimeve punojn
 
 #: ../rnapplications.xml:105(para)
 msgid "The email user interface will be properly mirrored for right-to-left languages."
-msgstr "Interfaqja e përdoruesit të email do të pasqyrohet me korrektësi për gjuhët nga e djathta-në të-majtë."
+msgstr "Ndërfaqja e përdoruesit të email-it do të pasqyrohet me korrektësi për gjuhët nga e djathta-në të-majtë."
 
 #: ../rnapplications.xml:101(para)
 msgid "And yet more new features: <placeholder-1/>"
@@ -719,11 +699,11 @@ msgstr "Dhe akoma shumë karakteristika të tjera të reja: <placeholder-1/>"
 
 #: ../rnapplications.xml:110(title)
 msgid "The email client"
-msgstr "Klienti email"
+msgstr "Klienti i email-it"
 
 #: ../rnapplications.xml:114(phrase)
 msgid "The Evolution email client."
-msgstr "Klienti email i Evolution."
+msgstr "Klienti email-it Evolution."
 
 #: ../rnapplications.xml:122(title)
 msgid "GnomeMeeting"
@@ -743,7 +723,7 @@ msgstr "Klienti për telefoni dhe konferenca video via internet"
 
 #: ../rnapplications.xml:136(phrase)
 msgid "GnomeMeeting with side-by-side video."
-msgstr "GnomeMeeting me \"krah-për-krah\" video."
+msgstr "GnomeMeeting me video \"krah-për-krah\"."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -789,7 +769,7 @@ msgstr "@@image: 'figures/figure-applet-cpufreq.png'; md5=81a2482710b2157df4fc66
 
 #: ../rnapplets.xml:8(title)
 msgid "Panel Items"
-msgstr "Elementët e panelit"
+msgstr "Elementë Paneli"
 
 #: ../rnapplets.xml:10(para)
 msgid "GNOME 2.10 includes major improvements to its panel items (also known as applets), providing new features and better integration with the rest of the desktop."
@@ -797,8 +777,7 @@ msgstr "GNOME 2.10 përfshin përmirësime të rëndësishme sa i përket elemen
 
 #: ../rnapplets.xml:13(para)
 msgid "The most visible change is the removal of the Actions panel menu and the addition of Places and Desktop menus. These provide fast access to the items you use most often, without navigating through sub-menus. For instance, the Places menu lists your home folder, your computer, networked servers, and the search feature. In the Desktop menu, you'll find your Preferences and Administration control panels, Log Out, and Help."
-msgstr ""
-"Ndryshimi më i dukshëm është heqja e menusë \"Veprime\" nga paneli dhe shtimi i menuve \"Vendndodhje\" dhe \"Hapësirë Pune\".Këto të fundit të pajisin me hyrje të shpejtë për tek elementët që përdor më shpesh, pa humbur kohë me nën-menutë. Për shembull, menuja \"Vendndodhje\", rreshton kartelën shtëpi, kompjuterin tënd, shërbyes rrjeti, dhe kërkuesin. Në menunë \"Hapësirë Pune\", do të gjesh panelet e kontrollit të Preferimeve dhe "
+msgstr "Ndryshimi më i dukshëm është heqja e menusë \"Veprime\" nga paneli dhe shtimi i menuve \"Vendndodhje\" dhe \"Hapësirë Pune\".Këto të fundit të pajisin me hyrje të shpejtë për tek elementët që përdor më shpesh, pa humbur kohë me nën-menutë. Për shembull, menuja \"Vendndodhje\", rreshton kartelën shtëpi, kompjuterin tënd, shërbyes rrjeti, dhe kërkuesin. Në menunë \"Hapësirë Pune\", do të gjesh panelet e kontrollit të Preferimeve dhe "
 "Administrimit, Dil Jashtë dhe Ndihmë."
 
 #: ../rnapplets.xml:15(para)
@@ -811,7 +790,7 @@ msgstr "Gjithashtu, shumë programthe tashmë mund të jenë pjesërisht të tej
 
 #: ../rnapplets.xml:22(title)
 msgid "Integrated Modem Control"
-msgstr "Kontroll i brendshëm i modemit"
+msgstr "Kontroll i Brendshëm i Modemit"
 
 #: ../rnapplets.xml:23(para)
 msgid "GNOME 2.10 introduces a new applet for controlling your Modem, integrated with GNOME System Tools."
@@ -823,7 +802,7 @@ msgstr "Programthi i ri kontrollit të modemit"
 
 #: ../rnapplets.xml:41(title)
 msgid "Panel Trashcan"
-msgstr "Koshi i panelit"
+msgstr "Kosh Paneli"
 
 #: ../rnapplets.xml:43(para)
 msgid "GNOME 2.10 features an optional trashcan for your Panel. Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash without minimizing your open windows."
@@ -839,7 +818,7 @@ msgstr "Tërhiq mbeturina në panel"
 
 #: ../rnapplets.xml:63(title)
 msgid "Control Mounted Volumes"
-msgstr "Kontrollo Volumet e montuara"
+msgstr "Kontrollo Volume të Montuara"
 
 #: ../rnapplets.xml:65(para)
 msgid "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, and USB memory sticks. Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing you to mount them, eject them, or open them in the file manager."
@@ -847,11 +826,11 @@ msgstr "GNOME 2.8 të lejonte të montoje lehtësisht media si CD, DVD, dhe çel
 
 #: ../rnapplets.xml:73(title)
 msgid "Drive Mount"
-msgstr "Montimi i drive"
+msgstr "Montim Pajisjeje"
 
 #: ../rnapplets.xml:78(phrase)
 msgid "The drive mount applet."
-msgstr "Programthi i montimit të lexuesve."
+msgstr "Programthi i montimit të pajisjes."
 
 #: ../rnapplets.xml:86(title)
 msgid "Get even more weather"
@@ -863,7 +842,7 @@ msgstr "Vëzhguesi i motit tashmë mund të shfaqë akoma më tepër vendndodhje
 
 #: ../rnapplets.xml:94(title)
 msgid "Weather Report"
-msgstr "Njoftimi i motit"
+msgstr "Njoftim Moti"
 
 #: ../rnapplets.xml:99(phrase)
 msgid "The weather report applet."
@@ -871,11 +850,11 @@ msgstr "Programthi i njoftimit të motit."
 
 #: ../rnapplets.xml:107(title)
 msgid "Sound control"
-msgstr "Kontrolli i zërit"
+msgstr "Kontroll zëri"
 
 #: ../rnapplets.xml:108(para)
 msgid "A new mixer for your panel (combined with a new-look mixer on the desktop) gets the most from your sound hardware. Using the GStreamer multimedia framework, the mixer is now simpler and more convenient than before. The same multimedia framework powers Totem, Sound Juicer, the GNOME CD player and a variety of third-party applications, so changing the GNOME volume via the panel will change the volume of all these applications."
-msgstr "Një mikser i ri për panelin tënd (kombinuar me një mikser të ri në hapësirën e punës) punon më së miri me kartën tënde të zërit. Duke përdorur skeletin multimedial GStreamer, mikseri tashmë është më i thjeshtë dhe më i leverdisshëm se më parë. I njëjti skelet punon për Totem, Sound Juicer, lexuesin e CD-ve dhe një larmi programesh jo zyrtare, kështu që duke ndryshuar zërin e GNOME nga paneli, do ndryshojë zërin për të gjithë këto programe."
+msgstr "Një mikser i ri për panelin tënd (kombinuar me një mikser të ri në hapësirën e punës) punon më së miri me kartën tënde të zërit. Duke përdorur skeletin multimedial GStreamer, mikseri tashmë është më i thjeshtë dhe më i leverdisshëm se më parë. I njëjti skelet punon për Totem, Sound Juicer, riprodhuesin e CD-ve dhe një larmi programesh jo zyrtare, kështu që duke ndryshuar zërin e GNOME nga paneli, do ndryshojë zërin për të gjithë këto programe."
 
 #: ../rnapplets.xml:117(title)
 msgid "all new mixer for your panel"
@@ -887,7 +866,7 @@ msgstr "Mikser fringo i ri për panelin tënd"
 
 #: ../rnapplets.xml:129(title)
 msgid "Taking note"
-msgstr "Marrja e shënimeve"
+msgstr "Marrje shënimi"
 
 #: ../rnapplets.xml:130(para)
 msgid "The popular Sticky Notes applet now makes it even easier to add PostIt-style notes on your desktop, thanks to a simpler user interface and many bug fixes. For instance, sticky notes will now stay on the correct workspace, or even a different monitor."
@@ -899,7 +878,7 @@ msgstr "Gjithashtu, shënimet ngjitëse tashmë qëndrojnë mbi çdo dritare tje
 
 #: ../rnapplets.xml:138(title) ../rnapplets.xml:143(phrase)
 msgid "Sticky Notes"
-msgstr "Shënimet e ngjitura"
+msgstr "Shënime të Ngjitura"
 
 #: ../rnapplets.xml:149(title)
 msgid "Specially for laptops"
@@ -915,11 +894,11 @@ msgstr "Mbikqyr Shkallëzimin e Frekuencës së CPU-së"
 
 #: ../rnapplets.xml:171(title)
 msgid "Removed Applets"
-msgstr "Programthet e hequra"
+msgstr "Programthet e Hequra"
 
 #: ../rnapplets.xml:172(para)
 msgid "Three applets were removed in GNOME 2.10, replaced by better alternatives in most cases."
-msgstr "Tre programthe janë heque në GNOME 2.10, në më të shumtën e rasteve, zëvendësuar nga alternativa më të mira."
+msgstr "Tre programthe janë hequr në GNOME 2.10, në më të shumtën e rasteve, zëvendësuar nga alternativa më të mira."
 
 #: ../rnapplets.xml:175(para)
 msgid "The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel."
@@ -949,7 +928,7 @@ msgstr "Parathënie"
 
 #: ../release-notes.xml:24(phrase)
 msgid "The GNOME Desktop"
-msgstr "Hapësira e punës GNOME"
+msgstr "Hapësira e Punës GNOME"
 
 #: ../release-notes.xml:27(para)
 msgid "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-platform free desktop environment."
@@ -965,25 +944,19 @@ msgstr "GNOME të pajis me një mjedis të lehtë për t'u përdorur që \"thjes
 
 #: ../release-notes.xml:37(para)
 msgid "GNOME runs on a variety of platforms, including GNU/Linux (commonly called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes powerful features such as world-class smooth text rendering, a first-class accessibility infrastructure, and a complete internationalization infrastructure that includes support for bi-directional text."
-msgstr ""
-"GNOME xhiron në një mori platformash, duke përfshirë GNU/Linux (zakonisht quajtur Linux), Solaris, HP-UX, BSD dhe Darwin e Apple. GNOME përfshin karakteristika të fuqishme si paraqitje të lëmuar teksti, infrastrukturë të klasit të parë açesibiliteti, dhe një infrastrukturë të plotë "
-"ndërkombëtarizimi që përfshin mbështetje për tekst dy-drejtimor."
+msgstr "GNOME xhiron në një mori platformash, duke përfshirë GNU/Linux (zakonisht quajtur Linux), Solaris, HP-UX, BSD dhe Darwin e Apple. GNOME përfshin karakteristika të fuqishme si paraqitje të lëmuar teksti, infrastrukturë të klasit të parë açesibiliteti, dhe një infrastrukturë të plotë ndërkombëtarizimi që përfshin mbështetje për tekst dy-kahësh."
 
 #: ../release-notes.xml:44(para)
 msgid "Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/start/2.8/notes/\">release notes</ulink>."
-msgstr "Sigurisht GNOME 2.10 përfshin të gjitha përmirësimet e bëra në GNOME 2.8, të cilat mund ti lexoni në <ulink url=\"http://www.gnome.org/start/2.8/notes/\">shënimet e publikimit</ulink> për GNOME 2.8."
+msgstr "Sigurisht, GNOME 2.10 përfshin të gjitha përmirësimet e bëra në GNOME 2.8, të cilat mund ti lexoni në <ulink url=\"http://www.gnome.org/start/2.8/notes/\">shënimet e publikimit</ulink> për GNOME 2.8."
 
 #: ../release-notes.xml:48(para)
 msgid "The Desktop release contains all the applications needed to provide basic user functionality. Major applications such as <application>Gnumeric</application> and <application>OpenOffice.org</application> are also available, but are developed in parallel on their own release cycle rather than being included in the core GNOME release."
-msgstr ""
-"Publikimi i Hapësirës së Punës përmban të gjitha programet e duhura për pajisjen me funksionalitet bazë. Gjithashtu, programe më të mëdhenj si <application>Gnumeric</application> dhe <application> OpenOffice.org</"
-"application> janë në dispozicion, por zhvillohen paralelisht me ciklin e tyre të publikimit në vend të përfshirjes në publikimin kryesor të GNOME."
+msgstr "Publikimi i Hapësirës së Punës përmban të gjitha programet e duhura për pajisjen me funksionalitet bazë. Gjithashtu, programe më të mëdhenj si <application>Gnumeric</application> dhe <application> OpenOffice.org</application> janë në dispozicion, por zhvillohen paralelisht me ciklin e tyre të publikimit në vend të përfshirjes në publikimin kryesor të GNOME."
 
 #: ../release-notes.xml:55(para)
 msgid "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/philosophy/free-sw.html\">free software</ulink>."
-msgstr ""
-"GNOME është pjesë e Projektit GNU, dhe është <ulink "
-"url=\"http://www.fsf.org/philosophy/free-sw.html\">\"software\" i lirë</ulink>."
+msgstr "GNOME është pjesë e Projektit GNU, dhe është <ulink url=\"http://www.fsf.org/philosophy/free-sw.html\">\"software\" i lirë</ulink>."
 
 #: ../release-notes.xml:59(para)
 msgid "Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</link> section, or use the links at the right to learn more about this release and the GNOME Desktop in general."
@@ -991,11 +964,11 @@ msgstr "Të lutem vazhdo drejtpërdrejt tek seksioni <link linkend=\"rnwhatsnew\
 
 #: ../release-notes.xml:67(title)
 msgid "What's New In GNOME 2.10"
-msgstr "Të rejat tek GNOME 2.10"
+msgstr "Të Rejat Në GNOME 2.10"
 
 #: ../release-notes.xml:92(title)
 msgid "Known Issues"
-msgstr "Problemet e njohur"
+msgstr "Probleme të Njohura"
 
 #: ../release-notes.xml:93(para)
 msgid "All software, when it is released, contains bugs the developers know about but have chosen, for a variety of reasons, not to fix before releasing. Free software is no different in this regard from proprietary software, except that with free software, we tell users about these problems."
@@ -1003,23 +976,23 @@ msgstr "Të gjithë programet, kur lëshohen, përmbajnë difekte për të cilë
 
 #: ../release-notes.xml:98(para)
 msgid "We also encourage our users to report bugs so that they can be fixed. The best way to report bugs found in GNOME is to use the <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">Simple Bug Guide</ulink>. This will take you through the necessary steps to file a quality bug report, and make sure that it is tagged appropriately. If you're too advanced for anything with the word 'simple' in it, there is also the <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">traditional bug form</ulink>. More details on bugs already reported can be found at our <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink>. Among the most prominent GNOME 2.10 bugs:"
-msgstr "Ne gjithashtu ftojmë përdoruesit tanë të njoftojnë difektet e ndeshura, në menyrë që të mund të korrigjohen. Rruga më e mirë për të raportuar difektet e gjetur në GNOME është përdorimi i <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">Udhëzuesit të thjeshtë të difekteve</ulink>. Kjo do t'ju udhëheqë në kalimet e nevojshme për dërgimin e një raporti me kualitet, dhe të sigurojë versionimin korrekt të difektit. Nëse jeni tepër i përparuar për gjithçka që përmban fjalën \"i thjeshtë\", ja ku keni dhe <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">formularin tradicional të difekteve</ulink>. Hollësi në lidhje me difekte të njoftuar nga të tjerë mund të merren tek <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink> jonë. Difektet më në dukje të GNOME 2.10:"
+msgstr "Gjithashtu ftojmë përdoruesit tanë të njoftojnë difektet e ndeshura, në menyrë që të mund të korrigjohen. Rruga më e mirë për të raportuar difektet e gjetur në GNOME është përdorimi i <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">Udhëzuesit të thjeshtë të difekteve</ulink>. Kjo do t'ju udhëheqë në kalimet e nevojshme për dërgimin e një raporti me kualitet, dhe të sigurojë versionimin korrekt të difektit. Nëse jeni tepër i përparuar për gjithçka që përmban fjalën \"i thjeshtë\", ja ku keni dhe <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">formularin tradicional të difekteve</ulink>. Hollësi në lidhje me difekte të njoftuar nga të tjerë mund të merren tek <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink> jonë. Difektet më në dukje të GNOME 2.10:"
 
 #: ../release-notes.xml:111(title)
 msgid "List of known issues"
-msgstr "Lista e problemeve të njohur"
+msgstr "Listë problemesh të njohura"
 
 #: ../release-notes.xml:115(para)
 msgid "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozilla/Firefox new window focus</ulink>: When you launch Mozilla or Firefox and already have another Mozilla or Firefox window open, the new window may appear without focus and behind the window that does have focus. GNOME's mozilla-based Epiphany browser does not have this problem, and Mozilla hackers are working to quickly fix this in future versions of Mozilla and Firefox."
-msgstr "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Fokus tek dritare e re e Mozilla/Firefox</ulink>: Kur nisni Mozilla apo Firefox ndërkohë që keni të hapur një dritare tjetër të Mozilla ose Firefox, dritarja e re mund të shfaqet e pa fukosuar dhe mbrapa dritares që ka fokusin. Epiphany, shfletuesi i GNOME i bazuar tek mozilla nuk paraqet këtë problem, dhe zhvilluesit e Mozilla po punojnë me ngulm për të korrigjuar sa më shpejt këtë problem në versionet e ardhshëm të Mozilla dhe Firefox."
+msgstr "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Fokus e dritares së re tek Mozilla/Firefox</ulink>: Kur nis Mozilla apo Firefox ndërkohë që ke të hapur një dritare tjetër të Mozilla ose Firefox, dritarja e re mund të shfaqet e pa fokusuar dhe mbrapa dritares që ka fokusin. Epiphany, shfletuesi i GNOME-s i bazuar tek mozilla nuk paraqet këtë problem, dhe zhvilluesit e Mozilla po punojnë me ngulm për të korrigjuar sa më shpejt këtë problem në versionet e ardhshëm të Mozilla dhe Firefox."
 
 #: ../release-notes.xml:125(para)
 msgid "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Session startup temporary hang</ulink>: Applications with broken session management can cause login to hang for a few minutes at the splashscreen. The default session does not contain any such apps so this will only become a problem if you save your session on logout. If you run into this problem, just wait for the login to proceed and then remove any such applications before saving your session again."
-msgstr "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Fillimi i seancës vonohet përkohësisht</ulink>: Programe të patrajtueshëm mirë nga manazhuesi i seancave mund të shkaktojnë vonesa për disa minuta në futje. Seanca e prezgjedhur nuk përmban asnjë të ngjashëm prandaj ky difekt mund të ndeshet vetëm në rast se keni ruajtur seancën tuaj të punës dhe keni dalë. Nëse ndeshni me një problem të tillë, mjafton të bëni durim sa të futeni e pastaj eleminoni çdo aplikativ që shkakton probleme para se të ruani përsëri seancën tuaj të punës."
+msgstr "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Fillimi i seancës vonohet përkohësisht</ulink>: Programe të patrajtueshëm mirë nga manazhuesi i seancave mund të shkaktojnë vonesa për disa minuta në futje. Seanca e prezgjedhur nuk përmban asnjë të ngjashëm prandaj ky difekt mund të ndeshet vetëm në rast se ke ruajtur seancën tënde të punës dhe ke dalë. Nëse ndesh me një problem të tillë, mjafton të bësh durim sa të futesh e pastaj eleminosh çdo aplikativ që shkakton probleme para se të ruash përsëri seancën tënde të punës."
 
 #: ../release-notes.xml:141(title)
 msgid "Looking to GNOME 2.12 and Beyond"
-msgstr "Një shikim mbi GNOME 2.12 e përtej"
+msgstr "Një shikim mbi GNOME 2.12 e Përtej"
 
 #: ../release-notes.xml:143(para)
 msgid "GNOME operates on a time-based release philosophy, an attempt to continuously provide the best of our developers' efforts to users as quickly as we can. Six months after GNOME 2.10, we anticipate that GNOME 2.12 will feature more integrated multimedia and communication functionality and further advances in accessibility, usability and internationalization. See also the <ulink url=\"http://live.gnome.org/RoadMap\">GNOME roadmap</ulink>."
@@ -1031,11 +1004,11 @@ msgstr "Pjesëmarrja"
 
 #: ../release-notes.xml:152(para)
 msgid "The core of GNOME's success is its many volunteers, both users and developers."
-msgstr "Zemra e suksesit të GNOME është vullnetarizmi i shumtë, ndërhyjnë si përdoruesit ashtu dhe si dhe zhvilluesit."
+msgstr "Sekreti i suksesit të GNOME-s janë vullnetarët e shumtë, si përdorues ashtu dhe zhvillues."
 
 #: ../release-notes.xml:156(para)
 msgid "As a user, your contribution can be as simple as filing good bug reports. You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">simple bug assistant</ulink>. If you want to contribute more, you can join our active <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">bug-squad</ulink>."
-msgstr "Si një përdorues, ndihma jote mund jetë aq e lehtë sa përmbushja e një njoftimi gabimi. Mund të dërgosh gabime në Bugzilla-n tonë duke përdorur <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">ndihmësin e thjeshtë të gabimeve</ulink>. Nëse do të ndihmosh më tepër, mund t'i bashkohesh <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">squadrës sonë aktive të gabimeve</ulink>."
+msgstr "Si një përdorues, ndihma jote mund të jetë aq e lehtë sa përmbushja e një njoftimi gabimi. Mund të dërgosh gabime në Bugzilla-n tonë duke përdorur <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">ndihmësin e thjeshtë të gabimeve</ulink>. Nëse do të ndihmosh më tepër, mund t'i bashkohesh <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">squadrës sonë aktive të gabimeve</ulink>."
 
 #: ../release-notes.xml:164(para)
 msgid "For developers, there is much exciting progress to be made in any of our active developer groups - Accessibility, Documentation, Usability, Translation, Web, Testing, Graphics, and Desktop &amp; Platform Development. Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you get started</ulink>."
