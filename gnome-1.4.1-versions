@@ -36,7 +36,7 @@ libghttp		1.0.9
 libglade		0.16
 libgtop			1.0.12
 libsigc++		1.0.3
-libxml			1.8.13             
+libxml			1.8.14
 medusa			1.0.1
 nautilus		1.0.4
 oaf			0.6.5
@@ -48,4 +48,3 @@ xml-i18n-tools		0.8.4
 scrollkeeper		0.2
 eel			1.0.1
 librsvg			1.0.1
-medusa			1.0.1
