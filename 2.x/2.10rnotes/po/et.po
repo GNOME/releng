@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: releng\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-02 20:50+0300\n"
+"PO-Revision-Date: 2005-03-02 21:07+0300\n"
 "Last-Translator: Priit Laes <amd@store20.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -181,8 +181,9 @@ msgid "System Tools"
 msgstr "Süsteemi tööriistad"
 
 #: ../rnsysadmin.xml:19
+#, fuzzy
 msgid "The system tools allow you to configure your system clock and your network connection, as well as manage the users and groups on your system. At present, these system tools are most appropriate for single computers rather than large networks of computers."
-msgstr ""
+msgstr "Süsteemi tööriistad lubavad sul seadistada süsteemi kella ning sinu võrguühendusi, lisaks veel hallata süsteemi kasutajaid ning kasutajagruppe. Praegu on need süsteemi tööriistad mõeldud rohkem küll üksikute arvutite seadistamiseks, mitte"
 
 #: ../rnsysadmin.xml:26
 msgid "Networking: Improved wireless support (WEP and ESSID detection), and IDSN connections."
@@ -190,19 +191,19 @@ msgstr ""
 
 #: ../rnsysadmin.xml:27
 msgid "Users and Groups: Easier editing of group members."
-msgstr ""
+msgstr "Kasutajad ja kasutajagrupid: Lihtsam kasutajagruppide liikmete redigeerimine."
 
 #: ../rnsysadmin.xml:28
 msgid "Changes are applied instantly where appropriate."
-msgstr ""
+msgstr "Muudatused rakendatakse vastavalt vajadusele hetkeliselt."
 
 #: ../rnsysadmin.xml:23
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
-msgstr ""
+msgstr "GNOME 2.10 toob endaga kaasa mitmeid täiustus, nagu <placeholder-1/>"
 
 #: ../rnsysadmin.xml:34
 msgid "The Clock, Network, and Users/Groups tools"
-msgstr ""
+msgstr "Kella-, võrgu- ja kasutajate/kasutajagruppide tööriistad"
 
 #: ../rnsysadmin.xml:32
 msgid "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-system-tools.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Clock, Network, and Users/Groups tools.</phrase></textobject></mediaobject></screenshot></figure>"
@@ -214,11 +215,11 @@ msgstr "Süsteemilogi vaataja"
 
 #: ../rnsysadmin.xml:52
 msgid "Open multiple logs in the separate windows."
-msgstr ""
+msgstr "Ava mitmeid logisid erinevates akendes."
 
 #: ../rnsysadmin.xml:53
 msgid "Open archived logs and logs on networked drives."
-msgstr ""
+msgstr "Ava arhiveeritud logisid ja logisid võrguketastel."
 
 #: ../rnsysadmin.xml:54
 msgid "Copy logs to the clipboard."
@@ -234,7 +235,7 @@ msgstr ""
 
 #: ../rnstandards.xml:7
 msgid "Standards Compliance"
-msgstr ""
+msgstr "Standardite järgmine"
 
 #: ../rnstandards.xml:9
 msgid "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop.org/standards/\">freedesktop.org</ulink>. Standards support is a big plus for GNOME users. Interoperability support improves the user experience by allowing GNOME, KDE, and other applications to work together more easily, and following open specifications helps ensure that user data is not trapped in proprietary formats."
@@ -254,7 +255,7 @@ msgstr ""
 
 #: ../rnplatform.xml:14
 msgid "glib 2.6 has an easier command-line parsing API."
-msgstr ""
+msgstr "glib 2.6 sisaldab endas lihtsamat käsurea töötlemise API't."
 
 #: ../rnplatform.xml:15
 msgid "The Platform Bindings now include full Python APIs for the GNOME Development Platform, via gnome-python. This in addition to the current C++, Java, Perl, and Python bindings, via the <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
@@ -282,7 +283,7 @@ msgstr ""
 
 #: ../rni18n.xml:8
 msgid "Internationalization"
-msgstr ""
+msgstr "Rahvusvahelisus"
 
 #: ../rni18n.xml:10
 msgid "Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 40 languages (at least 80 percent of strings translated)."
@@ -494,7 +495,7 @@ msgstr ""
 
 #: ../rni18n.xml:98
 msgid "Another 9 languages are partially supported, with more than half of their strings translated. Croatian and Mongolian are particularly close to \"supported\" status."
-msgstr ""
+msgstr "Veel 9 keelt on osaliselt toetatud rohkem kui pool tekstist tõlgitud. Horvaatia ja mongoolia keeled on eriti lähedal \"toetatud\" olekule."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -547,7 +548,7 @@ msgstr "Liitu võrgumänguga"
 
 #: ../rndocs.xml:10
 msgid "Sysadmin, User, and Accessibility Guides"
-msgstr ""
+msgstr "Süsteemiadministraatori, kasutaja ning hõlbustuse juhendid"
 
 #: ../rndocs.xml:12
 msgid "Thanks to the efforts of the <ulink url=\"http://developer.gnome.org/projects/gdp/\">GNOME Documentation Project</ulink>, GNOME 2.10 comes with comprehensive and professional documentation. Careful attention has been taken to detail using free software's most complete <ulink url=\"http://developer.gnome.org/documents/style-guide/\">documentation style guide</ulink>. As in GNOME 2.8, each application shipped with GNOME 2.10 includes full user documentation."
@@ -603,7 +604,7 @@ msgstr ""
 
 #: ../rndesktop.xml:31
 msgid "clean-cut and powerful, the Nautilus file manager"
-msgstr ""
+msgstr "selgepiiriline ja võimas - Nautilus failihaldur"
 
 #: ../rndesktop.xml:36
 msgid "The file manager"
@@ -611,11 +612,11 @@ msgstr "Failihaldur"
 
 #: ../rndesktop.xml:41
 msgid "GNOME 2.10 provides a new selection of pre-installed background images and patterns, so your desktop can become your own."
-msgstr ""
+msgstr "GNOME 2.10 tagab uue valiku eel-paigaldatud taustapilte ja -mustreid, seega saad muuta töölaua kergemini omanäoliseks."
 
 #: ../rndesktop.xml:44
 msgid "a selection of simple yet artistic backgrounds"
-msgstr ""
+msgstr "valik lihtsaid, kuid samas kunstipäraseid taustu"
 
 #: ../rndesktop.xml:49
 msgid "Desktop backgrounds"
