@@ -46,7 +46,7 @@
 
     <para>Improvements include:
     <itemizedlist>
-    <listitem><para>Popup windows can be blocked.</para></listitem>
+    <listitem><para>Popup windows can now be blocked for specific web sites.</para></listitem>
     <listitem><para>There is now an offline mode .</para></listitem>
     <listitem><para>Epiphany can now import its own bookmarks format.</para></listitem>
     </itemizedlist>
