@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
-"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"[
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"[
 <!ENTITY g2 "GNOME 2">
 <!ENTITY g2x "GNOME 2.0.2">
 ]>
@@ -11,12 +10,12 @@
   <sect1 id="introduction">
     <title>Introduction</title>
     <para>
-	  &g2x; is the newest version of the complete, free and easy-to-use
-	  desktop environment. In addition to basic desktop functionality, it 
-	  includes a powerful application framework for software developers, 
-	  with support for object embedding, internationalization and accessibility. 
-	  GNOME is part of the <ulink url="http://www.gnu.org/">GNU project</ulink>,
-      and is free software.
+	  &g2x; is the newest version of the complete, free and easy-to-use GNOME
+	  desktop environment. In addition to basic desktop functionality, it
+	  includes a powerful application framework for software developers, with
+	  support for object embedding, internationalization and accessibility.
+	  GNOME is part of <ulink url="http://www.gnu.org/">The GNU
+	  Project</ulink>, and is free software.
     </para>
     <para>
       The &g2x; Desktop and Developer platform includes a complete suite of
@@ -74,10 +73,10 @@
       </para>
       <para>
 	<emphasis>Consistency:</emphasis> Interfaces that behave according to
-	consistent patterns are easier to learn, faster to use, and less prone
-	to error. The <ulink
-	url="http://usability.gnome.org/hig/draft_hig">GNOME-Human Interface
-	Guidelines</ulink> have helped make the &g2; interface more
+	consistent patterns are easier to learn, faster to use, and less prone to
+	error. The <ulink
+	url="http://developer.gnome.org/projects/gup/hig/1.0/">GNOME Human
+	Interface Guidelines</ulink> have helped make the &g2; interface more
 	predictable, producing consistency between applications and promoting
 	usable patterns within individual applications.
       </para>
@@ -85,7 +84,7 @@
 	<emphasis>Coherence:</emphasis> The &g2; desktop fits together
 	well. From &quot;Log In&quot; to &quot;Log Out&quot;, usability studies,
 	countless brainstorming hours, and tireless hacking have produced a
-	holistic desktop &mdash; more than a loose confederation of modules.
+	holistic desktop - more than a loose confederation of modules.
       </para>
       <para>
 	Specific user-visible improvements include:
@@ -200,7 +199,7 @@
 			</listitem>
 			<listitem>
 			  <para>
-				Increasing compliance with <ulink url="http://freedesktop.org" type="http">
+				Increasing compliance with <ulink url="http://freedesktop.org/" type="http">
 				  freedesktop.org</ulink> standards
 			  </para>
 			</listitem>
@@ -243,7 +242,7 @@
 		</para>
 		<para>
 		  <emphasis>(And to brag, its faster than Windows XP on my laptop, 
-			too&hellip; XP takes a shine longer to fire up 
+			too... XP takes a shine longer to fire up 
 			<application>Explorer</application>, and various other tasks are 
 			slightly faster.)</emphasis>
 		</para>
@@ -253,7 +252,7 @@
 		<para>
 		  <emphasis>I run it quite comfortably on a K6-300 with 96MB
 			RAM. Everything feels at least as fast as with GNOME 1.4
-			&mdash; and
+			- and
 			<application>Nautilus</application> has become really usable as 
 			well. All in all it is pleasure to use :-)</emphasis>
 		</para>
@@ -325,11 +324,9 @@
       <title>XML</title>
       <para>
 	&g2; marks the first GNOME release to use <ulink
-							    url="http://www.xmlsoft.org/">libxml2</ulink>,
-	one of the most complete and standards-compliant
-	free <acronym>XML</acronym>libraries available. It includes
-							    <application>libxslt</application>,
-	a complete implementation of
+	url="http://www.xmlsoft.org/">libxml2</ulink>, one of the most complete and
+	standards-compliant free <acronym>XML</acronym> libraries available. It
+	includes <application>libxslt</application>, a complete implementation of
 	the <acronym>XSLT</acronym> specification.
       </para>
     </sect2>
@@ -643,16 +640,15 @@
       <para>
 		It is possible to build all these packages in a different location from
 		the default <filename class="directory"><replaceable>/usr/local
-	  </replaceable></filename> (by passing the <cmdsynopsis>
-<arg choice="plain">--prefix=
-		  <replaceable>location</replaceable></arg>
-	</cmdsynopsis> flag to the 
-		<command>configure</command> script in each tarball). If you do that,
-		however, you should put the new location as the first component of your
-		<envar>$PATH</envar> (to avoid existing versions of scrollkeeper 
-		being picked up, for example). This new <envar>$PATH</envar> should be 
-		visible to each package as it compiles (so that it sees, for example, 
-		the pkg-config files from the earlier packages in the build). 
+		</replaceable></filename> (by passing the <cmdsynopsis> <arg
+		choice="plain">--prefix= <replaceable>location</replaceable></arg>
+		</cmdsynopsis> flag to the <command>configure</command> script in each
+		tarball). If you do that, however, you should put the new location as
+		the first component of your <envar>$PATH</envar> (to avoid existing
+		versions of scrollkeeper being picked up, for example). This new
+		<envar>$PATH</envar> should be visible to each package as it compiles
+		(so that it sees, for example, the pkg-config files from the earlier
+		packages in the build). 
       </para>
     </sect2>
     <sect2 id="parallellinstall">
@@ -660,8 +656,8 @@
       <para>
 		&g2x; may be installed in parallel with the GNOME 1.4.1 release
 		libraries, allowing you to use &g2x;'s primary desktop functions
-		&mdash; <application>panels</application>, 
-		<application>Nautilus</application>, etc. &mdash; while also running 
+		- <application>panels</application>, 
+		<application>Nautilus</application>, etc. - while also running 
 		applications that have not yet been ported and therefore still 
 		require GNOME 1.4 libraries.
 		<note>
@@ -719,7 +715,7 @@
       </programlisting>
       (This assumes you are using <application>gdm</application> as your 
 	  interface to log into GNOME. If you are starting X from a command 
-	  prompt &mdash; using <command>startx</command> &mdash;
+	  prompt - using <command>startx</command> -
       then just put the above lines into your 
 	  <filename>$HOME/.xinitrc</filename> file.)
     </para>
@@ -1045,10 +1041,9 @@
       <sect4 id="mandrake">
 		<title>Mandrake</title>
 		<para>
-		  &g2; binary packages are available in Mandrake Cooker <ulink
-			url="http://www.mandrakelinux.com/en/cookerdevel.php3">(ie
-			experimental / unstable) distribution
-			(http://www.mandrakelinux.com/en/cookerdevel.php3 )</ulink>
+		  &g2; binary packages are available in <ulink
+		  url="http://www.mandrakelinux.com/en/cookerdevel.php3">Mandrake
+		  Cooker</ulink> (Mandrake's experimental / unstable) distribution).
 		  <warning>
 			<para>
 			  These packages haven't yet been customized to fully integrate in
@@ -1143,7 +1138,7 @@
   <sect1 id="themes">
     <title>Themes</title>
     <para>
-      Themes &mdash; changing the look of your desktop &mdash; are a favorite
+      Themes - changing the look of your desktop - are a favorite
       preoccupation for many GNOME users. GNOME 2 offers abundant opportunities
       to play with themes, including gtk+, the window managers, 
 	  <application>GDM</application>, <application>Nautilus</application>
@@ -1161,7 +1156,7 @@
   
   <sect1 id="quirks">
     <title>Quirks</title>
-    <para>Things that may bite people.</para>
+    <para>Things that may bite or surprise... or both!</para>
 
 	<sect2 id="menuvfolders">
 	  <title>Panel Menus Disappear</title>
@@ -1318,12 +1313,7 @@
 		<itemizedlist>
 			<listitem>
 				<para>
-					<ulink url="http://makeashorterlink.com/?O1B021581">733 total</ulink> GNOME2 bugs marked fixed
-				</para>
-			</listitem>
-			<listitem>
-				<para>
-					<ulink url="http://makeashorterlink.com/?F29412771">310 high or greater priority</ulink> GNOME2 bugs marked fixed
+					<ulink url="http://makeashorterlink.com/?A226621C1">318 total</ulink> GNOME2 bugs marked fixed
 				</para>
 			</listitem>
 		</itemizedlist>
@@ -1349,38 +1339,34 @@
 	  <title>New mime type handlers not always visible in nautilus</title> 
       <para>
 		When a new mime-type handler was installed, it did not show up
-		correctly in Nautilus right-click menus. This is now fixed.
+		correctly in Nautilus right-click menus. Was fixed in GNOME 2.0.2.
 	  </para>	
     </sect2>
 	
     <sect2>
       <title>NFS-mounted $HOME directory</title>
       <para>
-		FIXED: For people with NFS-mounted
-		<envar>$HOME</envar> directories, it was not possible
-		to drag files from the
-		<application>Nautilus</application> view windows to
-		the <guilabel>trashcan</guilabel> (it would generate
-		an error about the trash file not being a
-		directory).This was <ulink
-		url="http://bugzilla.gnome.org/show_bug.cgi?id=82644">bug
-		82644</ulink>.
+		 For people with NFS-mounted <envar>$HOME</envar> directories, it was
+		 not possible to drag files from the
+		 <application>Nautilus</application> view windows to the
+		 <guilabel>trashcan</guilabel> (it would generate an error about the
+		 trash file not being a directory). This was fixed in GNOME 2.0.1 and
+		 was <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82644">bug
+		 82644</ulink>.
       </para>
     </sect2>
 
     <sect2 id="dotgnome">
       <title>.gnome</title>
       <para>
-		FIXED: &g2; uses <filename>$HOME/.gnome2</filename>
-		and <filename>$HOME/.gnome2_private</filename> as
-		directories for storing stuff. However, you could not
-		completely remove <filename>$HOME/.gnome</filename>,
-		since gnome-vfs needs it and did not create it, so any
-		modifications that gnome-vfs needs to save in the
-		user's directory would not be saved.  Thus, users
-		needed to create a <filename>$HOME/.gnome</filename>
-		directory before starting &g2;. This has been fixed in
-		2.0.1 and is <ulink
+		&g2; uses <filename>$HOME/.gnome2</filename> and
+		<filename>$HOME/.gnome2_private</filename> as directories for storing
+		stuff. However, you could not completely remove
+		<filename>$HOME/.gnome</filename>, since gnome-vfs needs it and did not
+		create it, so any modifications that gnome-vfs needs to save in the
+		user's directory would not be saved.  Thus, users needed to create a
+		<filename>$HOME/.gnome</filename> directory before starting &g2;. This
+		was fixed in 2.0.1 and was <ulink
 		url="http://bugzilla.gnome.org/show_bug.cgi?id=84183">bug
 		84183</ulink>.
       </para>
@@ -1388,9 +1374,8 @@
     <sect2>
       <title>Cannot drag and drop from Nautilus list view</title>
       <para>
-FIXED: It wasn't possible to drag and drop files from the list view as
-		you can in the icon view. This is now fixed and was
-		<ulink
+		It wasn't possible to drag and drop files from the list view as you can
+		in the icon view. This was fixed in GNOME 2.0.1 and was <ulink
 		url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">bug
 		74974</ulink>.
       </para>
@@ -1412,7 +1397,7 @@ FIXED: It wasn't possible to drag and drop files from the list view as
 	  If you would like to take the next step, developers, documenters, web
 	  developers, documenters and bug handlers are always welcome. More
 	  information on getting involved can be found <ulink
-	  url="http://developer.gnome.org/documents/joining-gnome/index.html">here</ulink>. 
+	  url="http://developer.gnome.org/documents/joining-gnome/">here</ulink>. 
     </para>
   </sect1>
   
