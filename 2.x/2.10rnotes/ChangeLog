@@ -1,3 +1,11 @@
+2005-03-01  Murray Cumming  <murrayc@murrayc.com>
+
+	* rnapplets.xml: Removed the TODO about the sound volume. Apparently 
+	it is correct.
+	* rnepiphany.xml: Removed the TODO about the improved fullscreen 
+	mode. Still have no idea how it is improved, but I will let this one 
+	go.
+
 2005-02-28  Murray Cumming  <murrayc@murrayc.com>
 
 	* releasenotes.xml: Revive the known issues section and start it with 

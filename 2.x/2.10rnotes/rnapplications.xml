@@ -52,7 +52,7 @@
 
     <para>GNOME's &quot;Epiphany&quot; web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in &version; include 
     <itemizedlist>
-    <listitem><para>An improved fullscreen mode (TODO: What exactly is better?).</para></listitem>
+    <listitem><para>An improved fullscreen mode.</para></listitem>
     <listitem><para>The location bar now indicates whether the site is secure, and shows its favicon.</para></listitem>
     <listitem><para>Bookmarks can be exported.</para></listitem>
     <listitem><para>An extension manager for extra features.</para></listitem>

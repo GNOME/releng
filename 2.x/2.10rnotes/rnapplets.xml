@@ -114,7 +114,7 @@
    multimedia framework, the mixer is now simpler and more convenient than before. 
    The same multimedia framework powers Totem, Sound Juicer, the GNOME CD player 
    and a variety of third-party applications, so changing the GNOME volume 
-   via the panel will change the volume of all these applications. TODO: Is this last sentence true/new/meaningful?
+   via the panel will change the volume of all these applications.
   </para>
   </sect3>
 
