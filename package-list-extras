@@ -5,16 +5,16 @@ Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Co
                     Version    Unstable?                Version   New
                                                         Exists?   Release?
 
-gmc                4.5.51      no            no         yes       no
+gmc                4.5.54      no            no         yes       no
 
-Gnumeric           0.64        no            no         yes       yes         Jody Goldberg <jgoldberg@home.com>
-Dia                0.86        no            no         yes       no          James Henstridge <james@daa.com.au>
-Guppi              0.35.3      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
+Gnumeric           0.66        no            no         yes       yes         Jody Goldberg <jgoldberg@home.com>
+Dia                0.88        no            no         yes       no          James Henstridge <james@daa.com.au>
+Guppi              0.35.5      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
 AbiWord            0.7.14      no            no         yes       no          ???
-GnuCash            1.4.10                                                     devel@gnumatic.com
-Sodipodi           0.22                                                       Lauris Kaplinski <lauris@kaplinski.com>
-gnome-db           0.2.3                                                      Rodrigo Moya <rodrigo@gnome-db.org>
-toutdoux           1.2.4                                                      Philippe Roy <ph_roy@toutdoux.org>
+GnuCash            1.6.0                                                      devel@gnumatic.com
+Sodipodi           0.23                                                       Lauris Kaplinski <lauris@kaplinski.com>
+gnome-db           0.2.10                                                     Rodrigo Moya <rodrigo@gnome-db.org>
+toutdoux           1.2.7                                                      Philippe Roy <ph_roy@toutdoux.org>
 
 Anjuta IDE         0.1.4                                                      Kh. Naba Kumar Singh <kh_naba@yahoo.com> 
 
