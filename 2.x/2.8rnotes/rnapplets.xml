@@ -12,7 +12,7 @@
     <title>The panel - choosing an applet</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-add.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-add-to-panel.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The panel - choosing an applet.</phrase></textobject>
       </mediaobject>
@@ -72,7 +72,7 @@
     <title>Battery Monitor</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-batterymonitor.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-battstat-applet.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The battery monitor applet.</phrase></textobject>
       </mediaobject>
@@ -92,7 +92,7 @@
     <title>Weather Report</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-weather.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-weather-report.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The weather report applet.</phrase></textobject>
       </mediaobject>

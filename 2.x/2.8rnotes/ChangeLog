@@ -1,3 +1,14 @@
+2004-09-13  Davyd Madeley  <davyd@madeley.id.au>
+
+	* figures/figure-add-to-panel.png:
+	* figures/figure-battstat-applet.png:
+	* figures/figure-gnome-system-tools.png:
+	* figures/figure-vino-settings.png:
+	* figures/figure-weather-report.png: Begin adding figures
+
+	* rnapplets.xml:
+	* rnsysadmin.xml: Set locations for figures.
+
 2004-09-10  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Update list of supported and "very close" (75%+)

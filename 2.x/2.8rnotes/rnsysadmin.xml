@@ -23,7 +23,7 @@
       <title>Remote Desktop Preferences</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;vncserver-preferences.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-vino-settings.png" format="PNG"/>
             </imageobject>
           <textobject><phrase>The Remote Desktop Preferences control panel.</phrase></textobject>
         </mediaobject>
@@ -44,7 +44,7 @@
       <title>The Clock, Network, and Users/Groups tools</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;systemtools.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-system-tools.png" format="PNG"/>
             </imageobject>
           <textobject><phrase>The Clock, Network, and Users/Groups tools.</phrase></textobject>
         </mediaobject>
