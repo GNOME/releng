@@ -1,3 +1,9 @@
+2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* th.po: Updated Thai translation.
+	* xml-th/figures/*: Added soundjuicer screenshot. Adjust some others.
+	Removed untranslated screenshots.
+
 2005-03-07  Vincent van Adrighem  <adrighem@gnome.org>
 
 	* nl.po: Dutch Translation updated by Tino Meinen
