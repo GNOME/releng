@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Gnome 2.10 release notes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-03 05:58+0100\n"
+"PO-Revision-Date: 2005-03-03 19:52+0100\n"
 "Last-Translator: Frank Arnold <frank@scirocco-5v-turbo.de>\n"
 "Language-Team: German GNOME Translators <gnome@gnome-de.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,6 +37,11 @@ msgid ""
 "mediaobject></screenshot> The GNOME 2.10 Desktop is the latest release of "
 "the ever popular, multi-platform free desktop environment."
 msgstr ""
+"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnome-desktop.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Der GNOME Desktop</phrase></textobject></"
+"mediaobject></screenshot> Der GNOME 2.10 Desktop ist die neueste Ausgabe der "
+"beliebten, mehrere Plattformen unterstützenden und freien Desktop-Umgebung."
 
 #: ../release-notes.xml:30 (para)
 msgid ""
@@ -135,6 +140,11 @@ msgid ""
 "software is no different in this regard from proprietary software, except "
 "that with free software, we tell users about these problems."
 msgstr ""
+"Jede Software enthält bei der Veröffentlichung Fehler, die den Entwicklern "
+"bekannt sind. Aus verschiedenen Gründen wurde jedoch entschieden, diese "
+"Fehler vor der Veröffentlichung nicht zu beheben. Freie Software ist unter "
+"diesem Gesichtspunkt nicht anders als proprietäre Software, nur dass bei "
+"freier Software die Benutzer über diese Probleme informiert werden."
 
 #: ../release-notes.xml:98 (para)
 msgid ""
@@ -149,6 +159,18 @@ msgid ""
 "bugzilla.gnome.org/\">Bugzilla</ulink>. Among the most prominent GNOME 2.10 "
 "bugs:"
 msgstr ""
+"Wir ermutigen unsere Anwender auch zum Melden von Fehlern, so dass diese "
+"behoben werden können. Der beste Weg, in GNOME gefundene Fehler zu melden, "
+"ist die Verwendung des <ulink url=\"http://bugzilla.gnome.org/simple-bug-"
+"guide.cgi\">einfachen Fehlerassistenten</ulink>. Dieser führt Sie durch die "
+"notwendigen Schritte, die zur Erstellung eines hochwertigen Fehlerberichts "
+"notwendig sind und stellt sicher, dass er korrekt markiert wird. Falls Sie "
+"zu fortgeschritten für Dinge sind, die das Wort „einfach” enthalten, ist für "
+"Sie auch das <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi"
+"\">traditionelle Fehlerformular</ulink> verfügbar. Weitere Einzelheiten zu "
+"bereits erstellten Fehlerberichten finden Sie in unserem <ulink url=\"http://"
+"bugzilla.gnome.org/\">Bugzilla</ulink>. Im Folgenden die bekanntesten Fehler "
+"in  GNOME 2.10:"
 
 #: ../release-notes.xml:111 (title)
 msgid "List of known issues"
@@ -164,6 +186,14 @@ msgid ""
 "hackers are working to quickly fix this in future versions of Mozilla and "
 "Firefox."
 msgstr ""
+"<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozilla/"
+"Firefox: Fokus neuer Fenster</ulink>: Wenn Sie Mozilla oder Firefox starten "
+"und bereits ein anderes Mozilla- oder Firefox-Fenster geöffnet ist, "
+"erscheint das neue Fenster ohne Fokus und hinter dem Fenster, das derzeit "
+"den Eingabefokus besitzt. Der auf Mozilla basierende und in GNOME enthaltene "
+"Browser Epiphany zeigt dieses Problem nicht. Die Mozilla-Entwickler arbeiten "
+"an der schnellen Behebung dieses Problems in zukünftigen Versionen von "
+"Mozilla und Firefox."
 
 #: ../release-notes.xml:125 (para)
 msgid ""
@@ -175,6 +205,14 @@ msgid ""
 "the login to proceed and then remove any such applications before saving "
 "your session again."
 msgstr ""
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> "
+"Sitzungsstart hängt vorübergehend</ulink>: Anwendungen mit fehlerhafter "
+"Sitzungsverwaltung können das Anmelden während der Anzeige des Startbilds "
+"für einige Minuten verzögern. Die Vorgabesitzung enthält keine dieser "
+"Anwendungen, so dass dieses Problem nur in Zusammenhang mit beim Abmelden "
+"gespeicherten Sitzungen auftritt. Falls Sie dieses Problem feststellen, "
+"warten Sie die Fortsetzung des Anmeldevorgangs ab und entfernen Sie danach "
+"alle diese Anwendungen, bevor Sie Ihre Sitzung erneut speichern."
 
 #: ../release-notes.xml:141 (title)
 msgid "Looking to GNOME 2.12 and Beyond"
@@ -388,10 +426,6 @@ msgstr ""
 msgid "Integrated Modem Control"
 msgstr "Integrierte Modemkontrolle"
 
-#: ../rnapplets.xml:27 (title)
-msgid "The new modem control applet"
-msgstr "Das neue Modemkontroll-Applet"
-
 #: ../rnapplets.xml:23 (para)
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
@@ -402,14 +436,17 @@ msgid ""
 "imageobject><textobject><phrase>The new modem control applet</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"GNOME 2.10 führt ein neues Applet zur Steuerung Ihres Modems ein, welches in "
+"die GNOME-Systemwerkzeuge integriert ist. <figure id=\"rnscreenshot-applet-"
+"modem\"><title>Das neue Modemkontroll-Applet</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Das neue Modemkontroll-Applet.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:41 (title)
 msgid "Panel Trashcan"
 msgstr "Panel-Mülleimer"
-
-#: ../rnapplets.xml:49 (title)
-msgid "a Trashcan on your Panel"
-msgstr "Ein Mülleimer im Panel"
 
 #: ../rnapplets.xml:43 (para)
 msgid ""
@@ -422,14 +459,18 @@ msgid ""
 "imageobject><textobject><phrase>Drag trash to your panel</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"GNOME 2.10 enthält einen optionalen Mülleimer für Ihr Panel. Wie auch beim "
+"Müllsymbol des Desktops, können Sie Dateien und andere Objekte darüber "
+"ziehen und in den Müll fallen lassen, ohne dass geöffnete Fenster minimiert "
+"werden müssen. <figure id=\"rnscreenshot-applet-trash\"><title>Ein Mülleimer "
+"auf Ihrem Panel</title><screenshot><mediaobject><imageobject><imagedata "
+"fileref=\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Entsorgen Sie Ihren Müll über das Panel</"
+"phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:62 (title)
 msgid "Control Mounted Volumes"
 msgstr "Kontrolle eingebundener Datenträger"
-
-#: ../rnapplets.xml:71 (title)
-msgid "Drive Mount"
-msgstr "Laufwerkseinbindung"
 
 #: ../rnapplets.xml:64 (para)
 msgid ""
@@ -462,10 +503,6 @@ msgstr ""
 msgid "Get even more weather"
 msgstr "Noch mehr Wetterinformationen"
 
-#: ../rnapplets.xml:92 (title)
-msgid "Weather Report"
-msgstr "Wetterbericht"
-
 #: ../rnapplets.xml:86 (para)
 msgid ""
 "The weather monitor can now show even more locations then before, and the "
@@ -478,6 +515,15 @@ msgid ""
 "imageobject><textobject><phrase>The weather report applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"Die Wetterüberwachung enthält jetzt mehr Orte als je zuvor. Die Standorte "
+"wurden so weit wie möglich in nicht-englische Sprachen übersetzt. Zusätzlich "
+"dazu enthalten die Vorhersagen auch Berechnungen des Sonnenaufgangs und des "
+"Sonnenuntergangs für die meisten Standorte. <figure id=\"rnscreenshot-applet-"
+"weather\"><title>Wetterbericht</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Das Wetterbericht-Applet.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:106 (title)
 msgid "Sound control"
@@ -514,18 +560,17 @@ msgid "Taking note"
 msgstr "Notizen machen"
 
 #: ../rnapplets.xml:129 (para)
-#, fuzzy
 msgid ""
 "The popular Sticky Notes applet now makes it even easier to add PostIt-style "
 "notes on your desktop, thanks to a simpler user interface and many bug "
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
 msgstr ""
-"Das populäre Klebezettel-Applet besitzt jetzt eine einfachere "
-"Benutzerschittstelle. Weiterhin wurden eine Reihe von Fehlern beseitigt. "
-"Dadurch ist es noch einfacher geworden, Notizen im PostIt-Stil auf Ihrem "
-"Desktop zu platzieren. Ein Beispiel: Klebezettel bleiben jetzt auf der "
-"richtigen Arbeitsfläche oder sogar einem anderen Monitor."
+"Das populäre Klebezettel-Applet macht das Erstellen von Notizen im PostIt-"
+"Stil auf Ihrem Desktop jetzt noch leichter, dank einer einfacheren "
+"Benutzerschittstelle und der Beseitigung einer Reihe von Fehlern. Ein "
+"Beispiel: Die Zettel bleiben jetzt auf der richtigen Arbeitsfläche oder "
+"sogar einem anderen Monitor kleben."
 
 #: ../rnapplets.xml:132 (para)
 msgid ""
@@ -543,10 +588,6 @@ msgstr "Klebezettel"
 #: ../rnapplets.xml:148 (title)
 msgid "Specially for laptops"
 msgstr "Speziell für Laptops"
-
-#: ../rnapplets.xml:155 (title)
-msgid "Monitor CPU Frequency Scaling"
-msgstr ""
 
 #: ../rnapplets.xml:149 (para)
 msgid ""
@@ -585,23 +626,25 @@ msgstr ""
 "bessere Alternativen ersetzt."
 
 #: ../rnapplets.xml:172 (para)
-#, fuzzy
 msgid ""
 "The CD Player panel applet has been removed, so you will not see a CD player "
 "on your panel when you don't even have a CD in your drive. Instead, "
 "inserting a CD will now start the GNOME CD Player, which can then be "
 "controlled from a notification icon that it places in your Panel."
 msgstr ""
-"Das CD-Player-Applet arbeitete nicht gut mit dem GNOME CD-Player zusammen. "
-"Stattdessen wird jetzt der GNOME CD-Player beim Einlegen einer CD "
-"automatisch gestartet. Die Bedienung erfolgt über die Benutzerschnittstelle "
-"oder ein Benachrichtigungssymbol, welches in Ihr Panel eingefügt wird."
+"Das CD-Player-Applet wurde entfernt. Sie werden dadurch keinen CD-Player auf "
+"Ihrem Panel sehen, wenn keine CD im Laufwerk liegt. Stattdessen wird jetzt "
+"der GNOME CD-Player beim Einlegen einer CD automatisch gestartet. Die "
+"Steuerung kann über ein Benachrichtigungssymbol erfolgen, welches in Ihr "
+"Panel eingefügt wird."
 
 #: ../rnapplets.xml:175 (para)
 msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
 msgstr ""
+"Das eigenständige Applet für Funknetzwerke wurde entfernt, da das Applet zur "
+"Netzwerküberwachung Funknetzwerke bereits seit GNOME 2.8 unterstützt."
 
 #: ../rnapplets.xml:178 (para)
 msgid ""
@@ -681,10 +724,6 @@ msgstr "Anwendungen"
 msgid "Video Player"
 msgstr "Video-Player"
 
-#: ../rnapplications.xml:17 (title)
-msgid "The video player"
-msgstr "Der Video-Player"
-
 #: ../rnapplications.xml:13 (para)
 msgid ""
 "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
@@ -709,10 +748,6 @@ msgstr ""
 #: ../rnapplications.xml:31 (title)
 msgid "Audio Extraction"
 msgstr "Auslesen von Audio-CDs"
-
-#: ../rnapplications.xml:37 (title)
-msgid "The audio extractor"
-msgstr "Der CD-Ripper"
 
 #: ../rnapplications.xml:33 (para)
 msgid ""
@@ -768,10 +803,6 @@ msgstr ""
 "Der in GNOME enthaltene Web-Browser Epiphany basiert auf Mozilla und ist "
 "voll in die GNOME-Desktopumgebung integriert. Verbesserungen in 2.10 "
 "beinhalten <placeholder-1/>"
-
-#: ../rnapplications.xml:64 (title)
-msgid "The web browser"
-msgstr "Der Web-Browser"
 
 #: ../rnapplications.xml:77 (title)
 msgid "Evolution"
@@ -848,10 +879,6 @@ msgstr ""
 msgid "And yet more new features: <placeholder-1/>"
 msgstr "Und noch weitere neue Funktionen: <placeholder-1/>"
 
-#: ../rnapplications.xml:115 (title)
-msgid "The email client"
-msgstr "Die E-Mail-Anwendung"
-
 #: ../rnapplications.xml:129 (title)
 msgid "GnomeMeeting"
 msgstr "GnomeMeeting"
@@ -868,10 +895,6 @@ msgstr ""
 "Adressbuch mit unserer E-Mail-Anwendung Evolution geteilt. "
 "Kontaktinformationen brauchen deshalb nur noch an einem Ort eingegeben "
 "werden."
-
-#: ../rnapplications.xml:138 (title)
-msgid "The internet telephony and video conferencing client"
-msgstr "Die Internet-Telefonie- und Videokonferenzanwendung"
 
 #: ../rnapplications.xml:135 (para)
 msgid ""
@@ -913,10 +936,6 @@ msgstr "Kontrollzentrum"
 #: ../rncontrolcenter.xml:11 (title)
 msgid "Keyboard Layouts"
 msgstr "Tastaturbelegungen"
-
-#: ../rncontrolcenter.xml:17 (title)
-msgid "Keyboard Preferences - Layouts"
-msgstr "Tastatureinstellungen - Belegungen"
 
 #: ../rncontrolcenter.xml:13 (para)
 msgid ""
@@ -989,6 +1008,8 @@ msgid ""
 "Drag and drop with other applications, such as Mozilla and Firefox, now also "
 "works more smoothly."
 msgstr ""
+"„Drag and Drop” mit anderen Anwendungen, wie Mozilla oder Firefox, "
+"funktioniert jetzt reibungsloser."
 
 #: ../rndesktop.xml:24 (para)
 msgid "The path button is now more obviously a button."
@@ -1409,9 +1430,9 @@ msgid ""
 "English and Canadian English are also supported."
 msgstr ""
 "In GNOME 2.10 ist die Unterstützung der Sprachen Baskisch, Bulgarisch, "
-"Gujarati, Hindi, Ungarisch, Neu-Norwegisch, Pandschabi und Tamil neu "
-"hinzugekommen. Auch nennenswert ist die Unterstützung für britisches und "
-"kanadisches Englisch."
+"Gujarati, Hindi, Ungarisch, Neu-Norwegisch, Pandschabi und Tamil dank der "
+"harten Arbeit ihrer Übersetzer neu hinzugekommen. Auch nennenswert ist die "
+"Unterstützung für britisches und kanadisches Englisch."
 
 #: ../rni18n.xml:98 (para)
 msgid ""
@@ -1433,6 +1454,11 @@ msgid ""
 "allows you to try a full GNOME desktop on Linux without installing anything "
 "on your hard drive. This is the best way to see for yourself what's new."
 msgstr ""
+"Für GNOME 2.10 stellen wir eine LiveCD bereit, die über www.gnome.org "
+"verfügbar ist. Die LiveCD erlaubt Ihnen das Ausprobieren des vollständigen "
+"GNOME Desktops auf Linux, ohne dass Sie etwas auf Ihrer Festplatte "
+"installieren müssen. Dies ist der beste Weg, um sich die Neuigkeiten erst "
+"einmal anzusehen."
 
 #: ../rninstallation.xml:13 (para)
 msgid ""
@@ -1455,6 +1481,13 @@ msgid ""
 "www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from "
 "CVS."
 msgstr ""
+"Wenn Sie GNOME aus dem Quellcode erstellen möchten, vielleicht um die "
+"aktuellsten Versionen auszuprobieren oder Rückmeldungen und "
+"Verbesserungsvorschläge geben zu können, empfehlen wir Ihnen dafür geeignete "
+"Werkzeuge. Darunter <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</"
+"ulink> für das Erstellen aus den veröffentlichten Tarballs und <ulink url="
+"\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink> für die "
+"Erstellung aus dem CVS."
 
 #: ../rnplatform.xml:9 (title)
 msgid "Platform Improvements"
@@ -1630,10 +1663,6 @@ msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr ""
 "GNOME 2.10 liefert einige Verbesserungen, unter anderem <placeholder-1/>"
 
-#: ../rnsysadmin.xml:34 (title)
-msgid "The Clock, Network, and Users/Groups tools"
-msgstr "Die Zeit-, Netzwerk- und Benutzer/Gruppen-Werkzeuge"
-
 #: ../rnsysadmin.xml:47 (title)
 msgid "Log Viewer"
 msgstr "Protokollbetrachter"
@@ -1649,10 +1678,6 @@ msgstr "Archivierte Protokolle und Protokolle auf Netzwerklaufwerken öffnen."
 #: ../rnsysadmin.xml:54 (para)
 msgid "Copy logs to the clipboard."
 msgstr "Protokolle in die Zwischenablage kopieren."
-
-#: ../rnsysadmin.xml:58 (title)
-msgid "The Log Viewer"
-msgstr "Der Protokollbetrachter"
 
 #: ../rnsysadmin.xml:49 (para)
 msgid ""
@@ -1718,7 +1743,7 @@ msgstr "Dienstprogramme"
 msgid "The GNOME utilities have some improvements, such as:"
 msgstr "Die GNOME-Dienstprogramme enthalten ebenfalls einige Neuerungen:"
 
-#: ../rnutilities.xml:13 (title) ../rnutilities.xml:20
+#: ../rnutilities.xml:13 (title)
 msgid "Text Editor"
 msgstr "Texteditor"
 
@@ -1754,7 +1779,7 @@ msgstr ""
 "imageobject><textobject><phrase>Der Texteditor mit Hervorhebung der "
 "momentanen Zeile.</phrase></textobject></mediaobject></screenshot></figure>"
 
-#: ../rnutilities.xml:33 (title) ../rnutilities.xml:38
+#: ../rnutilities.xml:33 (title)
 msgid "Archive Manager"
 msgstr "Archivmanager"
 
@@ -1781,7 +1806,7 @@ msgstr ""
 "ein RAR-Archiv fragend.</phrase></textobject></mediaobject></screenshot></"
 "figure>"
 
-#: ../rnutilities.xml:52 (title) ../rnutilities.xml:57
+#: ../rnutilities.xml:52 (title)
 msgid "Dictionary"
 msgstr "Wörterbuch"
 
@@ -1807,7 +1832,7 @@ msgstr ""
 "Schreibweisen und einer Definition.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 
-#: ../rnutilities.xml:70 (title) ../rnutilities.xml:75
+#: ../rnutilities.xml:70 (title)
 msgid "Floppy Formatter"
 msgstr "Disketten formatieren"
 
@@ -1830,190 +1855,188 @@ msgstr ""
 "imageobject><textobject><phrase>Formatieren einer Diskette.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 
-#: ../rnwhy.xml:8 (title)
-msgid "So, why GNOME?"
-msgstr "Warum GNOME?"
-
-#: ../rnwhy.xml:11 (para)
-msgid ""
-"Having seen some of the new features in GNOME 2.10, why choose GNOME over "
-"other desktop environments? Every GNOME volunteer has their own motivations, "
-"of course, but here are some of the common reasons many of us choose to work "
-"on and use GNOME."
-msgstr ""
-"Nachdem Sie einige der neuen Eigenschaften von GNOME 2.10 kennengelernt "
-"haben: Warum sollten Sie GNOME einer anderen Desktop-Umgebung vorziehen? "
-"Jeder GNOME-Helfer hat natürlich seine eigenen Motivationen. Aber hier sind "
-"ein paar allgemeine Gründe, weshalb sich viele von uns für die Mitarbeit an "
-"und die  Verwendung von GNOME entschieden haben."
-
-#: ../rnwhy.xml:19 (title)
-msgid "Usability"
-msgstr "Bedienbarkeit"
-
-#: ../rnwhy.xml:20 (para)
-msgid ""
-"GNOME is the only open source desktop project to take a stand for ease of "
-"use and UI consistency over feature creep and hyper-configurability. Our "
-"<ulink url=\"http://developer.gnome.org/projects/gup/hig/\"> Human Interface "
-"Guidelines</ulink>, developed by a team of GNOME volunteers and UI "
-"professionals, and released before GNOME 2.0, are the most complete Free "
-"Software usability guidelines in existence. Every application in the GNOME "
-"Desktop release has benefited from this focus on consistency and usability. "
-"We believe that this focus will produce a user environment that \"just works"
-"\" and as a result lets GNOME users -both experienced and inexperienced- "
-"focus on doing real work instead of struggling to learn new applications."
-msgstr ""
-
-#: ../rnwhy.xml:48 (title)
-msgid "Accessibility"
-msgstr "Barrierefreiheit"
-
-#: ../rnwhy.xml:50 (para)
-msgid ""
-"Beyond making GNOME easier to use for the average computer user, GNOME has "
-"also taken the lead in making the Unix desktop accessible to those with "
-"disabilities. The GNOME accessibility framework is used by our award-winning "
-"accessibility tools like the GNOME Onscreen Keyboard (gok), Gnopernicus, and "
-"Dasher. These allow the use of braille readers, voice synthesizers, and "
-"pointing devices. Many governments, including the US government, require "
-"comprehensive accessibility support in software they purchase. After dozens "
-"of person-years of effort, GNOME is the only free software desktop to "
-"thoroughly address this issue."
-msgstr ""
-"Neben dem Vereinfachen der Bedienung für durchnittliche Anwender hat GNOME "
-"auch die Führung bei Hilfstechnologien für Behinderte auf dem Unix-Desktop "
-"übernommen. Das GNOME Accessibility Framework wird von unseren "
-"preisgekrönten Barrierefreiheitswerkzeugen, wie der GNOME Bildschirmtastatur "
-"(gok), Gnopernicus und Dasher verwendet. Diese erlauben die Verwendung von "
-"Braillezeilen, Sprachgeneratoren und Zeigegeräten. Viele Regierungen, "
-"darunter die US-Regierung, verlangen eine umfangreiche Barrierefreiheit in "
-"der von ihnen erworbenen Software. Nach einem Aufwand von vielen Mannjahren "
-"ist GNOME der einzige Desktop innerhalb der Freien Software, der dieses "
-"Problem gründlich angeht."
-
-#: ../rnwhy.xml:66 (title)
-msgid "Interface Stability"
-msgstr "Stabilität der Schnittstellen"
-
-#: ../rnwhy.xml:67 (para)
-msgid ""
-"The core libraries in the GNOME Development Platform carry guarantees of API "
-"and ABI stability. This means that 'porting' an application from GNOME 2.0 "
-"to GNOME 2.10 involves no work, if a developer does not wish to take "
-"advantage of new functionality in the libraries."
-msgstr ""
-"Die Kernbibliotheken der GNOME Entwicklungsplattform enthalten Garantien für "
-"API- und ABI-Stabilität. Dies bedeutet, dass die „Portierung” einer "
-"Anwendung von GNOME 2.0 zu GNOME 2.10 keinerlei Arbeit erfordert, falls der "
-"Entwickler die neue Funktionalität der Bibliotheken nicht nutzen möchte."
-
-#: ../rnwhy.xml:76 (title)
-msgid "Platform of Choice"
-msgstr "Plattform der Wahl"
-
-#: ../rnwhy.xml:78 (para)
-msgid ""
-"Popular and robust Free Software applications such as Mozilla, Eclipse, "
-"Evolution, Gnumeric, Abiword, Gaim, X-Chat, and more are based on GNOME or "
-"GTK+. These applications are among the most powerful and capable in the Free "
-"Software world, and we expect that they'll only get better as they take more "
-"advantage of the GNOME development environment. In addition, other important "
-"desktop projects, like Mono, Java, and OpenOffice.org, are working on "
-"integrating with GNOME and GTK+."
-msgstr ""
-"Beliebte und solide Anwendungen im Bereich freier Software basieren auf "
-"GNOME oder GTK+, unter anderem Mozilla, Eclipse, Evolution, Gnumeric, "
-"Abiword, Gaim, und X-Chat. Diese Anwendungen zählen zu den "
-"leistungsfähigsten und umfangreichsten in der Welt der freien Software und "
-"können nur besser werden, wenn sie weiteren Nutzen aus der GNOME "
-"Entwicklungsumgebung ziehen. Andere wichtige Desktop-Projekte arbeiten an "
-"einer Integration mit GNOME und GTK+, darunter Mono, Java und OpenOffice.org."
-
-#: ../rnwhy.xml:93 (title)
-msgid "Organization"
-msgstr "Organisation"
-
-#: ../rnwhy.xml:94 (para)
-msgid ""
-"GNOME 2.10 is the third 'time-based' GNOME release. Because GNOME releases "
-"on a regular schedule, contributors know that their contributions will be in "
-"a stable release and on the desktops of users everywhere within a short, "
-"predictable period after they contribute. In addition, people who want to "
-"deploy GNOME know that they can count on regular releases when they are "
-"planning rollouts or integration with their own products."
-msgstr ""
-"GNOME 2.10 ist die dritte „zeitbasierte” Veröffentlichung von GNOME. Da "
-"GNOME in regelmäßigen Abständen veröffentlicht, wissen die Mitwirkenden, "
-"dass ihre Beitrage innerhalb eines überschaubaren Zeitraums in einer "
-"stabilen Veröffentlichung und auf den Desktops vieler Benutzer erscheinen "
-"werden. Desweiteren kann man sich bei der Planung von Rollouts oder der "
-"Integration in eigene Produkte auf regelmäßige Aktualisierungen verlassen."
-
-#: ../rnwhy.xml:103 (para)
-msgid ""
-"Additionally, the GNOME Foundation allows companies to support GNOME, while "
-"at the same time ensuring the independence of the board by ensuring that "
-"they are selected by the developers who work on GNOME. This infrastructure "
-"helps organize releases, and sponsors the annual GUADEC conference and the "
-"regular North American summits."
-msgstr ""
-"Zusätzlich dazu erlaubt es die GNOME Foundation, dass Firmen GNOME "
-"unterstützen. Gleichzeitig wird die Unabhängigkeit des Vorstands dadurch "
-"sichergestellt, dass die Wahl der Mitglieder durch die GNOME-Entwickler "
-"erfolgt. Diese Infrastruktur hilft bei der Organisation der "
-"Veröffentlichungen und leistet finanzielle Unterstützung bei der jährlichen "
-"GUADEC-Konferenz sowie den regelmaßigen nordamerikanischen Gipfeltreffen."
-
-#: ../rnwhy.xml:114 (title)
-msgid "Licensing"
-msgstr "Lizenzierung"
-
-#: ../rnwhy.xml:116 (para)
-msgid ""
-"All GNOME platform libraries are licensed under the <ulink url=\"http://www."
-"gnu.org/copyleft/lgpl.html\">LGPL</ulink> or similar license, so developing "
-"for the GNOME platform is 100% free of license fees, for developers of both "
-"Free and proprietary software."
-msgstr ""
-"Alle GNOME Plattformbibliotheken stehen unter der <ulink url=\"http://www."
-"gnu.org/copyleft/lgpl.html\">LGPL</ulink> oder ähnlichen Lizenzen. Die "
-"Entwicklung für die GNOME-Plattform ist dadurch sowohl für freie als auch "
-"für proprietäre Software zu 100% frei von Lizenzgebühren."
-
-#: ../rnwhy.xml:125 (title)
-msgid "Support and Staying Power"
-msgstr "Unterstützung und Beständigkeit"
-
-#: ../rnwhy.xml:127 (para)
-msgid ""
-"GNOME is here to stay. Besides the active GNOME community (which has now "
-"supported and developed GNOME for over five years), many of the biggest "
-"supporters of the Unix desktop are GNOME contributors, including HP, "
-"MandrakeSoft, Novell (through Ximian), Red Hat, and Sun Microsystems."
-msgstr ""
-"GNOME bleibt bestehen. Neben der aktiven GNOME Community, welche GNOME jetzt "
-"seit über fünf Jahren unterstützt und entwickelt, tragen auch viele der "
-"größten Unterstützer des Unix-Desktops zu GNOME bei. Darunter befinden sich "
-"Namen wie HP, MandrakeSoft, Novell (durch Ximian), Red Hat und Sun "
-"Microsystems."
-
-# "Frank Arnold <frank@scirocco-5v-turbo.de>, 2005."
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: ../rnwhy.xml:0 (None)
+#: ../rnutilities.xml:0 (None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Frank Arnold <frank@scirocco-5v-turbo.de>, 2005."
 
-#~ msgid "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgid "The new modem control applet"
+#~ msgstr "Das neue Modemkontroll-Applet"
 
-#~ msgid "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgid "a Trashcan on your Panel"
+#~ msgstr "Ein Mülleimer im Panel"
 
-#~ msgid "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgid "Drive Mount"
+#~ msgstr "Laufwerkseinbindung"
+
+#~ msgid "Weather Report"
+#~ msgstr "Wetterbericht"
+
+#~ msgid "Monitor CPU Frequency Scaling"
+#~ msgstr "Überwachung der CPU-Frequenzskalierung"
+
+#~ msgid "The video player"
+#~ msgstr "Der Video-Player"
+
+#~ msgid "The audio extractor"
+#~ msgstr "Der CD-Ripper"
+
+#~ msgid "The web browser"
+#~ msgstr "Der Web-Browser"
+
+#~ msgid "The email client"
+#~ msgstr "Die E-Mail-Anwendung"
+
+#~ msgid "The internet telephony and video conferencing client"
+#~ msgstr "Die Internet-Telefonie- und Videokonferenzanwendung"
+
+#~ msgid "Keyboard Preferences - Layouts"
+#~ msgstr "Tastatureinstellungen - Belegungen"
+
+#~ msgid "The Clock, Network, and Users/Groups tools"
+#~ msgstr "Die Zeit-, Netzwerk- und Benutzer/Gruppen-Werkzeuge"
+
+#~ msgid "The Log Viewer"
+#~ msgstr "Der Protokollbetrachter"
+
+#~ msgid "So, why GNOME?"
+#~ msgstr "Warum GNOME?"
 
 #~ msgid ""
-#~ "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
+#~ "Having seen some of the new features in GNOME 2.10, why choose GNOME over "
+#~ "other desktop environments? Every GNOME volunteer has their own "
+#~ "motivations, of course, but here are some of the common reasons many of "
+#~ "us choose to work on and use GNOME."
 #~ msgstr ""
-#~ "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
+#~ "Nachdem Sie einige der neuen Eigenschaften von GNOME 2.10 kennengelernt "
+#~ "haben: Warum sollten Sie GNOME einer anderen Desktop-Umgebung vorziehen? "
+#~ "Jeder GNOME-Helfer hat natürlich seine eigenen Motivationen. Aber hier "
+#~ "sind ein paar allgemeine Gründe, weshalb sich viele von uns für die "
+#~ "Mitarbeit an und die  Verwendung von GNOME entschieden haben."
+
+#~ msgid "Usability"
+#~ msgstr "Bedienbarkeit"
+
+#~ msgid "Accessibility"
+#~ msgstr "Barrierefreiheit"
+
+#~ msgid ""
+#~ "Beyond making GNOME easier to use for the average computer user, GNOME "
+#~ "has also taken the lead in making the Unix desktop accessible to those "
+#~ "with disabilities. The GNOME accessibility framework is used by our award-"
+#~ "winning accessibility tools like the GNOME Onscreen Keyboard (gok), "
+#~ "Gnopernicus, and Dasher. These allow the use of braille readers, voice "
+#~ "synthesizers, and pointing devices. Many governments, including the US "
+#~ "government, require comprehensive accessibility support in software they "
+#~ "purchase. After dozens of person-years of effort, GNOME is the only free "
+#~ "software desktop to thoroughly address this issue."
+#~ msgstr ""
+#~ "Neben dem Vereinfachen der Bedienung für durchnittliche Anwender hat "
+#~ "GNOME auch die Führung bei Hilfstechnologien für Behinderte auf dem Unix-"
+#~ "Desktop übernommen. Das GNOME Accessibility Framework wird von unseren "
+#~ "preisgekrönten Barrierefreiheitswerkzeugen, wie der GNOME "
+#~ "Bildschirmtastatur (gok), Gnopernicus und Dasher verwendet. Diese "
+#~ "erlauben die Verwendung von Braillezeilen, Sprachgeneratoren und "
+#~ "Zeigegeräten. Viele Regierungen, darunter die US-Regierung, verlangen "
+#~ "eine umfangreiche Barrierefreiheit in der von ihnen erworbenen Software. "
+#~ "Nach einem Aufwand von vielen Mannjahren ist GNOME der einzige Desktop "
+#~ "innerhalb der Freien Software, der dieses Problem gründlich angeht."
+
+#~ msgid "Interface Stability"
+#~ msgstr "Stabilität der Schnittstellen"
+
+#~ msgid ""
+#~ "The core libraries in the GNOME Development Platform carry guarantees of "
+#~ "API and ABI stability. This means that 'porting' an application from "
+#~ "GNOME 2.0 to GNOME 2.10 involves no work, if a developer does not wish to "
+#~ "take advantage of new functionality in the libraries."
+#~ msgstr ""
+#~ "Die Kernbibliotheken der GNOME Entwicklungsplattform enthalten Garantien "
+#~ "für API- und ABI-Stabilität. Dies bedeutet, dass die „Portierung” einer "
+#~ "Anwendung von GNOME 2.0 zu GNOME 2.10 keinerlei Arbeit erfordert, falls "
+#~ "der Entwickler die neue Funktionalität der Bibliotheken nicht nutzen "
+#~ "möchte."
+
+#~ msgid "Platform of Choice"
+#~ msgstr "Plattform der Wahl"
+
+#~ msgid ""
+#~ "Popular and robust Free Software applications such as Mozilla, Eclipse, "
+#~ "Evolution, Gnumeric, Abiword, Gaim, X-Chat, and more are based on GNOME "
+#~ "or GTK+. These applications are among the most powerful and capable in "
+#~ "the Free Software world, and we expect that they'll only get better as "
+#~ "they take more advantage of the GNOME development environment. In "
+#~ "addition, other important desktop projects, like Mono, Java, and "
+#~ "OpenOffice.org, are working on integrating with GNOME and GTK+."
+#~ msgstr ""
+#~ "Beliebte und solide Anwendungen im Bereich freier Software basieren auf "
+#~ "GNOME oder GTK+, unter anderem Mozilla, Eclipse, Evolution, Gnumeric, "
+#~ "Abiword, Gaim, und X-Chat. Diese Anwendungen zählen zu den "
+#~ "leistungsfähigsten und umfangreichsten in der Welt der freien Software "
+#~ "und können nur besser werden, wenn sie weiteren Nutzen aus der GNOME "
+#~ "Entwicklungsumgebung ziehen. Andere wichtige Desktop-Projekte arbeiten an "
+#~ "einer Integration mit GNOME und GTK+, darunter Mono, Java und OpenOffice."
+#~ "org."
+
+#~ msgid "Organization"
+#~ msgstr "Organisation"
+
+#~ msgid ""
+#~ "GNOME 2.10 is the third 'time-based' GNOME release. Because GNOME "
+#~ "releases on a regular schedule, contributors know that their "
+#~ "contributions will be in a stable release and on the desktops of users "
+#~ "everywhere within a short, predictable period after they contribute. In "
+#~ "addition, people who want to deploy GNOME know that they can count on "
+#~ "regular releases when they are planning rollouts or integration with "
+#~ "their own products."
+#~ msgstr ""
+#~ "GNOME 2.10 ist die dritte „zeitbasierte” Veröffentlichung von GNOME. Da "
+#~ "GNOME in regelmäßigen Abständen veröffentlicht, wissen die Mitwirkenden, "
+#~ "dass ihre Beitrage innerhalb eines überschaubaren Zeitraums in einer "
+#~ "stabilen Veröffentlichung und auf den Desktops vieler Benutzer erscheinen "
+#~ "werden. Desweiteren kann man sich bei der Planung von Rollouts oder der "
+#~ "Integration in eigene Produkte auf regelmäßige Aktualisierungen verlassen."
+
+#~ msgid ""
+#~ "Additionally, the GNOME Foundation allows companies to support GNOME, "
+#~ "while at the same time ensuring the independence of the board by ensuring "
+#~ "that they are selected by the developers who work on GNOME. This "
+#~ "infrastructure helps organize releases, and sponsors the annual GUADEC "
+#~ "conference and the regular North American summits."
+#~ msgstr ""
+#~ "Zusätzlich dazu erlaubt es die GNOME Foundation, dass Firmen GNOME "
+#~ "unterstützen. Gleichzeitig wird die Unabhängigkeit des Vorstands dadurch "
+#~ "sichergestellt, dass die Wahl der Mitglieder durch die GNOME-Entwickler "
+#~ "erfolgt. Diese Infrastruktur hilft bei der Organisation der "
+#~ "Veröffentlichungen und leistet finanzielle Unterstützung bei der "
+#~ "jährlichen GUADEC-Konferenz sowie den regelmaßigen nordamerikanischen "
+#~ "Gipfeltreffen."
+
+#~ msgid "Licensing"
+#~ msgstr "Lizenzierung"
+
+#~ msgid ""
+#~ "All GNOME platform libraries are licensed under the <ulink url=\"http://"
+#~ "www.gnu.org/copyleft/lgpl.html\">LGPL</ulink> or similar license, so "
+#~ "developing for the GNOME platform is 100% free of license fees, for "
+#~ "developers of both Free and proprietary software."
+#~ msgstr ""
+#~ "Alle GNOME Plattformbibliotheken stehen unter der <ulink url=\"http://www."
+#~ "gnu.org/copyleft/lgpl.html\">LGPL</ulink> oder ähnlichen Lizenzen. Die "
+#~ "Entwicklung für die GNOME-Plattform ist dadurch sowohl für freie als auch "
+#~ "für proprietäre Software zu 100% frei von Lizenzgebühren."
+
+#~ msgid "Support and Staying Power"
+#~ msgstr "Unterstützung und Beständigkeit"
+
+#~ msgid ""
+#~ "GNOME is here to stay. Besides the active GNOME community (which has now "
+#~ "supported and developed GNOME for over five years), many of the biggest "
+#~ "supporters of the Unix desktop are GNOME contributors, including HP, "
+#~ "MandrakeSoft, Novell (through Ximian), Red Hat, and Sun Microsystems."
+#~ msgstr ""
+#~ "GNOME bleibt bestehen. Neben der aktiven GNOME Community, welche GNOME "
+#~ "jetzt seit über fünf Jahren unterstützt und entwickelt, tragen auch viele "
+#~ "der größten Unterstützer des Unix-Desktops zu GNOME bei. Darunter "
+#~ "befinden sich Namen wie HP, MandrakeSoft, Novell (durch Ximian), Red Hat "
+#~ "und Sun Microsystems."
