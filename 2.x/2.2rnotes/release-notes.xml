@@ -46,18 +46,17 @@
     </abstract>
   </articleinfo>
   
-  <sect1 id="rnwhatsnew">
-    <title>What's New In GNOME &version;</title>
+  <sect1 id="rnintroduction">
+    <title>Introduction</title>
     <para>We spent the six months since the GNOME 2.0 release improving
     usability, performance and accessibility support. We also added new
     functionality, including new applications, producing a feature-rich
     GNOME 2.2 desktop.</para>
 
-    <para>GNOME provides a usable environment that "just works" for everyday
+    <para>GNOME provides a user-friendly environment that "just works" for everyday
     users, without excess complexity, while at the same time providing the rich
     flexibility experienced developers demand. We have tried to avoid
-    unnecessary complications or obscure features, giving GNOME &version;
-    a clear, unified vision.</para>
+    unnecessary complications or obscure features, sticking instead to a clear, unified vision.</para>
 
     <para>The GNOME 2 developer platform has matured and is now widely
     used. While GNOME 2.0 was a major upgrade to the underlying platform, GNOME
@@ -77,6 +76,7 @@
    
     <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
  */</para>
+
   </sect1>
 
 <sect1 id="rndesktop">
