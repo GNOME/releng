@@ -1,3 +1,8 @@
+2003-10-27  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* single_module/tools/list_translators.sh: Add -u to the cvs command
+	so that the script actually works.
+
 2003-10-12  Bastien Nocera  <hadess@hadess.net>
 
 	* single_module/tools/README.txt: upd
