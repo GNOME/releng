@@ -1,5 +1,11 @@
 2005-02-19  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnutilities.xml: Mentioned changes in search, archive manager, and 
+	dictionary.
+	* rncontrolcenter.xml: Mentioned better Keyboard Layout UI.
+
+2005-02-19  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnreleasenotes.xml: Move applications above desktop, because we have 
 	2 new apps and not much to say about nautilus. Readded control center, 
 	so we can mention the keyboard layout preferences improvements.

@@ -12,14 +12,14 @@
   <sect3>
     <title>Text Editor</title>
 
-    <para>The GNOME text editor can now highlight the current line and, when editing program source code, it also highlights matching braces. It also starts faster than previous versions.
+    <para>The GNOME text editor can now highlight the current line and, when editing program source code, it highlights matching braces. It also starts faster than previous versions.
 
     <figure id="rnscreenshot-gedit">
     <title>Text Editor</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;gedit.png" format="PNG"/></imageobject>
-          <textobject><phrase>The new Text Editor preferences dialog.</phrase></textobject>
+          <textobject><phrase>The text editor, highlighting the current line.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>
@@ -27,6 +27,57 @@
 
   </sect3>
 
+  <sect3>
+    <title>Archive Manager</title>
 
+    <para>The GNOME archive manager can now open more types of archive, including AR, Debian, and 7-zip archives, and password-protected RAR archives. And if you use the single-click preference in the file manager, then the archive manager will now use single clicks too.
+
+    <figure id="rnscreenshot-fileroller">
+    <title>Text Editor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;fileroller.png" format="PNG"/></imageobject>
+          <textobject><phrase>The file manager, asking for a password for a RAR file.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+  <sect3>
+    <title>Search Tool</title>
+
+    <para>The search tool can now do a second search inside the results from your first search, to narrow down the results. TODO: Is this true? And like the archive manager, it now uses single clicks if that's what you've chosen in the file manager preferences.
+
+    <figure id="rnscreenshot-search">
+    <title>Text Editor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;search.png" format="PNG"/></imageobject>
+          <textobject><phrase>The search tool.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+
+ <sect3>
+    <title>Dictionary</title>
+
+    <para>The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can now be printed.
+
+    <figure id="rnscreenshot-dictionary">
+    <title>Text Editor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;dictionary.png" format="PNG"/></imageobject>
+          <textobject><phrase>The dictionary, suggesting possible spellings and a definition.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
 
 </sect2>
