@@ -18,9 +18,14 @@
       <title>Introduction</title>
       <para>The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
 
-      <para>GNOME &version; desktop has several interesting new features and bug fixes. These make day-to-day usage much easier,
+      <para>GNOME &version; desktop has several interesting new features and hundreds of bug fixes. These make day-to-day usage much easier,
       with noticeably improvements in the user interface, general stability and speed, and the built-in help system. You can
       learn more in the following sections.</para>
+
+    <para>GNOME provides a user-friendly environment that &quot;just works&quot;
+    for everyday users, without excess complexity or obscure features. At the same
+    time we provide the rich flexibility experienced developers
+    demand.</para>
 
     <para>GNOME runs on a variety of platforms, including GNU/Linux
     (commonly called Linux), Solaris, HP-UX, BSD and Apple's
@@ -28,11 +33,6 @@
     smooth text rendering, a first-class accessibility infrastructure,
     and a complete internationalization infrastructure that includes
     support for bi-directional text.</para>
-
-    <para>GNOME provides a user-friendly environment that &quot;just works&quot;
-    for everyday users, without excess complexity or obscure features. At the same
-    time we provide the rich flexibility experienced developers
-    demand.</para>
 
     <para>Of course GNOME &version; includes all of the improvements made in
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink

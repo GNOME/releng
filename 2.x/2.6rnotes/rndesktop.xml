@@ -10,8 +10,8 @@
 
     <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-    Nautilus, the GNOME file manager has several significant improvements in GNOME &version;. In particular, it now has a simpler
-    and more intuitive user interface, and is very responsive. This should make users feel more comfortable and productive.
+    Nautilus, the GNOME file manager, has several significant improvements in GNOME &version;. In particular, it now has a simpler
+    and more intuitive user interface, and has improved responsiveness. This should make users feel more comfortable and productive.
     </para>
 
     <para>This new &quot;spatial&quot; user interface presents just one window for each folder, and remembers their location
@@ -110,7 +110,7 @@
     <para>Other basic improvements include
     <itemizedlist>
       <listitem><para>An improved Combo box, to choose an item from a list.</para></listitem>
-      <listitem><para>Performance improvements when showing trees of items.</para></listitem>
+      <listitem><para>Performance improvements when showing tables.</para></listitem>
       <listitem><para>TODO</para></listitem>
     </itemizedlist>
     </para>

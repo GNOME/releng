@@ -7,7 +7,7 @@
 <sect2 id="rnutilities">
   <title>Utilities</title>
 
-  <para>There have been many improvements to the GNOME utilities. Here is a selection.</para>
+  <para>There have been many improvements to the GNOME utilities. Some include:</para>
 
   <sect3>
     <title>Character Map</title>
@@ -36,11 +36,11 @@
 
     <para>The PDF viewer now has several features that users missed in the previous version, such as:
     <itemizedlist>
-      <listitem><para>There are now sidebars for bookmarks and page thumbnails.</para></listitem>
-      <listitem><para>You can now open password-protected files.</para></listitem>
-      <listitem><para>There is now a full-screen mode.</para></listitem>
-      <listitem><para>TrueType fonts are now supported.</para></listitem>
-      <listitem><para>Clicking on a URL will now open it in a web browser.</para></listitem>
+      <listitem><para>Sidebars for bookmarks and page thumbnails.</para></listitem>
+      <listitem><para>Ability to open password-protected files.</para></listitem>
+      <listitem><para>New full-screen mode.</para></listitem>
+      <listitem><para>Support for TrueType fonts.</para></listitem>
+      <listitem><para>URLs open in the default browser when clicked.</para></listitem>
     </itemizedlist>
 
     <figure id="rnscreenshot-gpfdf">
@@ -60,14 +60,14 @@
     <title>Sound Recorder</title>
 
     <para>The Sounds recorder now offers a selection of audio profiles, such as "Voice Quality", which the user can edit.
-    Other applications, such as Sound Juicer can use these same audio profiles.
+    Other applications, such as the CD ripping tool Sound Juicer, can use these same audio profiles.
 
     <figure id="rnscreenshot-soundsrecorder-audioprofiles">
     <title>PDF Viewer</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;soundrecorderTODO.png" format="PNG"/></imageobject>
-          <textobject><phrase>The Sounds Recorder, showing audio profiles.</phrase></textobject>
+          <textobject><phrase>The Sound Recorder, showing audio profiles.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>
@@ -115,7 +115,7 @@
   <sect3>
     <title>Text Editor</title>
 
-    <para>The gedit text editor now has a simpler preferences dialog, and supports syntax-highlighting for more file formats.
+    <para>The gedit text editor now has a simpler preference dialog, and supports syntax highlighting for more file formats.
 
     <figure id="rnscreenshot-gedit">
     <title>Text Editor</title>
