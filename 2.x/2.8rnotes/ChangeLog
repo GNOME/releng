@@ -1,5 +1,10 @@
 2004-09-07  Murray Cumming  <murrayc@murrayc.com>
 
+	* rninstallation.xml: Mentioned MIME changes, and XDG_DATA_DIRS.
+	* TODO: Updated to show what is still to be done.
+
+2004-09-07  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnrelease.xml: Mentioned the focus of this release. Removed links to 
 	accessibility, help, svg and, and lockdown pages, until we discover  
 	something interesting there has changed. Added link to rnsysadmin.xml.

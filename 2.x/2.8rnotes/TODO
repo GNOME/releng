@@ -7,19 +7,13 @@ Stuff to mention in GNOME 2.8 release notes:
 - Control panel:
   - Keyboard Layout shows a preview which highlights keys that you press.
   - gnome-volume-manager config.
-
-- New modules:
-  - gnome-system-tools: Change the system clock, the users/groups, the network connection.
-  - vino: Allow a system administrator to control your computer.
-  - gnome-nettool: Provide useful information to your system administrator, in the event of network problems.
  
-
-system adminstration:
-  - gnome-nettool, vino, searching in gconf-editor.
 
 Improvements to developer platform:
   - API additions in gnome-vfs.
   - also wrapped by the platform bindings.
+
+
 
 
 DONE (maybe with TODOs in the text:
@@ -43,3 +37,11 @@ DONE (maybe with TODOs in the text:
 - New modules:
   - evolution
 
+- New modules:
+  - gnome-system-tools: Change the system clock, the users/groups, the network connection.
+  - vino: Allow a system administrator to control your computer.
+  - gnome-nettool: Provide useful information to your system administrator, in the event of network problems.
+
+
+system adminstration:
+  - gnome-nettool, vino, searching in gconf-editor.
