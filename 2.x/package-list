@@ -57,6 +57,7 @@ gnome-panel		=		2.2		-		Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.
 gnome-session		=		2.2		-		Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
 gnome-system-monitor	procman		2.0		-		Kevin Vandersloot <kfv101@psu.edu>
 gnome-terminal		profterm	2.2		-		Havoc Pennington <hp@redhat.com>
+gnome-themes		=		1.0		
 gnome-user-docs		-		-		-		John Fleck <jfleck@inkstain.net>
 gnome-utils		=		2.2		-		Glynn Foster <glynn.foster@sun.com>, Kevin Vandersloot <kfv101@psu.edu>
 gstreamer		=		1.0
@@ -71,6 +72,7 @@ metacity		=		2.6
 nautilus		=		2.2		-		Alex Larsson <alexl@redhat.com>, Darin Adler <darin@bentspoon.com>	-
 nautilus-media		=		1.0
 scrollkeeper		-		1.0		-
+startup-notification	=		1.0
 vte			=		1.0		-
 yelp			=		2.2		-		Mikael Hallendal <micke@codefactory.se>
 </section>

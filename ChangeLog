@@ -1,3 +1,7 @@
+2003-01-22  Murray Cumming  <murrayc@usa.net>
+
+	* 2.x/package-list: Added gnome-themes and startup-notification.
+
 2003-01-22  Mark McLoughlin  <mark@skynet.ie>
 
 	* 2.x/moduleinfo.py: add this list of what's in
