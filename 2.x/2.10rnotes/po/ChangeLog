@@ -1,5 +1,9 @@
 2005-02-23  Danilo Šegan  <dsegan@gmx.net>
 
+	* XMLFILES: Remove ../rntoc.xml.
+
+2005-02-23  Danilo Šegan  <dsegan@gmx.net>
+
 	* Makefile, XMLFILES, sr.po, de.po, .cvsignore: Added.
 	
 
