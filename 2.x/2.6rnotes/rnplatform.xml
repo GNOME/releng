@@ -16,7 +16,7 @@
     <title>GTK+</title>
 
     <para>GTK+ 2.4 adds significant new functionality while maintaining source and binary compatibility with GTK+ 2.2.
-    Major new features include
+    Major new features include:
 
     <itemizedlist>
       <listitem><para>New file selector widget, with improved UI, filters, previews, customization, and optional use of the GNOME vfs system.</para></listitem>
@@ -24,8 +24,8 @@
       <listitem><para>New Expander widget, useful for hiding complex user-interface options.</para></listitem>
       <listitem><para>Action-based toolbar and menu API.</para></listitem>
       <listitem><para>Bidirectional improvements, for languages such as Arabic and Hebrew. GTK+ now automatically determines the direction for widgets based on their contents.</para></listitem>
-      <listitem><para>ComboBoxes and Entry widgets can now offer automatic text completion.</para></listitem>
-      <listitem><para>TreeViews can be optimized for speed.</para></listitem>
+      <listitem><para>Automatic text completion option for ComboBoxes and Entry widgets.</para></listitem>
+      <listitem><para>Speed-optimizization option for TreeViews.</para></listitem>
       <listitem><para>General performance improvements.</para></listitem>
     </itemizedlist>
 

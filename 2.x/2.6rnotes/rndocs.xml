@@ -2,6 +2,7 @@
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.6">
+<!ENTITY oldversion "2.4">
 <!ENTITY urlfiguresbase "figures/">
 ]>
 <sect1 id="rndocs">
@@ -15,7 +16,7 @@
   documentation. Careful attention has been taken to detail using free
     software's most complete <ulink
       url="http://developer.gnome.org/documents/style-guide/">documentation
-   style guide</ulink>. As in GNOME 2.4, each application shipped with GNOME
+   style guide</ulink>. As in GNOME &oldversion;, each application shipped with GNOME
   &version; 
   includes full user documentation.</para>
   <para>
