@@ -73,5 +73,60 @@
 
   </sect3>
 
+  <sect3 id="rnevolution">
+    <title>Evolution</title>
+   
+   <para>
+   GNOME's integrated Email and Groupware client, Evolution supports traditional mail setups, as well
+   as Novell Groupwise and Microsoft Exchange. With Evolution you can read, write, 
+   and manage your emails, contacts, and calendar events.
+   </para>
+   <para>TODO: What's new.
+   </para>
+
+   <para>This new version has some extra features, including: 
+     <itemizedlist>
+     <listitem><para></para></listitem>
+     <listitem><para></para></listitem>
+     </itemizedlist>
+
+
+   <figure id="rnscreenshot-evolution">
+      <title>The email client</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-evolution-mail.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Evolution email client.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+   </para>    
+
+  </sect3>
+
+  <sect3 id="rngnomemeeting">
+    <title>GnomeMeeting</title>
+
+    <para>GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing.
+    In GNOME &version; the address book is now shared with our Evolution email client, so you don't need to enter 
+    contact information in more than one place.
+    </para>
+    <para>Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see.
+
+    <figure id="rnscreenshot-gnomemeeting">
+      <title>The internet telephony and video conferencing client</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnomemeeting.png" format="PNG"/></imageobject>
+          <textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+    </para>
+
+  </sect3>
+
   
 </sect2>

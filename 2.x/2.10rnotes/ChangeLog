@@ -1,5 +1,11 @@
 2005-02-20  Murray Cumming  <murrayc@murrayc.com>
 
+	* releasenotes.xml: Added a continue-to link so people do not think 
+	that is all there is.
+	* rnapplications.xml: Added epiphany and skeleton for evolution.
+
+2005-02-20  Murray Cumming  <murrayc@murrayc.com>
+
 	* releasenotes.xml: Changed my mind about putting desktop after 
 	applications, because there are so many applications changes.
 	* rnutilities: Added floppy formatter.
