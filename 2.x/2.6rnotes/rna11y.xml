@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.4">
+]>
+<sect2 id="rna11y">
+  <title>Accessibility</title>
+  <para>GNOME &version; includes major advances in accessible free software on
+  the desktop with the first editions of the Gnopernicus screen reader/magnifier
+  and the GOK dynamic on-screen keyboard.  Support for people with disabilities
+  has been a key goal and focus of the GNOME 2 desktop platform, and successive
+  releases have included increasing support for accessibility.  With &version;,
+  users will be able to evaluate GNOME with assistive technolgies.</para>
+  <para>The editions of Gnopernicus and GOK that will be part of GNOME 2.4 are
+  well along in their development cycle; however the GNOME accessibility
+  community &mdash; and specifically BAUM and the University of Toronto Adaptive
+  Technology Resource Centre who are the maintainers of these projects &mdash;
+  feel that Gnopernicus and GOK need further testing and development before they
+  are ready for production use by people with disabilities. By including
+  Gnopernicus and GOK in GNOME 2.4 we will make it easy for a large audience to
+  explore these assistive technologies, and provide feedback to their
+  developers.  Essentially this is a large, public beta test of the GNOME
+  desktop assistive technologies.</para>
+  <sect3 id="rngnopernicus">
+    <title>Gnopernicus</title>
+    <para>
+    Gnopernicus is an open source screen reader/magnifier that enables users
+      with limited vision, or no vision, to use the GNOME 2 desktop and GNOME
+      applications effectively. By providing automated focus tracking and full
+      screen magnification, Gnopernicus aids low-vision GNOME users, and its
+      screen reader features will allow low-vision and blind users to access a
+      large range of applications via speech and braille output.
+
+    <figure id="rngnopernicusscreenshot"> 
+        <title>Gnopernicus</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;gnopernicus.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Gnopernicus Reader/Magnifier
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+
+      <ulink url="http://www.baum.de/">BAUM Retec AG</ulink> is guiding
+ 	    Gnopernicus development, and is also the principal author and
+ 	    project maintainer.  BAUM has been developing screen reading and
+ 	    magnification software, as well as other software and hardware
+ 	    products for the blind, for over 20 years. More information about
+ 	    Gnopernicus
+ 	    can be found at <ulink
+	url="http://developer.gnome.org/projects/gap/AT/Gnopernicus">http://developer.gnome.org/projects/gap/AT/Gnopernicus</ulink>.
+    </para>
+  </sect3>
+  <sect3 id="rnGOK">
+    <title>GOK Dynamic On-Screen Keyboard</title>
+    <para>
+      GOK is a dynamic on-screen keyboard that enables users to control their
+      computer without having to rely on a standard keyboard or mouse.
+      Supporting the majority of single-switch devices already on the market,
+      GOK allows users with limited voluntary movement to completely control and
+      interact with their GNOME 2 desktop via one or more  alternative input
+      devices, choosing from a wide range of input techniques and
+      configurations.  These input methods may be controlled by actions such as
+      blowing and sipping to activate a pneumatic switch, an eye blink and/or
+      directed gaze with an eye tracking system, head movement, muscle
+      contractions, or limb movements.
+    
+    <figure id="rngokscreenshot"> 
+        <title>GOK</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;gok.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>GOK On-Screen Keyboard
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+
+    </para>
+    <para>
+      Using innovative dynamic keyboard strategies, and leveraging the built-in
+      accessibility framework of GNOME 2, GOK makes desktop and application
+      control and interaction tremendously more efficient for users with severe
+      physical impairments.  GOK directly presents on the dynamic keyboard the
+      users' menu options, toolbar choices, and text manipulation commands,
+      thereby saving the user the time and frustration of having to enter
+      lengthy series of keyboard sequences to invoke those commands.  GOK also
+      includes a word completion dictionary to speed text entry. 
+    </para>
+    <para>
+      The <ulink url="http://atrc.utoronto.ca/">Adaptive Technology Resource
+      Centre</ulink> is guiding GOK development, and is also the principal
+      author and project maintainer. The University of Toronto's ATRC research
+      and development lab brings strong leadership to the project with expertise
+      in alternative input devices and software, and also a sincere passion
+      regarding accessibility issues. The team has already produced a
+      full-featured onscreen keyboard for another platform.
+    </para>
+    <para>
+      More information about GOK can be found at <ulink
+	url="http://developer.gnome.org/projects/gap/AT/GOK">http://developer.gnome.org/projects/gap/AT/GOK</ulink>
+      and at <ulink url="http://www.gok.ca">http://www.gok.ca</ulink>.
+    </para>
+  </sect3>
+</sect2>

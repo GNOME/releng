@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4">
+<!ENTITY urlfiguresbase "figures/">
+]>
+<sect2 id="rngnomemeeting">
+  <title>GnomeMeeting</title>
+  <para><application>GnomeMeeting</application> brings free internet telephony
+  (VoIP) and video conferencing support to GNOME &version;, with full support for
+  callto: and h323: URIs.
+    <figure id="rngnomemeetingscreenshot"> 
+        <title>GnomeMeeting</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;gnomemeeting.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>GnomeMeeting
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+  </para>
+  <para>
+    With its development led by Damien Sandras, <application>GnomeMeeting</application> can carry out
+    video conferencing, PC-to-PC and PC-to-Phone calls, and text chat. Its
+    full compliance to standards, such as H.323, means that it can
+    communicate with any other compliant conferencing application.
+  </para>
+  <para>The current <ulink url="http://www.gnomemeeting.org/index.php?rub=2">feature
+  set</ulink> is documented on the <application>GnomeMeeting</application> website.
+  </para>
+</sect2>

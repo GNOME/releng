@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.4">
+]>
+<sect2 id="rncontrolcenter">
+  <title>Control Center</title>
+  <para>
+    The <application>Control Center</application> is the heart of "the desktop
+    that cares." Jonathan Blandford and his collaborators have given the
+    <application>Control Center</application> a new central control panel for
+    GNOME's accessibility features (courtesy of Bill Haneman) and integration with
+    <application>Dr. Wright</application>, an application that gives you
+    timed breaks from your busy work day, written by Richard Hult.
+
+    <figure id="rncontrolcenterscreenshot"> 
+        <title>Typing Break</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;drwright.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Typing Break
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+
+  </para>
+  <para>
+    Other new <application>Control Center</application> features include:
+    <itemizedlist>
+      <listitem>
+	<para><application>Themus</application>, Andrew Sobala's new tool for
+	managing themes.</para>
+      </listitem>
+      <listitem>
+	<para>A new font management system.</para>
+      </listitem>
+      <listitem>
+	<para>A tool from Alex Larsson to take advantage of the new XRandR
+	capabilities in X 4.3, which allow you to change screen resolution on
+	the fly.</para>
+      </listitem>
+      <listitem>
+	<para>Usability improvements from Dennis Cranston and Christian Neumair
+	  to bring the <application>Control Center</application> into conformity
+	  with the <ulink
+	  url="http://developer.gnome.org/projects/gup/hig/1.0/">GNOME Human
+	  Interface Guidelines</ulink>.</para>
+      </listitem>
+    </itemizedlist>
+
+  </para>
+</sect2>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4.0">
+]>
+<sect1 id="rnstandards">
+    <title>Standards Compliance</title>
+
+    <para>
+  GNOME works closely with groups such as <ulink
+  url="http://www.freedesktop.org/standards/">freedesktop.org</ulink>. Standards
+  support is a big plus for GNOME users. Interoperability support
+  improves the user experience by allowing GNOME, KDE, and other
+  applications to work together more easily, and following open
+  specifications helps ensure that user data is not trapped in
+  proprietary formats.
+    </para>
+   
+    <para>
+    GNOME developers are working hard with other members of the free software
+    community through Freedesktop.org on the development of standards to allow
+    interoperability. Those standards include: icon themes, recent files,
+    thumbnail management, and the system tray spec. In addition, GNOME 2
+    supports CORBA, XML, Xdnd, EWMH, XEMBED, XSETTINGS, and XSMP.
+    </para>
+</sect1>

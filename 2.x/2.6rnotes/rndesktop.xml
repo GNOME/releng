@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.4">
+]>
+<sect2 id="rndesktop">
+
+    <title>Desktop</title>
+    <para>  </para>
+
+    <sect3 id="rnnautilus"><title>The File Manager</title>
+    <para>
+    Nautilus, the GNOME file manager, has added important functionality since
+    the release of GNOME 2.2, including an integrated drag-and-drop CD burner
+    and the ability to change the properties of multiple files simultaneously.
+    </para>
+    
+    <figure id="rncdburnerscreenshot"> 
+        <title>CD Burner</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;burn.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>GNOME CD Burner
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+
+    <para>Other changes in Nautilus for GNOME &version; include:
+      <itemizedlist>
+	<listitem>
+	  <para>Desktop objects are now handled in memory rather than as actual
+	  files in the desktop directory.</para>
+	</listitem>
+	<listitem>
+	  <para>The desktop directory has been moved from
+	    <filename>.gnome-desktop</filename> to the user-visible
+	    <filename>Desktop</filename> directory in the user's home
+	    directory.</para>
+	</listitem>
+	<listitem>
+	  <para>Text-beside-icons mode in the icon view</para>
+	</listitem>
+	<listitem>
+	  <para>Startup notification support when launching files</para>
+	</listitem>
+	<listitem>
+	  <para>Improved context menus</para>
+	</listitem>
+	<listitem>
+	  <para>"Keep Aligned" mode on the desktop</para>
+	</listitem>
+	<listitem>
+	  <para>Multi-rooted tree view</para>
+	</listitem>
+     <listitem>
+	  <para>Support for ".hidden" files, allowing users to create a list of
+	  files that will be hidden by Nautilus</para>
+	</listitem>
+      </itemizedlist>
+    </para>
+   
+
+<!--
+      <sect4><title>Network Servers</title>
+
+      <para>TODO</para>
+
+      </sect4>
+
+-->
+  </sect3>
+
+  <sect3 id="rnpanel">
+    <title>The Panel</title>
+    <para>The GNOME <application>panel</application> has been simplified with
+    the elimination of the multiple panel types in favor of a single type that
+    can be configured with the same characteristics as each of the old panel
+    types, preserving functionality while simplifying use:
+      <itemizedlist>
+	<listitem>
+	  <para>You can move and resize the panel using the keyboard.</para>
+	</listitem>
+	<listitem>
+	  <para>The panel can be any arbitrary size.</para>
+	</listitem>
+	<listitem>
+	  <para>Floating panels now have grab handles.</para>
+	</listitem>
+      </itemizedlist>
+    </para>
+    <para>Additional usability improvements to the panel include:
+      <itemizedlist>
+	<listitem>
+	  <para>A new property dialog for panels and drawers.</para>
+	</listitem>
+	<listitem>
+	  <para>New Run Application dialog</para>
+	</listitem>
+     <listitem>
+	  <para>Improved Xinerama support</para>
+	</listitem>
+     <listitem>
+	  <para>Accelerators added to main menu</para>
+	</listitem>
+     <listitem>
+	  <para>Bigger icons in main menu</para>
+	</listitem>
+     <listitem>
+	  <para>Applets can be locked to the panel</para>
+	</listitem>
+     <listitem>
+	  <para>The panel and all applets now comply with "Fitt's Law" &mdash;
+	  You can click on them at the very edge of the screen</para>
+	</listitem>
+     <listitem>
+	  <para>Applets no longer change positions when their size changes.</para>
+	</listitem>
+     <listitem>
+	  <para>The "Window Menu" and "Menu Bar" from the old Menu Panel
+	  are now separate, moveable applets.
+	  </para>
+	</listitem>
+     <listitem>
+	  <para>"Force Quit" button.</para>
+	</listitem>
+     <listitem>
+	  <para>Calendar for the clock applet.</para>
+	</listitem>
+      </itemizedlist>
+
+
+    </para>
+
+    <para>In addition to those user-visible changes, significant improvements in
+    behind-the-scenes panel infrastructure have been made, including:
+      <itemizedlist>
+	<listitem>
+	  <para>Reworked <application>panel</application>
+	  <application>gconf</application> functionality, so configuration keys
+	  are now documented with associated schemas and notifications.</para>
+	</listitem>
+	<listitem>
+	  <para>Global keybinds for the panel are no longer handled by the
+	  panel. That responsibility has been handed off to the window
+	  manager. (This is currently implemented in Metacity.)</para>
+	</listitem>
+      </itemizedlist>
+
+    </para>
+  </sect3>
+
+  <sect3 id="rngedit">
+    <title>Gedit Syntax Highlighting</title>
+    <para>Paolo Maggi and the <application>Gedit</application> hackers
+    have added syntax highlighting to GNOME's workhorse text editor:
+
+    <figure id="rngeditsyntaxscreenshot"> 
+        <title>Gedit Syntax Highlighting</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;gedit.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Gedit with Syntax Highlighting
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+
+      With the use of the <application>GtkSourceView</application> package,
+      <application>Gedit</application> now supports syntax highlighting for text
+ 	    written in Ada, C, C++, IDL, Java, HTML, Latex, XML, Perl and
+ 	    Python.
+
+    </para>
+  </sect3>
+</sect2>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4">
+<!ENTITY oldversion "2.2">
+]>
+<appendix id="rnnewmaintainers">
+  <title>New Maintainers</title>
+  <para>GNOME &version; marks the arrival of a number of new maintainers since
+  the release of GNOME &oldversion;:
+    <itemizedlist>
+      <listitem>
+	<para>Shaun McCance (yelp)</para>
+      </listitem>
+      <listitem>
+	<para>Marco Pesenti (epiphany)</para>
+      </listitem>
+   <listitem>
+	<para>Rich Burridge (gcalctool)</para>
+      </listitem>
+   <listitem>
+	<para>Erwann Chenede and Bill Haneman (gnome-mag)</para>
+      </listitem>
+   <listitem>
+	<para>Marc Mulcahy (gnome-speech)</para>
+      </listitem>
+   <listitem>
+	<para>Damien Sandras (gnomemeeting)</para>
+      </listitem>
+   <listitem>
+	<para>BAUM Retec AG (gnopernicus)</para>
+      </listitem>
+   <listitem>
+	<para>David Bolter and the University of Toronto's Adaptive Technology
+	Resource Centre (gok)</para>
+      </listitem>
+   <listitem>
+	<para>Martin Kretzschmar (gpdf)</para>
+      </listitem>
+   <listitem>
+	<para>Noah Levitt (gucharmap)</para>
+      </listitem>
+   <listitem>
+	<para>Ted Gould (gnome-media)</para>
+      </listitem>
+   <listitem>
+	<para>Callum McKenzie (gnome-games)</para>
+      </listitem>
+    </itemizedlist>
+  </para>
+
+</appendix>
