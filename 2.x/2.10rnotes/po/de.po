@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../release-notes.xml:16 (title)
 msgid "GNOME 2.10 Release Notes"
-msgstr "GNOME 2.10 Veröffentlichungsinformationen"
+msgstr "GNOME 2.10 Release Notes"
 
 #: ../release-notes.xml:19 (title)
 msgid "Introduction"
@@ -76,8 +76,8 @@ msgid ""
 msgstr ""
 "GNOME läuft auf einer Vielzahl von Plattformen, unter anderem GNU/Linux "
 "(üblicherweise Linux genannt), Solaris, HP-UX, BSD und Darwin von Apple. "
-"GNOME beinhaltet leistungsfähige Funktionen, wie z.B. eine hervorragende "
-"kantengeglättete Textdarstellung, eine erstklassige Infrastruktur für "
+"GNOME bietet leistungsfähige Funktionen, wie z.B. eine hervorragende "
+"Kantenglättung bei der Textdarstellung, eine erstklassige Infrastruktur für "
 "Barrierefreiheit und eine vollständige Internationalisierungsinfrastruktur, "
 "die auch bidirektionalen Text unterstützt."
 
@@ -87,9 +87,9 @@ msgid ""
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
 "start/2.8/notes/\">release notes</ulink>."
 msgstr ""
-"Natürlich enthält GNOME 2.10 alle Verbesserungen von GNOME 2.8, deren "
-"Beschreibung in den <ulink url=\"http://www.gnome.org/start/2.8/notes/"
-"\">Veröffentlichungsinformationen</ulink> von GNOME 2.8 zu finden ist."
+"Natürlich enthält GNOME 2.10 auch alle Verbesserungen von GNOME 2.8, deren "
+"Beschreibungen in den <ulink url=\"http://www.gnome.org/start/2.8/notes/"
+"\">Release Notes</ulink> von GNOME 2.8 zu finden sind."
 
 #: ../release-notes.xml:48 (para)
 msgid ""
@@ -122,7 +122,7 @@ msgid ""
 msgstr ""
 "Bitte fahren Sie mit dem Abschnitt „<link linkend=\"rnwhatsnew\">Was ist "
 "neu</link>” fort oder verwenden Sie die Verknüpfungen auf der rechten Seite, "
-"um mehr über diese Veröffentlichung und den GNOME-Desktop im allgemeinen zu "
+"um mehr über diese Veröffentlichung und den GNOME-Desktop im Allgemeinen zu "
 "erfahren."
 
 #: ../release-notes.xml:67 (title)
@@ -209,10 +209,10 @@ msgstr ""
 "Sitzungsstart hängt vorübergehend</ulink>: Anwendungen mit fehlerhafter "
 "Sitzungsverwaltung können das Anmelden während der Anzeige des Startbilds "
 "für einige Minuten verzögern. Die Vorgabesitzung enthält keine dieser "
-"Anwendungen, so dass dieses Problem nur in Zusammenhang mit beim Abmelden "
-"gespeicherten Sitzungen auftritt. Falls Sie dieses Problem feststellen, "
-"warten Sie die Fortsetzung des Anmeldevorgangs ab und entfernen Sie danach "
-"alle diese Anwendungen, bevor Sie Ihre Sitzung erneut speichern."
+"Anwendungen, so dass dieses Problem nur in Zusammenhang mit gespeicherten "
+"Sitzungen auftritt. Falls Sie dieses Problem feststellen, warten Sie die "
+"Fortsetzung des Anmeldevorgangs ab und entfernen Sie danach alle diese "
+"Anwendungen, bevor Sie Ihre Sitzung erneut speichern."
 
 #: ../release-notes.xml:141 (title)
 msgid "Looking to GNOME 2.12 and Beyond"
@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "Als Benutzer kann Ihr Beitrag so einfach sein, wie das Erstellen eines guten "
 "Fehlerberichts. Fehlerberichte können in unserem Bugzilla mit dem <ulink url="
-"\"http://bugzilla. gnome.org/simple-bug-guide.cgi\">einfachen "
+"\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">einfachen "
 "Fehlerassistenten</ulink> erstellt werden. Wenn Sie mehr beitragen möchten, "
 "können Sie unserem aktiven Projekt <ulink url=\"http://developer.gnome.org/"
 "projects/bugsquad/\">Bug-Squad</ulink> beitreten."
@@ -299,8 +299,8 @@ msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
 msgstr ""
-"Diese Veröffentlichungsinformationen wurden zusammengetragen von Murray "
-"Cumming, Davyd Madeley und der GNOME-Community."
+"Diese Release Notes wurden zusammengetragen von Murray Cumming, Davyd "
+"Madeley und der GNOME-Community."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -396,10 +396,10 @@ msgid ""
 "Administration control panels, Log Out, and Help."
 msgstr ""
 "Die sichtbarste Änderung ist die Entfernung des Panel-Menüs „Aktionen” und "
-"die Hinzufügung der Menüs „Orte” und „Desktop”. Sie erlauben schnellen "
+"die Hinzufügung der Menüs „Orte” und „System”. Sie erlauben schnellen "
 "Zugriff auf oft verwendete Objekte, ohne dass Sie durch Untermenüs "
 "navigieren müssen. Das Menü „Orte” enthält zum Beispiel Ihren persönlichen "
-"Ordner, Ihren Rechner, Netzwerkserver und eine Suchfunktion. Im Desktop-Menü "
+"Ordner, Ihren Rechner, Netzwerkserver und eine Suchfunktion. Im System-Menü "
 "werden Sie die Einstellungs- und Administrationsoberflächen sowie Einträge "
 "für das Abmelden und die Hilfe finden."
 
@@ -485,9 +485,9 @@ msgid ""
 "imageobject><textobject><phrase>The drive mount applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"GNOME 2.8 erlaubte bereits das einfache Einbinden Ihrer digitalen Medien, "
-"wie CDs, DVDs und USB-Sticks. Jetzt unterstützt Sie das Applet zum Einbinden "
-"von Laufwerken bei der Verwendung dieser Datenträger. Es vermeidet "
+"GNOME 2.8 erlaubte bereits das einfache Einbinden digitaler Medien, wie CDs, "
+"DVDs und USB-Sticks. Jetzt unterstützt Sie das Applet zum Einbinden von "
+"Laufwerken bei der Verwendung dieser Datenträger. Es vermeidet "
 "Schwierigkeiten beim Auffinden der Laufwerkssymbole auf Ihrem Desktop, die "
 "möglicherweise durch geöffnete Fenster verdeckt werden. Das Applet zeigt die "
 "zur Zeit eingebundenen (oder nicht aushängbaren) Datenträger an und erlaubt "
@@ -540,9 +540,9 @@ msgid ""
 msgstr ""
 "Ein neuer Lautstärkeregler für das Panel (kombiniert mit dem geänderten "
 "Lautstärkeregler des Desktops) holt alles aus Ihrer Sound-Hardware heraus. "
-"Durch die Verwendung des GStreamer Multimedia Frameworks ist der "
+"Durch die Verwendung des GStreamer Multimedia-Frameworks ist der "
 "Lautstärkeregler nun einfacher und komfortabler als zuvor. Das gleiche "
-"Multimedia Framework wird von Totem, Sound Juicer, dem GNOME CD-Player und "
+"Multimedia-Framework wird von Totem, Sound Juicer, dem GNOME CD-Player und "
 "verschiedenen Anwendungen, welche nicht in GNOME enthalten sind, verwendet. "
 "Die Änderung der Lautstärke im Panel wirkt sich also auf jede dieser "
 "Anwendungen aus."
@@ -651,14 +651,14 @@ msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
 "insecure. We hope to have a solution integrated with our Evolution mail "
 "client in the future. If you don't use Evolution for your mail, you can use "
-"a third party application such as <link href=\"http://www.nongnu.org/"
-"mailnotify/\">mailnotify</link>."
+"a third party application such as <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
 msgstr ""
 "Die E-Mail-Eingangsüberwachung wurde entfernt, da sie unbetreut und unsicher "
 "war. Wir hoffen, dass wir in Zukunft eine in Evolution integrierte Lösung "
 "bieten können. Sollten Sie eine andere Anwendung zur Verwaltung ihrer E-"
-"Mails bevorzugen, können Sie auf externe Anwendungen, wie z.B. <link href="
-"\"http://www.nongnu.org/mailnotify/\">mailnotify</link>, zurückgreifen."
+"Mails bevorzugen, können Sie auf externe Anwendungen, wie z.B. <ulink href="
+"\"http://www.nongnu.org/mailnotify/\">mailnotify</ulink>, zurückgreifen."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -737,10 +737,11 @@ msgid ""
 msgstr ""
 "GNOME 2.10 beinhaltet jetzt auch den populären Video-Player Totem, der das "
 "GStreamer Multimedia-Framework von GNOME verwendet. Totem stellt eine "
-"intuitive Benutzeroberfläche bereit, die GNOME-Anwender erwarten. Sie "
-"enthält auch eine automatische Hardware-Erkennung statt einer komplizierten "
-"manuellen Konfiguration. <figure id=\"rnscreenshot-totem\"><title>Der Video-"
-"Player</title><screenshot><mediaobject><imageobject><imagedata fileref="
+"intuitive Benutzeroberfläche bereit, wie sie GNOME-Anwender erwarten. Sie "
+"enthält unter anderem eine automatische Hardware-Erkennung statt einer "
+"komplizierten manuellen Konfiguration. <figure id=\"rnscreenshot-totem"
+"\"><title>Der Video-Player</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
 "\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Der Video-Player Totem.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
@@ -784,7 +785,7 @@ msgid ""
 "favicon."
 msgstr ""
 "Die Adressleiste zeigt nun an, ob die Seite sicher ist. Außerdem wird jetzt "
-"auch das FavIcon der Seite angezeigt."
+"auch das Favicon der Seite angezeigt."
 
 #: ../rnapplications.xml:57 (para)
 msgid "Bookmarks can be exported."
@@ -802,7 +803,7 @@ msgid ""
 msgstr ""
 "Der in GNOME enthaltene Web-Browser Epiphany basiert auf Mozilla und ist "
 "voll in die GNOME-Desktopumgebung integriert. Verbesserungen in 2.10 "
-"beinhalten <placeholder-1/>"
+"beinhalten: <placeholder-1/>"
 
 #: ../rnapplications.xml:77 (title)
 msgid "Evolution"
@@ -826,10 +827,10 @@ msgid ""
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
 "will resynchronize when you go back online."
 msgstr ""
-"In GNOME 2.10 ist die Offline-Arbeit mit Ihren E-Mails, Terminen und "
-"Kontakten jetzt leichter, wenn Sie IMAP, LDAP, WebCal, GroupWise oder "
-"Exchange verwenden. Die Änderungen werden synchronisiert, sobald Sie wieder "
-"online sind."
+"In GNOME 2.10 hat sich die Offline-Arbeit mit Ihren E-Mails, Terminen und "
+"Kontakten vereinfacht, wenn Sie IMAP, LDAP, WebCal, GroupWise oder Exchange "
+"einsetzen. Die Änderungen werden synchronisiert, sobald Sie wieder online "
+"sind."
 
 #: ../rnapplications.xml:89 (para)
 msgid "Files can be attached to events."
@@ -911,7 +912,7 @@ msgstr ""
 "Sie können jetzt auch nach Benutzern von GnomeMeeting im lokalen Netzwerk "
 "suchen, ohne zuvor deren Kontakteinzelheiten herausfinden zu müssen. Ebenso "
 "können Sie sich ihre Videoausgabe Seite an Seite mit dem Video ihrer "
-"Gesprächspartner anzeigen lassen, um zu sehen was sie sehen. <figure id="
+"Gesprächspartner anzeigen lassen, um zu sehen, was sie sehen. <figure id="
 "\"rnscreenshot-gnomemeeting\"><title>Die Internet-Telefonie- und "
 "Videokonferenzanwendung</"
 "title><screenshot><mediaobject><imageobject><imagedata fileref="
@@ -951,11 +952,11 @@ msgid ""
 "control panel, while adding a new layout.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
-"Die Auswahl einer Tastaturbelegung in den Tastatureinstellungen ist "
-"einfacher geworden. Sie brauchen nur auf „Hinzufügen” zu klicken, um aus "
-"einer Liste von internationalen Tastaturbelegungen auszuwählen. Bevor Sie "
-"Ihre Auswahl treffen, können Sie sich die Auswirkung von Tastendrücken in "
-"der Belegungsvorschau ansehen. Der Abschnitt „Belegungseinstellungen” wurde "
+"Die Auswahl einer Tastaturbelegung in den Tastatureinstellungen wurde "
+"vereinfacht. Sie brauchen nur auf „Hinzufügen” zu klicken, um aus einer "
+"Liste von internationalen Tastaturbelegungen auszuwählen. Bevor Sie Ihre "
+"Auswahl treffen, können Sie sich die Auswirkung von Tastendrücken in der "
+"Belegungsvorschau ansehen. Der Abschnitt „Belegungseinstellungen” wurde "
 "ebenfalls überarbeitet und enthält jetzt eine einfachere Auswahlliste. "
 "<figure id=\"rnscreenshot-controlpanel-keyboardlayouts"
 "\"><title>Tastatureinstellungen - Belegungen</"
@@ -1008,7 +1009,7 @@ msgid ""
 "Drag and drop with other applications, such as Mozilla and Firefox, now also "
 "works more smoothly."
 msgstr ""
-"„Drag and Drop” mit anderen Anwendungen, wie Mozilla oder Firefox, "
+"Das „Drag and Drop” mit anderen Anwendungen, wie Mozilla oder Firefox, "
 "funktioniert jetzt reibungsloser."
 
 #: ../rndesktop.xml:24 (para)
@@ -1210,239 +1211,154 @@ msgstr "Einem Netzwerkspiel beitreten"
 msgid "Internationalization"
 msgstr "Internationalisierung"
 
+#. Translators: I have only changed language count in here: s/40/33/
 #: ../rni18n.xml:10 (para)
 msgid ""
 "Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/"
 "projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of "
-"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 40 "
+"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
 msgstr ""
 "Dank der Mitglieder des weltweiten <ulink url=\"http://developer.gnome.org/"
 "projects/gtp/\">GNOME Übersetzungsprojekts</ulink> unter der Leitung von "
 "Christian Rose und Kjartan Maraas beinhaltet GNOME 2.10 die Unterstützung "
-"von 40 Sprachen (mindestens 80 Prozent der Zeichenketten übersetzt)."
+"von 33 Sprachen (mindestens 80 Prozent der Zeichenketten übersetzt)."
 
 #: ../rni18n.xml:41 (para)
 msgid "Albanian (5 million speakers)"
 msgstr "Albanisch (5 Millionen Muttersprachler)"
 
 #: ../rni18n.xml:42 (para)
-msgid "Arabic (235 million)"
-msgstr "Arabisch (235 Millionen)"
-
-#: ../rni18n.xml:43 (para)
-msgid "Azerbaijani (28 million)"
-msgstr "Aserbeidschanisch (28 Millionen)"
-
-#: ../rni18n.xml:44 (para)
-msgid "Basque (580,000)"
-msgstr "Baskisch (580.000)"
-
-#: ../rni18n.xml:45 (para)
-msgid "Belarusian (7 million)"
-msgstr "Weißrussisch (7 Millionen)"
-
-#: ../rni18n.xml:46 (para)
-msgid "Bengali (189 million)"
-msgstr "Bengalisch (189 Millionen)"
-
-#: ../rni18n.xml:47 (para)
-msgid "Bosnian (3 million)"
-msgstr "Bosnisch (3 Millionen)"
-
-#: ../rni18n.xml:48 (para)
 msgid "Brazilian Portuguese (175 million)"
 msgstr "Brasilianisches Portugiesisch (175 Millionen)"
 
-#: ../rni18n.xml:49 (para)
+#: ../rni18n.xml:43 (para)
 msgid "Bulgarian (9 million)"
 msgstr "Bulgarisch (9 Millionen)"
 
-#: ../rni18n.xml:50 (para)
+#: ../rni18n.xml:44 (para)
 msgid "Catalan (7 million)"
 msgstr "Katalanisch (7 Millionen)"
 
-#: ../rni18n.xml:51 (para)
+#: ../rni18n.xml:45 (para)
 msgid "Chinese Simplified (over 1 billion)"
 msgstr "Vereinfachtes Chinesisch (über eine Milliarde)"
 
-#: ../rni18n.xml:52 (para)
+#: ../rni18n.xml:46 (para)
 msgid "Chinese Traditional (40 million)"
 msgstr "Traditionelles Chinesisch (40 Millionen)"
 
-#: ../rni18n.xml:53 (para)
-msgid "Croatian (5 million)"
-msgstr "Kroatisch (5 Millionen)"
-
-#: ../rni18n.xml:54 (para)
+#: ../rni18n.xml:47 (para)
 msgid "Czech (11 million)"
 msgstr "Tschechisch (11 Millionen)"
 
-#: ../rni18n.xml:55 (para)
+#: ../rni18n.xml:48 (para)
 msgid "Danish (5.3 million)"
 msgstr "Dänisch (5,3 Millionen)"
 
-#: ../rni18n.xml:56 (para)
+#: ../rni18n.xml:49 (para)
 msgid "Dutch (over 21 million)"
 msgstr "Holländisch (über 21 Millionen)"
 
-#: ../rni18n.xml:57 (para)
+#: ../rni18n.xml:50 (para)
 msgid "English (341 million)"
 msgstr "Englisch (341 Millionen)"
 
-#: ../rni18n.xml:58 (para)
-msgid "Estonian (1 million)"
-msgstr "Estnisch (1 Millionen)"
-
-#: ../rni18n.xml:59 (para)
+#: ../rni18n.xml:51 (para)
 msgid "Finnish (over 5 million)"
 msgstr "Finisch (über 5 Millionen)"
 
-#: ../rni18n.xml:60 (para)
+#: ../rni18n.xml:52 (para)
 msgid "French (over 75 million)"
 msgstr "Französisch (über 75 Millionen)"
 
-#: ../rni18n.xml:61 (para)
+#: ../rni18n.xml:53 (para)
 msgid "German (100 million)"
 msgstr "Deutsch (100 Millionen)"
 
-#: ../rni18n.xml:62 (para)
+#: ../rni18n.xml:54 (para)
 msgid "Greek (15 million)"
 msgstr "Griechisch (15 Millionen)"
 
-#: ../rni18n.xml:63 (para)
+#: ../rni18n.xml:55 (para)
 msgid "Gujarati (46 million)"
 msgstr "Gudscharati (46 Millionen)"
 
-#: ../rni18n.xml:64 (para)
+#: ../rni18n.xml:56 (para)
 msgid "Hindi (370 million)"
 msgstr "Hindi (370 Millionen)"
 
-#: ../rni18n.xml:65 (para)
+#: ../rni18n.xml:57 (para)
 msgid "Hungarian (14.5 million)"
 msgstr "Ungarisch (14,5 Millionen)"
 
-#: ../rni18n.xml:66 (para)
-msgid "Indonesian (25 million)"
-msgstr "Indonesisch (25 Millionen)"
-
-#: ../rni18n.xml:67 (para)
+#: ../rni18n.xml:58 (para)
 msgid "Italian (60 million)"
 msgstr "Italienisch (60 Millionen)"
 
-#: ../rni18n.xml:68 (para)
+#: ../rni18n.xml:59 (para)
 msgid "Japanese (over 125 million)"
 msgstr "Japanisch (über 125 Millionen)"
 
-#: ../rni18n.xml:69 (para)
+#: ../rni18n.xml:60 (para)
 msgid "Korean (75 million)"
 msgstr "Koreanisch (75 Millionen)"
 
-#: ../rni18n.xml:70 (para)
+#: ../rni18n.xml:61 (para)
 msgid "Lithuanian (4 million)"
 msgstr "Litauisch (4 Millionen)"
 
-#: ../rni18n.xml:71 (para)
-msgid "Macedonian (1.5 million)"
-msgstr "Makedonisch (1,5 Millionen)"
-
-#: ../rni18n.xml:72 (para)
-msgid "Malay (over 17 million)"
-msgstr "Malaiisch (über 17 Millionen)"
-
-#: ../rni18n.xml:73 (para)
-msgid "Mongolian (10 million)"
-msgstr "Mongolisch (10 Millionen)"
-
-#: ../rni18n.xml:74 (para)
+#: ../rni18n.xml:62 (para)
 msgid "Norwegian Bookmal (5 million)"
 msgstr "Norwegisch Bokmål (5 Millionen)"
 
-#: ../rni18n.xml:75 (para)
-msgid "Norwegian Nynorsk (2 million)"
-msgstr "Neu-Norwegisch (2 Millionen)"
-
-#: ../rni18n.xml:76 (para)
+#: ../rni18n.xml:63 (para)
 msgid "Panjabi (60 million)"
 msgstr "Pandschabi (60 Millionen)"
 
-#: ../rni18n.xml:77 (para)
+#: ../rni18n.xml:64 (para)
 msgid "Polish (44 million)"
 msgstr "Polnisch (44 Millionen)"
 
-#: ../rni18n.xml:78 (para)
+#: ../rni18n.xml:65 (para)
 msgid "Portuguese (43 million)"
 msgstr "Portugiesisch (43 Millionen)"
 
-#: ../rni18n.xml:79 (para)
-msgid "Romanian (26 million)"
-msgstr "Rumänisch (26 Millionen)"
-
-#: ../rni18n.xml:80 (para)
+#: ../rni18n.xml:66 (para)
 msgid "Russian (170 million)"
 msgstr "Russisch (170 Millionen)"
 
-#: ../rni18n.xml:81 (para)
+#: ../rni18n.xml:67 (para)
 msgid "Serbian (10 million)"
 msgstr "Serbisch (10 Millionen)"
 
-#: ../rni18n.xml:82 (para)
-msgid "Slovak (5 million)"
-msgstr "Slowakisch (5 Millionen)"
-
-#: ../rni18n.xml:83 (para)
+#: ../rni18n.xml:68 (para)
 msgid "Spanish (over 350 million)"
 msgstr "Spanisch (über 350 Millionen)"
 
-#: ../rni18n.xml:84 (para)
+#: ../rni18n.xml:69 (para)
 msgid "Swedish (9 million)"
 msgstr "Schwedisch (9 Millionen)"
 
-#: ../rni18n.xml:85 (para)
+#: ../rni18n.xml:70 (para)
 msgid "Tamil (61 million)"
 msgstr "Tamilisch (61 Millionen)"
 
-#: ../rni18n.xml:86 (para)
+#: ../rni18n.xml:71 (para)
 msgid "Turkish (150 million)"
 msgstr "Türkisch (150 Millionen)"
 
-#: ../rni18n.xml:87 (para)
+#: ../rni18n.xml:72 (para)
 msgid "Ukrainian (50 million)"
 msgstr "Ukrainisch (50 Millionen)"
 
-#: ../rni18n.xml:88 (para)
-msgid "Vietnamese"
-msgstr "Vietnamesisch"
-
-#: ../rni18n.xml:89 (para)
+#: ../rni18n.xml:73 (para)
 msgid "Welsh (575,000)"
 msgstr "Walisisch (575.000)"
 
 #: ../rni18n.xml:36 (para)
 msgid "Supported languages: <placeholder-1/>"
 msgstr "Unterstützte Sprachen: <placeholder-1/>"
-
-#: ../rni18n.xml:93 (para)
-msgid ""
-"Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian Nynorsk, "
-"Panjabi and Tamil are new supported languages in GNOME 2.10, thanks to the "
-"hard work of their translators. Also worthy of mention is that British "
-"English and Canadian English are also supported."
-msgstr ""
-"In GNOME 2.10 ist die Unterstützung der Sprachen Baskisch, Bulgarisch, "
-"Gujarati, Hindi, Ungarisch, Neu-Norwegisch, Pandschabi und Tamil dank der "
-"harten Arbeit ihrer Übersetzer neu hinzugekommen. Auch nennenswert ist die "
-"Unterstützung für britisches und kanadisches Englisch."
-
-#: ../rni18n.xml:98 (para)
-msgid ""
-"Another 9 languages are partially supported, with more than half of their "
-"strings translated. Croatian and Mongolian are particularly close to "
-"\"supported\" status."
-msgstr ""
-"Weitere neun Sprachen werden teilweise unterstützt, da Übersetzungen für "
-"mehr als die Hälfte der Zeichenketten vorhanden sind. Kroatisch und "
-"Mongolisch befinden sich sehr nah am „Unterstützt”-Status."
 
 #: ../rninstallation.xml:9 (title)
 msgid "Installation of GNOME 2.10"
@@ -1456,7 +1372,7 @@ msgid ""
 msgstr ""
 "Für GNOME 2.10 stellen wir eine LiveCD bereit, die über www.gnome.org "
 "verfügbar ist. Die LiveCD erlaubt Ihnen das Ausprobieren des vollständigen "
-"GNOME Desktops auf Linux, ohne dass Sie etwas auf Ihrer Festplatte "
+"GNOME Desktops unter Linux, ohne dass Sie etwas auf Ihrer Festplatte "
 "installieren müssen. Dies ist der beste Weg, um sich die Neuigkeiten erst "
 "einmal anzusehen."
 
@@ -1498,7 +1414,7 @@ msgid ""
 "GTK+ 2.6 has new cell renderers, new buttons, an IconView, and a new about "
 "box."
 msgstr ""
-"GTK+ 2.6 enthält neue Zellen-Renderer, neue Knöpfe, eine Symbolansicht sowie "
+"GTK+ 2.6 enthält neue CellRenderer, neue Knöpfe, eine Symbolansicht sowie "
 "einen neuen Info-Dialog."
 
 #: ../rnplatform.xml:14 (para)
@@ -1665,19 +1581,21 @@ msgstr ""
 
 #: ../rnsysadmin.xml:47 (title)
 msgid "Log Viewer"
-msgstr "Protokollbetrachter"
+msgstr "Systemprotokollbetrachter"
 
 #: ../rnsysadmin.xml:52 (para)
 msgid "Open multiple logs in the separate windows."
-msgstr "Mehrere Protokolle in separaten Fenstern öffnen."
+msgstr "Mehrere Systemprotokolle in separaten Fenstern öffnen."
 
 #: ../rnsysadmin.xml:53 (para)
 msgid "Open archived logs and logs on networked drives."
-msgstr "Archivierte Protokolle und Protokolle auf Netzwerklaufwerken öffnen."
+msgstr ""
+"Archivierte Systemprotokolle und Systemprotokolle auf Netzwerklaufwerken "
+"öffnen."
 
 #: ../rnsysadmin.xml:54 (para)
 msgid "Copy logs to the clipboard."
-msgstr "Protokolle in die Zwischenablage kopieren."
+msgstr "Systemprotokolle in die Zwischenablage kopieren."
 
 #: ../rnsysadmin.xml:49 (para)
 msgid ""
@@ -1689,13 +1607,14 @@ msgid ""
 "imageobject><textobject><phrase>The Log Viewer, during a search.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Dem GNOME-Protokollbetrachter wurde eine handliche Suchfunktion und ein "
-"verbesserter Überwachungsmodus hinzugefügt. Zusätzlich dazu kann er nun "
+"Dem GNOME-Systemprotokollbetrachter wurde eine handliche Suchfunktion und "
+"ein verbesserter Überwachungsmodus hinzugefügt. Zusätzlich dazu kann er nun "
 "<placeholder-1/><figure id=\"rnscreenshot-sysadmin-logviewer\"><title>Der "
-"Protokollbetrachter</title><screenshot><mediaobject><imageobject><imagedata "
-"fileref=\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Der Protokollbetrachter während einer Suche."
-"</phrase></textobject></mediaobject></screenshot></figure>"
+"Systemprotokollbetrachter</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Der Systemprotokollbetrachter während einer "
+"Suche.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnthemes.xml:2 (title)
 msgid "Themes"
@@ -1712,8 +1631,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:41 (None)
-msgid "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+msgid ""
+"@@image: 'figures/figure-file-roller.png'; "
+"md5=229f9191244247839f225df468a9c60c"
+msgstr ""
+"@@image: 'figures/figure-file-roller.png'; "
+"md5=229f9191244247839f225df468a9c60c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1756,7 +1679,7 @@ msgid ""
 "automatically identified."
 msgstr ""
 "Der GNOME-Texteditor kann jetzt die momentane Zeile hervorheben und "
-"zusammenpassende Klammern beim Bearbeiten von Quellkode markieren. Die "
+"zusammenpassende Klammern beim Bearbeiten von Quellcode markieren. Die "
 "Rechtschreibprüfung wurde ebenfalls verbessert. Falsch geschriebene Wörter "
 "werden erst hervorgehoben, wenn Sie die Eingabe beendet haben. Desweiteren "
 "werden viele zusätzliche Sprachen unterstützt und automatisch erkannt."
@@ -1791,7 +1714,7 @@ msgid ""
 "manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller"
 "\"><title>Archive Manager</"
 "title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
+"\"&urlfiguresbase;figure-file-roller.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>The archive manager, asking for a password "
 "for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
@@ -1801,7 +1724,7 @@ msgstr ""
 "jetzt ebenso verhalten. <figure id=\"rnscreenshot-fileroller"
 "\"><title>Archivmanager</"
 "title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
+"\"&urlfiguresbase;figure-file-roller.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Der Archivmanager, nach einem Passwort für "
 "ein RAR-Archiv fragend.</phrase></textobject></mediaobject></screenshot></"
 "figure>"
@@ -1859,6 +1782,79 @@ msgstr ""
 #: ../rnutilities.xml:0 (None)
 msgid "translator-credits"
 msgstr "Frank Arnold <frank@scirocco-5v-turbo.de>, 2005."
+
+#~ msgid "Arabic (235 million)"
+#~ msgstr "Arabisch (235 Millionen)"
+
+#~ msgid "Azerbaijani (28 million)"
+#~ msgstr "Aserbeidschanisch (28 Millionen)"
+
+#~ msgid "Basque (580,000)"
+#~ msgstr "Baskisch (580.000)"
+
+#~ msgid "Belarusian (7 million)"
+#~ msgstr "Weißrussisch (7 Millionen)"
+
+#~ msgid "Bengali (189 million)"
+#~ msgstr "Bengalisch (189 Millionen)"
+
+#~ msgid "Bosnian (3 million)"
+#~ msgstr "Bosnisch (3 Millionen)"
+
+#~ msgid "Croatian (5 million)"
+#~ msgstr "Kroatisch (5 Millionen)"
+
+#~ msgid "Estonian (1 million)"
+#~ msgstr "Estnisch (1 Millionen)"
+
+#~ msgid "Indonesian (25 million)"
+#~ msgstr "Indonesisch (25 Millionen)"
+
+#~ msgid "Macedonian (1.5 million)"
+#~ msgstr "Makedonisch (1,5 Millionen)"
+
+#~ msgid "Malay (over 17 million)"
+#~ msgstr "Malaiisch (über 17 Millionen)"
+
+#~ msgid "Mongolian (10 million)"
+#~ msgstr "Mongolisch (10 Millionen)"
+
+#~ msgid "Norwegian Nynorsk (2 million)"
+#~ msgstr "Neu-Norwegisch (2 Millionen)"
+
+#~ msgid "Romanian (26 million)"
+#~ msgstr "Rumänisch (26 Millionen)"
+
+#~ msgid "Slovak (5 million)"
+#~ msgstr "Slowakisch (5 Millionen)"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamesisch"
+
+#~ msgid ""
+#~ "Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian "
+#~ "Nynorsk, Panjabi and Tamil are new supported languages in GNOME 2.10, "
+#~ "thanks to the hard work of their translators. Also worthy of mention is "
+#~ "that British English and Canadian English are also supported."
+#~ msgstr ""
+#~ "In GNOME 2.10 ist die Unterstützung der Sprachen Baskisch, Bulgarisch, "
+#~ "Gujarati, Hindi, Ungarisch, Neu-Norwegisch, Pandschabi und Tamil dank der "
+#~ "harten Arbeit ihrer Übersetzer neu hinzugekommen. Auch nennenswert ist "
+#~ "die Unterstützung für britisches und kanadisches Englisch."
+
+#~ msgid ""
+#~ "Another 9 languages are partially supported, with more than half of their "
+#~ "strings translated. Croatian and Mongolian are particularly close to "
+#~ "\"supported\" status."
+#~ msgstr ""
+#~ "Weitere neun Sprachen werden teilweise unterstützt, da Übersetzungen für "
+#~ "mehr als die Hälfte der Zeichenketten vorhanden sind. Kroatisch und "
+#~ "Mongolisch befinden sich sehr nah am „Unterstützt”-Status."
+
+#~ msgid ""
+#~ "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgstr ""
+#~ "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
 
 #~ msgid "The new modem control applet"
 #~ msgstr "Das neue Modemkontroll-Applet"
