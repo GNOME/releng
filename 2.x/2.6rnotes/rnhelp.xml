@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnhelp">
+
+    <title>Online Help</title>
+    
+    <para>
+    Thanks to some excellent work from Shaun McCance, the GNOME online help viewer is now much faster than in previous versions,
+    so it is now very responsive and usable.
+   
+    <figure id="rnscreenshot-nautilus-spatial">
+      <title>Simplified file management - the window is the folder</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;helpTODO.png" format="PNG"/>
+            </imageobject>
+            <textobject><phrase>Spatial Nautilus</phrase></textobject>
+          </mediaobject>
+       </screenshot>
+     </figure>
+
+    </para>
+
+</sect2>

@@ -62,6 +62,7 @@
     <xi:include href="rnutilities.xml"/>
     <xi:include href="rna11y.xml"/>
     <xi:include href="rnlockdown.xml"/>
+    <xi:include href="rnhelp.xml"/>
     <xi:include href="rnsvg.xml"/>
     <xi:include href="rnplatform.xml"/>
 </sect1>
