@@ -4,8 +4,8 @@
 <!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.6">
 ]>
-<sect2 id="rnapplets">
-  <title>Applets</title>
+<sect2 id="rnapplications">
+  <title>Applications</title>
 
   <para>The new Network Monitor applet shows whether your connection is active.
   It can also tell you how many megabytes you have uploaded and downloaded.

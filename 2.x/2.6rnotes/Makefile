@@ -2,11 +2,11 @@ DOCBOOK_STYLESHEET ?= toccustom.xsl
 DOCBOOK_STYLESHEER ?= http://docbook.sourceforge.net/release/xsl/current/html/chunk.xsl
 
 
-docbook_sources = release-notes.xml rna11y.xml rnapplets.xml \
+docbook_sources = release-notes.xml rna11y.xml rnapplets.xml rnapplications.xml \
                   rncontrolcenter.xml rndesktop.xml rndocs.xml \
-                  rnutilities.xml rni18n.xml \
+                  rni18n.xml \
                   rninstallation.xml rnplatform.xml rnstandards.xml \
-                  rnthanks.xml rnthemes.xml rntoc.xml rnwhy.xml rnwm.xml
+                  rnthanks.xml rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml rnwm.xml
 
 html: html/index.html
 
