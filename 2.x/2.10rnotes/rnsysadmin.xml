@@ -53,6 +53,7 @@
       <listitem><para>Open archived logs and logs on networked drives.</para></listitem>
       <listitem><para>Copy logs to the clipboard.</para></listitem>
     </itemizedlist>
+    </para>
 
     <figure id="rnscreenshot-sysadmin-logviewer">
       <title>The Log Viewer</title>
@@ -64,7 +65,7 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
+
     </sect3>
 
  

@@ -22,6 +22,7 @@
   <title>Integrated Modem Control</title>
   <para>
    GNOME &version; introduces a new applet for controlling your Modem, integrated with GNOME System Tools.
+  </para>
 
    <figure id="rnscreenshot-applet-modem">
     <title>The new modem control applet</title>
@@ -34,7 +35,6 @@
     </screenshot>
   </figure>
    
-  </para>
   </sect3>
 
   <sect3 id="rnapplets-trash">
@@ -44,6 +44,7 @@
    GNOME &version; features an optional trashcan for your Panel.
    Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash
    without minimising your open windows.
+  </para>
 
   <figure id="rnscreenshot-applet-trash">
     <title>a Trashcan on your Panel</title>
@@ -55,7 +56,7 @@
       </mediaobject>
     </screenshot>
   </figure>
-  </para>
+
   </sect3>
 
   <sect3 id="rnapplets-drivemount">
@@ -66,6 +67,7 @@
    Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind 
    your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing 
    you to mount them, eject them, or open them in the file manager.
+  </para>
    
    <figure id="rnscreenshot-applet-drivemount">
     <title>Drive Mount</title>
@@ -78,7 +80,6 @@
     </screenshot>
   </figure>
   
-  </para>
   </sect3>
 
   <sect3 id="rnapplets-gweather">
@@ -87,6 +88,7 @@
    The weather monitor can now show even more locations then before, and the 
    location names have been translated into non-english languages where appropriate.
    In addition, the forecast now includes sunrise and sunset calculations for most locations.
+  </para>
 
    <figure id="rnscreenshot-applet-weather">
     <title>Weather Report</title>
@@ -99,7 +101,6 @@
     </screenshot>
   </figure>
    
-  </para>
   </sect3>
 
   <sect3 id="rnapplets-mixer">
@@ -151,6 +152,8 @@
    Frequency Monitor watches variable-speed processors (such as those with 
    Intel Speedstep or AMD PowerNow) to show their current status. You may even choose 
    a different speed if you don't have automatic frequency scaling enabled.
+  </para>
+
    <figure id="rnscreenshot-applet-cpufreq">
     <title>Monitor CPU Frequency Scaling</title>
       <screenshot>
@@ -161,7 +164,7 @@
       </mediaobject>
     </screenshot>
   </figure>
-  </para>
+
   </sect3>
 
   <sect3 id="rnapplet-removed">

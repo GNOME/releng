@@ -1,3 +1,10 @@
+2005-03-06  Christian Rose  <menthos@menthos.com>
+
+	* release-notes.xml, rnapplets.xml, rnapplications.xml,
+	rncontrolcenter.xml, rnsysadmin.xml, rnutilities.xml: Moved
+	<figure>'s out of the <para>'s so that translation doesn't
+	suffer from irrelevant markup.
+
 2005-03-06  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Comment unused paragraphs out.

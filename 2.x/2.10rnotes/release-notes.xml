@@ -17,7 +17,6 @@
 
     <abstract>
       <title>Introduction</title>
-      <para>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-desktop.png" format="PNG"/>
@@ -25,6 +24,7 @@
         <textobject><phrase>The GNOME Desktop</phrase></textobject>
       </mediaobject>
     </screenshot>
+      <para>
 The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
 
       <para>The GNOME desktop releases continue to arrive on schedule. GNOME &version; includes a number of interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections.</para>

@@ -15,6 +15,7 @@
     <para>The GNOME text editor can now highlight the current line and when editing program source code, it highlights matching braces. Spell checking is improved too. It now only highlights mispelled words when you have actually finished typing the word, and many extra languages are supported and automatically identified.</para>
 
    <para>Many people will be glad to see that it no longer suggests saving changes when all changes have actually been undone. And in addition it even starts faster than previous versions.
+    </para>
 
     <figure id="rnscreenshot-gedit">
     <title>Text Editor</title>
@@ -25,7 +26,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
 
   </sect3>
 
@@ -33,6 +33,7 @@
     <title>Archive Manager</title>
 
     <para>The GNOME archive manager can now open more types of archive, including AR, Debian, and 7-zip archives, and password-protected RAR archives. And if you use the single-click preference in the file manager, then the archive manager will now use single clicks too.
+    </para>
 
     <figure id="rnscreenshot-fileroller">
     <title>Archive Manager</title>
@@ -43,7 +44,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
 
   </sect3>
 
@@ -52,6 +52,7 @@
     <title>Dictionary</title>
 
     <para>The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can be printed.
+    </para>
 
     <figure id="rnscreenshot-dictionary">
     <title>Dictionary</title>
@@ -62,7 +63,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
 
   </sect3>
 
@@ -70,6 +70,7 @@
     <title>Floppy Formatter</title>
 
     <para>The GNOME Floppy Formatter utility now supports removable drives, such as USB drives, using the standard HAL system from freedesktop.org.
+    </para>
 
     <figure id="rnscreenshot-floppy">
     <title>Floppy Formatter</title>
@@ -80,7 +81,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
 
   </sect3>
 

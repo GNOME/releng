@@ -12,6 +12,7 @@
    
    <para>
    GNOME &version; now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration.
+   </para>    
  
    <figure id="rnscreenshot-totem">
       <title>The video player</title>
@@ -23,8 +24,6 @@
       </screenshot>
     </figure>
 
-   </para>    
-
   </sect3>
 
   <sect3 id="rnsoundjuicer">
@@ -32,6 +31,7 @@
    
    <para>
    The much-loved Sound Juicer "CD ripper" easily extracts audio from CDs for later playback on your PC or portable music player. Thanks to automatic downloading of song titles, you won't need to click more than a couple of buttons.
+   </para>    
    
    <figure id="rnscreenshot-soundjuicer">
       <title>The audio extractor</title>
@@ -42,8 +42,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-
-   </para>    
 
   </sect3>
 
@@ -132,19 +130,18 @@
     In GNOME &version; the address book is now shared with our Evolution email client, so you don't need to enter 
     contact information in more than one place.
     </para>
-    <para>Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see.
+    <para>Now you can even browse for other GnomeMeeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see.
+    </para>
 
     <figure id="rnscreenshot-gnomemeeting">
       <title>The internet telephony and video conferencing client</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-meeting.png" format="PNG"/></imageobject>
-          <textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject>
+          <textobject><phrase>GnomeMeeting with side-by-side video.</phrase></textobject>
         </mediaobject>
       </screenshot>
     </figure>
-
-    </para>
 
   </sect3>
 
