@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.2.0">
+<!ENTITY rngnomeutils SYSTEM "rngnomeutilities.xml">
+<!ENTITY rnfileroller SYSTEM "rnfileroller.xml">
+<!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
+<!ENTITY rngnomeapplets SYSTEM "rngnomeapplets.xml">
+
+]>
+<article>
+  <articleinfo>
+    <title>GNOME &version; Release Notes</title>
+  </articleinfo>
+  <sect1 id="rnintroduction">
+    <title>Introduction</title>
+    <para>The GNOME &version; Desktop and Platform release is the latest version
+    of the popular, multi-platform and free desktop environment.</para>
+    <para>GNOME is supported on a variety of platforms, including GNU/Linux
+    (more commonly referred to as Linux), Solaris (tm) Operating Environment,
+    HP-UX, BSD and Apple's Darwin. The user interface boasts powerful features
+    such as high-quality smooth text rendering and first class
+    internationalization and accessibility support, including support for
+    bi-directional text.</para>
+    <para>GNOME &version; builds on the excellent GNOME 2.0.x releases, featuring
+    enhanced font rendering using font-config and Xft technology, improved
+    usability and theme support and a host of new utilities and
+    applications. GNOME &version; also brings the first appearance of a new
+    multimedia framework, called GStreamer, into the desktop.</para>
+    <para>GNOME is part of the GNU Project, and is free software.</para>
+  </sect1>
+
+  <sect1 id="rnwhatsnew">
+    <title>What's New In GNOME &version;</title>
+    <para>Building on the excellent groundwork in the GNOME 2.0.x releases, the
+    last 6 months have allowed us to improve usability, performance and
+    accessibility support. Many new features have been added, along with new
+    applications making the GNOME 2.2.0 a very feature rich desktop.</para>
+
+    <para>The developer platform has had a chance to mature since GNOME 2.0.x,
+      with the result that several new applications are now starting to use our
+      powerful new developer framework. We would encourage new and existing
+      developers to use the GNOME 2.2 platform, to take advantage of many of the
+      features our libraries have to offer.</para>
+    <para>[insert stuff from other people here]</para>
+    <para>[Comment: I really think that we should ditch the rest of the content
+          that is available in the 2.0 release notes, and add a link
+	  somewhere in the text - I guess at 'excellent groundwork in
+	  the GNOME 2.0.x releases' as above]</para>
+    <para>/* NOTE: This section needs lots of HARD CORE PIMP ACTION 
+ */</para>
+  </sect1>
+  &rngnomeutils;
+  &rnfileroller;
+  &rnmultimediakeys;
+  &rngnomeapplets;
+  <sect1 id="rninstallation">
+    <title>Installation of  the GNOME &version; Developer Platform and
+    Desktop</title>
+<!--
+   /* NOTE: Do we need to list the full list of stuff to build on each
+ * platform? This seems overly complicated to me. If we do wish to
+ * go with this, then Redhat just requires installing libfam-devel, 
+ * libbbz2-devel - updating pkg-config and away you. I have absolutely
+ * no clue if anything special is needed for Solaris - I think a simple 
+ * 'Please refer to GNOME 2.0.x release notes' is sufficient in this case.
+ * Debian is pretty much as below. Mandrake, I'm waiting for Fred to 
+ * fill me in.
+ */
+-->
+    <sect2 id="rndeps">
+      <title>External Dependencies</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+	    <para>pkg-config, available at <ulink
+		url="http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.14.0.tar.gz">http://www.freedesktop.org/software/pkgconfig/releases/pkgconfig-0.14.0.tar.gz</ulink></para>
+	  </listitem>
+	  <listitem>
+	    <para>Xft/font-config, available at <ulink
+	    url="http://nexp.cs.pdx.edu/fontconfig/release/fcpackage.2_1.tar.gz">http://nexp.cs.pdx.edu/fontconfig/release/fcpackage.2_1.tar.gz</ulink></para>
+	    <para>From the fcpackage distribution, you will need to seperately
+	    build Xft and font-config. Needs a nice new version of XFree86 too
+	    [I don't know the details here.]</para>
+	  </listitem>
+	  <listitem>
+	    <para>python2.2</para>
+	  </listitem>
+	  <listitem>
+	    <para>python2.2-xml</para>
+	  </listitem>
+	  <listitem>
+	    <para>docbook-xml [docbook dtd 4.1.2]</para>
+	  </listitem>
+	  <listitem>
+	    <para>docbook-xsl [docbook xsl stylesheets]</para>
+	  </listitem>
+	</itemizedlist>
+	
+      </para>
+    </sect2>
+    <sect2 id="rndevlibdeps">
+      <title>Development Library dependencies</title>
+      <itemizedlist>
+	<listitem>
+	 <para>
+	    libpng
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    libjpeg
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    libtiff
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    XFree86
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    libpopt
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    libbbz2
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    zlib
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    libfam
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2 id="rninstallationorder">
+      <title>GNOME &version; Installation Order</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+<para>
+libxml
+</para>
+</listitem>
+<listitem>
+<para>
+libxslt
+</para>
+</listitem>
+<listitem>
+<para>
+gtk-doc
+</para>
+</listitem>
+<listitem>
+<para>
+glib
+</para>
+</listitem>
+<listitem>
+<para>
+linc
+</para>
+</listitem>
+<listitem>
+<para>
+libIDL
+</para>
+</listitem>
+<listitem>
+<para>
+ORBit2
+</para>
+</listitem>
+<listitem>
+<para>
+intltool
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-common
+</para>
+</listitem>
+<listitem>
+<para>
+bonobo-activation
+</para>
+</listitem>
+<listitem>
+<para>
+libbonobo
+</para>
+</listitem>
+<listitem>
+<para>
+pango
+</para>
+</listitem>
+<listitem>
+<para>
+atk
+</para>
+</listitem>
+<listitem>
+<para>
+gtk+
+</para>
+</listitem>
+<listitem>
+<para>
+gconf
+</para>
+</listitem>
+<listitem>
+<para>
+gconf-editor
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-mime-data
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-vfs
+</para>
+</listitem>
+<listitem>
+<para>
+audiofile
+</para>
+</listitem>
+<listitem>
+<para>
+esound
+</para>
+</listitem>
+<listitem>
+<para>
+libgnome
+</para>
+</listitem>
+<listitem>
+<para>
+libart_lgpl
+</para>
+</listitem>
+<listitem>
+<para>
+libglade
+</para>
+</listitem>
+<listitem>
+<para>
+libgnomecanvas
+</para>
+</listitem>
+<listitem>
+<para>
+libbonoboui
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-icon-theme
+</para>
+</listitem>
+<listitem>
+<para>
+libgnomeui
+</para>
+</listitem>
+<listitem>
+<para>
+libwnck
+</para>
+</listitem>
+<listitem>
+<para>
+startup-notification
+</para>
+</listitem>
+<listitem>
+<para>
+gtk-engines
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-themes
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-desktop
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-panel
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-session
+</para>
+</listitem>
+<listitem>
+<para>
+vte
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-terminal
+</para>
+</listitem>
+<listitem>
+<para>
+scrollkeeper
+</para>
+</listitem>
+<listitem>
+<para>
+libgtop
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-system-monitor
+</para>
+</listitem>
+<listitem>
+<para>
+gail
+</para>
+</listitem>
+<listitem>
+<para>
+at-spi
+</para>
+</listitem>
+<listitem>
+<para>
+libgail-gnome
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-applets
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-utils
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-games
+</para>
+</listitem>
+<listitem>
+<para>
+metacity
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-control-center
+</para>
+</listitem>
+<listitem>
+<para>
+librsvg
+</para>
+</listitem>
+<listitem>
+<para>
+gdm2
+</para>
+</listitem>
+<listitem>
+<para>
+eel
+</para>
+</listitem>
+<listitem>
+<para>
+nautilus
+</para>
+</listitem>
+<listitem>
+<para>
+gtkhtml2
+</para>
+</listitem>
+<listitem>
+<para>
+yelp
+</para>
+</listitem>
+<listitem>
+<para>
+bug-buddy
+</para>
+</listitem>
+<listitem>
+<para>
+libgnomeprint
+</para>
+</listitem>
+<listitem>
+<para>
+libgnomeprintui
+</para>
+</listitem>
+<listitem>
+<para>
+gedit
+</para>
+</listitem>
+<listitem>
+<para>
+eog
+</para>
+</listitem>
+<listitem>
+<para>
+acme
+</para>
+</listitem>
+<listitem>
+<para>
+ggv
+</para>
+</listitem>
+<listitem>
+<para>
+file-roller
+</para>
+</listitem>
+<listitem>
+<para>
+gstreamer
+</para>
+</listitem>
+<listitem>
+<para>
+gst-plugins
+</para>
+</listitem>
+<listitem>
+<para>
+nautilus-media
+</para>
+</listitem>
+<listitem>
+<para>
+gnome2-user-docs
+</para>
+</listitem>
+	</itemizedlist>
+      </para>
+    </sect2>
+
+    <sect2 id="rngarnome">
+      <title>Garnome</title>
+      <para>If you do not wish to go through the proccess of manually building
+      each module yourself,  then you might consider using GARNOME, a GNOME
+      distribution based on the GAR ports system. GARNOME automatically
+      downloads the tarballs from a specified location and builds them for
+      you. To find out more information visit the GARNOME web page.</para>
+    </sect2>
+  </sect1>
+
+
+  <sect1 id="themes">
+    <title>Themes</title>
+    <para>NOTE: I think we a) either dump this section and move it into the 
+      'What's new' section above' or b) mention the new theme selector
+      in the 'What's new' section and leave this section for explaining the
+      great work that Jonathan and Seth and Jody have done. I'm thinking perhaps
+    b) might be quite nice, with references to http://art.gnome.org.
+ </para>
+  </sect1>
+
+<!--
+Glynn - I disagree with including this, but we can talk over the weekend.
+- John
+
+Looking ahead to GNOME 2.4 and beyond -
+=======================================
+We are already looking ahead to our next big release of the GNOME 
+Desktop and Developer Platform. 
+
+Over the last couple of months, there has been a huge amount of 
+activity at the application level. GNOME 2.4 will start to merge many
+of these newly developed and ported applications together. Expect to
+see a release of Evolution, Ximian's powerful Mail, Address and Calendar
+client and Galeon, the popular web browser, for the GNOME 2 
+desktop later this year. These are just two applications from a list of 
+many applications that we hope to see releases from next year. You
+can find many of these applications at the 5th Toe website - http://5toe.lyrical.net/.
+
+GNOME 2.4 will be more tightly integrated than ever before, making
+it a real competitor at the enterprise level, bringing a full suite of 
+productivity applications, utilities and accessories resulting in a 
+comprehensive and intuitive desktop user environment.
+
+Further on down the line, we hope that GNOME 2.6 will 
+feature the next release of Gtk+, the GIMP Toolkit, introducing
+a new file selector widgets, combination widget, powerful menu 
+and toolbar widgets based on XML and further advances in 
+accessibility, usability and internationalization.
+-->
+
+  <sect1 id="rngettinginvolved">
+    <title>Getting Involved</title>
+    <para>
+      The core of GNOME's success is its many volunteers, both users and 
+      developers.
+    </para>
+    <para>
+      As a user, your contribution can be as simple as filing good bug reports 
+      against the GNOME Desktop and Developer Platform. You can file bugs
+      in our Bugzilla using the simple bug assistant. If you feel that you would like
+      to contribute more, then perhaps think about joining our active bug squad.
+    </para>
+    <para>
+      From a developer aspect, there is much exciting progress to be made in any
+      of our active developer groups - Accessibility, Documentation, Usability,
+      Translation, Web, Testing, Graphics and Destkop &amp; Platform Development.
+      Choosing a role that suits you may be difficult at first, but here is a guide
+      to help you make your decision [link to joining-gnome].
+    </para>
+    <para>
+      Helping on GNOME can be an incredibly satisfying experience, allowing you
+      to meet a wide culture of motivated people all working towards a unified goal.
+      Join us today and see what a difference you can make.
+    </para>
+  </sect1>
+</article>

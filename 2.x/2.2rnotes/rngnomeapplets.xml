@@ -1,0 +1,9 @@
+<sect1 id="rngnomeapplets">
+    <title>GNOME Applets</title>
+    <para>
+      Support has been added for icon theming and for the multi-head changes 
+      that have occurred in the panel. Along with bugfixes, a new Wireless 
+      Link Monitor applet has been added. This applet allows you to monitor 
+      the strength of your wireless connection.
+    </para>
+</sect1>

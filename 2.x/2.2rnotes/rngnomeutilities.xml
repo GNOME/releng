@@ -1,0 +1,19 @@
+<sect1 id="rngnomeutilities">
+    <title>GNOME Utilities</title>
+
+    <para>The Character Map now has unicode support allowing you to select a
+full range of characters in a wide range of fonts. Users may be interested in
+the Unicode Character Map [gucharmap] that should be released in the Fifth Toe,
+later this year.</para>
+
+    <para>The Search for Files dialog has undergone several changes that add to
+the overall usability and feel of the utility. It now allows you to drag and
+drop files from the search results pane. With the addition of adding icon theme
+and handling the file manager MIME types, this utility is very much more
+integrated with the desktop.</para>
+
+    <para>We have brought back 'gdialog', the Gtk/GNOME version of the dialog
+utility. This utility is useful for using with scripts, in particular Nautilus
+scripts. Users may be interested in Zenity, a basic rewrite of 'gdialog', that
+should be released in the Fifth Toe, later this year.</para>
+  </sect1>
