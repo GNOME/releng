@@ -1,3 +1,8 @@
+2001-02-15  Ian Peters  <itp@ximian.com>
+
+	* gnome-extra-1.4beta1-versions, package-list-extras: updated pan,
+	added Lokkit and gnorpm
+
 2001-02-15  Maciej Stachowiak  <mjs@eazel.com>
 
 	* gnome-1.4beta1-versions: updated gnome-guile, gnome-libs, oaf,

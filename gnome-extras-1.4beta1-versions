@@ -23,7 +23,7 @@ GnomeICU        0.95.5
 gabber          0.8.2pre1                 
 galeon          0.9.0
 gtm                
-Pan                
+Pan             0.9.3
 Balsa              
 Firestarter     0.6.0 
 
@@ -48,3 +48,5 @@ Merlin's
   Applet           
 googlizer           
 
+gnorpm          0.96
+gnome lokkit    0.43

@@ -28,7 +28,7 @@ GnomeICU           0.95.5      no            no         yes       no          Je
 gabber             0.8.2       no            no         yes       yes         Julian Missig <julian@jabber.org>
 galeon             0.9pre3     yes           no         yes       yes         Marco Pesenti Gritti <mpeseng@tin.it>
 gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.point>
-Pan                0.9.2                                                      pan@superpimp.org
+Pan                0.9.3       no            no         yes       no          pan@superpimp.org
 Balsa              1.0.0                                                      Jay Painter <jpaint@balsa.net>
 Firestarter        0.5.1       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
 
@@ -52,3 +52,6 @@ Merlin's
   CPU Fire 
   Applet           0.1.0                                                      Merlin Hughes <merlin@merlin.org>
 googlizer          ?                                                          Alan Cox <Alan.Cox@linux.org>
+
+gnorpm             0.96        no            no         yes       no          Alan Cox <alan@redhat.com>
+gnome lokkit       0.43        no            no         yes       no          Alan Cox <alan@redhat.com>
