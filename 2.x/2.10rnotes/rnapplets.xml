@@ -179,9 +179,8 @@
    The Mailbox Monitor has been removed because it was unmaintained and
    insecure. We hope to have a solution integrated with our Evolution mail client in the
    future. If you don't use Evolution for your mail, you can use a third party
-   application such as <link
-   href="http://www.nongnu.org/mailnotify/">mailnotify</link>.
-   <!-- FIXME: Link is Wrong -->
+   application such as <ulink
+   url="http://www.nongnu.org/mailnotify/">mailnotify</ulink>.
   </para>
   </sect3>
 

@@ -1,3 +1,8 @@
+2005-03-06  Murray Cumming  <murrayc@murrayc.com>
+
+	* rnapplets.xml: Fix link to mailnotify - we should use ulink url 
+	instead of link href.
+
 2005-03-06  Simos Xenitellis  <simos@gnome.org>
 
 	* README_screenshots.txt: Added links to flash animation tutorial.
