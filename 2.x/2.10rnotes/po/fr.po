@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome 2.10 release notes\n"
-"PO-Revision-Date: 2005-03-07 08:14+0100\n"
+"PO-Revision-Date: 2005-03-07 09:53+0100\n"
 "Last-Translator: Vincent Untz <vincent@vuntz.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr ""
 "simple-bug-guide.cgi\">guide de rapport simplifié</ulink>. Vous serez alors "
 "guidé à travers les différentes étapes afin de fournir un bon rapport de "
 "bug, qui sera cassé correctement. Si vous êtes un utilisateur avançé qui ne "
-"supporte pas tout ce qui contient le mot « simplifié », vous pouvez aussi "
+"se contente pas de ce que recouvre le mot « simplifié », vous pouvez aussi "
 "utiliser le <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi"
 "\">formulaire traditionnel</ulink> pour rapporter un bug. Plus "
 "d'informations à propos des bugs déjà rapportés est disponible dans notre "
@@ -401,7 +401,7 @@ msgid ""
 msgstr ""
 "Le changement le plus visible est la suppression du menu « Actions » du "
 "tableau de bord et l'ajout de « Raccourcis » et « Bureau ». ils fournissent "
-"un accés rapide aux éléments que vous utilisez le plus, sans avoir à "
+"un accès rapide aux éléments que vous utilisez le plus, sans avoir à "
 "explorer des sous-menus. Par exemple, le menu « Raccourcis » liste votre "
 "dossier personnel, votre poste de travail, les serveurs réseaux, et la "
 "fonction de recherche. Dans le menu « Bureau », vous trouverez vos panneaux "
@@ -435,8 +435,8 @@ msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
 "with GNOME System Tools."
 msgstr ""
-"GNOME 2.10 introduit une nouvelle applet pour contrôller votre modem, "
-"intégrée dans les outils sytèmes GNOME."
+"GNOME 2.10 introduit une nouvelle applet pour contrôler votre modem, "
+"intégrée dans les outils système GNOME."
 
 #: ../rnapplets.xml:28 (title) ../rnapplets.xml:33 (phrase)
 msgid "The new modem control applet"
@@ -479,7 +479,7 @@ msgid ""
 msgstr ""
 "GNOME 2.8 vous permettait de monter facilement vos supports numériques, tels "
 "que les CD, les DVD et les clés USB. Désormais l'applet de montage de volume "
-"vous aide à utiliser ces volumes sans avoir a retrouver leur icones sur le "
+"vous aide à utiliser ces volumes sans avoir à retrouver leur icônes sur le "
 "bureau, derrière les fenêtres. L'applet affiche les volumes actuellement "
 "montés (ou non-démontable), vous permettant de les monter, les éjecter, ou "
 "les ouvrir dans le gestionnaire de fichiers."
@@ -531,8 +531,8 @@ msgid ""
 msgstr ""
 "Avec un nouveau mixer pour votre tableau de bord (combiné au nouveau look du "
 "mixer pour le bureau) tirez le meilleur de votre carte son. En utilisant le "
-"framework multimédia GStreamer, le mixer est maintenant plus simple et plus "
-"pratique. Le même framework anime Totem, Sound-Juicer, le lecteur de CD "
+"moteur multimédia GStreamer, le mixer est maintenant plus simple et plus "
+"pratique. Le même moteur anime Totem, Sound-Juicer, le lecteur de CD "
 "GNOME et une variété d'autres applications, ainsi en changeant le volume "
 "GNOME à travers le tableau de bord changera les volume de toutes ces "
 "applications."
@@ -556,7 +556,7 @@ msgid ""
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
 msgstr ""
-"La populaire applet de pense-bêtes facilite l'ajout de notes du genre Post-"
+"La populaire applet de pense-bête facilite l'ajout de notes du genre Post-"
 "It sur votre bureau, grâce à une interface plus simple pour l'utilisateur et "
 "une importante correction de bogues. Par exemple, les pense-bêtes restent "
 "désormais sur l'espace de travail correct, même sur un moniteur différent."
@@ -572,7 +572,7 @@ msgstr ""
 
 #: ../rnapplets.xml:138 (title) ../rnapplets.xml:143 (phrase)
 msgid "Sticky Notes"
-msgstr "Pense-bêtes"
+msgstr "Pense-bête"
 
 #: ../rnapplets.xml:149 (title)
 msgid "Specially for laptops"
@@ -605,8 +605,8 @@ msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
 msgstr ""
-"Trois applets ont été supprimées dans GNOME 2.10, remplacées par une "
-"meilleur alternatives, la plupart du temps."
+"Trois applets ont été supprimées dans GNOME 2.10, remplacées la plupart du temps par de "
+"meilleures alternatives."
 
 #: ../rnapplets.xml:175 (para)
 msgid ""
@@ -626,8 +626,8 @@ msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
 msgstr ""
-"L'applet spécifique sans-fil a été supprimé en faveur de l'applet Moniteur "
-"réseau, introduit dans GNOME 2.8, qui inclus le support sans-fil."
+"L'applet spécifique sans-fil a été supprimée en faveur de l'applet Moniteur "
+"réseau, introduit dans GNOME 2.8, qui inclus le support du sans-fil."
 
 #: ../rnapplets.xml:181 (para)
 msgid ""
@@ -637,11 +637,11 @@ msgid ""
 "a third party application such as <ulink url=\"http://www.nongnu.org/"
 "mailnotify/\">mailnotify</ulink>."
 msgstr ""
-"Le moniteur de boîte de messagerie a été supprimée car elle n'était plus "
-"maintenue et totalement non-sûre. Nous espérons fournir une version intégrée "
-"avec le client de messagerie Evolution dans un future proche; Si vous "
+"Le moniteur de boîte de messagerie a été supprimé car il n'était plus "
+"maintenu et totalement non-sûr. Nous espérons fournir une version intégrée "
+"avec le client de messagerie Evolution dans un future proche ; Si vous "
 "n'utilisez pas Evolution pour votre messagerie, vous pouvez utiliser une "
-"application tiers comme <ulink url=\"http://www.nongnu.org/mailnotify/"
+"application tierce comme <ulink url=\"http://www.nongnu.org/mailnotify/"
 "\">mailnotify</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -760,23 +760,23 @@ msgstr "Navigateur web"
 
 #: ../rnapplications.xml:53 (para)
 msgid "An improved fullscreen mode."
-msgstr "Un mode plein écran amélioré."
+msgstr "un mode plein écran amélioré ;"
 
 #: ../rnapplications.xml:54 (para)
 msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
 msgstr ""
-"La barre d'emplacement indique maintenant si le site est sécurisé et affiche "
-"son icône favorite."
+"la barre d'emplacement indique maintenant si le site est sécurisé et affiche "
+"son icône favorite ;"
 
 #: ../rnapplications.xml:55 (para)
 msgid "Bookmarks can be exported."
-msgstr "La possibilité d'exporter les signets."
+msgstr "la possibilité d'exporter les signets ;"
 
 #: ../rnapplications.xml:56 (para)
 msgid "An extension manager for extra features."
-msgstr "Un gestionnaire d'extensions pour les fonctionnalités additionnelles."
+msgstr "un gestionnaire d'extensions pour les fonctionnalités additionnelles."
 
 #: ../rnapplications.xml:51 (para)
 msgid ""
@@ -786,7 +786,7 @@ msgid ""
 msgstr ""
 "Epiphany, le navigateur de GNOME bâti à partir de Mozilla s'intègre "
 "pleinement avec l'environnement de bureau GNOME. Les améliorations de la "
-"version 2.10 comprennent  <placeholder-1/>"
+"version 2.10 comprennent : <placeholder-1/>"
 
 #: ../rnapplications.xml:61 (title)
 msgid "The web browser"
@@ -826,16 +826,16 @@ msgstr ""
 
 #: ../rnapplications.xml:85 (para)
 msgid "Files can be attached to events."
-msgstr "Des fichiers peuvent être attachés à des événements."
+msgstr "des fichiers peuvent être attachés à des événements ;"
 
 #: ../rnapplications.xml:86 (para)
 msgid "Exceptions can be made in recurring events."
-msgstr "Des exceptions peuvent être faites dans vos événements récurrents."
+msgstr "des exceptions peuvent être faites dans vos événements récurrents ;"
 
 #: ../rnapplications.xml:87 (para)
 msgid "The calendar includes weather information (US only)."
 msgstr ""
-"Le calendrier inclut des informations sur la météo (États-unis seulement)."
+"le calendrier inclut des informations sur la météo (États-unis seulement)."
 
 #: ../rnapplications.xml:83 (para)
 msgid ""
@@ -855,21 +855,21 @@ msgstr "Le client de calendrier d'Evolution."
 #: ../rnapplications.xml:103 (para)
 msgid "Groupwise shared folders and send options are now supported."
 msgstr ""
-"Les dossiers partagés Groupwise et l'envoi d'options sont maintenant "
-"supportés."
+"les dossiers partagés Groupwise et l'envoi d'options sont maintenant "
+"supportés ;"
 
 #: ../rnapplications.xml:104 (para)
 msgid "Exchange folder sizes and password expiry warnings are supported."
 msgstr ""
-"Les avertissements sur la taille des dossiers et l'expiration des mots de "
-"passe Exchange sont maintenant supportés."
+"les avertissements sur la taille des dossiers et l'expiration des mots de "
+"passe Exchange sont maintenant supportés ;"
 
 #: ../rnapplications.xml:105 (para)
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
 msgstr ""
-"L'interface utilisateur du client de courrier électronique sera correctement "
+"l'interface utilisateur du client de courrier électronique sera correctement "
 "inversée pour les langages qui écrivent de droite à gauche."
 
 #: ../rnapplications.xml:101 (para)
@@ -1016,20 +1016,20 @@ msgstr ""
 #: ../rndesktop.xml:24 (para)
 msgid "The path button is now more obviously a button."
 msgstr ""
-"Le bouton d'arborescence est affiché clairement comme un bouton maintenant."
+"le bouton d'arborescence est affiché clairement comme un bouton maintenant ;"
 
 #: ../rndesktop.xml:25 (para)
 msgid "When creating new files, renaming starts automatically."
 msgstr ""
-"L'édition du nom des nouveaux fichiers se fait automatiquement lors de leur "
-"création."
+"l'édition du nom des nouveaux fichiers se fait automatiquement lors de leur "
+"création ;"
 
 #: ../rndesktop.xml:26 (para)
 msgid ""
 "When using keyboard navigation to open the parent folder (Alt-Up), the "
 "current folder will be selected."
 msgstr ""
-"Lorsque vous utilisez la navigation au clavier pour ouvrir le dossier parent "
+"lorsque vous utilisez la navigation au clavier pour ouvrir le dossier parent "
 "(Alt-Haut), le dossier courant sera sélectionné."
 
 #: ../rndesktop.xml:22 (para)
@@ -1038,7 +1038,7 @@ msgid ""
 "to detail. For instance, <placeholder-1/>"
 msgstr ""
 "Il y a également de nombreux petits changements qui montrent l'importance "
-"que GNOME apporte aux détails. Par exemple, <placeholder-1/>"
+"que GNOME apporte aux détails. Par exemple : <placeholder-1/>"
 
 #: ../rndesktop.xml:31 (title)
 msgid "clean-cut and powerful, the Nautilus file manager"
@@ -1132,7 +1132,7 @@ msgstr ""
 "Apprenez à utiliser GNOME avec le manuel d'utilisateur. Le manuel "
 "d'utilisateur et d'autres documentations, telles que des manuels sur "
 "l'administration de GNOME et les fonctionnalités d'accessibilité de GNOME, "
-"sont disponibles sur la <ulink url=\"http://www.gnome.org/learn/\">page "
+"sont disponibles sur la page <ulink url=\"http://www.gnome.org/learn/\">"
 "« Apprendre GNOME »</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1219,9 +1219,9 @@ msgid ""
 "Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
 msgstr ""
-"Grâce aux membres venant du monde entier du <ulink url=\"http://developer."
-"gnome.org/projects/gtp/\">projet de traduction GNOME</ulink>, et sous la "
-"direction de Christian Rose and Kjartan Maraas, GNOME 2.10 offre le support "
+"Grâce à ses membres venant du monde entier, le <ulink url=\"http://developer."
+"gnome.org/projects/gtp/\">projet de traduction GNOME</ulink>, sous la "
+"direction de Christian Rose and Kjartan Maraas, permet à GNOME 2.10 d'offrir le support "
 "de 33 langues (au moins 80% des chaînes traduites)."
 
 #: ../rni18n.xml:41 (para)
@@ -1258,7 +1258,7 @@ msgstr "Danois (5,3 millions)"
 
 #: ../rni18n.xml:49 (para)
 msgid "Dutch (over 21 million)"
-msgstr "Néerlandais (over 21 millions)"
+msgstr "Néerlandais (plus de 21 millions)"
 
 #: ../rni18n.xml:50 (para)
 msgid "English (341 million)"
@@ -1266,11 +1266,11 @@ msgstr "Anglais (341 millions)"
 
 #: ../rni18n.xml:51 (para)
 msgid "Finnish (over 5 million)"
-msgstr "Finnois (over 5 millions)"
+msgstr "Finnois (plus de 5 millions)"
 
 #: ../rni18n.xml:52 (para)
 msgid "French (over 75 million)"
-msgstr "Français (over 75 millions)"
+msgstr "Français (plus de 75 millions)"
 
 #: ../rni18n.xml:53 (para)
 msgid "German (100 million)"
@@ -1298,7 +1298,7 @@ msgstr "Italien (60 millions)"
 
 #: ../rni18n.xml:59 (para)
 msgid "Japanese (over 125 million)"
-msgstr "Japonais (over 125 millions)"
+msgstr "Japonais (plus de 125 millions)"
 
 #: ../rni18n.xml:60 (para)
 msgid "Korean (75 million)"
@@ -1334,7 +1334,7 @@ msgstr "Serbe (10 millions)"
 
 #: ../rni18n.xml:68 (para)
 msgid "Spanish (over 350 million)"
-msgstr "Espagnol (over 350 millions)"
+msgstr "Espagnol (plus de 350 millions)"
 
 #: ../rni18n.xml:69 (para)
 msgid "Swedish (9 million)"
@@ -1413,13 +1413,12 @@ msgid ""
 "box."
 msgstr ""
 "GTK+ 2.6 possède de nouveaux moteurs de rendu pour les cellules, de nouveaux "
-"bouton, une vue d'icônes ainsi qu'une nouvelle boîte « à propos »."
+"boutons, une vue d'icônes ainsi qu'une nouvelle boîte « à propos » ;"
 
 #: ../rnplatform.xml:14 (para)
 msgid "glib 2.6 has an easier command-line parsing API."
 msgstr ""
-"glib 2.6 possède une API pour parser la ligne de commande plus facile à "
-"utiliser."
+"glib 2.6 possède une API plus facile à utiliser pour l'analyse de la ligne de commande ;"
 
 #: ../rnplatform.xml:15 (para)
 msgid ""
@@ -1430,7 +1429,7 @@ msgid ""
 "ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, "
 "and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
 msgstr ""
-"Les corrélations avec le langage informatique Python incluent désormais une "
+"les corrélations avec le langage informatique Python incluent désormais une "
 "API complète pour la plate-forme de développement GNOME, via gnome-python. "
 "Cela vient s'ajouter aux corrélations déjà existantes avec C++, Java, Perl "
 "et Python, par l'intermédiaire des projets <ulink url=\"http://www.gtkmm.org/"
@@ -1565,29 +1564,29 @@ msgid ""
 "Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
 "connections."
 msgstr ""
-"Réseau : support amélioré pour les réseaux sans fil (détection des WEP et "
-"ESSID) et les connexions RNIS."
+"réseau : support amélioré pour les réseaux sans fil (détection des WEP et "
+"ESSID) et les connexions RNIS ;"
 
 #: ../rnsysadmin.xml:27 (para)
 msgid "Users and Groups: Easier editing of group members."
-msgstr "Utilisateurs et groupes : édition des membres d'un groupe facilitée."
+msgstr "utilisateurs et groupes : édition des membres d'un groupe facilitée ;"
 
 #: ../rnsysadmin.xml:28 (para)
 msgid "Changes are applied instantly where appropriate."
 msgstr ""
-"Les modifications sont appliquées immédiatement quand cela est approprié."
+"les modifications sont appliquées immédiatement quand cela est approprié."
 
 #: ../rnsysadmin.xml:23 (para)
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
-msgstr "GNOME 2.10 apporte quelques améliorations, dont <placeholder-1/>"
+msgstr "GNOME 2.10 apporte quelques améliorations, dont : <placeholder-1/>"
 
 #: ../rnsysadmin.xml:33 (title)
 msgid "The Clock, Network, and Users/Groups tools"
-msgstr "Les outils d'heure, de réseau et d'utilisateur/groupes"
+msgstr "Les outils d'heure, de réseau et d'utilisateurs/groupes"
 
 #: ../rnsysadmin.xml:38 (phrase)
 msgid "The Clock, Network, and Users/Groups tools."
-msgstr "Les outils d'heure, de réseau et d'utilisateur/groupes."
+msgstr "Les outils d'heure, de réseau et d'utilisateurs/groupes."
 
 #: ../rnsysadmin.xml:46 (title)
 msgid "Log Viewer"
@@ -1595,15 +1594,15 @@ msgstr "Visionneur de journaux"
 
 #: ../rnsysadmin.xml:51 (para)
 msgid "Open multiple logs in the separate windows."
-msgstr "Ouvre différents journaux dans des fenêtres séparées."
+msgstr "ouvrir différents journaux dans des fenêtres séparées ;"
 
 #: ../rnsysadmin.xml:52 (para)
 msgid "Open archived logs and logs on networked drives."
-msgstr "Ouvre les journaux archivés et les journaux sur les lecteurs réseau."
+msgstr "ouvrir les journaux archivés et les journaux sur les lecteurs réseau ;"
 
 #: ../rnsysadmin.xml:53 (para)
 msgid "Copy logs to the clipboard."
-msgstr "Copie les journaux vers le presse-papiers."
+msgstr "copier les journaux vers le presse-papiers."
 
 #: ../rnsysadmin.xml:48 (para)
 msgid ""
@@ -1611,8 +1610,7 @@ msgid ""
 "mode. In addition, it can now <placeholder-1/>"
 msgstr ""
 "Le visionneur de journaux de GNOME possède maintenant une fonction de "
-"recherche bien pratique, ainsi qu'un mode de surveillance amélioré. En plus, "
-"dorénavant il <placeholder-1/>"
+"recherche bien pratique, ainsi qu'un mode de surveillance amélioré. Dorénavant, il peut en outre : <placeholder-1/>"
 
 #: ../rnsysadmin.xml:58 (title)
 msgid "The Log Viewer"
@@ -1739,7 +1737,7 @@ msgid ""
 "sites, and the definitions can be printed."
 msgstr ""
 "Le dictionnaire GNOME propose désormais des suggestions de mots lorsque vous "
-"n'êtes pas sûrs d'une orthographe. Les définitions contiennent aussi des "
+"n'êtes pas sûr d'une orthographe. Les définitions contiennent aussi des "
 "liens vers des sites web externes de dictionnaire et les définitions peuvent "
 "être imprimées."
 
@@ -1757,7 +1755,7 @@ msgid ""
 "The GNOME Floppy Formatter utility now supports removable drives, such as "
 "USB drives, using the standard HAL system from freedesktop.org."
 msgstr ""
-"Le formateur de disquettes GNOME supporte désormais les disquesamovibles, "
+"Le formateur de disquettes GNOME supporte désormais les disques amovibles, "
 "tels que les disques USB, par l'intermédiaire du système standard HAL de "
 "freedesktop.org."
 
