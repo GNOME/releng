@@ -10,4 +10,4 @@
   such as the file manager, window manager, and panel.
   </para>
 
-  <para>For instance, if you launch an application from a particular screen, it will now appear on that screen.</para>
+  <para>For instance, if you launch an application from a particular screen, it will now appear on that screen. Applications that can span multiple screens (like file manager and the panel) have also been adapted so that their behaviors take into better account things like the break between screens.</para>
