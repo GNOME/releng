@@ -1,12 +1,12 @@
 
     <title>Panel</title>
-    <para>The panel can now be themed along with the rest of the desktop, including icon theming.</para>
+    <para>The panel can now be themed along with the rest of the desktop, using GNOME's new icon theming, which allows all applications (including the panel, nautilus, and others) to share icons for commonly used concepts like folders, file types, and directional arrows.</para>
 
     <para>Here are a few of the more significant GNOME panel improvements:</para>
 
     <sect3><title>Show Desktop</title>
     <para>
-    When the icons on your desktop are hidden by too many open windows, you can now quickly hide them and then bring them all back again by clicking the "Show Desktop" button in the panel.
+    When the icons on your desktop are hidden by too many open windows, you can now quickly hide them and then bring them all back again by clicking the "Show Desktop" button in the panel, or using the ctl+alt+d keyboard shortcut.
     </para>
 
 <figure>
@@ -33,7 +33,7 @@
 
     <sect3><title>Open Recent</title>
     <para>
-    The Actions menu now lists the last few files that you have opened. Just select the file to open it with the appropriate application.
+    The Actions menu now lists the last few files that you have opened. Just select the file to open it with the appropriate application. Other applications, like gedit, also share this functionality with the panel, and more applications will pick this up in future releases.
     </para>
 
 <figure>
