@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: rnotes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-02-13 00:57+0100\n"
-"PO-Revision-Date: 2005-03-05 00:44+0100\n"
+"PO-Revision-Date: 2005-03-06 21:38+0100\n"
 "Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../release-notes.xml:23 (None)
+#: ../release-notes.xml:22 (None)
 msgid ""
 "@@image: 'figures/figure-gnome-desktop.png'; "
 "md5=a25ee1cd47ba6e56ce09a67de0b45372"
@@ -40,19 +40,17 @@ msgstr "Utgåveinformation för GNOME 2.10"
 msgid "Introduction"
 msgstr "Introduktion"
 
-#: ../release-notes.xml:20 (para)
+#: ../release-notes.xml:24 (phrase)
+msgid "The GNOME Desktop"
+msgstr "GNOME-skrivbordet"
+
+#: ../release-notes.xml:27 (para)
 msgid ""
-"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-desktop.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The GNOME Desktop</phrase></textobject></"
-"mediaobject></screenshot> The GNOME 2.10 Desktop is the latest release of "
-"the ever popular, multi-platform free desktop environment."
+"The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
+"platform free desktop environment."
 msgstr ""
-"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-gnome-desktop.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>GNOME-skrivbordet</phrase></textobject></"
-"mediaobject></screenshot> Skrivbordsmiljön GNOME 2.10 är den senaste utgåvan "
-"av den mycket populära och fria skrivbordsmiljön för flera plattformar."
+"Skrivbordsmiljön GNOME 2.10 är den senaste utgåvan av den evigt populära och "
+"fria skrivbordsmiljön för flera plattformar."
 
 #: ../release-notes.xml:30 (para)
 msgid ""
@@ -205,7 +203,7 @@ msgstr ""
 
 #: ../release-notes.xml:125 (para)
 msgid ""
-"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Session "
 "startup temporary hang</ulink>: Applications with broken session management "
 "can cause login to hang for a few minutes at the splashscreen. The default "
 "session does not contain any such apps so this will only become a problem if "
@@ -213,7 +211,7 @@ msgid ""
 "the login to proceed and then remove any such applications before saving "
 "your session again."
 msgstr ""
-"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Tillfällig "
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Tillfällig "
 "låsning vid uppstart av session</ulink>: Program med trasig "
 "sessionshantering kan orsaka att inloggningen låses i ett par minuter då "
 "inloggningsskärmen visas. Standardsessionen innehåller inga sådana program, "
@@ -308,7 +306,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:30 (None)
+#: ../rnapplets.xml:31 (None)
 msgid ""
 "@@image: 'figures/figure-applet-modem.png'; "
 "md5=e578e556196eb7b5e18e8e23dec80f3d"
@@ -318,7 +316,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:52 (None)
+#: ../rnapplets.xml:53 (None)
 msgid ""
 "@@image: 'figures/figure-applet-trash.png'; "
 "md5=3cae86562b76ef6650be8d0fbe007907"
@@ -328,7 +326,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:74 (None)
+#: ../rnapplets.xml:76 (None)
 msgid ""
 "@@image: 'figures/figure-applet-drivemount.png'; "
 "md5=47fa7b661de0c2ae0223fa211145fa11"
@@ -338,7 +336,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:95 (None)
+#: ../rnapplets.xml:97 (None)
 msgid ""
 "@@image: 'figures/figure-applet-weather.png'; "
 "md5=c3a54721c5872fe130c9c24d969310bf"
@@ -348,7 +346,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:119 (None)
+#: ../rnapplets.xml:120 (None)
 msgid ""
 "@@image: 'figures/figure-applet-mixer.png'; "
 "md5=3db86d251e280b32c35142524d4759f2"
@@ -358,7 +356,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:140 (None)
+#: ../rnapplets.xml:141 (None)
 msgid ""
 "@@image: 'figures/figure-applet-stickies.png'; "
 "md5=55648b50d6dde470bc89a2d9d51523d8"
@@ -368,7 +366,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:158 (None)
+#: ../rnapplets.xml:161 (None)
 msgid ""
 "@@image: 'figures/figure-applet-cpufreq.png'; "
 "md5=81a2482710b2157df4fc66697490d28a"
@@ -432,20 +430,14 @@ msgstr "Integrerad modemstyrning"
 #: ../rnapplets.xml:23 (para)
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
-"with GNOME System Tools. <figure id=\"rnscreenshot-applet-modem\"><title>The "
-"new modem control applet</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The new modem control applet</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"with GNOME System Tools."
 msgstr ""
 "GNOME 2.10 introducerar ett nytt panelprogram för styrningen av ditt modem, "
-"ett panelprogram som är integrerat med GNOME-systemverktygen. <figure id="
-"\"rnscreenshot-applet-modem\"><title>Det nya panelprogrammet för "
-"modemstyrning</title><screenshot><mediaobject><imageobject><imagedata "
-"fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Det nya panelprogrammet för modemstyrning</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"ett panelprogram som är integrerat med GNOME-systemverktygen."
+
+#: ../rnapplets.xml:28 (title) ../rnapplets.xml:33 (phrase)
+msgid "The new modem control applet"
+msgstr "Det nya panelprogrammet för modemstyrning"
 
 #: ../rnapplets.xml:41 (title)
 msgid "Panel Trashcan"
@@ -455,38 +447,32 @@ msgstr "Panelpapperskorg"
 msgid ""
 "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
 "trashcan on your desktop, you can now drag and drop files and other items "
-"into the trash without minimising your open windows. <figure id="
-"\"rnscreenshot-applet-trash\"><title>a Trashcan on your Panel</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Drag trash to your panel</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"into the trash without minimising your open windows."
 msgstr ""
 "GNOME 2.10 har en valfri papperskorg för din panel. Precis som papperskorgen "
 "på ditt skrivbord kan du nu dra och släppa filer och andra objekt på "
-"papperskorgen utan att förminska dina öppna fönster. <figure id="
-"\"rnscreenshot-applet-trash\"><title>en papperskorg på din panel</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Drag skräp till din panel</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"papperskorgen utan att förminska dina öppna fönster."
 
-#: ../rnapplets.xml:62 (title)
+#: ../rnapplets.xml:50 (title)
+msgid "a Trashcan on your Panel"
+msgstr "en papperskorg på din panel"
+
+#: ../rnapplets.xml:55 (phrase)
+msgid "Drag trash to your panel"
+msgstr "Drag skräp till din panel"
+
+#: ../rnapplets.xml:63 (title)
 msgid "Control Mounted Volumes"
 msgstr "Styr monterade volymer"
 
-#: ../rnapplets.xml:64 (para)
+#: ../rnapplets.xml:65 (para)
 msgid ""
 "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, "
 "and USB memory sticks. Now the volume mounter applet helps you to use these "
 "volumes without the difficulty of finding their icons on the desktop, behind "
 "your open windows. The applet shows the currently mounted (or unmountable) "
 "volumes, allowing you to mount them, eject them, or open them in the file "
-"manager. <figure id=\"rnscreenshot-applet-drivemount\"><title>Drive Mount</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The drive mount applet.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"manager."
 msgstr ""
 "GNOME 2.8 lät dig enklare montera dina digitala media, som till exempel cd-"
 "skivor, dvd-skivor och USB-minnespinnar. Nu hjälper "
@@ -494,44 +480,45 @@ msgstr ""
 "svårigheten att hitta deras ikoner på skrivbordet, bakom alla dina öppna "
 "program. Panelprogrammet visar de för tillfället monterade (eller "
 "avmonteringsbara) volymerna och låter dig montera dem, mata ut dem, eller "
-"öppna dem i filhanteraren. <figure id=\"rnscreenshot-applet-drivemount"
-"\"><title>Enhetsmontering</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Panelprogrammet för enhetsmontering.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"öppna dem i filhanteraren."
 
-#: ../rnapplets.xml:85 (title)
+#: ../rnapplets.xml:73 (title)
+msgid "Drive Mount"
+msgstr "Enhetsmontering"
+
+#: ../rnapplets.xml:78 (phrase)
+msgid "The drive mount applet."
+msgstr "Panelprogrammet för enhetsmontering."
+
+#: ../rnapplets.xml:86 (title)
 msgid "Get even more weather"
 msgstr "Få ännu mer väder"
 
-#: ../rnapplets.xml:86 (para)
+#: ../rnapplets.xml:87 (para)
 msgid ""
 "The weather monitor can now show even more locations then before, and the "
 "location names have been translated into non-english languages where "
 "appropriate. In addition, the forecast now includes sunrise and sunset "
-"calculations for most locations. <figure id=\"rnscreenshot-applet-weather"
-"\"><title>Weather Report</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The weather report applet.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"calculations for most locations."
 msgstr ""
 "Väderövervakaren kan nu visa ännu fler platser än tidigare, och namnen på "
 "platserna har översatts till icke-engelska språk där så varit lämpligt. "
 "Dessutom inkluderar prognosen numera de beräknade tiderna för soluppgång och "
-"solnedgång för de flesta platser. <figure id=\"rnscreenshot-applet-weather"
-"\"><title>Väderrapport</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Panelprogrammet för väderrapporter.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"solnedgång för de flesta platser."
 
-#: ../rnapplets.xml:106 (title)
+#: ../rnapplets.xml:94 (title)
+msgid "Weather Report"
+msgstr "Väderrapport"
+
+#: ../rnapplets.xml:99 (phrase)
+msgid "The weather report applet."
+msgstr "Panelprogrammet för väderrapporter."
+
+#: ../rnapplets.xml:107 (title)
 msgid "Sound control"
 msgstr "Ljudkontroll"
 
-#: ../rnapplets.xml:107 (para)
+#: ../rnapplets.xml:108 (para)
 msgid ""
 "A new mixer for your panel (combined with a new-look mixer on the desktop) "
 "gets the most from your sound hardware. Using the GStreamer multimedia "
@@ -547,19 +534,19 @@ msgstr ""
 "Sound Juicer, GNOME-cd-spelaren och diverse andra tredjepartsprogram, så "
 "genom att ändra volymen på panelen ändras volymen i alla dessa program."
 
-#: ../rnapplets.xml:116 (title)
+#: ../rnapplets.xml:117 (title)
 msgid "all new mixer for your panel"
 msgstr "helt nytt mixerprogram till din panel"
 
-#: ../rnapplets.xml:121 (phrase)
+#: ../rnapplets.xml:122 (phrase)
 msgid "All new mixer for your panel"
 msgstr "Helt nytt mixerprogram till din panel"
 
-#: ../rnapplets.xml:128 (title)
+#: ../rnapplets.xml:129 (title)
 msgid "Taking note"
 msgstr "Antecknar"
 
-#: ../rnapplets.xml:129 (para)
+#: ../rnapplets.xml:130 (para)
 msgid ""
 "The popular Sticky Notes applet now makes it even easier to add PostIt-style "
 "notes on your desktop, thanks to a simpler user interface and many bug "
@@ -572,7 +559,7 @@ msgstr ""
 "klisterlapparna att stanna på rätt arbetsyta, och till och med på en annan "
 "bildskärm."
 
-#: ../rnapplets.xml:132 (para)
+#: ../rnapplets.xml:133 (para)
 msgid ""
 "And sticky notes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
@@ -581,43 +568,38 @@ msgstr ""
 "bort dem. För att dölja lapparna använder du bara panelprogrammets "
 "högerklicksmeny."
 
-#: ../rnapplets.xml:137 (title) ../rnapplets.xml:142 (phrase)
+#: ../rnapplets.xml:138 (title) ../rnapplets.xml:143 (phrase)
 msgid "Sticky Notes"
 msgstr "Klisterlappar"
 
-#: ../rnapplets.xml:148 (title)
+#: ../rnapplets.xml:149 (title)
 msgid "Specially for laptops"
 msgstr "Speciellt för bärbara datorer"
 
-#: ../rnapplets.xml:149 (para)
+#: ../rnapplets.xml:150 (para)
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
 "CPU Frequency Monitor watches variable-speed processors (such as those with "
 "Intel Speedstep or AMD PowerNow) to show their current status. You may even "
 "choose a different speed if you don't have automatic frequency scaling "
-"enabled. <figure id=\"rnscreenshot-applet-cpufreq\"><title>Monitor CPU "
-"Frequency Scaling</title><screenshot><mediaobject><imageobject><imagedata "
-"fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"enabled."
 msgstr ""
 "GNOME inkluderar numera ett panelprogram för att övervaka "
 "processorhastigheten i din bärbara dator. Processorfrekvensövervakaren "
 "bevakar processorer med variable hastigheter (som till exempel de med Intel "
 "Speedstep eller AMD PowerNow) för att visa deras aktuella status. Du kan "
 "till och med välja en annan hastighet om du inte har aktiverat automatisk "
-"frekvensskalning. <figure id=\"rnscreenshot-applet-cpufreq\"><title>Övervaka "
-"skalning av processorfrekvenser</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Övervaka skalning av processorfrekvenser</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"frekvensskalning."
 
-#: ../rnapplets.xml:168 (title)
+#: ../rnapplets.xml:158 (title) ../rnapplets.xml:163 (phrase)
+msgid "Monitor CPU Frequency Scaling"
+msgstr "Övervaka processorfrekvensskalning"
+
+#: ../rnapplets.xml:171 (title)
 msgid "Removed Applets"
 msgstr "Borttagna panelprogram"
 
-#: ../rnapplets.xml:169 (para)
+#: ../rnapplets.xml:172 (para)
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
@@ -625,7 +607,7 @@ msgstr ""
 "Tre panelprogram togs bort i GNOME 2.10 och ersattes av bättre alternativ i "
 "de flesta fall."
 
-#: ../rnapplets.xml:172 (para)
+#: ../rnapplets.xml:175 (para)
 msgid ""
 "The CD Player panel applet has been removed, so you will not see a CD player "
 "on your panel when you don't even have a CD in your drive. Instead, "
@@ -637,7 +619,7 @@ msgstr ""
 "startas nu GNOME-cd-spelaren när du stoppar in en cd-skiva. Detta program "
 "kan sedan styras från en notifieringsikon som det placerar i din panel."
 
-#: ../rnapplets.xml:175 (para)
+#: ../rnapplets.xml:178 (para)
 msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
@@ -646,23 +628,23 @@ msgstr ""
 "nätverksövervakaren, införd i GNOME 2.8, också innehåller stöd för trådlösa "
 "nätverk."
 
-#: ../rnapplets.xml:178 (para)
+#: ../rnapplets.xml:181 (para)
 msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
 "insecure. We hope to have a solution integrated with our Evolution mail "
 "client in the future. If you don't use Evolution for your mail, you can use "
-"a third party application such as <link href=\"http://www.nongnu.org/"
-"mailnotify/\">mailnotify</link>."
+"a third party application such as <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
 msgstr ""
 "E-postövervakaren har tagits bort eftersom den inte underhölls och att den "
 "var osäker. Vi hoppas på att ha en lösning som är integrerad med vår e-"
 "postklient, Evolution, i framtiden. Om du inte använder Evolution för din e-"
-"post kan du använda ett tredjepartsprogram som till exempel <link href="
-"\"http://www.nongnu.org/mailnotify/\">mailnotify</link>."
+"post kan du använda ett tredjepartsprogram som till exempel <ulink url="
+"\"http://www.nongnu.org/mailnotify/\">mailnotify</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:20 (None)
+#: ../rnapplications.xml:21 (None)
 msgid ""
 "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 msgstr ""
@@ -680,7 +662,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:67 (None)
+#: ../rnapplications.xml:64 (None)
 msgid ""
 "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 msgstr ""
@@ -688,7 +670,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:99 (None)
+#: ../rnapplications.xml:95 (None)
 msgid ""
 "@@image: 'figures/figure-evolution-weather.png'; "
 "md5=ca12d0050f5514294bd4b54f47a899db"
@@ -698,7 +680,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:118 (None)
+#: ../rnapplications.xml:113 (None)
 msgid ""
 "@@image: 'figures/figure-evolution-mail.png'; "
 "md5=b27a25dd54f1118e40b9104354bda815"
@@ -708,7 +690,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:141 (None)
+#: ../rnapplications.xml:135 (None)
 msgid ""
 "@@image: 'figures/figure-gnome-meeting.png'; "
 "md5=71e89305beea456fbb73016fbb645010"
@@ -729,56 +711,54 @@ msgid ""
 "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
 "GStreamer multimedia framework. Totem provides the intuitive user interface "
 "that GNOME users expect, with automatic hardware detection instead of "
-"complex configuration. <figure id=\"rnscreenshot-totem\"><title>The video "
-"player</title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Totem video player.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"complex configuration."
 msgstr ""
 "GNOME 2.10 inkluderar nu den populära videospelaren Totem, som använder "
 "GNOME:s GStreamer-multimediaramverk. Totem erbjuder det intuitiva "
 "användargränssnitt som GNOME-användare förväntar sig, med automatisk "
-"hårdvarudetektering istället för krånglig konfiguration. <figure id="
-"\"rnscreenshot-totem\"><title>Videospelaren</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Videospelaren Totem.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"hårdvarudetektering istället för krånglig konfiguration."
 
-#: ../rnapplications.xml:31 (title)
+#: ../rnapplications.xml:18 (title)
+msgid "The video player"
+msgstr "Videospelaren"
+
+#: ../rnapplications.xml:22 (phrase)
+msgid "The Totem video player."
+msgstr "Videospelaren Totem."
+
+#: ../rnapplications.xml:30 (title)
 msgid "Audio Extraction"
 msgstr "Ljudextrahering"
 
-#: ../rnapplications.xml:33 (para)
+#: ../rnapplications.xml:32 (para)
 msgid ""
 "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for "
 "later playback on your PC or portable music player. Thanks to automatic "
 "downloading of song titles, you won't need to click more than a couple of "
-"buttons. <figure id=\"rnscreenshot-soundjuicer\"><title>The audio extractor</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The audio extractor.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"buttons."
 msgstr ""
 "Den högt älskade \"cd-ripparen\" Sound Juicer extraherar enkelt ljud från cd-"
 "skivor så att de senare kan spelas på din dator eller din portabla "
 "musikspelare. Tack vare automatisk hämtning av låttitlar behöver du inte "
-"längre klicka på mer än ett par knappar. <figure id=\"rnscreenshot-"
-"soundjuicer\"><title>Ljudextraheraren</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Ljudextraheraren.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"längre klicka på mer än ett par knappar."
 
-#: ../rnapplications.xml:51 (title)
+#: ../rnapplications.xml:37 (title)
+msgid "The audio extractor"
+msgstr "Ljudextraheraren"
+
+#: ../rnapplications.xml:41 (phrase)
+msgid "The audio extractor."
+msgstr "Ljudextraheraren."
+
+#: ../rnapplications.xml:49 (title)
 msgid "Web Browser"
 msgstr "Webbläsare"
 
-#: ../rnapplications.xml:55 (para)
+#: ../rnapplications.xml:53 (para)
 msgid "An improved fullscreen mode."
 msgstr "Ett förbättrat helskärmsläge."
 
-#: ../rnapplications.xml:56 (para)
+#: ../rnapplications.xml:54 (para)
 msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
@@ -786,15 +766,15 @@ msgstr ""
 "Adressraden visar numera huruvida webbplatsen är säker och visar dess "
 "bokmärkesikon."
 
-#: ../rnapplications.xml:57 (para)
+#: ../rnapplications.xml:55 (para)
 msgid "Bookmarks can be exported."
 msgstr "Bokmärken kan nu exporteras."
 
-#: ../rnapplications.xml:58 (para)
+#: ../rnapplications.xml:56 (para)
 msgid "An extension manager for extra features."
 msgstr "En utökningshanterare för extrafunktioner."
 
-#: ../rnapplications.xml:53 (para)
+#: ../rnapplications.xml:51 (para)
 msgid ""
 "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully "
 "with the GNOME desktop environment. Improvements in 2.10 include "
@@ -804,11 +784,19 @@ msgstr ""
 "integrerad med GNOME-skrivbordsmiljön. Förbättringar i 2.10 inkluderar "
 "<placeholder-1/>"
 
-#: ../rnapplications.xml:77 (title)
+#: ../rnapplications.xml:61 (title)
+msgid "The web browser"
+msgstr "Webbläsaren"
+
+#: ../rnapplications.xml:65 (phrase)
+msgid "The web browser."
+msgstr "Webbläsaren."
+
+#: ../rnapplications.xml:73 (title)
 msgid "Evolution"
 msgstr "Evolution"
 
-#: ../rnapplications.xml:79 (para)
+#: ../rnapplications.xml:75 (para)
 msgid ""
 "GNOME's integrated Email and Groupware client, Evolution supports "
 "traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. "
@@ -820,7 +808,7 @@ msgstr ""
 "Exchange. Med Evolution kan du läsa, skriva och hantera din e-post, dina "
 "kontakter och dina evenemang."
 
-#: ../rnapplications.xml:84 (para)
+#: ../rnapplications.xml:80 (para)
 msgid ""
 "In GNOME 2.10 it's now easier to work offline with your email, calendar, and "
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
@@ -830,41 +818,41 @@ msgstr ""
 "kalender och kontakter om du använder IMAP, LDAP, WebCal, Groupwise eller "
 "Exchange. Dina ändringar kommer att synkroniseras när du återansluter."
 
-#: ../rnapplications.xml:89 (para)
+#: ../rnapplications.xml:85 (para)
 msgid "Files can be attached to events."
 msgstr "Filer kan bifogas arrangemang."
 
-#: ../rnapplications.xml:90 (para)
+#: ../rnapplications.xml:86 (para)
 msgid "Exceptions can be made in recurring events."
 msgstr "Undantag kan göras i återkommande evenemang."
 
-#: ../rnapplications.xml:91 (para)
+#: ../rnapplications.xml:87 (para)
 msgid "The calendar includes weather information (US only)."
 msgstr "Kalendern inkluderar väderinformation (endast USA)."
 
-#: ../rnapplications.xml:87 (para)
+#: ../rnapplications.xml:83 (para)
 msgid ""
 "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
 "Denna nya version erbjuder andra förbättringar i kalendern: <placeholder-1/>"
 
-#: ../rnapplications.xml:96 (title)
+#: ../rnapplications.xml:92 (title)
 msgid "daily weather forecasts"
 msgstr "dagliga väderprognoser"
 
-#: ../rnapplications.xml:100 (phrase)
+#: ../rnapplications.xml:96 (phrase)
 msgid "The Evolution calendar client."
 msgstr "Kalenderklienten i Evolution."
 
-#: ../rnapplications.xml:107 (para)
+#: ../rnapplications.xml:103 (para)
 msgid "Groupwise shared folders and send options are now supported."
 msgstr "Delade mappar och skickandealternativ för Groupwise stöds nu."
 
-#: ../rnapplications.xml:108 (para)
+#: ../rnapplications.xml:104 (para)
 msgid "Exchange folder sizes and password expiry warnings are supported."
 msgstr "Exchange-mappstorlekar och varningar för lösenordsutgång stöds nu."
 
-#: ../rnapplications.xml:109 (para)
+#: ../rnapplications.xml:105 (para)
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
@@ -872,15 +860,23 @@ msgstr ""
 "E-postanvändargränssnittet kommer att speglas korrekt i höger-till-vänster-"
 "språk."
 
-#: ../rnapplications.xml:105 (para)
+#: ../rnapplications.xml:101 (para)
 msgid "And yet more new features: <placeholder-1/>"
 msgstr "Och ännu fler funktioner: <placeholder-1/>"
 
-#: ../rnapplications.xml:129 (title)
+#: ../rnapplications.xml:110 (title)
+msgid "The email client"
+msgstr "E-postklienten"
+
+#: ../rnapplications.xml:114 (phrase)
+msgid "The Evolution email client."
+msgstr "E-postklienten i Evolution."
+
+#: ../rnapplications.xml:122 (title)
 msgid "GnomeMeeting"
 msgstr "GnomeMeeting"
 
-#: ../rnapplications.xml:131 (para)
+#: ../rnapplications.xml:124 (para)
 msgid ""
 "GnomeMeeting allows users to see and speak to each other via internet "
 "telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is "
@@ -892,31 +888,29 @@ msgstr ""
 "postklient Evolution, så att du inte behöver ange kontaktinformation på mer "
 "än ett ställe."
 
-#: ../rnapplications.xml:135 (para)
+#: ../rnapplications.xml:128 (para)
 msgid ""
-"Now you can even browse for other Gnome Meeting users on your local network "
+"Now you can even browse for other GnomeMeeting users on your local network "
 "without discovering their contact details first. And you can view your own "
 "video output side by side with the video from your conversation partner, so "
-"you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><title>The "
-"internet telephony and video conferencing client</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"you see what they see."
 msgstr ""
 "Nu kan du till och med söka efter andra GnomeMeeting-användare på ditt "
 "lokala nätverk utan att ta reda på deras kontaktdetaljer först. Du kan också "
 "visa din egen videoutmatning bredvid videobilden från din samtalspartner, så "
-"att du ser vad de ser. <figure id=\"rnscreenshot-gnomemeeting"
-"\"><title>Klienten för Internettelefoni och videokonferenser</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>GnomeMeeting med videobilder sida-vid-sida.</"
-"phrase></textobject></mediaobject></screenshot></figure>"
+"att du ser vad de ser."
+
+#: ../rnapplications.xml:132 (title)
+msgid "The internet telephony and video conferencing client"
+msgstr "Klienten för Internettelefoni och videokonferenser"
+
+#: ../rnapplications.xml:136 (phrase)
+msgid "GnomeMeeting with side-by-side video."
+msgstr "GnomeMeeting med videobilder sida-vid-sida."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rncontrolcenter.xml:20 (None)
+#: ../rncontrolcenter.xml:21 (None)
 msgid ""
 "@@image: 'figures/figure-keyboard-properties+layout.png'; "
 "md5=6f351cb81db99e786e4560301a410fcc"
@@ -938,26 +932,26 @@ msgid ""
 "Just click Add to choose from a list of international keyboard layouts. "
 "Before making your choice you can see the effect of key presses in the "
 "layout preview. The Layout Options section has also been reorganized as a "
-"simpler list of choices. <figure id=\"rnscreenshot-controlpanel-"
-"keyboardlayouts\"><title>Keyboard Preferences - Layouts</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Layouts tab, in the Keyboard Preferences "
-"control panel, while adding a new layout.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"simpler list of choices."
 msgstr ""
 "Att välja en tangentbordslayout är nu enklare med "
 "tangentbordskontrollpanelen. Klicka bara på Lägg till för att välja från en "
 "lista med internationella tangentbordslayouter. Innan du gör ditt val kan du "
 "se resultatet av alla tangenttryckningar i layoutförhandsvisningen. "
 "Avdelningen Layoutalternativ har också organiserats om till en enklare lista "
-"med val. <figure id=\"rnscreenshot-controlpanel-keyboardlayouts"
-"\"><title>Tangentbordsinställningar - Layouter</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Fliken layouter i kontrollpanelen för "
-"tangentbordsinställningar, då en ny layout läggs till.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"med val."
+
+#: ../rncontrolcenter.xml:18 (title)
+msgid "Keyboard Preferences - Layouts"
+msgstr "Tangentbordsinställningar - Layouter"
+
+#: ../rncontrolcenter.xml:23 (phrase)
+msgid ""
+"The Layouts tab, in the Keyboard Preferences control panel, while adding a "
+"new layout."
+msgstr ""
+"Fliken layouter i kontrollpanelen för tangentbordsinställningar, då en ny "
+"layout läggs till."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1175,7 +1169,7 @@ msgstr "Nibbles"
 msgid ""
 "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you "
 "can browse your local network for other people to play against, via the same "
-"zero-configuration technique used by Gnome Meeting."
+"zero-configuration technique used by GnomeMeeting."
 msgstr ""
 "Vår filosofi att saker och ting helt enkelt bara ska fungera syns till och "
 "med i spelet Nibbles. Nu kan du söka igenom nätverket efter andra personer "
@@ -1194,238 +1188,154 @@ msgstr "Gå med i ett nätverksspel"
 msgid "Internationalization"
 msgstr "Internationalisering"
 
+#. Translators: I have only changed language count in here: s/40/33/
 #: ../rni18n.xml:10 (para)
 msgid ""
 "Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/"
 "projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of "
-"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 40 "
+"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
 msgstr ""
 "Tack vare medlemmarna i det världsomspännande <ulink url=\"http://developer."
 "gnome.org/projects/gtp/\">GNOME-översättningsprojektet</ulink>, under "
 "ledarskap av Christian Rose och Kjartan Maraas, erbjuder GNOME 2.10 stöd för "
-"40 språk (minst 80 procent av strängarna översatta)."
+"33 språk (minst 80 procent av strängarna översatta)."
 
 #: ../rni18n.xml:41 (para)
 msgid "Albanian (5 million speakers)"
 msgstr "Albanska (5 miljoner talare)"
 
 #: ../rni18n.xml:42 (para)
-msgid "Arabic (235 million)"
-msgstr "Arabiska (235 miljoner)"
-
-#: ../rni18n.xml:43 (para)
-msgid "Azerbaijani (28 million)"
-msgstr "Azerbajdzjanska (28 miljoner)"
-
-#: ../rni18n.xml:44 (para)
-msgid "Basque (580,000)"
-msgstr "Baskiska (580 000)"
-
-#: ../rni18n.xml:45 (para)
-msgid "Belarusian (7 million)"
-msgstr "Vitryska (7 miljoner)"
-
-#: ../rni18n.xml:46 (para)
-msgid "Bengali (189 million)"
-msgstr "Bengali (189 miljoner)"
-
-#: ../rni18n.xml:47 (para)
-msgid "Bosnian (3 million)"
-msgstr "Bosniska (3 miljoner)"
-
-#: ../rni18n.xml:48 (para)
 msgid "Brazilian Portuguese (175 million)"
 msgstr "Brasiliansk portugisiska (175 miljoner)"
 
-#: ../rni18n.xml:49 (para)
+#: ../rni18n.xml:43 (para)
 msgid "Bulgarian (9 million)"
 msgstr "Bulgariska (9 miljoner)"
 
-#: ../rni18n.xml:50 (para)
+#: ../rni18n.xml:44 (para)
 msgid "Catalan (7 million)"
 msgstr "Katalanska (7 miljoner)"
 
-#: ../rni18n.xml:51 (para)
+#: ../rni18n.xml:45 (para)
 msgid "Chinese Simplified (over 1 billion)"
 msgstr "Förenklad kinesiska (över 1 miljard)"
 
-#: ../rni18n.xml:52 (para)
+#: ../rni18n.xml:46 (para)
 msgid "Chinese Traditional (40 million)"
 msgstr "Traditionell kinesiska (40 miljoner)"
 
-#: ../rni18n.xml:53 (para)
-msgid "Croatian (5 million)"
-msgstr "Kroatiska (5 miljoner)"
-
-#: ../rni18n.xml:54 (para)
+#: ../rni18n.xml:47 (para)
 msgid "Czech (11 million)"
 msgstr "Tjeckiska (11 miljoner)"
 
-#: ../rni18n.xml:55 (para)
+#: ../rni18n.xml:48 (para)
 msgid "Danish (5.3 million)"
 msgstr "Danska (5,3 miljoner)"
 
-#: ../rni18n.xml:56 (para)
+#: ../rni18n.xml:49 (para)
 msgid "Dutch (over 21 million)"
 msgstr "Nederländska (över 21 miljoner)"
 
-#: ../rni18n.xml:57 (para)
+#: ../rni18n.xml:50 (para)
 msgid "English (341 million)"
 msgstr "Engelska (341 miljoner)"
 
-#: ../rni18n.xml:58 (para)
-msgid "Estonian (1 million)"
-msgstr "Estniska (1 miljon)"
-
-#: ../rni18n.xml:59 (para)
+#: ../rni18n.xml:51 (para)
 msgid "Finnish (over 5 million)"
 msgstr "Finska (över 5 miljoner)"
 
-#: ../rni18n.xml:60 (para)
+#: ../rni18n.xml:52 (para)
 msgid "French (over 75 million)"
 msgstr "Franska (över 75 miljoner)"
 
-#: ../rni18n.xml:61 (para)
+#: ../rni18n.xml:53 (para)
 msgid "German (100 million)"
 msgstr "Tyska (100 miljoner)"
 
-#: ../rni18n.xml:62 (para)
+#: ../rni18n.xml:54 (para)
 msgid "Greek (15 million)"
 msgstr "Grekiska (15 miljoner)"
 
-#: ../rni18n.xml:63 (para)
+#: ../rni18n.xml:55 (para)
 msgid "Gujarati (46 million)"
 msgstr "Gujarati (46 miljoner)"
 
-#: ../rni18n.xml:64 (para)
+#: ../rni18n.xml:56 (para)
 msgid "Hindi (370 million)"
 msgstr "Hindi (370 miljoner)"
 
-#: ../rni18n.xml:65 (para)
+#: ../rni18n.xml:57 (para)
 msgid "Hungarian (14.5 million)"
 msgstr "Ungerska (14,5 miljoner)"
 
-#: ../rni18n.xml:66 (para)
-msgid "Indonesian (25 million)"
-msgstr "Indonesiska (25 miljoner)"
-
-#: ../rni18n.xml:67 (para)
+#: ../rni18n.xml:58 (para)
 msgid "Italian (60 million)"
 msgstr "Italienska (60 miljoner)"
 
-#: ../rni18n.xml:68 (para)
+#: ../rni18n.xml:59 (para)
 msgid "Japanese (over 125 million)"
 msgstr "Japanska (över 125 miljoner)"
 
-#: ../rni18n.xml:69 (para)
+#: ../rni18n.xml:60 (para)
 msgid "Korean (75 million)"
 msgstr "Koreanska (75 miljoner)"
 
-#: ../rni18n.xml:70 (para)
+#: ../rni18n.xml:61 (para)
 msgid "Lithuanian (4 million)"
 msgstr "Litauiska (4 miljoner)"
 
-#: ../rni18n.xml:71 (para)
-msgid "Macedonian (1.5 million)"
-msgstr "Makedonska (1,5 miljoner)"
-
-#: ../rni18n.xml:72 (para)
-msgid "Malay (over 17 million)"
-msgstr "Malajiska (över 17 miljoner)"
-
-#: ../rni18n.xml:73 (para)
-msgid "Mongolian (10 million)"
-msgstr "Mongoliska (10 miljoner)"
-
-#: ../rni18n.xml:74 (para)
+#: ../rni18n.xml:62 (para)
 msgid "Norwegian Bookmal (5 million)"
 msgstr "Norska, bokmål (5 miljoner)"
 
-#: ../rni18n.xml:75 (para)
-msgid "Norwegian Nynorsk (2 million)"
-msgstr "Norska, nynorsk (2 miljoner)"
-
-#: ../rni18n.xml:76 (para)
+#: ../rni18n.xml:63 (para)
 msgid "Panjabi (60 million)"
 msgstr "Punjabi (60 miljoner)"
 
-#: ../rni18n.xml:77 (para)
+#: ../rni18n.xml:64 (para)
 msgid "Polish (44 million)"
 msgstr "Polska (44 miljoner)"
 
-#: ../rni18n.xml:78 (para)
+#: ../rni18n.xml:65 (para)
 msgid "Portuguese (43 million)"
 msgstr "Portugisiska (43 miljoner)"
 
-#: ../rni18n.xml:79 (para)
-msgid "Romanian (26 million)"
-msgstr "Rumänska (26 miljoner)"
-
-#: ../rni18n.xml:80 (para)
+#: ../rni18n.xml:66 (para)
 msgid "Russian (170 million)"
 msgstr "Ryska (170 miljoner)"
 
-#: ../rni18n.xml:81 (para)
+#: ../rni18n.xml:67 (para)
 msgid "Serbian (10 million)"
 msgstr "Serbiska (10 miljoner)"
 
-#: ../rni18n.xml:82 (para)
-msgid "Slovak (5 million)"
-msgstr "Slovakiska (5 miljoner)"
-
-#: ../rni18n.xml:83 (para)
+#: ../rni18n.xml:68 (para)
 msgid "Spanish (over 350 million)"
 msgstr "Spanska (över 350 miljoner)"
 
-#: ../rni18n.xml:84 (para)
+#: ../rni18n.xml:69 (para)
 msgid "Swedish (9 million)"
 msgstr "Svenska (9 miljoner)"
 
-#: ../rni18n.xml:85 (para)
+#: ../rni18n.xml:70 (para)
 msgid "Tamil (61 million)"
 msgstr "Tamil (61 miljoner)"
 
-#: ../rni18n.xml:86 (para)
+#: ../rni18n.xml:71 (para)
 msgid "Turkish (150 million)"
 msgstr "Turkiska (150 miljoner)"
 
-#: ../rni18n.xml:87 (para)
+#: ../rni18n.xml:72 (para)
 msgid "Ukrainian (50 million)"
 msgstr "Ukrainska (50 miljoner)"
 
-#: ../rni18n.xml:88 (para)
-msgid "Vietnamese"
-msgstr "Vietnamesiska"
-
-#: ../rni18n.xml:89 (para)
+#: ../rni18n.xml:73 (para)
 msgid "Welsh (575,000)"
 msgstr "Kymriska (575 000)"
 
 #: ../rni18n.xml:36 (para)
 msgid "Supported languages: <placeholder-1/>"
 msgstr "Språk som stöds: <placeholder-1/>"
-
-#: ../rni18n.xml:93 (para)
-msgid ""
-"Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian Nynorsk, "
-"Panjabi and Tamil are new supported languages in GNOME 2.10, thanks to the "
-"hard work of their translators. Also worthy of mention is that British "
-"English and Canadian English are also supported."
-msgstr ""
-"Observera att baskiska, bulgariska, gujarati, hindi, ungerska, nynorsk, "
-"punjabi och tamil är nya språk som stöds i GNOME 2.10, tack vare det hårda "
-"arbete som deras översättare utfört. Nämnvärt är också att brittisk engelska "
-"och kanadensisk engelska också stöds."
-
-#: ../rni18n.xml:98 (para)
-msgid ""
-"Another 9 languages are partially supported, with more than half of their "
-"strings translated. Croatian and Mongolian are particularly close to "
-"\"supported\" status."
-msgstr ""
-"Ytterligare 9 språk stöds delvis, med mer än hälften av strängarna "
-"översatta. Kroatiska och mongoliska är särskilt nära att stödjas."
 
 #: ../rninstallation.xml:9 (title)
 msgid "Installation of GNOME 2.10"
@@ -1519,17 +1429,17 @@ msgstr "Standarduppfyllelse"
 #: ../rnstandards.xml:9 (para)
 msgid ""
 "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop."
-"org/standards/\">freedesktop.org</ulink>. Standards support is a big plus "
-"for GNOME users. Interoperability support improves the user experience by "
-"allowing GNOME, KDE, and other applications to work together more easily, "
+"org/wiki/Standards\">freedesktop.org</ulink>. Standards support is a big "
+"plus for GNOME users. Interoperability support improves the user experience "
+"by allowing GNOME, KDE, and other applications to work together more easily, "
 "and following open specifications helps ensure that user data is not trapped "
 "in proprietary formats."
 msgstr ""
 "GNOME har ett tätt samarbete med grupper som <ulink url=\"http://www."
-"freedesktop.org/standards/\">freedesktop.org</ulink>. Stöd för standarder är "
-"ett stort plus för GNOME-användare. Stöd för interoperabilitet förbättrar "
-"användarupplevelsen genom att möjliggöra för GNOME-program, KDE-program och "
-"andra program att enklare fungera ihop, och följandet av öppna "
+"freedesktop.org/wiki/Standards/\">freedesktop.org</ulink>. Stöd för "
+"standarder är ett stort plus för GNOME-användare. Stöd för interoperabilitet "
+"förbättrar användarupplevelsen genom att möjliggöra för GNOME-program, KDE-"
+"program och andra program att enklare fungera ihop, och följandet av öppna "
 "specifikationer hjälper till att försäkra att data inte låses in i "
 "proprietära format."
 
@@ -1550,7 +1460,7 @@ msgid ""
 "addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, "
 "<ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www."
 "freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www."
-"freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www."
+"freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www."
 "freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://"
 "www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink "
 "url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
@@ -1570,7 +1480,7 @@ msgstr ""
 "\">systemlådan</ulink>. Dessutom stöder GNOME <ulink url=\"http://www.omg."
 "org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, "
 "<ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, "
-"<ulink url=\"http://www.freedesktop.org/standards/wm-spec\">EWMH</ulink>, "
+"<ulink url=\"http://www.freedesktop.org/Standards/wm-spec\">EWMH</ulink>, "
 "<ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</"
 "ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec"
 "\">XSETTINGS</ulink> och <ulink url=\"http://www.xfree86.org/current/xsmp."
@@ -1578,7 +1488,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnsysadmin.xml:37 (None)
+#: ../rnsysadmin.xml:36 (None)
 msgid ""
 "@@image: 'figures/figure-gnome-system-tools.png'; "
 "md5=65e08a4a7947a0a4c0638c249cb30e7a"
@@ -1638,39 +1548,45 @@ msgstr "Ändringar tillämpas omedelbart där så är lämpligt."
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr "GNOME 2.10 kommer med en del förbättringar, inklusive <placeholder-1/>"
 
-#: ../rnsysadmin.xml:47 (title)
+#: ../rnsysadmin.xml:33 (title)
+msgid "The Clock, Network, and Users/Groups tools"
+msgstr "Klock-, nätverks- och användar-/gruppverktygen"
+
+#: ../rnsysadmin.xml:38 (phrase)
+msgid "The Clock, Network, and Users/Groups tools."
+msgstr "Klock-, nätverks- och användar-/gruppverktygen."
+
+#: ../rnsysadmin.xml:46 (title)
 msgid "Log Viewer"
 msgstr "Loggvisare"
 
-#: ../rnsysadmin.xml:52 (para)
+#: ../rnsysadmin.xml:51 (para)
 msgid "Open multiple logs in the separate windows."
 msgstr "Öppna flera loggar i separata fönster."
 
-#: ../rnsysadmin.xml:53 (para)
+#: ../rnsysadmin.xml:52 (para)
 msgid "Open archived logs and logs on networked drives."
 msgstr "Öppna arkiverade loggar och loggar på nätverksenheter."
 
-#: ../rnsysadmin.xml:54 (para)
+#: ../rnsysadmin.xml:53 (para)
 msgid "Copy logs to the clipboard."
 msgstr "Kopiera loggar till urklipp."
 
-#: ../rnsysadmin.xml:49 (para)
+#: ../rnsysadmin.xml:48 (para)
 msgid ""
 "The GNOME log viewer has added a handy find feature, and an improved monitor "
-"mode. In addition, it can now <placeholder-1/><figure id=\"rnscreenshot-"
-"sysadmin-logviewer\"><title>The Log Viewer</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Log Viewer, during a search.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"mode. In addition, it can now <placeholder-1/>"
 msgstr ""
 "Loggvisaren i GNOME har en praktisk sökfunktion och ett förbättrat "
-"övervakningsläge. Dessutom kan den nu <placeholder-1/><figure id="
-"\"rnscreenshot-sysadmin-logviewer\"><title>Loggvisaren</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Loggvisaren under en sökning.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"övervakningsläge. Dessutom kan den nu <placeholder-1/>"
+
+#: ../rnsysadmin.xml:58 (title)
+msgid "The Log Viewer"
+msgstr "Loggvisaren"
+
+#: ../rnsysadmin.xml:63 (phrase)
+msgid "The Log Viewer, during a search."
+msgstr "Loggvisaren under en sökning."
 
 #: ../rnthemes.xml:2 (title)
 msgid "Themes"
@@ -1678,7 +1594,7 @@ msgstr "Teman"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:23 (None)
+#: ../rnutilities.xml:24 (None)
 msgid ""
 "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 msgstr ""
@@ -1686,13 +1602,17 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:41 (None)
-msgid "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+#: ../rnutilities.xml:42 (None)
+msgid ""
+"@@image: 'figures/figure-file-roller.png'; "
+"md5=229f9191244247839f225df468a9c60c"
+msgstr ""
+"@@image: 'figures/figure-file-roller.png'; "
+"md5=229f9191244247839f225df468a9c60c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:60 (None)
+#: ../rnutilities.xml:61 (None)
 msgid ""
 "@@image: 'figures/figure-dictionary.png'; "
 "md5=2c1962519057406be57f4b1b76604973"
@@ -1702,7 +1622,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:78 (None)
+#: ../rnutilities.xml:79 (None)
 msgid ""
 "@@image: 'figures/figure-floppy-formatter.png'; "
 "md5=cc67b69fcf0049807a6b9656aa0d17e7"
@@ -1718,7 +1638,7 @@ msgstr "Verktyg"
 msgid "The GNOME utilities have some improvements, such as:"
 msgstr "GNOME-verktygen har en del förbättringar, som till exempel:"
 
-#: ../rnutilities.xml:13 (title)
+#: ../rnutilities.xml:13 (title) ../rnutilities.xml:21
 msgid "Text Editor"
 msgstr "Textredigerare"
 
@@ -1740,22 +1660,17 @@ msgstr ""
 msgid ""
 "Many people will be glad to see that it no longer suggests saving changes "
 "when all changes have actually been undone. And in addition it even starts "
-"faster than previous versions. <figure id=\"rnscreenshot-gedit\"><title>Text "
-"Editor</title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The text editor, highlighting the current "
-"line.</phrase></textobject></mediaobject></screenshot></figure>"
+"faster than previous versions."
 msgstr ""
 "Många kommer att glädjas över att den inte längre föreslår att ändringar ska "
 "sparas när alla ändringar i själva verket har ångrats. Förutom detta startar "
-"den även snabbare än tidigare versioner. <figure id=\"rnscreenshot-gedit"
-"\"><title>Textredigerare</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Textredigeraren, färgmarkerandes den "
-"aktuella raden.</phrase></textobject></mediaobject></screenshot></figure>"
+"den även snabbare än tidigare versioner."
 
-#: ../rnutilities.xml:33 (title)
+#: ../rnutilities.xml:25 (phrase)
+msgid "The text editor, highlighting the current line."
+msgstr "Textredigeraren, färgmarkerandes den aktuella raden."
+
+#: ../rnutilities.xml:33 (title) ../rnutilities.xml:39
 msgid "Archive Manager"
 msgstr "Arkivhanterare"
 
@@ -1764,24 +1679,18 @@ msgid ""
 "The GNOME archive manager can now open more types of archive, including AR, "
 "Debian, and 7-zip archives, and password-protected RAR archives. And if you "
 "use the single-click preference in the file manager, then the archive "
-"manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller"
-"\"><title>Archive Manager</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The archive manager, asking for a password "
-"for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
+"manager will now use single clicks too."
 msgstr ""
 "Arkivhanteraren i GNOME kan nu öppna fler typer av arkiv, inklusive AR-, "
 "Debian- och 7-zip-arkiv, och lösenordsskyddade RAR-arkiv. Och om du använder "
 "inställningen för enkelklick i filhanteraren kommer arkivhanteraren nu också "
-"att använda enkelklick. <figure id=\"rnscreenshot-fileroller"
-"\"><title>Arkivhanterare</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Arkivhanteraren, frågandes efter lösenordet "
-"för en RAR-fil.</phrase></textobject></mediaobject></screenshot></figure>"
+"att använda enkelklick."
 
-#: ../rnutilities.xml:52 (title)
+#: ../rnutilities.xml:43 (phrase)
+msgid "The archive manager, asking for a password for a RAR file."
+msgstr "Arkivhanteraren, frågandes efter lösenordet för en RAR-fil."
+
+#: ../rnutilities.xml:52 (title) ../rnutilities.xml:58
 msgid "Dictionary"
 msgstr "Ordbok"
 
@@ -1789,43 +1698,31 @@ msgstr "Ordbok"
 msgid ""
 "The GNOME Dictionary now suggests words when you aren't sure how to spell "
 "something. The definitions also contain links to external dictionary web "
-"sites, and the definitions can be printed. <figure id=\"rnscreenshot-"
-"dictionary\"><title>Dictionary</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The dictionary, suggesting possible "
-"spellings and a definition.</phrase></textobject></mediaobject></"
-"screenshot></figure>"
+"sites, and the definitions can be printed."
 msgstr ""
 "Ordboken i GNOME föreslår nu ord när du inte är säker på hur de stavas. "
 "Definitionerna innehåller även länkar till externa ordbokswebbplatser, och "
-"definitionerna kan skrivas ut. <figure id=\"rnscreenshot-dictionary"
-"\"><title>Ordbok</title><screenshot><mediaobject><imageobject><imagedata "
-"fileref=\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Ordboken, föreslåendes möjliga stavningar "
-"och en definition.</phrase></textobject></mediaobject></screenshot></figure>"
+"definitionerna kan skrivas ut."
 
-#: ../rnutilities.xml:70 (title)
+#: ../rnutilities.xml:62 (phrase)
+msgid "The dictionary, suggesting possible spellings and a definition."
+msgstr "Ordboken, föreslåendes möjliga stavningar och en definition."
+
+#: ../rnutilities.xml:70 (title) ../rnutilities.xml:76
 msgid "Floppy Formatter"
 msgstr "Diskettformateraren"
 
 #: ../rnutilities.xml:72 (para)
 msgid ""
 "The GNOME Floppy Formatter utility now supports removable drives, such as "
-"USB drives, using the standard HAL system from freedesktop.org. <figure id="
-"\"rnscreenshot-floppy\"><title>Floppy Formatter</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"USB drives, using the standard HAL system from freedesktop.org."
 msgstr ""
 "Diskettformateraren i GNOME stöder nu löstagbara enheter, som till exempel "
-"USB-enheter, genom att använda HAL-standardsystemet från freedesktop.org. "
-"<figure id=\"rnscreenshot-floppy\"><title>Diskettformaterare</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Formatering av en diskett.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"USB-enheter, genom att använda HAL-standardsystemet från freedesktop.org."
+
+#: ../rnutilities.xml:80 (phrase)
+msgid "Formatting a floppy disk."
+msgstr "Formatering av en diskett."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../rnutilities.xml:0 (None)
@@ -1834,44 +1731,383 @@ msgstr ""
 "Christian Rose\n"
 "Skicka synpunkter på översättningen till sv@li.org"
 
-#~ msgid "The new modem control applet"
-#~ msgstr "Det nya panelprogrammet för modemstyrning"
+#~ msgid ""
+#~ "<screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-desktop.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The GNOME Desktop</phrase></textobject></"
+#~ "mediaobject></screenshot> The GNOME 2.10 Desktop is the latest release of "
+#~ "the ever popular, multi-platform free desktop environment."
+#~ msgstr ""
+#~ "<screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-desktop.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>GNOME-skrivbordet</phrase></textobject></"
+#~ "mediaobject></screenshot> Skrivbordsmiljön GNOME 2.10 är den senaste "
+#~ "utgåvan av den mycket populära och fria skrivbordsmiljön för flera "
+#~ "plattformar."
 
-#~ msgid "a Trashcan on your Panel"
-#~ msgstr "en papperskorg på din panel"
+#~ msgid ""
+#~ "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
+#~ "with GNOME System Tools. <figure id=\"rnscreenshot-applet-modem"
+#~ "\"><title>The new modem control applet</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The new modem control applet</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME 2.10 introducerar ett nytt panelprogram för styrningen av ditt "
+#~ "modem, ett panelprogram som är integrerat med GNOME-systemverktygen. "
+#~ "<figure id=\"rnscreenshot-applet-modem\"><title>Det nya panelprogrammet "
+#~ "för modemstyrning</title><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Det nya panelprogrammet för "
+#~ "modemstyrning</phrase></textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "Drive Mount"
-#~ msgstr "Enhetsmontering"
+#~ msgid ""
+#~ "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
+#~ "trashcan on your desktop, you can now drag and drop files and other items "
+#~ "into the trash without minimising your open windows. <figure id="
+#~ "\"rnscreenshot-applet-trash\"><title>a Trashcan on your Panel</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Drag trash to your panel</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME 2.10 har en valfri papperskorg för din panel. Precis som "
+#~ "papperskorgen på ditt skrivbord kan du nu dra och släppa filer och andra "
+#~ "objekt på papperskorgen utan att förminska dina öppna fönster. <figure id="
+#~ "\"rnscreenshot-applet-trash\"><title>en papperskorg på din panel</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Drag skräp till din panel</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "Weather Report"
-#~ msgstr "Väderrapport"
+#~ msgid ""
+#~ "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, "
+#~ "DVDs, and USB memory sticks. Now the volume mounter applet helps you to "
+#~ "use these volumes without the difficulty of finding their icons on the "
+#~ "desktop, behind your open windows. The applet shows the currently mounted "
+#~ "(or unmountable) volumes, allowing you to mount them, eject them, or open "
+#~ "them in the file manager. <figure id=\"rnscreenshot-applet-drivemount"
+#~ "\"><title>Drive Mount</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The drive mount applet.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME 2.8 lät dig enklare montera dina digitala media, som till exempel "
+#~ "cd-skivor, dvd-skivor och USB-minnespinnar. Nu hjälper "
+#~ "volymmonteringspanelprogrammet dig att använda dessa volymer utan "
+#~ "svårigheten att hitta deras ikoner på skrivbordet, bakom alla dina öppna "
+#~ "program. Panelprogrammet visar de för tillfället monterade (eller "
+#~ "avmonteringsbara) volymerna och låter dig montera dem, mata ut dem, eller "
+#~ "öppna dem i filhanteraren. <figure id=\"rnscreenshot-applet-drivemount"
+#~ "\"><title>Enhetsmontering</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Panelprogrammet för enhetsmontering.</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "Monitor CPU Frequency Scaling"
-#~ msgstr "Övervaka processorfrekvensskalning"
+#~ msgid ""
+#~ "The weather monitor can now show even more locations then before, and the "
+#~ "location names have been translated into non-english languages where "
+#~ "appropriate. In addition, the forecast now includes sunrise and sunset "
+#~ "calculations for most locations. <figure id=\"rnscreenshot-applet-weather"
+#~ "\"><title>Weather Report</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The weather report applet.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Väderövervakaren kan nu visa ännu fler platser än tidigare, och namnen på "
+#~ "platserna har översatts till icke-engelska språk där så varit lämpligt. "
+#~ "Dessutom inkluderar prognosen numera de beräknade tiderna för soluppgång "
+#~ "och solnedgång för de flesta platser. <figure id=\"rnscreenshot-applet-"
+#~ "weather\"><title>Väderrapport</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Panelprogrammet för väderrapporter.</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "The video player"
-#~ msgstr "Videospelaren"
+#~ msgid ""
+#~ "GNOME now includes an applet to monitor your laptop's processor speed. "
+#~ "The CPU Frequency Monitor watches variable-speed processors (such as "
+#~ "those with Intel Speedstep or AMD PowerNow) to show their current status. "
+#~ "You may even choose a different speed if you don't have automatic "
+#~ "frequency scaling enabled. <figure id=\"rnscreenshot-applet-cpufreq"
+#~ "\"><title>Monitor CPU Frequency Scaling</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME inkluderar numera ett panelprogram för att övervaka "
+#~ "processorhastigheten i din bärbara dator. Processorfrekvensövervakaren "
+#~ "bevakar processorer med variable hastigheter (som till exempel de med "
+#~ "Intel Speedstep eller AMD PowerNow) för att visa deras aktuella status. "
+#~ "Du kan till och med välja en annan hastighet om du inte har aktiverat "
+#~ "automatisk frekvensskalning. <figure id=\"rnscreenshot-applet-cpufreq"
+#~ "\"><title>Övervaka skalning av processorfrekvenser</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Övervaka skalning av processorfrekvenser</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "The audio extractor"
-#~ msgstr "Ljudextraheraren"
+#~ msgid ""
+#~ "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
+#~ "GStreamer multimedia framework. Totem provides the intuitive user "
+#~ "interface that GNOME users expect, with automatic hardware detection "
+#~ "instead of complex configuration. <figure id=\"rnscreenshot-totem"
+#~ "\"><title>The video player</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The Totem video player.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "GNOME 2.10 inkluderar nu den populära videospelaren Totem, som använder "
+#~ "GNOME:s GStreamer-multimediaramverk. Totem erbjuder det intuitiva "
+#~ "användargränssnitt som GNOME-användare förväntar sig, med automatisk "
+#~ "hårdvarudetektering istället för krånglig konfiguration. <figure id="
+#~ "\"rnscreenshot-totem\"><title>Videospelaren</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Videospelaren Totem.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "The web browser"
-#~ msgstr "Webbläsaren"
+#~ msgid ""
+#~ "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs "
+#~ "for later playback on your PC or portable music player. Thanks to "
+#~ "automatic downloading of song titles, you won't need to click more than a "
+#~ "couple of buttons. <figure id=\"rnscreenshot-soundjuicer\"><title>The "
+#~ "audio extractor</title><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The audio extractor.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Den högt älskade \"cd-ripparen\" Sound Juicer extraherar enkelt ljud från "
+#~ "cd-skivor så att de senare kan spelas på din dator eller din portabla "
+#~ "musikspelare. Tack vare automatisk hämtning av låttitlar behöver du inte "
+#~ "längre klicka på mer än ett par knappar. <figure id=\"rnscreenshot-"
+#~ "soundjuicer\"><title>Ljudextraheraren</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Ljudextraheraren.</phrase></textobject></"
+#~ "mediaobject></screenshot></figure>"
 
-#~ msgid "The email client"
-#~ msgstr "E-postklienten"
+#~ msgid ""
+#~ "Now you can even browse for other Gnome Meeting users on your local "
+#~ "network without discovering their contact details first. And you can view "
+#~ "your own video output side by side with the video from your conversation "
+#~ "partner, so you see what they see. <figure id=\"rnscreenshot-gnomemeeting"
+#~ "\"><title>The internet telephony and video conferencing client</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Nu kan du till och med söka efter andra GnomeMeeting-användare på ditt "
+#~ "lokala nätverk utan att ta reda på deras kontaktdetaljer först. Du kan "
+#~ "också visa din egen videoutmatning bredvid videobilden från din "
+#~ "samtalspartner, så att du ser vad de ser. <figure id=\"rnscreenshot-"
+#~ "gnomemeeting\"><title>Klienten för Internettelefoni och videokonferenser</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>GnomeMeeting med videobilder sida-vid-"
+#~ "sida.</phrase></textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "The internet telephony and video conferencing client"
-#~ msgstr "Klienten för Internettelefoni och videokonferenser"
+#~ msgid ""
+#~ "Selecting a keyboard layout is now simpler with the Keyboard control "
+#~ "panel. Just click Add to choose from a list of international keyboard "
+#~ "layouts. Before making your choice you can see the effect of key presses "
+#~ "in the layout preview. The Layout Options section has also been "
+#~ "reorganized as a simpler list of choices. <figure id=\"rnscreenshot-"
+#~ "controlpanel-keyboardlayouts\"><title>Keyboard Preferences - Layouts</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/"
+#~ "></imageobject><textobject><phrase>The Layouts tab, in the Keyboard "
+#~ "Preferences control panel, while adding a new layout.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Att välja en tangentbordslayout är nu enklare med "
+#~ "tangentbordskontrollpanelen. Klicka bara på Lägg till för att välja från "
+#~ "en lista med internationella tangentbordslayouter. Innan du gör ditt val "
+#~ "kan du se resultatet av alla tangenttryckningar i "
+#~ "layoutförhandsvisningen. Avdelningen Layoutalternativ har också "
+#~ "organiserats om till en enklare lista med val. <figure id=\"rnscreenshot-"
+#~ "controlpanel-keyboardlayouts\"><title>Tangentbordsinställningar - "
+#~ "Layouter</title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/"
+#~ "></imageobject><textobject><phrase>Fliken layouter i kontrollpanelen för "
+#~ "tangentbordsinställningar, då en ny layout läggs till.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
 
-#~ msgid "Keyboard Preferences - Layouts"
-#~ msgstr "Tangentbordsinställningar - Layouter"
+#~ msgid "Arabic (235 million)"
+#~ msgstr "Arabiska (235 miljoner)"
 
-#~ msgid "The Clock, Network, and Users/Groups tools"
-#~ msgstr "Klock-, nätverks- och användar-/gruppverktygen"
+#~ msgid "Azerbaijani (28 million)"
+#~ msgstr "Azerbajdzjanska (28 miljoner)"
 
-#~ msgid "The Log Viewer"
-#~ msgstr "Loggvisaren"
+#~ msgid "Basque (580,000)"
+#~ msgstr "Baskiska (580 000)"
+
+#~ msgid "Belarusian (7 million)"
+#~ msgstr "Vitryska (7 miljoner)"
+
+#~ msgid "Bengali (189 million)"
+#~ msgstr "Bengali (189 miljoner)"
+
+#~ msgid "Bosnian (3 million)"
+#~ msgstr "Bosniska (3 miljoner)"
+
+#~ msgid "Croatian (5 million)"
+#~ msgstr "Kroatiska (5 miljoner)"
+
+#~ msgid "Estonian (1 million)"
+#~ msgstr "Estniska (1 miljon)"
+
+#~ msgid "Indonesian (25 million)"
+#~ msgstr "Indonesiska (25 miljoner)"
+
+#~ msgid "Macedonian (1.5 million)"
+#~ msgstr "Makedonska (1,5 miljoner)"
+
+#~ msgid "Malay (over 17 million)"
+#~ msgstr "Malajiska (över 17 miljoner)"
+
+#~ msgid "Mongolian (10 million)"
+#~ msgstr "Mongoliska (10 miljoner)"
+
+#~ msgid "Norwegian Nynorsk (2 million)"
+#~ msgstr "Norska, nynorsk (2 miljoner)"
+
+#~ msgid "Romanian (26 million)"
+#~ msgstr "Rumänska (26 miljoner)"
+
+#~ msgid "Slovak (5 million)"
+#~ msgstr "Slovakiska (5 miljoner)"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamesiska"
+
+#~ msgid ""
+#~ "Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian "
+#~ "Nynorsk, Panjabi and Tamil are new supported languages in GNOME 2.10, "
+#~ "thanks to the hard work of their translators. Also worthy of mention is "
+#~ "that British English and Canadian English are also supported."
+#~ msgstr ""
+#~ "Observera att baskiska, bulgariska, gujarati, hindi, ungerska, nynorsk, "
+#~ "punjabi och tamil är nya språk som stöds i GNOME 2.10, tack vare det "
+#~ "hårda arbete som deras översättare utfört. Nämnvärt är också att brittisk "
+#~ "engelska och kanadensisk engelska också stöds."
+
+#~ msgid ""
+#~ "Another 9 languages are partially supported, with more than half of their "
+#~ "strings translated. Croatian and Mongolian are particularly close to "
+#~ "\"supported\" status."
+#~ msgstr ""
+#~ "Ytterligare 9 språk stöds delvis, med mer än hälften av strängarna "
+#~ "översatta. Kroatiska och mongoliska är särskilt nära att stödjas."
+
+#~ msgid ""
+#~ "The GNOME log viewer has added a handy find feature, and an improved "
+#~ "monitor mode. In addition, it can now <placeholder-1/><figure id="
+#~ "\"rnscreenshot-sysadmin-logviewer\"><title>The Log Viewer</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The Log Viewer, during a search.</"
+#~ "phrase></textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Loggvisaren i GNOME har en praktisk sökfunktion och ett förbättrat "
+#~ "övervakningsläge. Dessutom kan den nu <placeholder-1/><figure id="
+#~ "\"rnscreenshot-sysadmin-logviewer\"><title>Loggvisaren</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Loggvisaren under en sökning.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgstr ""
+#~ "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+
+#~ msgid ""
+#~ "Many people will be glad to see that it no longer suggests saving changes "
+#~ "when all changes have actually been undone. And in addition it even "
+#~ "starts faster than previous versions. <figure id=\"rnscreenshot-gedit"
+#~ "\"><title>Text Editor</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The text editor, highlighting the current "
+#~ "line.</phrase></textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Många kommer att glädjas över att den inte längre föreslår att ändringar "
+#~ "ska sparas när alla ändringar i själva verket har ångrats. Förutom detta "
+#~ "startar den även snabbare än tidigare versioner. <figure id="
+#~ "\"rnscreenshot-gedit\"><title>Textredigerare</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Textredigeraren, färgmarkerandes den "
+#~ "aktuella raden.</phrase></textobject></mediaobject></screenshot></figure>"
+
+#~ msgid ""
+#~ "The GNOME archive manager can now open more types of archive, including "
+#~ "AR, Debian, and 7-zip archives, and password-protected RAR archives. And "
+#~ "if you use the single-click preference in the file manager, then the "
+#~ "archive manager will now use single clicks too. <figure id=\"rnscreenshot-"
+#~ "fileroller\"><title>Archive Manager</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The archive manager, asking for a "
+#~ "password for a RAR file.</phrase></textobject></mediaobject></"
+#~ "screenshot></figure>"
+#~ msgstr ""
+#~ "Arkivhanteraren i GNOME kan nu öppna fler typer av arkiv, inklusive AR-, "
+#~ "Debian- och 7-zip-arkiv, och lösenordsskyddade RAR-arkiv. Och om du "
+#~ "använder inställningen för enkelklick i filhanteraren kommer "
+#~ "arkivhanteraren nu också att använda enkelklick. <figure id="
+#~ "\"rnscreenshot-fileroller\"><title>Arkivhanterare</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Arkivhanteraren, frågandes efter "
+#~ "lösenordet för en RAR-fil.</phrase></textobject></mediaobject></"
+#~ "screenshot></figure>"
+
+#~ msgid ""
+#~ "The GNOME Dictionary now suggests words when you aren't sure how to spell "
+#~ "something. The definitions also contain links to external dictionary web "
+#~ "sites, and the definitions can be printed. <figure id=\"rnscreenshot-"
+#~ "dictionary\"><title>Dictionary</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>The dictionary, suggesting possible "
+#~ "spellings and a definition.</phrase></textobject></mediaobject></"
+#~ "screenshot></figure>"
+#~ msgstr ""
+#~ "Ordboken i GNOME föreslår nu ord när du inte är säker på hur de stavas. "
+#~ "Definitionerna innehåller även länkar till externa ordbokswebbplatser, "
+#~ "och definitionerna kan skrivas ut. <figure id=\"rnscreenshot-dictionary"
+#~ "\"><title>Ordbok</title><screenshot><mediaobject><imageobject><imagedata "
+#~ "fileref=\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Ordboken, föreslåendes möjliga stavningar "
+#~ "och en definition.</phrase></textobject></mediaobject></screenshot></"
+#~ "figure>"
+
+#~ msgid ""
+#~ "The GNOME Floppy Formatter utility now supports removable drives, such as "
+#~ "USB drives, using the standard HAL system from freedesktop.org. <figure "
+#~ "id=\"rnscreenshot-floppy\"><title>Floppy Formatter</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
+#~ msgstr ""
+#~ "Diskettformateraren i GNOME stöder nu löstagbara enheter, som till "
+#~ "exempel USB-enheter, genom att använda HAL-standardsystemet från "
+#~ "freedesktop.org. <figure id=\"rnscreenshot-floppy"
+#~ "\"><title>Diskettformaterare</"
+#~ "title><screenshot><mediaobject><imageobject><imagedata fileref="
+#~ "\"&urlfiguresbase;figure-floppy-formatter.png\" format=\"PNG\"/></"
+#~ "imageobject><textobject><phrase>Formatering av en diskett.</phrase></"
+#~ "textobject></mediaobject></screenshot></figure>"
 
 #~ msgid ""
 #~ "The GNOME log viewer has added a handy find feature, and an improved "
@@ -1879,50 +2115,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Loggvisaren i GNOME har en praktisk sökfunktion och ett förbättrat "
 #~ "övervakningsläge. Dessutom kan den nu <placeholder-2/>"
-
-#~ msgid ""
-#~ "Many people will be glad to see that it no longer suggests saving changes "
-#~ "when all changes have actually been undone. And in addition it even "
-#~ "starts faster than previous versions."
-#~ msgstr ""
-#~ "Många kommer att glädjas över att den inte längre föreslår att ändringar "
-#~ "ska sparas när alla ändringar i själva verket har ångrats. Förutom detta "
-#~ "startar den även snabbare än tidigare versioner."
-
-#~ msgid ""
-#~ "The GNOME archive manager can now open more types of archive, including "
-#~ "AR, Debian, and 7-zip archives, and password-protected RAR archives. And "
-#~ "if you use the single-click preference in the file manager, then the "
-#~ "archive manager will now use single clicks too."
-#~ msgstr ""
-#~ "Arkivhanteraren i GNOME kan nu öppna fler typer av arkiv, inklusive AR-, "
-#~ "Debian- och 7-zip-arkiv, och lösenordsskyddade RAR-arkiv. Och om du "
-#~ "använder inställningen för enkelklick i filhanteraren kommer "
-#~ "arkivhanteraren nu också att använda enkelklick."
-
-#~ msgid ""
-#~ "The GNOME Dictionary now suggests words when you aren't sure how to spell "
-#~ "something. The definitions also contain links to external dictionary web "
-#~ "sites, and the definitions can be printed."
-#~ msgstr ""
-#~ "Ordboken i GNOME föreslår nu ord när du inte är säker på hur de stavas. "
-#~ "Definitionerna innehåller även länkar till externa ordbokswebbplatser, "
-#~ "och definitionerna kan skrivas ut."
-
-#~ msgid ""
-#~ "The GNOME Floppy Formatter utility now supports removable drives, such as "
-#~ "USB drives, using the standard HAL system from freedesktop.org."
-#~ msgstr ""
-#~ "Diskettformateraren i GNOME stöder nu löstagbara enheter, som till "
-#~ "exempel USB-enheter, genom att använda HAL-standardsystemet från "
-#~ "freedesktop.org."
-
-#~ msgid ""
-#~ "The GNOME log viewer has added a handy find feature, and an improved "
-#~ "monitor mode. In addition, it can now <placeholder-1/>"
-#~ msgstr ""
-#~ "Loggvisaren i GNOME har en praktisk sökfunktion och ett förbättrat "
-#~ "övervakningsläge. Dessutom kan den nu <placeholder-1/>"
 
 #~ msgid "Albanian (5 million)"
 #~ msgstr "Albanska (5 miljoner)"
@@ -2070,110 +2262,6 @@ msgstr ""
 
 #~ msgid "Keyboard Preferences"
 #~ msgstr "Tangentbordsinställningar"
-
-#~ msgid ""
-#~ "Selecting a keyboard layout is now simpler with the Keyboard control "
-#~ "panel. Just click Add to choose from a list of international keyboard "
-#~ "layouts. Before making your choice you can see the effect of key presses "
-#~ "in the layout preview. The Layout Options section has also been "
-#~ "reorganized as a simpler list of choices."
-#~ msgstr ""
-#~ "Att välja en tangentbordslayout är nu enklare med "
-#~ "tangentbordskontrollpanelen. Klicka bara på Lägg till för att välja från "
-#~ "en lista med internationella tangentbordslayouter. Innan du gör ditt val "
-#~ "kan du se resultatet av alla tangenttryckningar i "
-#~ "layoutförhandsvisningen. Avdelningen Layoutalternativ har också "
-#~ "organiserats om till en enklare lista med val."
-
-#~ msgid ""
-#~ "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
-#~ "GStreamer multimedia framework. Totem provides the intuitive user "
-#~ "interface that GNOME users expect, with automatic hardware detection "
-#~ "instead of complex configuration."
-#~ msgstr ""
-#~ "GNOME 2.10 inkluderar nu den populära videospelaren Totem, som använder "
-#~ "GNOME:s GStreamer-multimediaramverk. Totem erbjuder det intuitiva "
-#~ "användargränssnitt som GNOME-användare förväntar sig, med automatisk "
-#~ "hårdvarudetektering istället för krånglig konfiguration."
-
-#~ msgid ""
-#~ "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs "
-#~ "for later playback on your PC or portable music player. Thanks to "
-#~ "automatic downloading of song titles, you won't need to click more than a "
-#~ "couple of buttons."
-#~ msgstr ""
-#~ "Den högt älskade \"cd-ripparen\" Sound Juicer extraherar enkelt ljud från "
-#~ "cd-skivor så att de senare kan spelas på din dator eller din portabla "
-#~ "musikspelare. Tack vare automatisk hämtning av låttitlar behöver du inte "
-#~ "längre klicka på mer än ett par knappar."
-
-#~ msgid ""
-#~ "Now you can even browse for other Gnome Meeting users on your local "
-#~ "network without discovering their contact details first. And you can view "
-#~ "your own video output side by side with the video from your conversation "
-#~ "partner, so you see what they see."
-#~ msgstr ""
-#~ "Nu kan du till och med söka efter andra GnomeMeeting-användare på ditt "
-#~ "lokala nätverk utan att ta reda på deras kontaktdetaljer först. Du kan "
-#~ "också visa din egen videoutmatning bredvid videobilden från din "
-#~ "samtalspartner, så att du ser vad de ser."
-
-#~ msgid ""
-#~ "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
-#~ "trashcan on your desktop, you can now drag and drop files and other items "
-#~ "into the trash without minimising your open windows."
-#~ msgstr ""
-#~ "GNOME 2.10 har en valfri papperskorg för din panel. Precis som "
-#~ "papperskorgen på ditt skrivbord kan du nu dra och släppa filer och andra "
-#~ "objekt på papperskorgen utan att förminska dina öppna fönster."
-
-#~ msgid ""
-#~ "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, "
-#~ "DVDs, and USB memory sticks. Now the volume mounter applet helps you to "
-#~ "use these volumes without the difficulty of finding their icons on the "
-#~ "desktop, behind your open windows. The applet shows the currently mounted "
-#~ "(or unmountable) volumes, allowing you to mount them, eject them, or open "
-#~ "them in the file manager."
-#~ msgstr ""
-#~ "GNOME 2.8 lät dig enklare montera dina digitala media, som till exempel "
-#~ "cd-skivor, dvd-skivor och USB-minnespinnar. Nu hjälper "
-#~ "volymmonteringspanelprogrammet dig att använda dessa volymer utan "
-#~ "svårigheten att hitta deras ikoner på skrivbordet, bakom alla dina öppna "
-#~ "program. Panelprogrammet visar de för tillfället monterade (eller "
-#~ "avmonteringsbara) volymerna och låter dig montera dem, mata ut dem, eller "
-#~ "öppna dem i filhanteraren."
-
-#~ msgid ""
-#~ "The weather monitor can now show even more locations then before, and the "
-#~ "location names have been translated into non-english languages where "
-#~ "appropriate. In addition, the forecast now includes sunrise and sunset "
-#~ "calculations for most locations."
-#~ msgstr ""
-#~ "Väderövervakaren kan nu visa ännu fler platser än tidigare, och namnen på "
-#~ "platserna har översatts till icke-engelska språk där så varit lämpligt. "
-#~ "Dessutom inkluderar prognosen numera de beräknade tiderna för soluppgång "
-#~ "och solnedgång för de flesta platser."
-
-#~ msgid ""
-#~ "GNOME now includes an applet to monitor your laptop's processor speed. "
-#~ "The CPU Frequency Monitor watches variable-speed processors (such as "
-#~ "those with Intel Speedstep or AMD PowerNow) to show their current status. "
-#~ "You may even choose a different speed if you don't have automatic "
-#~ "frequency scaling enabled."
-#~ msgstr ""
-#~ "GNOME inkluderar numera ett panelprogram för att övervaka "
-#~ "processorhastigheten i din bärbara dator. Processorfrekvensövervakaren "
-#~ "bevakar processorer med variable hastigheter (som till exempel de med "
-#~ "Intel Speedstep eller AMD PowerNow) för att visa deras aktuella status. "
-#~ "Du kan till och med välja en annan hastighet om du inte har aktiverat "
-#~ "automatisk frekvensskalning."
-
-#~ msgid ""
-#~ "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
-#~ "platform free desktop environment."
-#~ msgstr ""
-#~ "Skrivbordsmiljön GNOME 2.10 är den senaste utgåvan av den evigt populära "
-#~ "och fria skrivbordsmiljön för flera plattformar."
 
 #~ msgid ""
 #~ "For developers, there is much exciting progress to be made in any of our "
