@@ -1,8 +1,6 @@
 <sect2 id="rngnomeutilities">
   <title>Utilities</title>
 
-  <para>TODO: There must be more utilities to mention here.</para> 
-
   <sect3><title>Text Editor</title>
     <para>The gedit text-editor now provides spell-checking. And there's an output window to show feedback when doing special processing.</para>
 
@@ -22,7 +20,7 @@
 <figure>
   <title>Image View </title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;util_eogTODO.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;util_eog.png"/>
   </screenshot>
 </figure> 
   </sect3>
@@ -37,7 +35,7 @@ later this year.</para>
 <figure>
   <title>Character Map</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;util_charactermapTODO.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;util_charactermap.png"/>
   </screenshot>
 </figure>
 

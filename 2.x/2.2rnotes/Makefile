@@ -1,4 +1,4 @@
-DOCBOOK_STYLESHEET ?= customhtml.xsl
+DOCBOOK_STYLESHEET ?= toccustom.xsl
 
 docbook_sources = release-notes.xml rnfileroller.xml rni18n.xml rnmultimedia.xml rnterminal.xml rnwhy.xml \
                   rndesktop.xml rnfonts.xml rnmultihead.xml rnpanel.xml rnthemes.xml rnwm.xml \
@@ -10,7 +10,7 @@ html/index.html: $(docbook_sources)
 	-rm -rf html
 	mkdir html
 	cp release.css html/
-	xsltproc -o html/ --catalogs --xinclude $(DOCBOOK_STYLESHEET) $<
+	xsltproc -o html/ --xinclude --catalogs $(DOCBOOK_STYLESHEET) $<
 
 
 validate: release-notes.xml
