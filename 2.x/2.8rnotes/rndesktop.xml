@@ -76,7 +76,25 @@
       <listitem><para>The CD burner's preferences dialog has been simplified.</para></listitem>
     </itemizedlist>
   </para>
-
+ 
   </sect3>
 
+  <sect3>
+  <title>Desktop</title>
+  <para>GNOME contains several user interface themes, allowing you to change the appearance of your whole environment via the themes control panel. And GNOME &version; contains the new &quot;Glider&quot; theme. It's intended to be simple yet attractive.</para>
+
+  <para>  
+    <figure id="rnscreenshot-theme-glider">
+      <title>The Glider theme.</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;theme-glider.png" format="PNG"/>
+            </imageobject>
+            <textobject><phrase>The Glider theme</phrase></textobject>
+          </mediaobject>
+       </screenshot>
+     </figure>
+  </para>
+
+  </sect3>
 </sect2>

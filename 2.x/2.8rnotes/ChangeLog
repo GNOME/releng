@@ -1,5 +1,11 @@
 2004-09-13  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnplatform.xml: Added links to the bindings projects, so people have 
+	a route to the documentation.
+	* rndesktop.xml: Added a section for the new Glider theme.
+
+2004-09-13  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnapplications.xml: Added more evo 2 changes, from 
 	www.novell.com/products/evolution/
 

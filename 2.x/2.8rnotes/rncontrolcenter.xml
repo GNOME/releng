@@ -1,5 +1,3 @@
-<!-- not being built -->
-
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
@@ -12,56 +10,16 @@
   <sect3 id="rn-controlcenter-keyboard">
   <title>Keyboard Layouts</title>
 
-    <para>GNOME &version; makes it easier to use multiple keyboard layouts. For instance, you might want to change from a U.S.
-    English keyboard layout to a Russian keyboard layout, and then back again, to enter one Russian word in the middle of an
-    english sentence. This is particularly useful to the millions of people in the world who regularly communicate in more than one
-    language. You could click on the Keyboard Indicator panel applet to switch layouts, or you might choose a key combination
-    instead, such as pressing both shift keys together.
+    <para>The Keyboard control panel can now show an on-screen preview of each keyboard layout. Just press the key on your keyboard to see how it will be recognised with the layout.
 
     <figure id="rnscreenshot-controlpanel-keyboardlayouts">
       <title>Keyboard Preferences - Layouts</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardlayouts.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardlayouts-preview.png" format="PNG"/>
             </imageobject>
-          <textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel.</phrase></textobject>
+          <textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel, with a layout preview.</phrase></textobject>
         </mediaobject>
-      </screenshot>
-    </figure>
-    </para>
-
-    <para>GNOME &version; also integrates the multimedia keys into the regular Keyboard
-    Shortcuts control panel, making it easy to use your keyboard's special keys to change
-    volume or control music or video applications. This functionality was previously in the Acme utility.
-
-    <figure id="rnscreenshot-controlpanel-multimediakeys">
-     <title>Keyboard Shortcuts</title>
-       <screenshot>
-         <mediaobject>
-           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardshortcuts.png" format="PNG"/>
-           </imageobject>
-           <textobject><phrase>The Keyboard Shortcuts control panel.</phrase></textobject>
-         </mediaobject>
-      </screenshot>
-    </figure>
-    </para>
-
-  </sect3>
-
-  <sect3 id="rn-controlcenter-background">
-  <title>Desktop Background</title>
-
-    <para>GNOME &version; has a new easy-to-use Desktop Background control panel, which you can access quickly by
-    right-clicking on the desktop. When you add new pictures, it will remember whether each one should be scaled or tiled.
-
-    <figure id="rnscreenshot-controlpanel-background">
-     <title>Desktop Background</title>
-       <screenshot>
-         <mediaobject>
-           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-background.png" format="PNG"/>
-           </imageobject>
-           <textobject><phrase>The Desktop Background control panel.</phrase></textobject>
-         </mediaobject>
       </screenshot>
     </figure>
     </para>

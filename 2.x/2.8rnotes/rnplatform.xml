@@ -12,7 +12,7 @@
     <itemizedlist>
       <listitem><para>New API in gnome-vfs to allow detection of local servers via DNS-Based Service Discovery.</para></listitem>
       <listitem><para>New API is also wrapped in the Platform Bindings, which allow application in programming languages other than C.</para></listitem>
-      <listitem><para>GNOME &version; now includes official Python bindings, in addition to C++, Java, and Perl bindings.</para></listitem>
+      <listitem><para>GNOME &version; now includes official Python bindings, in addition to C++, Java, and Perl bindings, via the <ulink url="http://www.gtkmm.org/">gtkmm</ulink>, <ulink url="http://java-gnome.sourceforge.net/">java-gnome</ulink>, <ulink url="http://gtk2-perl.sourceforge.net/">gtk2-perl</ulink>, and <ulink url="http://www.pygtk.org/">pygtk</ulink> projects.</para></listitem>
     </itemizedlist>
 
     </para>
