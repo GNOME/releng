@@ -1,5 +1,11 @@
 2005-02-22  Murray Cumming  <murrayc@murrayc.com>
 
+	* releasenotes.xml: Use live.gnome.org/JoinGnome instead of the 
+	other pages, as suggested by Elijah, because this one is more up 
+	to date.
+
+2005-02-22  Murray Cumming  <murrayc@murrayc.com>
+
 	* Fixed some broken docbook tags.
 
 2005-02-22  Murray Cumming  <murrayc@murrayc.com>
