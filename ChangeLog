@@ -1,3 +1,8 @@
+2002-05-17  Glynn Foster  <glynn.foster@sun.com>
+		
+	* application_todos.pl: Remove the script too..even though it
+	was much more 1337 than Jeff's poopy perl script ;)
+
 2002-05-16  Glynn Foster  <glynn.foster@sun.com>
 
 	* 2.x/todo.gnome2: Removing in preference to bugzilla queries.
