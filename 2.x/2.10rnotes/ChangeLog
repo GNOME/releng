@@ -1,3 +1,7 @@
+2005-03-01  Murray Cumming  <murrayc@localhost.localdomain>
+
+	* release-notes.xml: Use ulink instead of a. 
+
 2005-03-01  Elijah Newren  <newren@gmail.com>
 
 	* release-notes.xml: Update the known issues section.  Still need
