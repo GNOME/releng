@@ -1,4 +1,4 @@
-body { background: #CCCC99 }
+body { background: lightgrey }
 
 p {
         margin-left: 200px;
@@ -51,7 +51,6 @@ h5.title {
 
 img	{
 	margin-left: 200px;
-	float: left;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	 }	 
@@ -72,7 +71,4 @@ div.navheader {
 	margin-right: 100px;
 }
 
-p img	{
 
-	 float: left;
-	 }	 

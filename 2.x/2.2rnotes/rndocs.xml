@@ -3,9 +3,8 @@
 
     <para>
   GNOME 2.2 comes with complete guides for users and admins, available
-  <ulink url="http://www.gnome.org/learn/">here</ulink>.
-    </para>
-
+  <ulink url="http://www.gnome.org/learn/">here</ulink>.  Each application
+    shipped with GNOME 2.2 includes full user documentation.</para>
 <para>
   Learn to manage GNOME in an enterprise environment with the <ulink url="http://www.gnome.org/learn/admin-guide/2.2/">
     System Administrator Guide</ulink>.

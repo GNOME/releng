@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- added by jfleck - this will be used to control chunking -->
+
 <toc role="chunk-toc">
   <tocentry linkend="index"><?dbhtml filename="index.html"?>
-<tocentry linkend="rndesktop"><?dbhtml filename="desktop.html"?>
+    <tocentry linkend="rnwhatsnew"><?dbhtml filename="rnwhatsnew.html"?>
     </tocentry>
-    <tocentry linkend="rnpanel"><?dbhtml filename="ar01s02.html"?>
+    <tocentry linkend="rnpanel"><?dbhtml filename="rnpanel.html"?>
     </tocentry>
-    <tocentry linkend="rnmultimedia"><?dbhtml filename="ar01s03.html"?>
+    <tocentry linkend="rnmultimedia"><?dbhtml filename="rnmultimedia.html"?>
     </tocentry>
-    <tocentry linkend="rnthemes"><?dbhtml filename="ar01s04.html"?>
+    <tocentry linkend="rnthemes"><?dbhtml filename="rnthemes.html"?>
     </tocentry>
-    <tocentry linkend="rnfonts"><?dbhtml filename="ar01s05.html"?>
+    <tocentry linkend="rnfonts"><?dbhtml filename="rnfonts.html"?>
     </tocentry>
-    <tocentry linkend="rnmultihead"><?dbhtml filename="ar01s06.html"?>
+    <tocentry linkend="rnmultihead"><?dbhtml filename="rnmultihead.html"?>
     </tocentry>
-    <tocentry linkend="rnwm"><?dbhtml filename="ar01s07.html"?>
+    <tocentry linkend="rnwm"><?dbhtml filename="rnwm.html"?>
     </tocentry>
-    <tocentry linkend="rnapplications"><?dbhtml filename="ar01s08.html"?>
+    <tocentry linkend="rnapplications"><?dbhtml filename="ar01s02.html"?>
     </tocentry>
-    <tocentry linkend="rndocs"><?dbhtml filename="ar01s09.html"?>
+    <tocentry linkend="rndocs"><?dbhtml filename="ar01s03.html"?>
     </tocentry>
-    <tocentry linkend="rni18n"><?dbhtml filename="ar01s10.html"?>
+    <tocentry linkend="rni18n"><?dbhtml filename="ar01s04.html"?>
     </tocentry>
-    <tocentry linkend="rnstandards"><?dbhtml filename="ar01s11.html"?>
+    <tocentry linkend="rnstandards"><?dbhtml filename="ar01s05.html"?>
     </tocentry>
-    <tocentry linkend="rnwhy"><?dbhtml filename="ar01s12.html"?>
+    <tocentry linkend="rnwhy"><?dbhtml filename="ar01s06.html"?>
     </tocentry>
-    <tocentry linkend="rninstallation"><?dbhtml filename="ar01s13.html"?>
+    <tocentry linkend="rninstallation"><?dbhtml filename="ar01s07.html"?>
     </tocentry>
-    <tocentry linkend="rnknownissues"><?dbhtml filename="ar01s14.html"?>
+    <tocentry linkend="rnknownissues"><?dbhtml filename="ar01s08.html"?>
     </tocentry>
-    <tocentry linkend="rngettinginvolved"><?dbhtml filename="ar01s15.html"?>
+    <tocentry linkend="rnlookingahead"><?dbhtml filename="ar01s09.html"?>
+    </tocentry>
+    <tocentry linkend="rngettinginvolved"><?dbhtml filename="ar01s10.html"?>
     </tocentry>
   </tocentry>
 </toc>
