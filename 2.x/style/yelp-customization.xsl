@@ -7,6 +7,9 @@
                 version='1.0'>
 
 <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/html/docbook.xsl"/>
+<!-- This might be better than /usr/share/..., but it causes a segfault for me. murrayc
+<xsl:import href="http://docbook.sourceforge.net/release/xsl/current/html/docbook.xsl"/>
+-->
 <xsl:include href="yelp-custom.xsl"/>
 <xsl:include href="yelp-functions.xsl"/>
 
