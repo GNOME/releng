@@ -2,8 +2,6 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.4.0">
-<!ENTITY rndesktop SYSTEM "rndesktop.xml">
-<!ENTITY rnpanel SYSTEM "rnpanel.xml">
 <!ENTITY rndocs SYSTEM "rndocs.xml">
 <!ENTITY rni18n SYSTEM "rni18n.xml">
 <!ENTITY rnwm SYSTEM "rnwm.xml">
@@ -12,7 +10,10 @@
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
-<article id="index">
+<!-- Conversion to use of xinclude is underway. To validate now requires use of -->
+<!-- the "xinclude" and "postvalid" command line options to xmllint             -->
+
+<article id="index" lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
   <articleinfo>
     <title>GNOME &version; Release Notes</title>
     <abstract>
@@ -29,7 +30,7 @@
 <!-- http://makeashorterlink.com/?S27F22875 bugzilla query to check fulfilled
       enhancement requests since 2.2 courtesy aldug -->
 
-      <para>GNOME 2.4 includes ? new applications and more than 100
+      <para>GNOME &version; includes 11 new applications and more than 100
       user-requested enhancements, evidence of the user-driven community
       development process used to create each GNOME release.</para>
 
@@ -39,8 +40,6 @@
     internationalization and accessibility infrastructure, including support for
     bi-directional text.</para>
     
-    <para>TODO: Overall description of activity since 2.2.</para>
-
     <para>GNOME provides a user-friendly environment that "just works"
     for everyday users, without excess complexity, while at the same
     time providing the rich flexibility experienced developers
@@ -58,9 +57,11 @@
     GNOME 2.2, which you can learn about <ulink
     url="http://www.gnome.org/start/2.2/notes/">here</ulink>.</para>
 
-    <para>The Desktop and Platform release does not include large applications
-      such as <application>Gnumeric</application> - those are developed in
-      parallel on their own natural release cycle.</para>
+    <para>The Desktop and Platform release contains all the applications needed
+	to provide basic user functionality. In addition, major applications
+	such as <application>Gnumeric</application> and
+	<application>Evolution</application> also are available, but are are
+	developed in parallel on their own natural release cycle.</para>
 
     <para>GNOME is part of the GNU Project, and is <ulink
     url="http://www.fsf.org/philosophy/free-sw.html">free
@@ -71,12 +72,9 @@
 <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
 
-<sect2 id="rndesktop">
-  &rndesktop;
-</sect2>
-<sect2 id="rnpanel">
-  &rnpanel;
-</sect2>
+<xi:include href="rndesktop.xml"/>
+
+
   </sect1>
   <sect1 id="rnapplications">
     <title>Applications</title>

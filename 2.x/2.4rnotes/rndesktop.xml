@@ -1,13 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY version "2.4.0">
+]>
+<sect2 id="rndesktop">
 
     <title>Desktop</title>
-    <para></para>
+    <para>  </para>
 
-    <sect3><title>The File Manager</title>
+    <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-    The user interface of Nautilus, the GNOME file manager, has undergone a
-    significant overhaul since the release of GNOME 2.0, making it easier to use
-    and more powerfully integrated with the rest of the desktop and applications.
+    Nautilus, the GNOME file manager, has added important functionality since
+    the release of GNOME 2.2, including an integrated drag-and-drop CD burner
+    and the ability to change the properties of multiple files simultaneously.
     </para>
+
+<!-- CD Burner screenshot 
+    <figure>
+      <title>CD Burner</title>
+      <screenshot>
+	<graphic>
+      </screenshot>
+    </figure>
+-->
+    <para>Other changes in Nautilus for GNOME &version; include:
+      <itemizedlist>
+	<listitem>
+	  <para>Desktop objects are now handled in memory rather than as actual
+	  files in the desktop directory.</para>
+	</listitem>
+	<listitem>
+	  <para>The desktop directory has been moved from
+	    <filename>.gnome-desktop</filename> to the user-visible
+	    <filename>Desktop</filename> directory in the user's home
+	    directory.</para>
+	</listitem>
+	<listitem>
+	  <para>Text-beside-icons mode in the icon view</para>
+	</listitem>
+	<listitem>
+	  <para>Startup notification support when launching files</para>
+	</listitem>
+	<listitem>
+	  <para>Improved context menus</para>
+	</listitem>
+	<listitem>
+	  <para>"Keep Aligned" mode on the desktop</para>
+	</listitem>
+	<listitem>
+	  <para>Multi-rooted tree view</para>
+	</listitem>
+     <listitem>
+	  <para>.hidden file support</para>
+	</listitem>
+      </itemizedlist>
+    </para>
+   
+
 <!--
       <sect4><title>Network Servers</title>
 
@@ -16,70 +66,87 @@
       </sect4>
 
 -->
-      <sect4><title>Context menu plug-ins</title>
-      
+  </sect3>
 
-<figure>
-  <title>Context Menu</title>
-  <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_context_menu_plugin.png"/>
-  </screenshot>
-</figure>
-      <para>Context-sensitive menus can now link the file manager to functions
-      performed by other applications. In this illustration, Fileroller, our new
-      archive-handling application, has added menu items when you right-click
-      on an archive.</para>
-</sect4>
-
-      <sect4><title>Property tab plug-ins.</title>
-
-<figure>
-  <title>Property Page - Audio</title>
-  <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_audio.png"/>
-  </screenshot>
-</figure>
-<figure>
-  <title>Property Page - Image</title>
-  <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_property_page_tab_image.png"/>
-  </screenshot>
-</figure>
-
-      <para>The file manager's properties dialog now shows custom tabs for special
-      file formats, such as images or media files. For instance, you can see the
-      dimensions of a graphic file, or information about ogg or MP3 audio files.</para>
-
-      </sect4>
-
-      <sect4><title>Improved Preferences dialog</title>
-      
-<para>
-<figure>
-  <title>File Manager Preferences</title>
-  <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;nautilus_preferences.png"/>
-  </screenshot>
-</figure>
-</para>
-      <para>The new file manager preferences dialog illustrates the GNOME design
-      philosophy: clean, simple and usable.</para>
-
-     <para>User interface improvements such as this are thanks partly to increasing use of the GNOME <ulink url="http://developer.gnome.org/projects/gup/hig/">Human Interface Guidelines</ulink>. The HIG had its 1.0 release during the GNOME &version; release process, and as a result, the GNOME Desktop is now easier to use and easier to learn than ever.</para>
-
-      </sect4>
-</sect3>
-      
- 
-    <sect3><title>Startup Notification</title> <para>GNOME can now
-    show that an application is starting, so you don't feel the need
-    to click a second time. For instance, if the application supports
-    it, the cursor may change to a clock while the application starts
-    if the application supports startup notification. Unlike some past
-    attempts at UNIX startup notification, the new standard is
-    reliable and robust, in keeping with the GNOME philosophy of
-    things that "just work."
+  <sect3 id="rnpanel">
+    <title>The Panel</title>
+    <para>The GNOME <application>panel</application> has been simplified with
+    the elimination of the multiple panel types in favor of a single type that
+    can be configured with the same characteristics as each of the old panel
+    types, preserving functionality while simplifying use:
+      <itemizedlist>
+	<listitem>
+	  <para>You can move and resize the panel using the keyboard.</para>
+	</listitem>
+	<listitem>
+	  <para>The panel can be any arbitrary size.</para>
+	</listitem>
+	<listitem>
+	  <para>Floating panels now have grab handles.</para>
+	</listitem>
+      </itemizedlist>
     </para>
-    
+    <para>Additional usability improvements to the panel include:
+      <itemizedlist>
+	<listitem>
+	  <para>A new property dialog for panels and drawers.</para>
+	</listitem>
+	<listitem>
+	  <para>New Run Application dialog</para>
+	</listitem>
+     <listitem>
+	  <para>Improved Xinerama support</para>
+	</listitem>
+     <listitem>
+	  <para>Accelerators added to main menu</para>
+	</listitem>
+     <listitem>
+	  <para>Bigger icons in main menu</para>
+	</listitem>
+     <listitem>
+	  <para>Applets can be locked to the panel</para>
+	</listitem>
+     <listitem>
+	  <para>The panel and all applets now comply with "Fitt's Law" &mdash;
+	  You can click on them at the very edge of the screen</para>
+	</listitem>
+     <listitem>
+	  <para>Applets no longer change positions when their size changes.</para>
+	</listitem>
+     <listitem>
+	  <para>The "Window Menu" and "Menu Bar" applets from the old Menu Panel
+	  are now separate, moveable applets.
+	  </para>
+	</listitem>
+     <listitem>
+	  <para>"Force Quit" button.</para>
+	</listitem>
+     <listitem>
+	  <para>Calendar for the clock applet.</para>
+	</listitem>
+      </itemizedlist>
 
-    </sect3>
+
+    </para>
+
+    <para>In addition to those user-visible changes, significant improvements in
+    behind-the-scenes panel infrastructure have been made to improve its
+    function, including:
+      <itemizedlist>
+	<listitem>
+	  <para>Reworked <application>panel</application>
+	  <application>gconf</application> functionality, so configuration keys
+	  are now documented with associated schemas and notifications.</para>
+	</listitem>
+	<listitem>
+	  <para>Global keybinds for the panel are no longer handled by the
+	  panel. That responsibility has been handed off to the window
+	  manager. (This is currently implemented in Metacity.)</para>
+	</listitem>
+      </itemizedlist>
+
+    </para>
+  </sect3>
+
+
+</sect2>

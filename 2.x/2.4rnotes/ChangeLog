@@ -1,3 +1,10 @@
+2003-08-05 John Fleck <jfleck@inkstain.net>
+
+	* release-notes.xml
+	* rndesktop.xml
+	add Nautilus and panel sections, begin conversion to
+	use xinclude for the included files
+
 2003-08-02 John Fleck <jfleck@inkstain.net>
 
 	* release-notes.xml
