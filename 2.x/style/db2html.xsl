@@ -6,7 +6,7 @@
                 extension-element-prefixes="func exsl"
                 version='1.0'>
 
-<xsl:include href="yelp-customization.xsl"/>
+<xsl:import href="yelp-customization.xsl"/>
 <xsl:include href="navigation.xsl"/>
 <xsl:include href="l10n.xsl"/>
 

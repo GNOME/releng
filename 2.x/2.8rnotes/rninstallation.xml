@@ -6,8 +6,7 @@
 ]>
 
   <sect1 id="rninstallation">
-    <title>Installation of  the GNOME &version; Developer Platform and
-    Desktop</title>
+    <title>Installation of GNOME &version;</title>
 
    <para>We recommend that you use official installation packages, such as those for your linux distribution. Vendors are likely to package GNOME &version; relatively quickly, and to release new versions soon that include GNOME &version;. However, many people don't want to wait, and will want to build GNOME from source code, even though that is more difficult.</para>
 

@@ -1,7 +1,14 @@
 2004-09-13  Murray Cumming  <murrayc@murrayc.com>
 
-	* rninternationalization: Updated build order, with help from jhbuild 
+	* rninstallation: Remove reference to Desktop and Platform because it 
+	now includes the Platform too. It is just GNOME.
+
+2004-09-13  Murray Cumming  <murrayc@murrayc.com>
+
+	* rninstallation: Updated build order, with help from jhbuild 
 	list.
+	* ../style/db2html.xsl: Change the first include to an import, to fix 
+	a problem with the latest libxslt, based on advice from shaunm.
 
 2004-09-13  Murray Cumming  <murrayc@murrayc.com>
 
