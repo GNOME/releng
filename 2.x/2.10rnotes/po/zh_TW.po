@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: release-notes 2.10\n"
 "POT-Creation-Date: 2005-03-03 18:47+0800\n"
-"PO-Revision-Date: 2005-03-08 16:46+0800\n"
+"PO-Revision-Date: 2005-03-10 03:32+0800\n"
 "Last-Translator: Abel Cheung <maddog@linuxhall.org>\n"
 "Language-Team: Chinese/Traditional <zh-l10n@linux.org.tw>\n"
 "MIME-Version: 1.0\n"
@@ -361,8 +361,8 @@ msgid ""
 "those for your Linux distribution. Vendors are likely to package GNOME 2.10 "
 "relatively quickly, and to release new versions soon that include GNOME 2.10."
 msgstr ""
-"如果是實際應用，我們會建議您使用正式的套件，例如由 Linux distribution 所包裝"
-"的套件。廠商一般上很快就會推出包括 GNOME 2.10 的新版本 distribution。"
+"如果是實際應用，我們會建議您使用正式的套件，例如由您的 Linux distribution 所"
+"提供的套件。廠商一般上很快就會推出包括 GNOME 2.10 的新版本 distribution。"
 
 #: ../rninstallation.xml:15 (para)
 msgid ""
@@ -614,7 +614,7 @@ msgstr ""
 "全靠 <ulink url=\"http://developer.gnome.org/projects/gdp/\">GNOME 文件專案"
 "</ulink>所付出的努力，GNOME 2.10 才能夠有齊全而且專業的文件。所有文件都依照"
 "<ulink url=\"http://developer.gnome.org/documents/style-guide/\">文件體裁指"
-"引</ulink>去編寫，巨細無遺。和 GNOME 2.8 一樣，所有 GNOME 2.10 的應用程式都"
+"引</ulink>去編寫，鉅細靡遺。和 GNOME 2.8 一樣，所有 GNOME 2.10 的應用程式都"
 "附有完整的說明文件。"
 
 #: ../rndocs.xml:22 (para)
@@ -872,7 +872,7 @@ msgstr "Totem 影片播放程式"
 
 #: ../rnapplications.xml:30 (title)
 msgid "Audio Extraction"
-msgstr "抓取音樂光碟"
+msgstr "抓取音樂"
 
 #: ../rnapplications.xml:32 (para)
 msgid ""
@@ -1019,7 +1019,7 @@ msgid ""
 "contact information in more than one place."
 msgstr ""
 "用戶可以用 GnomeMeeting 的網路電話和視像會議功能，和其他的用戶交談。在 GNOME "
-"2.10 之中，GnomeMeeting 和 Evolution 可以共用一個通信錄，這樣您就不需要在不同"
+"2.10 之中，GnomeMeeting 和 Evolution 可以共用一個通訊錄，這樣您就不需要在不同"
 "的軟體中重複輸入朋友的連絡資訊。"
 
 #: ../rnapplications.xml:128 (para)
@@ -1467,7 +1467,7 @@ msgid ""
 "that with free software, we tell users about these problems."
 msgstr ""
 "任何軟體在推出的時候，都會有一些問題，因為不同的原因，是開發人員刻意不在推出"
-"之前修正的。自由軟體也不例外，分別只在於，自由軟體推出時，我們會讓用戶清楚知"
+"之前修正的。自由軟體也不例外，分別只在於：自由軟體推出時，我們會讓用戶清楚知"
 "道問題所在。"
 
 #: ../release-notes.xml:98 (para)
