@@ -7,73 +7,73 @@
 #							* means tagged for removal
 
 <section title="Developer Platform">
-GConf			=		1.1.9		frozen			Havoc Pennington <hp@redhat.com>
-ORBit2			=		2.3.108		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
-at-spi			=		0.12.1		not frozen		Bill Haneman <Bill.Haneman@sun.com>
+GConf			=		1.1.10		frozen			Havoc Pennington <hp@redhat.com>
+ORBit2			=		2.3.109		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+at-spi			=		0.13.1		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 atk			=		1.0.1		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 audiofile		-		0.2.3		frozen			Michael Pruett <mpruett@sgi.com>
-bonobo-activation	=		0.9.7		frozen			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
-esound			-		0.2.24		frozen			Eric Mitchell <ericmit@ix.netcom.com>
-gail			=		0.13		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
+bonobo-activation	=		0.9.8		frozen			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
+esound			-		0.2.26		frozen			Eric Mitchell <ericmit@ix.netcom.com>
+gail			=		0.14		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
 glib			=		2.0.1		frozen			Tim Janik <timj@redhat.com>, Owen Taylor <otaylor@redhat.com>
 gnome-common		=		1.2.4		frozen			Anders Carlsson <andersca@gnu.org>
-gnome-mime-data		=		1.0.6		no API			Seth Nickell <snickell@stanford.edu>
-gnome-vfs		=		1.9.11		frozen			Ian McKellar <yakk@yakk.net>
-gtk+			=		2.0.2		frozen			Owen Taylor <owen@redhat.com>, Tim Janik <timj@gtk.org>
+gnome-mime-data		=		1.0.8		no API			Seth Nickell <snickell@stanford.edu>
+gnome-vfs		=		1.9.15		frozen			Ian McKellar <yakk@yakk.net>
+gtk+			=		2.1.0		frozen			Owen Taylor <owen@redhat.com>, Tim Janik <timj@gtk.org>
 gtk-doc			=		0.9		-			Owen Taylor <owen@redhat.com>
-intltool		=		0.15		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
+intltool		=		0.19		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
 libIDL			=		0.7.4		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 libart_lgpl		=		2.3.8		-			Raph Levien <raph@acm.org>
-libbonobo		=		1.115.0		frozen			Michael Meeks <michael@ximian.com>
-libbonoboui		=		1.115.0		frozen			Michael Meeks <michael@ximian.com>
-libglade		=		1.99.10		frozen			James Henstridge <james@daa.com.au>
-libgnome		=		1.114.0		frozen			Anders Carlsson <andersca@gnu.org>
-libgnomecanvas		=		1.114.0		frozen			Anders Carlsson <andersca@gnu.org>
-libgnomeui		=		1.114.0		frozen			Anders Carlsson <andersca@gnu.org>
-libxml2			gnome-xml	2.4.20		frozen			Daniel Veillard <veillard@redhat.com>
-libxslt			=		1.0.16		frozen			Daniel Veillard <veillard@redhat.com>
+libbonobo		=		1.116.0		frozen			Michael Meeks <michael@ximian.com>
+libbonoboui		=		1.116.0		frozen			Michael Meeks <michael@ximian.com>
+libglade		=		1.99.12		frozen			James Henstridge <james@daa.com.au>
+libgnome		=		1.117.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnomecanvas		=		1.117.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnomeui		=		1.117.0		frozen			Anders Carlsson <andersca@gnu.org>
+libxml2			gnome-xml	2.4.21		frozen			Daniel Veillard <veillard@redhat.com>
+libxslt			=		1.0.17		frozen			Daniel Veillard <veillard@redhat.com>
 linc			=		0.1.21		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		1.0.1		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.12.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
 
 <section title="Desktop">
-bug-buddy		=		2.1.5		done?			Jacob Berkman <jacob@ximian.com>
-control-center		=		1.99.6		-			Richard Hestilow <hestilow@ximian.com>
-eel			=		1.1.10		porting along with Nautilus	Darin Adler <darin@bentspoon.com>
-eog			=		1.116.1		ported			Jens Finke <jens@triq.net>, Seth Nickell <snickell@stanford.edu>
+bug-buddy		=		2.1.6		done?			Jacob Berkman <jacob@ximian.com>
+control-center		gnome-control-center		1.99.10		-			Richard Hestilow <hestilow@ximian.com>
+eel			=		1.1.14		porting along with Nautilus	Darin Adler <darin@bentspoon.com>
+eog			=		0.117.0		ported			Jens Finke <jens@triq.net>, Seth Nickell <snickell@stanford.edu>
 gconf-editor		=		0.1		-			Anders Carlsson <andersca@gnu.org>
-gdm			gdm2		2.3.90.1	porting			George Jirka <jirka@5z.com>
-gedit2			=		1.117.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
+gdm			gdm2		2.3.90.3	porting			George Jirka <jirka@5z.com>
+gedit2			=		1.119.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
 gnome-audio		-		-		* no longer relevant?	-
 gtk-engines		=		-		-			Owen Taylor <owen@redhat.com>
-gnome-applets		=		1.99.0		see Panel Applets	Kevin Vandersloot <kfv101@psu.edu>	
-gnome-desktop		=		1.5.16		-			-
-gnome-games		=		1.90.2		mostly ported, minor issues		Juan Pablo Mendoza <jpablo@gnome.org>
-gnome-media		=		1.520.2		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
-gnome-panel		=		1.5.17		-			-
-gnome-session		=		1.5.16		-			-
+gnome-applets		=		1.102.1		see Panel Applets	Kevin Vandersloot <kfv101@psu.edu>	
+gnome-desktop		=		1.5.19		ported, not frozen	Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
+gnome-games		=		1.92		mostly ported, minor issues		Juan Pablo Mendoza <jpablo@gnome.org>
+gnome-media		=		1.547		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
+gnome-panel		=		1.5.21		ported			Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
+gnome-session		=		1.5.19		ported			Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
 gnome-system-monitor	procman		1.1.6		ported			Kevin Vandersloot <kfv101@psu.edu>
-gnome-terminal		profterm	1.9.3		new			Havoc Pennington <hp@redhat.com>
+gnome-terminal		profterm	1.9.6		new			Havoc Pennington <hp@redhat.com>
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
-gnome-utils		=		1.103.0		see Desktop Utils section		-
-libgail-gnome		-		0.5.0		-			-
-libgnomeprint		=		1.112.0		not frozen		Chema Celorio <chema@ximian.com>
-libgnomeprintui		=		1.112.0		not frozen		Chema Celorio <chema@ximian.com>
-libgtkhtml		gtkhtml2	1.99.5		ported, rendering issues		-
+gnome-utils		=		1.105.0		see Desktop Utils section		Glynn Foster <glynn.foster@sun.com>, Kevin Vandersloot <kfv101@psu.edu>
+libgail-gnome		-		0.5.0		ported, not frozen	Padraig O'Briain <padraig.obriain@sun.com>
+libgnomeprint		=		1.114.0		not frozen		Chema Celorio <chema@ximian.com>
+libgnomeprintui		=		1.114.0		not frozen		Chema Celorio <chema@ximian.com>
+libgtkhtml		gtkhtml2	1.99.7		ported, rendering issues		-
 libgtop			=		1.90.2		ported, branch is libgtop-GNOME-2-0-port		Kevin Vandersloot <kfv101@psu.edu>
 librep			=		snapshots	-			John Harper <jsh@pixelslut.com>
 librsvg			=		1.1.6		-			-
-libwnck			=		0.8		new			Havoc Pennington <hp@redhat.com>
-libzvt			=		1.114.0		ported, accessibility issues	Jacob Berkman <jacob@ximian.com>
+libwnck			=		0.11		new			Havoc Pennington <hp@redhat.com>
+libzvt			=		1.115.2		ported, accessibility issues	Jacob Berkman <jacob@ximian.com>
 metatheme		=		0.9.5		new/porting from ximian		Richard Hestilow <hestilow@ximian.com>
-nautilus		=		1.1.12		much porting work going on	Darin Adler <darin@bentspoon.com>
+nautilus		=		1.1.16		much porting work going on	Alex Larsson <alexl@redhat.com>, Darin Adler <darin@bentspoon.com>
 nautilus-gtkhtml	=		-		-			Gediminas Paulauskas <menesis@delfi.lt>
 nautilus-mozilla	=		-		* mozilla not ported to GTK+ 2.0	-
 rep-gtk			=		snapshots	mostly ported		John Harper <jsh@pixelslut.com>
 sawfish			=		snapshots	see rep-gtk		John Harper <jsh@pixelslut.com>
 scrollkeeper		-		0.3.6		0.3.8 for inclusion in next GNOME release	-
-yelp			=		0.6		new			Mikael Hallendal <micke@codefactory.se>
+yelp			=		0.7		new			Mikael Hallendal <micke@codefactory.se>
 </section>
 
 <section title="Panel Applets (gnome-core/applets)" cvsbase="gnome-core/applets">
