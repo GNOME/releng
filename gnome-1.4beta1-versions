@@ -5,19 +5,19 @@ ammonite            0.8.3
 audiofile           
 bonobo              
 bug-buddy           
-control-center      
+control-center      1.2.2
 esound              0.2.22
 GConf               0.12
-gdk-pixbuf          
+gdk-pixbuf          0.9.0
 gdm                 2.0.98
 ggv                 
 ghex                
-glade               
+glade               0.6.0
 glib                
 gnome--             
-gnome-applets       
+gnome-applets       1.3.0
 gnome-audio         
-gnome-core          
+gnome-core          1.3.0
 gnome-games         
 gnome-guile         
 gnome-libs          
@@ -26,13 +26,13 @@ gnome-pim
 gnome-print         0.25
 gnome-python        
 gnome-user-docs     
-gnome-utils         
+gnome-utils         1.3.0
 gnome-vfs           0.5
 gtk+                
 gtk-engines         
 gtkmm               
 gtop                1.0.12
-imlib               
+imlib               1.9.9
 libghttp            1.0.9
 libglade            0.16
 libgtop             1.0.11
