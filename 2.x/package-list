@@ -33,8 +33,8 @@ libgnomecanvas		=		1.105.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeprintui		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeui		=		1.106.0		frozen			Anders Carlsson <andersca@gnu.org>
-libxml2			gnome-xml	2.4.10		frozen			Daniel Veillard <veillard@redhat.com>
-libxslt			=		1.0.7		frozen			Daniel Veillard <veillard@redhat.com>
+libxml2			gnome-xml	2.4.11		frozen			Daniel Veillard <veillard@redhat.com>
+libxslt			=		1.0.8		frozen			Daniel Veillard <veillard@redhat.com>
 linc			=		0.1.10		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.22		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
