@@ -122,7 +122,7 @@ The GNOME &version; Desktop is the latest release of the ever popular, multi-pla
           Mozilla and Firefox.</para>
         </listitem>
         <listitem>
-          <para><ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=11681">
+          <para><ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=116814">
           Session startup temporary hang</ulink>: Applications with broken
           session management can cause login to hang for a few minutes at the
           splashscreen.  The default session does not contain any such apps so

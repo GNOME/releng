@@ -29,7 +29,6 @@
     </itemizedlist>
     </para>
    
-    <para>
     <figure id="rnscreenshot-sysadmin-systemtools">
       <title>The Clock, Network, and Users/Groups tools</title>
         <screenshot>
@@ -40,7 +39,7 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
+
     </sect3>
 
     <sect3 id="rnsysadmin-logviewer">

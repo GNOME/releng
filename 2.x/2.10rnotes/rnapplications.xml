@@ -57,7 +57,6 @@
     </itemizedlist>
     </para>
    
-    <para>
     <figure id="rnscreenshot-epiphany">
       <title>The web browser</title>
         <screenshot>
@@ -67,7 +66,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-    </para>
 
   </sect3>
 
@@ -108,7 +106,6 @@
      </itemizedlist>
    </para>
 
-   <para>
    <figure id="rnscreenshot-evolution-mail">
       <title>The email client</title>
       <screenshot>
@@ -118,8 +115,6 @@
         </mediaobject>
       </screenshot>
     </figure>
-
-   </para>    
 
   </sect3>
 

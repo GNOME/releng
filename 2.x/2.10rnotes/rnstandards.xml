@@ -8,7 +8,7 @@
 
     <para>
   GNOME works closely with groups such as <ulink
-  url="http://www.freedesktop.org/standards/">freedesktop.org</ulink>. Standards
+  url="http://www.freedesktop.org/wiki/Standards">freedesktop.org</ulink>. Standards
   support is a big plus for GNOME users. Interoperability support
   improves the user experience by allowing GNOME, KDE, and other
   applications to work together more easily, and following open
@@ -27,7 +27,7 @@
     and the <ulink url="http://www.freedesktop.org/Standards/systemtray-spec">system tray</ulink> specifications. In addition, GNOME
     supports <ulink url="http://www.omg.org/">CORBA</ulink>, <ulink url="http://www.w3.org/XML/">XML</ulink>,
     <ulink url="http://www.freedesktop.org/Standards/XDND">Xdnd</ulink>,
-    <ulink url="http://www.freedesktop.org/standards/wm-spec">EWMH</ulink>,
+    <ulink url="http://www.freedesktop.org/Standards/wm-spec">EWMH</ulink>,
     <ulink url="http://www.freedesktop.org/Standards/xembed-spec">XEMBED</ulink>,
     <ulink url="http://www.freedesktop.org/Standards/xsettings-spec">XSETTINGS</ulink>,
     and <ulink url="http://www.xfree86.org/current/xsmp.html">XSMP</ulink>.

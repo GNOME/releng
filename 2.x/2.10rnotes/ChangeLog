@@ -1,3 +1,10 @@
+2005-03-06  Frank Arnold  <farnold@cvs.gnome.org>
+
+	* release-notes.xml, rnstandards.xml: Fixed broken links.
+	* rnapplications.xml, rnsysadmin.xml: Fixed a problem with not 
+	translatable figure descriptions of Evolution, Epihany and System Tools 
+	(removed paragraph around figures).
+
 2005-03-06  Christian Rose  <menthos@menthos.com>
 
 	* release-notes.xml, rnapplets.xml, rnapplications.xml,
