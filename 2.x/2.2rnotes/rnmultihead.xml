@@ -1,0 +1,10 @@
+ <sect1 id="rnmultihead">
+    <title>Multi-Head support</title>
+    <para>GNOME's X backend now supports simultaneous
+ connections to multiple X servers and X servers with
+ multiple screens, via GTK+ 2.2. Toplevel windows can be migrated between 
+ screens, and even servers, on the fly. GTK+ also now
+ includes support for systems that merge multiple monitors 
+ into a single large virtual area, such as Xinerama.</para>
+
+ </sect1>

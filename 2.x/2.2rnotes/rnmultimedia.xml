@@ -1,0 +1,33 @@
+ <sect1 id="rnmultimedia">
+    <title>Multimedia</title>
+    <para>GNOME 2.2 includes the <ulink href="http://gstreamer.sourceforge.net/">GStreamer</ulink> multimedia framework for this first time. This has made the following functionality possible:</para>
+
+    <sect2><title>Special views in the file manager</title>
+    <para>
+    Via the "View as" feature in Nautilus, the GNOME file manager, you can now see special views of directories containing audio, image, and video files. For image and video files, the file manager will show a preview of the file instead of the normal icon. You can also play some file formats directly from the file manager.  
+    </para>
+
+<figure>
+  <title>View As Audio</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&url_figures_base;nautilus_view_as_audio.png"/>
+  </screenshot>
+</figure>
+
+<figure>
+  <title>View As Video</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&url_figures_base;nautilus_view_as_video.png"/>
+  </screenshot>
+</figure>
+      
+   </sect2>
+
+   <sect2><title>Multimedia Utilities</title>
+    <para>
+    With the help of GStreamer, GNOME's multimedia utilities, such as the Sound Recorder, can now work with a greater variety of file formats. 
+    </para>
+
+   </sect2>  
+   
+  </sect1>

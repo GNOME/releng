@@ -5,8 +5,10 @@
 <!ENTITY rndesktop SYSTEM "rndesktop.xml">
 <!ENTITY rngnomeutils SYSTEM "rngnomeutilities.xml">
 <!ENTITY rnfileroller SYSTEM "rnfileroller.xml">
+<!ENTITY rnmultimedia SYSTEM "rnmultimedia.xml">
 <!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
 <!ENTITY rngnomeapplets SYSTEM "rngnomeapplets.xml">
+<!ENTITY rnmultihead SYSTEM "rnmultihead.xml">
 <!ENTITY url_figures_base "../figures/"> 
 ]>
 
@@ -53,10 +55,12 @@
  */</para>
   </sect1>
   &rndesktop;
+  &rnmultimedia;
   &rngnomeutils;
   &rnfileroller;
   &rnmultimediakeys;
   &rngnomeapplets;
+  &rnmultihead;
   <sect1 id="rninstallation">
     <title>Installation of  the GNOME &version; Developer Platform and
     Desktop</title>
