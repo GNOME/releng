@@ -14,11 +14,18 @@
   
   <sect3 id="rngtk">
     <title>GTK+</title>
-    
-    <para>TODO.
+
+    <para>GTK+ 2.4 adds significant new functionality while maintaining source and binary compatibility with GTK+ 2.2.
+    Major new features include
 
     <itemizedlist>
-      <listitem><para>TODO</para></listitem>
+      <listitem><para>New file selector widget, with improved UI, filters, previews, customization, and optional use of the GNOME vfs system.</para></listitem>
+      <listitem><para>New ComboBox widget with improved API, UI, and model/view separation.</para></listitem>
+      <listitem><para>Action-based toolbar and menu API.</para></listitem>
+      <listitem><para>Bidirectional improvements, for languages such as Arabic and Hebrew. GTK+ now automatically determines the direction for widgets based on their contents.</para></listitem>
+      <listitem><para>ComboBoxes and Entry widgets can now offer automatic text completion.</para></listitem>
+      <listitem><para>TreeViews can be optimized for speed.</para></listitem>
+      <listitem><para>General performance improvements.</para></listitem>
     </itemizedlist>
 
     </para>
@@ -28,10 +35,14 @@
   <sect3 id="rngnomevfs">
     <title>gnome-vfs</title>
 
-    <para>TODO.
+    <para>The GNOME Virtual File system allows applications to support several protocols and file systems via the same unified API.
+    Improvements in GNOME &version; include
 
     <itemizedlist>
-      <listitem><para>TODO</para></listitem>
+      <listitem><para>Support for sftp and Windows SMB protocols.</para></listitem>
+      <listitem><para>Improved authentication, with password keyring storage.</para></listitem>
+      <listitem><para>Detection of mounted drives and network volumes.</para></listitem>
+      <listitem><para>Improved MIME type system, via the freedesktop.org shared standards.</para></listitem>
     </itemizedlist>
 
     </para>
@@ -43,7 +54,7 @@
 
     <para>The GStreamer multimedia framework is gradually maturing, and is now used by several applications, such as
     Sound Juicer, Rhythmbox, Totem, and Marlin.</para>
-    <para>Improvements in GNOME &version; include:
+    <para>Improvements in GNOME &version; include
 
     <itemizedlist>
       <listitem><para>Support for the ALSA sounds drivers used in Linux kernel 2.6.</para></listitem>
