@@ -78,13 +78,12 @@
 
  <xi:include href="rninstallation.xml"/>
 
-<!--
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
     <para>All software, when it is released, contains bugs the developers know
-    about but have elected, for a variety of reasons, not to fix before
+    about but have chosen, for a variety of reasons, not to fix before
     releasing. Free software is no different in this regard from proprietary
-    software, except that with free software, we tell users about them.</para>
+    software, except that with free software, we tell users about these problems.</para>
 
     <para>We also encourage our users to report bugs so that they can be
     fixed. The best way to report bugs found in GNOME is to use the <ulink
@@ -103,17 +102,20 @@
     <para>
       <itemizedlist>
         <listitem>
-          <para></para>
+          <para>Mozilla/Firefox new window focus: When you launch Mozilla or Firefox, 
+          the new window might be opened behind the existing windows. GNOME's 
+          mozilla-based Epiphany browser does not have this problem and we also expect this 
+          to be fixed in future versions of Mozilla and Firefox.</para>
         </listitem>
         <listitem>
-          <para></para>
+          <para>TODO: Luis should know about the rest.</para>
         </listitem>
       </itemizedlist>
     </para>
     </sect2>
 
     </sect1>
--->
+
     <sect1 id="rnlookingahead">
    <title>Looking to GNOME &nextversion; and Beyond</title>
 

@@ -1,5 +1,10 @@
 2005-02-28  Murray Cumming  <murrayc@murrayc.com>
 
+	* releasenotes.xml: Revive the known issues section and start it with 
+	the mozilla focus problem.
+
+2005-02-28  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnutilities: Remove gnome-search section because the mentioned 
 	feature does not exist - it is just a bug fix that, if explained, 
 	would just highlight that file searching is not that great in GNOME.
