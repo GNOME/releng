@@ -21,6 +21,8 @@
     community through Freedesktop.org on the development of standards to allow
     interoperability. Those standards include: <ulink url="http://www.freedesktop.org/Standards/shared-mime-info-spec">shared MIME database</ulink>, <ulink url="http://www.freedesktop.org/Standards/icon-theme-spec">icon themes</ulink>,
     <ulink url="http://www.freedesktop.org/Standards/recent-file-spec">recent files</ulink>,
+    <ulink url="http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec">menus</ulink>,
+    <ulink url="http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec">desktop entries</ulink>,
     <ulink url="http://triq.net/~jens/thumbnail-spec/index.html">thumbnail management</ulink>,
     and the <ulink url="http://www.freedesktop.org/Standards/systemtray-spec">system tray</ulink> specifications. In addition, GNOME
     supports <ulink url="http://www.omg.org/">CORBA</ulink>, <ulink url="http://www.w3.org/XML/">XML</ulink>,

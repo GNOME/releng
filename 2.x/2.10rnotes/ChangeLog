@@ -1,5 +1,13 @@
 2005-03-01  Murray Cumming  <murrayc@murrayc.com>
 
+	* rndesktop.xml: Removed the TODOs, fixed stuff, after email from 
+	Alexander Larsson.
+	* releasenotes.xml: Added link to RoadMap, because Luis will have 
+	this finished for 2.10.
+	* rnstandards.xml: Mentioned menus and desktop entries specs.
+
+2005-03-01  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnapplets.xml: Removed the TODO about the sound volume. Apparently 
 	it is correct.
 	* rnepiphany.xml: Removed the TODO about the improved fullscreen 
