@@ -1,5 +1,11 @@
 2005-02-28  Murray Cumming  <murrayc@murrayc.com>
 
+	* Makfile.am: Add rnutilities to the target dependency.
+	* rnutilities: Add more gedit changes described y PaoloMaggi in the 
+	wiki.
+
+2005-02-28  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnapplets.xml: Rewrote removed applets section.
 	* Some other small fixes suggested by Frank Arnold.
 

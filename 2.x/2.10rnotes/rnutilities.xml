@@ -12,7 +12,9 @@
   <sect3>
     <title>Text Editor</title>
 
-    <para>The GNOME text editor can now highlight the current line and, when editing program source code, it highlights matching braces. It also starts faster than previous versions.
+    <para>The GNOME text editor can now highlight the current line and when editing program source code, it highlights matching braces. Spell checking is improved too. It now only highlights mispelled words when you have actually finished typing the word, and many extra languages are supported and automatically identified.</para>
+
+   <para>Many people will be glad to see that it no longer suggests saving changes when all changes have actually been undone. And in addition it even starts faster than previous versions.
 
     <figure id="rnscreenshot-gedit">
     <title>Text Editor</title>
