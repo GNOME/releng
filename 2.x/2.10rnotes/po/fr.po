@@ -714,10 +714,10 @@ msgid ""
 "that GNOME users expect, with automatic hardware detection instead of "
 "complex configuration."
 msgstr ""
-"GNOME 2.10 inclut maintenant le lecteur vidéo Totem, dont la réputation n'est plus "
-"à faire. Il utilise l'ensemble multimédia Gstreamer de GNOME. Totem "
-"dispose d'une interface d'utilisation intuitive, pour le plus grand plaisir "
-"des utilisateurs, ainsi que d'une détection matérielle automatique "
+"GNOME 2.10 inclut maintenant le lecteur vidéo Totem, dont la réputation "
+"n'est plus à faire. Il utilise l'ensemble multimédia Gstreamer de GNOME. "
+"Totem dispose d'une interface d'utilisation intuitive, pour le plus grand "
+"plaisir des utilisateurs, ainsi que d'une détection matérielle automatique "
 "remplaçant une configuration complexe."
 
 #: ../rnapplications.xml:18 (title)
@@ -1565,7 +1565,7 @@ msgstr ""
 
 #: ../rnsysadmin.xml:26 (para)
 msgid ""
-"Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
+"Networking: Improved wireless support (WEP and ESSID detection), and ISDN "
 "connections."
 msgstr ""
 "réseau : support amélioré pour les réseaux sans fil (détection des WEP et "
