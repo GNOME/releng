@@ -8,6 +8,7 @@
 <!ENTITY rnfileroller SYSTEM "rnfileroller.xml">
 <!ENTITY rnmultimedia SYSTEM "rnmultimedia.xml">
 <!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
+<!ENTITY rnfonts SYSTEM "rnfonts.xml">
 <!ENTITY rnterminal SYSTEM "rnterminal.xml">
 <!ENTITY rnmultihead SYSTEM "rnmultihead.xml">
 <!ENTITY rnthemes SYSTEM "rnthemes.xml">
@@ -60,6 +61,7 @@
   &rnpanel;
   &rnmultimedia;
   &rnthemes;
+  &rnfonts;
   &rngnomeutils;
   &rnfileroller;
   &rnmultimediakeys;

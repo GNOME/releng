@@ -1,0 +1,16 @@
+ <sect2 id="rnfonts">
+    <title>Fonts</title>
+
+    <para>One of the great new features in GNOME 2.2 is desktop-wide support for <ulink url="http://fontconfig.org">fontconfig and Xft2</ulink>, giving us enhanced font configuration and rendering on screen (and, in the future, on paper).
+
+The new Fonts control panel has simple and detailed configuration pages for hinting and subpixel anti-aliasing. Plus, you can simply drop new fonts into ~/.fonts, and they will work throughout GNOME. Thanks to Keith Packard for his work on fontconfig!</para> 
+   
+<figure>
+  <title>Fonts Control Panel</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;control_panel_fonts.png"/>
+  </screenshot>
+</figure>
+
+
+  </sect2>

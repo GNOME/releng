@@ -1,19 +1,36 @@
 <sect2 id="rngnomeutilities">
-    <title>GNOME Utilities</title>
+  <title>Utilities</title>
 
-    <para>The Character Map now has unicode support allowing you to select a
+  <para>TODO: There must be more utilities to mention here.</para> 
+
+  <sect3><title>Character Map</title>
+    <para>The Character Map now has unicode support, allowing you to select a
 full range of characters in a wide range of fonts. Users may be interested in
-the Unicode Character Map [gucharmap] that should be released in the Fifth Toe,
+the Unicode Character Map [gucharmap] that should be released in the <ulink url="
+http://5toe.lyrical.net">Fifth Toe</ulink>,
 later this year.</para>
 
+<figure>
+  <title>Character Map</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;util_charactermap.png"/>
+  </screenshot>
+</figure>
+
+  </sect3>
+
+  <sect3><title>Search For Files</title>
     <para>The Search for Files dialog has undergone several changes that add to
 the overall usability and feel of the utility. It now allows you to drag and
 drop files from the search results pane. With the addition of adding icon theme
 and handling the file manager MIME types, this utility is very much more
-integrated with the desktop.</para>
+integrated with the desktop. TODO: link to the mention in the Panel section.</para>
 
-    <para>We have brought back 'gdialog', the Gtk/GNOME version of the dialog
+  </sect3>
+
+    <para>TODO: This isn't really a user-visible feature. murrayc: We have brought back 'gdialog', the Gtk/GNOME version of the dialog
 utility. This utility is useful for using with scripts, in particular Nautilus
 scripts. Users may be interested in Zenity, a basic rewrite of 'gdialog', that
 should be released in the Fifth Toe, later this year.</para>
+
 </sect2>
