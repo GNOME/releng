@@ -17,20 +17,8 @@
     <abstract>
       <title>Introduction</title>
       <para>The GNOME &version; Desktop is the latest
-	release of the popular, multi-platform free desktop environment.</para>
-      <para>GNOME &version; expands the offerings of the popular free software
-	desktop, with a new web browser based on the most
-	standards-compliant
-	rendering engine available, improved accessibility tools, a number of
-      new applications to make day-to-day desktop use easier and a continued
-      commitment to creating a computing environment that "just works".</para>
-
-<!-- http://makeashorterlink.com/?S27F22875 bugzilla query to check fulfilled
-      enhancement requests since 2.2 courtesy aldug -->
-
-      <para>GNOME &version; includes 11 new applications and more than 100
-      user-requested enhancements, evidence of the user-driven community
-      development process used to create each GNOME release.</para>
+	release of the ever popular, multi-platform free desktop environment.</para>
+      <para>GNOME &version; has several interesting new features that make day-to-day desktop usage much easier. GNOME &version; also includes many bug fixes, which noticeable improve the user interface, general stability and speed, and the built-in help system.</para>
 
     <para>GNOME runs on a variety of platforms, including GNU/Linux
     (commonly called Linux), Solaris, HP-UX, BSD and Apple's
@@ -40,11 +28,9 @@
     support for bi-directional text.</para>
     
     <para>GNOME provides a user-friendly environment that "just works"
-    for everyday users, without excess complexity, while at the same
-    time providing the rich flexibility experienced developers
-    demand. We have tried to avoid unnecessary complications or
-    obscure features, sticking instead to a clear, unified
-    vision of a usable, powerful desktop.</para>
+    for everyday users, without excess complexity or obscure features. At the same
+    time we provide the rich flexibility experienced developers
+    demand.</para>
 
     <para>Of course GNOME &version; includes all of the improvements made in
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
@@ -66,24 +52,14 @@
   </articleinfo>
 <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
-
-<xi:include href="rndesktop.xml"/>
-<xi:include href="rncontrolcenter.xml"/>
-<xi:include href="rnapplets.xml"/>
-<xi:include href="rngames.xml"/>
-<xi:include href="rna11y.xml"/>
-  </sect1>
-  <sect1 id="rnapplications">
-    <title>Applications</title>
-    <para>GNOME &version; includes many new and improved applications.</para>
-<xi:include href="rnepiphany.xml"/>
-<xi:include href="rngnomemeeting.xml"/>
-<xi:include href="rngcalctool.xml"/>
-<xi:include href="rnzenity.xml"/>
-<xi:include href="rngucharmap.xml"/>
-<xi:include href="rngpdf.xml"/>
-  </sect1>
-
+  
+    <xi:include href="rndesktop.xml"/>
+    <xi:include href="rncontrolcenter.xml"/>
+    <xi:include href="rnapplets.xml"/>
+    <xi:include href="rngames.xml"/>
+    <xi:include href="rna11y.xml"/>
+</sect1>
+  
  <xi:include href="rndocs.xml"/>
 
  <xi:include href="rni18n.xml"/>
