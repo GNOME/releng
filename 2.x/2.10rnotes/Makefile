@@ -32,6 +32,9 @@ validate: $(docbook_sources)
 rsync_args = -vz --rsh ssh 
 #rsync_args = -vz --rsh ssh --delete --delete-after
 
+# Do not link to this or widely distibute it,
+# or I'll get crazy angry. murrayc.
+#
 upload_path = murrayc.com/temp/release
 upload-test-html: html/index.html
 	rsync $(rsync_args) figures/*.png $$USER@murrayc.com:$(upload_path)/html/figures/
