@@ -8,7 +8,7 @@
   <title>Lockdown</title>
     
   <para>GNOME &version; allows system administrators to restrict certain functionality, so that users have a more controlled
-  environment. This is particularly useful in very tightly-controlled deployments, such as call centers or internet cafes.
+  environment. This is particularly useful in very tightly controlled deployments, such as call centers or internet cafes.
   When the system administrator has disabled features they will be visibly greyed-out rather than failing when used.</para>
    
   <para>For instance, the GNOME panel allows system administrators to
