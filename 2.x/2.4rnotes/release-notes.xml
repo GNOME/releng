@@ -7,8 +7,9 @@
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
-<!-- Conversion to use of xinclude is underway. To validate now requires use of -->
+<!-- Now uses xinclude. To validate now requires use of                         -->
 <!-- the "xinclude" and "postvalid" command line options to xmllint             -->
+<!-- and the "xinclude" option to xsltproc                                      -->
 
 <article id="index" lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
   <articleinfo>
@@ -58,13 +59,15 @@
 	to provide basic user functionality. In addition, major applications
 	such as <application>Gnumeric</application> and
 	<application>Evolution</application> also are available, but are are
-	developed in parallel on their own natural release cycle.</para>
+	developed in parallel on their own natural release cycle rather than
+	being included in the core GNOME release.</para>
 
     <para>GNOME is part of the GNU Project, and is <ulink
     url="http://www.fsf.org/philosophy/free-sw.html">free
     software</ulink>.</para>
 
     </abstract>
+    
   </articleinfo>
 <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
@@ -78,6 +81,10 @@
     <para>GNOME &version; includes many new and improved applications.
   TODO: Reference separate .xml files via entities.</para>
 <xi:include href="rnepiphany.xml"/>
+<xi:include href="rngcalctool.xml"/>
+<xi:include href="rnzenity.xml"/>
+<xi:include href="rngucharmap.xml"/>
+<xi:include href="rngpdf.xml"/>
   </sect1>
 
  <xi:include href="rndocs.xml"/>
@@ -89,7 +96,6 @@
  <xi:include href="rnwhy.xml"/>
 
  <xi:include href="rninstallation.xml"/>
-
 
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
@@ -143,4 +149,10 @@ further advances in accessibility, usability and internationalization.
       Join us today and see what a difference you can make.
     </para>
   </sect1>
+	    <appendix id="rncredits">
+	      <title>Credits</title>
+	      <para>These release notes were assembled by John Fleck with
+	      contributions from Dave Camp, Sayamindu Dasgupta, Murray Cumming
+	      and many more.</para>
+	    </appendix>
 </article>

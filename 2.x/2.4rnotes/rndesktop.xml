@@ -148,5 +148,32 @@
     </para>
   </sect3>
 
+  <sect3 id="rngedit">
+    <title>Gedit Syntax Highlighting</title>
+    <para><application>Gedit</application>, GNOME's workhorse text editor, now
+    includes syntax highlighting:
 
+<!--    
+    <figure id="rngeditsyntaxscreenshot"> 
+        <title>Gedit Syntax Highlighting</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;geditsyntaxscreenshot.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Gedit with Syntax Highlighting
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+-->
+      With the use of the <application>GtkSourceView</application> package,
+      <application>Gedit</application> now supports syntax highlighting for text
+ 	    written in Ada, C, C++, IDL, Java, HTML, Latex, XML, Perl and
+ 	    Python.
+
+    </para>
+  </sect3>
 </sect2>
