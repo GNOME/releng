@@ -8,7 +8,7 @@ gmc
 
 Gnumeric           0.61                                                       Jody Goldberg <jgoldberg@home.com>
 Dia                0.86                                                       James Henstridge <james@daa.com.au>
-Guppi              0.35.1                                                     Jon Trowbridge <trow@gnu.org>
+Guppi              0.35.2      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
 AbiWord            0.7.12                                                     ???
 GnuCash            1.4.9                                                      devel@gnumatic.com
 Sodipodi           0.20                                                       Lauris Kaplinski <lauris@kaplinski.com>
