@@ -10,7 +10,7 @@
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
     Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas,
-    GNOME &version; offers support for 26 languages (at least 80 percent of
+    GNOME &version; offers support for 27 languages (at least 80 percent of
     strings translated).
 
 <!--    
@@ -36,139 +36,144 @@
     <itemizedlist>
       <listitem>
 	<para>
-	  American English
+	  Azerbaijani (over 6 million speakers)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Azerbaijani 
+	  Belarusian (7 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Belarusian 
+	  Brazilian Portuguese (175 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Brazilian Portuguese 
+	  Catalan (7 million) 
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Catalan 
+	  Chinese Simplified (over 1 billion)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Chinese Simplified 
+	  Chinese Traditional (40 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Chinese Traditional 
+	  Czech (11 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Czech 
+	  Danish (5.3 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Danish 
+	  Dutch (over 21 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Dutch 
+	  English (341 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Finnish 
+	  Finnish (over 5 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  French 
+	  French (over 75 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  German 
+	  German (100 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Greek 
+	  Greek (15 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Italian 
+	  Italian (60 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Japanese 
+	  Japanese (over 125 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Korean 
+	  Korean (75 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Malay 
+	  Malay (over 17 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Norwegian bokm&aring;l
+	  Norwegian bokm&aring;l (5 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Polish 
+	  Polish (44 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Portuguese 
+	  Portuguese (11 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Serbian
+	  Serbian (10 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Slovenian 
+	  Slovak (5.5 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Spanish 
+	  Slovenian (2 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Swedish 
+	  Spanish (over 350 million)
 	</para>
       </listitem>
       <listitem>
 	<para>
-	  Welsh 
+	  Swedish (9 million)
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Welsh (575,000)
 	</para>
       </listitem>
     </itemizedlist>
   </para>
   <para>Especially notable here is the work by Danilo Segan and the other
   members of the Serbian translation team, along with Dafydd Harries and the
-  Wels team. Both teams have brought their language from an unsupported and
+  Welsh team. Both teams have brought their language from an unsupported and
   virtually untranslated status, to a fully complete status in the short
   timeframe since the last GNOME release. This means having translated 16642
   messages in just a few months, which is a most remarkable effort.</para>

@@ -1,3 +1,11 @@
+2003-09-06  Danilo Šegan  <dsegan@gmx.net>
+
+	* rni18n.xml: Added "Slovak" (27 supported languages).
+	Typo (s/Wels/Welsh/). 
+	Added number of speakers for each language (according to
+	discussions on gnome-i18n and ethnologue.com).
+	Replaced "American English" with "English" (back again).
+	
 2003-09-06 John Fleck <jfleck@inkstain.net>
 
 	* rnplatform.xml
