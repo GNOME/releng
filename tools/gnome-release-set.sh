@@ -32,13 +32,15 @@ chmod g+ws $RDIR
 
 # Read release data and create links
 cat $RDATA | while read MDATA; do
-	MODULE=$(echo $MDATA | cut -d : -f 1)
-	VERSION=$(echo $MDATA | cut -d : -f 2)
-	MAJMIN=$(majmin $VERSION)
-	if [ -f $FTPROOT/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.gz ]; then
-		ln -s ../../../../sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.{gz,bz2} $RDIR/
-	else
-		echo "$MODULE $VERSION is not available."
+	if [ ! -z "$MDATA" ]; then
+		MODULE=$(echo $MDATA | cut -d : -f 1)
+		VERSION=$(echo $MDATA | cut -d : -f 2)
+		MAJMIN=$(majmin $VERSION)
+		if [ -f $FTPROOT/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.gz ]; then
+			ln -s ../../../../sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.{gz,bz2} $RDIR/
+		else
+			echo "$MODULE $VERSION is not available."
+		fi
 	fi
 done
 
