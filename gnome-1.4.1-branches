@@ -12,7 +12,7 @@ gdk-pixbuf         Yes          HEAD (unstable version is moved to Gtk+)
 glib               Yes          glib-1-2
 gnome-libs         Yes          gnome-libs-1-0
 gnome-print        Yes          gnome-1-4-branch
-gnome-vfs          Yes          HEAD
+gnome-vfs          Yes          gnome-vfs-1
 gtk+               Yes          gtk-1-2
 imlib		   Yes		HEAD
 gnome-http         Yes          HEAD (will be dead for gnome 2, no unstable branch)
@@ -53,9 +53,9 @@ gdm2                HEAD
 ggv                 ggv-1-0
 ghex                ghex-1-2
 glade               HEAD
-gnome-applets       HEAD
+gnome-applets       gnome-applets-1-4
 gnome-audio	    HEAD
-gnome-core          HEAD
+gnome-core          gnome-core-1-4
 gnome-games	    HEAD
 gnome-media	    HEAD
 gnome-pim	    HEAD
