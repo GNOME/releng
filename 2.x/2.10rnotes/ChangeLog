@@ -1,6 +1,12 @@
+2005-02-21  Murray Cumming  <murrayc@murrayc.com>
+
+	*  press_release/gnome210_press_release.sxw: Changes based on 
+	comments from Glynn Foster: Mention stability, regular releases, and 
+	the LiveCD..
+
 2005-02-20  Murray Cumming  <murrayc@murrayc.com>
 
-	* press_release/gnome210_press_release.wml: First version finished.
+	* press_release/gnome210_press_release.sxw: First version finished.
 
 2005-02-20  Murray Cumming  <murrayc@murrayc.com>
 
