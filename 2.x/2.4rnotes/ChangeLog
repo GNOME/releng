@@ -1,4 +1,9 @@
 2003-09-06 John Fleck <jfleck@inkstain.net>
+
+	* rnplatform.xml
+	adding first bits for platform improvements section
+
+2003-09-06 John Fleck <jfleck@inkstain.net>
       
 	* release-notes.xml
 	* rnepiphany.xml

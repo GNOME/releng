@@ -90,6 +90,8 @@
 
  <xi:include href="rninstallation.xml"/>
 
+ <xi:include href="rnplatform.xml"/>
+
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
     <para>All software, when it is released, contains bugs the developers know

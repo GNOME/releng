@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4">
+<!ENTITY urlfiguresbase "../figures/">
+]>
+<sect1 id="rnplatform">
+  <title>Platform Improvements</title>
+  <para>In addition to user-visible improvements, GNOME &version; includes a
+  number of improvements to the underlying platform that should be
+  appreciated by developers building applications on top of GNOME's powerful
+  framework.</para>
+  <para></para>
+</sect1>
