@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.4">
 ]>
 <sect2 id="rncontrolcenter">
@@ -14,22 +14,21 @@
     <application>Dr. Wright</application>, an application that gives you
     timed breaks from your busy work day.
 
-<!--    
     <figure id="rncontrolcenterscreenshot"> 
-        <title>Control Center</title> 
+        <title>Typing Break</title> 
         <screenshot> 
         <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;controlcenter.png"
+          <imageobject><imagedata fileref="&urlfiguresbase;drwright.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
- 	    <phrase>GNOME Control Center
+ 	    <phrase>Typing Break
             </phrase> 
           </textobject> 
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
   </para>
   <para>
     Other new <application>Control Center</application> features include:

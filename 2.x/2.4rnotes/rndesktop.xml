@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.4">
 ]>
 <sect2 id="rndesktop">
@@ -15,12 +15,12 @@
     the release of GNOME 2.2, including an integrated drag-and-drop CD burner
     and the ability to change the properties of multiple files simultaneously.
     </para>
-<!--    
+    
     <figure id="rncdburnerscreenshot"> 
         <title>CD Burner</title> 
         <screenshot> 
         <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;cdburner.png"
+          <imageobject><imagedata fileref="&urlfiguresbase;burn.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
@@ -30,7 +30,6 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
 
     <para>Other changes in Nautilus for GNOME &version; include:
       <itemizedlist>
@@ -161,12 +160,11 @@
     <para>Paolo Maggi and the <application>Gedit</application> hackers
     have added syntax highlighting to GNOME's workhorse text editor:
 
-<!--    
     <figure id="rngeditsyntaxscreenshot"> 
         <title>Gedit Syntax Highlighting</title> 
         <screenshot> 
         <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;geditsyntaxscreenshot.png"
+          <imageobject><imagedata fileref="&urlfiguresbase;gedit.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
@@ -176,7 +174,7 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
       With the use of the <application>GtkSourceView</application> package,
       <application>Gedit</application> now supports syntax highlighting for text
  	    written in Ada, C, C++, IDL, Java, HTML, Latex, XML, Perl and

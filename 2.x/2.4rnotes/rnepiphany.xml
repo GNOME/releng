@@ -2,7 +2,7 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.4">
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 ]>
 <sect2 id="rnepiphany">
   <title>Epiphany</title>
@@ -10,7 +10,7 @@
   clean and simple browser to the free software desktop based on the same
   rendering widget used in Mozilla &mdash; the most standards-compliant
   rendering widget available.
-<!--    
+    
     <figure id="rnepiphanyscreenshot"> 
         <title>Epiphany</title> 
         <screenshot> 
@@ -25,7 +25,7 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
   </para>
   <para>
     Developed by a team led by Marco Pesenti Gritti, Epiphany uses the

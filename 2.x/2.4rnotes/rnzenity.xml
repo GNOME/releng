@@ -2,7 +2,7 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.4.0">
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 ]>
 <sect2 id="rnzenity">
   <title>Zenity</title>
@@ -13,12 +13,11 @@
     package. <application>Zenity's</application> functionality is based on the
     <application>dialog</application> application.
 
-<!--    
     <figure id="rnzenityscreenshot"> 
         <title>Zenity</title> 
         <screenshot> 
         <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;zenityscreenshot.png"
+          <imageobject><imagedata fileref="&urlfiguresbase;zenity.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
@@ -28,7 +27,7 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
   </para>
 
 </sect2>

@@ -2,7 +2,7 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.4">
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 ]>
 <sect2 id="rngcalctool">
   <title>Gcalctool</title>
@@ -14,22 +14,21 @@
       Calculator</application>, which used to be included in the
   <application>gnome-utils</application> package.</para>
 
-<!--    
     <figure id="rnegcalctoolscreenshot"> 
-        <title>Gcalctool</title> 
+        <title>GNOME Calculator</title> 
         <screenshot> 
         <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;gcalctoolscreenshot.png"
+          <imageobject><imagedata fileref="&urlfiguresbase;gcalctool.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
- 	    <phrase>Gcalctool calculator
+ 	    <phrase>GNOME Calculator
             </phrase> 
           </textobject> 
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
   <para>Gcalctool has Basic, Financial and Scientific modes. Calculations are
  	    performed from left to right, with no arithmetic precedence. If you
  	    need arithmetic precedence, then you should use parentheses. Basic

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.4">
 ]>
 <sect2 id="rnapplets">
@@ -12,7 +12,7 @@
   added, and major effort, primarily by Dennis Cranston, has gone into usability
   to make the applets behavior consistent with GNOME's Human Interface
   Guidelines.
-<!--    
+    
     <figure id="rnstickynotes"> 
         <title>Sticky Notes Applet</title> 
         <screenshot> 
@@ -27,7 +27,7 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
   </para>
   <para>Other improvements to the applets include:
   <itemizedlist>

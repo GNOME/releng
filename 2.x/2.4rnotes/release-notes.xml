@@ -3,7 +3,7 @@
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.4">
 <!ENTITY oldversion "2.2">
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 ]>
 
 <!-- Now uses xinclude. To validate now requires use of                         -->
@@ -12,7 +12,7 @@
 
 <article id="index" lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
   <articleinfo>
-    <title>DRAFT GNOME &version; Release Notes</title>
+    <title>GNOME &version; Release Notes</title>
     <abstract>
       <title>Introduction</title>
       <para>The GNOME &version; Desktop is the latest

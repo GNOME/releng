@@ -2,6 +2,7 @@
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY version "2.4">
+<!ENTITY urlfiguresbase "figures/">
 ]>
 <sect1 id="rni18">
     <title>Internationalization</title>
@@ -13,22 +14,21 @@
     GNOME &version; offers support for 29 languages (at least 80 percent of
     strings translated).
 
-<!--    
     <figure id="rni18screenshot"> 
-        <title>Nautilus Translated</title> 
+        <title>GNOME in Chinese Characters</title> 
         <screenshot> 
         <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;nautilustranslated.png"
+          <imageobject><imagedata fileref="&urlfiguresbase;i18n.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
- 	    <phrase>Nautilus Translated
+ 	    <phrase>GNOME in Chinese Characters
             </phrase> 
           </textobject> 
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
   </para>
 
   <para>Supported languages:

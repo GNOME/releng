@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY urlfiguresbase "../figures/">
+<!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.4">
 ]>
 <sect2 id="rna11y">
@@ -32,7 +32,6 @@
       screen reader features will allow low-vision and blind users to access a
       large range of applications via speech and braille output.
 
-<!--    
     <figure id="rngnopernicusscreenshot"> 
         <title>Gnopernicus</title> 
         <screenshot> 
@@ -47,7 +46,7 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
       <ulink url="http://www.baum.de/">BAUM Retec AG</ulink> is guiding
  	    Gnopernicus development, and is also the principal author and
  	    project maintainer.  BAUM has been developing screen reading and
@@ -71,7 +70,7 @@
       blowing and sipping to activate a pneumatic switch, an eye blink and/or
       directed gaze with an eye tracking system, head movement, muscle
       contractions, or limb movements.
-<!--    
+    
     <figure id="rngokscreenshot"> 
         <title>GOK</title> 
         <screenshot> 
@@ -86,7 +85,7 @@
         </mediaobject> 
 	</screenshot> 
       </figure> 
--->
+
     </para>
     <para>
       Using innovative dynamic keyboard strategies, and leveraging the built-in
