@@ -56,4 +56,43 @@
   
   </sect3>
 
+  <sect3>
+    <title>Sound Recorder</title>
+
+    <para>The Sounds recorder now offers a selection of audio profiles, such as "Voice Quality", which the user can edit.
+    Other applications, such as Sound Juicer can use these same audio profiles.
+
+    <figure id="rnscreenshot-soundsrecorder-audioprofiles">
+    <title>PDF Viewer</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;soundrecorderTODO.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Sounds Recorder, showing audio profiles.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+  <sect3>
+    <title>Volume Control</title>
+
+    <para>The Volume Control now supports ALSA as well as OSS sound drivers, as used by many Linux distributions and the
+    Linux 2.6 kernel. The simple volume control panel applet also supports this.
+
+    <figure id="rnscreenshot-volumecontrol">
+    <title>PDF Viewer</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;volumecontrolTODO.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Volume Control.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+
 </sect2>

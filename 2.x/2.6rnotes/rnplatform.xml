@@ -10,50 +10,49 @@
   number of improvements to the underlying platform that should be
   appreciated by developers building applications on top of GNOME's powerful
   framework.</para>
-  <sect2 id="rngconf">
-    <title>GConf</title>
-  <para>The GConf daemon now maintains its locks in /tmp by default which
-    means GConf will not attempt to contact a daemon on a remote
-    machine if the user is using a shared NFS home directory. To use
-    the old behavior of maintaining the lock in ~/.gconfd, you can
-    set the GCONF_GLOBAL_LOCKS environment variable.</para>
-  <para>gconf_entry_copy(), gconf_entry_ref() and gconf_entry_unref()
-    added for memory management of GConfEntry. gconf_entry_free() is
-    deprecated.</para>
-    <para>A number of options have been added to gconftool:
-      <itemizedlist>
-	<listitem>
-	  <para>--dump and --load to allow the dumping and loading of parts of
-        the GConf tree to and from xml. Useful, for making copies of
-        your preferences and such.</para>
-	</listitem>
-	<listitem>
-	  <para>--get-type to find out the type of a key</para>
-	</listitem>
-	<listitem>
-	  <para>--get-list-size and --get-list-element for more fine-grained
-        access to lists.</para>
-	</listitem>
-	<listitem>
-	  <para>--makefile-uninstall-rule to allow schemas to be
-        un-installed.</para>
-	</listitem>
-      </itemizedlist>
+  
+  <sect2 id="rngtk">
+    <title>GTK+</title>
+    
+    <para>TODO.
+
+    <itemizedlist>
+      <listitem><para>TODO</para></listitem>
+    </itemizedlist>
 
     </para>
+    
   </sect2>
+
   <sect2 id="rngnomevfs">
     <title>gnome-vfs</title>
-    <para>Gnome-vfs includes a number of improvements that may be of interest to
-    developers. Gconf keys can now be set to not use the proxy settings for
-    some domains/ips. A new uri-scheme, "dav:", has been added,  which behaves
-    essentially the same as "http:" but is preferred for referencing webdav
-    resources, so those uris will open in the right app and not always
-    in the web browser.</para>
-    <para>A new "gnome_vfs_url_show()" function has been added to show a uri
-    with the default handler for it. This replaces gnome_url_show() in libgnome
-    (which now calls the new gnome-vfs function). The new code also looks at the
-    mime type of the file, in addition to special-case handlers for some types
-    of URIs.</para>
+
+    <para>TODO.
+
+    <itemizedlist>
+      <listitem><para>TODO</para></listitem>
+    </itemizedlist>
+
+    </para>
+
+  </sect2>
+
+  <sect2 id="rngstreamer">
+    <title>gstreamer</title>
+
+    <para>The gstreamer multimedia framework is gradually maturing, and is now used by several applications, such as
+    Sound Juicer, Rhythmbox, Totem, and Marlin.</para>
+    <para>Improvements in GNOME &version; include:
+
+    <itemizedlist>
+      <listitem><para>Support for the ALSA sounds drivers used in Linux kernel 2.6.</para></listitem>
+      <listitem><para>Support for more formats, and better support for existing formats, including MP3, Ogg/Vorbis, FLAC, Wave, and mod.</para></listitem>
+      <listitem><para>Improved error notification.</para></listitem>
+      <listitem><para>Error messages are now translated, so applications can report problems in the user's own language.</para></listitem>
+
+    </itemizedlist>
+
+    </para>
+
   </sect2>
 </sect1>

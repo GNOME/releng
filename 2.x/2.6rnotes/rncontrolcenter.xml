@@ -4,55 +4,55 @@
 <!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.6">
 ]>
-<sect2 id="rncontrolcenter">
+  <sect2 id="rncontrolcenter">
   <title>Control Center</title>
-  <para>
-    The <application>Control Center</application> is the heart of "the desktop
-    that cares." Jonathan Blandford and his collaborators have given the
-    <application>Control Center</application> a new central control panel for
-    GNOME's accessibility features (courtesy of Bill Haneman) and integration with
-    <application>Dr. Wright</application>, an application that gives you
-    timed breaks from your busy work day, written by Richard Hult.
 
-    <figure id="rncontrolcenterscreenshot"> 
-        <title>Typing Break</title> 
-        <screenshot> 
-        <mediaobject> 
-          <imageobject><imagedata fileref="&urlfiguresbase;drwright.png"
-			format="PNG"/> 
-          </imageobject>
- 	  <textobject> 
- 	    <phrase>Typing Break
-            </phrase> 
-          </textobject> 
-        </mediaobject> 
-	</screenshot> 
-      </figure> 
+    <para>GNOME &version; makes it easier to use multiple keyboard layouts. For instance, you might choose to press both
+    shift keys together to change from a U.S. English keyboard layout to a Russian keyboard layout, and then back again, to
+    enter one russian word in the middle of an english sentence. This is particularly useful to the millions of people in
+    the world who regularly communicate in more than one language.
 
-  </para>
-  <para>
-    Other new <application>Control Center</application> features include:
-    <itemizedlist>
-      <listitem>
-	<para><application>Themus</application>, Andrew Sobala's new tool for
-	managing themes.</para>
-      </listitem>
-      <listitem>
-	<para>A new font management system.</para>
-      </listitem>
-      <listitem>
-	<para>A tool from Alex Larsson to take advantage of the new XRandR
-	capabilities in X 4.3, which allow you to change screen resolution on
-	the fly.</para>
-      </listitem>
-      <listitem>
-	<para>Usability improvements from Dennis Cranston and Christian Neumair
-	  to bring the <application>Control Center</application> into conformity
-	  with the <ulink
-	  url="http://developer.gnome.org/projects/gup/hig/1.0/">GNOME Human
-	  Interface Guidelines</ulink>.</para>
-      </listitem>
-    </itemizedlist>
+    <figure id="rnscreenshot-controlpanel-keyboardlayouts">
+      <title>Keyboard Preferences - Layouts</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardlayoutsTODO.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
 
-  </para>
+    <para>The Keyboard Indicator panel applet shows the current keyboard layout and lets you choose another,
+    without using the keyboard shortcut.
+
+    <figure id="rnscreenshot-panel-applet-keyboardindicator">
+      <title>Keyboard Indicator</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicatorTODO.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+    <para>GNOME &version; also integrates the multimedia keys into the regular Keyboard
+    Shortcuts control panel, making it easy to use your keyboard's special keys to change
+    volume or control music or video applications. This functionality was previously in the Acme utility.
+
+    <figure id="rnscreenshot-controlpanel-multimediakeys">
+     <title>Keyboard Shortcuts</title>
+       <screenshot>
+         <mediaobject>
+           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardshortcutsTODO.png" format="PNG"/>
+           </imageobject>
+           <textobject><phrase>The Keyboard Shortcuts control panel.</phrase></textobject>
+         </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
 </sect2>

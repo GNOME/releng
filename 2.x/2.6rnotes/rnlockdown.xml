@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnlockdown">
+  <title>Lockdown</title>
+    
+  <para>GNOME &version; allows system administrators to restrict certain functionality, so that users have a more controlled
+  environment. This is particularly useful in very narrowly-defined work places, such as call centers, and in internet cafes.</para>
+
+  <para>For instance, the following features can be disabled by the system administrator:
+  TODO: list stuff from panel, epiphany, nautilus
+  <itemizedlist>
+    <listitem><para></para></listitem>
+    <listitem><para></para></listitem>
+  </itemizedlist>
+
+  </para>
+
+  <para>This can be configured by the system administrator with the gconf editor, and then distributed throughout the network.
+  
+  <figure id="rnscreenshot-gconfeditor-lockdown">
+  <title>Lockdown configuration</title>
+    <screenshot>
+      <mediaobject>
+        <imageobject><imagedata fileref="&urlfiguresbase;lockdownTODO.png" format="PNG"/></imageobject>
+        <textobject><phrase>The configuration editor, showing a lockdown item.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+
+</sect2>
