@@ -1,3 +1,8 @@
+2003-09-20  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* 2.x/2.4rnotes/rninstallation.xml: Move scrollkeeper up to
+	make the build order work.
+
 2003-09-09  Mark McLoughlin  <mark@skynet.ie>
 
 	* single_module/tools/list_translators.sh: play with the voodoo

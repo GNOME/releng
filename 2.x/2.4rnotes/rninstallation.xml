@@ -254,6 +254,11 @@ libwnck
 </listitem>
 <listitem>
 <para>
+scrollkeeper
+</listitem>
+</para>
+<listitem>
+<para>
 gnome-panel
 </para>
 </listitem>
@@ -270,11 +275,6 @@ vte
 <listitem>
 <para>
 gnome-terminal
-</para>
-</listitem>
-<listitem>
-<para>
-scrollkeeper
 </para>
 </listitem>
 <listitem>
