@@ -1,5 +1,10 @@
 2005-02-22  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnapplications.xml: Added evolution stuff, based on an 
+	announcement email.
+
+2005-02-22  Murray Cumming  <murrayc@murrayc.com>
+
 	* Added rngames.xml.
 	* rndesktop.xml: Included rngames.xml.
 

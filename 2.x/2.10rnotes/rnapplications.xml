@@ -81,14 +81,24 @@
    as Novell Groupwise and Microsoft Exchange. With Evolution you can read, write, 
    and manage your emails, contacts, and calendar events.
    </para>
-   <para>TODO: What's new.
+   <para>In GNOME &version; it's now easier to work offline with your email, calendar, and contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes will resynchronize when you go back online.
+   </para
+
+   <para>This new version offers some other calendar improvements:
+     <itemizedlist>
+     <listitem><para>Files can be attached to events.</para></listitem>
+     <listitem><para>Exceptions can be made in recurring events.</para></listitem>
+     <listitem><para>The calendar includes weather information.</para></listitem>
+     </itemizedlist>
    </para>
 
-   <para>This new version has some extra features, including: 
+   <para>And yet more new features:
      <itemizedlist>
-     <listitem><para></para></listitem>
-     <listitem><para></para></listitem>
+     <listitem><para>Groupwise shared folders and send options are now supported.</para></listitem>
+     <listitem><para>Exchange folder sizes and password expiry warnings are supported.</para></listitem>
+     <listitem><para>The email user interface will be properly mirrored for right-to-left languages.</para></listitem>
      </itemizedlist>
+   </para>
 
 
    <figure id="rnscreenshot-evolution">

@@ -1,4 +1,4 @@
-VERSION = 2.8
+VERSION = 2.10
 ROOTDOC = release-notes.xml
 
 docbook_sources = release-notes.xml rnapplets.xml rnapplications.xml rnthemes.xml \
