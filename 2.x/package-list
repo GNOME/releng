@@ -71,7 +71,9 @@ meat-grinder		-		-		-			-
 nautilus		-		-		-			-
 panel			-		-		-			-
 procman			=		1.1.0		"Pretty much ready"	Kevin Vandersloot <kfv101@psu.edu>
-sawfish			-		-		being pointed to gnome2	John Harper <jsh@pixelslut.com>
+rep			-		-		-			John Harper <jsh@pixelslut.com>
+rep-gtk			=		-		mostly ported		John Harper <jsh@pixelslut.com>
+sawfish			=		-		see rep-gtk		John Harper <jsh@pixelslut.com>
 stripchart		-		-		-			-
 </section>
 
