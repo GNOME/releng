@@ -1,4 +1,4 @@
-# translation of el.po to 
+# translation of el.po to
 # translation of el.po to
 # translation of el.po to
 # translation of el.po to Greek
@@ -12,14 +12,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-06 02:52+0200\n"
-"Last-Translator: Nikos Charonitakis <charosn@her.forthnet.gr>\n"
-"Language-Team:  <team@gnome.gr>\n"
+"PO-Revision-Date: 2005-03-06 16:59+0000\n"
+"Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.9.1\n"
+"X-Generator: KBabel 1.3.1\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -659,14 +659,13 @@ msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
 "insecure. We hope to have a solution integrated with our Evolution mail "
 "client in the future. If you don't use Evolution for your mail, you can use "
-"a third party application such as <link href=\"http://www.nongnu.org/"
-"mailnotify/\">mailnotify</link>."
+"a third party application such as <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
 msgstr ""
-"Η υπάρχουσα Παρακολούθηση Αλληλογραφίας απομακρύνθηκε επειδή δεν ήταν πια "
+"Η Παρακολούθηση Αλληλογραφίας απομακρύνθηκε επειδή δεν ήταν πια "
 "ασφαλής. Ελπίζουμε ότι θα υπάρχει μια λύση στο μέλλον που θα ενσωματώνεται "
-"στο Evolution. Αν δεν χρησιμοποιείτε το Evolution, μπορείτε να "
-"χρησιμοποιήσετε μια τρίτη εφαρμογή όπως το <link href=\"http://www.nongnu."
-"org/mailnotify/\">mailnotify</link>."
+"στο πρόγραμμα ηλεκτρονικής αλληλογραφίας Evolution. Αν δεν χρησιμοποιείτε το Evolution για την αλληλογραφία σας, μπορείτε να επιλέξετε μια τρίτη εφαρμογή όπως το <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -768,7 +767,8 @@ msgstr ""
 "Ο πολυαγαπημένος Sound Juicer \"CD ripper\" εξάγει απλά και εύκολα τα "
 "τραγούδια από τα CD έτσι ώστε αργότερα να μπορούμε να τα ακούσουμε στον "
 "υπολογιστή μας ή την φορητή μας συσκευή αναπαραγωγής ήχου. Υπάρχει "
-"δυνατότητα αυτόματης εισαγωγής των τίτλων των τραγουδιών από το διαδίκτυο η οποία απλοποιεί την διαδικασία εξαγωγής σε μόνο δύο κλικ με το ποντίκι σας."
+"δυνατότητα αυτόματης εισαγωγής των τίτλων των τραγουδιών από το διαδίκτυο η "
+"οποία απλοποιεί την διαδικασία εξαγωγής σε μόνο δύο κλικ με το ποντίκι σας."
 "<figure id=\"rnscreenshot-soundjuicer\"><title>Ο εξαγωγέας ήχου</"
 "title><screenshot><mediaobject><imageobject><imagedata fileref="
 "\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></"
@@ -1207,241 +1207,156 @@ msgstr "Συμμετοχή σε δικτυακό παιχνίδι"
 msgid "Internationalization"
 msgstr "Παγκοσμιοποίηση"
 
+#. Translators: I have only changed language count in here: s/40/33/
 #: ../rni18n.xml:10 (para)
 msgid ""
 "Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/"
 "projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of "
-"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 40 "
+"Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
 msgstr ""
-"Ευχαριστίες στα μέλη του παγκόσμιου <ulink url=\"http://developer.gnome.org/"
+"Ευχαριστίες στους συντελεστές του παγκόσμιου <ulink url=\"http://developer.gnome.org/"
 "projects/gtp/\">Έργου Μετάφρασης του GNOME</ulink>, το οποίο κάτω από την "
 "καθοδήγηση του Christian Rose και Kjartan Maraas, το GNOME 2.10 παρέχει "
-"υποστήριξη για 40 γλώσσες."
+"υποστήριξη για 33 γλώσσες (με τουλάχιστον 80 τοις εκατό των μηνυμάτων μεταφρασμένα). "
+"Για την τοπικοποίηση του GNOME 2.10 στα ελληνικά εργάστηκαν οι Κώστας Παπαδήμας, Νίκος Χαρωνιτάκης, Πέτρος Βελώνης και Σίμος Ξενιτέλλης. Μπορείτε να έρθετε σε επαφή με την ελληνική ομάδα στο δικτυακό τόπο <ulink url=\"http://www.gnome.gr/\">http://www.gnome.gr</ulink>."
 
 #: ../rni18n.xml:41 (para)
 msgid "Albanian (5 million speakers)"
 msgstr "Αλβανικά (5 εκατομμύρια ομιλούντες)"
 
 #: ../rni18n.xml:42 (para)
-msgid "Arabic (235 million)"
-msgstr "Αραβικά (235 εκατομμύρια)"
-
-#: ../rni18n.xml:43 (para)
-msgid "Azerbaijani (28 million)"
-msgstr "Αζερμπαϊτζανικά (28 εκατομμύρια)"
-
-#: ../rni18n.xml:44 (para)
-msgid "Basque (580,000)"
-msgstr "Βασκικά (580.000)"
-
-#: ../rni18n.xml:45 (para)
-msgid "Belarusian (7 million)"
-msgstr "Βουλγαρικά (7 εκατομμύρια)"
-
-#: ../rni18n.xml:46 (para)
-msgid "Bengali (189 million)"
-msgstr "Μπενγκάλι (189 εκατομμύρια)"
-
-#: ../rni18n.xml:47 (para)
-msgid "Bosnian (3 million)"
-msgstr "Βοσνιακά (3 εκατομμύρια)"
-
-#: ../rni18n.xml:48 (para)
 msgid "Brazilian Portuguese (175 million)"
 msgstr "Πορτογαλικά Βραζιλίας (175 εκατομμύρια)"
 
-#: ../rni18n.xml:49 (para)
+#: ../rni18n.xml:43 (para)
 msgid "Bulgarian (9 million)"
 msgstr "Βουλγαρικά (9 εκατομμύρια)"
 
-#: ../rni18n.xml:50 (para)
+#: ../rni18n.xml:44 (para)
 msgid "Catalan (7 million)"
 msgstr "Καταλανικά (7 εκατομμύρια)"
 
-#: ../rni18n.xml:51 (para)
+#: ../rni18n.xml:45 (para)
 msgid "Chinese Simplified (over 1 billion)"
 msgstr "Απλοποιημένά Κινέζικα (πάνω απο 1 δισεκατομμύριο)"
 
-#: ../rni18n.xml:52 (para)
+#: ../rni18n.xml:46 (para)
 msgid "Chinese Traditional (40 million)"
 msgstr "Παραδοσιακά Κινέζικα (40 εκατομμύρια)"
 
-#: ../rni18n.xml:53 (para)
-msgid "Croatian (5 million)"
-msgstr "Κροατικά (5 εκατομμύρια)"
-
-#: ../rni18n.xml:54 (para)
+#: ../rni18n.xml:47 (para)
 msgid "Czech (11 million)"
 msgstr "Τσέχικα (11 εκατομμύρια)"
 
-#: ../rni18n.xml:55 (para)
+#: ../rni18n.xml:48 (para)
 msgid "Danish (5.3 million)"
 msgstr "Δανικά (5.3 εκατομμύρια)"
 
-#: ../rni18n.xml:56 (para)
+#: ../rni18n.xml:49 (para)
 msgid "Dutch (over 21 million)"
 msgstr "Ολλανδικά (πάνω από 21 εκατομμύρια)"
 
-#: ../rni18n.xml:57 (para)
+#: ../rni18n.xml:50 (para)
 msgid "English (341 million)"
 msgstr "Αγγλικά (341 εκατομμύρια)"
 
-#: ../rni18n.xml:58 (para)
-msgid "Estonian (1 million)"
-msgstr "Εσθονικά (1 εκατομμύρια)"
-
-#: ../rni18n.xml:59 (para)
+#: ../rni18n.xml:51 (para)
 msgid "Finnish (over 5 million)"
 msgstr "Φινλαδικά (πάνω από 5 εκατομμύρια)"
 
-#: ../rni18n.xml:60 (para)
+#: ../rni18n.xml:52 (para)
 msgid "French (over 75 million)"
 msgstr "Γαλλικά (πάνω από 75 εκατομμύρια)"
 
-#: ../rni18n.xml:61 (para)
+#: ../rni18n.xml:53 (para)
 msgid "German (100 million)"
 msgstr "Γερμανικά (100 εκατομμύρια)"
 
-#: ../rni18n.xml:62 (para)
+#: ../rni18n.xml:54 (para)
 msgid "Greek (15 million)"
 msgstr "Ελληνικά (15 εκατομμύρια)"
 
-#: ../rni18n.xml:63 (para)
+#: ../rni18n.xml:55 (para)
 msgid "Gujarati (46 million)"
 msgstr "Γκουτζαράτι (46 εκατομμύρια)"
 
-#: ../rni18n.xml:64 (para)
+#: ../rni18n.xml:56 (para)
 msgid "Hindi (370 million)"
 msgstr "Χίντι (370 εκατομμύρια)"
 
-#: ../rni18n.xml:65 (para)
+#: ../rni18n.xml:57 (para)
 msgid "Hungarian (14.5 million)"
 msgstr "Ουγγρικά (14.5 εκατομύρια)"
 
-#: ../rni18n.xml:66 (para)
-msgid "Indonesian (25 million)"
-msgstr "Ινδονησιακά (25 εκατομμύρια)"
-
-#: ../rni18n.xml:67 (para)
+#: ../rni18n.xml:58 (para)
 msgid "Italian (60 million)"
 msgstr "Ιταλικά (60 εκατομμύρια)"
 
-#: ../rni18n.xml:68 (para)
+#: ../rni18n.xml:59 (para)
 msgid "Japanese (over 125 million)"
 msgstr "Ιαπωνικά (πάνω από 125 εκατομμύρια)"
 
-#: ../rni18n.xml:69 (para)
+#: ../rni18n.xml:60 (para)
 msgid "Korean (75 million)"
 msgstr "Κορεάτικα (75 εκατομμύρια)"
 
-#: ../rni18n.xml:70 (para)
+#: ../rni18n.xml:61 (para)
 msgid "Lithuanian (4 million)"
 msgstr "Λιθουανικά (4 εκατομμύρια)"
 
-#: ../rni18n.xml:71 (para)
-msgid "Macedonian (1.5 million)"
-msgstr "Γλώσσα Fyrom (1.5 εκατομύριο)"
-
-#: ../rni18n.xml:72 (para)
-msgid "Malay (over 17 million)"
-msgstr "Μαλαισιανα (πάνω από 17 εκατομμύρια)"
-
-#: ../rni18n.xml:73 (para)
-msgid "Mongolian (10 million)"
-msgstr "Μογγολικά (10 εκατομμύρια)"
-
-#: ../rni18n.xml:74 (para)
+#: ../rni18n.xml:62 (para)
 msgid "Norwegian Bookmal (5 million)"
 msgstr "Νορβηγικά Bookmal (5 εκατομμύρια)"
 
-#: ../rni18n.xml:75 (para)
-msgid "Norwegian Nynorsk (2 million)"
-msgstr "Νορβηγικά Nyorsk (2 εκατομμύρια)"
-
 # Punjabi
-#: ../rni18n.xml:76 (para)
+#: ../rni18n.xml:63 (para)
 msgid "Panjabi (60 million)"
 msgstr "Πουντζάμπι (60 εκατομμύρια)"
 
-#: ../rni18n.xml:77 (para)
+#: ../rni18n.xml:64 (para)
 msgid "Polish (44 million)"
 msgstr "Πολωνικά (44 εκατομμύρια)"
 
-#: ../rni18n.xml:78 (para)
+#: ../rni18n.xml:65 (para)
 msgid "Portuguese (43 million)"
 msgstr "Πορτογαλικά (43 εκατομμύρια)"
 
-#: ../rni18n.xml:79 (para)
-msgid "Romanian (26 million)"
-msgstr "Ρουμανικά (26 εκατομμύρια)"
-
-#: ../rni18n.xml:80 (para)
+#: ../rni18n.xml:66 (para)
 msgid "Russian (170 million)"
 msgstr "Ρωσικά (170 εκατομμύρια)"
 
-#: ../rni18n.xml:81 (para)
+#: ../rni18n.xml:67 (para)
 msgid "Serbian (10 million)"
 msgstr "Σερβικά (10 εκατομμύρια)"
 
-#: ../rni18n.xml:82 (para)
-msgid "Slovak (5 million)"
-msgstr "Σλοβακικά (75 εκατομμύρια)"
-
-#: ../rni18n.xml:83 (para)
+#: ../rni18n.xml:68 (para)
 msgid "Spanish (over 350 million)"
 msgstr "Ισπανικά (πάνω από 350 εκατομμύρια)"
 
-#: ../rni18n.xml:84 (para)
+#: ../rni18n.xml:69 (para)
 msgid "Swedish (9 million)"
 msgstr "Σουηδικά (9 εκατομμύρια)"
 
-#: ../rni18n.xml:85 (para)
+#: ../rni18n.xml:70 (para)
 msgid "Tamil (61 million)"
 msgstr "Ταμίλ (61 εκατομμύρια)"
 
-#: ../rni18n.xml:86 (para)
+#: ../rni18n.xml:71 (para)
 msgid "Turkish (150 million)"
 msgstr "Τουρκικά (61 εκατομμύρια)"
 
-#: ../rni18n.xml:87 (para)
+#: ../rni18n.xml:72 (para)
 msgid "Ukrainian (50 million)"
 msgstr "Ουκρανικά (50 εκατομμύρια)"
 
-#: ../rni18n.xml:88 (para)
-msgid "Vietnamese"
-msgstr "Βιετναμέζικα (68 εκατομμύρια)"
-
-#: ../rni18n.xml:89 (para)
+#: ../rni18n.xml:73 (para)
 msgid "Welsh (575,000)"
 msgstr "Ουαλικά (575.000)"
 
 #: ../rni18n.xml:36 (para)
 msgid "Supported languages: <placeholder-1/>"
 msgstr "Υποστηριζόμενες γλώσσες: <placeholder-1/>"
-
-#: ../rni18n.xml:93 (para)
-msgid ""
-"Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian Nynorsk, "
-"Panjabi and Tamil are new supported languages in GNOME 2.10, thanks to the "
-"hard work of their translators. Also worthy of mention is that British "
-"English and Canadian English are also supported."
-msgstr ""
-"Σημειώστε ότι τα Βάσκικα, τα Βουλγάρικα, τα Γκουτζαράτι, τα Ουγγρικά, τα "
-"Νορβηγικά,τα Πουντζάμπι και τα Ταμίλ είναι οι νέες υποστηριζόμενες γλώσσες "
-"για το GNOME 2.10, χάρις στην σκληρή δουλειά των μεταφραστών τους. Ακόμη, "
-"άξιο αναφοράς είναι το ότι τα Αγγλικά Ην. Βασιλείου και Καναδά "
-"υποστηρίζονται σε αυτή την έκδοση."
-
-#: ../rni18n.xml:98 (para)
-msgid ""
-"Another 9 languages are partially supported, with more than half of their "
-"strings translated. Croatian and Mongolian are particularly close to "
-"\"supported\" status."
-msgstr ""
-"9 ακόμα γλώσσες υποστηρίζονται μερικώς, με τις περισσότερες από αυτές να "
-"έχουν παραπάνω από τα μισά μηνύματά τους μεταφρασμένα. Τα δε Κροάτικα και τα "
-"Μογκολικά είναι πολύ κοντά στο να υποστηριχθούν πλήρως."
 
 #: ../rninstallation.xml:9 (title)
 msgid "Installation of GNOME 2.10"
@@ -1867,4 +1782,73 @@ msgstr ""
 "\n"
 "Επισκεφθείτε τον <ulink url=\"http://www.gnome.gr/\">δικτυακό τόπο της "
 "ομάδας εξελληνισμού του GNOME</ulink>"
+
+#~ msgid "Arabic (235 million)"
+#~ msgstr "Αραβικά (235 εκατομμύρια)"
+
+#~ msgid "Azerbaijani (28 million)"
+#~ msgstr "Αζερμπαϊτζανικά (28 εκατομμύρια)"
+
+#~ msgid "Basque (580,000)"
+#~ msgstr "Βασκικά (580.000)"
+
+#~ msgid "Belarusian (7 million)"
+#~ msgstr "Βουλγαρικά (7 εκατομμύρια)"
+
+#~ msgid "Bengali (189 million)"
+#~ msgstr "Μπενγκάλι (189 εκατομμύρια)"
+
+#~ msgid "Bosnian (3 million)"
+#~ msgstr "Βοσνιακά (3 εκατομμύρια)"
+
+#~ msgid "Croatian (5 million)"
+#~ msgstr "Κροατικά (5 εκατομμύρια)"
+
+#~ msgid "Estonian (1 million)"
+#~ msgstr "Εσθονικά (1 εκατομμύρια)"
+
+#~ msgid "Indonesian (25 million)"
+#~ msgstr "Ινδονησιακά (25 εκατομμύρια)"
+
+#~ msgid "Macedonian (1.5 million)"
+#~ msgstr "Γλώσσα Fyrom (1.5 εκατομύριο)"
+
+#~ msgid "Malay (over 17 million)"
+#~ msgstr "Μαλαισιανα (πάνω από 17 εκατομμύρια)"
+
+#~ msgid "Mongolian (10 million)"
+#~ msgstr "Μογγολικά (10 εκατομμύρια)"
+
+#~ msgid "Norwegian Nynorsk (2 million)"
+#~ msgstr "Νορβηγικά Nyorsk (2 εκατομμύρια)"
+
+#~ msgid "Romanian (26 million)"
+#~ msgstr "Ρουμανικά (26 εκατομμύρια)"
+
+#~ msgid "Slovak (5 million)"
+#~ msgstr "Σλοβακικά (75 εκατομμύρια)"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Βιετναμέζικα (68 εκατομμύρια)"
+
+#~ msgid ""
+#~ "Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian "
+#~ "Nynorsk, Panjabi and Tamil are new supported languages in GNOME 2.10, "
+#~ "thanks to the hard work of their translators. Also worthy of mention is "
+#~ "that British English and Canadian English are also supported."
+#~ msgstr ""
+#~ "Σημειώστε ότι τα Βάσκικα, τα Βουλγάρικα, τα Γκουτζαράτι, τα Ουγγρικά, τα "
+#~ "Νορβηγικά,τα Πουντζάμπι και τα Ταμίλ είναι οι νέες υποστηριζόμενες "
+#~ "γλώσσες για το GNOME 2.10, χάρις στην σκληρή δουλειά των μεταφραστών "
+#~ "τους. Ακόμη, άξιο αναφοράς είναι το ότι τα Αγγλικά Ην. Βασιλείου και "
+#~ "Καναδά υποστηρίζονται σε αυτή την έκδοση."
+
+#~ msgid ""
+#~ "Another 9 languages are partially supported, with more than half of their "
+#~ "strings translated. Croatian and Mongolian are particularly close to "
+#~ "\"supported\" status."
+#~ msgstr ""
+#~ "9 ακόμα γλώσσες υποστηρίζονται μερικώς, με τις περισσότερες από αυτές να "
+#~ "έχουν παραπάνω από τα μισά μηνύματά τους μεταφρασμένα. Τα δε Κροάτικα και "
+#~ "τα Μογκολικά είναι πολύ κοντά στο να υποστηριχθούν πλήρως."
 
