@@ -1,5 +1,13 @@
 2001-11-16  Jeff Waugh  <jdub@perkypants.org>
 
+	* README, 1.x
+
+	Changed README to be slightly more global ;) and added the 1.x directory.
+	Intention is to move 1.x releng stuff into here with the help of a cvs
+	surgeon. Just lubing up the release metadata, guv!
+
+2001-11-16  Jeff Waugh  <jdub@perkypants.org>
+
 	* 2.x/package-list
 	* releng2html.pl
 
