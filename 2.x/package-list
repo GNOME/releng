@@ -8,13 +8,13 @@
 
 <section title="Developer Platform">
 GConf			=		1.1.6		frozen			Havoc Pennington <hp@redhat.com>
-ORBit2			=		2.3.102		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
-at-spi			=		0.0.5		not frozen		Bill Haneman <Bill.Haneman@sun.com>
-atk			=		0.9		not frozen		Bill Haneman <Bill.Haneman@sun.com>
+ORBit2			=		2.3.103		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+at-spi			=		0.0.6		not frozen		Bill Haneman <Bill.Haneman@sun.com>
+atk			=		0.10		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 audiofile		-		0.2.3		frozen			Michael Pruett <mpruett@sgi.com>
 bonobo-activation	=		0.9.3		frozen			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
 esound			-		0.2.23		frozen			Eric Mitchell <ericmit@ix.netcom.com>
-gail			=		0.5		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
+gail			=		0.6		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
 glib			=		1.3.12		frozen			Tim Janik <timj@redhat.com>, Owen Taylor <otaylor@redhat.com>
 gnome-common		=		1.2.4		frozen			Anders Carlsson <andersca@gnu.org>
 gnome-mime-data		=		1.0.0		no API			Seth Nickell <snickell@stanford.edu>
@@ -22,7 +22,7 @@ gnome-vfs		=		1.9.4		frozen			Ian McKellar <yakk@yakk.net>
 gtk+			=		1.3.12		frozen			Owen Taylor <owen@redhat.com>, Tim Janik <timj@gtk.org>
 gtk-doc			=		0.9		-			Owen Taylor <owen@redhat.com>
 intltool		=		0.12		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
-libIDL			=		0.7.2		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+libIDL			=		0.7.3		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 libart_lgpl		=		2.3.8		-			Raph Levien <raph@acm.org>
 libbonobo		=		1.108.0		frozen			Michael Meeks <michael@ximian.com>
 libbonoboui		=		1.109.2		frozen			Michael Meeks <michael@ximian.com>
@@ -35,7 +35,7 @@ libgnomeprintui		=		1.109.1		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeui		=		1.108.0		frozen			Anders Carlsson <andersca@gnu.org>
 libxml2			gnome-xml	2.4.13		frozen			Daniel Veillard <veillard@redhat.com>
 libxslt			=		1.0.10		frozen			Daniel Veillard <veillard@redhat.com>
-linc			=		0.1.13		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+linc			=		0.1.16		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.23		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
@@ -46,7 +46,7 @@ eel			=		-		porting along with Nautilus	Darin Adler <darin@bentspoon.com>
 eog			=		1.109.0		blocking on old bonobo control grokkage (seth porting)	Seth Nickell <snickell@stanford.edu>
 gdict			=		-		ported			-
 gdm			gdm2		2.3.90.1	porting			George Jirka <jirka@5z.com>
-gedit2			=		1.109.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
+gedit2			=		1.110.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
 gnome-audio		-		-		-			-
 gnome-control-center	-		-		-			Richard Hestilow <hestilow@ximian.com>
 gnome-core		=		1.5.4		see Desktop Core section		-
@@ -54,6 +54,7 @@ gnome-games		=		1.90.1		mostly ported, minor issues		Juan Pablo Mendoza <jpablo@
 gnome-media		=		-		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
 gnome-utils		=		1.97.0		see Desktop Utils section		-
+libgail-gnome		-		0.4		-			-
 libgtkhtml		gtkhtml2	1.99.2		ported, rendering issues		-
 libgtop			=		1.90.1		ported, branch is libgtop-GNOME-2-0-port		Kevin Vandersloot <kfv101@psu.edu>
 librsvg			=		1.1.1		-			-
@@ -65,11 +66,12 @@ procman			=		1.1.2		ported			Kevin Vandersloot <kfv101@psu.edu>
 rep			librep		-		-			John Harper <jsh@pixelslut.com>
 rep-gtk			=		-		mostly ported		John Harper <jsh@pixelslut.com>
 sawfish			=		-		see rep-gtk		John Harper <jsh@pixelslut.com>
+scrollkeeper		-		0.3.4		-			-
 yelp			=		0.1		new			Mikael Hallendal <micke@codefactory.se>
 </section>
 
 <section title="Desktop Core (gnome-core)" cvsbase="gnome-core">
-applets			=		1.90.1		see Desktop Applets	-
+applets			=		1.91.0		see Desktop Applets	-
 gfloppy			=		-		ported			Jonathan Blandford <jrb@redhat.com>
 gnome-about		=		-		porting (Glynn)		Jacob Berkman <jacob@ximian.com>, George Jirka <jirka@5z.com>
 gnome-terminal		=		-		-			-
