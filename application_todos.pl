@@ -120,8 +120,9 @@ sub get_application_name {
 
 sub get_item_flag {
   $line = @_[0];
-  $line =~ /"(.*?)+"/;
+  $line =~ /(done="(.*?)+")/;
   $line = $1;
+  $line =~ s/done=//g;
   $line =~ s/"//g;
   return $line;
 }
