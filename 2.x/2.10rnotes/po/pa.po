@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
-"PO-Revision-Date: 2005-03-03 08:33+0530\n"
+"PO-Revision-Date: 2005-03-03 19:32+0530\n"
 "Last-Translator: Amanpreet Singh Alam <amanpreetalam@yahoo.com>\n"
 "Language-Team: Punjabi <fedora-trans-pa@redhat.com>\n"
 "MIME-Version: 1.0\n"
@@ -161,9 +161,8 @@ msgid ""
 msgstr ""
 
 #: ../release-notes.xml:112
-#, fuzzy
 msgid "<placeholder-1/>"
-msgstr "ਸਹਿਯੋਗੀ ਭਾਸ਼ਾਵਾਂ: <placeholder-1/>"
+msgstr "<placeholder-1/>"
 
 #: ../release-notes.xml:141
 msgid "Looking to GNOME 2.12 and Beyond"
@@ -287,13 +286,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:158
-#, fuzzy
 msgid ""
 "@@image: 'figures/figure-applet-cpufreq.png'; "
 "md5=81a2482710b2157df4fc66697490d28a"
 msgstr ""
-"@@image: 'figures/figure-applet-mixer.png'; "
-"md5=3db86d251e280b32c35142524d4759f2"
+"@@image: 'figures/figure-applet-cpufreq.png'; "
+"md5=81a2482710b2157df4fc66697490d28a"
 
 #: ../rnapplets.xml:8
 msgid "Panel Items"
@@ -338,7 +336,6 @@ msgid "The new modem control applet"
 msgstr "ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ"
 
 #: ../rnapplets.xml:23
-#, fuzzy
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
 "with GNOME System Tools. <figure id=\"rnscreenshot-applet-modem"
@@ -347,12 +344,11 @@ msgid ""
 "imageobject><textobject><phrase>The new modem control applet</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id=\"rnscreenshot-applet-modem"
+"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
 "\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:41
 msgid "Panel Trashcan"
@@ -363,7 +359,6 @@ msgid "a Trashcan on your Panel"
 msgstr "ਤੁਹਾਡੇ ਪੈਨਲ ਤੇ ਰੱਦੀ ਡੱਬਾ"
 
 #: ../rnapplets.xml:43
-#, fuzzy
 msgid ""
 "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
 "trashcan on your desktop, you can now drag and drop files and other items "
@@ -374,12 +369,6 @@ msgid ""
 "imageobject><textobject><phrase>Drag trash to your panel</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:62
 msgid "Control Mounted Volumes"
@@ -390,7 +379,6 @@ msgid "Drive Mount"
 msgstr "ਡਰਾਇਵ ਮਾਊਟ"
 
 #: ../rnapplets.xml:64
-#, fuzzy
 msgid ""
 "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, "
 "and USB memory sticks. Now the volume mounter applet helps you to use these "
@@ -403,12 +391,6 @@ msgid ""
 "imageobject><textobject><phrase>The drive mount applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:85
 msgid "Get even more weather"
@@ -419,7 +401,6 @@ msgid "Weather Report"
 msgstr "ਮੌਸਮ ਜਾਣਕਾਰੀ"
 
 #: ../rnapplets.xml:86
-#, fuzzy
 msgid ""
 "The weather monitor can now show even more locations then before, and the "
 "location names have been translated into non-english languages where "
@@ -430,12 +411,6 @@ msgid ""
 "imageobject><textobject><phrase>The weather report applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:106
 msgid "Sound control"
@@ -487,10 +462,9 @@ msgstr "ਲੈਪਟਾਪਾਂ ਲਈ ਖਾਸ"
 
 #: ../rnapplets.xml:155
 msgid "Monitor CPU Frequency Scaling"
-msgstr ""
+msgstr "CPU ਫ੍ਰੀਕਿਊਂਸੀ ਸਕੇਲਿੰਗ ਨਿਗਰਾਨੀ"
 
 #: ../rnapplets.xml:149
-#, fuzzy
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
 "CPU Frequency Monitor watches variable-speed processors (such as those with "
@@ -502,12 +476,6 @@ msgid ""
 "imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:168
 msgid "Removed Applets"
@@ -549,10 +517,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:20
-msgid ""
-"@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
-msgstr ""
-"@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
+msgid "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
+msgstr "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -567,10 +533,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:67
-msgid ""
-"@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
-msgstr ""
-"@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
+msgid "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
+msgstr "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -595,13 +559,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:141
-#, fuzzy
 msgid ""
 "@@image: 'figures/figure-gnome-meeting.png'; "
 "md5=71e89305beea456fbb73016fbb645010"
 msgstr ""
-"@@image: 'figures/figure-gnome-desktop.png'; "
-"md5=a25ee1cd47ba6e56ce09a67de0b45372"
+"@@image: 'figures/figure-gnome-meeting.png'; "
+"md5=71e89305beea456fbb73016fbb645010"
 
 #: ../rnapplications.xml:8
 msgid "Applications"
@@ -616,7 +579,6 @@ msgid "The video player"
 msgstr "ਵੀਡਿਓ ਪਲੇਅਰ"
 
 #: ../rnapplications.xml:13
-#, fuzzy
 msgid ""
 "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
 "GStreamer multimedia framework. Totem provides the intuitive user interface "
@@ -626,12 +588,6 @@ msgid ""
 "figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
 "Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:31
 msgid "Audio Extraction"
@@ -642,7 +598,6 @@ msgid "The audio extractor"
 msgstr "ਆਡੀਓ ਖੋਲਣ ਵਾਲਾ"
 
 #: ../rnapplications.xml:33
-#, fuzzy
 msgid ""
 "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for "
 "later playback on your PC or portable music player. Thanks to automatic "
@@ -653,12 +608,6 @@ msgid ""
 "imageobject><textobject><phrase>The audio extractor.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:51
 msgid "Web Browser"
@@ -666,7 +615,7 @@ msgstr "ਵੈਬ ਝਲਕਾਰਾ"
 
 #: ../rnapplications.xml:55
 msgid "An improved fullscreen mode."
-msgstr "ਸੁਧਰਿਆ ਪੂਰਾ ਪਰਦਾ ਢੰਗ"
+msgstr "ਸੁਧਰਿਆ ਪੂਰਾ ਪਰਦਾ ਢੰਗ ਹੈ।"
 
 #: ../rnapplications.xml:56
 msgid ""
@@ -694,19 +643,15 @@ msgid "The web browser"
 msgstr "ਵੈਬ ਝਲਕਾਰਾ"
 
 #: ../rnapplications.xml:62
-#, fuzzy
 msgid ""
 "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
 "web browser.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>ਵੈਬ ਝਲਕਾਰਾ ਹੈ।</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:77
 msgid "Evolution"
@@ -740,8 +685,7 @@ msgid "The calendar includes weather information (US only)."
 msgstr "ਕੈਲੰਡਰ ਵਿੱਚ ਮੌਸਮ ਜਾਣਕਾਰੀ ਸ਼ਾਮਲ (ਅਮਰੀਕਾ ਲਈ ਹੀ)"
 
 #: ../rnapplications.xml:87
-msgid ""
-"This new version offers some other calendar improvements: <placeholder-1/>"
+msgid "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr "ਇਹ ਨਵੇਂ ਵਰਜਨ ਵਿੱਚ ਕੈਲੰਡਰ ਵਿੱਚ ਹੋਰ ਵੀ ਸੁਧਾਰ ਹਨ: <placeholder-1/>"
 
 #: ../rnapplications.xml:96
@@ -775,7 +719,6 @@ msgid "The email client"
 msgstr "ਈ-ਪੱਤਰ ਕਲਾਂਇਟ"
 
 #: ../rnapplications.xml:113
-#, fuzzy
 msgid ""
 "<figure id=\"rnscreenshot-evolution-mail\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
@@ -783,12 +726,11 @@ msgid ""
 "imageobject><textobject><phrase>The Evolution email client.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"<figure id=\"rnscreenshot-evolution-mail\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-evolution-mail.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>ਈਵੇਲੂਸ਼ਨ ਈ-ਪੱਤਰ ਕਲਾਂਇਟ ਹੈ।</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:129
 msgid "GnomeMeeting"
@@ -807,7 +749,6 @@ msgid "The internet telephony and video conferencing client"
 msgstr "ਇੰਟਰਨੈਟ ਟੈਲੀਫੋਨ ਅਤੇ ਵੀਡਿਓ ਕਾਨਫਰੰਸ ਕਲਾਂਇਟ"
 
 #: ../rnapplications.xml:135
-#, fuzzy
 msgid ""
 "Now you can even browse for other Gnome Meeting users on your local network "
 "without discovering their contact details first. And you can view your own "
@@ -818,12 +759,6 @@ msgid ""
 "imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -865,10 +800,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rndesktop.xml:34
-msgid ""
-"@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
-msgstr ""
-"@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
+msgid "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
+msgstr "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -900,7 +833,7 @@ msgstr ""
 msgid ""
 "Drag and drop with other applications, such as Mozilla and Firefox, now also "
 "works more smoothly."
-msgstr ""
+msgstr "ਹੋਰ ਕਾਰਜਾਂ, ਜਿਵੇਂ ਕਿ ਮੌਜੀਲਾ ਅਤੇ ਫਾਇਰਫਾਕਸ, ਨਾਲ ਚੁੱਕਣ ਸੁੱਟਣ ਹੁਣ ਵਧੀਆ ਕੰਮ ਕਰਦਾ ਹੈ।"
 
 #: ../rndesktop.xml:24
 msgid "The path button is now more obviously a button."
@@ -1420,10 +1353,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnsysadmin.xml:61
-msgid ""
-"@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
-msgstr ""
-"@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
+msgid "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
+msgstr "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
 
 #: ../rnsysadmin.xml:9
 msgid "System Administration"
@@ -1449,7 +1380,7 @@ msgstr ""
 msgid ""
 "Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
 "connections."
-msgstr ""
+msgstr "ਨੈਟਵਰਕਿੰਗ: ਸੁਧਾਰੀ ਬੇਤਾਰ ਸਹਿਯੋਗ (WEP ਅਤੇ ESSID ਖੋਜ) ਅਤੇ ISDN ਕੁਨੈਕਸ਼ਨ ਹਨ।"
 
 #: ../rnsysadmin.xml:27
 msgid "Users and Groups: Easier editing of group members."
@@ -1468,7 +1399,6 @@ msgid "The Clock, Network, and Users/Groups tools"
 msgstr "ਘੜੀ, ਨੈਟਵਰਕ ਅਤੇ ਉਪਭੋਗਤਾ/ਸਮੂਹ ਸੰਦ"
 
 #: ../rnsysadmin.xml:32
-#, fuzzy
 msgid ""
 "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
@@ -1476,12 +1406,11 @@ msgid ""
 "imageobject><textobject><phrase>The Clock, Network, and Users/Groups tools.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnome-system-tools.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>ਘੜੀ, ਨੈਟਵਰਕ, ਉਪਭੋਗਤਾ/ਸਮੂਹ ਸੰਦ ਹੈ।</"
+"phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnsysadmin.xml:47
 msgid "Log Viewer"
@@ -1504,7 +1433,6 @@ msgid "The Log Viewer"
 msgstr "ਲਾਗ ਦਰਸ਼ਕ"
 
 #: ../rnsysadmin.xml:49
-#, fuzzy
 msgid ""
 "The GNOME log viewer has added a handy find feature, and an improved monitor "
 "mode. In addition, it can now <placeholder-1/><figure id=\"rnscreenshot-"
@@ -1514,12 +1442,6 @@ msgid ""
 "Log Viewer, during a seach.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnthemes.xml:2
 msgid "Themes"
@@ -1528,41 +1450,34 @@ msgstr "ਸਰੂਪ"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:23
-#, fuzzy
-msgid ""
-"@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
-msgstr ""
-"@@image: 'figures/figure-applet-drivemount.png'; "
-"md5=47fa7b661de0c2ae0223fa211145fa11"
+msgid "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
+msgstr "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:41
-#, fuzzy
 msgid "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: 'figures/fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:60
-#, fuzzy
 msgid ""
 "@@image: 'figures/figure-dictionary.png'; "
 "md5=2c1962519057406be57f4b1b76604973"
 msgstr ""
-"@@image: 'figures/figure-evolution-weather.png'; "
-"md5=ca12d0050f5514294bd4b54f47a899db"
+"@@image: 'figures/figure-dictionary.png'; "
+"md5=2c1962519057406be57f4b1b76604973"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:78
-#, fuzzy
 msgid ""
 "@@image: 'figures/figure-floppy-formatter.png'; "
 "md5=cc67b69fcf0049807a6b9656aa0d17e7"
 msgstr ""
-"@@image: 'figures/figure-applet-trash.png'; "
-"md5=3cae86562b76ef6650be8d0fbe007907"
+"@@image: 'figures/figure-floppy-formatter.png'; "
+"md5=cc67b69fcf0049807a6b9656aa0d17e7"
 
 #: ../rnutilities.xml:8
 msgid "Utilities"
@@ -1586,7 +1501,6 @@ msgid ""
 msgstr ""
 
 #: ../rnutilities.xml:17
-#, fuzzy
 msgid ""
 "Many people will be glad to see that it no longer suggests saving changes "
 "when all changes have actually been undone. And in addition it even starts "
@@ -1596,19 +1510,12 @@ msgid ""
 "imageobject><textobject><phrase>The text editor, highlighting the current "
 "line.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:33 ../rnutilities.xml:38
 msgid "Archive Manager"
 msgstr "ਸੁਕੰਚਿਤ ਪ੍ਰਬੰਧਕ"
 
 #: ../rnutilities.xml:35
-#, fuzzy
 msgid ""
 "The GNOME archive manager can now open more types of archive, including AR, "
 "Debian, and 7-zip archives, and password-protected RAR archives. And if you "
@@ -1619,19 +1526,12 @@ msgid ""
 "imageobject><textobject><phrase>The archive manager, asking for a password "
 "for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:52 ../rnutilities.xml:57
 msgid "Dictionary"
 msgstr "ਸ਼ਬਦ-ਕੋਸ਼"
 
 #: ../rnutilities.xml:54
-#, fuzzy
 msgid ""
 "The GNOME Dictionary now suggests words when you aren't sure how to spell "
 "something. The definitions also contain links to external dictionary web "
@@ -1643,19 +1543,12 @@ msgid ""
 "spellings and a definition.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:70 ../rnutilities.xml:75
 msgid "Floppy Formatter"
 msgstr "ਫਲਾਪੀ ਫਾਰਮਿਟਰ"
 
 #: ../rnutilities.xml:72
-#, fuzzy
 msgid ""
 "The GNOME Floppy Formatter utility now supports removable drives, such as "
 "USB drives, using the standard HAL system from freedesktop.org. <figure id="
@@ -1665,12 +1558,6 @@ msgid ""
 "imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"ਗਨੋਮ ੨.੧੦ ਨੇ ਤੁਹਾਡੇ ਮਾਡਮ ਨੂੰ ਕੰਟੋਰਲ ਕਰਨ ਲਈ, ਗਨੋਮ ਸਿਸਟਮ ਸੰਦ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਹੈ। <figure id="
-"\"rnscreenshot-applet-modem\"><title>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>ਨਵਾਂ ਮਾਡਮ ਕੰਟਰੋਲ ਐਪਲਿਟ</phrase></textobject></"
-"mediaobject></screenshot></figure>"
 
 #: ../rnwhy.xml:8
 msgid "So, why GNOME?"
@@ -1826,18 +1713,5 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../rnwhy.xml:0
 msgid "translator-credits"
-msgstr "ਅਮਨਪ੍ਰੀਤ ਸਿੰਘ ਆਲਮਵਾਲਾ<amanpreetalam@yahoo.com> ੨੦੦੫ "
+msgstr "ਅਮਨਪ੍ਰੀਤ ਸਿੰਘ ਆਲਮਵਾਲਾ<amanpreetalam@yahoo.com> ੨੦੦੫"
 
-#~ msgid "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
-
-#~ msgid "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
-
-#~ msgid "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
-
-#~ msgid ""
-#~ "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr ""
-#~ "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
