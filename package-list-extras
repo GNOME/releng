@@ -24,12 +24,12 @@ gtkhtml            0.8.2
 libgda             0.2.3       no            no         no        no          Rodrigo Moya <rodrigo@gnome-db.org>
 
 The GIMP           1.2.1       no            no         yes       no          Manish Singh <yosh@gimp.org>
-eog                0.6         yes           no         yes       no          
+eog                0.6         yes           no         yes       no          Martin Baulig <martin@home-of-linux.org> 
 
 GnomeICU           0.96.1      no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
 gabber             0.8.2       no            no         yes       yes         Julian Missig <julian@jabber.org>
 galeon             0.10.1      yes           no         yes       yes         Marco Pesenti Gritti <mpeseng@tin.it>
-gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.pt>
+gtm                0.4.6       no            no         yes       no          Bruno Pires Marinho <bapm@netcabo.pt>
 Pan                0.9.3       no            no         yes       no          pan@superpimp.org
 Balsa              1.0.0                                                      Jay Painter <jpaint@balsa.net>
 Firestarter        0.6.1       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
