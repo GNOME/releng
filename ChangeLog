@@ -1,5 +1,10 @@
 2001-11-20  Jeff Waugh  <jdub@perkypants.org>
 
+	* 2.x/package-list: gnome-utils update from KevinV (rock!)
+	* releng2html.pl: silly datestamp mans (should be fixed)
+
+2001-11-20  Jeff Waugh  <jdub@perkypants.org>
+
 	* 2.x/package-list: additional information c/o Glynn
 	* releng2html.pl: and he's been pestering me about this for days...
 

@@ -5,9 +5,9 @@ use Date::Format;
 @linecolour = '#eeeeee', '#ffffff';
 $gendate = time2str("%Y/%m/%d %T", time());
 
-print qq{
-<!--#set var="last_modified" value="\$Date$gendate \$" -->
-};
+print "<!--#set var=\"last_modified\" value=\"\$Date: ";
+print $gendate;
+print " \$\" -->";
 
 print qq {
 <table cellspacing="0" cellpadding="4" width="100%">

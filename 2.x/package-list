@@ -48,10 +48,10 @@ gcalc			gnome-utils	-		done			-
 gcharmap		gnome-utils	-		ported			-
 gcolorsel		-		-		hadess to replace	-
 gdialog			gnome-utils	-		ported			-
-gdict			-		-		-			-
+gdict			gnome-utils	-		compiles, needs porting to GtkTextView, applet doesn't compile			-
 gdm			-		-		-			-
 gedit			-		-		-			-
-gfloppy			-		-		-			-
+gfloppy			gnome-utils	-		ported			Jonathan Blandford <jrb@redhat.com>
 gfontsel		-		-		-			-
 ggv			-		-		-			-
 gnome-about		gnome-core/gnome-about		-			-
