@@ -1,3 +1,7 @@
+2005-03-08  Vincent van Adrighem  <adrighem@gnome.org>
+
+	* nl.po: Dutch Translation updated by Tino Meinen
+
 2005-03-08  Alessio Frusciante  <algol@firenze.linux.it>
 	* xml-it/figures/figure-applet-drivemount.png
 	* xml-it/figures/figure-applet-mixer.png
@@ -12,7 +16,7 @@
 	* xml-it/figures/figure-gnome-desktop.png
 	* xml-it/figures/figure-nautilus.png
 	* xml-it/figures/figure-soundjuicer.png: Added
-	
+
 2005-03-08  Alessio Frusciante  <algol@firenze.linux.it>
 
 	* it.po: Added partial Italian translation.
