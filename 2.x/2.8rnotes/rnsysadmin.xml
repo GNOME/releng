@@ -15,7 +15,7 @@
     <sect3 id="rnsysadmin-vino">
     <title>Remote Desktop - VNC server</title>
 
-    <para>GNOME &version; now includes a VNC (virtual network computing) client, allowing remote control of a user's desktop. For instance, a system administrator could control the user's applications, to make changes, or to just demonstrate how to perform tasks.</para>
+    <para>GNOME &version; now includes a VNC (virtual network computing) server, allowing remote control of a user's desktop. For instance, a system administrator could control the user's applications, to make changes, or to just demonstrate how to perform tasks.</para>
 
     <para>The new Remote Desktop Preferences control panel lets users choose how much control should be allowed.
 
