@@ -16,7 +16,7 @@
 
     <para>This new &quot;spatial&quot; user interface presents just one window for each folder, and remembers their location
     and size. The user can then think of the window as being the folder. When the user opens a folder again, it will appear just
-    as it did before, so that the user can recognise it. And if it is already open, then it will just be brought to the front.</para>
+    as it did before, so that the user can recognize it. If it is already open, it will just be brought to the front.</para>
 
     <figure id="rnscreenshot-nautilus-spatial">
       <title>Simplified file management - the window is the folder</title>
@@ -89,11 +89,11 @@
        <listitem><para>Complete keyboard navigation, so more experienced users can work even more efficiently.</para></listitem>
        <listitem><para>Type the first letters of a file to quickly select it.</para></listitem>
        <listitem><para>User-definable template files to easily create new documents.</para></listitem>
-       <listitem><para>List view columns can be customized.</para></listitem>
+       <listitem><para>Customizable list view columns.</para></listitem>
        <listitem><para>Emblem support for list views, with a better treeview in the sidebar.</para></listitem>
-       <listitem><para>The CD burner has better burn speed detection</para></listitem>
-       <listitem><para>The file manager can identify and play more sound formats.</para></listitem>
-       <listitem><para>New plug-ins system for developers.</para></listitem>
+       <listitem><para>Better speed detection for the CD burner.</para></listitem>
+       <listitem><para>More sound formats identified by the file manager.</para></listitem>
+       <listitem><para>New plug-in system for developers.</para></listitem>
      </itemizedlist>
      </para>
 
