@@ -1,6 +1,6 @@
 2003-01-20  Alex Duggan  <aldug@astrolinux.com>
 
-	* 2.x/package-list: moved libvte to vte.
+	* 2.x/package-list: moved libvte to vte.  Approved by Murray.
 
 2003-01-20  Murray Cumming  <murrayc@usa.net>
 
