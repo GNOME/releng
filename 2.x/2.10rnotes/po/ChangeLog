@@ -1,5 +1,9 @@
 2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* xml-th/figures/figure-file-roller.png: Added Thai screenshot.
+
+2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* th.po: Updated Thai translation.
 	* xml-th/figures/*: Added soundjuicer screenshot. Adjust some others.
 	Removed untranslated screenshots.
