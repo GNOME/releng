@@ -1,3 +1,8 @@
+2001-02-16  Jamin Gray <jgray@writeme.com>
+
+    * gnome-extras-1.4beta1-versions, package-list-extras: updated Guppi, GnuCash, AbiWord, Sodipodi, gnome-db, toutdoux, anjunta, memprof, gtm,
+    balsa, bombermaze, atomix, gfaz, fpm, merlin's cpu fire applet, and googlizer.  This completes the extra apps.. 
+
 2001-02-15  Maciej Stachowiak  <mjs@eazel.com>
 
 	* gnome-1.4beta1-versions: Updated gnome-libs, gtkmm, gnomemm,

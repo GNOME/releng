@@ -11,17 +11,16 @@ Gnumeric           0.61        no            no         yes       yes         Jo
 Dia                0.86        no            no         yes       no          James Henstridge <james@daa.com.au>
 Guppi              0.35.2      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
 AbiWord            0.7.12                                                     ???
-GnuCash            1.4.9                                                      devel@gnumatic.com
-Sodipodi           0.20                                                       Lauris Kaplinski <lauris@kaplinski.com>
-gnome-db           0.2.2                                                      Rodrigo Moya <rodrigo@gnome-db.org>
+GnuCash            1.4.10                                                     devel@gnumatic.com
+Sodipodi           0.21                                                       Lauris Kaplinski <lauris@kaplinski.com>
+gnome-db           0.2.3                                                      Rodrigo Moya <rodrigo@gnome-db.org>
 toutdoux           1.2.4                                                      Philippe Roy <ph_roy@toutdoux.org>
 
 Anjuta IDE         0.1.2                                                      Kh. Naba Kumar Singh <kh_naba@yahoo.com> 
-MemProf            0.4.0                                                      Owen Taylor <otaylor@redhat.com>
+MemProf            0.4.1                                                      Owen Taylor <otaylor@redhat.com>
 gob                1.0.6       no            no         yes       no          George <jirka@5z.com>
 
 The GIMP           1.2.1       no            no         yes       no          Manish Singh <yosh@gimp.org>
-gpaint             0.2                                                        Andy Tai <atai@atai.org> 
 eog                0.6         yes           no         yes       no          
 
 GnomeICU           0.95.5      no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
@@ -30,7 +29,7 @@ galeon             0.9pre3     yes           no         yes       yes         Ma
 gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.point>
 Pan                0.9.3       no            no         yes       no          pan@superpimp.org
 Balsa              1.0.0                                                      Jay Painter <jpaint@balsa.net>
-Firestarter        0.5.1       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
+Firestarter        0.6.0       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
 
 gnomoku            1.0         yes           no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org> 
 bombermaze         0.6.4       no            no         yes       yes         Sydney Andrew Tang <stang@users.sourceforge.net>
@@ -44,14 +43,14 @@ Glimmer            1.0.1       no            no         yes       no          ch
 gfax               0.4.2                                                      George Farris <george@gmsys.com>
 Figaro's
   Password 
-  Manager          0.53beta    no            no         yes       no          John Conneely <jconneely@figaro.org>
+  Manager          0.53        no            no         yes       no          John Conneely <jconneely@figaro.org>
 
 radioactive        1.1         no            no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org>
 
 Merlin's 
   CPU Fire 
   Applet           0.1.0                                                      Merlin Hughes <merlin@merlin.org>
-googlizer          ?                                                          Alan Cox <Alan.Cox@linux.org>
+googlizer          0.1                                                        Alan Cox <Alan.Cox@linux.org>
 
 gnorpm             0.96        no            no         yes       no          Alan Cox <alan@redhat.com>
 gnome lokkit       0.43        no            no         yes       no          Alan Cox <alan@redhat.com>

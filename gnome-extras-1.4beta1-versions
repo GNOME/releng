@@ -4,49 +4,48 @@ gmc             4.5.51
 
 Gnumeric        0.61
 Dia             0.86   
-Guppi 
-AbiWord            
-GnuCash            
-Sodipodi           
-gnome-db           
-toutdoux           
+Guppi           0.35.2 
+AbiWord         0.7.12
+GnuCash         1.4.10
+Sodipodi        0.21
+gnome-db        0.2.3
+toutdoux        1.2.4
 
-Anjuta IDE         
-MemProf            
+Anjuta IDE      0.1.2
+MemProf         0.4.1
 gob             1.0.6   
 
 The GIMP        1.2.1
-gpaint             
 eog             0.6
 
 GnomeICU        0.95.5 
 gabber          0.8.2pre1                 
 galeon          0.9.0
-gtm                
+gtm             0.4.5 
 Pan             0.9.3
-Balsa              
+Balsa           1.0.0
 Firestarter     0.6.0 
 
 gnomoku         1.0
-bombermaze         
+bombermaze      0.6.4
 XPenguins 
-  Applet           
-Atomix             
+  Applet        0.9beta1
+Atomix          0.4.1
 
 gedit           0.9.4 
 Glimmer         1.0.1            
 
-gfax               
+gfax            0.4.2
 Figaro's
   Password 
-  Manager          
+  Manager       0.53
 
 radioactive     1.1
 
 Merlin's 
   CPU Fire 
-  Applet           
-googlizer           
+  Applet        0.1.0
+googlizer       0.1
 
 gnorpm          0.96
 gnome lokkit    0.43
