@@ -638,7 +638,9 @@ msgstr "Побољшани приказ преко целог екрана."
 msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
-msgstr "Поље за адресу сада означава да ли је странице безбедна, и приказује њену иконицу."
+msgstr ""
+"Поље за адресу сада означава да ли је странице безбедна, и приказује њену "
+"иконицу."
 
 #: ../rnapplications.xml:57 (para)
 msgid "Bookmarks can be exported."
@@ -653,7 +655,9 @@ msgid ""
 "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully "
 "with the GNOME desktop environment. Improvements in 2.10 include "
 "<placeholder-1/>"
-msgstr "Гномов веб читач „Спознаја“ је заснован на Мозили али се у потпуности уклапа у радно окружење Гном. Побољшања у 2.10 укључују <placeholder-1/>"
+msgstr ""
+"Гномов веб читач „Спознаја“ је заснован на Мозили али се у потпуности уклапа "
+"у радно окружење Гном. Побољшања у 2.10 укључују <placeholder-1/>"
 
 #: ../rnapplications.xml:64 (title)
 msgid "The web browser"
@@ -715,7 +719,9 @@ msgstr ""
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
-msgstr "Корисничко сучеље програма за пошту ће исправно бити окренуто за језике који се пишу сдесна налево."
+msgstr ""
+"Корисничко сучеље програма за пошту ће исправно бити окренуто за језике који "
+"се пишу сдесна налево."
 
 #: ../rnapplications.xml:105 (para)
 msgid "And yet more new features: <placeholder-1/>"
@@ -739,11 +745,8 @@ msgstr ""
 
 #: ../rnapplications.xml:138 (title)
 msgid "FIXME (hard) - The internet telephony and video conferencing client"
-msgstr "ИСПРАВИТИ (тешко) — Клијент за Интернет телефонију и видео конференције"
-
-#: ../rnapplications.xml:138 (title)
-msgid "The internet telephony and video conferencing client"
-msgstr "Клијент за Интернет телефонију и видео конференције"
+msgstr ""
+"ИСПРАВИТИ (тешко) — Клијент за Интернет телефонију и видео конференције"
 
 #: ../rnapplications.xml:135 (para)
 msgid ""
@@ -822,13 +825,18 @@ msgid ""
 "GNOME 2.10, thanks to changes to its internal architecture. This should "
 "allow software developers to maintain and extend the file manager more "
 "easily in future."
-msgstr "Управник датотека, такође познат као Наутилус, је бржи и стабилнији у Гному 2.10, захваљујући изменама његове интерне архитектуре. Ово треба да омогући програмерима да лакше одржавају и проширују управника датотека у будућности."
+msgstr ""
+"Управник датотека, такође познат као Наутилус, је бржи и стабилнији у Гному "
+"2.10, захваљујући изменама његове интерне архитектуре. Ово треба да омогући "
+"програмерима да лакше одржавају и проширују управника датотека у будућности."
 
 #: ../rndesktop.xml:18 (para)
 msgid ""
 "Drag and drop with other applications, such as Mozilla and Firefox, now also "
 "works more smoothly."
-msgstr "Превлачење и пуштање са другим програмима, као што су Мозила и Фајрфокс, сада такође боље раде."
+msgstr ""
+"Превлачење и пуштање са другим програмима, као што су Мозила и Фајрфокс, "
+"сада такође боље раде."
 
 #: ../rndesktop.xml:24 (para)
 msgid "The path button is now more obviously a button."
@@ -842,13 +850,17 @@ msgstr "При прављењу нових датотека, преименов�
 msgid ""
 "When using keyboard navigation to open the parent folder (Alt-Up), the "
 "current folder will be selected."
-msgstr "Када се користи навођење преко тастатуре за отварање наддиректоријума (Alt-Горе), означава се текући директоријум."
+msgstr ""
+"Када се користи навођење преко тастатуре за отварање наддиректоријума (Alt-"
+"Горе), означава се текући директоријум."
 
 #: ../rndesktop.xml:22 (para)
 msgid ""
 "In addition, there are many small changes that demonstrate GNOME's attention "
 "to detail. For instance, <placeholder-1/>"
-msgstr "Поред тога, има много малих измена које показују посвећеност Гнома детаљима. На пример, <placeholder-1/>"
+msgstr ""
+"Поред тога, има много малих измена које показују посвећеност Гнома детаљима. "
+"На пример, <placeholder-1/>"
 
 # bug: uppercase "clean-cut"?
 #: ../rndesktop.xml:31 (title)
@@ -863,7 +875,9 @@ msgstr "Управник датотека"
 msgid ""
 "GNOME 2.10 provides a new selection of pre-installed background images and "
 "patterns, so your desktop can become your own."
-msgstr "Гном 2.10 обезбеђује нови избор укључених слика и шаблона за позадине, како би ваша радна површ постала само ваша."
+msgstr ""
+"Гном 2.10 обезбеђује нови избор укључених слика и шаблона за позадине, како "
+"би ваша радна површ постала само ваша."
 
 #: ../rndesktop.xml:44 (title)
 msgid "a selection of simple yet artistic backgrounds"
@@ -881,7 +895,9 @@ msgstr "Понашање прозора"
 msgid ""
 "GNOME 2.10 has a new ability that you might not notice at first, "
 "implementing another cross-desktop Freedesktop.org standard."
-msgstr "Гном 2.10 садржи нову могућност коју можда нећете испрва приметити, пратећи још један Freedesktop.org стандард за разна окружења."
+msgstr ""
+"Гном 2.10 садржи нову могућност коју можда нећете испрва приметити, пратећи "
+"још један Freedesktop.org стандард за разна окружења."
 
 #: ../rndesktop.xml:58 (para)
 msgid ""
@@ -889,13 +905,19 @@ msgid ""
 "instant messenger offered a chat request from your friend, your words would "
 "be typed into the chat window. Imagine if you were typing your password at "
 "the time. This should no longer happen in GNOME 2.10."
-msgstr "У прошлости, при куцању нешто у неком програму када изненада ваш програм за брзе поруке понуди захтев за ћаскање од вашег пријатеља, ваше речи би се нашле у прозору за ћаскање. Замислите да сте куцали лозинку у том тренутку. Ово више не може да се догоди у Гному 2.10."
+msgstr ""
+"У прошлости, при куцању нешто у неком програму када изненада ваш програм за "
+"брзе поруке понуди захтев за ћаскање од вашег пријатеља, ваше речи би се "
+"нашле у прозору за ћаскање. Замислите да сте куцали лозинку у том тренутку. "
+"Ово више не може да се догоди у Гному 2.10."
 
 #: ../rndesktop.xml:59 (para)
 msgid ""
 "In addition, if an application takes a long time to start, your work will "
 "not be interrupted when it finally opens its window."
-msgstr "Додатно, када програму треба дуго да се стартује, ваш рад неће бити прекинут када он коначно прикаже свој прозор."
+msgstr ""
+"Додатно, када програму треба дуго да се стартује, ваш рад неће бити прекинут "
+"када он коначно прикаже свој прозор."
 
 #: ../rndocs.xml:10 (title)
 msgid "Sysadmin, User, and Accessibility Guides"
@@ -1395,112 +1417,6 @@ msgstr ""
 msgid "Themes"
 msgstr "Теме"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:23 (None)
-msgid "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:41 (None)
-msgid "@@image: 'figures/fileroller.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:60 (None)
-msgid "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnutilities.xml:78 (None)
-msgid "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
-
-#: ../rnutilities.xml:8 (title)
-msgid "Utilities"
-msgstr ""
-
-#: ../rnutilities.xml:10 (para)
-msgid "The GNOME utilities have some improvements, such as:"
-msgstr ""
-
-#: ../rnutilities.xml:13 (title) ../rnutilities.xml:20 ../rnutilities.xml:38
-#: ../rnutilities.xml:57
-msgid "Text Editor"
-msgstr ""
-
-#: ../rnutilities.xml:15 (para)
-msgid ""
-"The GNOME text editor can now highlight the current line and when editing "
-"program source code, it highlights matching braces. Spell checking is "
-"improved too. It now only highlights mispelled words when you have actually "
-"finished typing the word, and many extra languages are supported and "
-"automatically identified."
-msgstr ""
-
-#: ../rnutilities.xml:17 (para)
-msgid ""
-"Many people will be glad to see that it no longer suggests saving changes "
-"when all changes have actually been undone. And in addition it even starts "
-"faster than previous versions. <figure id=\"rnscreenshot-gedit\"><title>Text "
-"Editor</title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;gedit.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The text editor, highlighting the current "
-"line.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
-
-#: ../rnutilities.xml:33 (title)
-msgid "Archive Manager"
-msgstr ""
-
-#: ../rnutilities.xml:35 (para)
-msgid ""
-"The GNOME archive manager can now open more types of archive, including AR, "
-"Debian, and 7-zip archives, and password-protected RAR archives. And if you "
-"use the single-click preference in the file manager, then the archive "
-"manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller"
-"\"><title>Text Editor</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;fileroller.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The archive manager, asking for a password "
-"for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
-
-#: ../rnutilities.xml:52 (title)
-msgid "Dictionary"
-msgstr ""
-
-#: ../rnutilities.xml:54 (para)
-msgid ""
-"The GNOME Dictionary now suggests words when you aren't sure how to spell "
-"something. The definitions also contain links to external dictionary web "
-"sites, and the definitions can be printed. <figure id=\"rnscreenshot-"
-"dictionary\"><title>Text Editor</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;dictionary.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The dictionary, suggesting possible "
-"spellings and a definition.</phrase></textobject></mediaobject></"
-"screenshot></figure>"
-msgstr ""
-
-#: ../rnutilities.xml:70 (title) ../rnutilities.xml:75
-msgid "Floppy Formatter"
-msgstr ""
-
-#: ../rnutilities.xml:72 (para)
-msgid ""
-"The GNOME Floppy Formatter utility now supports removable drives, such as "
-"USB drives, using the standard HAL system from freedesktop.org. <figure id="
-"\"rnscreenshot-floppy\"><title>Floppy Formatter</"
-"title><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;floppy.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
-msgstr ""
-
 #: ../rnwhy.xml:8 (title)
 msgid "So, why GNOME?"
 msgstr "Па, зашто Гном?"
@@ -1626,6 +1542,9 @@ msgstr ""
 #: ../rnwhy.xml:0 (None)
 msgid "translator-credits"
 msgstr "Данило Шеган <danilo@gnome.org>, 2005"
+
+#~ msgid "The internet telephony and video conferencing client"
+#~ msgstr "Клијент за Интернет телефонију и видео конференције"
 
 #~ msgid "Thanks"
 #~ msgstr "Захвалнице"
