@@ -28,20 +28,6 @@
     </figure>
     </para>
 
-    <para>See the Panel Applets section for information about the new Keyboard Indicator applet.
-
-    <figure id="rnscreenshot-panel-applet-keyboardindicator">
-      <title>Keyboard Indicator</title>
-        <screenshot>
-          <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicatorTODO.png" format="PNG"/>
-            </imageobject>
-          <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
-        </mediaobject>
-      </screenshot>
-    </figure>
-    </para>
-
     <para>GNOME &version; also integrates the multimedia keys into the regular Keyboard
     Shortcuts control panel, making it easy to use your keyboard's special keys to change
     volume or control music or video applications. This functionality was previously in the Acme utility.
@@ -50,7 +36,7 @@
      <title>Keyboard Shortcuts</title>
        <screenshot>
          <mediaobject>
-           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardshortcutsTODO.png" format="PNG"/>
+           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardshortcuts.png" format="PNG"/>
            </imageobject>
            <textobject><phrase>The Keyboard Shortcuts control panel.</phrase></textobject>
          </mediaobject>
@@ -67,10 +53,10 @@
     right-clicking on the desktop. When you add new pictures, it will remember whether each one should be scaled or tiled.
 
     <figure id="rnscreenshot-controlpanel-background">
-     <title>Keyboard Shortcuts</title>
+     <title>Desktop Background</title>
        <screenshot>
          <mediaobject>
-           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-backgroundTODO.png" format="PNG"/>
+           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-background.png" format="PNG"/>
            </imageobject>
            <textobject><phrase>The Desktop Background control panel.</phrase></textobject>
          </mediaobject>
