@@ -8,23 +8,23 @@ Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Co
 ORBit               0.5.3      No            Yes        --        Yes         Elliot Lee <sopwith@redhat.com>
 audiofile           0.1.9      No            No         Yes                   Michael Pruett <michael@68k.org>
                                                                               Elliot Lee <sopwith@redhat.com>
-bug-buddy           1.0        No            No         Yes                   Jacob Berkman <jacob@helixcode.com>
-control-center      1.2.2      No            Yes        --        Yes         Bradford Hovinen <hovinen@helixcode.com>
+bug-buddy           1.0        No            No         Yes                   Jacob Berkman <jacob@ximian.com>
+control-center      1.2.2      No            Yes        --        Yes         Bradford Hovinen <hovinen@ximian.com>
 esound              0.2.19     No            No         Yes       Yes         Elliot Lee <sopwith@redhat.com>
-gdk-pixbuf          0.9.0      No            No         Yes                   Federico Mena-Quintero <federico@helixcode.com>
+gdk-pixbuf          0.9.0      No            No         Yes                   Federico Mena-Quintero <federico@ximian.com>
 gdm                 2.0beta4   No            No         Yes (1)               Martin K Petersen <mkp@linuxcare.com>
 ggv                 1.0-test7  No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
 ghex                1.1.4      No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
-glade               0.5.9      No            Yes (2)    --        Yes         Damon Chaplin <damon@helixcode.com>
+glade               0.5.9      No            Yes (2)    --        Yes         Damon Chaplin <damon@ximian.com>
 glib                1.2.8      No            No         Yes       Yes         Tim Janik <timj@redhat.com> 
                                                                               Owen Taylor <otaylor@redhat.com>
-gnome-applets       1.2.2      No            No         Yes       Yes         Jacob Berkman <jacob@helixcode.com>
+gnome-applets       1.2.2      No            No         Yes       Yes         Jacob Berkman <jacob@ximian.com>
                                                                               George Lebl <jirka@5z.com>
 gnome-audio         1.0.0      No            No         Yes       No          Elliott Lee <sopwith@redhat.com>
-gnome-core          1.2.2      No            No         Yes       Yes         Jacob Berkman <jacob@helixcode.com>
+gnome-core          1.2.2      No            No         Yes       Yes         Jacob Berkman <jacob@ximian.com>
                                                                               George Lebl <jirka@5z.com>
-gnome-games         1.2.0      No            No         Yes                   Ian Peters <itp@helixcode.com>
-gnome-libs          1.2.4      No            Yes (3)    --        Yes         Miguel de Icaza <miguel@helixcode.com>
+gnome-games         1.2.0      No            No         Yes                   Ian Peters <itp@ximian.com>
+gnome-libs          1.2.4      No            Yes (3)    --        Yes         Miguel de Icaza <miguel@ximian.com>
 gnome-media         1.2.0      No            No         Yes                   Peter Teichman <pat@gnu.org>
 gnome-pim           1.2.0      No            No         Yes                   Eskil Heyn Olsen <eskil@eazel.com>
                                                                               Russel Steinthal <rms39@columbia.edu>
@@ -57,9 +57,9 @@ gnome-python        1.0.53     No            No         Yes       ??          Ja
 nautilus            0.5                                                       Darin Adler <darin@eazel.com>
 oaf                 0.6.2 			                              Maciej Stachowiak <mjs@eazel.com> 
 gconf               0.11                                                      Havoc Pennington <hp@redhat.com> 
-gnome-print         0.24				                      Lauris Kaplinski <lauris@helixcode.com>
+gnome-print         0.24				                      Lauris Kaplinski <lauris@ximian.com>
 gnome-vfs           0.4.2                                                     Pavel Cisler <pavel@eazel.com>
-bonobo              0.31				                      Michael Meeks <michael@helixcode.com>
+bonobo              0.31				                      Michael Meeks <michael@ximian.com>
 medusa              0.2.2                                                     Rebecca Schulman <rebecka@eazel.com>
 ammonite            0.8.1                                                     Mike Fleming <mfleming@eazel.com>
 xml-i18n-tools                                                                Kenneth Christiansen <kenneth@gnu.org>
