@@ -113,10 +113,10 @@ stripchart		=		-		* not necessary, applets do the same	-
 <section title="Fifth Toe">
 evolution		=		1.0.1		not ported			-
 gal			-		-		-			-
-galeon			-		-		-			-
+galeon			=		1.1.1		not ported, waiting on mozilla		Marco Pesenti Gritti <marco@it.gnome.org>	
 ggv			=		-					Jaka Mocnik <jaka@gnu.org>
 gimp			-		-		-			-
-GNOMEMeeting    -		-		-			-
+gnomemeeting    =		0.12.2		-		Damien Sandras <dsandras@seconix.com>
 GStreamer		-		-		-			-
 gtk-engines		-		-		-			-
 pan			-		-		-			-
