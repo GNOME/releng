@@ -73,9 +73,12 @@
  
     <sect3><title>Startup Notification</title> <para>GNOME can now
     show that an application is starting, so you don't feel the need
-    to click a second time. For instance, the cursor may change to a
-    clock while the application starts if the application supports
-    startup notification.
+    to click a second time. For instance, if the application supports
+    it, the cursor may change to a clock while the application starts
+    if the application supports startup notification. Unlike some past
+    attempts at UNIX startup notification, the new standard is
+    reliable and robust, in keeping with the GNOME philosophy of
+    things that "just work."
     </para>
     
 
