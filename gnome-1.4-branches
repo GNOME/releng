@@ -11,7 +11,7 @@ gconf              Yes          gconf-1-0
 gdk-pixbuf         Yes          HEAD (unstable version is moved to Gtk+)
 glib               Yes          glib-1-2
 gnome-libs         Yes          gnome-libs-1-0
-gnome-print        Yes          gnome-1.4-branch
+gnome-print        Yes          gnome-1-4-branch
 gnome-vfs          Yes          gnome-vfs-1
 gtk+               Yes          gtk-1-2
 imlib
