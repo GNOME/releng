@@ -4,6 +4,20 @@
 
 2005-03-02  Davyd Madeley  <davyd@madeley.id.au>
 
+	* release-notes.xml:
+	* rnapplets.xml:
+	* rnapplications.xml:
+	* rncontrolcenter.xml:
+	* rninstallation.xml: Add new figures.
+	
+	* figures/figure-applet-mixer.png:
+	* figures/figure-applet-weather.png:
+	* figures/figure-evolution-mail.png:
+	* figures/figure-gnome-desktop.png: New images.
+
+
+2005-03-02  Davyd Madeley  <davyd@madeley.id.au>
+
 	* rnapplets.xml:
 	* rngames.xml:
 	* rnsysadmin.xml: Add images.

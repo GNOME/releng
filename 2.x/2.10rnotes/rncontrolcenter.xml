@@ -14,7 +14,7 @@
 of international keyboard layouts. Before making your choice you can see the effect of key presses in the layout preview. The Layout Options section has also been reorganized as simpler list of choices.
 
     <figure id="rnscreenshot-controlpanel-keyboardlayouts">
-      <title>FIXME: Keyboard Preferences - Layouts</title>
+      <title>Keyboard Preferences - Layouts</title>
         <screenshot>
           <mediaobject>
             <imageobject><imagedata fileref="&urlfiguresbase;figure-keyboard-properties+layout.png" format="PNG"/>

@@ -14,9 +14,18 @@
 <article id="index" lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
   <articleinfo>
     <title>GNOME &version; Release Notes</title>
+
     <abstract>
       <title>Introduction</title>
-      <para>The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
+      <para>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-desktop.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The new modem control applet</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
 
       <para>The GNOME desktop releases continue to arrive on schedule. GNOME &version; includes a number of interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections.</para>
 

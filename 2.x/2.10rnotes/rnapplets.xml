@@ -88,17 +88,16 @@
    location names have been translated into non-english languages where appropriate.
    In addition, the forecast now includes sunrise and sunset calculations for most locations.
 
-   <!-- figure id="rnscreenshot-panel-applet-weather">
-   FIXME
+   <figure id="rnscreenshot-applet-weather">
     <title>Weather Report</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-weather-report.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-weather.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The weather report applet.</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure -->
+  </figure>
    
   </para>
   </sect3>
@@ -113,6 +112,16 @@
    and a variety of third-party applications, so changing the GNOME volume 
    via the panel will change the volume of all these applications.
   </para>
+   <figure id="rnscreenshot-applet-mixer">
+    <title>all new mixer for your panel</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-mixer.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>All new mixer for your panel</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
   </sect3>
 
   <sect3 id="rnapplets-stickynotes">
