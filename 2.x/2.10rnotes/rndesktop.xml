@@ -19,6 +19,41 @@
      The file manager now also works more smoothly with other applications, such as
      Mozilla and Firefox, and has more navigation options. TODO: What options, exactly?
     </para>
+
+    <para>In addition, there are many small changes that demonstrate GNOME's attention to detail. For instance,
+    <itemizedlist>
+      <listitem><para>The path button is now more obviously a button.</para></listitem>
+      <listitem><para>When creating new files, renaming starts automatically.</para></listitem>
+      <listitem><para>When using keyboard navigation to open the parent folder (Alt-Up), the current folder will be selected.</para></listitem>
+    </itemizedlist>
+    </para>
+
+  <!--figure id="rnscreenshot-nautilus">
+    FIXME
+    <title>The file managert</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-nautilus.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The file manager</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure -->
+
+    <para>GNOME &version; provides a new selection of pre-installed background images and patterns, so your desktop can become your own.</para>
+
+  <!--figure id="rnscreenshot-backgrounds">
+    FIXME
+    <title>The file managert</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-backgrounds.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>Desktop backgrounds</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure -->
+  
   </sect3>
 
 </sect2>
