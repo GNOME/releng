@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: release-note 2.10\n"
 "PO-Revision-Date: 2005-03-09 22:12+0800\n"
 "Language-Team: GNOME 中国\n"
 "Last-Translator: 角.居士\n"
