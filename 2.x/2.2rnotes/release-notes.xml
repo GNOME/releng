@@ -53,7 +53,7 @@
    
     <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
  */</para>
-  </sect1>
+
   &rndesktop;
   &rnmultimedia;
   &rngnomeutils;
@@ -61,6 +61,9 @@
   &rnmultimediakeys;
   &rngnomeapplets;
   &rnmultihead;
+
+  </sect1>
+
   <sect1 id="rninstallation">
     <title>Installation of  the GNOME &version; Developer Platform and
     Desktop</title>

@@ -1,4 +1,4 @@
-<sect1 id="rngnomeutilities">
+<sect2 id="rngnomeutilities">
     <title>GNOME Utilities</title>
 
     <para>The Character Map now has unicode support allowing you to select a
@@ -16,4 +16,4 @@ integrated with the desktop.</para>
 utility. This utility is useful for using with scripts, in particular Nautilus
 scripts. Users may be interested in Zenity, a basic rewrite of 'gdialog', that
 should be released in the Fifth Toe, later this year.</para>
-  </sect1>
+</sect2>

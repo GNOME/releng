@@ -1,13 +1,13 @@
- <sect1 id="rndesktop">
+ <sect2 id="rndesktop">
     <title>Desktop</title>
     <para></para>
 
-    <sect2><title>The File Manager</title>
+    <sect3><title>The File Manager</title>
     <para>
     Nautilus, the GNOME file manager, has the following improvements:
     </para>
 
-      <sect3><title>Context menu plug-ins</title>
+      <sect4><title>Context menu plug-ins</title>
       <para>For instance, Fileroller adds "Expand" menu items when you right-click on an archive.</para>
 
 <figure>
@@ -17,9 +17,9 @@
   </screenshot>
 </figure>
       
-</sect3>
+</sect4>
 
-      <sect3><title>Property tab plug-ins.</title>
+      <sect4><title>Property tab plug-ins.</title>
       <para>When viewing file properties, the dialog now shows extra custom tabs for special file formats, such as images or media files. For instance, you can see the dimensions of a graphic file, or the ID3 tags from an MP3 file.</para>
 
 <figure>
@@ -29,9 +29,9 @@
   </screenshot>
 </figure>
 
-      </sect3>
+      </sect4>
 
-      <sect3><title>Improved Preferences dialog</title>
+      <sect4><title>Improved Preferences dialog</title>
       <para>The file manager's preferences have been brought together in one simpler dialog box.</para>
 
 <figure>
@@ -41,21 +41,21 @@
   </screenshot>
 </figure>
 
-      </sect3>
+      </sect4>
 
-      <sect3><title>Multi-head support</title>
+      <sect4><title>Multi-head support</title>
       <para>Like the rest of GNOME 2.2, Nautilus is now multi-head aware. For instance, if you launch an application from a particular screen, it will now appear on that screen.</para>
-      </sect3>
+      </sect4>
     
-    </sect2>
+    </sect3>
 
-    <sect2><title>Startup Notification</title>
+    <sect3><title>Startup Notification</title>
     <para>GNOME can now show that an application is starting, so you don't feel the need 
     to click a second time. For instance, the cursor may change to a clock while the 
     application starts.
     </para>
     
 
-    </sect2>
+    </sect3>
    
-  </sect1>
+  </sect2>

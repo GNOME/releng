@@ -1,4 +1,4 @@
-<sect1 id="rnmultimediakeys">
+<sect2 id="rnmultimediakeys">
     <title>Multimedia Keys</title>
     <para>
       The Multimedia Keys preference dialog allows you to make use of the
@@ -6,4 +6,4 @@
       can assign keys to launch your email, browse the web, eject a CD,
       configure the brightness of your screen and many more.
     </para>
-  </sect1>
+</sect2>

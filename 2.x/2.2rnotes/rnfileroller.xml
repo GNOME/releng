@@ -1,8 +1,8 @@
- <sect1 id="rnfileroller">
+ <sect2 id="rnfileroller">
     <title>File Roller</title>
     <para>File Roller is an archive manager, that allows you to view, extract
       and create archive files. File Roller supports a side range of 
       archive formats and like Search for Files dialog is closely integrated
       into the GNOME desktop, with support for icon themes, drag and drop
       support and MIME type handling.</para>
-  </sect1>
+  </sect2>
