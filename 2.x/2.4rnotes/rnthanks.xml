@@ -91,10 +91,11 @@
 	adding nice touches to the bookmarks views like sorting</para>
     </listitem>
   <listitem>
-      <para> Steve Chaplin, for making gnomine really shine</para>
+      <para>Steve Chaplin, for making gnomine really shine</para>
     </listitem>
    <listitem>
-      <para></para>
+      <para>George Lebl, for changes that desensitize preferences in various
+      apps if an administrator has locked down the preference's Gconf key</para>
     </listitem>
    <listitem>
       <para></para>

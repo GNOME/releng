@@ -39,6 +39,9 @@
 	managing themes.</para>
       </listitem>
       <listitem>
+	<para>A new font management system.</para>
+      </listitem>
+      <listitem>
 	<para>A tool from Alex Larrson to take advantage of the new XRandR
 	capabilities in X 4.3, which allow you to change screen resolution on
 	the fly.</para>
