@@ -51,7 +51,7 @@
     <title>Network Monitor - wireless connection</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitor-wireless.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-netstatus.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The Network Monitor panel applet, showing a wireless connection.</phrase></textobject>
       </mediaobject>

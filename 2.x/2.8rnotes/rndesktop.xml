@@ -88,7 +88,7 @@
       <title>The Glider theme.</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;theme-glider.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-glider-theme.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>The Glider theme</phrase></textobject>
           </mediaobject>

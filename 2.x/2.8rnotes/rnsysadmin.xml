@@ -54,15 +54,15 @@
     </sect3>
 
     <sect3 id="rnsysadmin-networktools">
-    <title>System Tools</title>
+    <title>Network Tools</title>
 
     <para>
     The new network tools allow users to provide diagnostic information to system administrators when they have problems with their network connection or with certain network services. Although the same functionality is avaiable from the command-line, we think that system administrators will find it much easier to guide users through the simpler user interface of the network tools.
     <figure id="rnscreenshot-sysadmin-networktools">
-      <title>The Clock, Network, and Users/Groups tools</title>
+      <title>A selection of tools for network diagnostics</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;networktools.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-nettool.png" format="PNG"/>
             </imageobject>
           <textobject><phrase>The Clock, Network, and Users/Groups tools.</phrase></textobject>
         </mediaobject>
@@ -86,7 +86,7 @@
       <title>Configuration Editor - searching</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;gconfeditor.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-gconf-editor-search.png" format="PNG"/>
             </imageobject>
           <textobject><phrase>Configuration Editor - searching.</phrase></textobject>
         </mediaobject>

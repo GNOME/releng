@@ -1,3 +1,15 @@
+2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
+
+	* figures/figure-gconf-editor-search.png:
+	* figures/figure-glider-theme.png:
+	* figures/figure-gnome-netstatus.png:
+	* figures/figure-gnome-nettool.png: More new screenshots
+
+	* rnapplets.xml:
+	* rndesktop.xml:
+	* rnsysadmin.xml: Set correct paths for figures, fix titles for
+	  gnome-nettool
+
 2004-09-14  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Update with latest stats; remove reference to myself
