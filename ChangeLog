@@ -1,5 +1,11 @@
 2001-02-13  Maciej Stachowiak  <mjs@eazel.com>
 
+	* gnome-1.4-branches: Added branch info for gtop 
+	* gnome-1.4beta1-versions: ammonite 0.8.3 and libxml 1.8.11 were
+	declared ready by maintainers.
+
+2001-02-13  Maciej Stachowiak  <mjs@eazel.com>
+
 	* gnome-1.4-branches: updated gnome-print branch
 	* gnome-1.4beta1-versions: libglade 0.16 and xml-i18n-tools 0.8
 	are ready for GNOME 1.4 beta 1 according to maintainers.

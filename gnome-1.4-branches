@@ -61,7 +61,7 @@ gnome-games
 gnome-media
 gnome-pim
 gnome-utils         HEAD
-gtop
+gtop                HEAD
 medusa              HEAD
 nautilus            HEAD
 gtk-engines         HEAD

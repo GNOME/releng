@@ -1,7 +1,7 @@
 Versions of packages for GNOME 1.4 Beta 1
 
 ORBit               0.5.7
-ammonite            
+ammonite            0.8.3           
 audiofile           
 bonobo              
 bug-buddy           
@@ -37,7 +37,7 @@ libghttp
 libglade            0.16
 libgtop             
 libsigc++           
-libxml              
+libxml              1.8.11             
 medusa              0.3.0
 nautilus            0.8
 oaf                 
