@@ -1,9 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Language-Team: LANGUAGE\n"
-"Last-Translator: TRANSLATOR\n"
+"POT-Creation-Date: 2005-03-11 16:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -338,30 +339,34 @@ msgid "Russian (170 million)"
 msgstr ""
 
 #: ../rni18n.xml:67(para) 
-msgid "Serbian (10 million)"
+msgid "Romanian (26 million)"
 msgstr ""
 
 #: ../rni18n.xml:68(para) 
-msgid "Spanish (over 350 million)"
+msgid "Serbian (10 million)"
 msgstr ""
 
 #: ../rni18n.xml:69(para) 
-msgid "Swedish (9 million)"
+msgid "Spanish (over 350 million)"
 msgstr ""
 
 #: ../rni18n.xml:70(para) 
-msgid "Tamil (61 million)"
+msgid "Swedish (9 million)"
 msgstr ""
 
 #: ../rni18n.xml:71(para) 
-msgid "Turkish (150 million)"
+msgid "Tamil (61 million)"
 msgstr ""
 
 #: ../rni18n.xml:72(para) 
-msgid "Ukrainian (50 million)"
+msgid "Turkish (150 million)"
 msgstr ""
 
 #: ../rni18n.xml:73(para) 
+msgid "Ukrainian (50 million)"
+msgstr ""
+
+#: ../rni18n.xml:74(para) 
 msgid "Welsh (575,000)"
 msgstr ""
 
