@@ -146,14 +146,21 @@ Implementing session management
 </application>
 
 ##############################################################################################
-## gnome-core 
+## gnome-session 
 ##############################################################################################
-<application name="gnome-core" authors="jirka@5z.com, jacob@ximian.com, mark@skynet.ie, glynn.foster@sun.com, alexl@redhat.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-core/panel/TODO&rev=&root=/cvs/gnome">
+<application name="gnome-session" authors="jirka@5z.com, jacob@ximian.com, mark@skynet.ie, glynn.foster@sun.com, alexl@redhat.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-session/gnome-session/TODO&rev=&root=/cvs/gnome">
 <item done="no">
+Port the session properties capplet.
+</item>
+##############################################################################################
+## gnome-panel 
+##############################################################################################
+<application name="gnome-panel" authors="jirka@5z.com, jacob@ximian.com, mark@skynet.ie, glynn.foster@sun.com, alexl@redhat.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-panel/gnome-panel/TODO&rev=&root=/cvs/gnome">
+<item done="yes">
 Fix up schema files for panels on small, medium and large screens according to the
 Usability Team's wishes [don't know what they are yet].
 </item>
-<item done="no">
+<item done="yes">
 Create schema files for panel items on small, medium and large screens according to  Nils Pedersen's proposal.
 </item>
 <item done="no">
@@ -169,7 +176,7 @@ is running the same profile, then changing one setup will result in changing the
 <item done="no">
 Make all panel configuration saving instant apply, and remove the need for panel timeouts.
 </item>
-<item done="no">
+<item done="yes">
 Check that session manager is handling the saving of panel sessions with --profile=some_profile properly.
 </item>
 <item done="no">
@@ -188,15 +195,15 @@ but this ends up with some freaky stuff going on when you're moving
 applets. Maybe we should consider having a re-sizable flag which would          
 make the applets have grabs for re-sizing.
 </item>
-<item done="no">
+<item done="yes">
 Middle mouse button dragging doesn't seem to work for some reason. The          
 button presses are being forwarded in BonoboPlug so its is some other
 issue. Effects out of process applets.
 </item>
-<item done="no">
+<item done="yes">
 libpanel_applet leaks like a three week old baby.
 </item>
-<item done="no">
+<item done="yes">
 The popup menu for applets doesn't appear outside of the panel. Use
 bonobo_control_do_popup_full.
 </item>
