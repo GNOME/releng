@@ -1,3 +1,8 @@
+2004-03-05  Davyd Madeley  <davyd@madeley.id.au>
+
+	* figures/figure-file-roller.png: Added missing figure.
+	* rnutilities: Fix image link.
+
 2005-03-03  Frank Arnold  <farnold@cvs.gnome.org>
 
 	* rnsysadmin.xml: Fixed a typo.

@@ -38,7 +38,7 @@
     <title>Archive Manager</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-fileroller.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-file-roller.png" format="PNG"/></imageobject>
           <textobject><phrase>The archive manager, asking for a password for a RAR file.</phrase></textobject>
         </mediaobject>
       </screenshot>
