@@ -1,0 +1,182 @@
+After discussions with Sun on how they handle stability requirements Havoc, Nat
+and I decided to take a 2 step approach.
+
+1) List all of the different types of changes that projects could undergo in
+   the process of development
+2) Take Sun's list of stability levels with the events from (1) and produce a
+   set of state changes.  (eg an 'api locked' library that adds a function
+   transtitions to 'stable')
+
+3) Have each project in the desktop select of stability level and agree to live
+   by its requirements.  People will want to be higher on the stability scale
+   so that their projects get wider dissemination.  However, they are also bound
+   by its allowable state changes.
+
+-----------------------------------------------------------------------------------
+State transition events.
+
+Build
+    Tools
+	Standard (The common set of build tool versions)
+	    Add 
+	    Remove 
+
+	Unique (A new tool or a new version of a tool)
+	    Add
+	    Remove
+
+    Auto(*) Macros
+	Add a macro
+	Delete a macro
+	Change a macro's signature
+	Change a macro's behavior
+
+Dependencies
+    Required Libraries or external data
+	Add
+	Remove
+	Change version req
+    Optional Libraries (eg Modules) or external data
+	Add
+	Remove
+	Change version req
+
+Library Modules
+    Shared Library Version Number (eg .so.?.?.?)
+	    (Presumably these never decrease.  These are also of limited
+	    usefulness in that changes here are most likely the result of other
+	    listed change events)
+	Increase Major
+	Increase Minor
+	Increase Micro
+
+    Path
+	Change a modules include path
+	(eg callers go from foo.h -> libfoo/foo.h)
+
+CPP
+    Flags
+	Add a flag
+	Delete a flag
+	Change a flag's value
+
+    Macros (for libraries)
+	Add a macro
+	Delete a macro
+	Deprecate a macro
+	Delete a deprecated macro
+	Change the signature
+
+C
+    Public
+	Functions
+	    Add a function
+	    Delete a function
+	    Deprecate a function
+	    Delete a deprecated function
+	    Change the signature
+	    Add an ignorable argument to the signature (possibly unsafe)
+	Structs
+	    Change Layout (size or position)
+	    Change Content (eg use up a pad entry)
+
+	Enums
+	    Sequentially valued
+		Add
+		Remove
+	    Explicitly valued
+		Add
+		Remove
+		Change value
+
+    Private
+	Functions
+	    Add a function
+	    Delete a function
+	Structs
+	    Change Layout (size or position)
+	    Change Content (eg use up a pad entry)
+    Enum
+	Remove entry
+	Add entry that impacts existing code
+	Add entry that does not impact existing code
+
+    Symbol
+	Add a new export symbol (not terribly meaningful under linux)
+	Remove a symbol
+
+C++
+    Function/Method
+	Add possible exception
+	Remove possible exception
+
+	Global/static
+	    Add
+	    Delete
+	    Deprecate
+	    Delete a deprecated function
+	    Change the signature
+	Public Method
+	    Add
+	    Add virtual
+	    Delete
+	    Delete virtual
+	    Deprecate a function
+	    Delete a deprecated function
+	    Change the signature
+	Template Method
+	    Add
+	    Delete
+	    Deprecate a function
+	    Delete a deprecated function
+	    Change the signature
+
+    Classes
+	Change the Layout of a class	(necessary ?  Would be covered under
+					 data members and member functions)
+	Public
+	    Add a class
+	    Delete a class
+	    Deprecate a class
+	    Delete a deprecated class
+
+	Private
+	    Add a class
+	    Delete a class
+
+	Data Members
+	    Add			x (public, protected, private)
+	    Delete		x (public, protected, private)
+	    Deprecate		x (public, protected, private)
+	    Delete deprecated	x (public, protected, private)
+
+	Templates
+	    Add			x (public, private)
+	    Delete		x (public, private)
+	    Deprecate		x (public, private)
+	    Delete deprecated	x (public, private)
+	    Change signature	x (public, private)
+
+
+idl
+    Methods
+	Add a function
+	Delete a function
+	Deprecate a function
+	Delete a deprecated function
+	Change the signature
+	Add an ignorable argument to the signature (possibly unsafe)
+
+    Objects
+
+Data
+    Gconf
+	Add key
+	Remove key
+	Change key type
+	Change default key value
+    File
+	Add new file
+	Remove file
+	Change path
+	Change format
