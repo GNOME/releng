@@ -12,15 +12,15 @@
 
   <para>
   The network monitor has been improved and now has support for wireless
-  interfaces, showing signal strength in the properties and on the panel.
+  interfaces, showing signal strength in the properties dialog and on the panel.
 
   <figure id="rnscreenshot-panel-applet-networkmonitor">
-    <title>Network Monitor</title>
+    <title>Network Monitor - wireless connection</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitor.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitor-wireless.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The Network Monitor panel applet.</phrase></textobject>
+        <textobject><phrase>The Network Monitor panel applet, showing a wireless connection.</phrase></textobject>
       </mediaobject>
     </screenshot>
   </figure>
@@ -31,12 +31,20 @@
   <title>Battery Support</title>
 
   <para>
-   The battery monitor has been improved dramatically. The applet now gives an
-   estimation of the time remaining as well as the remaining battery capacity.
-   In addition to this, the dialog to warn you of low battery power is now more
-   visible, more informative and vanishes automatically when your laptop in.
+   The battery monitor has been improved dramatically. It now estimagtes the time remaining as well as the remaining battery capacity.
+   In addition, the low battery warning is now more
+   visible, more informative and vanishes automatically when you plug your laptop back in.
   
-  <!-- FIXME: picture of battery applet with tooltip and warning dialog -->
+   <figure id="rnscreenshot-panel-applet-batterymonitor">
+    <title>Battery Monitor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-batterymonitor.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The battery monitor applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
   
   </para>
   </sect3>
@@ -47,7 +55,16 @@
    The weather applet now has more locations then ever before. As well as
    support for the new United Kingdom weather forecasts.
 
-  <!-- FIXME: show off forecast for Wales, or something -->
+   <figure id="rnscreenshot-panel-applet-weather">
+    <title>Weather Report</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-weather.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The weather report applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
    
   </para>
   </sect3>
@@ -56,10 +73,18 @@
   <title>Calendar Integration</title>
   <para>
    Never miss another appointment. The calendar view, available by clicking
-   on the clock now connects to Evolution to get your calendar and tasks.
+   on the clock, now connects to Evolution to show your calendar and tasks.
 
-   <!-- FIXME: clock applet, maybe with GNOME ical mentioning
-               GNOME 2.8 release -->
+   <figure id="rnscreenshot-panel-applet-clock">
+    <title>The clock, showing the GNOME release date</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-clock.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The clock, showing the GNOME release date.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
    
   </para>
   </sect3>

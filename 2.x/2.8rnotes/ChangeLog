@@ -1,5 +1,10 @@
 2004-09-06  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnapplets.xml: Simplified some sentences a bit. Add the figures 
+	sections.
+
+2004-09-06  Murray Cumming  <murrayc@murrayc.com>
+
 	* rndesktop.xml: Put the nautilus bits in here from TODO.
 	* rnapplications.xml: Move the evolution part here from rndesktop.xml,
 	and mentioned some epiphany stuff that I see in their NEWS file.
