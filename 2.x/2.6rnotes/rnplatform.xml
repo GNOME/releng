@@ -1,17 +1,18 @@
 <?xml version="1.0"?>
-<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
-"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.6">
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
 ]>
-<sect1 id="rnplatform">
+
+<sect2 id="rnplatform">
   <title>Platform Improvements</title>
   <para>In addition to user-visible improvements, GNOME &version; includes a
   number of improvements to the underlying platform that should be
   appreciated by developers building applications on top of GNOME's powerful
   framework.</para>
   
-  <sect2 id="rngtk">
+  <sect3 id="rngtk">
     <title>GTK+</title>
     
     <para>TODO.
@@ -22,9 +23,9 @@
 
     </para>
     
-  </sect2>
+  </sect3>
 
-  <sect2 id="rngnomevfs">
+  <sect3 id="rngnomevfs">
     <title>gnome-vfs</title>
 
     <para>TODO.
@@ -35,9 +36,9 @@
 
     </para>
 
-  </sect2>
+  </sect3>
 
-  <sect2 id="rngstreamer">
+  <sect3 id="rngstreamer">
     <title>gstreamer</title>
 
     <para>The gstreamer multimedia framework is gradually maturing, and is now used by several applications, such as
@@ -53,6 +54,7 @@
     </itemizedlist>
 
     </para>
+    
+  </sect3>
 
-  </sect2>
-</sect1>
+</sect2>
