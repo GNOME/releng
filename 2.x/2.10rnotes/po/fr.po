@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome 2.10 release notes\n"
-"PO-Revision-Date: 2005-03-07 09:53+0100\n"
+"PO-Revision-Date: 2005-03-07 14:12+0100\n"
 "Last-Translator: Vincent Untz <vincent@vuntz.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgid ""
 "accessibility infrastructure, and a complete internationalization "
 "infrastructure that includes support for bi-directional text."
 msgstr ""
-"GNOME founctionne sous une grande variété de systèmes d'exploitation, dont "
+"GNOME fonctionne sous une grande variété de systèmes d'exploitation, dont "
 "entre autres GNU/Linux (communément appelé Linux), Solaris, HP-UX, BSD et "
 "Apple Darwin. GNOME comprend des fonctionnalités puissantes telles qu'un "
 "rendu typographique de très haute qualité, une infrastructure accessibilité "
@@ -503,10 +503,10 @@ msgid ""
 "appropriate. In addition, the forecast now includes sunrise and sunset "
 "calculations for most locations."
 msgstr ""
-"L'applet de bulletin météo peut désormais afficher plus de lieux qu'avant, les noms de "
-"lieux ont été traduits dans chaque langue lorsque c'était nécessaire. De "
-"plus, les prévisions incluents désormais le calcul du lever et du coucher du "
-"soleil pour la plupart des lieux."
+"L'applet de bulletin météo peut désormais afficher plus de lieux qu'avant, "
+"les noms de lieux ont été traduits dans chaque langue lorsque c'était "
+"nécessaire. De plus, les prévisions incluents désormais le calcul du lever "
+"et du coucher du soleil pour la plupart des lieux."
 
 #: ../rnapplets.xml:94 (title)
 msgid "Weather Report"
@@ -532,10 +532,9 @@ msgstr ""
 "Avec un nouveau mixer pour votre tableau de bord (combiné au nouveau look du "
 "mixer pour le bureau) tirez le meilleur de votre carte son. En utilisant le "
 "moteur multimédia GStreamer, le mixer est maintenant plus simple et plus "
-"pratique. Le même moteur anime Totem, Sound-Juicer, le lecteur de CD "
-"GNOME et une variété d'autres applications, ainsi en changeant le volume "
-"GNOME à travers le tableau de bord changera les volume de toutes ces "
-"applications."
+"pratique. Le même moteur anime Totem, Sound-Juicer, le lecteur de CD GNOME "
+"et une variété d'autres applications, ainsi en changeant le volume GNOME à "
+"travers le tableau de bord changera les volume de toutes ces applications."
 
 #: ../rnapplets.xml:117 (title)
 msgid "all new mixer for your panel"
@@ -556,8 +555,8 @@ msgid ""
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
 msgstr ""
-"La populaire applet de pense-bête facilite l'ajout de notes du genre Post-"
-"It sur votre bureau, grâce à une interface plus simple pour l'utilisateur et "
+"La populaire applet de pense-bête facilite l'ajout de notes du genre Post-It "
+"sur votre bureau, grâce à une interface plus simple pour l'utilisateur et "
 "une importante correction de bogues. Par exemple, les pense-bêtes restent "
 "désormais sur l'espace de travail correct, même sur un moniteur différent."
 
@@ -605,8 +604,8 @@ msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
 msgstr ""
-"Trois applets ont été supprimées dans GNOME 2.10, remplacées la plupart du temps par de "
-"meilleures alternatives."
+"Trois applets ont été supprimées dans GNOME 2.10, remplacées la plupart du "
+"temps par de meilleures alternatives."
 
 #: ../rnapplets.xml:175 (para)
 msgid ""
@@ -715,8 +714,8 @@ msgid ""
 "that GNOME users expect, with automatic hardware detection instead of "
 "complex configuration."
 msgstr ""
-"GNOME 2.10 inclut maintenant le lecteur vidéo, dont la réputation n'est plus "
-"à faire, Totem. Il utilise l'ensemble multimédia Gstreamer de GNOME. Totem "
+"GNOME 2.10 inclut maintenant le lecteur vidéo Totem, dont la réputation n'est plus "
+"à faire. Il utilise l'ensemble multimédia Gstreamer de GNOME. Totem "
 "dispose d'une interface d'utilisation intuitive, pour le plus grand plaisir "
 "des utilisateurs, ainsi que d'une détection matérielle automatique "
 "remplaçant une configuration complexe."
@@ -1073,7 +1072,7 @@ msgid ""
 "GNOME 2.10 has a new ability that you might not notice at first, "
 "implementing another cross-desktop Freedesktop.org standard."
 msgstr ""
-"GNOME 2.10 a une nouveau fonctionnalité que vous pouvez ne pas remarquer à "
+"GNOME 2.10 a une nouvelle fonctionnalité que vous pouvez ne pas remarquer à "
 "première vue, et implémente un nouveau standard inter-bureaux Freedesktop."
 "org."
 
@@ -1084,10 +1083,10 @@ msgid ""
 "be typed into the chat window. Imagine if you were typing your password at "
 "the time. This should no longer happen in GNOME 2.10."
 msgstr ""
-"Auparavant, lorsque que vous étiez entrain de saisir quelque chose dans une "
+"Auparavant, lorsque que vous étiez en train de saisir quelque chose dans une "
 "application et que soudainement votre logiciel de messagerie instantanée "
-"vous présentait une une demande de discussion d'un ami, vos mots pouvaient "
-"se retrouver dans la fenêtre de discussion. Imaginez si vous étiez entrain "
+"vous présentait une demande de discussion d'un ami, vos mots pouvaient se "
+"retrouver dans la fenêtre de discussion. Imaginez si vous étiez en train "
 "d'entrer votre mot de passe à cet instant. Ceci ne devrait plus arriver avec "
 "GNOME 2.10."
 
@@ -1132,8 +1131,8 @@ msgstr ""
 "Apprenez à utiliser GNOME avec le manuel d'utilisateur. Le manuel "
 "d'utilisateur et d'autres documentations, telles que des manuels sur "
 "l'administration de GNOME et les fonctionnalités d'accessibilité de GNOME, "
-"sont disponibles sur la page <ulink url=\"http://www.gnome.org/learn/\">"
-"« Apprendre GNOME »</ulink>."
+"sont disponibles sur la page <ulink url=\"http://www.gnome.org/learn/"
+"\">« Apprendre GNOME »</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1221,8 +1220,8 @@ msgid ""
 msgstr ""
 "Grâce à ses membres venant du monde entier, le <ulink url=\"http://developer."
 "gnome.org/projects/gtp/\">projet de traduction GNOME</ulink>, sous la "
-"direction de Christian Rose and Kjartan Maraas, permet à GNOME 2.10 d'offrir le support "
-"de 33 langues (au moins 80% des chaînes traduites)."
+"direction de Christian Rose and Kjartan Maraas, permet à GNOME 2.10 d'offrir "
+"le support de 33 langues (au moins 80% des chaînes traduites)."
 
 #: ../rni18n.xml:41 (para)
 msgid "Albanian (5 million speakers)"
@@ -1329,30 +1328,34 @@ msgid "Russian (170 million)"
 msgstr "Russe (170 millions)"
 
 #: ../rni18n.xml:67 (para)
+msgid "Romanian (26 million)"
+msgstr "Roumain (26 millions)"
+
+#: ../rni18n.xml:68 (para)
 msgid "Serbian (10 million)"
 msgstr "Serbe (10 millions)"
 
-#: ../rni18n.xml:68 (para)
+#: ../rni18n.xml:69 (para)
 msgid "Spanish (over 350 million)"
 msgstr "Espagnol (plus de 350 millions)"
 
-#: ../rni18n.xml:69 (para)
+#: ../rni18n.xml:70 (para)
 msgid "Swedish (9 million)"
 msgstr "Suédois (9 millions)"
 
-#: ../rni18n.xml:70 (para)
+#: ../rni18n.xml:71 (para)
 msgid "Tamil (61 million)"
 msgstr "Tamil (61 millions)"
 
-#: ../rni18n.xml:71 (para)
+#: ../rni18n.xml:72 (para)
 msgid "Turkish (150 million)"
 msgstr "Turc (150 millions)"
 
-#: ../rni18n.xml:72 (para)
+#: ../rni18n.xml:73 (para)
 msgid "Ukrainian (50 million)"
 msgstr "Ukrainien (50 millions)"
 
-#: ../rni18n.xml:73 (para)
+#: ../rni18n.xml:74 (para)
 msgid "Welsh (575,000)"
 msgstr "Gallois (575 000)"
 
@@ -1418,7 +1421,8 @@ msgstr ""
 #: ../rnplatform.xml:14 (para)
 msgid "glib 2.6 has an easier command-line parsing API."
 msgstr ""
-"glib 2.6 possède une API plus facile à utiliser pour l'analyse de la ligne de commande ;"
+"glib 2.6 possède une API plus facile à utiliser pour l'analyse de la ligne "
+"de commande ;"
 
 #: ../rnplatform.xml:15 (para)
 msgid ""
@@ -1610,7 +1614,8 @@ msgid ""
 "mode. In addition, it can now <placeholder-1/>"
 msgstr ""
 "Le visionneur de journaux de GNOME possède maintenant une fonction de "
-"recherche bien pratique, ainsi qu'un mode de surveillance amélioré. Dorénavant, il peut en outre : <placeholder-1/>"
+"recherche bien pratique, ainsi qu'un mode de surveillance amélioré. "
+"Dorénavant, il peut en outre : <placeholder-1/>"
 
 #: ../rnsysadmin.xml:58 (title)
 msgid "The Log Viewer"
