@@ -1,5 +1,9 @@
 2003-09-10  Andrew Sobala  <aes@gnome.org>
 
+	* rngcalctool.xml: wrong caption
+
+2003-09-10  Andrew Sobala  <aes@gnome.org>
+
 	* release-notes.xml:
 	* rncontrolcenter.xml:
 	* rndesktop.xml:

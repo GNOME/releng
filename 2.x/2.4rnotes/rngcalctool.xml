@@ -15,14 +15,14 @@
   <application>gnome-utils</application> package.</para>
 
     <figure id="rnegcalctoolscreenshot"> 
-        <title>GNOME Calculator</title> 
+        <title>Gcalctool</title> 
         <screenshot> 
         <mediaobject> 
           <imageobject><imagedata fileref="&urlfiguresbase;gcalctool.png"
 			format="PNG"/> 
           </imageobject>
  	  <textobject> 
- 	    <phrase>GNOME Calculator
+ 	    <phrase>Gcalctool
             </phrase> 
           </textobject> 
         </mediaobject> 
