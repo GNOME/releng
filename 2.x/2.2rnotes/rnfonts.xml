@@ -3,7 +3,10 @@
 
     <para>One of the great new features in GNOME 2.2 is desktop-wide support for <ulink url="http://fontconfig.org">fontconfig and Xft2</ulink>, giving us enhanced font configuration and rendering on screen (and, in the future, on paper).
 
-The new Fonts control panel has simple and detailed configuration pages for hinting and subpixel anti-aliasing. Plus, you can simply drop new fonts into ~/.fonts, and they will work throughout GNOME. Thanks to Keith Packard for his work on fontconfig!</para> 
+The new Fonts control panel has simple and detailed configuration pages for hinting and subpixel anti-aliasing. Font installation is now incredibly simple- you can simply drop new fonts into ~/.fonts, and they will work throughout GNOME. Thanks to Keith Packard for his work on fontconfig!</para>
+<para>
+Complementing this technology, Jim Gettys and the GNOME Foundation Board worked with Bitstream, Inc. to arrange the donation of the <ulink url="http://www.bitstream.com/categories/products/fonts/vera/">Vera font family</ulink> to the Free Software community. While not available for the GNOME 2.2.0 release, they will be released shortly, allowing all GNOME users to take advantage of the technology present in 2.2.0 with beautiful, high-quality fonts.
+</para>
    
 <figure>
   <title>Fonts Control Panel</title>
