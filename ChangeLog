@@ -1,23 +1,29 @@
-2001-02-15  Jamin Gray <jgray@writeme.com>
+2001-02-15  Maciej Stachowiak  <mjs@eazel.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras:  updated gmc
-
-2001-02-15  Jamin Gray <jgray@writeme.com>
-
-    * gnome-extras-1.4beta1-versions, package-list-extras:  updated gedit 
+	* gnome-1.4beta1-versions: updated gnome-guile, gnome-libs, oaf,
+	panelmm, glade, ghex, ggv, bug-buddy bonobo, gnome-audio.
 
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras:  updated gnumeric and dia
+	* gnome-extras-1.4beta1-versions, package-list-extras:  updated gmc
 
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-versions, package-list-extras:  update Glimmer's version and add it to the stage area.
+        * gnome-extras-1.4beta1-versions, package-list-extras:  updated gedit 
 
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-version: updated gnomeicu's verison to 0.95.5
-    * package-list-extras: updated gnomeicu's version to 0.95.5
+        * gnome-extras-1.4beta1-versions, package-list-extras:  updated gnumeric and dia
+
+2001-02-15  Jamin Gray <jgray@writeme.com>
+
+        * gnome-extras-1.4beta1-versions, package-list-extras: update
+	Glimmer's version and add it to the stage area.
+
+2001-02-15  Jamin Gray <jgray@writeme.com>
+
+        * gnome-extras-1.4beta1-version: updated gnomeicu's verison to 0.95.5
+        * package-list-extras: updated gnomeicu's version to 0.95.5
 
 2001-02-15  Ian Peters  <itp@ximian.com>
 
@@ -29,17 +35,17 @@
 	
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
-    * gnome-extras-1.4beta1-version: added eog to the version lists
-    * package-list-extras: added eog to the version lists
+        * gnome-extras-1.4beta1-version: added eog to the version lists
+        * package-list-extras: added eog to the version lists
 
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
-    * added gnome-extras-1.4beta1-version to list versions of extra apps
+        * added gnome-extras-1.4beta1-version to list versions of extra apps
 
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
-    * package-list-extras: added gob, updated a few version numbers2001-02-15  Jamin Gray
-    <jgray@writeme.com>
+        * package-list-extras: added gob, updated a few version
+	numbers2001-02-15 Jamin Gray <jgray@writeme.com>
 
 2001-02-14  Maciej Stachowiak  <mjs@eazel.com>
 
