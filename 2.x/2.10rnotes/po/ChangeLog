@@ -1,3 +1,7 @@
+2005-02-24  Hendrik Richter  <hendrik@gnome-de.org>
+
+	* xml-de/figures/*.png: Added translated screenshots.
+
 2005-02-23  Vincent van Adrighem  <adrighem@gnome.org>
 
 	* nl.po: Added dutch translation file (not translated yet).
