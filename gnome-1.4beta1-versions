@@ -7,7 +7,7 @@ bonobo
 bug-buddy           
 control-center      
 esound              0.2.22
-gconf               
+GConf               0.12
 gdk-pixbuf          
 gdm                 2.0.98
 ggv                 
@@ -31,19 +31,19 @@ gnome-vfs           0.5
 gtk+                
 gtk-engines         
 gtkmm               
-gtop                
+gtop                1.0.12
 imlib               
-libghttp            
+libghttp            1.0.9
 libglade            0.16
-libgtop             
+libgtop             1.0.11
 libsigc++           
 libxml              1.8.11             
 medusa              0.3.0
 nautilus            0.8
 oaf                 
 panel--                   
-rep-gtk             
-sawfish             
+rep-gtk             0.15
+sawfish             0.37.2
 users-guide         
-xalf                
+xalf                0.7
 xml-i18n-tools      0.8
