@@ -48,7 +48,7 @@
       <title>Network Shares</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-dnsdiscovery.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-nautilus-rendezvous.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Network view, featuring a local server.</phrase></textobject>
           </mediaobject>
