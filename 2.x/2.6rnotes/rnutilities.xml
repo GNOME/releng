@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnutilities">
+  <title>Utilities</title>
+
+  <para>There have been many improvements to the GNOME utilities. Here is a selection.</para>
+
+  <sect3>
+    <title>Character Map</title>
+    
+    <para>GNOME's Unicode character picker has been improved, so it is now even easier to paste unusual characters into your documents. For instance,
+    <itemizedlist>
+      <listitem><para>Searching for a character is now easier.</para></listitem>
+      <listitem><para>It is easier to see one set of characters at a time.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-gucharmap">
+    <title>Character Map </title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gucharmapTODO.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Character Map, showing characters from the TODO script.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    
+  </sect3>
+
+  <sect3>
+    <title>PDF Viewer</title>
+
+    <para>The PDF viewer now has several features that users missed in the previous version, such as:
+    <itemizedlist>
+      <listitem><para>There are now sidebars for bookmarks and page thumbnails.</para></listitem>
+      <listitem><para>You can now open password-protected files.</para></listitem>
+      <listitem><para>There is now a full-screen mode.</para></listitem>
+      <listitem><para>TrueType fonts are now supported.</para></listitem>
+      <listitem><para>Clicking on a URL will now open it in a web browser.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-gpfdf">
+    <title>PDF Viewer</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gdpfTODO.png" format="PNG"/></imageobject>
+          <textobject><phrase>The PDF Viewer, with page thumbnails.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+  
+  </sect3>
+
+</sect2>
