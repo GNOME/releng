@@ -10,10 +10,11 @@
   <sect3 id="rn-controlcenter-keyboard">
   <title>Keyboard Layouts</title>
 
-    <para>GNOME &version; makes it easier to use multiple keyboard layouts. For instance, you might choose to press both
-    shift keys together to change from a U.S. English keyboard layout to a Russian keyboard layout, and then back again, to
-    enter one russian word in the middle of an english sentence. This is particularly useful to the millions of people in
-    the world who regularly communicate in more than one language.
+    <para>GNOME &version; makes it easier to use multiple keyboard layouts. For instance, you might want to change from a U.S.
+    English keyboard layout to a Russian keyboard layout, and then back again, to enter one russian word in the middle of an
+    english sentence. This is particularly useful to the millions of people in the world who regularly communicate in more than one
+    language. You could click on the Keyboard Indicator panel applet to switch layouts, or you might choose a key combination
+    instead, such as pressing both shift keys together.
 
     <figure id="rnscreenshot-controlpanel-keyboardlayouts">
       <title>Keyboard Preferences - Layouts</title>
@@ -27,8 +28,7 @@
     </figure>
     </para>
 
-    <para>The Keyboard Indicator panel applet shows the current keyboard layout and lets you choose another,
-    without using the keyboard shortcut.
+    <para>See the Panel Applets section for information about the new Keyboard Indicator applet.
 
     <figure id="rnscreenshot-panel-applet-keyboardindicator">
       <title>Keyboard Indicator</title>

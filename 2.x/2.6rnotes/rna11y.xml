@@ -14,15 +14,15 @@
   <sect3 id="rna11y-accessibility-applet">
   <title>Keyboard Accessibility Status</title>
 
-  <para>As mentioned in the accessibility section, the new Keyboard Accessibility Status gives quick access to the Accessibility
-  control panel, and gives visual feedback when using the sticky-keys feature. The sticky-keys feature allows people with limited
-  mobility to press modifier keys, such as shift, in sequence instead of simultaneously.  TODO: Remove the duplication?
+  <para>The new Keyboard Accessibility Status panel applet gives quick access to the Accessibility control panel, and provides
+  visual feedback when using the sticky-keys feature. The sticky-keys feature allows people with limited mobility to press
+  modifier keys, such as shift, in sequence instead of simultaneously.
 
-  <figure id="rnscreenshot-accessibility-applet">
+  <figure id="rnscreenshot-panel-applet-accessibility">
     <title>Keyboard Indicator</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-accessibility.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-accessibilityTODO.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The Keyboard Accessibility Status applet, showing that the Shift and Control keys have been pressed.</phrase></textobject>
       </mediaobject>
@@ -54,7 +54,7 @@
   <para>Dasher is a predictive input system that should be particularly useful to people with severe disabilities.  At the moment, it
   allows text entry, but future versions should allow complete control of the desktop.
 
-  <figure id="rnscreenshot-panel-applet-accessibility">
+  <figure id="rnscreenshot-accessibility-dasher">
     <title>Dasher</title>
       <screenshot>
         <mediaobject>

@@ -8,17 +8,7 @@
   <sect1 id="rninstallation">
     <title>Installation of  the GNOME &version; Developer Platform and
     Desktop</title>
-<!--
-   /* TODO: Do we need to list the full list of stuff to build on each
- * platform? This seems overly complicated to me. If we do wish to
- * go with this, then Redhat just requires installing libfam-devel, 
- * libbbz2-devel - updating pkg-config and away you. I have absolutely
- * no clue if anything special is needed for Solaris - I think a simple 
- * 'Please refer to GNOME 2.0.x release notes' is sufficient in this case.
- * Debian is pretty much as below. Mandrake, I'm waiting for Fred to 
- * fill me in.
- */
--->
+
     <sect2 id="rndeps">
       <title>External Dependencies</title>
       <para>

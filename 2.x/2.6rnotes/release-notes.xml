@@ -16,9 +16,11 @@
     <title>GNOME &version; Release Notes</title>
     <abstract>
       <title>Introduction</title>
-      <para>The GNOME &version; Desktop is the latest
-	release of the ever popular, multi-platform free desktop environment.</para>
-      <para>GNOME &version; has several interesting new features that make day-to-day desktop usage much easier. GNOME &version; also includes many bug fixes, which noticeable improve the user interface, general stability and speed, and the built-in help system.</para>
+      <para>The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
+
+      <para>GNOME &version; desktop has several interesting new features and bug fixes. These make day-to-day usage much easier,
+      with noticeably improvements in the user interface, general stability and speed, and the built-in help system. You can
+      learn more in the following sections.</para>
 
     <para>GNOME runs on a variety of platforms, including GNU/Linux
     (commonly called Linux), Solaris, HP-UX, BSD and Apple's
@@ -26,7 +28,7 @@
     smooth text rendering, a first-class accessibility infrastructure,
     and a complete internationalization infrastructure that includes
     support for bi-directional text.</para>
-    
+
     <para>GNOME provides a user-friendly environment that &quot;just works&quot;
     for everyday users, without excess complexity or obscure features. At the same
     time we provide the rich flexibility experienced developers
@@ -37,22 +39,22 @@
     url="http://www.gnome.org/start/2.4/notes/">release notes</ulink>.</para>
 
     <para>The Desktop release contains all the applications needed
-	to provide basic user functionality. Major applications
-	such as <application>Gnumeric</application> and
-	<application>Evolution</application> are also available, but are
-	developed in parallel on their own release cycle rather than
-	being included in the core GNOME release.</para>
+  to provide basic user functionality. Major applications
+  such as <application>Gnumeric</application> and
+  <application>Evolution</application> are also available, but are
+  developed in parallel on their own release cycle rather than
+  being included in the core GNOME release.</para>
 
     <para>GNOME is part of the GNU Project, and is <ulink
     url="http://www.fsf.org/philosophy/free-sw.html">free
     software</ulink>.</para>
 
     </abstract>
-    
+
   </articleinfo>
 <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
-  
+
     <xi:include href="rndesktop.xml"/>
     <xi:include href="rncontrolcenter.xml"/>
     <xi:include href="rnapplets.xml"/>
@@ -63,7 +65,7 @@
     <xi:include href="rnsvg.xml"/>
     <xi:include href="rnplatform.xml"/>
 </sect1>
-  
+
  <xi:include href="rndocs.xml"/>
 
  <xi:include href="rni18n.xml"/>
@@ -90,9 +92,9 @@
     <ulink url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug
     form</ulink>.
 
-		More details on bugs already reported can be found at our <ulink
-		  url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the
-		most prominent GNOME &version; bugs:</para>
+    More details on bugs already reported can be found at our <ulink
+      url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the
+    most prominent GNOME &version; bugs:</para>
 
     <sect2 id="rnknownissues-list"><title>List of known issues</title>
     <para>
@@ -110,18 +112,19 @@
     </sect1>
 
     <sect1 id="rnlookingahead">
-	 <title>Looking to GNOME 2.6 and Beyond</title> 
-	      
-	      <para>GNOME operates on a time-based release philosophy, an
-		attempt to continuously provide the best of our developers' efforts
-		to users as quickly as we can. Six months after GNOME &version;,
-		we anticipate that GNOME &nextversion; will feature TODO and further advances in
-		accessibility, usability and internationalization.</para>
+   <title>Looking to GNOME 2.6 and Beyond</title>
+
+        <para>GNOME operates on a time-based release philosophy, an
+    attempt to continuously provide the best of our developers' efforts
+    to users as quickly as we can. Six months after GNOME &version;,
+    we anticipate that GNOME &nextversion; will feature integrated email,
+    contacts, calendar, and multimedia funtionality, and further advances in
+    accessibility, usability and internationalization.</para>
 </sect1>
   <sect1 id="rngettinginvolved">
     <title>Getting Involved</title>
     <para>
-      The core of GNOME's success is its many volunteers, both users and 
+      The core of GNOME's success is its many volunteers, both users and
       developers.
     </para>
     <para>
@@ -148,10 +151,10 @@
       towards a unified goal. Join us today and see what a difference you can make.
     </para>
   </sect1>
-<xi:include href="rnnewmaintainers.xml"/>
+
 <xi:include href="rnthanks.xml"/>
-	    <appendix id="rncredits">
-	      <title>Credits</title>
-	      <para>These release notes were assembled by TODO and many more.</para>
-	    </appendix>
+      <appendix id="rncredits">
+        <title>Credits</title>
+        <para>These release notes were assembled by Murray Cumming, Colin Charles and many more.</para>
+      </appendix>
 </article>

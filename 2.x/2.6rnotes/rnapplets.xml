@@ -29,8 +29,8 @@
   <sect3 id="rnapplets-keyboard-indicator">
   <title>Keyboard Indicator</title>
   
-  <para>As mentioned in the Control Panel section, the Keyboard Indicator applet shows the current keyboard layout and lets
-  you choose another, without using the keyboard shortcut. TODO: Remove the duplication?
+  <para>The new Keyboard Indicator applet shows the current keyboard layout and lets you choose another, without using the
+  keyboard shortcut.
 
   <figure id="rnscreenshot-panel-applet-keyboardindicator">
     <title>Keyboard Indicator</title>
@@ -49,21 +49,7 @@
   <sect3 id="rnapplets-keyboard-accessibility-status">
   <title>Keyboard Accessibility Status</title>
 
-  <para>As mentioned in the accessibility section, the new Keyboard Accessibility Status gives quick access to the Accessibility control panel, and gives visual feedback when
-  using the sticky-keys feature. The sticky-keys feature allows people with limited mobility to press modifier keys, such as shift,
-  in sequence instead of simultaneously.  TODO: Remove the duplication?
-
-  <figure id="rnscreenshot-panel-applet-accessibility">
-    <title>Keyboard Indicator</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-accessibilityTODO.png" format="PNG"/>
-          </imageobject>
-        <textobject><phrase>The Keyboard Accessibility Status applet, showing that the Shift and Control keys have been pressed.</phrase></textobject>
-      </mediaobject>
-    </screenshot>
-  </figure>
-  </para>
+  <para>See the accessibility section for informatin about the new Keyboard Accessibility Status applet.</para>
 
   </sect3>
 
