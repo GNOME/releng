@@ -57,15 +57,39 @@
     </sect2>
     
     <sect2 id="ui">
-      <title>User Interface</title>
+      <title>Usability</title>
       <para>
-		The GNOME 2 user interface has received a significant overhaul.  With
-		the brand new GNOME Human Interface Guidelines, GNOME 2 has been made
-		easier to use, more powerful and more consistent for technical and
-		nontechnical users alike. The release of GNOME 2 marks the beginning of
-		a new tradition in user interface improvement for the GNOME desktop.
+	Streamlining, consistency and coherence have been the primary foci for
+	GNOME 2 Usability work. Above all we have tried to consider you, the
+	user, as the focus of our design.
       </para>
-	  
+      <para>
+	<emphasis>Streamlining:</emphasis> Rather than adding a great pile of
+	new gadgets and preferences, GNOME 2 has been streamlined. Interface
+	clutter had led to a GNOME where you could almost literally "do less
+	with more". GNOME 2 removes many obscure or rarely used features (one or
+	two of which may have been dear to you personally). In exchange you will
+	find that most of the features you care about are much easier to access
+	because they are not obscured by a million other items.
+      </para>
+      <para>
+	<emphasis>Consistency:</emphasis> Interfaces that behave according to
+	consistent patterns are easier to learn, faster to use, and less prone
+	to error. The <ulink
+	url="http://usability.gnome.org/hig/draft_hig">GNOME-Human Interface
+	Guidelines</ulink> have helped make the GNOME 2 interface more
+	predictable, producing consistency between applications and promoting
+	usable patterns within individual applications.
+      </para>
+      <para>
+	<emphasis>Coherence:</emphasis> The GNOME 2 desktop fits together
+	well. From &quot;Log In&quot; to &quot;Log Out&quot;, usability studies,
+	countless brainstorming hours, and tireless hacking have produced a
+	holistic desktop &mdash; more than a loose confederation of modules.
+      </para>
+      <para>
+	Specific user-visible improvements include:
+      </para>
       <sect3 id="menusandpanel">
 		<title>Menus and Panel</title>
 		<para>
