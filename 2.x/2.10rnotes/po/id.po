@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 2.10rnotes HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: (null)\n"
-"PO-Revision-Date: 2005-03-03 21:06+0700\n"
+"PO-Revision-Date: 2005-03-04 11:05+0700\n"
 "Last-Translator: Ahmad Riza H Nst <ari@160c.afraid.org>\n"
 "Language-Team: Indonesian <sukarelawan@gnome.linux.or.id>\n"
 "MIME-Version: 1.0\n"
@@ -283,469 +283,469 @@ msgstr "Terima kasih untuk anggota dari seluruh dunia <ulink url=\"http://develo
 
 #: ../rni18n.xml:41(para) 
 msgid "Albanian (5 million speakers)"
-msgstr ""
+msgstr "Albania (5 juta pembicara)"
 
 #: ../rni18n.xml:42(para) 
 msgid "Arabic (235 million)"
-msgstr ""
+msgstr "Arab (235 juta)"
 
 #: ../rni18n.xml:43(para) 
 msgid "Azerbaijani (28 million)"
-msgstr ""
+msgstr "Azerbaijan (28 juta)"
 
 #: ../rni18n.xml:44(para) 
 msgid "Basque (580,000)"
-msgstr ""
+msgstr "Basqu (580,000)"
 
 #: ../rni18n.xml:45(para) 
 msgid "Belarusian (7 million)"
-msgstr ""
+msgstr "Belarusia (7 juta)"
 
 #: ../rni18n.xml:46(para) 
 msgid "Bengali (189 million)"
-msgstr ""
+msgstr "Manggali (189 juta)"
 
 #: ../rni18n.xml:47(para) 
 msgid "Bosnian (3 million)"
-msgstr ""
+msgstr "Bosnia (3 juta)"
 
 #: ../rni18n.xml:48(para) 
 msgid "Brazilian Portuguese (175 million)"
-msgstr ""
+msgstr "Brazil Portugis (175 juta)"
 
 #: ../rni18n.xml:49(para) 
 msgid "Bulgarian (9 million)"
-msgstr ""
+msgstr "Bulgaria (9 juta)"
 
 #: ../rni18n.xml:50(para) 
 msgid "Catalan (7 million)"
-msgstr ""
+msgstr "Katalan (7 juta)"
 
 #: ../rni18n.xml:51(para) 
 msgid "Chinese Simplified (over 1 billion)"
-msgstr ""
+msgstr "Cina sederhana (lebih 1 miliar)"
 
 #: ../rni18n.xml:52(para) 
 msgid "Chinese Traditional (40 million)"
-msgstr ""
+msgstr "Cina tradisional (40 juta)"
 
 #: ../rni18n.xml:53(para) 
 msgid "Croatian (5 million)"
-msgstr ""
+msgstr "Kroasia (5 juta)"
 
 #: ../rni18n.xml:54(para) 
 msgid "Czech (11 million)"
-msgstr ""
+msgstr "Cesnya (11 juta)"
 
 #: ../rni18n.xml:55(para) 
 msgid "Danish (5.3 million)"
-msgstr ""
+msgstr "Denmark (5,3 juta)"
 
 #: ../rni18n.xml:56(para) 
 msgid "Dutch (over 21 million)"
-msgstr ""
+msgstr "Belanda (lebih 21 juta)"
 
 #: ../rni18n.xml:57(para) 
 msgid "English (341 million)"
-msgstr ""
+msgstr "Inggris (341 juta)"
 
 #: ../rni18n.xml:58(para) 
 msgid "Estonian (1 million)"
-msgstr ""
+msgstr "Estonia (1 juta)"
 
 #: ../rni18n.xml:59(para) 
 msgid "Finnish (over 5 million)"
-msgstr ""
+msgstr "Finlandia (lebih 5 juta)"
 
 #: ../rni18n.xml:60(para) 
 msgid "French (over 75 million)"
-msgstr ""
+msgstr "Prancis (lebih 75 juta)"
 
 #: ../rni18n.xml:61(para) 
 msgid "German (100 million)"
-msgstr ""
+msgstr "Jerman (100 juta)"
 
 #: ../rni18n.xml:62(para) 
 msgid "Greek (15 million)"
-msgstr ""
+msgstr "Yunani (15 juta)"
 
 #: ../rni18n.xml:63(para) 
 msgid "Gujarati (46 million)"
-msgstr ""
+msgstr "Gujarat (46 juta)"
 
 #: ../rni18n.xml:64(para) 
 msgid "Hindi (370 million)"
-msgstr ""
+msgstr "Hindi (370 juta)"
 
 #: ../rni18n.xml:65(para) 
 msgid "Hungarian (14.5 million)"
-msgstr ""
+msgstr "Hungaria (14,5 juta)"
 
 #: ../rni18n.xml:66(para) 
 msgid "Indonesian (25 million)"
-msgstr ""
+msgstr "Indonesia (25 juta)"
 
 #: ../rni18n.xml:67(para) 
 msgid "Italian (60 million)"
-msgstr ""
+msgstr "Italia (60 juta)"
 
 #: ../rni18n.xml:68(para) 
 msgid "Japanese (over 125 million)"
-msgstr ""
+msgstr "Jepang (lebih 125 juta)"
 
 #: ../rni18n.xml:69(para) 
 msgid "Korean (75 million)"
-msgstr ""
+msgstr "Korea (75 juta)"
 
 #: ../rni18n.xml:70(para) 
 msgid "Lithuanian (4 million)"
-msgstr ""
+msgstr "Lituania (4 juta)"
 
 #: ../rni18n.xml:71(para) 
 msgid "Macedonian (1.5 million)"
-msgstr ""
+msgstr "makedonia (1,5 juta)"
 
 #: ../rni18n.xml:72(para) 
 msgid "Malay (over 17 million)"
-msgstr ""
+msgstr "Malaysia (lebih 17 juta)"
 
 #: ../rni18n.xml:73(para) 
 msgid "Mongolian (10 million)"
-msgstr ""
+msgstr "Mongolia (10 juta)"
 
 #: ../rni18n.xml:74(para) 
 msgid "Norwegian Bookmal (5 million)"
-msgstr ""
+msgstr "Norwegia Bookmal (5 juta)"
 
 #: ../rni18n.xml:75(para) 
 msgid "Norwegian Nynorsk (2 million)"
-msgstr ""
+msgstr "Norwegia Nynorsk (2 juta)"
 
 #: ../rni18n.xml:76(para) 
 msgid "Panjabi (60 million)"
-msgstr ""
+msgstr "Punjab (60 juta)"
 
 #: ../rni18n.xml:77(para) 
 msgid "Polish (44 million)"
-msgstr ""
+msgstr "Polandia (44 juta)"
 
 #: ../rni18n.xml:78(para) 
 msgid "Portuguese (43 million)"
-msgstr ""
+msgstr "Portugis (43 juta)"
 
 #: ../rni18n.xml:79(para) 
 msgid "Romanian (26 million)"
-msgstr ""
+msgstr "Rumania (26 juta)"
 
 #: ../rni18n.xml:80(para) 
 msgid "Russian (170 million)"
-msgstr ""
+msgstr "Rusia (170 juta)"
 
 #: ../rni18n.xml:81(para) 
 msgid "Serbian (10 million)"
-msgstr ""
+msgstr "Serbia (10 juta)"
 
 #: ../rni18n.xml:82(para) 
 msgid "Slovak (5 million)"
-msgstr ""
+msgstr "Sloakia (5 juta)"
 
 #: ../rni18n.xml:83(para) 
 msgid "Spanish (over 350 million)"
-msgstr ""
+msgstr "Spanyol (lebih 350 juta)"
 
 #: ../rni18n.xml:84(para) 
 msgid "Swedish (9 million)"
-msgstr ""
+msgstr "Swedia (9 juta)"
 
 #: ../rni18n.xml:85(para) 
 msgid "Tamil (61 million)"
-msgstr ""
+msgstr "Tamil (61 juta)"
 
 #: ../rni18n.xml:86(para) 
 msgid "Turkish (150 million)"
-msgstr ""
+msgstr "Turki (150 juta)"
 
 #: ../rni18n.xml:87(para) 
 msgid "Ukrainian (50 million)"
-msgstr ""
+msgstr "Ukraina (50 juta)"
 
 #: ../rni18n.xml:88(para) 
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnam"
 
 #: ../rni18n.xml:89(para) 
 msgid "Welsh (575,000)"
-msgstr ""
+msgstr "Wales (575.000)"
 
 #: ../rni18n.xml:36(para) 
 msgid "Supported languages: <placeholder-1/>"
-msgstr ""
+msgstr "Bahasa yang telah didukung: <placeholder-1/>"
 
 #: ../rni18n.xml:93(para) 
 msgid "Note that Basque, Bulgarian, Gujarati, Hindi, Hungarian, Norwegian Nynorsk, Panjabi and Tamil are new supported languages in GNOME 2.10, thanks to the hard work of their translators. Also worthy of mention is that British English and Canadian English are also supported."
-msgstr ""
+msgstr "Catat bahwa Basqu, Bulgaria, Gujarat, Hindi, Hungaria, Norwegia Nynorsk, Punjab dan Tamil adalah bahasa yang baru didukung pada GNOME 2.10, terima kasih pada kerja keras penterjemah mereka. Juga pemberitahuan penting bahwa Inggris British dan Inggris Kanada telah juga didukung."
 
 #: ../rni18n.xml:98(para) 
 msgid "Another 9 languages are partially supported, with more than half of their strings translated. Croatian and Mongolian are particularly close to \"supported\" status."
-msgstr ""
+msgstr "9 bahasa yang lain juga sebagian telah didukung. dengan lebih dari setengah dari string telah diterjemahkan. Kroasia dan Mongolia secara khusus sangat dengan ke status \"telah didukung\"."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rngames.xml:20(None) 
 msgid "@@image: 'figures/figure-game-same-gnome.png'; md5=541a9af0979357c0e3e9910ba03bc240"
-msgstr ""
+msgstr "@@image: 'figures/figure-game-same-gnome.png'; md5=541a9af0979357c0e3e9910ba03bc240"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rngames.xml:39(None) 
 msgid "@@image: 'figures/figure-game-nibbles.png'; md5=8a6662f72c6fb3f6f295b3fe1f6e7e4e"
-msgstr ""
+msgstr "@@image: 'figures/figure-game-nibbles.png'; md5=8a6662f72c6fb3f6f295b3fe1f6e7e4e"
 
 #: ../rngames.xml:8(title) 
 msgid "Games"
-msgstr ""
+msgstr "Permainan"
 
 #: ../rngames.xml:9(para) 
 msgid "GNOME helps you achieve your goals, but sometimes your goal is to be distracted. That's when the GNOME games bring the fun."
-msgstr ""
+msgstr "GNOME membantu anda untuk mencapai tujuan anda. tapi terkadang tujuan anda telah dikacaukan. Itu ketika permainan GNOME membawa kegembiraan."
 
 #: ../rngames.xml:12(title) ../rngames.xml:17(title) 
 msgid "Same GNOME"
-msgstr ""
+msgstr "GNOME Same."
 
 #: ../rngames.xml:14(para) 
 msgid "The Same GNOME game has a major new version, with better graphics, extra board sizes, and an undo feature in case you change your mind."
-msgstr ""
+msgstr "Permainan GNOME Same telah memiliki versi baru, dengan grafis yang lebih baik, ukuran papan ekstra dan fasilitas undo kalo anda merubah pikiran anda."
 
 #: ../rngames.xml:22(phrase) 
 msgid "The Same GNOME game."
-msgstr ""
+msgstr "Permainan GNOME Same."
 
 #: ../rngames.xml:31(title) 
 msgid "Nibbles"
-msgstr ""
+msgstr "Nibbles"
 
 #: ../rngames.xml:33(para) 
 msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by Gnome Meeting."
-msgstr ""
+msgstr "Filosofi \"bekerja\" kami bahkan kelihatan di permainan Nibbles. Sekarang anda dapat mencari orang pada jaringan lokal anda untuk bermain bersama, melalui teknik konfigurasi yang sama dengan Gnome Meeting."
 
 #: ../rngames.xml:36(title) 
 msgid "join a network game"
-msgstr ""
+msgstr "gabung sebuah permainan jaringan"
 
 #: ../rngames.xml:41(phrase) 
 msgid "Join a network game"
-msgstr ""
+msgstr "Gabung sebuah permainan jaringan"
 
 #: ../rndocs.xml:10(title) 
 msgid "Sysadmin, User, and Accessibility Guides"
-msgstr ""
+msgstr "Sysadmin, Pengguna dan Panduan Aksesibiltas"
 
 #: ../rndocs.xml:12(para) 
 msgid "Thanks to the efforts of the <ulink url=\"http://developer.gnome.org/projects/gdp/\">GNOME Documentation Project</ulink>, GNOME 2.10 comes with comprehensive and professional documentation. Careful attention has been taken to detail using free software's most complete <ulink url=\"http://developer.gnome.org/documents/style-guide/\">documentation style guide</ulink>. As in GNOME 2.8, each application shipped with GNOME 2.10 includes full user documentation."
-msgstr ""
+msgstr "Terima kasih untuk usaha <ulink url=\"http://developer.gnome.org/projects/gdp/\">Proyek Dokumentasi GNOME/ulink>, GNOME 2.10 datang dengan dokumentasi yang lengkap dan profesional. Perhatian yang mendalam dan terinci menggunakan perangkat lunak yang paling lengkap <ulink url=\"http://developer.gnome.org/documents/style-guide/\">panduan gaya dokumentasi</ulink>. Sebagaimana dalam GNOME 2.8, setiap aplikasi yang dikirimkan dengan GNOME 2.10 telah dilengkapi dengan dokumentasi pengguna yang lengkap."
 
 #: ../rndocs.xml:22(para) 
 msgid "Learn to how to use GNOME with the Desktop User Guide. The User Guide and other documentation, including guides to system administration and GNOME's accessibility features, can be found on the <ulink url=\"http://www.gnome.org/learn/\">GNOME Learn page</ulink>."
-msgstr ""
+msgstr "Belajar bagaimana menggunakan GNOME dengan Panduan Pengguna Desktop. Panduan Pengguna dan dokumentasi yang lain, termasuk panduan untuk sistem administrasi dan fasilitas aksesibilitas GNOME, dapat ditemukan di <ulink·url=\"http://www.gnome.org/learn/\">halaman belajar GNOME</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rndesktop.xml:34(None) 
 msgid "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
-msgstr ""
+msgstr "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rndesktop.xml:47(None) 
 msgid "@@image: 'figures/figure-backgrounds.png'; md5=e1c401f328cb9443b5824eecedaf4a79"
-msgstr ""
+msgstr "@@image: 'figures/figure-backgrounds.png'; md5=e1c401f328cb9443b5824eecedaf4a79"
 
 #: ../rndesktop.xml:10(title) 
 msgid "Desktop"
-msgstr ""
+msgstr "Desktop"
 
 #: ../rndesktop.xml:12(title) 
 msgid "The File Manager"
-msgstr ""
+msgstr "Pengelola File"
 
 #: ../rndesktop.xml:13(para) 
 msgid "The file manager, also known as Nautilus, is even faster and more stable in GNOME 2.10, thanks to changes to its internal architecture. This should allow software developers to maintain and extend the file manager more easily in future."
-msgstr ""
+msgstr "Pengelola file, juga dikenal sebagai Nautilus, bahkan lebih cepat dan lebih stabil pada GNOME 2.10, terima kasih pada perubahan arsitektur internalnya. Hal ini seharusnya membolehkan para pengembang perangkat lunak untuk memelihara dan mengembangkan pengelola file ini secara lebih mudah di masa depan."
 
 #: ../rndesktop.xml:18(para) 
 msgid "Drag and drop with other applications, such as Mozilla and Firefox, now also works more smoothly."
-msgstr ""
+msgstr "Tarik dan Jatuhkan dengan aplikasi lain, seperti Mozilla dan Firefox, sekarang bekerja dengan lebih lembut."
 
 #: ../rndesktop.xml:24(para) 
 msgid "The path button is now more obviously a button."
-msgstr ""
+msgstr "Lokasi tombol sekarang lebih nyata sebuah tombol."
 
 #: ../rndesktop.xml:25(para) 
 msgid "When creating new files, renaming starts automatically."
-msgstr ""
+msgstr "Ketika membuat file baru, penamaan akan dimulai secara automatis."
 
 #: ../rndesktop.xml:26(para) 
 msgid "When using keyboard navigation to open the parent folder (Alt-Up), the current folder will be selected."
-msgstr ""
+msgstr "Ketika menggunakan navigasi keyboard untuk membuka direktori atas (Alt-Up), folder yang sekarang akan terpilih."
 
 #: ../rndesktop.xml:22(para) 
 msgid "In addition, there are many small changes that demonstrate GNOME's attention to detail. For instance, <placeholder-1/>"
-msgstr ""
+msgstr "Sebagai tambahan, ada begitu banyak perubahan kecil yang menunjukkan perhatian GNOME terhadap hal yang rinci. Sebagai kejadian, <placeholder-1/>"
 
 #: ../rndesktop.xml:31(title) 
 msgid "clean-cut and powerful, the Nautilus file manager"
-msgstr ""
+msgstr "potongan yang bersih dan kuat, pengelola file Nautilus"
 
 #: ../rndesktop.xml:36(phrase) 
 msgid "The file manager"
-msgstr ""
+msgstr "Pengelola file"
 
 #: ../rndesktop.xml:41(para) 
 msgid "GNOME 2.10 provides a new selection of pre-installed background images and patterns, so your desktop can become your own."
-msgstr ""
+msgstr "GNOME 2.10 menyediakan suatu pilihan baru untuk bentuk dan gambar latar belakang, jadi desktop anda akan menjadi milik anda."
 
 #: ../rndesktop.xml:44(title) 
 msgid "a selection of simple yet artistic backgrounds"
-msgstr ""
+msgstr "suatu pilihan dari latar belakang artistik yang sederhana"
 
 #: ../rndesktop.xml:49(phrase) 
 msgid "Desktop backgrounds"
-msgstr ""
+msgstr "Latar belakang desktop"
 
 #: ../rndesktop.xml:56(title) 
 msgid "Window Behaviour"
-msgstr ""
+msgstr "Kelakuan Jendela"
 
 #: ../rndesktop.xml:57(para) 
 msgid "GNOME 2.10 has a new ability that you might not notice at first, implementing another cross-desktop Freedesktop.org standard."
-msgstr ""
+msgstr "GNOME 2.10 memiliki kemampuan baru yang tidak akan anda sadari saat pertama kali, menerapkan standard silang desktop Freedesktop.org."
 
 #: ../rndesktop.xml:58(para) 
 msgid "In the past, while typing something into one application when suddenly your instant messenger offered a chat request from your friend, your words would be typed into the chat window. Imagine if you were typing your password at the time. This should no longer happen in GNOME 2.10."
-msgstr ""
+msgstr "Pada masa lalu, ketika mengetik sesuatu pada satu aplikasi ketika tiba-tiba instant messenger anda menawarkan ngobrol dengan teman anda, kata anda akan diketikkan ke dalam jendela obrolan. Bayangkan jika anda mengetikkan password anda pada saat yang sama. Hal ini tidak akan terjadi lagi pada GNOME 2.10."
 
 #: ../rndesktop.xml:59(para) 
 msgid "In addition, if an application takes a long time to start, your work will not be interrupted when it finally opens its window."
-msgstr ""
+msgstr "Sebagai tambahan, jika suatu aplikasi terlalu lama untuk mulai, pekerjaan anda tidak akan terpotong ketika akhirnya jendela aplikasi tersebut terbuka."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rncontrolcenter.xml:20(None) 
 msgid "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=6f351cb81db99e786e4560301a410fcc"
-msgstr ""
+msgstr "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=6f351cb81db99e786e4560301a410fcc"
 
 #: ../rncontrolcenter.xml:8(title) 
 msgid "Control Center"
-msgstr ""
+msgstr "Pusat Kendali"
 
 #: ../rncontrolcenter.xml:11(title) 
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "Susunan Keyboard"
 
 #: ../rncontrolcenter.xml:17(title) 
 msgid "Keyboard Preferences - Layouts"
-msgstr ""
+msgstr "Setingan - Susunan Keyboard"
 
 #: ../rncontrolcenter.xml:13(para) 
 msgid "Selecting a keyboard layout is now simpler with the Keyboard control panel. Just click Add to choose from a list of international keyboard layouts. Before making your choice you can see the effect of key presses in the layout preview. The Layout Options section has also been reorganized as simpler list of choices. <figure id=\"rnscreenshot-controlpanel-keyboardlayouts\"><title>Keyboard Preferences - Layouts</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel, while adding a new layout.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Mmilih suatu susunan keyboard sekarang sudah lebih mudah dengan panel kendali Keyboard. Klik saja Tambah untuk memilih dari suatu daftar sususan keyboard internasional. Sebelum membuat pilihan anda, anda dapat melihat akibat dari kunci yang ditekan pada preview susunan. Bagian pilihan susunan juga telah diatur ulang sebagai daftar pilihan yang lebih sederhana. <figure id=\"rnscreenshot-controlpanel-keyboardlayouts\"><title>Setingan - Susunan Keyboard</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></imageobject><textobject><phrase>Tab Susunan, pada panel kendali Setingan Keyboard, ketika menambahkan sebuah susunan baru.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:20(None) 
 msgid "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
-msgstr ""
+msgstr "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:40(None) 
 msgid "@@image: 'figures/figure-soundjuicer.png'; md5=45107d7894144e15e2e3dabbe2310152"
-msgstr ""
+msgstr "@@image: 'figures/figure-soundjuicer.png'; md5=45107d7894144e15e2e3dabbe2310152"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:67(None) 
 msgid "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
-msgstr ""
+msgstr "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:99(None) 
 msgid "@@image: 'figures/figure-evolution-weather.png'; md5=ca12d0050f5514294bd4b54f47a899db"
-msgstr ""
+msgstr "@@image: 'figures/figure-evolution-weather.png'; md5=ca12d0050f5514294bd4b54f47a899db"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:118(None) 
 msgid "@@image: 'figures/figure-evolution-mail.png'; md5=b27a25dd54f1118e40b9104354bda815"
-msgstr ""
+msgstr "@@image: 'figures/figure-evolution-mail.png'; md5=b27a25dd54f1118e40b9104354bda815"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:142(None) 
 msgid "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/figure-gnomemeeting.png'; md5=FILE INI TIDAK ADA"
 
 #: ../rnapplications.xml:8(title) 
 msgid "Applications"
-msgstr ""
+msgstr "Aplikasi"
 
 #: ../rnapplications.xml:11(title) 
 msgid "Video Player"
-msgstr ""
+msgstr "Pemutar Video"
 
 #: ../rnapplications.xml:17(title) 
 msgid "The video player"
-msgstr ""
+msgstr "Pemutar video "
 
 #: ../rnapplications.xml:13(para) 
 msgid "GNOME 2.10 now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration. <figure id=\"rnscreenshot-totem\"><title>The video player</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "GNOME 2.10 sekarang mengikut sertakan Totem pemutar video yang populer, menggunakan kerangka kerja multimedia GStreamer GNOME. Totem menyediakan antar muka pengguna yang intuitif seperti yang diinginkan pengguna GNOME, dengan pengenalan perangkat keras secara automatis dari pada konfigurasi yang kompleks. <figure id=\"rnscreenshot-totem\"><title>Pemutar video</title><screenshot><mediaobject><imageobject><imagedata·fileref=\"&urlfiguresbase;figure-totem.png\"·format=\"PNG\"/></imageobject><textobject><phrase>Pemutar Video Totem.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:31(title) 
 msgid "Audio Extraction"
-msgstr ""
+msgstr "Penguraian Suara"
 
 #: ../rnapplications.xml:37(title) 
 msgid "The audio extractor"
-msgstr ""
+msgstr "Pengurai suara"
 
 #: ../rnapplications.xml:33(para) 
 msgid "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for later playback on your PC or portable music player. Thanks to automatic downloading of song titles, you won't need to click more than a couple of buttons. <figure id=\"rnscreenshot-soundjuicer\"><title>The audio extractor</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></imageobject><textobject><phrase>The audio extractor.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Sound Juicer yang paling dicintai \"pemotong CD\" dengan mudah menguraikan suara dari CD untuk kemudian dapat dimainkan pada PC anda ataupun pemutar musik portabel lain. Terima kasih untuk downloading judul lagu yang automatis, anda tidak akan mengklik sepasang tombol. <figure id=\"rnscreenshot-soundjuicer\"><title>Pengurai suara</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></imageobject><textobject><phrase>Pengurai suara.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:51(title) 
 msgid "Web Browser"
-msgstr ""
+msgstr "Browser Web"
 
 #: ../rnapplications.xml:55(para) 
 msgid "An improved fullscreen mode."
-msgstr ""
+msgstr "Mode layar penuh yang telah ditingkatkan."
 
 #: ../rnapplications.xml:56(para) 
 msgid "The location bar now indicates whether the site is secure, and shows its favicon."
-msgstr ""
+msgstr "Petunjuk lokasi sekarang menandakan apakah situs adalah aman, dan menampilkan faviconnya."
 
 #: ../rnapplications.xml:57(para) 
 msgid "Bookmarks can be exported."
-msgstr ""
+msgstr "Bookmark dapat diekspor."
 
 #: ../rnapplications.xml:58(para) 
 msgid "An extension manager for extra features."
-msgstr ""
+msgstr "Pengelola ekstensi untuk fasilitas ekstra."
 
 #: ../rnapplications.xml:53(para) 
 msgid "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in 2.10 include <placeholder-1/>"
-msgstr ""
+msgstr "Web browser GNOME \"Epiphany\" berdasarkan Mozilla telah menyatu secara penuh dengan lingkungan desktop GNOME. Peningkatan pada 2.10 termasuk <placeholder-1/>"
 
 #: ../rnapplications.xml:64(title) 
 msgid "The web browser"
-msgstr ""
+msgstr "Browser web"
 
 #: ../rnapplications.xml:77(title) 
 msgid "Evolution"
-msgstr ""
+msgstr "Evolution"
 
 #: ../rnapplications.xml:79(para) 
 msgid "GNOME's integrated Email and Groupware client, Evolution supports traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. With Evolution you can read, write, and manage your emails, contacts, and calendar events."
