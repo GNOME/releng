@@ -14,14 +14,17 @@ Stuff to mention in GNOME 2.8 release notes:
 - New themes (Industrial and glider)
 - panel:
   - Simpler way to choose panel applets. 
-  - battery monitor applet: Improvement. What exactly?
+  - battery monitor applet: Shows estimated time remaining instead of just percentage. Alerts vanish after some time.
   - net status: Shows wireless signal strength.
+- Control panel:
+  - Keyboard Layout shows a preview which highlights keys that you press.
+  - gnome-volume-manager config.
 
 - New modules:
   - evolution
   - gnome-system-tools: Change the system clock, the users/groups, the network connection.
   - vino: Allow a system administrator to control your computer.
-  - gnome-nettool: Provide useful information to your system adminstrator, in the event of network problems.
+  - gnome-nettool: Provide useful information to your system administrator, in the event of network problems.
  
 
 system adminstration:
