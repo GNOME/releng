@@ -337,63 +337,63 @@ C and inclues a gtk interface already
 ## gnome-media 
 ##############################################################################################
 <application name="gnome-media" authors="iain@ximian.com" link="">
-<item done="no">
+<item done="yes">
 Gnome-CD needs a preferences dialog and some preferences
 </item>
-<item done="no">
+<item done="yes">
 Gnome-CD needs a CDDB/track editor
 </item>
-<item done="no">
+<item done="yes">
 Gnome-CD needs non-Linux ports. The framework for the cd stuff should be
 portable to anything, as opposed to  GTCD where it was nasty, but it
 needs ported. I'll do Solaris if someone sends me a Sparc... :)
 </item>
-<item done="no">
+<item done="yes">
 The CDDB parser could do with some work
 </item>
-<item done="no">
+<item done="yes">
 Gnome-CD needs things like Repeat track, repeat CD implemented and time
 remaining, track time remaining
 </item>
-<item done="no">
+<item done="yes">
 Gnome-CD needs an about box
 </item>
-<item done="no">
+<item done="yes">
 Gnome-CD theme stuff could be optimised, but I only added it today, so give me
 time.
 </item>
-<item done="no">
+<item done="yes">
 GMix - started making the backend OS independant like gnome-cd, but never
 got time to finish it. It works fine on Linux, but is basically
 unportable to any other OS.
 </item>
-<item done="no">
+<item done="yes">
 VU-Meter testing. Has been ported.
 </item>
-<item done="no">
+<item done="yes">
 GRecord - never got it to work on GNOME 1.4. Has been ported.
 </item>
-<item done="no">
+<item done="yes">
 CDDBSlave2 has problems with gnome-vfs. Possibly a problem with gnome-vfs.
 </item>
-<item done="no">
+<item done="yes">
 CDDBSlave2 - possibly ported to gnet, then use some http freedb interface
 </item>
-<item done="no">
+<item done="yes">
 I'd *LOVE* it if CDDBSlave2 did all the parsing of CDDB entries and
 was able to pass the information in an already parsed state to
 applications, no need for apps to duplicate code and all that.
 </item>
-<item done="no">
+<item done="yes">
 I'd also *LOVE* it if CDDBSlave2 could do things like giving the user
 a choice if multiple discs are returned for a query.
 </item>
-<item done="no">
+<item done="yes">
 I'd also also also *LOVE LOVE LOVE* it, if the CDDBSlave was able to
 export a BonoboControl that could be used as a CDDB editor. But that's
 in the future.
 </item>
-<item done="no">
+<item done="yes">
 CDDBSlave2 has problems with activation.
 </item>
 </application>
