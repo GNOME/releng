@@ -27,7 +27,7 @@ libart_lgpl		=		2.3.8		-			Raph Levien <raph@acm.org>
 libbonobo		=		1.110.0		frozen			Michael Meeks <michael@ximian.com>
 libbonoboui		=		1.110.0		frozen			Michael Meeks <michael@ximian.com>
 libghttp		gnome-http	1.0.9		* to remove if better method found	Justin Maurer <justin@slashdot.org>
-libglade		=		1.99.5		frozen			James Henstridge <james@daa.com.au>
+libglade		=		1.99.6		frozen			James Henstridge <james@daa.com.au>
 libgnome		=		1.110.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomecanvas		=		1.110.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.110.0		-			Lauris Kaplinski <lauris@ximian.com>
@@ -37,7 +37,7 @@ libxml2			gnome-xml	2.4.13		frozen			Daniel Veillard <veillard@redhat.com>
 libxslt			=		1.0.10		frozen			Daniel Veillard <veillard@redhat.com>
 linc			=		0.1.16		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.24		frozen			Owen Taylor <owen@redhat.com>
-pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
+pkgconfig		-		0.10.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
 
 <section title="Desktop">
@@ -50,7 +50,7 @@ gnome-audio		-		-		* no longer relevant?	-
 control-center		=		1.99.2		-			Richard Hestilow <hestilow@ximian.com>
 gnome-core		=		1.5.5		see Desktop Core section		-
 gnome-games		=		1.90.1		mostly ported, minor issues		Juan Pablo Mendoza <jpablo@gnome.org>
-gnome-media		=		-		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
+gnome-media		=		1.112.0		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
 gnome-system-monitor	procman		1.1.2		ported			Kevin Vandersloot <kfv101@psu.edu>
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
 gnome-utils		=		1.98.0		see Desktop Utils section		-
@@ -70,8 +70,7 @@ yelp			=		0.1		new			Mikael Hallendal <micke@codefactory.se>
 </section>
 
 <section title="Desktop Core (gnome-core)" cvsbase="gnome-core">
-applets			=		1.91.0		see Desktop Applets	-
-gfloppy			=		-		ported			Jonathan Blandford <jrb@redhat.com>
+gnome-applets		applets		1.91.1		see Desktop Applets	-
 gnome-about		=		-		porting (Glynn)		Jacob Berkman <jacob@ximian.com>, George Jirka <jirka@5z.com>
 gnome-terminal		=		-		-			-
 gsm			=		-		-			-
@@ -101,6 +100,7 @@ gcalc			=		-		ported, accessibility issues	-
 gcharmap		=		-		ported			-
 gcolorsel		=		-		* should be replaced with minimal colour selector	-
 gdialog			=		-		ported			-
+gfloppy			=		-		ported			Jonathan Blandford <jrb@redhat.com>
 gfontsel		mini-utils/gfontsel	-	* should be replaced with fontcarton		-
 gsearchtool		=		-		ported			-
 logview			=		-		ported, some font issues		-
@@ -123,11 +123,12 @@ xchat			-		-		-			-
 </section>
 
 <section title="Language Bindings">
-gnome-python		gnome-python/gnome-python	1.99.6		not frozen		James Henstridge <james@daa.com.au>, Matt Wilson <msw@redhat.com>
+gnome-python		gnome-python/gnome-python	1.99.7		not frozen		James Henstridge <james@daa.com.au>, Matt Wilson <msw@redhat.com>
 gnomemm			-		-		-			-
 gtkmm			-		-		-			-
 libsigc++		-		-		-			-
-pygtk			gnome-python/pygtk		1.99.6		not frozen		James Henstridge <james@daa.com.au>
+orbit-python		-				1.99.0			-		-
+pygtk			gnome-python/pygtk		1.99.7		not frozen		James Henstridge <james@daa.com.au>
 </section>
 
 <section title="Developer Carpet Bag">
