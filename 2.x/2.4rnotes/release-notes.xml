@@ -122,8 +122,8 @@
           to download data in GNOME 2.4.0.</para>
         </listitem>
         <listitem>
-          <para>The <application>Panel</application> stores configuration in a
-          different format to previous versions of GNOME. The configuration is
+          <para>The <application>Panel</application> stores configuration in
+          format different from previous versions of GNOME. The configuration is
           migrated to the new format when the <application>Panel</application>
           first starts. After that, changes made to the configuration in GNOME
           2.4 will not be reflected in older GNOME sessions and vice versa.</para>
