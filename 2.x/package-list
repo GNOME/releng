@@ -46,6 +46,7 @@ file-roller		=		2.2
 gconf-editor		=		1.0		-		Anders Carlsson <andersca@gnu.org>
 gdm			gdm2		2.4		-		George Jirka <jirka@5z.com>
 gedit2			=		2.2		-		Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
+ggv			=		2.0		-
 gtk-engines		=		-		-		Owen Taylor <owen@redhat.com>
 gnome-applets		=		2.2		-		Kevin Vandersloot <kfv101@psu.edu>	
 gnome-desktop		=		2.2		-		Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>

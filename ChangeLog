@@ -1,3 +1,7 @@
+2003-01-20  Murray Cumming  <murrayc@usa.net>
+
+	* 2.x/package-list: Added ggv.
+
 2002-12-22  Murray Cumming  <murrayc@usa.net>
 
 	* 2.x/package-list: Added new modules such as acme, metacity,
