@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: releng\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-04 08:08+0300\n"
+"PO-Revision-Date: 2005-03-04 17:33+0300\n"
 "Last-Translator: Priit Laes <amd@store20.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -18,25 +18,25 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:23
 msgid "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
-msgstr ""
+msgstr "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:41
 msgid "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/figure-fileroller.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:60
 msgid "@@image: 'figures/figure-dictionary.png'; md5=2c1962519057406be57f4b1b76604973"
-msgstr ""
+msgstr "@@image: 'figures/figure-dictionary.png'; md5=2c1962519057406be57f4b1b76604973"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:78
 msgid "@@image: 'figures/figure-floppy-formatter.png'; md5=cc67b69fcf0049807a6b9656aa0d17e7"
-msgstr ""
+msgstr "@@image: 'figures/figure-floppy-formatter.png'; md5=cc67b69fcf0049807a6b9656aa0d17e7"
 
 #: ../rnutilities.xml:8
 msgid "Utilities"
@@ -94,13 +94,13 @@ msgstr "Teemad"
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnsysadmin.xml:37
 msgid "@@image: 'figures/figure-gnome-system-tools.png'; md5=65e08a4a7947a0a4c0638c249cb30e7a"
-msgstr ""
+msgstr "@@image: 'figures/figure-gnome-system-tools.png'; md5=65e08a4a7947a0a4c0638c249cb30e7a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnsysadmin.xml:61
 msgid "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
-msgstr ""
+msgstr "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
 
 #: ../rnsysadmin.xml:9
 msgid "System Administration"
@@ -207,8 +207,9 @@ msgid "For GNOME 2.10 we have a LiveCD, available from www.gnome.org. The LiveCD
 msgstr ""
 
 #: ../rninstallation.xml:13
+#, fuzzy
 msgid "For actual use, we recommend that you install official packages, such as those for your Linux distribution. Vendors are likely to package GNOME 2.10 relatively quickly, and to release new versions soon that include GNOME 2.10."
-msgstr ""
+msgstr "Tegelikuks kasutamiseks soovitame me paigaldada ametlikud pakid, mida enamasti pakub sinu Linuxi distributsioon. Distributsioonid "
 
 #: ../rninstallation.xml:15
 msgid "However, if you would like to build GNOME from source code, to test the very latest versions, to provide feedback and improvements, we recommend a build tool; such as the <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</ulink> utility, for building from released tarballs, and <ulink url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from CVS."
@@ -434,13 +435,13 @@ msgstr "Veel 9 keelt on osaliselt toetatud rohkem kui pool tekstist tõlgitud. H
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rngames.xml:20
 msgid "@@image: 'figures/figure-game-same-gnome.png'; md5=541a9af0979357c0e3e9910ba03bc240"
-msgstr ""
+msgstr "@@image: 'figures/figure-game-same-gnome.png'; md5=541a9af0979357c0e3e9910ba03bc240"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rngames.xml:39
 msgid "@@image: 'figures/figure-game-nibbles.png'; md5=8a6662f72c6fb3f6f295b3fe1f6e7e4e"
-msgstr ""
+msgstr "@@image: 'figures/figure-game-nibbles.png'; md5=8a6662f72c6fb3f6f295b3fe1f6e7e4e"
 
 #: ../rngames.xml:8
 msgid "Games"
@@ -495,13 +496,13 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rndesktop.xml:34
 msgid "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
-msgstr ""
+msgstr "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rndesktop.xml:47
 msgid "@@image: 'figures/figure-backgrounds.png'; md5=e1c401f328cb9443b5824eecedaf4a79"
-msgstr ""
+msgstr "@@image: 'figures/figure-backgrounds.png'; md5=e1c401f328cb9443b5824eecedaf4a79"
 
 #: ../rndesktop.xml:10
 msgid "Desktop"
@@ -575,7 +576,7 @@ msgstr "Lisaks veel, kui rakenduse käivitamiseks läheb kaua aega, siis kui pro
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rncontrolcenter.xml:20
 msgid "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=6f351cb81db99e786e4560301a410fcc"
-msgstr ""
+msgstr "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=6f351cb81db99e786e4560301a410fcc"
 
 #: ../rncontrolcenter.xml:8
 msgid "Control Center"
@@ -597,37 +598,37 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:20
 msgid "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
-msgstr ""
+msgstr "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:40
 msgid "@@image: 'figures/figure-soundjuicer.png'; md5=45107d7894144e15e2e3dabbe2310152"
-msgstr ""
+msgstr "@@image: 'figures/figure-soundjuicer.png'; md5=45107d7894144e15e2e3dabbe2310152"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:67
 msgid "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
-msgstr ""
+msgstr "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:99
 msgid "@@image: 'figures/figure-evolution-weather.png'; md5=ca12d0050f5514294bd4b54f47a899db"
-msgstr ""
+msgstr "@@image: 'figures/figure-evolution-weather.png'; md5=ca12d0050f5514294bd4b54f47a899db"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:118
 msgid "@@image: 'figures/figure-evolution-mail.png'; md5=b27a25dd54f1118e40b9104354bda815"
-msgstr ""
+msgstr "@@image: 'figures/figure-evolution-mail.png'; md5=b27a25dd54f1118e40b9104354bda815"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:141
 msgid "@@image: 'figures/figure-gnome-meeting.png'; md5=71e89305beea456fbb73016fbb645010"
-msgstr ""
+msgstr "@@image: 'figures/figure-gnome-meeting.png'; md5=71e89305beea456fbb73016fbb645010"
 
 #: ../rnapplications.xml:8
 msgid "Applications"
@@ -769,43 +770,43 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:30
 msgid "@@image: 'figures/figure-applet-modem.png'; md5=e578e556196eb7b5e18e8e23dec80f3d"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-modem.png'; md5=e578e556196eb7b5e18e8e23dec80f3d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:52
 msgid "@@image: 'figures/figure-applet-trash.png'; md5=3cae86562b76ef6650be8d0fbe007907"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-trash.png'; md5=3cae86562b76ef6650be8d0fbe007907"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:74
 msgid "@@image: 'figures/figure-applet-drivemount.png'; md5=47fa7b661de0c2ae0223fa211145fa11"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-drivemount.png'; md5=47fa7b661de0c2ae0223fa211145fa11"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:95
 msgid "@@image: 'figures/figure-applet-weather.png'; md5=c3a54721c5872fe130c9c24d969310bf"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-weather.png'; md5=c3a54721c5872fe130c9c24d969310bf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:119
 msgid "@@image: 'figures/figure-applet-mixer.png'; md5=3db86d251e280b32c35142524d4759f2"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-mixer.png'; md5=3db86d251e280b32c35142524d4759f2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:140
 msgid "@@image: 'figures/figure-applet-stickies.png'; md5=55648b50d6dde470bc89a2d9d51523d8"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-stickies.png'; md5=55648b50d6dde470bc89a2d9d51523d8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplets.xml:158
 msgid "@@image: 'figures/figure-applet-cpufreq.png'; md5=81a2482710b2157df4fc66697490d28a"
-msgstr ""
+msgstr "@@image: 'figures/figure-applet-cpufreq.png'; md5=81a2482710b2157df4fc66697490d28a"
 
 #: ../rnapplets.xml:8
 msgid "Panel Items"
@@ -817,7 +818,7 @@ msgstr "GNOME 2.10 sisaldab suuri edasiarendusi oma paneelielementidele (mis on 
 
 #: ../rnapplets.xml:13
 msgid "The most visible change is the removal of the Actions panel menu and the addition of Places and Desktop menus. These provide fast access to the items you use most often, without navigating through sub-menus. For instance, the Places menu lists your home folder, your computer, networked servers, and the search feature. In the Desktop menu, you'll find your Preferences and Administration control panels, Log Out, and Help."
-msgstr ""
+msgstr "Kõige nähtavam muudatus on tegevuste paneelimenüü eemaldamine ja selle asemel tulnud asukohtade ja töölaua menüüde lisamine. Need menüüd lubavad kiired ligipääsu asjadele, mida sa kõige rohkem kasutad, ilma et peaksid kuskil alammenüüdes ringi tuhnima. Näitek asukohtade menüüs on ära kirjeldatud kodukaust, sinu arvuti, võrguserverid ja otsing. Töölaua menüüs võid leida eelistuste ja halduse juhtpaneelid, väljalogimise ning abiteabe."
 
 #: ../rnapplets.xml:15
 msgid "All of the panel menus are now defined by the cross-platform Freedesktop.org menu specification, so 3rd-party software may add itself to the Applications menu without even knowing about GNOME."
@@ -897,16 +898,16 @@ msgstr "Märkmete tegemine"
 
 #: ../rnapplets.xml:129
 msgid "The popular Sticky Notes applet now makes it even easier to add PostIt-style notes on your desktop, thanks to a simpler user interface and many bug fixes. For instance, sticky notes will now stay on the correct workspace, or even a different monitor."
-msgstr ""
+msgstr "Populaarne märkmepaberite rakend teeb PostIt'i laadsete märkmete töölauale postitamise veelgi lihtsamaks, tänu lihtsamale kasutajaliidesele ja paljudele veaparandustele. Näiteks võib tuua selle, et märkmepaberid jäävad püsima õigele tööalale ja seda ka erinevate monitoride korral."
 
 #: ../rnapplets.xml:132
 msgid "And sticky notes now stay on top other windows, so you can't lose them. To hide the notes, simply use the applet's right-click menu."
-msgstr ""
+msgstr "Märkmepaberid jäävad nüüd teiste akende peale, nii et sa ei kaota neid enam silmist. Selleks, et märkmeid peita, kasuta lihtsalt rakendi parema-klõpsu menüüd."
 
 #: ../rnapplets.xml:137
 #: ../rnapplets.xml:142
 msgid "Sticky Notes"
-msgstr ""
+msgstr "Märkmepaberid"
 
 #: ../rnapplets.xml:148
 msgid "Specially for laptops"
@@ -926,7 +927,7 @@ msgstr "Eemaldatud rakendid"
 
 #: ../rnapplets.xml:169
 msgid "Three applets were removed in GNOME 2.10, replaced by better alternatives in most cases."
-msgstr ""
+msgstr "GNOME 2.10'st on eemaldatud 3 rakendit, mis on enamusel juhtudel asendatud paremate alternatiividega."
 
 #: ../rnapplets.xml:172
 msgid "The CD Player panel applet has been removed, so you will not see a CD player on your panel when you don't even have a CD in your drive. Instead, inserting a CD will now start the GNOME CD Player, which can then be controlled from a notification icon that it places in your Panel."
@@ -944,11 +945,11 @@ msgstr "Kirjakasti jälgija on samuti eemaldatud, kuna see oli hooldamata ning e
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../release-notes.xml:23
 msgid "@@image: 'figures/figure-gnome-desktop.png'; md5=a25ee1cd47ba6e56ce09a67de0b45372"
-msgstr ""
+msgstr "@@image: 'figures/figure-gnome-desktop.png'; md5=a25ee1cd47ba6e56ce09a67de0b45372"
 
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
-msgstr ""
+msgstr "GNOME 2.10 väljastuse märkmed"
 
 #: ../release-notes.xml:19
 msgid "Introduction"
@@ -960,31 +961,32 @@ msgstr ""
 
 #: ../release-notes.xml:30
 msgid "The GNOME desktop releases continue to arrive on schedule. GNOME 2.10 includes a number of interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections."
-msgstr ""
+msgstr "GNOME'i töölaua uusi versioone väljastatakse ajakava alusel. GNOME 2.10 sisaldab arvukalt huvitavaid uusi funktsionaalsuseid ja sadu veaparandusi. Seekord sisaldab GNOME'is ka videomängija ja CD-rippimisvahend. Rohkem lisainfot nende kohta on allpoololevates rubriikides."
 
 #: ../release-notes.xml:32
 msgid "GNOME provides a user-friendly environment that \"just works\" for everyday users, without excess complexity or obscure features. At the same time we provide the rich flexibility experienced developers demand."
-msgstr ""
+msgstr "GNOME pakub igapäevakasutajaile kasutajasõbralikku keskkonda, mis \"lihtsalt töötab\" ilma et oleks üleliigselt keerukas ning veidra funktsionaalsusega."
 
 #: ../release-notes.xml:37
+#, fuzzy
 msgid "GNOME runs on a variety of platforms, including GNU/Linux (commonly called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes powerful features such as world-class smooth text rendering, a first-class accessibility infrastructure, and a complete internationalization infrastructure that includes support for bi-directional text."
-msgstr ""
+msgstr "GNOME töötab paljudel erinevatel platvormidel, kaasa arvatud GNU/Linux (üldiselt teatud kui lihtsalt Linux), Solaris, HP-UX, BSD ja Apple'i Darwin. GNOME'i  nagu "
 
 #: ../release-notes.xml:44
 msgid "Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/start/2.8/notes/\">release notes</ulink>."
-msgstr ""
+msgstr "Muidugi sisaldab GNOME 2.10 kõiki neid täiustusi, mis on tehtud GNOME 2.8 jaoks ja mille kohta saad lugeda GNOME 2.8 <ulink url=\"http://www.gnome.org/start/2.8/notes/\">väljastuse märkmeid</ulink>."
 
 #: ../release-notes.xml:48
 msgid "The Desktop release contains all the applications needed to provide basic user functionality. Major applications such as <application>Gnumeric</application> and <application>OpenOffice.org</application> are also available, but are developed in parallel on their own release cycle rather than being included in the core GNOME release."
-msgstr ""
+msgstr "Töölaud sisaldab endas kõiki neid rakendusi, et rahuldada kasutaja põhivajadused. Suuremad rakendused nagu <application>Gnumeric</application> ja <application>OpenOffice.org</application> on samuti kättesaadavad, kuid neid arendatakse paralleelselt omaenda väljastustsükli põhjal ning seega neid pole GNOME'i tuumikväljastuses."
 
 #: ../release-notes.xml:55
 msgid "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/philosophy/free-sw.html\">free software</ulink>."
-msgstr ""
+msgstr "GNOME on osa GNU projektist ja on <ulink url=\"http://www.fsf.org/philosophy/free-sw.html\">vaba tarkvara</ulink>."
 
 #: ../release-notes.xml:59
 msgid "Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</link> section, or use the links at the right to learn more about this release and the GNOME Desktop in general."
-msgstr ""
+msgstr "Palun liigu edasi <link linkend=\"rnwhatsnew\">Mis on uut?</link> rubriiki või kasuta viitasid paremal, et selle väljastuse ning GNOME'i töölaua kohta üldiselt rohkem teada saada."
 
 #: ../release-notes.xml:67
 msgid "What's New In GNOME 2.10"
