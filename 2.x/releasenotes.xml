@@ -2,7 +2,7 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"[
 <!ENTITY g2 "GNOME 2">
-<!ENTITY g2x "GNOME 2.0.1">
+<!ENTITY g2x "GNOME 2.0.2">
 ]>
 <article id="index">
   <articleinfo>
@@ -1157,9 +1157,36 @@
       established.
     </para>
   </sect1>
+
+  
   <sect1 id="quirks">
     <title>Quirks</title>
     <para>Things that may bite people.</para>
+
+	<sect2 id="menuvfolders">
+	  <title>Panel Menus Disappear</title>
+	  <para>
+		With the return of menu editing, old vfolder configurations and changes
+		may affect your menus in the 2.0.2 release. You can remove past menu
+		changes by deleting your ~/.gnome2/vfolders/ directory and restarting the
+		panel.
+	  </para>
+	</sect2>
+
+	<sect2 id="dialogues">
+	  <title>Dialogue Buttons</title>
+	  <para>
+		Dialogue buttons are slightly different in GTK+ and GNOME 2.x, to fit
+		in with our new <ulink
+		url="http://developer.gnome.org/projects/gup/hig/1.0/">Human Interface
+		Guidelines</ulink>. Whilst the new button order may simply look
+		'backwards', they do adhere to a consistent and elegant design. It is
+		described in the <ulink
+		url="http://developer.gnome.org/projects/gup/hig/1.0/windows.html#alert-button-order">Alert
+		Buttons</ulink> section of the HIG.
+	  </para>
+	</sect2>
+	
     <sect2 id="autoapply">
       <title>Auto-apply</title>
       <para>
@@ -1167,6 +1194,7 @@
 		surprised by the lack of an <guibutton>Apply</guibutton> button.
       </para>
     </sect2>
+	
     <sect2 id="tearablemenus">
       <title>Tearable menus</title>
       <para>
@@ -1229,47 +1257,22 @@
 	  software, except that with free software, we tell users about them.
     </para>
     <para>
-We also encourage our users to report bugs so that they
-can be fixed. The best way
-to report bugs found in &g2x; is to use the <ulink
-url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug
-Guide</ulink>. The Simple Bug Guide will take you through the
-necessary steps to file a quality bug report, and make sure that it is
-tagged appropriately. If you're too advanced for anything with the
-word 'simple' in it, there is also the <ulink
-url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug
-form.</ulink> Please make sure to add the 'GNOME2' keyword to any bugs
-reported that way.
+	  We also encourage our users to report bugs so that they can be fixed. The
+	  best way to report bugs found in &g2x; is to use the <ulink
+	  url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug
+	  Guide</ulink>. The Simple Bug Guide will take you through the necessary
+	  steps to file a quality bug report, and make sure that it is tagged
+	  appropriately. If you're too advanced for anything with the word 'simple'
+	  in it, there is also the <ulink
+	  url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug
+	  form.</ulink> Please make sure to add the 'GNOME2' keyword to any bugs
+	  reported that way.
     </para>
     <para>
-      More details on bugs already reported can be found at our <ulink
-		url="http://bugzilla.gnome.org/gnome-20-report.html">Bugzilla</ulink>.  Among the most 
-	  prominent &g2x; bugs:
+	  More details on bugs already reported can be found at our <ulink
+	  url="http://bugzilla.gnome.org/gnome-20-report.html">Bugzilla</ulink>.
+	  Among the most prominent &g2x; bugs:
     </para>
-    <sect2>
-      <title>Menu editing is incomplete</title>
-      <para>
-Because a number of bugs existed in the menu editing implementation,
-and the best fixes for some of them may not be reverse compatible, it
-was decided to remove most menu editing functionality in the current
-release. It is currently nearing completion and will be available in
-the 2.0.2 release of GNOME.  In the meantime, it can be best tracked
-with <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">bug
-86322</ulink>. Details on the menu architecture and tips for manual
-editing of menus can be found <ulink
-url="http://www.gnome.org/start/2.0/menuediting.html">here</ulink>.
-      </para>
-    </sect2>
-    <sect2>
-      <title>New mime type handlers are not always visible in
-	    nautilus</title> 
-<para>
-Mime-type handling in &g2x; is generally much improved over
-	    GNOME1.4. However, when a new mime-type handler is
-	    installed in &g2x;, it does not show up correctly in
-	    Nautilus right-click menus. This is now fixed in CVS but
-	    was not fixed in time for the 2.0.1 release.</para>
-    </sect2>
     <sect2>
       <title>Internationalization of gnome-terminal is broken</title>
       <para>Unfortunately, gnome-terminal is broken in many non-ASCII
@@ -1284,35 +1287,34 @@ Mime-type handling in &g2x; is generally much improved over
       <title>Some features formerly provided by viewports no longer available
 	  in Sawfish</title>
       <para>
-In order to simplify sawfish code and user interface, viewports have
-	      been removed from Sawfish2. The current functionality
-	      replaces nearly all viewport functionality, except
-	      two-dimensional workspace navigation. This is bug number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=82337">82337</ulink>. 
+		In order to simplify sawfish code and user interface, viewports have
+		been removed from Sawfish2. The current functionality replaces nearly
+		all viewport functionality, except two-dimensional workspace
+		navigation. This is bug number <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=82337">82337</ulink>. 
 		<note>
-	  <para>The following has been reported as a workaround when added
-			to <filename>.sawfishrc</filename>:
-			<programlisting>
+		  <para>The following has been reported as a workaround when added to
+		  <filename>.sawfishrc</filename>:
+		  <programlisting>
 			  ;; Get viewports back
 			  (setq customize-command-classes '(default viewport))
 			  
 			  ;; (setq viewport-dimensions '(NUMBER_OF_COLS . NUMBER_OF_ROWS))
 			  (setq viewport-dimensions '(6 . 1))  ;; example
-			  
-			</programlisting>
+		  </programlisting>
 		  </para>
-	</note>
+	    </note>
 	  </para>
     </sect2>
   </sect1>
   
   <sect1 id="fixed">
-    <title>Fixed in &g2x;</title>
+    <title>Fixed in this Release</title>
     <para>
 		The GNOME 2.0.x Desktop releases are devoted to bugfixes, translations,
 		user interface consistency, and general polish of our major 2.0 Desktop
-		release.  In &g2x;, you'll see the results of our user interface
-		review and continued performance and stability fixes:
+		release.  In &g2x;, you'll see the results of continued performance and
+		stability work, and plenty of bug fixes:
 		<itemizedlist>
 			<listitem>
 				<para>
@@ -1325,11 +1327,31 @@ In order to simplify sawfish code and user interface, viewports have
 				</para>
 			</listitem>
 		</itemizedlist>
-		Note that these lists include fixes on unreleased branches, and a few things that were fixed after the 2.0.1 tarballs were released, so the numbers may be slightly inflated.
 	</para>
 	<para>
-		Several bugs mentioned in the previous release notes have now been fixed and are listed here:
+		Major bugs mentioned in the previous release notes have now been fixed and are listed here:
 	</para>
+	
+    <sect2>
+      <title>Menu editing returns</title>
+      <para>
+		Menu editing returns in GNOME 2.0.2! Because a number of bugs existed
+		in the menu editing implementation, and the best fixes for some of them
+		were not reverse compatible, we did not include menu editing in
+		previous releases. Details on the menu architecture and tips for manual
+		editing of menus can be found in our <ulink
+		url="http://www.gnome.org/start/2.0/menuediting.html">menu editing
+		guide</ulink>.
+      </para>
+    </sect2>
+	
+    <sect2>
+	  <title>New mime type handlers not always visible in nautilus</title> 
+      <para>
+		When a new mime-type handler was installed, it did not show up
+		correctly in Nautilus right-click menus. This is now fixed.
+	  </para>	
+    </sect2>
 	
     <sect2>
       <title>NFS-mounted $HOME directory</title>
@@ -1378,18 +1400,19 @@ FIXED: It wasn't possible to drag and drop files from the list view as
   <sect1 id="gettinginvolved">
     <title>Getting Involved</title>
     <para>
-      The core of GNOME's
-      success is its volunteers, both developers and users. As a user, your
-      contribution can be as simple as filing good bug reports. GNOME's bugs are
-      found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Bugmeister Luis
-      Villa has set up a <ulink
-				url="http://bugzilla.gnome.org/simple-bug-guide.cgi">simple bug-filing interface</ulink> to make it easier to file useful reports.
+	  The core of GNOME's success is its volunteers, both developers and users.
+	  As a user, your contribution can be as simple as filing good bug reports.
+	  GNOME's bugs are found at our <ulink
+	  url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Bugmeister Luis Villa
+	  has set up a <ulink
+	  url="http://bugzilla.gnome.org/simple-bug-guide.cgi">simple bug-filing
+	  interface</ulink> to make it easier to file useful reports.
     </para>
     <para>
-      If you would like to take the next step, developers, documenters, web
-      developers, documenters and bug handlers are always welcome. More
-      information on getting involved can be found <ulink
-							  url="http://developer.gnome.org/documents/joining-gnome/index.html">here</ulink>. 
+	  If you would like to take the next step, developers, documenters, web
+	  developers, documenters and bug handlers are always welcome. More
+	  information on getting involved can be found <ulink
+	  url="http://developer.gnome.org/documents/joining-gnome/index.html">here</ulink>. 
     </para>
   </sect1>
   
