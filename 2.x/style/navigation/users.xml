@@ -1,0 +1,43 @@
+<bar id="users">
+	<title>Users</title>
+
+	<item href="http://www.gnome.org/about/">
+		<title>What is GNOME?</title>
+	</item>
+
+	<item href="http://www.gnome.org/start/2.2/">
+		<title>Get Started!</title>
+	</item>
+
+	<item href="http://docs.gnome.org/">
+		<title>Documentation</title>
+
+		<item href="http://docs.gnome.org/desktop">
+			<title>GNOME Desktop</title>
+		</item>
+
+		<item href="http://docs.gnome.org/core">
+			<title>Core Applications</title>
+		</item>
+	</item>
+
+	<item href="http://www.gnomedesktop.org/">
+		<title>Community News</title>
+	</item>
+
+	<item href="http://www.gnome.org/softwaremap/">
+		<title>Software Map</title>
+	</item>
+
+	<item href="http://foundation.gnome.org/">
+		<title>Foundation</title>
+	</item>
+
+	<item href="http://www.gnome.org/press/">
+		<title>Press</title>
+	</item>
+
+	<item href="mailto:webmaster@gnome.org">
+		<title>Contact</title>
+	</item>
+</bar>

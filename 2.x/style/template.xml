@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="http://www.gnome.org/default.css"/>
+<link rel="icon" type="image/png" href="http://www.gnome.org/img/logo/foot-16.png"/>
+<style>
+#sidebar li {
+	margin-bottom: .5em;
+}
+h3.title {
+	margin-bottom: .5em;
+}
+h3.title + p {
+	margin-top: 0em;
+}
+dd {
+	margin-bottom: .5em;
+}
+</style>
+<title/>
+</head>
+
+<body>
+<div id="body"/>
+
+<div id="sidebar"/>
+
+<div id="hdr">
+<div id="logo"><a href="http://www.gnome.org/"><img src="http://www.gnome.org/img/spacer" alt="Home" /></a></div>
+<div id="banner"><img src="http://www.gnome.org/img/spacer" alt="" /></div>
+<p class="none"></p>
+<div id="hdrNav"/>
+</div>
+
+<div id="copyright"/>
+
+</body>
+
+</html>
