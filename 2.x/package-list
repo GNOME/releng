@@ -49,8 +49,8 @@ gcharmap		gnome-utils	-		ported			-
 gcolorsel		-		-		hadess to replace	-
 gdialog			gnome-utils	-		ported			-
 gdict			gnome-utils	-		compiles, needs porting to GtkTextView, applet doesn't compile			-
-gdm			gdm2		-		branched, being ported	George Jirka <jirka@5z.com>
-gedit			=		-		-			-
+gdm			gdm2		-		branched, porting	George Jirka <jirka@5z.com>
+gedit			=		-		ported, paolo needs some help :)	Chema Celorio <chema@ximian.com>
 gfloppy			gnome-utils	-		ported			Jonathan Blandford <jrb@redhat.com>
 gfontsel		-		-		-			-
 ggv			-		-		-			-
