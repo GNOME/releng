@@ -7,8 +7,9 @@
 <sect2 id="rnepiphany">
   <title>Epiphany</title>
   <para>With <application>Epiphany</application>, GNOME &version; brings a
-  clean and simple browser to the free software desktop based on Mozilla, the
-  most standards-compliant rendering widget available.
+  clean and simple browser to the free software desktop based on the same
+  rendering widget used in Mozilla &mdash; the most standards-compliant
+  rendering widget available.
 <!--    
     <figure id="rnepiphanyscreenshot"> 
         <title>Epiphany</title> 
@@ -42,4 +43,7 @@
     an important step towards guaranteeing freedom of choice. Epiphany
     and GNOME seek to ensure choice by using Gecko, the most
     standards-compliant rendering engine available.</para>
+  <note>
+    <para>Note that use of Epiphany introduces a dependency on Mozilla.</para> 
+  </note>
 </sect2>

@@ -1,3 +1,13 @@
+2003-08-27 John Fleck <jfleck@inkstain.net>
+
+	* releasenotes.xml
+	* rnepiphany.xml
+	* rngucharmap.xml
+	* rndesktop.xml
+	* rna11y.xml
+	* rnstandards.xml
+	various edits based on helpful comments from many
+
 2003-08-27  Andrew Sobala  <aes@gnome.org>
 
 	* release-notes.xml: fix typo

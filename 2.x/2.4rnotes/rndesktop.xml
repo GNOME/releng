@@ -60,7 +60,8 @@
 	  <para>Multi-rooted tree view</para>
 	</listitem>
      <listitem>
-	  <para>.hidden file support</para>
+	  <para>support for ".hidden" files, allowing users to create a list of
+	  files that will be hidden by Nautilus</para>
 	</listitem>
       </itemizedlist>
     </para>
@@ -122,7 +123,7 @@
 	  <para>Applets no longer change positions when their size changes.</para>
 	</listitem>
      <listitem>
-	  <para>The "Window Menu" and "Menu Bar" applets from the old Menu Panel
+	  <para>The "Window Menu" and "Menu Bar" from the old Menu Panel
 	  are now separate, moveable applets.
 	  </para>
 	</listitem>
@@ -144,7 +145,7 @@
 	<listitem>
 	  <para>Reworked <application>panel</application>
 	  <application>gconf</application> functionality, so configuration keys
-	  are now documented with associated schemas and notifications.</para>
+	  are now documented with associated schemas and *notifications.</para>
 	</listitem>
 	<listitem>
 	  <para>Global keybinds for the panel are no longer handled by the

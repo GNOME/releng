@@ -31,7 +31,7 @@
   <para><application>Gucharmap</application> replaces
     <application>gnome-character-map</application>, which was included in the
     <application>gnome-utils</application> package. With it, users can:
-    <orderedlist>
+    <itemizedlist>
       <listitem>
 	<para>find out all about each character</para>
       </listitem>
@@ -69,7 +69,7 @@
 	<para>see which font is actually being used to draw each
       character</para>
       </listitem>
-     </orderedlist>
+     </itemizedlist>
 
   </para>
 

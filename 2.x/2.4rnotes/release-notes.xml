@@ -13,7 +13,7 @@
 
 <article id="index" lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
   <articleinfo>
-    <title>GNOME &version; Release Notes</title>
+    <title>DRAFT GNOME &version; Release Notes</title>
     <abstract>
       <title>Introduction</title>
       <para>The GNOME &version; Desktop and Platform release is the latest
@@ -54,8 +54,8 @@
 	releases.</para>
 -->
     <para>Of course GNOME &version; includes all of the improvements made in
-    GNOME &oldversion;, which you can learn about <ulink
-    url="http://www.gnome.org/start/2.2/notes/">here</ulink>.</para>
+    GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
+    url="http://www.gnome.org/start/2.2/notes/">release notes</ulink>.</para>
 
     <para>The Desktop and Platform release contains all the applications needed
 	to provide basic user functionality. In addition, major applications
@@ -101,30 +101,42 @@
 
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
-    <para>All software, when it is released, contains bugs the developers know about but have elected, for a variety of reasons, not to fix before releasing. Free software is no different in this regard from proprietary software, except that with free software, we tell users about them.</para>
+    <para>All software, when it is released, contains bugs the developers know
+    about but have elected, for a variety of reasons, not to fix before
+    releasing. Free software is no different in this regard from proprietary
+    software, except that with free software, we tell users about them.</para>
 
-    <para>We also encourage our users to report bugs so that they can be fixed. The best way to report bugs found in GNOME is to use the <ulink url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug Guide</ulink>. This will take you through the necessary steps to file a quality bug report, and make sure that it is tagged appropriately. If you're too advanced for anything with the word 'simple' in it, there is also the <ulink url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug form</ulink>.
+    <para>We also encourage our users to report bugs so that they can be
+    fixed. The best way to report bugs found in GNOME is to use the <ulink
+    url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug
+    Guide</ulink>. This will take you through the necessary steps to file a
+    quality bug report, and make sure that it is tagged appropriately. If you're
+    too advanced for anything with the word 'simple' in it, there is also the
+    <ulink url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug
+    form</ulink>.
 
-More details on bugs already reported can be found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version; bugs:</para>
+		More details on bugs already reported can be found at our <ulink
+		  url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the
+		most prominent GNOME &version; bugs:</para>
 
-    <sect2><title>TOTO</title>
+    <sect2><title>TODO</title>
     <para>TODO</para>
     </sect2>
 
-   
-  </sect1>
+    </sect1>
 
-  <sect1 id="rnlookingahead">
-    <title>Looking to GNOME 2.6 and Beyond</title> <para>TODO.
-</para>
-<para>
-TODO: Link to How To Help web page?
-Six months after GNOME &version;, we anticipate that GNOME 2.6 will feature
-the next release of GTK+, introducing new file selector and
-"combo" widgets, powerful menu and toolbar widgets and
-further advances in accessibility, usability and internationalization.
-</para>
- </sect1>
+    <sect1 id="rnlookingahead">
+	 <title>Looking to GNOME 2.6 and Beyond</title> 
+	      
+
+	      <para>GNOME operates on a time-based release philosophy, an
+		attempt to continuously provide the best of our hackers' efforts
+		to users as quickly as we can. Six months after GNOME &version;,
+		we anticipate that GNOME 2.6 will feature the next release of
+		GTK+, introducing new file selector and "combo" widgets,
+		powerful menu and toolbar widgets and further advances in
+		accessibility, usability and internationalization.</para>
+</sect1>
   <sect1 id="rngettinginvolved">
     <title>Getting Involved</title>
     <para>
@@ -140,15 +152,19 @@ further advances in accessibility, usability and internationalization.
       url="http://developer.gnome.org/projects/bugsquad/">bug-squad</ulink>.
     </para>
     <para>
-      From a developer aspect, there is much exciting progress to be made in any
+      For developers, there is much exciting progress to be made in any
       of our active developer groups - Accessibility, Documentation, Usability,
-      Translation, Web, Testing, Graphics and Destkop &amp; Platform Development. Many of these
-      sub-projects have web pages on <ulink url="http://developer.gnome.org/projects/">developer.gnome.org</ulink>. Choosing a role that suits you may be difficult at first, but here is a <ulink url="http://developer.gnome.org/documents/joining-gnome">guide to help you make your decision</ulink>.
+      Translation, Web, Testing, Graphics and Destkop &amp; Platform
+      Development. Many of these sub-projects have web pages on <ulink
+      url="http://developer.gnome.org/projects/">developer.gnome.org</ulink>.
+      Choosing a role that suits you may be difficult at first, but here is a
+      <ulink url="http://developer.gnome.org/documents/joining-gnome">guide to
+      help you make your decision</ulink>.
     </para>
     <para>
       Helping on GNOME can be an incredibly satisfying experience, allowing you
-      to meet a wide range of motivated, skilled, and helpful people all working towards a unified goal.
-      Join us today and see what a difference you can make.
+      to meet a wide range of motivated, skilled, and helpful people all working
+      towards a unified goal. Join us today and see what a difference you can make.
     </para>
   </sect1>
 <xi:include href="rnnewmaintainers.xml"/>
