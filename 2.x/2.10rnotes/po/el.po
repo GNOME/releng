@@ -1,18 +1,16 @@
-# translation of el.po to
-# translation of el1.po to
-# translation of el1.po to
 # translation of el.po to Greek
-# Greek translation
+# Greek translation of release notes for GNOME 2.10.
 # Kostas Papadimas <pkst@gnome.org>, 2005.
 # Nikos Charonitakis <charosn@her.forthnet.gr>, 2005.
+# Simos Xenitellis <simos@gnome.org>, 2005.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-01 11:35+0200\n"
-"Last-Translator: Kostas Papadimas <pkst@gnome.org>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"PO-Revision-Date: 2005-03-02 00:27+0000\n"
+"Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +19,7 @@ msgstr ""
 
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
-msgstr "Σημειώσεις Έκδοσης GNOME 2.10"
+msgstr "Πληροφορίες Έκδοσης GNOME 2.10"
 
 #: ../release-notes.xml:18
 msgid "Introduction"
@@ -39,14 +37,14 @@ msgid ""
 "includes a number of interesting new features and hundreds of bug fixes. "
 "This time GNOME also includes a video player and a CD-ripping utility. You "
 "can learn more in the following sections."
-msgstr "Οι εκδόσεις της επιφάνειας εργασίας GNOME, συνεχίζουν να είναι συνεπείς στα ραντεβού τους. Το GNOME 2.10 περιλαμβάνει πολλές νέες και ενδιαφέρουσες δυνατότητες, όπως και εκατοντάδες διορθώσεις σφαλμάτων. Ακόμα αυτή τη φορά το GNOME περιέχει μια εφαρμογή αναπαραγωγής βίντεο και μια εφαρμογή εξαγωγής ήχου από CD. Μπορείτε να μάθετε περισσότερα στις επόμενες ενότητες."
+msgstr "Οι εκδόσεις της επιφάνειας εργασίας GNOME, συνεχίζουν να είναι συνεπείς στα ραντεβού τους. Το GNOME 2.10 περιλαμβάνει πολλές νέες και ενδιαφέρουσες δυνατότητες, όπως και εκατοντάδες διορθώσεις σφαλμάτων. Ακόμα, αυτή τη φορά το GNOME περιέχει εφαρμογή αναπαραγωγής βίντεο και εφαρμογή εξαγωγής ήχου από CD. Μπορείτε να μάθετε περισσότερα στις επόμενες ενότητες."
 
 #: ../release-notes.xml:23
 msgid ""
 "GNOME provides a user-friendly environment that \"just works\" for everyday "
 "users, without excess complexity or obscure features. At the same time we "
 "provide the rich flexibility experienced developers demand."
-msgstr "Το GΝΟΜΕ παρέχει ένα φιλικό περιβάλλον που  παρέχει \"απρόσκοπτη λειτουργία\" για τον καθημερινό  χρήστη, χωρίς πλεονάζουσα πολυπλοκότητα, ή παράξενες δυνατότητες. Ταυτόχρονα παρέχουμε ισχυρή ευελιξία κάτι που αρέσει στους έμπειρους προγραμματιστές εφαρμογών."
+msgstr "Το GΝΟΜΕ παρέχει ένα φιλικό περιβάλλον που παρέχει \"απρόσκοπτη λειτουργία\" για τον τυπικό χρήστη, χωρίς πλεονάζουσα πολυπλοκότητα, ή παράξενες δυνατότητες. Ταυτόχρονα παρέχουμε ισχυρή ευελιξία κάτι που απαιτούν οι έμπειροι προγραμματιστές εφαρμογών."
 
 #: ../release-notes.xml:28
 msgid ""
@@ -55,16 +53,14 @@ msgid ""
 "features such as world-class smooth text rendering, a first-class "
 "accessibility infrastructure, and a complete internationalization "
 "infrastructure that includes support for bi-directional text."
-msgstr "Το GNOME τρέχει σε μια ποικιλία αρχιτεκτονικών, συμπεριλαμβανωμένων του GNU/Linux (το γνωστό Linux) ,Solaris, HP-UX, BSD και Apple Darwin. To GNOME περιέχει ισχυρές δυνατότητες, όπως κορυφαία απεικόνιση κειμένου, πρώτης τάξης υποδομή βοηθητικής τεχνολογίας και πλήρης υποδομή διεθνοποίησης λογισμικού η οποία υποστηρίζει την γραφή από δεξιά σε αριστερά."
+msgstr "Το GNOME τρέχει σε μια ποικιλία αρχιτεκτονικών, συμπεριλαμβανωμένων του GNU/Linux (το γνωστό Linux) ,Solaris, HP-UX, BSD και Apple Darwin. To GNOME περιέχει ισχυρές δυνατότητες, όπως κορυφαία απεικόνιση κειμένου με εξομάλυνση, πρώτης τάξης υποδομή τεχνολογιών προσβασιμότηας και πλήρης υποδομή παγκοσμιοποίησης λογισμικού η οποία υποστηρίζει και την γραφή από δεξιά σε αριστερά."
 
 #: ../release-notes.xml:35
 msgid ""
 "Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, "
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
 "start/2.8/notes/\">release notes</ulink>."
-msgstr ""
-"Φυσικά το GNOME 2.10 περιέχει όλες τις βελτιώσεις που έγιναν στην έκδοση 2.8, για το GNOME 2.8 μπορείτε να μάθετε περισσότερα στις <ulink url=\"http://www.gnome.org/"
-"start/2.8/notes/\">σημειώσεις έκδοσης</ulink>."
+msgstr "Φυσικά το GNOME 2.10 περιέχει όλες τις βελτιώσεις που έγιναν στην έκδοση 2.8· για το GNOME 2.8 μπορείτε να μάθετε περισσότερα στις σχετικές <ulink url=\"http://www.gnome.org/start/2.8/notes/\">πληροφορίες έκδοσης</ulink>."
 
 #: ../release-notes.xml:39
 msgid ""
@@ -73,14 +69,14 @@ msgid ""
 "application> and <application>OpenOffice.org</application> are also "
 "available, but are developed in parallel on their own release cycle rather "
 "than being included in the core GNOME release."
-msgstr "Η έκδοση Desktop περιέχει όλες τις εφαρμογές που παρέχουν την βασική λειτουργικότητα για τον χρήστη. Εξέχουσες εφαρμογές όπως το <application>Gnumeric </application> και <application>Openoffice.org</application> είναι επίσης διαθέσιμες, αλλά αναπτύσσονται παράλληλα και έχουν τον δικούς τους κύκλους εκδόσεων και δεν περιέχονται στην βασική έκδοση του GNOME."
+msgstr "Η συλλογή Επιφάνεια Εργασίας περιέχει όλες τις εφαρμογές που παρέχουν την βασική λειτουργικότητα για τον χρήστη. Εξέχουσες εφαρμογές όπως το <application>Gnumeric </application> και <application>Openoffice.org</application> είναι επίσης διαθέσιμες, αλλά αναπτύσσονται παράλληλα και έχουν τον δικούς τους κύκλους εκδόσεων και δεν περιέχονται στην βασική έκδοση του GNOME."
 
 #: ../release-notes.xml:46
 msgid ""
 "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">free software</ulink>."
 msgstr ""
-"Το Gnome είναι μέρος του GNU project, και είναι <ulink url=\"http://www.fsf.org/"
+"Το GNOME είναι μέρος του GNU Project, και αποτελεί <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">ελεύθερο λογισμικό</ulink>."
 
 #: ../release-notes.xml:50
@@ -89,16 +85,16 @@ msgid ""
 "link> section, or use the links at the right to learn more about this "
 "release and the GNOME Desktop in general."
 msgstr ""
-"Παρακαλώ συνεχίστε κατευθείαν στο τμήμα <link linkend=\"rnwhatsnew\">Τι Νέο Περιέχει</"
-"link>, οι χρησιμοποιήστε τους συνδέσμους δεξιά για να μάθετε γενικότερα για αυτή την έκδοση της Επιφάνειας Εργασίας GNOME."
+"Παρακαλώ συνεχίστε κατευθείαν στο τμήμα <link linkend=\"rnwhatsnew\">Τι Είναι Νέο</"
+"link>, ή χρησιμοποιήστε τους συνδέσμους δεξιά για να μάθετε γενικότερα για αυτήν την έκδοση της Επιφάνειας Εργασίας GNOME."
 
 #: ../release-notes.xml:58
 msgid "What's New In GNOME 2.10"
-msgstr "Τι Νέο Περιέχει το GNOME 2.10"
+msgstr "Τι Είναι Νέο στο GNOME 2.10"
 
 #: ../release-notes.xml:118
 msgid "Looking to GNOME 2.12 and Beyond"
-msgstr "Κοιτάζοντας το μέλλον για το GNOME 2.12 και ακόμα πιο μακριά"
+msgstr "Κοιτάζοντας το GNOME 2.12 και ακόμα παραπέρα"
 
 #: ../release-notes.xml:120
 msgid ""
@@ -107,7 +103,7 @@ msgid ""
 "as we can. Six months after GNOME 2.10, we anticipate that GNOME 2.12 will "
 "feature more integrated multimedia and communication functionality and "
 "further advances in accessibility, usability and internationalization."
-msgstr "Το GNOME λειτουργεί με την φιλοσοφία των προγραμματισμένων χρονικά εκδόσεων Αυτή η φιλοσοφία αποτελεί μια προσπάθεια ώστε να δίνουμε συνεχώς όσο το δυνατό πιό σύντομα το καλύτερο που προσφέρουν οι προγραμματιστές μας, στους χρήστες μας . Έξι μήνες μετά το GNOME 2.10, περιμένουμε ότι στο GNOME 2.12 θα έχουμε την δυνατότητα καλύτερης ολοκλήρωσης πολυμέσων και εποικοινωνιακής λειτουργικότητας καθώς και βελτιωμένες δυνατότητες προσβασιμότητας , χρηστικότητας και διεθνούς γλωσσικής υποστήριξης."
+msgstr "Το GNOME λειτουργεί με την φιλοσοφία των προγραμματισμένων χρονικά εκδόσεων. Αυτή η φιλοσοφία αποτελεί μια προσπάθεια ώστε να δίνουμε συνεχώς όσο το δυνατό πιό σύντομα το καλύτερο που προσφέρουν οι προγραμματιστές μας, στους χρήστες μας . Έξι μήνες μετά το GNOME 2.10, αναμένουμε ότι στο GNOME 2.12 θα έχουμε την δυνατότητα καλύτερης ολοκλήρωσης πολυμέσων και εποικοινωνιακής λειτουργικότητας καθώς και ακόμα πιο βελτιωμένες δυνατότητες προσβασιμότητας, χρηστικότητας και ευρύτερης γλωσσικής υποστήριξης."
 
 #: ../release-notes.xml:128
 msgid "Getting Involved"
@@ -117,7 +113,7 @@ msgstr "Συμμετοχή"
 msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
-msgstr "Το μυστικό της επιτυχίας του GNOME βρίσκεται στην πλειάδα εθελοντών (προγραμματιστών και χρηστών) που το στηρίζουν."
+msgstr "Ο πυρήνας της επιτυχίας του GNOME βρίσκεται στην πλειάδα εθελοντών (προγραμματιστών και χρηστών) που το στηρίζουν."
 
 #: ../release-notes.xml:133
 msgid ""
@@ -127,11 +123,8 @@ msgid ""
 "to contribute more, you can join our active <ulink url=\"http://developer."
 "gnome.org/projects/bugsquad/\">bug-squad</ulink>."
 msgstr ""
-"Ως χρήστης, η συμμετοχή σας μπορεί να γίνει πολύ απλά, με το να συμπληρώνετε αναφορς σφαλμάτων. "
-"Μπορείτε να στέλνετε αναφορές μέσω του  Bugzilla  με την χρήση του <ulink url=\"http://bugzilla."
-"gnome.org/simple-bug-guide.cgi\">βοηθού σφαλμάτων</ulink>. Αν θέλετε να συμμετάσχετε πιό "
-"ενεργά, μπορείτε να έλθετε στην δραστήρια <ulink url=\"http://developer."
-"gnome.org/projects/bugsquad/\">bug-squad μας</ulink>."
+"Ως χρήστης, η συμμετοχή σας μπορεί να γίνει πολύ απλά, με το να συμπληρώνετε αναφορές σφαλμάτων. "
+"Μπορείτε να στέλνετε αναφορές μέσω του Bugzilla με την χρήση του <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">βοηθού σφαλμάτων</ulink>. Αν θέλετε να συμμετάσχετε πιο ενεργά, μπορείτε να γίνετε μέλος στην δραστήρια <ulink url=\"http://developer.gnome.org/projects/bugsquad/\">ομάδα μας bug-squad</ulink>."
 
 #: ../release-notes.xml:141
 msgid ""
@@ -140,14 +133,14 @@ msgid ""
 "Translation, Web, Testing, Graphics, and Desktop &amp; Platform Development. "
 "Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you "
 "get started</ulink>."
-msgstr "Για τους προγραμματιστές, υπάρχει πολύ συναρπαστικός δρόμος ανάπτυξης σε όλες τις δραστήριες ομάδες μας - Προσβασιμότητα, Τεκμηρίωση, Χρηστικότητα, Μεταφράσεις, Δικτυακός τόπος, Δοκιμαστές, Γραφικά, και Ανάπτυξη της Επιφάνειας Εργασίας &amp; και της Βασικής Πλατφόρμας. Εδώ είναι ένας <ulink url=\"http://live.gnome.org/JoinGnome\">Οδηγός για να σας βοηθήσει να ξεκινήσετε</ulink>."
+msgstr "Για τους προγραμματιστές, υπάρχει ένας πολύ συναρπαστικός δρόμος ανάπτυξης σε όλες τις ομάδες μας ανάπτυξης λογισμικού - Προσβασιμότητα, Τεκμηρίωση, Χρηστικότητα, Μετάφραση, Δικτυακός τόπος, Δοκιμαστές, Γραφικά, και Ανάπτυξη της Επιφάνειας Εργασίας &amp; και της Βασικής Πλατφόρμας. Εδώ είναι ένας <ulink url=\"http://live.gnome.org/JoinGnome\">Οδηγός για να σας βοηθήσει να ξεκινήσετε</ulink>."
 
 #: ../release-notes.xml:148
 msgid ""
 "Helping on GNOME can be an incredibly satisfying experience, allowing you to "
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
-msgstr "Η συμμετοχή στην ανάπτυξη του GNOME μπορεί να γίνει μια συναρπαστική εμπειρία που σας δίνει την ευκαιρία να συναντήσετε μια πλειάδα από εμπνευσμένους, ταλαντούχους και ομαδικούς ανθρώπους που εργάζονται για ένα κοινό στόχο. Ελατε μαζί μας σήμερα κιόλας για να δοκιμάσετε και τις δικές σας δυνατότητες."
+msgstr "Η συμμετοχή στην ανάπτυξη του GNOME μπορεί να γίνει μια συναρπαστική εμπειρία που σας δίνει την ευκαιρία να συναντήσετε μια πλειάδα από εμπνευσμένους, ταλαντούχους και ομαδικούς ανθρώπους που εργάζονται για ένα κοινό στόχο. Ελατε μαζί μας σήμερα κιόλας για να δοκιμάσετε και τις δικές σας ικανότητες."
 
 #: ../release-notes.xml:157
 msgid "Credits"
@@ -157,7 +150,7 @@ msgstr "Μνεία"
 msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
-msgstr "Οι σημειώσεις έκδοσης του GNOME φτιάχθηκαν από τους Murray Cumming, Davyd Madeley, και ολόκληρη την κοινότητα του GNOME."
+msgstr "Οι πληροφορίες έκδοσης του GNOME γράφτηκαν από τους Murray Cumming, Davyd Madeley, και ολόκληρη την κοινότητα του GNOME."
 
 #: ../rndesktop.xml:10
 msgid "Desktop"
@@ -172,7 +165,7 @@ msgid ""
 "The file manager, also known as Nautilus, is even faster and more stable in "
 "GNOME 2.10, thanks to changes to its internal architecture. This should "
 "allow software developers to extend the file manager more easily in future."
-msgstr "Λόγω των αλλαγών στην εσωτερική του αρχιτεκτονική, o διαχειριστής αρχείων που είναι γνωστός και ως Ναυτίλος έγινε πιο γρήγορος και σταθερός στο GNOME 2.10. Αυτή η αλλαγή θα επιτρέψει μελλοντικά στους προγραμματιστές να τον επεκτείνουν και να τον βελτιώσουν πιο εύκολα."
+msgstr "Λόγω των αλλαγών στην εσωτερική του αρχιτεκτονική, o διαχειριστής αρχείων, που είναι γνωστός και ως Ναυτίλος, έγινε ακόμα πιο γρήγορος και σταθερός στο GNOME 2.10. Αυτή η αλλαγή θα επιτρέψει μελλοντικά στους προγραμματιστές να τον επεκτείνουν και να τον βελτιώσουν πιο εύκολα."
 
 #: ../rndesktop.xml:18
 msgid ""
@@ -187,7 +180,7 @@ msgstr "Το κουμπί διαδρομής είναι πια ένα ευδιά
 
 #: ../rndesktop.xml:26
 msgid "When creating new files, renaming starts automatically."
-msgstr "Όταν δημιουργήτε νέα αρχεία, η λειτουργία μετονομασίας ξεκινάει αυτόματα."
+msgstr "Όταν δημιουργείτε νέα αρχεία, η λειτουργία μετονομασίας ξεκινάει αυτόματα."
 
 #: ../rndesktop.xml:27
 msgid ""
@@ -226,7 +219,7 @@ msgstr "Συμπεριφορά Παραθύρων"
 msgid ""
 "GNOME 2.10 has a new ability that you might not notice at first, "
 "implementing another cross-desktop Freedesktop.org standard."
-msgstr "Το GNOME 2.10 έχει μια νέα δυνατότητα που μπορεί να μην την αντιληφθείτε αμέσως, είναι η ενσωμάτωση ενός ακόμα διαπλατφορμικού προτύπου επιφανειών εργασίας του Freedesktop.org."
+msgstr "Το GNOME 2.10 έχει μια νέα δυνατότητα που μπορεί να μην την αντιληφθείτε αμέσως· είναι η ενσωμάτωση ενός ακόμα διαπλατφορμικού προτύπου επιφανειών εργασίας του Freedesktop.org."
 
 #: ../rndesktop.xml:61
 msgid ""
@@ -234,13 +227,13 @@ msgid ""
 "instant messenger offered a chat request from your friend, your words would "
 "be typed into the chat window. Imagine if you were typing your password at "
 "the time. This should no longer happen in GNOME 2.10."
-msgstr "Κατά το παρελθόν, ενώ πληκτρολογούσατε κάποιο κείμενο σε μια εφαρμογή και δεχόσαστε ξαφνικά μια ειδοποίηση από τον instant messenger σας προερχόμενη από φίλο σας που ζητάει να συζητήσετε, το κείμενο σας θα έμπαινε στο παράθυρο συζητήσεως. Φανταστείτε την πιθανότητα να πληκτρολογούσατε κάτι προσωπικό εκείνη τη στιγμή. Αυτή ή περίπτωση δεν θα είναι πια δυνατό να συμβεί με το GNOME 2.10."
+msgstr "Κατά το παρελθόν, ενώ πληκτρολογούσατε κάποιο κείμενο σε μια εφαρμογή και δεχόσαστε ξαφνικά μια ειδοποίηση από το πρόγραμμά σας instant messenger, προερχόμενη από φίλο σας που ζητάει να συζητήσετε, το κείμενο σας θα έμπαινε στο παράθυρο συζητήσεως. Φανταστείτε την πιθανότητα να πληκτρολογούσατε κάτι προσωπικό εκείνη τη στιγμή. Αυτή η περίπτωση δεν θα είναι πια δυνατό να συμβεί με το GNOME 2.10."
 
 #: ../rndesktop.xml:62
 msgid ""
 "In addition, if an application takes a long time to start, your work will "
 "not be interrupted when it finally opens its window."
-msgstr "Επιπρόσθετα, αν μια εφαρμογή κάνει πολύ χρόνο να ξεκινήσει, η δουλειά σας δεν θα διακοπεί όταν τελικά εμφανιστεί το παράθυρο της εφαρμογής."
+msgstr "Επιπρόσθετα, αν μια εφαρμογή κάνει πολύ χρόνο να ξεκινήσει, η δουλειά σας δεν θα διακοπεί όταν τελικά εμφανιστεί το παράθυρο αυτής της εφαρμογής."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -297,10 +290,7 @@ msgid ""
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
 "Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
-"Το GNOME 2.10 τώρα περιέχει την δημοφιλή εφαρμογή αναπαραγωγής βίντεο Totem. Το Totem χρησιμοποιεί την υποδομή πολυμέσων που παρέχει το GStreamer. Η διεπαφή χρήστη στο Totem χαρακτηρίζεται από την γνωστή απλότητα που περιμένουν οι χρήστες του GNOME προσφέροντας αυτόματη αναγνώριση υλικού στον αντίποδα των πολύπλοκων ρυθμίσεων<figure id=\"rnscreenshot-totem\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>Η εφαρμογή αναπαραγωγής βίντεο Totem</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "Το GNOME 2.10 περιλαμβάνει τώρα την δημοφιλή εφαρμογή αναπαραγωγής βίντεο Totem. Το Totem χρησιμοποιεί την υποδομή πολυμέσων που παρέχει το GStreamer. Η διεπαφή χρήστη στο Totem χαρακτηρίζεται από την γνωστή απλότητα που έχουν συνηθήσει οι χρήστες του GNOME, προσφέροντας αυτόματη αναγνώριση υλικού στον αντίποδα πολύπλοκων ρυθμίσεων.<figure id=\"rnscreenshot-totem\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\"format=\"PNG\"/></imageobject><textobject><phrase>Η εφαρμογή αναπαραγωγής βίντεο Totem.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:31
 msgid "Audio Extraction"
@@ -321,12 +311,8 @@ msgid ""
 "imageobject><textobject><phrase>The audio extractor.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
-"Ο πολυαγαπημένος Sound Juicer  \"CD ripper\" εξάγει απλά και εύκολα τα  τραγούδια από τα CD έτσι ώστε αργότερα να μπορούμε να τα ακούσουμε στον υπολογιστή μας ή το φορητό μας player. Η δυνατότητα αυτόματης εισαγωγής των τίτλων των τραγουδιών από το διαδίκτυο απλοποιει την διαδικασία σε μόνο 2 κλικ πάνω στα κατάλληλα κουμπιά. "
-" <figure id=\"rnscreenshot-soundjuicer\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-soundjuicer.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Ο εξαγωγέας ήχου.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"Ο πολυαγαπημένος Sound Juicer \"CD ripper\" εξάγει απλά και εύκολα τα τραγούδια από τα CD έτσι ώστε αργότερα να μπορούμε να τα ακούσουμε στον υπολογιστή μας ή την φορητή μας συσκευή αναπαραγωγής ήχου. Υπάρχει δυνατότητα αυτόματης εισαγωγής των τίτλων των τραγουδιών από το διαδίκτυο. "
+"<figure id=\"rnscreenshot-soundjuicer\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></imageobject><textobject><phrase>Ο εξαγωγέας ήχου.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:51
 msgid "Web Browser"
@@ -340,7 +326,7 @@ msgstr "Βελτιωμένη λειτουργία πλήρους οθόνης "
 msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
-msgstr "Η μπάρα τοποθεσίας τώρα περιέχει την ένδειξη άν ο τόπος είναι ασφαλής, και εμφανίζει το favicon του."
+msgstr "Η μπάρα τοποθεσίας τώρα περιέχει την ένδειξη άν ο τόπος είναι ασφαλής, και εμφανίζει και το λεγόμενο favicon του."
 
 #: ../rnapplications.xml:57
 msgid "Bookmarks can be exported."
@@ -356,7 +342,7 @@ msgid ""
 "with the GNOME desktop environment. Improvements in 2.10 include "
 "<placeholder-1/>"
 msgstr ""
-"Ο Περιηγητής ιστοσελίδων \"Epiphany\" είναι βασισμένος στο Mozilla και ενσωματώνεται πλήρως η λειτουργία του με το περιβάλλον της επιφάνειας εργασίας του GNOME. Οι βελτιώσεις του για το 2.10 περιλαμβάνουν "
+"Ο περιηγητής ιστοσελίδων \"Epiphany\" είναι βασισμένος στο Mozilla και ενσωματώνεται πλήρως η λειτουργία του με το περιβάλλον της επιφάνειας εργασίας του GNOME. Οι βελτιώσεις του για το 2.10 περιλαμβάνουν "
 "<placeholder-1/>"
 
 #: ../rnapplications.xml:64
@@ -392,9 +378,9 @@ msgid ""
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
 "will resynchronize when you go back online."
 msgstr ""
-"Στο GNOME 2.10 είναι ακόμα πιό εύκολο να εργάζεστε χωρίς σύνδεση με το"
+"Στο GNOME 2.10 είναι ακόμα πιο εύκολο να εργάζεστε χωρίς σύνδεση, με το"
 "email σας, το ημερολόγιο και τις επαφές σας αν χρησιμοποιείτε IMAP, LDAP, WebCal, "
-"Groupwise, ή Exchange. Οι αλλαγές σας θα επανασυγχρονιστούν όταν ξανασυνδεθείτε."
+"Groupwise, ή Exchange. Οι αλλαγές σας θα επανασυγχρονιστούν όταν ξανασυνδεθείτε στο δίκτυο."
 
 #: ../rnapplications.xml:89
 msgid "Files can be attached to events."
@@ -424,9 +410,7 @@ msgstr "Υποστηρίζονται μεγέθη φακέλων Exchange και
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
-msgstr ""
-"Η επιφάνεια χρήσης email που μπορεί να διαμορφωθεί για χρήση για τις γλώσσες "
-"από αριστερά στα δεξιά."
+msgstr "Η διεπαφή της εφαρμογής ηλεκτρονικής αλληλογραφίας θα διαμορφωθεί κατάλληλα για χρήση για τις γλώσσες από αριστερά στα δεξιά."
 
 #: ../rnapplications.xml:95
 msgid "And yet more new features: <placeholder-1/>"
@@ -447,7 +431,7 @@ msgstr ""
 "<figure id=\"rnscreenshot-evolution\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-evolution-mail.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Evolution email client.</phrase></"
+"imageobject><textobject><phrase>Η εφαρμογή ηλεκτρονικής αλληλογραφίας Evolution.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:119
@@ -461,14 +445,12 @@ msgid ""
 "now shared with our Evolution email client, so you don't need to enter "
 "contact information in more than one place."
 msgstr ""
-"Το GnomeMeeting επιτρέπει στους χρήστες να βέπουν και να μιλούν σε άλλους"
-"μέσω της διαδικτυακής τηλεφωνίας (VoIP) και της συνδυάσκεψης βίντεο. Στο GNOME 2.10"
-"το βιβλίο διευθύνσεων είναι κοινό με αυτό του Evolution, και έτσι δεν χρειάζεται"
-"να εισάγετε πληροφορίες επαφής σε περισσότερα από ένα μέρη."
+"Το GnomeMeeting επιτρέπει στους χρήστες να βλέπουν και να μιλούν σε άλλους"
+"μέσω της διαδικτυακής τηλεφωνίας (VoIP) και της τηλεσυνδιάσκεψης. Στο GNOME 2.10 το βιβλίο διευθύνσεων είναι κοινό με αυτό του Evolution, και έτσι δεν χρειάζεται να εισάγετε πληροφορίες επαφής σε περισσότερα από ένα μέρος."
 
 #: ../rnapplications.xml:128
 msgid "The internet telephony and video conferencing client"
-msgstr "Η εφαρμογή διαδικτυακής τηλεφωνίας και συνδυάσκεψης βίντεο"
+msgstr "Η εφαρμογή διαδικτυακής τηλεφωνίας και τηλεσυνδιάσκεψης (χρήση βίντεο)"
 
 #: ../rnapplications.xml:125
 msgid ""
@@ -481,13 +463,11 @@ msgid ""
 "imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Τώρα μπορείτε να εξερευνήτε για άλλους χρήστες Gnome Meeting στο τοπικό σας δίκτυο"
-"χωρίς να χρειάζεται να ψάχνετε τις λεπτομέρειες επαφής τους πρώτα. Ακόμα μπορείτε"
-"να βλέπετε και το δικό σας βίντεο μαζί με του συνομιλητή σας, ώστε να βλέπετε ότι και"
-"εκείνος βλέπει. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-"
+"Τώρα μπορείτε να αναζητήσετε άλλους χρήστες Gnome Meeting στο τοπικό σας δίκτυο χωρίς να χρειάζεται να ψάχνετε από τις λεπτομέρειες επαφής τους. Ακόμα μπορείτε"
+"να βλέπετε και το δικό σας βίντεο μαζί με του συνομιλητή σας, ώστε να βλέπετε ότι και εκείνος βλέπει. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-"
 "1/><screenshot><mediaobject><imageobject><imagedata fileref="
 "\"&urlfiguresbase;figure-gnomemeeting.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
+"imageobject><textobject><phrase>Το Gnome Meeting με δύο παράθυρα βίντεο.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -543,13 +523,10 @@ msgid ""
 "editor, highlighting the current line.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 msgstr ""
-"Ο επεξεργαστής κειμένου του GNOME  μπορεί τώρα να επισημαίνει την τρέχουσα γραμμή"
-"και, όταν γίνεται επεξεργασία πηγαίου κώδικα ενός προγράμματος να επισημαίνει τις αγκύλες που"
-"ταιριάζουν. Ακόμα εκκινείται πιό γρήγορα από τις προηγούμενες εκδόσεις."
+"Ο επεξεργαστής κειμένου του GNOME μπορεί τώρα να επισημαίνει την τρέχουσα γραμμή και, όταν γίνεται επεξεργασία πηγαίου κώδικα ενός προγράμματος να επισημαίνει τις αγκύλες που ταιριάζουν. Ακόμα εκκινείται πιο γρήγορα από τις προηγούμενες εκδόσεις."
 "<figure id=\"rnscreenshot-gedit\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>The text "
-"editor, highlighting the current line.</phrase></textobject></mediaobject></"
+"gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>Ο επεξεργαστής κειμένου, καθώς επισημαίνει την τρέχουσα γραμμή.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 
 #: ../rnutilities.xml:31
@@ -567,15 +544,8 @@ msgid ""
 "imageobject><textobject><phrase>The file manager, asking for a password for "
 "a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Η διαχείριση συμπιεσμένων αρχείων του GNOME τώρα μπορεί να ανοίξει περισσότερους"
-"τύπους αρχείων συμπεριλαμβανομένων αρχείων AR, Debian, και 7-zip, όπως και αρχεία RAR"
-"προστατευμένα με κωδικό. Ακόμα αν χρησιμοποιείτε την προτίμηση του μονού-κλικ στον διαχειριστή"
-"αρχείων τότε ο διαχειριστής συμπιεσμένων αρχείων θα χρησιμοποιεί επίσης μονό κλικ."
-" <figure id=\"rnscreenshot-fileroller"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;fileroller.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The file manager, asking for a password for "
-"a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
+"Ο διαχειριστής συμπιεσμένων αρχείων του GNOME τώρα μπορεί να ανοίξει περισσότερους τύπους αρχείων συμπεριλαμβανομένων αρχείων AR, Debian, και 7-zip, όπως και αρχεία RAR προστατευμένα με κωδικό. Ακόμα αν χρησιμοποιείτε την προτίμηση του μονού-κλικ στον διαχειριστή αρχείων, τότε ο διαχειριστής συμπιεσμένων αρχείων θα χρησιμοποιεί επίσης μονά κλικ."
+" <figure id=\"rnscreenshot-fileroller\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;fileroller.png\" format=\"PNG\"/></imageobject><textobject><phrase>Ο διαχειριστής αρχείων, ζητώντας τον κωδικό για ένα προστατευμένο αρχείο RAR.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:49
 msgid "Search Tool"
@@ -592,13 +562,12 @@ msgid ""
 "imageobject><textobject><phrase>The search tool.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
-"Το εργαλείο αναζήτησης μπορεί τώρα να κάνει και μια δεύτερη αναζήτηση ανάμεσα"
+"Το εργαλείο αναζήτησης μπορεί τώρα να κάνει και δεύτερη αναζήτηση ανάμεσα"
 "στα αποτελέσματα της πρώτης, έτσι ώστε να φιλτράρει τα αποτελέσματα. Και"
-"όπως και ο διαχειριστής συμπιεμένων αρχείων, μπορεί να χρησιμοποιήσει μονά κλικ αν το επιλέξετε"
-"στις προτιμήσεις του διαχειριστή αρχείων σας. <figure id=\"rnscreenshot-search"
+"όπως και ο διαχειριστής συμπιεμένων αρχείων, μπορεί να χρησιμοποιήσει μονά κλικ αν το επιλέξετε στις προτιμήσεις του διαχειριστή αρχείων σας. <figure id=\"rnscreenshot-search"
 "\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
 "\"&urlfiguresbase;search.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The search tool.</phrase></textobject></"
+"imageobject><textobject><phrase>Το εργαλείο αναζήτησης.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:66
@@ -616,13 +585,10 @@ msgid ""
 "dictionary, suggesting possible spellings and a definition.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Το λεξικό του GNOME μπορεί τώρα να προτείνει λέξεις για τις οποίες δεν είστε σίγουροι "
-"πως να τις γράψετε. Οι ορισμοί περιέχουν δεσμούς σε  σελίδες λεξικών στον ιστό, και οι "
-"ορισμοί του μπορούν να τυπωθούν. <figure id=\"rnscreenshot-"
+"Το Λεξικό του GNOME μπορεί τώρα να προτείνει λέξεις για τις οποίες δεν είστε σίγουροι πως να τις γράψετε. Οι ορισμοί περιέχουν δεσμούς σε σελίδες λεξικών στο Διαδίκτυο, και οι ορισμοί του μπορούν να εκτυπωθούν. <figure id=\"rnscreenshot-"
 "dictionary\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
-"dictionary, suggesting possible spellings and a definition.</phrase></"
+"dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>Το λεξικό, καθώς προτείνει πιθανές εκδοχές για την ορθογραφία και έναν όρισμό.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:84 ../rnutilities.xml:89
@@ -638,12 +604,10 @@ msgid ""
 "floppy.png\" format=\"PNG\"/></imageobject><textobject><phrase>Formatting a "
 "floppy disk.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Η εφαρμογή μορφοποίησης δισκέτας του GNOME τώρα υποστηρίζει αφαιρούμενους δίκους, όπως"
-"δίσκους USB, με την χρήση το συστήματος HAL από το freedesktop.org. <figure id="
+"Η εφαρμογή Μορφοποίησης Δισκέτας του GNOME τώρα υποστηρίζει αφαιρούμενους δίκους, όπως δίσκους USB, με την χρήση το συστήματος HAL από το freedesktop.org. <figure id="
 "\"rnscreenshot-floppy\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"floppy.png\" format=\"PNG\"/></imageobject><textobject><phrase>Formatting a "
-"floppy disk.</phrase></textobject></mediaobject></screenshot></figure>"
+"floppy.png\" format=\"PNG\"/></imageobject><textobject><phrase>Μορφοποίηση μιας δισκέτας.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -681,16 +645,12 @@ msgid ""
 "control panel, while adding a new layout.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
-"Η επιλογή διάταξης πληκτρολογίου είναι τώρα ακόμα πιό απλή με τον πίνακα ελέγχου πληκτρολογίου. "
-"Απλά πατήστε προσθήκη για να επιλέξτε από μια λίστα διεθνών διατάξεων πληκτρολογίου. "
-"Πριν να κάνετε την επιλογή σας μπορείτε να δείτε το αποτέλεσμα των πλήκτρων στην προεπισκόπηση"
-"διάταξης. Οι επιλογές διάταξης έχουν αναδιοργανωθεί σε μια απλούστερη λίστα επιλογών."
+"Η επιλογή διάταξης πληκτρολογίου είναι τώρα ακόμα πιό απλή με τον πίνακα ελέγχου Πληκτρολογίου. Απλά πατήστε Προσθήκη για να επιλέξτε από μια λίστα διεθνών διατάξεων πληκτρολογίου. Πριν να κάνετε την επιλογή σας μπορείτε να δείτε το αποτέλεσμα των πλήκτρων στην προεπισκόπηση διάταξης. Οι επιλογές διάταξης έχουν αναδιοργανωθεί σε μια απλούστερη λίστα επιλογών."
 " <figure id=\"rnscreenshot-controlpanel-"
 "keyboardlayouts\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-keyboard-properties+layout.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Layouts tab, in the Keyboard Preferences "
-"control panel, while adding a new layout.</phrase></textobject></"
+"imageobject><textobject><phrase>Η στήλη Διατάξεις, στο κέντρο ελέγχου των Προτιμήσεων Πληκτρολογίου, καθώς προστίθεται μια νέα διάταξη.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:8
@@ -702,9 +662,7 @@ msgid ""
 "GNOME 2.10 includes major improvements to its panel items (also known as "
 "applets), providing new features and better integration with the rest of the "
 "desktop."
-msgstr ""
-"To GNOME 2.10 περιέχει σημαντικές βελτιώσεις στα αντικείμενα του ταμπλώ ( γνωστά και ως εφαρμογίδια),"
-"τα οποία παρέχουν νέες λειτουργίες και καλύτερη ενσωμάτωση με την υπόλοιπη επιφάνεια εργασίας."
+msgstr "To GNOME 2.10 περιλαμβάνει σημαντικές βελτιώσεις στα αντικείμενα του ταμπλώ ( γνωστά και ως εφαρμογίδια), τα οποία παρέχουν νέες λειτουργίες και καλύτερη ενσωμάτωση με την υπόλοιπη επιφάνεια εργασίας."
 
 #: ../rnapplets.xml:13
 msgid ""
@@ -715,12 +673,8 @@ msgid ""
 "the search feature. In the Desktop menu, you'll find your Preferences and "
 "Administration control panels, Log Out, and Help."
 msgstr ""
-"Η πιο ορατή αλλαγή είναι η απομάκρυνση του μενού Ενέργειες από τα μενού του Ταμπλώ και η προσθήκη"
-"των μενού Τοποθεσίες και Επιφάνεια εργασίας. Αυτά παρέχουν γρήγορη πρόσβαση"
-"σε αντικείμενα που χρησιμοποιείτε συχνά, χωρίς να χρειάζεται να περιηγήστε σε υπομενού."
-"Για παράδειγμα το μενού Τοποθεσίες περιέχει τον αρχικό σας κατάλογο, τον υπολογιστή σας,"
-"τους εξυπηρετητές δικτύου και την λειτουργία αναζήτησης. Στο μενού επιφάνειας εργασίας"
-"θα βρείτε τις Προτιμήσεις σας , τον πίνακα ελέγχου διαχειριστή, την αποσύνδεση και"
+"Η πιο ορατή αλλαγή είναι η απομάκρυνση του μενού Ενέργειες από το Ταμπλώ και η προσθήκη των μενού Τοποθεσίες και Επιφάνεια Εργασίας. Αυτά παρέχουν γρήγορη πρόσβαση σε αντικείμενα που χρησιμοποιείτε συχνά, χωρίς να χρειάζεται να περιηγήστε σε υπομενού."
+"Για παράδειγμα το μενού Τοποθεσίες περιέχει τον αρχικό σας κατάλογο, τον υπολογιστή σας, τους εξυπηρετητές δικτύου και την λειτουργία αναζήτησης. Στο μενού επιφάνειας εργασίας θα βρείτε τις Προτιμήσεις σας, τον πίνακα ελέγχου Διαχείρισης, την Αποσύνδεση Χρήστη, και"
 "την Βοήθεια."
 
 #: ../rnapplets.xml:15
@@ -729,15 +683,14 @@ msgid ""
 "menu specification, so 3rd-party software may add itself to the Applications "
 "menu without even knowing about GNOME."
 msgstr ""
-"Τώρα όλα τα μενού του ταμπλώ καθορίζονται από τους κανόνες του  Freedesktop.org, "
-"έτσι ώστε το λογισμικό τρίτων να μπορεί να προστίθεται στο μενού εφαρμογών του GNOME,"
-"ακόμα και αν δεν έχει σχεδιαστεί για το GNOME."
+"Τώρα όλα τα μενού του ταμπλώ καθορίζονται από τους κανόνες του Freedesktop.org, "
+"έτσι ώστε το λογισμικό τρίτων να μπορεί να προστίθεται στο μενού εφαρμογών του GNOME, ακόμα και αν δεν γνωρίζει τίποτα για το GNOME."
 
 #: ../rnapplets.xml:17
 msgid ""
 "Also, most applets can now be partly transparent, when the panel itself is "
 "transparent."
-msgstr "Ακόμα, τα περισσότερα εφαρμογίδια τώρα μπορούν να είναι μερικώς διαφανή, ενώ το ταμπλώ να είναι διαφανές."
+msgstr "Ακόμα, τα περισσότερα εφαρμογίδια τώρα μπορούν να είναι μερικώς διαφανή, όταν το ταμπλώ είναι διαφανές."
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
@@ -747,18 +700,18 @@ msgstr "Ενσωματωμένος Έλεγχος Μόντεμ"
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
 "with GNOME System Tools."
-msgstr "Το GNOME 2.10 εισάγει ένα νέο εφαρμογίδιο για τον έλεγχο του μόντεμ σας, ενσωματωμένο με τα GNOME System Tools."
+msgstr "Το GNOME 2.10 εισάγει ένα νέο εφαρμογίδιο για τον έλεγχο του μόντεμ σας, ενσωματωμένο με τα Εργαλεία Συστήματος GNOME."
 
 #: ../rnapplets.xml:42
 msgid "Panel Trashcan"
-msgstr "Ο κάδος απορριμμάτων του ταμπλώ"
+msgstr "Ο Κάδος Απορριμμάτων του Ταμπλώ"
 
 #: ../rnapplets.xml:44
 msgid ""
 "GNOME 2.10 features an optional trashcan for your Panel. Just like the "
 "trashcan on your desktop, you can now drag and drop files and other items "
 "into the trash without minimising your open windows."
-msgstr "Το GNOME 2.10 περιλαμβάνει ένα προαιρετικό κάδο απορριμμάτων για το Ταμπλώ σας. Όπως και στον κάδο απορριμμάτων που βρίσκεται στην επιφάνεια εργασίας, μπορείτε να σύρετε και να αφήσετε αρχεία και άλλα αντικείμενα στον κάδο του ταμπλώ δίχως να χρειαστεί η ελαχιστοποίηση των ανοικτών παραθύρων σας."
+msgstr "Το GNOME 2.10 περιλαμβάνει ένα προαιρετικό κάδο απορριμμάτων πάνω στο Ταμπλώ σας. Όπως και στον κάδο απορριμμάτων της επιφάνεια εργασίας, μπορείτε τώρα να σύρετε και να αφήσετε αρχεία και άλλα αντικείμενα στον κάδο του ταμπλώ δίχως να χρειαστεί η ελαχιστοποίηση των ανοικτών παραθύρων σας."
 
 #: ../rnapplets.xml:64
 msgid "Control Mounted Volumes"
@@ -772,10 +725,7 @@ msgid ""
 "your open windows. The applet shows the currently mounted (or unmountable) "
 "volumes, allowing you to mount them, eject them, or open them in the file "
 "manager."
-msgstr ""
-"Το GNOME 2.8 σας επέτρεπε να κάνετε εύκολη προσάρτηση ψηφιακών μέσων, όπως CDs, DVDs, "
-"και μνήμες USB.  Τώρα το εφαρμογίδιο προσάρτησης τόμων, σας βοηθάει να χρησιμοποιήσετε εύκολα"
-"αυτούς τους τόμους χωρίς να χρειάζεται να ψάχνετε τα εικονίδια τους στην επιφάνεια εργασίας σας, πίσω από ανοικτά παράθυρα. Το εφαρμογίδιο εμφανίζει τους τρέχοντες προσαρτημένους (ή μη προσαρτημένους) τόμους,και σας επιτρέπει να τους προσαρτήσετε, να  τους εξάγετε, ή να τους ανοίξετε στον διαχειριστή αρχείων σας.."
+msgstr "Το GNOME 2.8 σας επέτρεπε να κάνετε εύκολη προσάρτηση ψηφιακών μέσων, όπως CD, DVD, και μνήμες USB. Τώρα το εφαρμογίδιο προσάρτησης τόμων σάς βοηθάει να χρησιμοποιήσετε εύκολα αυτούς τους τόμους χωρίς να χρειάζεται να ψάχνετε τα εικονίδια τους στην επιφάνεια εργασίας σας, πίσω από ανοικτά παράθυρα. Το εφαρμογίδιο εμφανίζει τους τρέχοντες προσαρτημένους (ή μη προσαρτήσιμους) τόμους,και σας επιτρέπει να τους προσαρτήσετε, να τους εξάγετε, ή να τους ανοίξετε στον διαχειριστή αρχείων σας."
 
 #: ../rnapplets.xml:88
 msgid "Get even more weather"
@@ -787,10 +737,7 @@ msgid ""
 "location names have been translated into non-english languages where "
 "appropriate. In addition, the forecast now includes sunrise and sunset "
 "calculations for most locations."
-msgstr ""
-"Τώρα η παρακολούθηση καιρού μπορεί να προβάλλει ακόμα περισσότερες τοποθεσίες, και τα ονόματα"
-"τους. Επιπρόσθετα, η πρόγνωση τώρα περιλαμβάνει υπολογισμούς ανατολής και δύσης ηλίου"
-"για τις περισσότερες τοποθεσίες."
+msgstr "Τώρα η παρακολούθηση καιρού μπορεί να προβάλλει ακόμα περισσότερες τοποθεσίες, τα δε ονόματα τους είναι πια μεταφράσιμα. Επιπρόσθετα, η πρόγνωση τώρα περιλαμβάνει υπολογισμούς ανατολής και δύσης ηλίου για τις περισσότερες τοποθεσίες."
 
 #: ../rnapplets.xml:110
 msgid "Sound control"
@@ -807,15 +754,11 @@ msgid ""
 "sentence true/new/meaningful?"
 msgstr ""
 "Ένας νέος μίκτης για το ταμπλώ σας (συνδυαζόμενος με μια νέα εμφάνιση) "
-"εξυπηρετεί πλήρως το υλικό ήχου σας. Με την χρήση του GStreamer multimedia "
-"framework, ο μίκτης είναι τώρα πιό εύχρηστος και σταθερός από ποτέ. Το ίδιο "
-"multimedia framework ενισχύει το Totem, τον Sound Juicer,  το  GNOME CD player και μια"
-"πλειάδα εφαρμογών τρίτων, έτσι ώστε η αλλαγή της έντασης του ήχου μέσω του ταμπλώ"
-"θα αλλάξει και την ένταση σε όλες αυτές τις εφαρμογές."
+"εξυπηρετεί πλήρως την κάρτα ήχου σας. Με την χρήση της υποδομής πολυμέσων GStreamer, ο μίκτης είναι τώρα πιο εύχρηστος και σταθερός από ποτέ. Η ίδια υποδομή πολυμέσων είναι παρούσα στο Totem, το Sound Juicer, το πρόγραμμα αναπαραγωγής CD του GNOME και μια πλειάδα εφαρμογών τρίτων, έτσι ώστε η αλλαγή της έντασης του ήχου μέσω του ταμπλώ θα αλλάξει και την ένταση σε όλες αυτές τις εφαρμογές."
 
 #: ../rnapplets.xml:122
 msgid "Taking note"
-msgstr "Λήψη σημείωσης"
+msgstr "Λήψη σημειώσεων"
 
 #: ../rnapplets.xml:123
 msgid ""
@@ -823,13 +766,13 @@ msgid ""
 "have been fixed, so it's now even easier to add PostIt-style notes on your "
 "desktop. For instance, sticky notes will now stay on the correct workspace, "
 "or even a different monitor."
-msgstr "Το δημοφιλές εφαρμογίδιο των Sticky Notes έχει πιο απλή εμφάνιση και πολλά διορθωμένα σφάλματα. 'Ετσι είναι τώρα ακόμα ευκολότερο να προσθέτετε σημειώσεις του στυλ PostIt  στην επιφάνεια εργασίας σας. Για παράδειγμα, τα sticky notes παραμένουν στο ίδιο σημείο ακόμα και σε διαφορετική οθόνη."
+msgstr "Το δημοφιλές εφαρμογίδιο των Sticky Notes έχει πιο απλή εμφάνιση και πολλά διορθωμένα σφάλματα. 'Ετσι, τώρα είναι ακόμα ευκολότερο να προσθέτετε σημειώσεις του στυλ PostIt στην επιφάνεια εργασίας σας. Για παράδειγμα, τα sticky notes παραμένουν στο ίδιο σημείο ακόμα και σε διαφορετική οθόνη."
 
 #: ../rnapplets.xml:128
 msgid ""
 "And sticky motes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
-msgstr "Και οι sticky notes τώρα παραμένουν πάνω από τα άλλα παράθυρα, έτσι ώστε να μην τις χάνετε. Για να αποκρύψετε αυτές τις σημειώσεις, χρησιμοποιήστε το μενού του δεξιού κλικ του εφαρμογιδίου."
+msgstr "Και τα sticky notes τώρα παραμένουν πάνω από τα άλλα παράθυρα, έτσι ώστε να μην τα χάνετε. Για να αποκρύψετε αυτές τις σημειώσεις, χρησιμοποιήστε το μενού μέσω δεξιού κλικ στο εφαρμογιδίου."
 
 #: ../rnapplets.xml:134
 msgid "Specially for laptops"
@@ -843,10 +786,7 @@ msgid ""
 "a different speed if you don't have automatic frequency scaling enabled."
 msgstr ""
 "Το GNOME τώρα περιλαμβάνει ένα εφαρμογίδιο παρακολούθησης της ταχύτητας του"
-"επεξεργαστή του φορητού σας υπολογιστή. Η παρακολούθηση συχνότητας επικοινωνεί με τους"
-"επεξεργαστές πολλαπλής ταχύτητας (όπως αυτοί με Intel Speedstep) για να προβάλλει την τρέχουσα"
-"κατάσταση τους. Ακόμα σας επιτρέπει να επιλέξτε μια διαφορετική ταχύτητα αν δεν έχετε"
-"ενεργοποιημένη την αυτόματη κλιμάκωση συχνότητας."
+"επεξεργαστή του φορητού σας υπολογιστή. Η παρακολούθηση συχνότητας επικοινωνεί με τους επεξεργαστές πολλαπλής ταχύτητας (όπως αυτοί με Intel Speedstep) για να προβάλλει την τρέχουσα κατάσταση τους. Ακόμα σας επιτρέπει να επιλέξτε μια διαφορετική ταχύτητα αν δεν έχετε ενεργοποιημένη την αυτόματη κλιμάκωση συχνότητας."
 
 #: ../rnapplets.xml:144
 msgid ""
@@ -854,10 +794,7 @@ msgid ""
 "they have either been replaced by something better, or were unmainted and "
 "insecure. The three applets to be removed are, the CD Player applet, the "
 "standalone wireless monitor and mailbox check applet."
-msgstr ""
-"Μερικά εφαρμογίδια έχουν αφαιρεθεί από το ταμπλώ του GNOME 2.10 επειδή έχουν αντικατασταθεί"
-"από κάτι άλλο ή δεν ανανεώνονται πιά. Τα τρία εφαρμογίδια που απομακρύνθηκαν είναι, το εφαρμογίδιο"
-"CD Player, η ξεχωριστή παρακολούθηση ασύρματης σύνδεσης και το εφαρμογίδιο ελέγχου αλληλογραφίας."
+msgstr "Μερικά εφαρμογίδια έχουν αφαιρεθεί από το ταμπλώ του GNOME 2.10 επειδή έχουν αντικατασταθεί από κάτι άλλο ή δεν ανανεώνονται πιά. Τα τρία εφαρμογίδια που απομακρύνθηκαν είναι, το εφαρμογίδιο αναπαραγωγής CD, η ξεχωριστή παρακολούθηση ασύρματης σύνδεσης και το εφαρμογίδιο ελέγχου αλληλογραφίας."
 
 #: ../rnapplets.xml:152
 msgid ""
@@ -865,18 +802,13 @@ msgid ""
 "instead now inserting a CD will start GNOME CD Player automatically, it can "
 "then be controlled from the user interface or from a notification icon that "
 "is placed in your Panel."
-msgstr ""
-"Το εφαρμογίδιο ταμπλώ του  CD Player δεν λειτουργούσε σωστά με το GNOME CD Player. "
-"Τώρα η εισαγωγή ενός CD ήχου θα εκκινήσει αυτόματα το GNOME CD Player, και ο έλεγχος του"
-"γίνεται μέσω της εγαρμογής ή μέσω ενός εικονιδίου ειδοποίησης που τοποθετείται στο ταμπλώ σας."
+msgstr "Το εφαρμογίδιο ταμπλώ αναπαραγωγής CD δεν λειτουργούσε σωστά με την εφαρμογή Αναπαραγωγής CD του GNOME. Τώρα η εισαγωγή ενός CD ήχου θα εκκινήσει αυτόματα το GNOME CD Player, και ο έλεγχος του γίνεται μέσω της ίδιας της εφαρμογής ή μέσω ενός εικονιδίου ειδοποίησης που εμφανίζεται στο ταμπλώ σας."
 
 #: ../rnapplets.xml:158
 msgid ""
 "The standalone wireless applet has now been superseeded by GNOME Netstatus, "
 "which has had wireless support since GNOME 2.8."
-msgstr ""
-"Το ξεχωριστό εφαρμογίδιο ασύρματης σύνδεσης, αντικαταστάθηκε από το GNOME Netstatus, "
-"το οποίο παρέχει υποστήριξη ασύρματης σύνδεσης από το GNOME 2.8."
+msgstr "Το ανεξάρτητο εφαρμογίδιο ασύρματης ευρυζωνικής σύνδεσης αντικαταστάθηκε από το GNOME Netstatus, το οποίο παρέχει υποστήριξη ασύρματης ευρυζωνικής σύνδεσης από το GNOME 2.8."
 
 #: ../rnapplets.xml:162
 msgid ""
@@ -885,11 +817,7 @@ msgid ""
 "future. If you don't use Evolution for your mail, you can use a third party "
 "application such as <link href=\"http://www.nongnu.org/mailnotify/"
 "\">mailnotify</link>."
-msgstr ""
-"Η παρακολούθηση αλληλογραφίας απομακρύνθηκε επειδή δεν ήταν πιά ασφαλής. Ελπίζουμε"
-"ότι θα υπάρχει μια λύση που θα ενσωματώνεται στο Evolution στο μέλλον. Αν δεν χρησιμοποιείτε"
-"το Evolution, μπορείτε να χρησιμοποιήσετε μια εφαρμογή όπως το <link href=\"http://www.nongnu.org/mailnotify/"
-"\">mailnotify</link>."
+msgstr "Η υπάρχουσα παρακολούθηση αλληλογραφίας απομακρύνθηκε επειδή δεν ήταν πια ασφαλής. Ελπίζουμε ότι θα υπάρχει μια λύση στο μέλλον που θα ενσωματώνεται στο Evolution. Αν δεν χρησιμοποιείτε το Evolution, μπορείτε να χρησιμοποιήσετε μια τρίτη εφαρμογή όπως το <link href=\"http://www.nongnu.org/mailnotify/\">mailnotify</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -913,7 +841,7 @@ msgstr "Διαχείριση Συστήματος"
 
 #: ../rnsysadmin.xml:11
 msgid "GNOME 2.10 provides some new features for system administration."
-msgstr "Το GNOME 2.10 παρέχει κάποιες νέες λειτουργίες για τη διαχείριση συστήματος."
+msgstr "Το GNOME 2.10 παρέχει κάποιες νέες λειτουργίες για την διαχείριση συστήματος."
 
 #: ../rnsysadmin.xml:17
 msgid "System Tools"
@@ -925,15 +853,13 @@ msgid ""
 "connection, as well as manage the users and groups on your system. At "
 "present, these system tools are most appropriate for single computers rather "
 "than large networks of computers."
-msgstr "Τα εργαλεία συστήματος σας επιτρέπουν να ρυθμίσετε το ρολόι συστήματος σας, την σύνδεση δικτύου σας αλλά και να διαχειριστείτε τους χρήστες και τις ομάδες του συστήματος σας  Προς το παρόν, τα εργαλεία αυτά δουλεύουν καλύτερα σε προσωπικούς υπολογιστές παρά σε μεγάλα δίκτυα υπολογιστών."
+msgstr "Τα εργαλεία συστήματος σάς επιτρέπουν να ρυθμίσετε το ρολόι του συστήματος σας, την σύνδεση δικτύου αλλά και να διαχειριστείτε τους χρήστες και τις ομάδες στο συστήματος σας. Προς το παρόν, τα εργαλεία αυτά είναι σχεδιασμένα να δουλεύουν καλύτερα σε προσωπικούς υπολογιστές παρά σε μεγάλα δίκτυα υπολογιστών."
 
 #: ../rnsysadmin.xml:26
 msgid ""
 "Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
 "connections."
-msgstr ""
-"Δίκτυο: Βελτιωμένη υποστήριξη ασύρματων συνδέσεων (εντοπισμός WEP και ESSID), και συνδέσεων"
-"IDSN."
+msgstr "Δικτύωση: Βελτιωμένη υποστήριξη ασύρματων ευρυζωνικών συνδέσεων (εντοπισμός WEP και ESSID), καθώς και συνδέσεων IDSN."
 
 #: ../rnsysadmin.xml:27
 msgid "Users and Groups: Easier editing of group members."
@@ -941,7 +867,7 @@ msgstr "Χρήστες και Ομάδες: Ευκολότερη επεξεργ�
 
 #: ../rnsysadmin.xml:28
 msgid "Changes are applied instantly where appropriate."
-msgstr "Οι αλλαγές έχουν άμεση εφαρμογή όταν αυτό είναι απαραίτητο."
+msgstr "Οι αλλαγές έχουν άμεση εφαρμογή όπου αυτό είναι διαθέσιμο."
 
 #: ../rnsysadmin.xml:23
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
@@ -962,12 +888,12 @@ msgstr ""
 "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-gnome-system-tools.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>The Clock, Network, and Users/Groups tools.</"
+"imageobject><textobject><phrase>Το Ρολόι, Δίκτυο και Χρήστες/Ομάδες.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnsysadmin.xml:47
 msgid "Log Viewer"
-msgstr "Εφαρμογή προβολής καταγραφών συστήματος"
+msgstr "Εφαρμογή Προβολής Καταγραφών Συστήματος"
 
 #: ../rnsysadmin.xml:52
 msgid "Open multiple logs in the separate windows."
@@ -995,11 +921,10 @@ msgid ""
 "Log Viewer, during a seach.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 msgstr ""
-"Η εφαρμογή προβολής αρχείων καταγραφής του GNOME έχει μια επιπρόσθετη λειτουργία εύρεσης,"
-"και μια βελτιωμένη λειτουργία παρακολούθησης. Ακόμα, μπορεί τώρα <placeholder-1/><figure id=\"rnscreenshot-"
+"Η εφαρμογή προβολής αρχείων καταγραφής του GNOME έχει μια επιπρόσθετη λειτουργία εύρεσης, καθώς και μια βελτιωμένη λειτουργία παρακολούθησης. Ακόμα, μπορεί τώρα να <placeholder-1/><figure id=\"rnscreenshot-"
 "sysadmin-logviewer\"><placeholder-2/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-logviewer.png\" format=\"PNG\"/></imageobject><textobject><phrase>Η εφαρμογή προβολής καταγραφών κατά"
+"figure-logviewer.png\" format=\"PNG\"/></imageobject><textobject><phrase>Η εφαρμογή Προβολής Καταγραφών κατά"
 "την αναζήτηση.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 
@@ -1023,9 +948,7 @@ msgstr "Παιχνίδια"
 msgid ""
 "GNOME helps you achieve your goals, but sometimes your goal is to be "
 "distracted. That's when the GNOME games bring the fun."
-msgstr ""
-"Το GNOME σας βοηθάει να πετύχετε τους στόχους σας, αλλά μερικές φορές θέλετε να "
-"ξεφύγετε από αυτούς. Για αυτό τον λόγο υπάρχουν τα διασκεδαστικά παιχνίδια του GNOME."
+msgstr "Το GNOME σάς βοηθάει να πετύχετε τους στόχους σας, αλλά μερικές φορές θέλετε να ξεφύγετε από αυτούς. Για αυτό τον λόγο υπάρχουν τα διασκεδαστικά παιχνίδια του GNOME."
 
 #: ../rngames.xml:12 ../rngames.xml:17 ../rngames.xml:36
 msgid "Same GNOME"
@@ -1035,9 +958,7 @@ msgstr "Same GNOME"
 msgid ""
 "The Same GNOME game has a major new version, with better graphics, extra "
 "board sizes, and an undo feature in case you change your mind."
-msgstr ""
-"Το παιχνίδι Same GNOME έχει μια νέα έκδοση, με καλύτερα γραφικά, επιπρόσθετα ταμπλώ,"
-"και λειτουργία αναίρεσης σε περίπτωση που μετανοιώσατε για μια κίνηση."
+msgstr "Το παιχνίδι Same GNOME βρίσκεται σε νέα έκδοση, με καλύτερα γραφικά, επιπρόσθετα ταμπλώ, και λειτουργία αναίρεσης σε περίπτωση που μετανοιώσατε για μια κίνηση."
 
 #: ../rngames.xml:22 ../rngames.xml:41
 msgid "The Same GNOME game."
@@ -1052,10 +973,7 @@ msgid ""
 "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you "
 "can browse your local network for other people to play against, via the same "
 "zero-configuration technique used by Gnome Meeting."
-msgstr ""
-"Η φιλοσοφία της \"Απρόσκοπτης λειτουργίας\" είναι ορατή ακόμα και στο παιχνίδι Nibbles."
-"Τώρα μπορείτε να περιηγηθήτε στο τοπικό σας δίκτυο για να βρείτε αντιπάλους, μέσω της"
-"χωρίς ρύθμιση τεχνικής που χρησιμοποιείται από το Gnome Meeting."
+msgstr "Η φιλοσοφία της \"Απρόσκοπτης λειτουργίας\" είναι ορατή ακόμα και στο παιχνίδι Nibbles. Τώρα μπορείτε να περιηγηθήτε στο τοπικό σας δίκτυο για να βρείτε αντιπάλους, μέσω της χωρίς-ρύθμιση τεχνικής που χρησιμοποιείται από το Gnome Meeting."
 
 #: ../rnplatform.xml:9
 msgid "Platform Improvements"
@@ -1065,11 +983,11 @@ msgstr "Βελτιώσεις Πλατφόρμας"
 msgid ""
 "GTK+ 2.6 has new cell renderers, new buttons, an IconView, and a new about "
 "box."
-msgstr "Το GTK+ 2.6 έχει νέους μηχανισμούς φόρτωσης κελιών, νέα κουμπιά, IconView, και ένα νέο κουτί διαλόγου Περί."
+msgstr "Το GTK+ 2.6 έχει νέους μηχανισμούς εμφάνισης κελιών, νέα κουμπιά, προβολή Εικονιδίων, και ένα νέο κουτί διαλόγου Περί."
 
 #: ../rnplatform.xml:14
 msgid "glib 2.6 has an easier command-line parsing API."
-msgstr "το glib 2.6 έχει μια ευκολότερη ανάλυση γραμμής εντολών API."
+msgstr "Το glib 2.6 έχει ένα ευκολότερο API ανάλυσης γραμμής εντολών."
 
 #: ../rnplatform.xml:15
 msgid ""
@@ -1080,12 +998,10 @@ msgid ""
 "ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, "
 "and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
 msgstr ""
-"Οι Platform Bindings τώρα περιλαμβάνουν πλήρη Python APIs για το GNOME Development "
-"Platform, μέσω του gnome-python. Επιπρόσθετα υπάρχουν τα τρέχοντα C++, Java, Perl, "
-"και Python bindings, μέσω των <ulink url=\"http://www.gtkmm.org/\">gtkmm</"
+"Οι Συνδέσεις Πλατφόρμας (Platform Bindings) τώρα περιλαμβάνουν πλήρη Python API για την πλατφόρμα ανάπτυξης του GNOME, μέσω του gnome-python. Επιπρόσθετα υπάρχουν τα τρέχοντα bindings για C++, Java, Perl, και Python, μέσω των έργων <ulink url=\"http://www.gtkmm.org/\">gtkmm</"
 "ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</"
-"ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, "
-"and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
+"ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink> και"
+"and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>."
 
 #: ../rnplatform.xml:10
 msgid ""
@@ -1094,10 +1010,8 @@ msgid ""
 "API improvements, while maintaining backwards compatibilty and API-"
 "stability. In particular this time we have: <placeholder-1/>"
 msgstr ""
-"Η πλατφόρμα ανάπτυξης εφαρμογών του GNOME 2.10  παρέχει μια σταθερή βάση για"
-"ανάπτυξη λογισμικού από τρίτους από το το ίδιο το GNOME. Το GNOME 2.10 προσθέτει"
-"μερικές βελτιώσεις ΑPI , και διατηρεί την προς τα πίσω συμβατότητα και την σταθερότητα των API."
-"Συγκεκριμένα αυτή την περίοδο έχουμε: <placeholder-1/>"
+"Η πλατφόρμα ανάπτυξης εφαρμογών του GNOME 2.10 παρέχει μια σταθερή βάση για"
+"ανάπτυξη λογισμικού από τρίτους, καθώς και από το το ίδιο το GNOME. Το GNOME 2.10 προσθέτει μερικές βελτιώσεις ΑPI, και διατηρεί την προς τα πίσω συμβατότητα και την σταθερότητα των API. Συγκεκριμένα αυτή την περίοδο έχουμε: <placeholder-1/>"
 
 #: ../rndocs.xml:10
 msgid "Sysadmin, User, and Accessibility Guides"
@@ -1114,12 +1028,11 @@ msgid ""
 "full user documentation."
 msgstr ""
 "Χάρη στις προσπάθειες του <ulink url=\"http://developer.gnome.org/"
-"projects/gdp/\">GNOME Documentation Project</ulink>,το GNOME 2.10 έρχεται με"
+"projects/gdp/\">Έργου Τεκμηρίωσης του GNOME</ulink>,το GNOME 2.10 έρχεται με"
 "μια κατανοητή και επαγελματική τεκμηρίωση. Ιδιαίτερη προσοχή δόθηκε"
-"στη χρήση του πιό ολοκληρωμένου <ulink url=\"http://"
+"στη χρήση του πιο ολοκληρωμένου <ulink url=\"http://"
 "developer.gnome.org/documents/style-guide/\">στυλ οδηγού τεκμηρίωσης</"
-"ulink>.Όπως και στο GNOME 2.8, η κάθε εφαρμογή που βρίσκεται στο GNOME 2.10 περιέχει"
-"πλήρη τεκμηρίωση χρήσης."
+"ulink>.Όπως και στο GNOME 2.8, η κάθε εφαρμογή που βρίσκεται στο GNOME 2.10 περιέχει πλήρη τεκμηρίωση χρήσης."
 
 #: ../rndocs.xml:22
 msgid ""
@@ -1129,13 +1042,11 @@ msgid ""
 "org/learn/\">GNOME Learn page</ulink>."
 msgstr ""
 "Μάθετε για την χρήση του GNOME με τον οδηγό χρήστη. Ο οδηγός χρήστη και"
-"άλλα έγγραφα τεκμηρίωσης, που περιλαμβάνουν οδηγούς για την διαχείριση του συστήματος"
-"και τις λειτουργίες προσβασιμότητας του GNOME, βρίσκονται στην <ulink url=\"http://www.gnome."
-"org/learn/\">Σελίδα εκμάθησης του GNOME</ulink>."
+"άλλα έγγραφα τεκμηρίωσης, που περιλαμβάνουν οδηγούς για την διαχείριση του συστήματος και τις λειτουργίες προσβασιμότητας του GNOME, βρίσκονται στην <ulink url=\"http://www.gnome.org/learn/\">Σελίδα εκμάθησης του GNOME</ulink>."
 
 #: ../rni18n.xml:8
 msgid "Internationalization"
-msgstr "Διεθνοποίηση"
+msgstr "Παγκοσμιοποίηση"
 
 #: ../rni18n.xml:10
 msgid ""
@@ -1145,25 +1056,25 @@ msgid ""
 "languages (at least 80 percent of strings translated)."
 msgstr ""
 "Ευχαριστίες στα μέλη του παγκόσμιου <ulink url=\"http://developer.gnome.org/"
-"projects/gtp/\">GNOME Translation Project</ulink>, το οποίο κάτω από την "
-"καθοδήγηση του Christian Rose και Kjartan Maraas,  το GNOME 2.10 παρέχει υποστήριξη"
+"projects/gtp/\">Έργου Μετάφρασης του GNOME</ulink>, το οποίο κάτω από την "
+"καθοδήγηση του Christian Rose και Kjartan Maraas, το GNOME 2.10 παρέχει υποστήριξη"
 "για 40 γλώσσες."
 
 #: ../rni18n.xml:41
 msgid "Albanian (5 million speakers)"
-msgstr "Αλβανική (5 εκατομμύρια ομιλούντες)"
+msgstr "Αλβανικά (5 εκατομμύρια ομιλούντες)"
 
 #: ../rni18n.xml:42
 msgid "Arabic (235 million)"
-msgstr "Αραβική (235 εκατομμύρια)"
+msgstr "Αραβικά (235 εκατομμύρια)"
 
 #: ../rni18n.xml:43
 msgid "Azerbaijani (28 million)"
-msgstr "Αζερμαϊτζάν (28 εκατομμύρια)"
+msgstr "Αζερπαϊτζανικά (28 εκατομμύρια)"
 
 #: ../rni18n.xml:44
 msgid "Basque (580,000)"
-msgstr "Βασκική (580.000)"
+msgstr "Βασκικά (580.000)"
 
 #: ../rni18n.xml:45
 msgid "Bengali (189 million)"
@@ -1171,35 +1082,35 @@ msgstr "Μπενγκάλι (189 εκατομμύρια)"
 
 #: ../rni18n.xml:46
 msgid "Brazilian Portuguese (175 million)"
-msgstr "Πορτογαλική Βραζιλίας  (175 εκατομμύρια)"
+msgstr "Πορτογαλικά Βραζιλίας (175 εκατομμύρια)"
 
 #: ../rni18n.xml:47
 msgid "Bulgarian (9 million)"
-msgstr "Βουλγαρική (9 εκατομμύρια)"
+msgstr "Βουλγαρικά (9 εκατομμύρια)"
 
 #: ../rni18n.xml:48
 msgid "Catalan (7 million)"
-msgstr "Καταλανική (7 εκατομμύρια)"
+msgstr "Καταλανικά (7 εκατομμύρια)"
 
 #: ../rni18n.xml:49
 msgid "Chinese Simplified (over 1 billion)"
-msgstr "Απλοποιημένη Κινέζικη (πάνω απο 1 δισεκατομμύριο)"
+msgstr "Απλοποιημένά Κινέζικα (πάνω απο 1 δισεκατομμύριο)"
 
 #: ../rni18n.xml:50
 msgid "Chinese Traditional (40 million)"
-msgstr "Παραδοσιακή Κινέζικη (40 εκατομμύρια)"
+msgstr "Παραδοσιακά Κινέζικα (40 εκατομμύρια)"
 
 #: ../rni18n.xml:51
 msgid "Czech (11 million)"
-msgstr "Τσεχική (11 εκατομμύρια)"
+msgstr "Τσέχικα (11 εκατομμύρια)"
 
 #: ../rni18n.xml:52
 msgid "Danish (5.3 million)"
-msgstr "Δανική (5.3 εκατομμύρια)"
+msgstr "Δανικά (5.3 εκατομμύρια)"
 
 #: ../rni18n.xml:53
 msgid "Dutch (over 21 million)"
-msgstr "Ολλανδική (πάνω από 21 εκατομμύρια)"
+msgstr "Ολλανδικά (πάνω από 21 εκατομμύρια)"
 
 #: ../rni18n.xml:54
 msgid "English (341 million)"
@@ -1207,19 +1118,19 @@ msgstr "Αγγλικά (341 εκατομμύρια)"
 
 #: ../rni18n.xml:55
 msgid "Finnish (over 5 million)"
-msgstr "Φινλαδική (πάνω από 5 εκατομμύρια)"
+msgstr "Φινλαδικά (πάνω από 5 εκατομμύρια)"
 
 #: ../rni18n.xml:56
 msgid "French (over 75 million)"
-msgstr "Γαλλική (πάνω από 75 εκατομμύρια)"
+msgstr "Γαλλικά (πάνω από 75 εκατομμύρια)"
 
 #: ../rni18n.xml:57
 msgid "German (100 million)"
-msgstr "Γερμανική (100 εκατομμύρια)"
+msgstr "Γερμανικά (100 εκατομμύρια)"
 
 #: ../rni18n.xml:58
 msgid "Greek (15 million)"
-msgstr "Ελληνική (15 εκατομμύρια)"
+msgstr "Ελληνικά (15 εκατομμύρια)"
 
 #: ../rni18n.xml:59
 msgid "Gujarati (46 million)"
@@ -1227,39 +1138,39 @@ msgstr "Γκουτζαράτι (46 εκατομμύρια)"
 
 #: ../rni18n.xml:60
 msgid "Hindi (370 million)"
-msgstr "Ινδική (370 εκατομμύρια)"
+msgstr "Χίντι (370 εκατομμύρια)"
 
 #: ../rni18n.xml:61
 msgid "Hungarian (14.5 million)"
-msgstr "Ουγγρική (14.5 εκατομύρια)"
+msgstr "Ουγγρικά (14.5 εκατομύρια)"
 
 #: ../rni18n.xml:62
 msgid "Italian (60 million)"
-msgstr "Ιταλική (60 εκατομμύρια)"
+msgstr "Ιταλικά (60 εκατομμύρια)"
 
 #: ../rni18n.xml:63
 msgid "Japanese (over 125 million)"
-msgstr "Ιαπωνική (πάνω από 125 εκατομμύρια)"
+msgstr "Ιαπωνικά (πάνω από 125 εκατομμύρια)"
 
 #: ../rni18n.xml:64
 msgid "Korean (75 million)"
-msgstr "Κορεάτικη (75 εκατομμύρια)"
+msgstr "Κορεάτικα (75 εκατομμύρια)"
 
 #: ../rni18n.xml:65
 msgid "Lithuanian (4 million)"
-msgstr "Λιθουανική (4 εκατομμύρια)"
+msgstr "Λιθουανικά (4 εκατομμύρια)"
 
 #: ../rni18n.xml:66
 msgid "Malay (over 17 million)"
-msgstr "Μαλαισιανή (πάνω από 17 εκατομμύρια)"
+msgstr "Μαλαισιανα (πάνω από 17 εκατομμύρια)"
 
 #: ../rni18n.xml:67
 msgid "Norwegian Bookmal (5 million)"
-msgstr "Νορβηγική Bookmal (5 εκατομμύρια)"
+msgstr "Νορβηγικά Bookmal (5 εκατομμύρια)"
 
 #: ../rni18n.xml:68
 msgid "Norwegian Nynorsk"
-msgstr "Νορβηγική Nynorsk"
+msgstr "Νορβηγικά Nynorsk"
 
 # Punjabi
 #: ../rni18n.xml:69
@@ -1268,31 +1179,31 @@ msgstr "Πουντζάμπι (60 εκατομμύρια)"
 
 #: ../rni18n.xml:70
 msgid "Polish (44 million)"
-msgstr "Πολωνική (44 εκατομμύρια)"
+msgstr "Πολωνικά (44 εκατομμύρια)"
 
 #: ../rni18n.xml:71
 msgid "Portuguese (43 million)"
-msgstr "Πορτογαλική (43 εκατομμύρια)"
+msgstr "Πορτογαλικά (43 εκατομμύρια)"
 
 #: ../rni18n.xml:72
 msgid "Romanian (26 million)"
-msgstr "Ρουμανική (26 εκατομμύρια)"
+msgstr "Ρουμανικά (26 εκατομμύρια)"
 
 #: ../rni18n.xml:73
 msgid "Russian (170 million)"
-msgstr "Ρωσική (170 εκατομμύρια)"
+msgstr "Ρωσικά (170 εκατομμύρια)"
 
 #: ../rni18n.xml:74
 msgid "Serbian (10 million)"
-msgstr "Σερβική (10 εκατομμύρια)"
+msgstr "Σερβικά (10 εκατομμύρια)"
 
 #: ../rni18n.xml:75
 msgid "Spanish (over 350 million)"
-msgstr "Ισπανική (πάνω από 350 εκατομμύρια)"
+msgstr "Ισπανικά (πάνω από 350 εκατομμύρια)"
 
 #: ../rni18n.xml:76
 msgid "Swedish (9 million)"
-msgstr "Σουηδική (9 εκατομμύρια)"
+msgstr "Σουηδικά (9 εκατομμύρια)"
 
 #: ../rni18n.xml:77
 msgid "Tamil (61 million)"
@@ -1300,15 +1211,15 @@ msgstr "Ταμίλ (61 εκατομμύρια)"
 
 #: ../rni18n.xml:78
 msgid "Turkish (150 million)"
-msgstr "Τουρκική (150 εκατομμύρια)"
+msgstr "Τουρκικά (61 εκατομμύρια)"
 
 #: ../rni18n.xml:79
 msgid "Ukrainian (50 million)"
-msgstr "Ουκρανική (50 εκατομμύρια)"
+msgstr "Ουκρανικά (50 εκατομμύρια)"
 
 #: ../rni18n.xml:80
 msgid "Welsh (575,000)"
-msgstr "Ουαλική (575.000)"
+msgstr "Ουαλικά (575.000)"
 
 #: ../rni18n.xml:36
 msgid "Supported languages: <placeholder-1/>"
@@ -1321,10 +1232,8 @@ msgid ""
 "hard work of their translators. Also worthy of mention is that British "
 "English and Canadian English are also supported."
 msgstr ""
-"Σημειώστε ότι τα Βάσκικα, τα Βουλγάρικα, τα Γκουαρατζατί, τα Ουγγρικά, τα Νορβηγικά,"
-"τα Πουντζάμπιι και τα Ταμίλ είναι οι νέες υποστηριζόμενες γλώσσες για το GNOME 2.10, χάρις στις "
-"προσπάθειες των μεταφραστών τους. Ακόμα άξιο αναφοράς είναι το ότι τα Αγγλικά Βρεττανίας και"
-" Καναδά υποστηρίζονται σε αυτή την έκδοση."
+"Σημειώστε ότι τα Βάσκικα, τα Βουλγάρικα, τα Γκουτζαράτι, τα Ουγγρικά, τα Νορβηγικά,"
+"τα Πουντζάμπιι και τα Ταμίλ είναι οι νέες υποστηριζόμενες γλώσσες για το GNOME 2.10, χάρις στην σκληρή δουλειά των μεταφραστών τους. Ακόμη, άξιο αναφοράς είναι το ότι τα Αγγλικά Ην. Βασιλείου και Καναδά υποστηρίζονται σε αυτή την έκδοση."
 
 #: ../rni18n.xml:89
 msgid ""
@@ -1332,13 +1241,13 @@ msgid ""
 "strings translated. Croatian and Mongolian are particularly close to "
 "\"supported\" status."
 msgstr ""
-"Ακόμα 9 γλώσσες υποστηρίζονται μερικώς, με τις περισσότερες απο αυτές"
-"να έχουν παραπάνω από τα μισά αλφαριθμητικά τους μεταφρασμένα. Τα Κροάτικα"
-"και τα Μονγκολικά είναι πολύ κοντά στο να υποστηριχθούν πλήρως."
+"9 ακόμα γλώσσες υποστηρίζονται μερικώς, με τις περισσότερες από αυτές"
+"να έχουν παραπάνω από τα μισά μηνύματά τους μεταφρασμένα. Τα δε Κροάτικα"
+"και τα Μογκολικά είναι πολύ κοντά στο να υποστηριχθούν πλήρως."
 
 #: ../rnstandards.xml:7
 msgid "Standards Compliance"
-msgstr "Υπακοή στα Standards "
+msgstr "Συμμόρφωση στα Πρότυπα"
 
 #: ../rnstandards.xml:9
 msgid ""
@@ -1349,12 +1258,8 @@ msgid ""
 "and following open specifications helps ensure that user data is not trapped "
 "in proprietary formats."
 msgstr ""
-"Το GNOME εργάζεται στενά μαζί με ομάδες όπως <ulink url=\"http://www.freedesktop."
-"org/standards/\">το freedesktop.org</ulink>. Η υποστήριξη των standards είναι ένα"
-"θετικό σημείο για τους χρήστες του  GNOME. Η υποστήριξη της Διαλειτουργικότητας"
-"βελτιώνει την εμπειρία του χρήστη, μιας και επιτρέπει στα GNOME, KDE, και τις"
-"άλλες εφαρμογές να λειτουργούν μαζί πιό εύκολα, ενώ η ακολούθηση ανοικτών προτύπων"
-"βοηθάει στην απελευθέρωση του χρήστη από τους περιορισμούς των κλειστών προτύπων."
+"Το GNOME εργάζεται στενά μαζί με ομάδες όπως το <ulink url=\"http://www.freedesktop."
+"org/standards/\">freedesktop.org</ulink>. Η υποστήριξη προτύπων είναι ένα πολύ σημαντικό πλεονέκτημα για τους χρήστες του GNOME. Η υποστήριξη Διαλειτουργικότητας βελτιώνει την εμπειρία του χρήστη, μιας και επιτρέπει στα GNOME, KDE, και τις άλλες εφαρμογές να λειτουργούν μαζί πιο εύκολα, ενώ η συμβάδιση με ανοικτά πρότυπα βοηθάει στην απελευθέρωση του χρήστη από τους περιορισμούς των κλειστών προτύπων."
 
 #: ../rnstandards.xml:19
 msgid ""
@@ -1376,22 +1281,19 @@ msgid ""
 "ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</"
 "ulink>."
 msgstr ""
-"Οι συντελεστές του GNOME δουλεύουν σκληρά με τα άλλα μέλη της κοινότητας ανοικτού"
-"λογισμικού μέσω του  Freedesktop.org για την ανάπτυξη των κανόνων εκείνων που επιτρέπουν"
-"την διαλειτουργικότητα. Αυτοί οι κανόνες περιλαμβάνουν: <ulink url=\"http://www."
-"freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</"
+"Οι συντελεστές του GNOME δουλεύουν σκληρά με τα άλλα μέλη της κοινότητας ανοικτού λογισμικού μέσω του Freedesktop.org για την ανάπτυξη των κανόνων εκείνων που επιτρέπουν την διαλειτουργικότητα. Αυτοί οι κανόνες περιλαμβάνουν: προδιαγραφές για <ulink url=\"http://www."
+"freedesktop.org/Standards/shared-mime-info-spec\">διαμοιραζόμενη βάση δεδομένων για MIME</"
 "ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec"
-"\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/"
-"recent-file-spec\">recent files</ulink>, <ulink url=\"http://triq.net/~jens/"
-"thumbnail-spec/index.html\">thumbnail management</ulink>, and the <ulink url="
-"\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink> "
-"specifications. In addition, GNOME supports <ulink url=\"http://www.omg.org/"
+"\">θέματα εικονιδίων</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/"
+"recent-file-spec\">πρόσφατα αρχεία</ulink>, <ulink url=\"http://triq.net/~jens/"
+"thumbnail-spec/index.html\">διαχείριση μικρογραφιών</ulink>, και <ulink url="
+"\"http://www.freedesktop.org/Standards/systemtray-spec\">ταμπλώ συστήματος</ulink>. Επιπρόσθετα, το GNOME υποστηρίζει <ulink url=\"http://www.omg.org/"
 "\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink "
 "url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url="
 "\"http://www.freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url="
 "\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink "
 "url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</"
-"ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</"
+"ulink> και <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</"
 "ulink>."
 
 #: ../rnwhy.xml:8
@@ -1404,11 +1306,7 @@ msgid ""
 "other desktop environments? Every GNOME volunteer has their own motivations, "
 "of course, but here are some of the common reasons many of us choose to work "
 "on and use GNOME."
-msgstr ""
-"Έχοντας δεί μερικές από τις νέες λειτουργίες του GNOME 2.10, γιατί να διαλέξετε το GNOME;"
-"Βέβαια, κάθε εθελοντής του GNOME έχει τα δικά του κίνητρα, αλλά παρακάτω θα βρείτε"
-"κάποιους από τους πιό κοινούς λόγους για τους οποίους πολλοί επιλέγουν να βοηθήσουν"
-"ή να χρησιμοποιήσουν το GNOME."
+msgstr "Έχοντας δει μερικές από τις νέες λειτουργίες του GNOME 2.10, γιατί να διαλέξετε το GNOME; Βέβαια, κάθε εθελοντής του GNOME έχει τα δικά του κίνητρα, αλλά παρακάτω θα βρείτε κάποιους από τους πιο κοινούς λόγους για τους οποίους πολλοί επιλέγουν να εργαστούν ή να χρησιμοποιήσουν το GNOME."
 
 #: ../rnwhy.xml:19
 msgid "Usability"
@@ -1427,18 +1325,10 @@ msgid ""
 "\" and as a result lets GNOME users -both experienced and inexperienced- "
 "focus on doing real work instead of struggling to learn new applications."
 msgstr ""
-"Το GNOME είναι το μοναδικό project ανοικτού λογισμικού για την επιφάνεια εργασίας"
-"που δίνει έμφαση τη ευκολία χρήσης και την συνέπεια στο UI, σε βάρος των υπερφορτωμένων"
-"λειτουργιών και της υπερβολικής παραμετροποίησης. Οι  "
-"<ulink url=\"http://developer.gnome.org/projects/gup/hig/\"> Human Interface "
-"Guidelines</ulink>,που αναπτύχθηκαν από εθελοντές του GNOME και επαγελματίες για UI ,"
-"και εκδόθηκαν πριν από το GNOME 2.0, είναι οι πιό ολοκληρωμένες οδηγίες χρηστικότητας"
-"στον κόσμο του Ελεύθερου λογισμικού. Κάθε εφαρμογή του  GNOME "
-"έχει ωφεληθεί από αυτή την εστίαση στην συνέπεια και την χρηστικότητα. "
-"Πιστεύουμε ότι αυτή η εστίαση βοηθήσει στην δημιουργία ενός περιβάλλοντος"
-"που θα λειτουργεί απρόσκοπτα, και θα επιτρέπει και τους έμπειρους και τουα άπειρους "
-"χρήστες του GNOME να δουλεύουν χωρίς προβλήματα και χωρίς να χρειάζεται"
-"να μαθαίνουν νέες εφαρμογές."
+"Το GNOME είναι το μόνο έργο ανοικτού λογισμικού για την επιφάνεια εργασίας"
+"που δίνει έμφαση στην ευκολία χρήσης και την συνέπεια στην διασύνδεση χρήστη, έναντι πλήθους"
+"χαρακτηριστικών και υπερβολικής παραμετροποίησης. Οι "
+"<ulink url=\"http://developer.gnome.org/projects/gup/hig/\">Οδηγίες Διασύνδεσης Ανθρώπου/Μηχανής</ulink>, που αναπτύχθηκαν από εθελοντές του GNOME και επαγελματίες στην διασύνδεση ανθρώπου/μηχανής, και εκδόθηκαν πριν από το GNOME 2.0, είναι οι πιο ολοκληρωμένες οδηγίες χρηστικότητας στον κόσμο του Ελεύθερου λογισμικού. Κάθε εφαρμογή του GNOME έχει ωφεληθεί από αυτήν την κατεύθυνση για συνέπεια και χρηστικότητα. Πιστεύουμε ότι αυτή η κατεύθυνση θα βοηθήσει στην δημιουργία ενός περιβάλλοντος που θα λειτουργεί απρόσκοπτα, και θα επιτρέπει και τους έμπειρους και τους άπειρους χρήστες του GNOME να δουλεύουν χωρίς προβλήματα και χωρίς να δυσανασχετούν μαθαίνοντας νέες εφαρμογές."
 
 #: ../rnwhy.xml:48
 msgid "Accessibility"
@@ -1456,16 +1346,12 @@ msgid ""
 "of person-years of effort, GNOME is the only free software desktop to "
 "thoroughly address this issue."
 msgstr ""
-"Εκτός από το ότι το GNOME έγινε πιό εύκολο για τον μέσο χρήστη, το GNOME"
-"είναι πρωτοπόρο στο να κάνει την επιφάνεια εργασίας του unix προσβάσιμη"
-"στους ανθρώπους με ειδικές ανάγκες. Το πλαίσιο προσβασιμότητας του GNOME"
+"Εκτός από το ότι το GNOME έγινε πιο εύκολο για το μέσο χρήστη, το GNOME"
+"είναι πρωτοπόρο στο να κάνει την επιφάνεια εργασίας του Unix προσβάσιμη"
+"σε άτομα με ειδικές ανάγκες. Το πλαίσιο προσβασιμότητας του GNOME"
 "χρησιμοποιείται από τα βραβευμένα εργαλεία προσβασιμότητας όπως το"
-"GNOME Onscreen Keyboard (gok), o Gnopernicus, και το Dasher. Αυτές οι εφαρμογές"
-"επιτρέπουν την χρήση αναγνωστών μπράϊγ. συνθεσάϊζερ φωνής. και συσκευών κατάδειξης."
-"Πολλές κυβερνήσεις συμπεριλαμβανομένης της κυβέρνησης των ΗΠΑ, απαιτούν υποστήριξη"
-"προσβασιμότητας στο λογισμικό που αποκτούν. Μετά από αρκετό καιρό και προσπάθειες,"
-"το GNOME είναι η μόνη επιφάνεια εργασίας στον χώρο του ελεύθερου λογισμικού"
-"που ασχολείται συστηματικά με αυτό το θέμα."
+"GNOME Onscreen Keyboard (gok), το Gnopernicus και το Dasher. Αυτές οι εφαρμογές"
+"επιτρέπουν την χρήση αναγνωστών μπράϊγ. σύνθεση φωνής. και συσκευών κατάδειξης. Πολλές κυβερνήσεις συμπεριλαμβανομένης της κυβέρνησης των ΗΠΑ, απαιτούν υποστήριξη προσβασιμότητας στο λογισμικό που αγοράζουν. Μετά από πολλούς ανθρωπομήνες, το GNOME είναι η μόνη επιφάνεια εργασίας στον χώρο του ελεύθερου λογισμικού που ασχολείται συστηματικά με αυτό το θέμα της προσβασιμότητας."
 
 #: ../rnwhy.xml:66
 msgid "Interface Stability"
@@ -1477,14 +1363,11 @@ msgid ""
 "and ABI stability. This means that 'porting' an application from GNOME 2.0 "
 "to GNOME 2.10 involves no work, if a developer does not wish to take "
 "advantage of new functionality in the libraries."
-msgstr ""
-"Η κύριες βιβλιοθήκες του GNOME Development Platform παρέχουν εγγυήσεις σταθερότητας API "
-"και ABI. Αυτό σημαίνει ότι η μετάβαση μιας εφαρμογής από το GNOME 2.0 "
-"στο GNOME 2.10 δεν αποιτεί δουλειά αν ο προγραμματιστής δεν θέλει να εκμεταλευτεί τις νέες λειτουργίες των βιβλιοθηκών."
+msgstr "Η βασικές βιβλιοθήκες της Πλατφόρμας Ανάπτυξης του GNOME παρέχουν εγγυήσεις σταθερότητας στα API και ABI. Αυτό σημαίνει ότι η μετάβαση μιας εφαρμογής από το GNOME 2.0 στο GNOME 2.10 δεν αποιτεί επιπλέον κόπο αν ο προγραμματιστής δεν θέλει να εκμεταλευτεί τις νέες λειτουργίες των βιβλιοθηκών."
 
 #: ../rnwhy.xml:76
 msgid "Platform of Choice"
-msgstr "Πλατφόρμα της επιλογής"
+msgstr "Πλατφόρμα της Επιλογής"
 
 #: ../rnwhy.xml:78
 msgid ""
@@ -1496,13 +1379,8 @@ msgid ""
 "desktop projects, like Mono, Java, and OpenOffice.org, are working on "
 "integrating with GNOME and GTK+."
 msgstr ""
-"Δημοφιλείς και δυνατές εφαρμογές ελεύθερου λογισμικού όπως  ο Mozilla, το  Eclipse, "
-"το Evolution, το Gnumeric, το Abiword, το Gaim, το X-Chat, και άλλες βασίζονται στο GNOME ή "
-"στο GTK+. Αυτές οι εφαρμογές είναι ανάμεσα στις πιό ισχυρές και ικανές στο κόσμο"
-"του ελεύθερου λογισμικού και περιμένουμε να βελτιωθούν ακόμα περισσότερο, μιας και"
-"έχουν το πλεονέκτημα του περιβάλλοντος ανάπτυξης του GNOME. Ακόμα και άλλα"
-"σημαντικά έργα Ελεύθερου λογισμικού όπως τα Mono, Java, και το OpenOffice.org, εργάζονται"
-"για την ενσωμάτωση τους με το GNOME και το GTK+."
+"Δημοφιλείς και δυνατές εφαρμογές Ελεύθερου Λογισμικού όπως ο Mozilla, το Eclipse, "
+"το Evolution, το Gnumeric, το Abiword, το Gaim, το X-Chat, και άλλες βασίζονται στο GNOME ή στη βιβλιοθήκη GTK+. Αυτές οι εφαρμογές είναι ανάμεσα στις πιο ισχυρές και ικανές στο κόσμο του ελεύθερου λογισμικού και περιμένουμε να βελτιωθούν ακόμα περισσότερο, μιας και έχουν το πλεονέκτημα του περιβάλλοντος ανάπτυξης του GNOME. Ακόμα και άλλα σημαντικά έργα Ελεύθερου Λογισμικού όπως τα Mono, Java, και το OpenOffice.org, εργάζονται για την ενσωμάτωση τους με το GNOME και την βιβλιοθήκη GTK+."
 
 #: ../rnwhy.xml:93
 msgid "Organization"
@@ -1517,12 +1395,11 @@ msgid ""
 "deploy GNOME know that they can count on regular releases when they are "
 "planning rollouts or integration with their own products."
 msgstr ""
-"Το GNOME 2.10 είναι η τρίτη 'προγραμματισμένη' έκδοση του GNOME. Επειδή"
+"Το GNOME 2.10 είναι η τρίτη 'χρονικά προγραμματισμένη' έκδοση του GNOME. Επειδή"
 "το GNOME κάνει εκδόσεις σύμφωνα με ένα σταθερό πρόγραμμα, οι συντελεστές"
-"γνωρίζουν ότι οι συνεισφορές τους θα βρίκονται στη σταθερή έκδοση "
-"και στην επιφάνεια εργασίας των χρηστών μέσα σε ένα προβλέψιμο χρονικό διάστημα"
-"Επιπρόσθετα όσοι θέλουν να χρησιμοποιήσουν το GNOME γνωρίζουν ότι μπορούν"
-"να βασίζονται στις προγραμματισμένες εκδόσεις όταν κάνουν τον προγραμματισμό τους."
+"γνωρίζουν ότι οι συνεισφορές τους θα βρίσκονται στην σταθερή έκδοση "
+"και την επιφάνεια εργασίας των χρηστών μέσα σε ένα προβλέψιμο χρονικό διάστημα."
+"Επιπρόσθετα, όσοι θέλουν να χρησιμοποιήσουν την πλατφόρμα του GNOME γνωρίζουν ότι μπορούν να βασίζονται στις χρονικά προγραμματισμένες εκδόσεις καθώς δημιουργούν το πλάνο σχεδίασης, υλοποίησης και διάθεσης των προϊόντων τους."
 
 #: ../rnwhy.xml:103
 msgid ""
@@ -1534,9 +1411,8 @@ msgid ""
 msgstr ""
 "Ακόμα, το GNOME Foundation επιτρέπει σε εταιρίες να υποστηρίζουν το GNOME, "
 "ενώ την ίδια στιγμή φυλάσσει την ανεξαρτησία του με το να βασίζεται ότι τα μέλη του"
-"επιλέγονται από τους προγραμματιστές που δουλεύουν στο GNOME. Αυτή"
-"η υποδομή βοηθάει στην οργάνωση των εκδόσεων, και σπονσονάρει"
-"το ετήσιο συνέδριο GUADEC και τις τακτικές Βορειοαμερικάνικες συναντήσεις."
+"επιλέγονται από τους ίδιους τους συντελεστές που δουλεύουν στο GNOME. Αυτή"
+"η υποδομή βοηθάει στην οργάνωση των εκδόσεων, και χορηγεί το ετήσιο συνέδριο GUADEC και τις τακτικές Βορειοαμερικάνικες συναντήσεις."
 
 #: ../rnwhy.xml:114
 msgid "Licensing"
@@ -1548,15 +1424,11 @@ msgid ""
 "gnu.org/copyleft/lgpl.html\">LGPL</ulink> or similar license, so developing "
 "for the GNOME platform is 100% free of license fees, for developers of both "
 "Free and proprietary software."
-msgstr ""
-"'Ολες οι βιβλιοθήκες του  GNOME είναι κάτω από την άδεια χρήσης <ulink url=\"http://www."
-"gnu.org/copyleft/lgpl.html\">LGPL</ulink> ή κάτω από παρόμοια άδεια, και έτσι η ανάπτυξη"
-"εφαρμογών για το  GNOME είναι 100% ελεύθερη από δικαιώματα συμμετοχής, για προγραμματιστές"
-"ελεύθερου και κλειστού λογισμικού."
+msgstr "'Ολες οι βιβλιοθήκες του GNOME είναι διαθέσιμες κάτω από την άδεια χρήσης <ulink url=\"http://www.gnu.org/copyleft/lgpl.html\">LGPL</ulink> ή παρόμοια άδεια, και έτσι η ανάπτυξη εφαρμογών για το GNOME είναι 100% ελεύθερη από περιορισμούς αγοράς άδειας χρήσης, για προγραμματιστές του ελεύθερου και κλειστού λογισμικού."
 
 #: ../rnwhy.xml:125
 msgid "Support and Staying Power"
-msgstr "Υποστήριξη και ισχύς"
+msgstr "Υποστήριξη και Δύναμη για Συνέχεια"
 
 #: ../rnwhy.xml:127
 msgid ""
@@ -1564,11 +1436,7 @@ msgid ""
 "supported and developed GNOME for over five years), many of the biggest "
 "supporters of the Unix desktop are GNOME contributors, including HP, "
 "MandrakeSoft, Novell (through Ximian), Red Hat, and Sun Microsystems."
-msgstr ""
-"Το GNOME είναι εδώ, ενωμένο δυνατό. Εκτός από την ενεργή κοινότητα του GNOME"
-"(που υποστηρίζει και αναπτύσει το GNOME για περισσότερο από πέντε χρόνια), οι περισσότεροι"
-"μεγάλοι υποστηρικτές του Unix desktop είναι συντελεστές του GNOME contributors, όπως η HP, "
-"η MandrakeSoft, η Novell (μέσω Ximian), η Red Hat, και η Sun Microsystems."
+msgstr "Το GNOME είναι εδώ, ενωμένο και δυνατό. Εκτός από την ενεργή κοινότητα του GNOME (που υποστηρίζει και αναπτύσει το GNOME για περισσότερο από πέντε χρόνια), οι περισσότεροι μεγάλοι υποστηρικτές της επιφάνειας εργασίας Unix είναι συντελεστές του GNOME, όπως η HP, η MandrakeSoft, η Novell (μέσω Ximian), η Red Hat και η Sun Microsystems."
 
 #: ../rninstallation.xml:9
 msgid "Installation of GNOME 2.10"
@@ -1579,11 +1447,7 @@ msgid ""
 "For GNOME 2.10 we have a LiveCD, available from www.gnome.org. The LiveCD "
 "allows you to try a full GNOME desktop on Linux without installing anything "
 "on your hard drive. This is the best way to see for yourself what's new."
-msgstr ""
-"Για το  GNOME 2.10 έχουμε ετοιμάσει ένα LiveCD, που είναι διαθέσιμο από το www.gnome.org. "
-"Το LiveCD σας επιτρέπει να δοκιμάσετε την πλήρη επιφάνεια εργασίας του GNOME στο linux, χωρίς"
-"να χρειαστεί να εγκαταστήσετε κάτι στον σκληρό σας δίσκο. Αυτός ο τρόπος είναι ο καλύτερος"
-"να δείτε τι κανούργιο υπάρχει."
+msgstr "Για την προβολή του GNOME 2.10 έχουμε ετοιμάσει ένα LiveCD, που είναι διαθέσιμο από το www.gnome.org. Το LiveCD σας επιτρέπει να δοκιμάσετε την πλήρη επιφάνεια εργασίας του GNOME σε Linux, χωρίς να χρειαστεί να εγκαταστήσετε κάτι στον σκληρό σας δίσκο. Αυτός ο τρόπος είναι ο καλύτερος να δείτε τι κανούργιο υπάρχει."
 
 #: ../rninstallation.xml:13
 msgid ""
@@ -1592,8 +1456,7 @@ msgid ""
 "relatively quickly, and to release new versions soon that include GNOME 2.10."
 msgstr ""
 "Για πραγματική χρήση, προτείνουμε να εγκαταστήσετε τα επίσημα πακέτα, όπως"
-"εκείνα για τη διανομή σας. Οι διανομές πακετάρουν το GNOME 2.10 αρκετά γρήγορα,"
-"και εκδίδουν νέες εκδόσεις άμεσα ώστε να περιλάβουν το GNOME 2.10."
+"εκείνα από την διανομή σας. Οι εταιρίες διανομών ελεύθερου λογισμικού πακετάρουν το GNOME 2.10 σχετικά γρήγορα, και εκδίδουν νέες εκδόσεις άμεσα ώστε να περιλάβουν το GNOME 2.10."
 
 #: ../rninstallation.xml:15
 msgid ""
@@ -1606,9 +1469,8 @@ msgid ""
 msgstr ""
 "Αρκετοί προχωρημένοι χρήστες θέλουν να εγκαθιστούν το GNOME από τον πηγαίο"
 "κώδικα, ώστε να δοκιμάζουν τις τελευταίες εκδόσεις και να παρέχουν ανάδραση "
-"και βελτιώσεις. Για αυτούς συστήνουμε το ulink url=\"http://cipherfunk.org/garnome/"
-"\">GARNOME</ulink> ένα εργαλείο, για εγκατάσταση από τα εκδοθέντα tarballs, και<ulink "
-"url=\"http://www.freedesktop.org/Software/jhbuild\">το jhbuild</ulink>, για εγκατάσταση"
+"και βελτιώσεις. Για αυτούς συστήνουμε το εργαλείο <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</ulink>, για εγκατάσταση από τα εκδοθέντα tarballs, και το <ulink "
+"url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, για εγκατάσταση"
 "από το CVS."
 
 #: ../rnthanks.xml:8
@@ -1621,7 +1483,7 @@ msgid ""
 "but in addition to the folks mentioned above, a few contributors deserve "
 "special thanks for exceptional contributions toward making this release "
 "possible: TODO: Update this for 2.10, if we have time."
-msgstr "Οι συντελεστές που ετοίμασαν το GNOME είναι πάρα πολλοί για να τους αναφέρουμε ονομαστικά. Εκτός απο αυτούς που αναφέρονται παραπάνω ειδικές ευχαριστίες πρέπει να δοθούν σε αυτούς που έκαναν αυτή την έκδοση δυνατή:"
+msgstr "Οι συντελεστές που ετοίμασαν το GNOME είναι πάρα πολλοί για να τους αναφέρουμε ονομαστικά. Εκτός από αυτούς που αναφέρονται παραπάνω, ειδικές ευχαριστίες πρέπει να δοθούν σε αυτούς που έκαναν αυτή την έκδοση δυνατή:"
 
 #: ../rnthanks.xml:16
 msgid "Dennis Cranston for gnome-search-tool"
@@ -1637,7 +1499,7 @@ msgstr "Bill Haneman και Calum Benson για το εφαρμογίδιο κα
 
 #: ../rnthanks.xml:26
 msgid "Shailesh Mittal for IPv6 support"
-msgstr "Shailesh Mittal για την υποστήριξη IPv6 "
+msgstr "Shailesh Mittal για την υποστήριξη IPv6"
 
 #: ../rnthanks.xml:29
 msgid ""
@@ -1651,9 +1513,7 @@ msgstr ""
 msgid ""
 "Malcolm Tredinnick for settings for \"dont-proxy-for-this-domain\" in gnome-"
 "vfs"
-msgstr ""
-"Malcolm Tredinnick για τις ρυθμίσεις  \"dont-proxy-for-this-domain\" στο gnome-"
-"vfs"
+msgstr "Malcolm Tredinnick για τις ρυθμίσεις \"dont-proxy-for-this-domain\" στο gnome-vfs"
 
 #: ../rnthanks.xml:37
 msgid "Frank Worsley for gnome_vfs_url_show suport"
@@ -1663,13 +1523,11 @@ msgstr "Frank Worsley για την υποστήριξη gnome_vfs_url_show"
 msgid ""
 "Anders Carlsson - Convert file attributes from stringlists to bitmasks in "
 "Nautilus, and also .hidden file support"
-msgstr ""
-"Anders Carlsson -Για για τη μετατροπή γνωρισμάτων αρχείου από stringlists σε bitmasks στο "
-"Ναυτίλο, και ακόμα για την υποστήριξη  .κρυφών αρχείων"
+msgstr "Anders Carlsson - Για για την μετατροπή γνωρισμάτων αρχείου από stringlists σε bitmasks στο Ναυτίλο, και ακόμα για την υποστήριξη .κρυφών αρχείων"
 
 #: ../rnthanks.xml:44
 msgid "Glynn Foster - Nicer Nautilus bookmarks dialog"
-msgstr "Glynn Foster - για την βελτίωση του διαλόγου σελιδοδεικτών του Ναυτίλου"
+msgstr "Glynn Foster - Για την βελτίωση του διαλόγου σελιδοδεικτών του Ναυτίλου"
 
 #: ../rnthanks.xml:47
 msgid "Marco Pesenti Gritti - icon theme throbber support in Nautilus"
@@ -1677,55 +1535,48 @@ msgstr "Marco Pesenti Gritti - για την υποστήριξη στο Ναυ�
 
 #: ../rnthanks.xml:50
 msgid "Frederic Crozat - important Nautilus bugfixes"
-msgstr "Frederic Crozat - για τις σημαντικές διορθώσεις σφαλμάτων στο Ναυτίλο"
+msgstr "Frederic Crozat - Για τις σημαντικές διορθώσεις σφαλμάτων στο Ναυτίλο"
 
 #: ../rnthanks.xml:53
 msgid "Jrg Billeter and Wolfgang Pichler - worked on the multiroot tree sidebar"
-msgstr "Jrg Billeter and Wolfgang Pichler - για την δουλειά τους στην multiroot πλευρική στήλη"
+msgstr "Jrg Billeter and Wolfgang Pichler - Για την δουλειά τους στην multiroot πλευρική στήλη"
 
 #: ../rnthanks.xml:57
 msgid "Soren Sandmann - high-performance model for the Nautilus listview"
-msgstr "Soren Sandmann - για το μοντέλο υψηλής απόδοσης στην προβολή λίστας του Ναυτίλου"
+msgstr "Soren Sandmann - Για το μοντέλο υψηλής απόδοσης στην προβολή λίστας του Ναυτίλου"
 
 #: ../rnthanks.xml:60
 msgid ""
 "Johan Dahlin - file size and count for the Nautilus multi-file property "
 "dialog"
-msgstr ""
-"Johan Dahlin - για την μέτρηση μεγέθους αρχείων στον διάλογο ιδιοτήτων πολλαπλών αρχείων"
-"του Ναυτίλου"
+msgstr "Johan Dahlin - Για την μέτρηση μεγέθους αρχείων στον διάλογο ιδιοτήτων πολλαπλών αρχείων του Ναυτίλου"
 
 #: ../rnthanks.xml:64
 msgid ""
 "Bastien Nocera for use of the new samba library for smb support in gnome-vfs-"
 "extras, and also for DVD burning in nautilus-cd-burner"
-msgstr ""
-"Bastien Nocera για την χρήση της νέας βιβλιοθήκης samba για υποστήριξη smb support στο gnome-vfs-"
-"extras, και ακόμα στη εγγραφή  DVD στο nautilus-cd-burner"
+msgstr "Bastien Nocera - Για την χρήση της νέας βιβλιοθήκης samba για υποστήριξη smb στο gnome-vfs-extras, και ακόμα στη εγγραφή DVD στο nautilus-cd-burner"
 
 #: ../rnthanks.xml:68
 msgid "Ross Burton for write to cd context menu, bugfixes in nautilus-cd-burner"
-msgstr "Ross Burton για την συγγραφή του μενού περιεχομένου cd, και τις διορθώσεις στο nautilus-cd-burner"
+msgstr "Ross Burton - Για την συγγραφή του μενού περιεχομένου cd, και τις διορθώσεις στο nautilus-cd-burner"
 
 #: ../rnthanks.xml:72
 msgid "Bob Doan for cdrw blanking support in nautilus-cd-burner"
-msgstr "Bob Doan για την υποστήριξη cdrw blanking στο nautilus-cd-burner"
+msgstr "Bob Doan - Για την υποστήριξη σβησίματος επανεγγράψιμων CD στο nautilus-cd-burner"
 
 #: ../rnthanks.xml:75
 msgid ""
 "Christian Persch for plugging memory leaks, improving the window/tab "
 "communication code, cleaning up the encoding and languages implementation, "
 "speeding up the tabs menu updating in Epiphany"
-msgstr ""
-"Christian Persch για την βελτίωση σε memory leaks, την βελτίωση το κώδικα επικοινωνίας"
-"ανάμεσα στο παράθυρο/καρτέλα,την  βελτίωση της κωδικοποίηση και της εφαρμογής γλωσσών, "
-"και την επιτάχυνση των μενου καρτέλας στο Epiphany"
+msgstr "Christian Persch για την επίλυση διαρροών μνήμης, την βελτίωση του κώδικα επικοινωνίας ανάμεσα στα παράθυρο/καρτέλα,την βελτίωση της κωδικοποίηση υλοποίησης γλωσσών, και την επιτάχυνση στην ανανέωση των μενου καρτέλας στο Epiphany"
 
 #: ../rnthanks.xml:81
 msgid ""
 "David Bordoley for work in Epiphany's user interface, ensuring HIG "
 "compliance, cleanliness, and general usability."
-msgstr "David Bordoley για την δουλειά του στην διεπιφάνεια χρήσης του Epiphany, που διασφάλισε συμβατότητα HIG,καθαρότητα, και χρηστικότητα."
+msgstr "David Bordoley - Για την δουλειά του στην διεπιφάνεια χρήσης του Epiphany, που διασφάλισε την συμμόρφωση με HIG, την καθαρότητα και χρηστικότητα."
 
 #: ../rnthanks.xml:85
 msgid ""
@@ -1733,29 +1584,25 @@ msgid ""
 "and drop of urls of links to bookmarks toolbar and adding nice touches to "
 "the bookmarks views like sorting"
 msgstr ""
-"Xan Lopez για την βελτίωση του Epiphany, συμπεριλαμβανομένου το drag "
-"and drop urls από δεσμούς στη εργαλειοθήκη σελιδοδεικτών και την προσθήκη"
+"Xan Lopez - Για την βελτίωση του Epiphany, συμπεριλαμβανομένου το drag "
+"and drop URL από συνδέσμους στη εργαλειοθήκη σελιδοδεικτών και την προσθήκη"
 "της ταξινόμησης σελιδοδεικτών"
 
 #: ../rnthanks.xml:90
 msgid "Steve Chaplin, for making gnomine really shine"
-msgstr "Steve Chaplin, που έκανε το gnomine να λάμπει"
+msgstr "Steve Chaplin - Που έκανε το gnomine να λάμπει"
 
 #: ../rnthanks.xml:93
 msgid ""
 "George Lebl, for changes that desensitize preferences in various apps if an "
 "administrator has locked down the preference's Gconf key"
-msgstr ""
-"George Lebl,για τις αλλαγές που απελευθέρωσαν τις προτιμήσεις σε διάφορες εφαρμογές αν"
-"κάποιος διαχειριστής είχε κλειδώσει το κλειδί προτιμήσεων Gconf"
+msgstr "George Leb - Για τις αλλαγές που απελευθέρωσαν τις προτιμήσεις σε διάφορες εφαρμογές αν κάποιος διαχειριστής είχε κλειδώσει το κλειδί προτιμήσεων Gconf"
 
 #: ../rnthanks.xml:97
 msgid ""
 "Jeroen Zwartepoorte, Eric Ritezel, James Willcox and Gustavo Giraldez for "
 "their contributions to gedit and gtksourceview"
-msgstr ""
-"Jeroen Zwartepoorte, Eric Ritezel, James Willcox και Gustavo Giraldez για τις συνεισφορές τους "
-"στο gedit και το gtksourceview"
+msgstr "Jeroen Zwartepoorte, Eric Ritezel, James Willcox και Gustavo Giraldez - Για τις συνεισφορές τους στα gedit και gtksourceview"
 
 #: ../rnthemes.xml:2
 msgid "Themes"
@@ -1766,6 +1613,10 @@ msgstr "Θέματα"
 #: ../rnthemes.xml:0
 msgid "translator-credits"
 msgstr ""
-"Νίκος Χαρωνιτάκης <frolix68@yahoo.gr>\n"
-"Κώστας Παπαδήμας <pkst@gnome.org>"
+"Το κείμενο έχει μεταφραστεί από τους:\n"
+"Νίκο Χαρωνιτάκη <frolix68@yahoo.gr>\n"
+"Κώστα Παπαδήμα <pkst@gnome.org>\n"
+"Σίμο Ξενιτέλλη <simos@gnome.org>\n"
+"\n"
+"Επισκεφθείτε τον <ulink url=\"http://www.gnome.gr/\">δικτυακό τόπο της ομάδας εξελληνισμού του GNOME</ulink>"
 
