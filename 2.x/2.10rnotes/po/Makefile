@@ -27,7 +27,7 @@ xml-%: %.po
 			(xml2po -o $@/$$basename -p $< $$i && echo "ok") || echo "error"; \
 		done && \
 		mkdir -p "$@/figures" && \
-		for i in $(wildcard ../figures/*); do \
+		for i in $(wildcard ../figures/*.png); do \
 			basename=`basename $$i`; \
 			echo "Copying original figure $$basename..."; \
 			if [ ! -f "$@/figures/$$basename" ]; then \

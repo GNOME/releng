@@ -1,5 +1,9 @@
 2005-03-06  Danilo Šegan  <dsegan@gmx.net>
 
+	* Makefile (xml-%): Copy only *.png files.
+
+2005-03-06  Danilo Šegan  <dsegan@gmx.net>
+
 	* Makefile (xml-%): Copy original figures if they're missing.
 
 2005-03-06  Vincent van Adrighem  <adrighem@gnome.org>
