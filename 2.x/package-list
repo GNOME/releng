@@ -8,16 +8,16 @@
 
 <section title="Developer Platform">
 GConf			=		1.1.5		frozen			Havoc Pennington <hp@redhat.com>
-ORBit2			=		2.3.98		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
-at-spi			=		0.0.3		not frozen		Bill Haneman <Bill.Haneman@sun.com>
+ORBit2			=		2.3.100		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+at-spi			=		0.0.4		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 atk			=		0.7		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 audiofile		-		0.2.3		frozen			Michael Pruett <mpruett@sgi.com>
 bonobo-activation	=		0.9.3		frozen			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
 bonobo-config		=		0.106.0		frozen			Dietmar Maurer <dietmar@ximian.com>
 esound			-		0.2.23		frozen			Eric Mitchell <ericmit@ix.netcom.com>
-gail			=		0.3		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
+gail			=		0.4		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
 glib			=		1.3.11		frozen			Tim Janik <timj@redhat.com>, Owen Taylor <otaylor@redhat.com>
-gnome-common		=		1.2.3		frozen			Anders Carlsson <andersca@gnu.org>
+gnome-common		=		1.2.4		frozen			Anders Carlsson <andersca@gnu.org>
 gnome-mime-data		=		1.0.0		no API			Seth Nickell <snickell@stanford.edu>
 gnome-vfs		=		1.9.4		frozen			Ian McKellar <yakk@yakk.net>
 gtk+			=		1.3.11		frozen			Owen Taylor <owen@redhat.com>, Tim Janik <timj@gtk.org>
@@ -25,18 +25,18 @@ gtk-doc			=		0.9		-			Owen Taylor <owen@redhat.com>
 intltool		=		0.12		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
 libIDL			=		0.7.1		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 libart_lgpl		=		2.3.7		-			Raph Levien <raph@acm.org>
-libbonobo		=		1.107.0		frozen			Michael Meeks <michael@ximian.com>
-libbonoboui		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
+libbonobo		=		1.108.0		frozen			Michael Meeks <michael@ximian.com>
+libbonoboui		=		1.108.0		frozen			Michael Meeks <michael@ximian.com>
 libghttp		gnome-http	1.0.9		* to remove if better method found	Justin Maurer <justin@slashdot.org>
-libglade		=		1.99.3		not frozen		James Henstridge <james@daa.com.au>
-libgnome		=		1.107.0		frozen			Anders Carlsson <andersca@gnu.org>
-libgnomecanvas		=		1.107.0		frozen			Anders Carlsson <andersca@gnu.org>
-libgnomeprint		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
-libgnomeprintui		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
-libgnomeui		=		1.106.0		frozen			Anders Carlsson <andersca@gnu.org>
-libxml2			gnome-xml	2.4.11		frozen			Daniel Veillard <veillard@redhat.com>
-libxslt			=		1.0.8		frozen			Daniel Veillard <veillard@redhat.com>
-linc			=		0.1.10		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+libglade		=		1.99.5		frozen			James Henstridge <james@daa.com.au>
+libgnome		=		1.108.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnomecanvas		=		1.108.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnomeprint		=		1.108.0		-			Lauris Kaplinski <lauris@ximian.com>
+libgnomeprintui		=		1.108.0		-			Lauris Kaplinski <lauris@ximian.com>
+libgnomeui		=		1.108.0		frozen			Anders Carlsson <andersca@gnu.org>
+libxml2			gnome-xml	2.4.12		frozen			Daniel Veillard <veillard@redhat.com>
+libxslt			=		1.0.9		frozen			Daniel Veillard <veillard@redhat.com>
+linc			=		0.1.11		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 pango			=		0.22		frozen			Owen Taylor <owen@redhat.com>
 pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
@@ -79,22 +79,23 @@ panel			=		-		_v_ and the sun hackers working on it	-
 
 <section title="Desktop Applets (gnome-core/applets)" cvsbase="gnome-core/applets">
 cdplayer		=		-		-			-
-charpick		=		-		-			-
+charpick		=		-		ported, not working	-
 clock			=		-		ported			-
 desk-guide		=		-		new libwnck-based code	-
-fifteen			=		-		-			-
+fifteen			=		-		ported			-
 fish			=		-		ported			-
-geyes			=		-		-			-
+geyes			=		-		ported, not working, imlib depends	-
 gol			=		-		-			-
 gticker			=		-		-			-
-gweather		=		-		-			-
+gweather		=		-		gnome-http depends	-
 mailcheck		=		-		-			-
 mini-commander		=		-		-			-
-mixer			=		-		ported by rhult		-
+mixer			=		-		ported			-
+modemlights		=		-		ported			-
 odometer		=		-		-			-
-screenshooter		=		-		tom said he'd port	-
+screenshooter		=		-		ported			-
 tasklist		=		-		new libwnck-based code	-
-whereami		=		-		-			-
+whereami		=		-		ported			-
 </section>
 
 <section title="Desktop Utils (gnome-utils)" cvsbase="gnome-utils">
@@ -121,17 +122,17 @@ xchat			-		-		-			-
 </section>
 
 <section title="Language Bindings">
-gnome-python		-		-		-			James Henstridge <james@daa.com.au>
+gnome-python		-		1.99.5		-			James Henstridge <james@daa.com.au>, Matt Wilson <msw@redhat.com>
 gnomemm			-		-		-			-
 gtkmm			-		-		-			-
 libsigc++		-		-		-			-
-pygtk			-		1.99.4		-			James Henstridge <james@daa.com.au>
+pygtk			-		1.99.5		not frozen		James Henstridge <james@daa.com.au>
 </section>
 
 <section title="Developer Carpet Bag">
 ghex			-		-		-			-
 glade			-		-		-			-
-memprof			=		-		crash on startup, blocking on libglade/gnomeui		Kristian Rietveld <kristian@planet.nl>
+memprof			=		0.5		works, but port is not completely done yet		Owen Taylor <otaylor@redhat.com>, Kristian Rietveld <kristian@planet.nl>
 anjuta			-		-		-			-
 </section>
 
