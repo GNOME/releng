@@ -17,7 +17,7 @@
     </para>
     <para>
      The file manager now also works more smoothly with other applications, such as
-     Mozilla and Firefox, and has more navigation options. TODO: What options, exactly?
+     Mozilla and Firefox, (TODO: Is this just drag-and-drop? If so, let's just say that.) and has more navigation options. TODO: What options, exactly? 
     </para>
 
     <para>In addition, there are many small changes that demonstrate GNOME's attention to detail. For instance,
@@ -54,6 +54,12 @@
     </screenshot>
   </figure -->
   
+  </sect3>
+
+  <sect3 id="rnmetacity"><title>Window Behaviour</title>
+    <para>GNOME &version; has a new ability that you might not notice at first, implementing another cross-desktop Freedesktop.org standard.</para>
+    <para>In the past, while typing something into one application when suddenly your instant messenger offered a chat request from your friend, your words would be typed into the chat window. Imagine if you were typing your password at the time. This should no longer happen in GNOME &version;.</para>
+    <para>In addition, if an application takes a long time to start, your work will not be interrupted when it finally opens its window.</para>
   </sect3>
 
 </sect2>

@@ -1,3 +1,14 @@
+2005-02-22  Murray Cumming  <murrayc@murrayc.com>
+
+	* rndesktop.xml: Mention metacity focus-stealing prevention.
+	* rnapplets.xml: Mention new Places and Desktop menus, replacing 
+	Actions, and mention freedesktop menu spec.
+	* rninstallation.xml: Remove the build order, because it is never 
+	quite correct, and its far from enough information to build it, and 
+	even if it was people would still have unique problems. Pointed 
+	people to garnome and jhbuild instead. The LiveCD gets first mention, 
+	of course.
+
 2005-02-21  Murray Cumming  <murrayc@murrayc.com>
 
 	*  press_release/gnome210_press_release.sxw: Changes based on 

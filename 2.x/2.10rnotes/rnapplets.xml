@@ -8,11 +8,14 @@
   <title>Panel Items</title>
 
   <para>
-   GNOME &version; includes major improvements to its panel items (also known as applets), providing new features, and better integration with the rest of the desktop.
+   GNOME &version; includes major improvements to its panel items (also known as applets), providing new features and better integration with the rest of the desktop.
   </para>
+  <para>The most visible change is the removal of the Actions panel menu and the addition of Places and Desktop menus. These provide fast access to the items you use most often, without navigating through sub-menus. For instance, the Places menu lists your home folder, your computer, networked servers, and the search feature. In the Desktop menu, you'll find your Preferences and Administration control panels, Log Out, and Help.</para>
 
+  <para>All of the panel menus are now defined by the cross-platform Freedesktop.org menu specification, so 3rd-party software may add itself to the Applications menu without even knowing about GNOME.</para>
+ 
   <para>
-   Most applets can now be partly transparent, when the panel itself is transparent.
+   Also, most applets can now be partly transparent, when the panel itself is transparent.
   </para>
  
   <sect3 id="rnapplets-modemlights">
