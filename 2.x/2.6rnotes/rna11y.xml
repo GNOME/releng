@@ -2,7 +2,7 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "figures/">
-<!ENTITY version "2.4">
+<!ENTITY version "2.6">
 ]>
 <sect2 id="rna11y">
   <title>Accessibility</title>
@@ -12,13 +12,13 @@
   has been a key goal and focus of the GNOME 2 desktop platform, and successive
   releases have included increasing support for accessibility.  With &version;,
   users will be able to evaluate GNOME with assistive technolgies.</para>
-  <para>The editions of Gnopernicus and GOK that will be part of GNOME 2.4 are
+  <para>The editions of Gnopernicus and GOK that will be part of GNOME &version; are
   well along in their development cycle; however the GNOME accessibility
   community &mdash; and specifically BAUM and the University of Toronto Adaptive
   Technology Resource Centre who are the maintainers of these projects &mdash;
   feel that Gnopernicus and GOK need further testing and development before they
   are ready for production use by people with disabilities. By including
-  Gnopernicus and GOK in GNOME 2.4 we will make it easy for a large audience to
+  Gnopernicus and GOK in GNOME &version; we will make it easy for a large audience to
   explore these assistive technologies, and provide feedback to their
   developers.  Essentially this is a large, public beta test of the GNOME
   desktop assistive technologies.</para>

@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4">
-<!ENTITY oldversion "2.2">
+<!ENTITY version "2.6">
+<!ENTITY oldversion "2.4">
+<!ENTITY nextversion "2.8">
 <!ENTITY urlfiguresbase "figures/">
 ]>
 
@@ -47,12 +48,12 @@
 
     <para>Of course GNOME &version; includes all of the improvements made in
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
-    url="http://www.gnome.org/start/2.2/notes/">release notes</ulink>.</para>
+    url="http://www.gnome.org/start/2.4/notes/">release notes</ulink>.</para>
 
     <para>The Desktop release contains all the applications needed
 	to provide basic user functionality. Major applications
 	such as <application>Gnumeric</application> and
-	<application>Evolution</application> also are available, but are
+	<application>Evolution</application> are also available, but are
 	developed in parallel on their own release cycle rather than
 	being included in the core GNOME release.</para>
 
@@ -119,28 +120,10 @@
     <para>
       <itemizedlist>
         <listitem>
-          <para>The <application>Stock Ticker</application> applet is unable
-          to download data in GNOME 2.4.0.</para>
+          <para></para>
         </listitem>
         <listitem>
-          <para><application>GPDF</application> does not support printing in
-          GNOME 2.4.0. It is planned to add this functionality later in
-          the GNOME 2.4 release series.</para>
-        </listitem>
-        <listitem>
-          <para>The <application>Panel</application> stores configuration in
-          format different from previous versions of GNOME. The configuration is
-          migrated to the new format when the <application>Panel</application>
-          first starts. After that, changes made to the configuration in GNOME
-          2.4 will not be reflected in older GNOME sessions and vice versa.</para>
-        </listitem>
-        <listitem>
-          <para>The desktop is now located in the directory Desktop, instead of
-          .gnome-desktop. If you are running GNOME 2.4 in parallel with an
-          older version of GNOME, you should place a symlink to the Desktop
-          directory inside the .gnome-desktop directory so that you can
-          access your new desktop from an old version of GNOME.
-          </para>
+          <para></para>
         </listitem>
       </itemizedlist>
     </para>
@@ -151,13 +134,10 @@
     <sect1 id="rnlookingahead">
 	 <title>Looking to GNOME 2.6 and Beyond</title> 
 	      
-
 	      <para>GNOME operates on a time-based release philosophy, an
-		attempt to continuously provide the best of our hackers' efforts
+		attempt to continuously provide the best of our developers' efforts
 		to users as quickly as we can. Six months after GNOME &version;,
-		we anticipate that GNOME 2.6 will feature the next release of
-		GTK+, introducing new file selector and "combo" widgets,
-		powerful menu and toolbar widgets and further advances in
+		we anticipate that GNOME &nextversion; will feature TODO and further advances in
 		accessibility, usability and internationalization.</para>
 </sect1>
   <sect1 id="rngettinginvolved">
@@ -194,8 +174,6 @@
 <xi:include href="rnthanks.xml"/>
 	    <appendix id="rncredits">
 	      <title>Credits</title>
-	      <para>These release notes were assembled by John Fleck with
-	      contributions from Dave Camp, Sayamindu Dasgupta, Murray Cumming,
-	      Andrew Sobala, Luis Villa, Jeff Waugh and many more.</para>
+	      <para>These release notes were assembled by TODO and many more.</para>
 	    </appendix>
 </article>

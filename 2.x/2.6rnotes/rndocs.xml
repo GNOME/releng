@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4">
+<!ENTITY version "2.6">
 ]>
 <sect1 id="rndocs">
 

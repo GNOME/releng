@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4">
+<!ENTITY version "2.6">
 <!ENTITY urlfiguresbase "figures/">
 ]>
 <sect1 id="rnwhy">
@@ -50,39 +50,25 @@
     <para>
       Beyond making GNOME easier to use for the average computer user,
           GNOME has also taken the lead in making the Unix desktop
-          accessible to those with disabilities. In GNOME 2.4, the
-          accessibility framework that debuted in GNOME 2.0 has been
-          joined by award-winning accessibility tools like the GNOME
-          Onscreen Keyboard (gok) and Gnopernicus, which allows for
+          accessible to those with disabilities. The GNOME accessibility framework 
+          is used by our award-winning accessibility tools like the GNOME
+          Onscreen Keyboard (gok) and Gnopernicus. These allow 
           the use of braille readers, voice synthesizers, and pointing
           devices. Many governments, including the US government,
           require comprehensive accessibility support in software they
           purchase. After dozens of person-years of effort, GNOME is
-          the only free software desktop to address this issue.
+          the only free software desktop to thoroughly address this issue.
         </para>
       
     </sect2>
 
-<!-- I'm not sure that this is true of GNOME 2.4, vs. say 2.0
-    <sect2 id="rnwhy-performance">
-      <title>Improved performance</title>
-      
-        <para>
-          GNOME 2.0 and later are smaller and faster than previous versions of
-          GNOME, bucking the common trend in computer software in which the
-          latest versions require ever more resources. The file manager in
-          particular continues to improve, as it now uses faster techniques for
-          rendering and icon creation.
-        </para>      
-    </sect2>
--->
     <sect2 id="rnwhy-interface">
        <title>Interface Stability</title>
        <para>
-       The key libraries in the GNOME Development Platform carry
+       The core libraries in the GNOME Development Platform carry
        guarantees of API and ABI stability. This means that 'porting'
        an application from GNOME 2.0 to GNOME &version; 
-       involves exactly nothing, if a developer does not wish to
+       involves no work, if a developer does not wish to
        take advantage of new functionality in the libraries.
        </para>
     </sect2>
@@ -106,7 +92,7 @@
     <sect2 id="rnwhy-organization">
     <title>Organization</title>
     <para>
-      GNOME 2.4 is the second 'time-based' GNOME release. Because
+      GNOME 2.6; is the third 'time-based' GNOME release. Because
       GNOME releases on a regular schedule, contributors know that
       their contributions will be in a stable release and on the
       desktops of users everywhere within a short, predictable period
@@ -119,8 +105,8 @@
       GNOME, while at the same time ensuring the independence of the
       board by ensuring that they are selected by the developers who
       work on GNOME. This infrastructure helps organize releases,
-      sponsors the annual GUADEC conference, and the board hopes to
-      extend that support to regular North American summits as well.
+      and sponsors the annual GUADEC conference and the regular North 
+      American summits.
     </para>
     </sect2>
 
