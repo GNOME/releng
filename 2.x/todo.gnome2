@@ -262,25 +262,25 @@ Clean up build.
 ## gnome-applets 
 ##############################################################################################
 <application name="gnome-applets" authors="kvf101@psu.edu" link="">
-<item done="no">
+<item done="yes">
 battery - to be replaced by battstat. Looks like porting has begun, but I
 don't know how far
 </item>
-<item done="no">
+<item done="yes">
 charpick - ported but crashes. It looks like it's an issue with global
 variables and how the bonobo applets work (I think this is an issue with
 other applets also). Prefs not ported.
 </item>
-<item done="no">
+<item done="yes">
 gkb-new: needs prefs porting.
 </item>
-<item done="no">
+<item done="yes">
 gweather - not ported at all. This needs porting from ghttp to gnome-vfs.
 </item>
-<item done="no">
+<item done="yes">
 gtik - not ported at all. This needs porting from ghttp to gnome-vfs.
 </item>
-<item done="no">
+<item done="yes">
 mini-commander - needs prefs. It runs and works but I think it probably
 has a few bugs
 </item>
@@ -288,12 +288,8 @@ has a few bugs
 mixer - ported, but needs to respond to panel background changes to get
 transparency right.
 </item>
-<item done="no">
+<item done="yes">
 multiload - mostly ported, but prefs dialog needs completion
-</item>
-<item done="no">
-screenshooter - The zillion prefs need porting. This applet could just
-call the panel screenshooter app
 </item>
 <item done="no">
 Only multiload passes the DISABLE_DEPRECATED flags. The good part is
@@ -406,7 +402,7 @@ CDDBSlave2 has problems with activation.
 ## gnome-utils
 ##############################################################################################
 <application name="gnome-utils" authors="jirka@5z.com, kvf101@psu.edu" link="">
-<item done="no">
+<item done="yes">
 Make distcheck.
 </item>
 <item done="no">
