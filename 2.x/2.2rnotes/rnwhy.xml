@@ -1,0 +1,75 @@
+
+    <title>Why GNOME?</title>
+
+    <para>
+  [FIXME where to insert this section?]
+    </para>
+   
+    <para>
+  Why choose GNOME over other desktop environments? Here are some of the reasons
+  we work on GNOME.
+  <variablelist>
+    <varlistentry>
+      <term>Usability.</term>
+      <listitem>
+        <para>
+          GNOME is one of the few open source projects to take a stand for end
+          user usability over geeky hyper-configurability.  Our <ulink
+          url="http://developer.gnome.org/projects/gup/hig/"> User Interface
+          Guidelines</ulink>, developed by a team of UI professionals, are the
+          most complete guidelines yet from the open source community. [FIXME
+          screenshot of preferences:///]
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Accessibility.</term>
+      <listitem>
+        <para>
+          Many governments, including the US government, require comprehensive
+          accessibility support in software they purchase.  After dozens of
+          person-years of effort, GNOME is the only free software desktop to
+          address this issue (with nice side effects for all users, such as full
+          keyboard navigation).
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Performance.</term>
+      <listitem>
+        <para>
+          GNOME 2.0 and 2.2 are smaller and faster than previous versions 
+          of GNOME, a welcome trend.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Applications.</term>
+      <listitem>
+        <para>
+          Popular applications such as Mozilla, Galeon, Evolution, OpenOffice, 
+          GAIM, X-Chat, XMMS, Gnumeric, AbiWord, and more are based on 
+          GTK+, or affiliated with the GNOME Project via member companies.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Licensing.</term>
+      <listitem>
+        <para>
+          Developing for the GTK+ platform is 100% free of license fees.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Support.</term>
+      <listitem>
+        <para>
+          Active contributors to GNOME development include Red Hat, 
+          Sun Microsystems, and Ximian, all established experts 
+          who can help with your enterprise UNIX or Linux deployment.
+        </para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+    </para>
