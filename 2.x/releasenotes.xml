@@ -462,6 +462,9 @@
 			<para>libxslt</para>
 		  </listitem>
 		  <listitem>
+			<para>intltool</para>
+		  </listitem>
+		  <listitem>
 			<para>scrollkeeper</para>
 		  </listitem>
 		  <listitem>
@@ -496,9 +499,6 @@
 		  </listitem>
 		  <listitem>
 			<para>ORBit2</para>
-		  </listitem>
-		  <listitem>
-			<para>intltool</para>
 		  </listitem>
 		  <listitem>
 			<para>bonobo-activation</para>

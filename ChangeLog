@@ -1,3 +1,7 @@
+2002-09-09  Steve Fox  <drfickle@k-lug.org>
+	
+	* 2.x/g2releasenotes.xml: scrollkeeper requires intltool.
+
 2002-07-08  Glynn Foster  <glynn.foster@sun.com>
 
 	* 2.x/menuediting.xml: Fix to avoid making incorrect statements.
