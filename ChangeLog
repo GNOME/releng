@@ -1,5 +1,12 @@
 2003-10-12  Bastien Nocera  <hadess@hadess.net>
 
+	* single_module/tools/README.txt: upd
+	* single_module/tools/list_translators.pl: added Perl version
+	* single_module/tools/list_translators.sh: forgot to match "_" for
+	languages like zh_TW
+
+2003-10-12  Bastien Nocera  <hadess@hadess.net>
+
 	* single_module/tools/list_translators.sh: that's one argument needed
 	not 2
 
