@@ -5,7 +5,7 @@
 ]>
 <article id="intro">
   <articleinfo>
-    <title>Draft GNOME2 Release Notes</title>
+    <title>GNOME2 Release Notes</title>
   </articleinfo>
   <sect1>
     <title>Introduction</title>
@@ -1261,7 +1261,7 @@ release. It will be fixed and re-enabled in the 2.0.1 release. In the
 meantime, a number of related bugs are filed, including <ulink
 		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>, <ulink
 		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73773">73773</ulink>, <ulink
-											      url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>, and <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>. Details on the menu architecture and tips for manual editing of menus can be found at <xref linkend="menuediting" />.
+											      url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>, and <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>. Details on the menu architecture and tips for manual editing of menus can be found <ulink url="http://www.gnome.org/start/2.0/menuediting.html">here</ulink>.
       </para>
     </sect2>
     <sect2>
@@ -1329,189 +1329,5 @@ In order to simplify sawfish code and user interface, viewports have
 							  url="http://developer.gnome.org/documents/joining-gnome/index.html">here</ulink>. 
     </para>
   </sect1>
-  <appendix id="menuediting">
-    <title>Menu Editing</title>
-    <sect1 id="introduction">
-      <title>Introduction</title>
-      <para>
-	Menu editing in the GNOME 2 desktop has undergone a large amount of re-work
-	to move to using <ulink
-				url="http://developer.gnome.org/doc/API/gnome-vfs/">gnome-vfs</ulink>, the file system abstraction library and
-	the implementation of a <ulink url="http://www.freedesktop.org">shared
-	vfolder spec</ulink> between GNOME and other
-	desktops for the X Window System. 
-      </para>
-      <para>
-	The menus in GNOME are based on a collection of <ulink
-									      url="http://www.freedesktop.org/standards/desktop-entry-spec/desktop-entry-spec.html">.desktop files</ulink>
-	arranged in a suitable  order depending on their contents.  For GNOME
-	1.4, there were 2 main problems with the  way these .desktop files were
-	handled:
-      </para>
-      <sect2 id="nostandardlocation">
-	<title>No Standard Location</title>
-	<para>
-	  With no standard location, 3rd party application developers do not
-	  know where to install their .desktop files for them to be picked up by
-	  the menu. Many distributions have their own idea of where this
-	  location should be, creating a large amount of unecessary
-	  inconsistency and heartache trying to integrate your application on
-	  various distributions.
-	</para>
-      </sect2>
-      <sect2 id="menustructureproblem">
-	<title>Structure of menu is set by the location on disk</title>
-	<para>
-	  With a set location, and consequently a set menu structure, it is not
-	  possible to change the layout of the menus without adversely affecting
-	  3rd party application developers. This inflexibility has bitten many
-	  people in the past.
-	</para>
-      </sect2>
-    </sect1>
-    <sect1 id="howdoesitwork">
-      <title>How Does It All Work?</title>
-      <para>
-	The menu system, as mentioned in the previous section, is based on
-	gnome-vfs using a  'vfolder' mechanism. Menu vfolders aren't much unlike
-	Evolution's mail vfolders in that they filter out the menu items, in
-	this case the .desktop files, according to their category.
-      </para>
-      <para>
-	The vfolders are based around <ulink
-					     url="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-vfs/doc/vfolder-info-spec.dtd&amp;rev=&amp;root=/cvs/gnome">.vfolder-info files</ulink>, which are xml
-	based. In this  file you specify how your menu should filter the
-	.desktop files in terms of  order, category, whether it should include
-	optional .desktop file locations, omit  certain .desktop files and many
-	other rules.
-      </para>
-      <para>
-	Each menu is based on a .directory file, which for all intensive
-      purposes is another .desktop file, and associating .order file which is
-      optional if you have no sub menus.
-      </para>
-      <para>
-	The contents of a .order file might be something like -
-	<programlisting>
-	Applications
-	Development
-	Games
-	Graphics
-	</programlisting>
-	where each entry is a link to another .directory file.
-      </para>
-      <para>
-	With the introduction of this mechanism, it has been necessary to
-	introduce 2 new keys to the .desktop file format -
-      </para>
-      <sect2 id="categories">
-	<title>Categories</title>
-	<para>
-	  This key describes the application and it's potential position within
-							    the menus. It is based on a set of distinct, non free form, <ulink
-							    url="http://www.freedesktop.org/standards/FIXME/vfolder-spec.html">keywords</ulink>.</para>
-	<para>
-	  For example, an application like GNOME Calculator would have the
-	  following in its .desktop - 
-	  <programlisting>
-	Categories=Application;Utility;
-	  </programlisting>
-	</para>
-
-      </sect2>
-      <sect2 id="showonlyin">
-	<title>ShowOnlyIn</title>
-	<para>
-	  This optional key is used when some applications is desktop specific
-	  eg. GNOME Panel Preferences.
-	</para>
-      </sect2>
-   </sect1>
-    <sect1 id="practicalities">
-      <title>Making It Work</title>
-      <para>
-	<warning>
-	  <para>
-	    The following is included only for benefit of system administrators
-	    and others who need fine-grained control over menu
-	    configurations. It is not supported.
-	  </para>
-	</warning>
-	The standard default location for .desktop files is
-	/usr/share/applications, or if that is not available
-	$prefix/share/applications. The best advice is to look at the existing
-	examples of the various files and try to copy by example.
-      </para>
-
-      <sect2 id="addentries">
-	<title>To Add Menu Entries</title>
-	<para>
-	  Create a .desktop file with 'Categories- Cre' key and place in the
-	  appropriate location.
-	</para>
-	<para>
-	  Restart the panel.
-	</para>
-      </sect2>
-      <sect2 id="removeentries">
-	<title>To Remove Menu Entries</title>
-	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info or
-	  preferences.vfolder-info to 
-	  include an &lt;Exclude&gt; &lt;/Exclude&gt; entry for the appropriate
-	  .desktop file.
-	</para>
-	<para>
-	  Restart the panel.
-	</para>
-      </sect2>
-      <sect2 id="changeorderapps">
-	<title>To change the order of the 'Applications' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Root.order.
-	</para>
-      </sect2>
-      <sect2 id="changeorderprefs">
-	<title>To change the order of the 'Desktop Preferences' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Settings.order
-	</para>
-      </sect2>
-      <sect2 id="removeaddsubmenus">
-	<title>To change the order of the 'Desktop Preferences' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Settings.order
-	</para>
-      </sect2>
-      <sect2 id="remaddsubmenuapps">
-	<title>To remove/add submenus in the 'Applications' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Root.order
-	</para>
-	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info.
-	</para>
-      </sect2>
-      <sect2 id="createnewsubresearchapp">
-	<title>To create a new submenu 'Research' in the 'Applications' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Root.order to include 'Research'
-	</para>
-	<para>
-	  Add $prefix/share/gnome/vfolders/Research.directory
-	</para>
-	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info
-	</para>
-      </sect2>
-    </sect1>
-    <sect1 id="additionalinfo">
-      <title>Additional Information</title>
-      <para>
-	Additional details on manual editing of menus can be found <ulink
-									  url="http://www.redtux.demon.co.uk/docs/gnome_menu_edit_doc.20_6.txt">
-									  here</ulink>.
-      </para>
-    </sect1>
-  </appendix>
+  
 </article>
