@@ -18,37 +18,54 @@
 <article>
   <articleinfo>
     <title>GNOME &version; Release Notes</title>
+    <abstract>
+      <title>Welcome to GNOME &version;</title>
+      <para>This is the abstract.</para>
+    </abstract>
   </articleinfo>
   <sect1 id="rnintroduction">
     <title>Introduction</title>
     <para>The GNOME &version; Desktop and Platform release is the latest version
-    of the popular, multi-platform and free desktop environment.</para>
-    <para>GNOME is supported on a variety of platforms, including GNU/Linux
-    (more commonly referred to as Linux), Solaris (tm) Operating Environment,
-    HP-UX, BSD and Apple's Darwin. The user interface boasts powerful features
-    such as high-quality smooth text rendering and first class
+    of the popular, multi-platform free desktop environment.</para>
+    <para>GNOME runs on a variety of platforms, including GNU/Linux (commonly
+    called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes
+    powerful features such as high-quality smooth text rendering and first class
     internationalization and accessibility support, including support for
     bi-directional text.</para>
-    <para>GNOME &version; builds on the excellent GNOME 2.0.x releases, featuring
+    <para>GNOME &version; builds on the successful GNOME 2.0.x releases, with
     enhanced font rendering using font-config and Xft technology, improved
-    usability and theme support and a host of new utilities and
-    applications. GNOME &version; also brings the first appearance of a new
-    multimedia framework, called GStreamer, into the desktop.</para>
-    <para>GNOME is part of the GNU Project, and is free software.</para>
+    usability and theme support and new utilities and
+    applications. GNOME &version; also brings a new multimedia framework,
+      <application>GStreamer</application>, to the desktop.</para>
+    <para>GNOME is part of the GNU Project, and is <ulink
+    url="http://www.fsf.org/philosophy/free-sw.html">free
+    software</ulink>free.</para>
   </sect1>
 
   <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
-    <para>Building on the excellent groundwork in the GNOME 2.0.x releases, we spent
-    6 months improving usability, performance and
-    accessibility support. We also added new functionality, including new
-    applications, producing a very feature-rich GNOME 2.2 desktop. You can read about these new features in the next few sections.</para>
+    <para>We spent the six months Since the GNOME 2.0 release improving
+    usability, performance and accessibility support. We also added new
+    functionality, including new applications, producing a feature-rich
+    GNOME 2.2 desktop.</para>
 
-    <para>GNOME is now even more user-friendly yet complete for both everyday users and experienced developers. We have tried to avoid unnecessary complications or obscure features and hope that GNOME 2.2 demonstrates a clear, unified vision.</para>
+    <para>GNOME provides a usable environment that "just works" for everyday
+    users, without excess complexity, while at the same time providing the rich
+    flexibility experienced developers demand. We have tried to avoid
+    unnecessary complications or obscure features, giving GNOME &version;
+    a clear, unified vision.</para>
 
-    <para>The GNOME 2 developer platform has matured further and is now widely used. While GNOME 2.0 was a major upgrade to the underlying platform which was inevitably delayed, GNOME &version; is a simpler time-based release which includes whatever improvements have been completed since the previous release. In future you can look forward to further enhancements from these regularly-scheduled releases.</para>
+    <para>The GNOME 2 developer platform has matured and is now widely
+    used. While GNOME 2.0 was a major upgrade to the underlying platform which
+    was inevitably delayed, GNOME &version; is a simpler time-based release
+    which includes whatever improvements have been completed since the previous
+    release. In future you can look forward to further enhancements from these
+    regularly-scheduled releases.</para>
 
-    <para>Most major GNOME-based applications have been ported to GNOME 2, and the new platform has allowed the development of several new applications. We would encourage new and existing developers to use the GNOME 2.2 platform, to take advantage of its features.</para>
+    <para>Most major GNOME-based applications have been ported to GNOME 2, and
+    the new platform has allowed the development of several new applications. We
+    encourage developers to use the GNOME 2.2 platform,
+    to take advantage of its features.</para>
 
     <para>Of course GNOME 2.2 includes all of the improvements made in GNOME 2.0, which you can learn about <ulink url="http://www.gnome.org/start/2.0/releasenotes.html">here</ulink>.</para>
 
@@ -56,16 +73,32 @@
    
     <para>/* TODO: This section needs lots of HARD CORE PIMP ACTION 
  */</para>
-
+  </sect1>
+<sect1 id="rndesktop">
   &rndesktop;
+</sect1>
+<sect1 id="rnpanel">
   &rnpanel;
+</sect1>
+<sect1 id="rnmultimedia">
   &rnmultimedia;
+</sect1>
+ <sect1 id="rnthemes">
   &rnthemes;
+</sect1>
+ <sect1 id="rnfonts">
   &rnfonts;
+</sect1>
+ <sect1 id="rnmultihead">
+  &rnmultihead;
+ </sect1>
+  <sect1 id="rnapplications">
+    <title>Applications</title>
+    <para>GNOME &version; includes many new and improved applications.</para>
   &rngnomeutils;
   &rnfileroller;
   &rnmultimediakeys;
-  &rnmultihead;
+ 
 
   </sect1>
 

@@ -1,4 +1,4 @@
- <sect2 id="rnmultihead">
+
     <title>Multi-Head support</title>
     <para>GNOME's X backend now supports simultaneous
  connections to multiple X servers and X servers with
@@ -7,4 +7,3 @@
  includes support for systems that merge multiple monitors 
  into a single large virtual area, such as Xinerama.</para>
 
- </sect2>

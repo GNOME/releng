@@ -1,10 +1,10 @@
- <sect2 id="rnpanel">
+
     <title>Panel</title>
     <para>The panel can now be themed along with the rest of the desktop, including icon theming. And like the rest of GNOME 2.2, it supports multi-head systems.</para>
 
     <para>Here are a few of the more significant GNOME panel improvements:</para>
 
-    <sect3><title>Show Desktop</title>
+    <sect2><title>Show Desktop</title>
     <para>
     When the icons on your desktop are hidden by too many open windows, you can now quickly hide them and then bring them all back again by clicking the "Show Desktop" button in the panel.
     </para>
@@ -16,9 +16,9 @@
   </screenshot>
 </figure>
 
-    </sect3>
+    </sect2>
 
-    <sect3><title>Run Program</title>
+    <sect2><title>Run Program</title>
     <para>
     To launch an application that is not already in your panel's menu you can now select, or type, its name in the "Run Program" dialog box. This is much simpler than opening a terminal window, typing the name and closing thee terminal.
     </para>
@@ -30,9 +30,9 @@
   </screenshot>
 </figure>
 
-    </sect3>
+    </sect2>
 
-    <sect3><title>Search For Files</title>
+    <sect2><title>Search For Files</title>
     <para>You can now quickly find files via the Actions menu.
     </para>
 
@@ -43,9 +43,9 @@
   </screenshot>
 </figure>
 
-    </sect3>
+    </sect2>
 
-    <sect3><title>Open Recent</title>
+    <sect2><title>Open Recent</title>
     <para>
     The Actions menu now lists the last few files that you have opened. Just select the file to open it with the appropriate application.
     </para>
@@ -57,9 +57,9 @@
   </screenshot>
 </figure>
 
-    </sect3>
+    </sect2>
 
-  <sect3><title>Notification Area</title>
+  <sect2><title>Notification Area</title>
     <para>
     The panel now has a notification-area which applications such as instant messengers can use to inform you of significant events.
     </para>
@@ -71,9 +71,9 @@
   </screenshot>
 </figure>
 
-    </sect3>
+    </sect2>
    
-<sect3><title>Wireless Link Monitor</title>
+<sect2><title>Wireless Link Monitor</title>
     <para>
     A new Wireless Link Monitor applet has been added. This shows the strength of your wireless network connection.
     </para>
@@ -85,6 +85,6 @@
   </screenshot>
 </figure>
 
-    </sect3>
+    </sect2>
 
-  </sect2>
+

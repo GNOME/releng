@@ -1,17 +1,16 @@
- <sect2 id="rnthemes">
+
     <title>Themes</title>
 
     <para>TODO: Describe how theming has changed.</para>
 
-    <para>GNOME 2.2 has a new Theme control panel to control all this.</para> 
+    <para>GNOME &version; has a new Theme control panel to control all this.</para> 
    
 <figure>
   <title>Theme Control Panel</title>
   <screenshot>
-    <graphic format="PNG" fileref="&urlfiguresbase;control_panel_themeTODO.png"/>
+    <graphic format="PNG" fileref="&urlfiguresbase;control_panel_theme.png"/>
   </screenshot>
 </figure>
 
     <para>For additional themes, see <ulink url="http://art.gnome.org">art.gnome.org</ulink></para>
    
-  </sect2>
