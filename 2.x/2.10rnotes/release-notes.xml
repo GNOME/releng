@@ -102,13 +102,35 @@
     <para>
       <itemizedlist>
         <listitem>
-          <para>Mozilla/Firefox new window focus: When you launch Mozilla or Firefox, 
-          the new window might be opened behind the existing windows. GNOME's 
-          mozilla-based Epiphany browser does not have this problem and we also expect this 
-          to be fixed in future versions of Mozilla and Firefox.</para>
+          <para><ulink url=
+          "https://bugzilla.mozilla.org/show_bug.cgi?id=223492"> Mozilla/Firefox
+          new window focus</ulink>: When you launch Mozilla or Firefox and
+          already have another Mozilla or Firefox window open, the new window
+          may appear without focus and behind the window that does have focus.
+          GNOME's mozilla-based Epiphany browser does not have this problem, and
+          Mozilla hackers are working to quickly fix this in future versions of
+          Mozilla and Firefox.</para>
         </listitem>
         <listitem>
-          <para>TODO: Luis should know about the rest.</para>
+          <para><ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=11681">
+          Session startup temporary hang</ulink>: Applications with broken
+          session management can cause login to hang for a few minutes at the
+          splashscreen.  The default session does not contain any such apps so
+          this will only become a problem if you save your session on logout.
+          If you run into this problem, just wait for the login to proceed and
+          then remove any such applications before saving your session
+          again.</para>
+        </listitem>
+        <listitem>
+          <para>TODO: Luis, should we include any of the others?  Kjartan
+          applied the VTE patch and rolled a tarball but didn't put it on
+          ftp.gnome.org perhaps because of Nalin's request that people fork VTE
+          instead of maintain it for him.  I don't know if the applet dying at
+          logout is dealbreaker enough to mention here.  And the other two bugs
+          still on the showstopper list are nautilus crashers that no one
+          appears to have been able to reproduce under 2.9.x so we don't know if
+          this is an issue or not (thus making it seem funny to list it under
+          the "known" issues section).</para>
         </listitem>
       </itemizedlist>
     </para>

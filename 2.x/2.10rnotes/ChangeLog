@@ -1,3 +1,8 @@
+2005-03-01  Elijah Newren  <newren@gmail.com>
+
+	* release-notes.xml: Update the known issues section.  Still need
+	feedback from Luis.
+
 2005-03-01  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Update language lists with 50 best supported
@@ -26,7 +31,6 @@
 	* rnapplications.xml:
 	* rndesktop.xml: Update for figures.
 
->>>>>>> 1.25
 2005-03-01  Murray Cumming  <murrayc@murrayc.com>
 
 	* rndesktop.xml: Removed the TODOs, fixed stuff, after email from 
