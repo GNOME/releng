@@ -10,7 +10,7 @@ gmc                4.5.51      no            no         yes       no
 Gnumeric           0.64        no            no         yes       yes         Jody Goldberg <jgoldberg@home.com>
 Dia                0.86        no            no         yes       no          James Henstridge <james@daa.com.au>
 Guppi              0.35.3      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
-AbiWord            0.7.13      no            no         yes       no          ???
+AbiWord            0.7.14      no            no         yes       no          ???
 GnuCash            1.4.10                                                     devel@gnumatic.com
 Sodipodi           0.22                                                       Lauris Kaplinski <lauris@kaplinski.com>
 gnome-db           0.2.3                                                      Rodrigo Moya <rodrigo@gnome-db.org>
