@@ -1,3 +1,19 @@
+2005-03-03  Davyd Madeley  <davyd@madeley.id.au>
+
+	* rnapplets.xml:
+	* rnapplications.xml:
+	* rnutilities.xml: Linked to new images. Some strings changed where
+	the were obviously the wrong thing (due to cutting and pasting I
+	imagine), this really couldn't be helped.
+	
+	* figures/figure-applet-cpufreq.png:
+	* figures/figure-dictionary.png:
+	* figures/figure-floppy-formatter.png:
+	* figures/figure-gedit.png:
+	* figures/figure-gnome-meeting.png: Added more images. Only one or two
+	missing now.
+
+
 2005-03-02  Murray Cumming  <murrayc@murrayc.com>
 
 	* release-notes.xml: Add rnutilities.xml. I probably forgot to 

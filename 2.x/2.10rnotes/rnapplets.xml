@@ -151,6 +151,16 @@
    Frequency Monitor watches variable-speed processors (such as those with 
    Intel Speedstep or AMD PowerNow) to show their current status. You may even choose 
    a different speed if you don't have automatic frequency scaling enabled.
+   <figure id="rnscreenshot-applet-cpufreq">
+    <title>Monitor CPU Frequency Scaling</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-cpufreq.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>Monitor CPU Frequency Scaling</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
   </para>
   </sect3>
 
@@ -171,6 +181,7 @@
    future. If you don't use Evolution for your mail, you can use a third party
    application such as <link
    href="http://www.nongnu.org/mailnotify/">mailnotify</link>.
+   <!-- FIXME: Link is Wrong -->
   </para>
   </sect3>
 

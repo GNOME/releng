@@ -135,11 +135,10 @@
     <para>Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see.
 
     <figure id="rnscreenshot-gnomemeeting">
-      <!-- FIXME (hard) -->
       <title>The internet telephony and video conferencing client</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnomemeeting.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-meeting.png" format="PNG"/></imageobject>
           <textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject>
         </mediaobject>
       </screenshot>
