@@ -11,7 +11,7 @@
 
     <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-    The GNOME file manager now uses an improved and standardized file-type system. This allows applications to tell GNOME that they can open certain types of file. The same system will soon be used by other desktops such as KDE, so this will allow different desktops and applications to work together more smoothly. Because this is a new system, applications must update how they register their file types. This should happen automatically when Linux distributions provide an upgrade to GNOME &version;.</p>
+    The GNOME file manager now uses an improved and standardized file-type system. This allows applications to tell GNOME that they can open certain types of file. The same system will soon be used by other desktops such as KDE, so this will allow different desktops and applications to work together more smoothly. Because this is a new system, applications must update how they register their file types. This should happen automatically when Linux distributions provide an upgrade to GNOME &version;.</para>
     <para>
     For each file-type there is a default application that will open the file when you double-click on the it. However, other applications might also be able to open the file type, so you can right-click and choose &quot;Open With&quot; to select one of these applications.
     </para>
