@@ -40,21 +40,21 @@ pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
 
 <section title="Desktop">
-core-applets		gnome-core	-		remove some applets	-
-bug-buddy		-		-		-			-
-eel			-		-		-			-
-eog			-		-		-			-
+core-applets		gnome-core/applets	-	build env. done, not much ported as yet, removing some applets	-
+bug-buddy		=		-		done?			Jacob Berkman <jacob@ximian.com>
+eel			=		-		porting along with Nautilus	Darin Adler <darin@bentspoon.com>
+eog			=		-		-			-
 gcalc			gnome-utils	-		done			-
 gcharmap		gnome-utils	-		ported			-
 gcolorsel		-		-		hadess to replace	-
 gdialog			gnome-utils	-		ported			-
 gdict			gnome-utils	-		compiles, needs porting to GtkTextView, applet doesn't compile			-
-gdm			-		-		-			-
-gedit			-		-		-			-
+gdm			gdm2		-		branched, being ported	George Jirka <jirka@5z.com>
+gedit			=		-		-			-
 gfloppy			gnome-utils	-		ported			Jonathan Blandford <jrb@redhat.com>
 gfontsel		-		-		-			-
 ggv			-		-		-			-
-gnome-about		gnome-core/gnome-about		-			-
+gnome-about		gnome-core/gnome-about	-	porting (Glynn)		Jacob Berkman <jacob@ximian.com>, George Jirka <jirka@5z.com>
 gnome-audio		-		-		-			-
 gnome-control-center	-		-		-			-
 gnome-games		-		-		-			-
@@ -69,8 +69,8 @@ libgtop			=		-		1.x needs parallel install patch, head patch available (hadess)	
 librsvg			-		-		-			-
 logview			gnome-utils	-		ported, some font issues		-
 meat-grinder		-		-		-			-
-nautilus		-		-		-			-
-panel			-		-		-			-
+nautilus		=		-		much porting work going on		Darin Adler <darin@bentspoon.com>
+panel			gnome-core/panel	-	_v_ and the sun hackers working on it	-
 procman			=		1.1.0		depends on 1.x platform libgtop		Kevin Vandersloot <kfv101@psu.edu>
 rep			-		-		-			John Harper <jsh@pixelslut.com>
 rep-gtk			=		-		mostly ported		John Harper <jsh@pixelslut.com>
