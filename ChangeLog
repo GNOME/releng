@@ -1,3 +1,8 @@
+2001-02-27  Jamin Gray <jgray@writeme.com>
+
+        * gnome-extras-1.4beta1-versions, package-list-extras: updated gtkhtml, atomix, gabber,
+        galeon, gtm, gnomoku, radioactive, sodipodi
+
 2001-03-09  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* gnome-1.4-branches: Updated branch info for ORBit, nautilus,
