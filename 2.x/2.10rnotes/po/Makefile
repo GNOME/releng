@@ -25,6 +25,14 @@ xml-%: %.po
 			basename=`basename $$i`; \
 			echo -n "Generating $@/$$basename... "; \
 			(xml2po -o $@/$$basename -p $< $$i && echo "ok") || echo "error"; \
+		done && \
+		mkdir -p "$@/figures" && \
+		for i in $(wildcard ../figures/*); do \
+			basename=`basename $$i`; \
+			echo "Copying original figure $$basename..."; \
+			if [ ! -f "$@/figures/$$basename" ]; then \
+				cp -rpf "$$i" "$@/figures/$$basename"; \
+			fi; \
 		done; \
 	fi
 
