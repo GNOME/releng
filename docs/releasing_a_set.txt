@@ -1,0 +1,71 @@
+From: Jeff Waugh [jdub@perkypants.org]
+Sent: Montag, 2. Juni 2003 06:01
+To: release-team@gnome.org
+Subject: Click-by-Click Guide to Staging a Release
+
+So,
+
+These are the current processes used to stage a major or development GNOME
+release. It's very straight forward, but there are quite a few non-straight
+forward ways that it could be made better. I'll leave those to another mail.
+In the mean time, this should allow anyone to do a release without having to
+reinvent the wheel or do massively manual symlinking.
+
+  * Smoke test the release
+
+    Build the entire tarball stack in a clean prefix and make sure it works.
+    The definition of "works" will depend on whether it's a stable or devel
+    release, but you ought to be able to "log in and run stuff" either way,
+    because we want it dogfoodable. If the panel is broken, gnome-session is
+    busted, or there's a significant enough bug to stop testers using it all
+    the time, it's time to work with the maintainer to do a re-release. :-)
+
+    Currently, I update GARNOME with all the new releases, do a complete
+    refresh build, and see how it is. This prepares me for other items in
+    the list.
+
+  * Generate a versions file
+
+    The release versions file is just a colon delimited list of module names
+    and versions in the release, like this:
+
+      gnome-panel:2.5.7
+      vte:1.6.2
+
+    I generate this with a smidgen of shell and GARNOME, sucking out the
+    versions from GARNOME makefiles for stuff in the modules list. I also
+    have a script that checks these against the latest mails in my ftp-release-list
+    mail box, which is useful for devel releases (doesn't apply to stable
+    releases).
+
+  * Run the release script
+
+    In ~jdub/bin/ on widget (master), I have a release script that takes a
+    versions file and builds a staging dir based on it. It handles all of
+    the heavy symlinking and MD5SUM generation, and gives you a nice report
+    to tell you if anything went wrong, final sum of tarball sizes. If you
+    run it without parameters, it gives you a quick usage guide:
+      
+      ~jdub/bin/release <set> <version> <version-file>
+
+    (There is a copy of this in releng/tools/gnome-release-set.sh. Please try to keep them in sync. Murray)
+    
+    If I were going to release GNOME Desktop 2.3.3, I would do this:
+
+      ~jdub/bin/release desktop 2.3.3 ~jdub/versions-2.3.3
+
+    The 'set' maps to the release area on the FTP site: pub/GNOME/desktop,
+    the 'version' determines where all the symlinks go. If tarballs weren't
+    found, you should fix those up, delete the release directory, and run
+    the release script again, just for completeness.
+
+  * Announce the release
+
+    Take the release announcement template and update it to include the
+    latest information I just find the previous announce and replace bits in
+    it. ;-) This includes release version number, release name, encouraging
+    comments about or notable properties in the release, pointers to module
+    announce emails, etc. Mail them to announce, desktop and hackers (or as
+    appropriate to the particular release).
+
+- Jeff
