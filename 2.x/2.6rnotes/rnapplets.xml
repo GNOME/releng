@@ -14,7 +14,7 @@
     <title>Network Monitor</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitorTODO.png" format="PNG"/>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitor.png" format="PNG"/>
           </imageobject>
         <textobject><phrase>The Network Monitor panel applet.</phrase></textobject>
       </mediaobject>
