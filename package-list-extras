@@ -4,7 +4,8 @@ See  policy/package-list-policy.txt for an exmplanation of the fields
 Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Contact
                     Version    Unstable?                Version   New
                                                         Exists?   Release?
-gmc
+
+gmc                4.5.51      no            no         yes       no
 
 Gnumeric           0.61        no            no         yes       yes         Jody Goldberg <jgoldberg@home.com>
 Dia                0.86        no            no         yes       no          James Henstridge <james@daa.com.au>
