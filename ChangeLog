@@ -1,3 +1,17 @@
+2001-02-15  Jamin Gray <jgray@writeme.com>
+
+    * gnome-extras-1.4beta1-version: added eog to the version lists
+    * package-list-extras: added eog to the version lists
+
+2001-02-15  Jamin Gray <jgray@writeme.com>
+
+    * added gnome-extras-1.4beta1-version to list versions of extra apps
+
+2001-02-15  Jamin Gray <jgray@writeme.com>
+
+    * package-list-extras: added gob, updated a few version numbers2001-02-15  Jamin Gray
+    <jgray@writeme.com>
+
 2001-02-14  Maciej Stachowiak  <mjs@eazel.com>
 
 	* gnome-1.4beta1-versions: More packages.
