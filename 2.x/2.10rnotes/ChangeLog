@@ -1,5 +1,9 @@
 2005-02-22  Murray Cumming  <murrayc@murrayc.com>
 
+	* Fixed some broken docbook tags.
+
+2005-02-22  Murray Cumming  <murrayc@murrayc.com>
+
 	* rnapplications.xml: Added evolution stuff, based on an 
 	announcement email.
 

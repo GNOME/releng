@@ -82,7 +82,7 @@
    and manage your emails, contacts, and calendar events.
    </para>
    <para>In GNOME &version; it's now easier to work offline with your email, calendar, and contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes will resynchronize when you go back online.
-   </para
+   </para>
 
    <para>This new version offers some other calendar improvements:
      <itemizedlist>
@@ -100,7 +100,7 @@
      </itemizedlist>
    </para>
 
-
+   <para>
    <figure id="rnscreenshot-evolution">
       <title>The email client</title>
       <screenshot>
