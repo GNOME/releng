@@ -21,7 +21,7 @@
 <item done="no">
 Help stuff doesn't build correctly, nor is it hooked up yet
 </item>
-<item done="no">
+<item done="yes">
 Add ability to use an external mailer when filing a bug
 </item>
 <item done="no">
@@ -38,9 +38,9 @@ Add ability to use a proxy
 ##############################################################################################
 ## gedit
 ##############################################################################################
-<application name="gedit" authors="paolo_eli.maggi@katamail.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gedit/TODO&rev=&root=/cvs/gnome">
+<application name="gedit" authors="maggi@athena.polito.it" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gedit/TODO&rev=&root=/cvs/gnome">
 <item done="no">
-Saving files in locale encoding when needed.
+Saving files in locale encoding when needed
 </item>
 <item done="no">
 Removing unused code from gedit-file-selector-util.c
@@ -49,9 +49,9 @@ Removing unused code from gedit-file-selector-util.c
 Implementing case sensitive Find and Replace
 </item>
 <item done="no">
-Check all strings (this is a task for a native english person)
+Proofreading all strings (this is a task for a native english person)
 </item>
-<item done="no">
+<item done="yes">
 Save window size when exiting 
 </item>
 <item done="no">
@@ -68,9 +68,6 @@ Backup file every x minutes (snorp is working on it)
 </item>
 <item done="no">
 The remote files should be read in an async way
-</item>
-<item done="no">
-Backup files before crashing, like AbiWord (I hope this code will never be used)
 </item>
 <item done="no">
 Save menubar and toolbar layout 
@@ -95,7 +92,7 @@ but gedit_view_set_tab_size is broken, see pango-layout.c function ensure_tab_wi
 Add a +<lnum> option (like vi)
 </item>
 <item done="no">
-Session management
+Implementing session management
 </item>
 </application>
 
