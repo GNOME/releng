@@ -76,6 +76,7 @@
     <title>Applications</title>
     <para>GNOME &version; includes many new and improved applications.</para>
 <xi:include href="rnepiphany.xml"/>
+<xi:include href="rngnomemeeting.xml"/>
 <xi:include href="rngcalctool.xml"/>
 <xi:include href="rnzenity.xml"/>
 <xi:include href="rngucharmap.xml"/>
