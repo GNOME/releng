@@ -21,6 +21,7 @@ gob                1.0.6       no            no         yes       no          Ge
 
 The GIMP           1.2.0                                                      Manish Singh <yosh@gimp.org>
 gpaint             0.2                                                        Andy Tai <atai@atai.org> 
+eog                0.6         yes           no         yes       no          
 
 GnomeICU           0.95.4      no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
 gabber             0.8.2       no            no         yes       yes         Julian Missig <julian@jabber.org>
