@@ -82,7 +82,7 @@
     Linux 2.6 kernel. The simple volume control panel applet also supports this.
 
     <figure id="rnscreenshot-volumecontrol">
-    <title>PDF Viewer</title>
+    <title>Volume Control</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;volumecontrol.png" format="PNG"/></imageobject>
@@ -97,7 +97,7 @@
   <sect3>
     <title>Search For Files</title>
 
-    <para>The latest GNOME search tool is faster, and you can now drag and drop files from it to the file manager, or right-click to delete files.
+    <para>The latest GNOME search tool is faster, and you can now drag and drop files from it to the file manager, or right-click to delete files.</para>
    
   </sect3>
 

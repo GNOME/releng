@@ -111,7 +111,7 @@
       <title>The new File Chooser dialog</title>
       <screenshot>
         <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;filechooserTODO.png" format="PNG"/></imageobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;filechooser.png" format="PNG"/></imageobject>
           <textobject><phrase>The new File Chooser dialog.</phrase></textobject>
         </mediaobject>
       </screenshot>
