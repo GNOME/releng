@@ -1,3 +1,9 @@
+2003-09-10  Andrew Sobala  <aes@gnome.org>
+
+	* rninstallation.xml: s/gnome-control-center/control-center/,
+	s/procman/gnome-system-monitor/, s/meta-.*//, s/gnome-common//,
+	moved esound up since libgnome has a condititional dep on it.
+
 2003-09-09 John Fleck <jfleck@inkstain.net>
 
 	* release-notes.xml
