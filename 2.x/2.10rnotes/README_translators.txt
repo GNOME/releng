@@ -1,3 +1,7 @@
+EVERYONE:
+ Always use latest xml2po HEAD CVS for working on release notes
+ translations: I'm sorry for any iconvenience this may cause you.
+
 The maintainer should do this:
 
 in the po directory:
