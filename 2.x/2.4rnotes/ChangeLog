@@ -1,3 +1,13 @@
+2003-08-22 John Fleck <jfleck@inkstain.net>
+
+	add
+	* rna11y.xml
+	edit
+	* rngucharmap.xml
+	* reale-notes.xml
+	add a11y section, stuff from Noah for gucharmap
+	section
+
 2003-08-18 John Fleck <jfleck@inkstainn.net>
 
 	add

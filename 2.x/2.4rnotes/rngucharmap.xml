@@ -30,5 +30,47 @@
   </para>
   <para><application>Gucharmap</application> replaces
     <application>gnome-character-map</application>, which was included in the
-    <application>gnome-utils</application> package.</para>
+    <application>gnome-utils</application> package. With it, users can:
+    <orderedlist>
+      <listitem>
+	<para>find out all about each character</para>
+      </listitem>
+      <listitem>
+	<para>view in any font at any point size, switch among fonts
+      quickly</para>
+      </listitem>
+      <listitem>
+	<para>browse characters by Unicode block</para>
+      </listitem>
+      <listitem>
+	<para>identify the first character in the clipboard</para>
+      </listitem>
+      <listitem>
+	<para>copy arbitrary characters and paste into other
+      programs</para>
+      </listitem>
+      <listitem>
+	<para> search for a character by name</para>
+      </listitem>
+      <listitem>
+	<para>jump to a character by code point</para>
+      </listitem>
+      <listitem>
+	<para>drag selection into the charmap to identify a
+      character</para>
+      </listitem>
+      <listitem>
+	<para>drag and drop out of the charmap</para>
+      </listitem>
+      <listitem>
+	<para>magnify the active character</para>
+      </listitem>
+      <listitem>
+	<para>see which font is actually being used to draw each
+      character</para>
+      </listitem>
+     </orderedlist>
+
+  </para>
+
 </sect2>
