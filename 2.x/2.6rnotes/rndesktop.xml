@@ -107,12 +107,23 @@
     the same filessytem icons as you see in the &quot;Computer&quot; location on your desktop, and can remember
     bookmarks for your favourite locations, so you can quickly get to your files.</para>
 
+    <figure id="rnscreenshot-filechooser">
+      <title>The new File Chooser dialog</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;filechooserTODO.png" format="PNG"/></imageobject>
+          <textobject><phrase>The new File Chooser dialog.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    
     <para>Other basic improvements include
     <itemizedlist>
       <listitem><para>An improved Combo box, to choose an item from a list.</para></listitem>
       <listitem><para>Performance improvements when showing tables.</para></listitem>
     </itemizedlist>
     </para>
+
   </sect3>
 
 </sect2>

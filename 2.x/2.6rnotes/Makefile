@@ -6,7 +6,7 @@ docbook_sources = release-notes.xml rna11y.xml rnapplets.xml rnapplications.xml 
                   rncontrolcenter.xml rndesktop.xml rndocs.xml \
                   rnhelp.xml rni18n.xml rnlockdown.xml rnmemorial.xml \
                   rninstallation.xml rnplatform.xml rnstandards.xml \
-                  rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml rnwm.xml
+                  rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml
 
 html: html/index.html
 
