@@ -31,15 +31,14 @@
 
   </para>
 
-  <para>Supported languages: TODO: Should we mention Candian english separately from English?
+  <para>Supported languages:
   
     <itemizedlist>
       <listitem><para>Albanian (5 million speakers)</para></listitem>
-      <listitem><para>Arabic (170 million)</para></listitem>
+      <listitem><para>Arabic (235 million)</para></listitem>
       <listitem><para>Azerbaijani (28 million)</para></listitem>
       <listitem><para>Belarusian (7 million)</para></listitem>
       <listitem><para>Brazilian Portuguese (175 million)</para></listitem>
-      <listitem><para>Canadian English (33 million)</para></listitem>
       <listitem><para>Catalan (7 million)</para></listitem>
       <listitem><para>Chinese Simplified (over 1 billion)</para></listitem>
       <listitem><para>Croation (5 million)</para></listitem>
@@ -64,13 +63,14 @@
       <listitem><para>Serbian (10 million)</para></listitem>
       <listitem><para>Spanish (over 350 million)</para></listitem>
       <listitem><para>Swedish (9 million)</para></listitem>
-      <listitem><para>Turkish (60 million)</para></listitem>
+      <listitem><para>Turkish (150 million)</para></listitem>
       <listitem><para>Ukranian (41 million)</para></listitem>
       <listitem><para>Welsh (575,000)</para></listitem></itemizedlist>
   </para>
   
   <para>Note that Arabic, Canadian English, Croatian, Lithuanian, Mongolian, Ukrainian, Russian, and Turkish are new
-  supported languages in GNOME &version;, thanks to the hard work of their translators.</para>
+  supported languages in GNOME &version;, thanks to the hard work of their translators. Note also that British English
+  and Canadian English are also supported.</para>
   
   <para>Another 15 languages are partially supported, with more than half of
   their strings translated. Slovak and Bengali are paricularly close to &quot;supported&quot; status.</para>
