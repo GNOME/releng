@@ -11,8 +11,51 @@
 ##############################################################################################
 ## gnome-control-center 
 ##############################################################################################
-#<application name="gnome-control-center" authors="jrb,hovinen,zaphod" link="">
-#</application>
+<application name="gnome-control-center" authors="jrb@redhat.com, hovinen@ximian.com, hestilow@ximian.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=gnome-control-center/TODO&rev=&root=/cvs/gnome">
+<item done="no">
+Mouse Properties - Add cursors to CVS (I have them locally) and install them
+</item>
+<item done="no">
+Mouse Properties - actually do the 'xset' to load the cursors at start time [GNOME Settings Demon]
+</item>
+<item done="no">
+Mouse Properties - Add support for devices other than CoreInput [GNOME Settings Demon]
+</item>
+<item done="no">
+Keyboard Properties - Support keyboard bell [GNOME Settings Demon]
+</item>
+<item done="no">
+Keyboard Properties - Remove awful jrb-art and replace with actual blinking cursor
+</item>
+<item done="no">
+Default Application Properties - Move to libglade support
+</item>
+<item done="no">
+Default Application Properties - Merge in Window Manager properties
+</item>
+<item done="no">
+Default Application Properties - Test that GConf changes affect the dialog
+</item>
+<item done="no">
+All Dialogs - Change buttons to use whatever the UI team comes up with
+</item>
+<item done="no">
+All Dialogs - Make sure GNOME Settings Demon exists using bonobo-activation
+</item>
+<item done="no">
+GNOME Settings Demon - Confirm all XSettings settings are correct, and have support in GTK+
+</item>
+<item done="no">
+GNOME Settings Demon - Register with session management so we are started before
+anything else is started
+</item>
+<item done="no">
+GNOME Settings Demon - add bonobo-activation support so that we can guarantee it's running
+</item>
+<item done="no">
+GNOME Settings Demon - Hook up locate_pointer to the GConf key rather than do it every time
+</item>
+</application>
 
 ##############################################################################################
 ## bug-buddy 
