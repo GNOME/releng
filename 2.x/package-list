@@ -6,37 +6,37 @@
 # - means not in gnome cvs (or that I haven't bothered to look yet ;)
 
 <section title="Developer Platform">
-GConf			=		1.1.4		-			Havoc Pennington <hp@redhat.com>
-ORBit2			=		2.3.97		-			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
-at-spi			=		-		not frozen		Bill Haneman <Bill.Haneman@sun.com>
+GConf			=		1.1.4		frozen			Havoc Pennington <hp@redhat.com>
+ORBit2			=		2.3.97		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+at-spi			=		0.03		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 atk			=		0.6		not frozen		Bill Haneman <Bill.Haneman@sun.com>
-audiofile		-		-		-			Michael Pruett
-bonobo-activation	=		0.9.3		-			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
-bonobo-config		=		0.106.0		-			Dietmar Maurer <dietmar@ximian.com>
-esound			-		-		-			Eric Mitchell
-gail			=		-		not frozen		Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
-glib			=		1.3.10		-			Tim Janik <timj@redhat.com>, Owen Taylor <otaylor@redhat.com>
-gnome-common		=		1.2.3		-			-
-gnome-http		=		-		remove?			Shane Culpepper <pepper@eazel.com>
-gnome-mime-data		=		1.0.0		-			Seth Nickell <snickell@stanford.edu>
+audiofile		-		0.2.3		frozen			Michael Pruett <mpruett@sgi.com>
+bonobo-activation	=		0.9.3		frozen			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
+bonobo-config		=		0.106.0		frozen			Dietmar Maurer <dietmar@ximian.com>
+esound			-		0.2.23		frozen			Eric Mitchell <ericmit@ix.netcom.com>
+gail			=		0.0.3		not frozen		Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
+glib			=		1.3.10		frozen			Tim Janik <timj@redhat.com>, Owen Taylor <otaylor@redhat.com>
+gnome-common		=		1.2.3		frozen			Anders Carlsson <andersca@gnu.org>
+gnome-http		=		1.0.9		remove?			Shane Culpepper <pepper@eazel.com>
+gnome-mime-data		=		1.0.0		no API			Seth Nickell <snickell@stanford.edu>
 gnome-vfs		=		1.9.3		frozen			Ian McKellar <yakk@yakk.net>
 gtk+			=		1.3.10		not frozen		Owen Taylor <owen@redhat.com>, Tim Janik <timj@gtk.org>
-intltool		=		0.12		-			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
-libIDL			=		0.7.1		-			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+intltool		=		0.12		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christiansen <kenneth@gnu.org>, Maciej Stachowiak <mjs@noisehavoc.org>
+libIDL			=		0.7.1		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 libart_lgpl		=		2.3.7		-			Raph Levien <raph@acm.org>
-libbonobo		=		1.106.0		-			Michael Meeks <michael@ximian.com>
-libbonoboui		=		1.106.0		-			Michael Meeks <michael@ximian.com>
+libbonobo		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
+libbonoboui		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
 libglade		=		1.99.3		not frozen		James Henstridge <james@daa.com.au>
-libgnome		=		1.105.0		-			Anders Carlsson <andersca@gnu.org>
-libgnomecanvas		=		1.105.0		-			Anders Carlsson <andersca@gnu.org>
+libgnome		=		1.105.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnomecanvas		=		1.105.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeprintui		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
-libgnomeui		=		1.105.0		-			Anders Carlsson <andersca@gnu.org>
-libxml2			gnome-xml	2.4.9		-			Daniel Veillard <veillard@redhat.com>
-libxslt			=		1.0.6		-			Daniel Veillard <veillard@redhat.com>
-linc			=		0.1.7		-			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
-pango			=		0.21		-			Owen Taylor <owen@redhat.com>
-pkgconfig		-		0.8.0		-			-
+libgnomeui		=		1.105.0		frozen			Anders Carlsson <andersca@gnu.org>
+libxml2			gnome-xml	2.4.9		frozen			Daniel Veillard <veillard@redhat.com>
+libxslt			=		1.0.6		frozen			Daniel Veillard <veillard@redhat.com>
+linc			=		0.1.7		private library		Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
+pango			=		0.21		frozen			Owen Taylor <owen@redhat.com>
+pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
 </section>
 
 <section title="Desktop">

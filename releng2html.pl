@@ -9,6 +9,9 @@ print qq{
 <!--#set var="last_modified" value="\$Date$date \$" -->
 };
 
+print qq {
+<table cellspacing="0" cellpadding="4" width="100%">
+};
 while (<STDIN>) {
 	chomp;
 	if ($_ eq "" || $_ =~ /^#/) {
@@ -17,8 +20,9 @@ while (<STDIN>) {
 	} elsif ($_ =~ s/<section title="(.*)">/$1/) {
 		# format section titles
 		print qq{
-<h3>$_</h3>
-<table cellspacing="0" cellpadding="4" width="100%">
+	<tr>
+		<td colspan="4"><h3>$_</h3></td>
+	</tr>
 	<tr bgcolor="#cccccc">
 		<th align="left">package</th>
 		<th align="left">version</th>
@@ -30,7 +34,9 @@ while (<STDIN>) {
 	} elsif ($_ eq "</section>") {
 		# format end-of-sections
 		print qq{
-</table>
+	<tr>
+		<td colspan="4">&nbsp;</td>
+	</tr>
 };
 		$count = 0;
 		next;

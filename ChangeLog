@@ -1,3 +1,10 @@
+2001-11-20  Jeff Waugh  <jdub@perkypants.org>
+
+	* 2.x/package-list: additional information c/o Glynn
+	* releng2html.pl: and he's been pestering me about this for days...
+
+	<subliminal>Glynn for Foundation Board</subliminal>
+
 2001-11-18  Jeff Waugh  <jdub@perkypants.org>
 
 	* releng3html.pl: Updated, with some "what not to do" help from Gman. ;)
