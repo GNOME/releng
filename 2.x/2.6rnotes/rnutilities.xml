@@ -19,7 +19,7 @@
     </itemizedlist>
 
     <figure id="rnscreenshot-gucharmap">
-    <title>Character Map </title>
+    <title>Character Map</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;gucharmap.png" format="PNG"/></imageobject>
@@ -118,7 +118,7 @@
     <para>The gedit text editor now has a simpler preferences dialog, and supports syntax-highlighting for more file formats.
 
     <figure id="rnscreenshot-gedit">
-    <title>Search For Files</title>
+    <title>Text Editor</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;gedit.png" format="PNG"/></imageobject>
