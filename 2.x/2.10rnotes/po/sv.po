@@ -49,8 +49,8 @@ msgid ""
 "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
 "platform free desktop environment."
 msgstr ""
-"Skrivbordsmiljön GNOME 2.10 är den senaste utgåvan av den evigt populära och "
-"fria skrivbordsmiljön för flera plattformar."
+"Skrivbordsmiljön GNOME 2.10 är den senaste utgåvan av den mycket populära "
+"och fria skrivbordsmiljön för flera plattformar."
 
 #: ../release-notes.xml:30 (para)
 msgid ""
