@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnapplets">
+  <title>Panel Applets</title>
+
+  <sect3 id="rnapplets-network-monitor">
+  <title>Network Monitor</title>
+
+  <para>The new Network Monitor applet shows whether your connection is active.
+  It can also tell you how many megabytes you have uploaded and downloaded.
+
+  <figure id="rnscreenshot-panel-applet-networkmonitor">
+    <title>Network Monitor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-networkmonitor.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The Network Monitor panel applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+  </sect3>
+
+  <sect3 id="rnapplets-keyboard-indicator">
+  <title>Keyboard Indicator</title>
+  
+  <para>The new Keyboard Indicator applet shows the current keyboard layout and lets you choose another, without using the
+  keyboard shortcut.
+
+  <figure id="rnscreenshot-panel-applet-keyboardindicator">
+    <title>Keyboard Indicator</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-applet-keyboardindicator.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The Keyboard Indicator panel applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+
+  </sect3>
+
+  <sect3 id="rnapplets-keyboard-accessibility-status">
+  <title>Keyboard Accessibility Status</title>
+
+  <para>See the accessibility section for information about the new Keyboard Accessibility Status applet.</para>
+
+  </sect3>
+  
+</sect2>

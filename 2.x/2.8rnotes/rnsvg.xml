@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnsvg">
+  <title>Vector Graphics</title>
+
+  <para>GNOME &version; has improved support for vector graphics, also known as SVG. Unlike normal graphics, vector graphics can be resized
+  with no loss of quality. In particular, this affects the Themes and games.</para>
+
+  <para>Several GNOME games now use vector graphics. You will really notice this when maximising the windows.
+
+  <figure id="rnscreenshot-svg-game">
+  <title>A GNOME Game</title>
+    <screenshot>
+      <mediaobject>
+        <imageobject><imagedata fileref="&urlfiguresbase;svg-game.png" format="PNG"/></imageobject>
+        <textobject><phrase>The GNOME Lines game.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+
+  <para>GNOME &version; also has improved support for vector themes. Some vector themes are available separately from
+  GNOME &version;, and you can expect to see full vector themes in GNOME 2.8.</para>
+  
+</sect2>

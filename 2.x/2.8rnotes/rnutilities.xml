@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnutilities">
+  <title>Utilities</title>
+
+  <para>There have been many improvements to the GNOME utilities. Some include:</para>
+
+  <sect3>
+    <title>Character Map</title>
+    
+    <para>GNOME's Unicode character picker has been improved, so it is now even easier to paste unusual characters into your documents. Improvements include:
+    <itemizedlist>
+      <listitem><para>Searching for a character is now easier.</para></listitem>
+      <listitem><para>It is easier to see one set of characters at a time.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-gucharmap">
+    <title>Character Map</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gucharmap.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Character Map, showing Bengali characters.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+    
+  </sect3>
+
+  <sect3>
+    <title>PDF Viewer</title>
+
+    <para>The PDF viewer now has several features that users missed in the previous version, such as:
+    <itemizedlist>
+      <listitem><para>Sidebars for bookmarks and page thumbnails.</para></listitem>
+      <listitem><para>Ability to open password-protected files.</para></listitem>
+      <listitem><para>New full-screen mode.</para></listitem>
+      <listitem><para>Support for TrueType fonts.</para></listitem>
+      <listitem><para>URLs open in the default browser when clicked.</para></listitem>
+    </itemizedlist>
+
+    <figure id="rnscreenshot-gpfdf">
+    <title>PDF Viewer</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gdpf.png" format="PNG"/></imageobject>
+          <textobject><phrase>The PDF Viewer, with page thumbnails.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+  
+  </sect3>
+
+  <sect3>
+    <title>Sound Recorder</title>
+
+    <para>The Sound recorder now offers a selection of audio profiles, such as "Voice Quality", which the user can edit.
+    Other applications, such as the CD ripping tool Sound Juicer, can use these same audio profiles.
+
+    <figure id="rnscreenshot-soundrecorder-audioprofiles">
+    <title>Sound Recorder</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;soundrecorder.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Sound Recorder, showing audio profiles.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+  <sect3>
+    <title>Volume Control</title>
+
+    <para>The Volume Control now supports ALSA as well as OSS sound drivers, as used by many Linux distributions and the
+    Linux 2.6 kernel. The simple volume control panel applet also supports this.
+
+    <figure id="rnscreenshot-volumecontrol">
+    <title>Volume Control</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;volumecontrol.png" format="PNG"/></imageobject>
+          <textobject><phrase>The Volume Control.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+  <sect3>
+    <title>Search For Files</title>
+
+    <para>The latest GNOME search tool is faster, and you can now drag and drop files from it to the file manager, or right-click to delete files.</para>
+   
+  </sect3>
+
+  <sect3>
+    <title>Text Editor</title>
+
+    <para>The gedit text editor now has a simpler preference dialog, and supports syntax highlighting for more file formats.
+
+    <figure id="rnscreenshot-gedit">
+    <title>Text Editor</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;gedit.png" format="PNG"/></imageobject>
+          <textobject><phrase>The new Text Editor preferences dialog.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
+
+
+
+</sect2>

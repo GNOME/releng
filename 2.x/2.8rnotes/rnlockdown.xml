@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.6">
+]>
+<sect2 id="rnlockdown">
+  <title>Lockdown</title>
+    
+  <para>GNOME &version; allows system administrators to restrict certain functionality, so that users have a more controlled
+  environment. This is particularly useful in very tightly controlled deployments, such as call centers or internet cafes.
+  When the system administrator has disabled features they will be visibly greyed-out rather than failing when used.</para>
+   
+  <para>For instance, the GNOME panel allows system administrators to
+  <itemizedlist>
+    <listitem><para>Completely prevent any changes to the panel.</para></listitem>
+    <listitem><para>Prevent certain applets from being added.</para></listitem>
+    <listitem><para>Prevent certain actions, such as log out and shut down.</para></listitem>
+    <listitem><para>Prevent access to the command-line.</para></listitem>
+  </itemizedlist>
+  </para>
+  
+  <para>The web browser allows system administrators to
+  <itemizedlist>
+    <listitem><para>Disable the ability to type in a URL instead of using bookmarks and links.</para></listitem>
+    <listitem><para>Disable content from specified unsafe protocols, such as ftp.</para></listitem>
+    <listitem><para>Disable the editing of bookmarks and toolbars.</para></listitem>
+    <listitem><para>Disable the Back button, and all history.</para></listitem>
+    <listitem><para>Hide the menu, toolbar, or statusbar by default.</para></listitem>
+    <listitem><para>Disable JavaScript's control over window chrome, to prevent access to extra mozilla features.</para></listitem>
+  </itemizedlist>
+  </para>
+
+  <para>GnomeMeeting allows system administrators to specify that calls may only be routed through one particular gatekeeper.
+  </para>
+
+  <para>These lockdown options can be configured by the system administrator with the gconf editor, and then distributed throughout the network.
+  
+  </para>
+
+</sect2>
