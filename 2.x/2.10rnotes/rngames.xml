@@ -33,12 +33,12 @@
   <para>Our &quot;Just Works&quot; philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by Gnome Meeting.</para>
     
     <figure id="rnscreenshot-game-nibblees">
-    <title>Same GNOME</title>
+    <title>Nibbles</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-game-nibbles.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The Same GNOME game.</phrase></textobject>
+        <textobject><phrase>The Nibbles game.</phrase></textobject>
       </mediaobject>
     </screenshot>
   </figure>
