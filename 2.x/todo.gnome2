@@ -216,20 +216,20 @@ We need a replacement for the "Applet Died - Reload ?" dialog box.
 ## glade 
 ##############################################################################################
 <application name="glade" authors="damon@ximian.com, jacob@ximian.com" link="http://cvs.gnome.org/bonsai/cvsblame.cgi?file=glade/TODO&rev=glade-gnome2-branch&root=/cvs/gnome">
-<item done="no">
+<item done="yes">
 Finish support for the following Gtk+ basic widgets - &nbsp;
 GtkWindow, GtkMenuBar, GtkToolbar, GtkLabel, GtkEntry, GtkCombo, GtkToggleButton, GtkCheckButton, GtkRadioButton, GtkList, GtkCList, GtkCTree,
 GtkOptionMenu, GtkProgressBar, GtkStatusbar, GtkDialog, GtkColorSelectionDialog, GtkFontSelectionDialog, GtkFixed, GtkHPaned, GtkVPaned, GtkNotebook,
 GtkFrame, GtkScrolledWindow, GtkHScale, GtkVScale
 </item>
-<item done="no">
+<item done="yes">
 Finish support for the following Gtk+ additional widgets - &nbsp;
 GtkHScale, GtkVScale, GtkHRuler, GtkVRuler, GtkAccelLabel, GtkCalendar, GtkLayout, GtkAspectFrame, GtkHScrollbar, GtkVScrollbar, GtkColorSelection,
 GtkFontSelection
 </item>
-<item done="no">
+<item done="yes">
 Add support for the following Gtk+ widgets - &nbsp;
-GtkHSV, GtkTextView, GtkTreeView
+GtkTextView, GtkTreeView
 </item>
 <item done="no">
 Add support for the following GNOME widgets - &nbsp;
@@ -239,10 +239,10 @@ GnomeIconEntry, GnomePixmapEntry
 Add support for the following bonobo widgets - &nbsp;
 BonoboWindow
 </item>
-<item done="no">
-Save project options and signal handler modification times separately
+<item done="yes">
+Save project options separately
 </item>
-<item done="no">
+<item done="yes">
 Check common widget properties - especially things like choice options
 and default values.
 </item>
