@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: releasenotes 2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-02-23 16:46+0100\n"
-"PO-Revision-Date: 2005-03-07 01:27+0100\n"
+"PO-Revision-Date: 2005-03-07 03:55+0100\n"
 "Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -108,13 +108,14 @@ msgstr "Wat is er nieuw in GNOME 2.10"
 msgid "Known Issues"
 msgstr "Bekende problemen"
 
+# makers/ontwikkelaars
 #: ../release-notes.xml:93 (para)
 msgid ""
 "All software, when it is released, contains bugs the developers know about "
 "but have chosen, for a variety of reasons, not to fix before releasing. Free "
 "software is no different in this regard from proprietary software, except "
 "that with free software, we tell users about these problems."
-msgstr "Alle software die uitgebracht wordt, bevat fouten waar de ontwikkelaars al weet van hebben, maar waarvan ze, om verschillende redenen, besluiten om deze niet te verhelpen voordat die software wordt uitgebracht. Vrije software is wat dat betreft niet anders dan de software die door bedrijven wordt verkocht. Het verschil is dat bij vrije software, de gebruikers vooraf geïnformeerd worden over de problemen."
+msgstr "Alle software die in omloop gebracht wordt, bevat fouten waar de makers al weet van hebben, maar waarvan ze, om verschillende redenen, besluiten om deze niet te verhelpen voordat die software wordt uitgebracht. Vrije software is wat dat betreft niet anders dan software die door bedrijven wordt verkocht. Het verschil is dat bij vrije software, de gebruikers vooraf geïnformeerd worden over de problemen."
 
 #: ../release-notes.xml:98 (para)
 msgid ""
@@ -128,7 +129,7 @@ msgid ""
 "details on bugs already reported can be found at our <ulink url=\"http://"
 "bugzilla.gnome.org/\">Bugzilla</ulink>. Among the most prominent GNOME 2.10 "
 "bugs:"
-msgstr "We moedigen onze gebruikers ook aan om problemen en fouten te rapporteren zodat deze verholpen kunnen worden. De beste manier om fouten in GNOME te rapporteren is om de <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">Simple Bug Guide</ulink> (Engels) te gebruiken. Hiermee kunt u in een aantal stappen een kwalitatief goed foutrapport aanmaken, en wordt er voor gezorgd dat dit bij de juiste personen terechtkomt. Als 'simpel' niet goed genoeg voor u is, kunt u altijd nog terecht bij het <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">traditionale foutformulier</ulink> (Engels).  Meer informatie over fouten die al gerapporteerd zijn kunt u vinden op <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink>.  De meest in het oog springende problemen van GNOME 2.10 zijn:"
+msgstr "We moedigen onze gebruikers dan ook aan om problemen en fouten te rapporteren zodat deze verholpen kunnen worden. De beste manier om fouten in GNOME te rapporteren is om de <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">Simple Bug Guide</ulink> (Engels) te gebruiken. Hiermee kunt u in een aantal stappen een kwalitatief goed foutrapport aanmaken en wordt er voor gezorgd dat dit bij de juiste personen terechtkomt. Als 'simpel' niet goed genoeg voor u is, kunt u altijd nog terecht bij het <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">traditionale foutformulier</ulink> (Engels).  Meer informatie over fouten die al gerapporteerd zijn kunt u vinden op <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink>.  De meest in het oog springende problemen van GNOME 2.10 zijn:"
 
 #: ../release-notes.xml:111 (title)
 msgid "List of known issues"
@@ -156,9 +157,11 @@ msgid ""
 "your session again."
 msgstr "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Opstarten duurt soms lang</ulink>: Toepassingen met een foutief sessiebeheer kunnen het opstarten gedurende een aantal minuten vertragen. De standaardsessie bevat zulke toepassingen niet dus dit wordt pas een probleem wanneer u uw sessie bij het afmelden opslaat. Indien u met dit probleem geconfronteerd wordt, wacht u dan rustig af totat u bent aangemeld, sluit de toepassing die de problemen veroorzaakte en sla uw sessie daarna opnieuw op."
 
+# Vooruitzien naar GNOME 2.12 en verder
+# De toekomst: GNOME 2.12 en verder
 #: ../release-notes.xml:141 (title)
 msgid "Looking to GNOME 2.12 and Beyond"
-msgstr "Vooruitzien naar GNOME 2.12 en verder"
+msgstr "De toekomst: GNOME 2.12 en verder"
 
 #: ../release-notes.xml:143 (para)
 msgid ""
@@ -221,8 +224,8 @@ msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
 msgstr ""
-"Dit communiqué is samengesteld door Murray Cumming, Davyd Madeley, en de "
-"GNOME gemeenschap."
+"Dit communiqué is samengesteld door Murray Cumming, Davyd Madeley, en de GNOME gemeenschap.\n"
+"Het is vertaald door Tino Meinen, Marc Maurer en Reinout van Schouwen."
 
 #: ../rnapplets.xml:8 (title)
 msgid "Panel Items"
@@ -256,9 +259,7 @@ msgstr "Alle paneelmenu's zijn nu in overeenstemming met de menuspecificaties va
 msgid ""
 "Also, most applets can now be partly transparent, when the panel itself is "
 "transparent."
-msgstr ""
-"Tevens kunnen de meeste applets nu gedeeltelijk transparant zijn, wanneer "
-"het paneel zelf ook transparant is"
+msgstr "Tevens kunnen de meeste applets nu gedeeltelijk transparant zijn wanneer het paneel zelf ook transparant is."
 
 #: ../rnapplets.xml:22 (title)
 msgid "Integrated Modem Control"
@@ -273,11 +274,11 @@ msgid ""
 "\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>The new modem control applet</phrase></"
 "textobject></mediaobject></screenshot></figure>"
-msgstr "GNOME 2.10 heeft een nieuw applet voor het bedienen van uw modem. Het is geïntegreerd in GNOME System Tools. <figure id=\"rnscreenshot-applet-modem\"><title>Het nieuwe voor modembediening</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het nieuwe applet voor modembediening</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "GNOME 2.10 heeft een nieuw applet voor het bedienen van uw modem. Het is geïntegreerd in GNOME System Tools. <figure id=\"rnscreenshot-applet-modem\"><title>Het nieuwe applet voor het bedienen van uw modem</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-modem.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het nieuwe applet voor het bedienen van uw modem</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:41 (title)
 msgid "Panel Trashcan"
-msgstr "Paneelprullenbak"
+msgstr "Paneelprullenmand"
 
 #: ../rnapplets.xml:43 (para)
 msgid ""
@@ -289,7 +290,7 @@ msgid ""
 "\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Drag trash to your panel</phrase></"
 "textobject></mediaobject></screenshot></figure>"
-msgstr "GNOME 2.10 heeft nu een prullenbak voor op uw paneel. Net als bij de prullenbak op uw bureaublad kunt u bestanden en andere items naar de prullenbak slepen, maar nu hoeft u uw geopende vensters niet meer eerst te minimaliseren. <figure id=\"rnscreenshot-applet-trash\"><title>Een prullenbak op uw paneel</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></imageobject><textobject><phrase>Sleep het afval naar uw prullenbak</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "GNOME 2.10 heeft nu een prullenmand voor op uw paneel. Net als bij de prullenmand op uw bureaublad kunt u bestanden en andere items naar de prullenmand slepen, maar nu hoeft u uw geopende vensters niet meer eerst te minimaliseren. <figure id=\"rnscreenshot-applet-trash\"><title>Een prullenmand op uw paneel</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-trash.png\" format=\"PNG\"/></imageobject><textobject><phrase>Sleep het afval naar uw prullenmand</phrase></textobject></mediaobject></screenshot></figure>"
 
 # vrij vertaald
 #: ../rnapplets.xml:62 (title)
@@ -308,7 +309,7 @@ msgid ""
 "\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>The drive mount applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
-msgstr "In GNOME 2.8 kon u al op eenvoudige wijze uw digitale media zoals CD's, DVD's en USB-sticks aankoppelen. Nu kunt u met het applet voor verwisselbare media deze dingen aan- en afkoppelen zonder de bijbehorende pictogrammen op het bureaublad te hoeven zoeken die vaak achter allemaal geopende vensters verstopt zaten. Het applet toont de huidige aangekoppelde, en afgekoppelde volumen, die u vervolgens kunt aankoppelen, uitwerpen, of openen in het bestandsbeheer. <figure id=\"rnscreenshot-applet-drivemount\"><title>Koppelingstation</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het Koppelingstation-applet.</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "In GNOME 2.8 kon u al op eenvoudige wijze uw digitale media zoals CD's, DVD's en USB-sticks aankoppelen. Nu kunt u met het applet voor verwisselbare media deze dingen aan- en afkoppelen zonder de bijbehorende pictogrammen op het bureaublad te hoeven zoeken die in het verleden vaak achter allerlei geopende vensters verstopt zaten. Het applet toont de huidige aangekoppelde, en afgekoppelde volumen, die u vervolgens kunt aankoppelen, uitwerpen, of openen in het bestandsbeheer. <figure id=\"rnscreenshot-applet-drivemount\"><title>Koppelingstation</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-drivemount.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het Koppelingstation-applet.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:85 (title)
 msgid "Get even more weather"
@@ -325,7 +326,7 @@ msgid ""
 "\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>The weather report applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
-msgstr "Het weerbericht-applet kan nu voor nog meer lokaties dan voorheen, het weer tonen, en de lokaties zijn nu vertaald naar het Nederlands. Bovendien toont het bij de meeste lokaties, naast het weerbericht, nu ook de tijdstippen voor zonsopgang en zonsondergang. <figure id=\"rnscreenshot-applet-weather\"><title>Het weerbericht</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het weerbericht-applet.</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "Het weerbericht-applet kan nu bij nog meer lokaties dan voorheen, het weer tonen. De lokaties zijn nu ook vertaald naar het Nederlands. Bovendien worden  bij de meeste lokaties, naast het weerbericht, nu ook de tijdstippen voor zonsopgang en zonsondergang gegeven. <figure id=\"rnscreenshot-applet-weather\"><title>Het weerbericht</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het weerbericht-applet.</phrase></textobject></mediaobject></screenshot></figure>"
 
 # geluidsbeheer
 #: ../rnapplets.xml:106 (title)
@@ -340,7 +341,7 @@ msgid ""
 "same multimedia framework powers Totem, Sound Juicer, the GNOME CD player "
 "and a variety of third-party applications, so changing the GNOME volume via "
 "the panel will change the volume of all these applications."
-msgstr "Een nieuwe mixer voor het paneel (gecombineerd met een nieuwe mixer voor het bureaublad) haalt het meeste uit uw geluidskaart. Door het GStreamer multimedia-raamwerk, is de mixer nu eenvoudiger en gemakkelijker dan voorheen. Hetzelfde raamwerk is de motor voor Totem, Sound Juicer, de GNOME CD-speler en tal van software gemaakt door derden. Wanneer u het geluidsvolume via het paneel-applet aanpast, zullen al deze toepassingen hun geluidsvolume aanpassen."
+msgstr "Een nieuwe mixer voor het paneel (gecombineerd met een nieuwe mixer voor het bureaublad) haalt het meeste uit uw geluidskaart. Door het GStreamer multimedia-raamwerk is de mixer nu eenvoudiger en gemakkelijker dan voorheen te bedienen. Hetzelfde GStremer-raamwerk is ook de motor voor Totem, Sound Juicer, de GNOME CD-speler en tal van andere software gemaakt door derden. Wanneer u het geluidsvolume via het paneel-applet aanpast, zullen deze toepassingen ook gelijk hun geluidsvolume aanpassen."
 
 # voor uw paneel klinkt zo raar in het Nederlands
 #: ../rnapplets.xml:116 (title)
@@ -361,13 +362,13 @@ msgid ""
 "notes on your desktop, thanks to a simpler user interface and many bug "
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
-msgstr "Het populaire Memoblaadjes applet maakt het nu nog eenvoudiger om PostIt-achtige memo's op uw bureaublad te plakken. Ten opzichte van de vorige versie is de bediening eenvoudiger gemaakt en er zijn veel fouten uitgehaald. Zo blijven de memoblaadjes nu staan op het juiste werkblad of zelfs of een andere monitor."
+msgstr "Het populaire Memoblaadjes-applet maakt het nu nog eenvoudiger om PostIt-achtige memo's op uw bureaublad te plakken. Ten opzichte van de vorige versie is de bediening eenvoudiger gemaakt en er zijn veel fouten uitgehaald. Zo blijven de memoblaadjes nu op het juiste werkblad staan of zelfs of een andere monitor."
 
 #: ../rnapplets.xml:132 (para)
 msgid ""
 "And sticky notes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
-msgstr "En de memoblaadjes raken niet meer verstopt onder andere vensters dus u kan ze nooit meer kwijtraken. Om de memo's te verbergen klikt u met de rechter muisknop op het applet."
+msgstr "En de memoblaadjes raken niet meer zoek onder andere vensters dus u kan ze nooit meer kwijtraken. Om de memo's te verbergen klikt u met de rechter muisknop op het applet."
 
 #: ../rnapplets.xml:137 (title) ../rnapplets.xml:142 (phrase)
 msgid "Sticky Notes"
@@ -377,6 +378,7 @@ msgstr "Memoblaadjes"
 msgid "Specially for laptops"
 msgstr "Speciaal voor laptops"
 
+# processorsnelheid monitoren/controleren
 #: ../rnapplets.xml:149 (para)
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
@@ -388,7 +390,7 @@ msgid ""
 "fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
 "textobject></mediaobject></screenshot></figure>"
-msgstr "GNOME bevat nu een applet waarmee u de processorsnelheid van uw laptop in de gaten kunt houden. De 'CPU-snelheidsmonitor' controleert variabele-snelheidprocessors (zoals die met Intel Speedstep of AMD PowerNow) en toont de huidige status. U kunt zelfs een snelheid instellen wanneer u automatische snelheidsaanpassing niet hebt aangezet. <figure id=\"rnscreenshot-applet-cpufreq\"><title>Processorsnelheid controleren</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></imageobject><textobject><phrase>Processorsnelheid controleren</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "GNOME bevat nu een applet waarmee u de snelheid van de processor in uw laptop in de gaten kunt houden. De 'CPU-snelheidsmonitor' controleert variabele-snelheidprocessors (zoals die met Intel Speedstep of AMD PowerNow) en toont de huidige status. U kunt zelfs de snelheid handmatig instellen wanneer u automatische snelheidsaanpassing niet gebruikt. <figure id=\"rnscreenshot-applet-cpufreq\"><title>Processorsnelheid monitoren</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-applet-cpufreq.png\" format=\"PNG\"/></imageobject><textobject><phrase>Processorsnelheid monitoren</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:168 (title)
 msgid "Removed Applets"
@@ -398,7 +400,7 @@ msgstr "Verwijderde applets"
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
-msgstr "Er zijn drie applets in GNOME 2.10 verwijderd. In de meeste gevallen zijn deze vervagnen door betere alternatieven."
+msgstr "Er zijn drie applets uit GNOME 2.10 verwijderd. In de meeste gevallen zijn deze vervangen door betere alternatieven."
 
 #: ../rnapplets.xml:172 (para)
 msgid ""
@@ -406,7 +408,7 @@ msgid ""
 "on your panel when you don't even have a CD in your drive. Instead, "
 "inserting a CD will now start the GNOME CD Player, which can then be "
 "controlled from a notification icon that it places in your Panel."
-msgstr "Het CD-speler applet is verwijderd, dus u zult geen CD-speler meer op uw paneel zien wanneer er geen CD in de speler zit. In plaats daarvan zal de CD-speler automatisch starten wanneer u een CD in de speler stopt. Deze kan dan worden bediend met het pictogram dat in het mededelingengebied op het paneel verschijnt."
+msgstr "Het CD-speler-applet is verwijderd, dus u zult geen CD-speler meer op uw paneel zien wanneer er geen CD in de speler zit. In plaats daarvan zal de CD-speler automatisch starten wanneer u een CD in de speler doet. Deze kan dan worden bediend met het pictogram dat in het mededelingengebied op het paneel verschijnt."
 
 #: ../rnapplets.xml:175 (para)
 msgid ""
@@ -441,7 +443,7 @@ msgid ""
 "\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>The Totem video player.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
-msgstr "Bij GNOME 2.10 wordt nu standaard de populaire mediaspeler Totem meegeleverd die gebruik maakt van GNOME's GStreamer multimedia-raamwerk. Totem heeft de intuïtieve bediening die gebruikers van GNOME verwachten, met automatische hardware-herkenning in plaats van complexe configuratie. <figure id=\"rnscreenshot-totem\"><title>De mediaspeler</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>De mediaspeler Totem.</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "Bij GNOME 2.10 wordt nu standaard de populaire mediaspeler Totem meegeleverd die gebruik maakt van GNOME's GStreamer multimedia-raamwerk. Totem heeft juist die intuïtieve bediening die gebruikers van GNOME verwachten; met automatische hardware-herkenning in plaats van complexe configuratie. <figure id=\"rnscreenshot-totem\"><title>De mediaspeler</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>De mediaspeler Totem.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:31 (title)
 msgid "Audio Extraction"
@@ -624,11 +626,11 @@ msgid ""
 "listitem><listitem><para>When using keyboard navigation to open the parent "
 "folder (Alt-Up), the current folder will be selected.</para></listitem></"
 "itemizedlist>"
-msgstr "Daarnaast zijn er veel kleine wijzigingen die GNOME's oog voor detail demonstreren. Bijvoorbeeld, <itemizedlist><listitem><para>De lokatieknop is nu duidelijker geworden.</para></listitem><listitem><para>Bij het aanmaken van nieuwe bestanden kunt u zonder te klikken direct beginnen met het typen van de naam</para></listitem><listitem><para>Bij het openen van de bovenliggende map via het toetsenbord (Alt-boven), wordt de huidige map al voor u geselecteerd.</para></listitem></itemizedlist>"
+msgstr "Daarnaast zijn er veel kleine wijzigingen die GNOME's oog voor detail demonstreren. Bijvoorbeeld, <itemizedlist><listitem><para>De lokatieknop is nu duidelijker geworden.</para></listitem><listitem><para>Bij het aanmaken van nieuwe bestanden kunt u zonder te klikken direct beginnen met het typen van de naam.</para></listitem><listitem><para>Bij het openen van de bovenliggende map via het toetsenbord (Alt-boven), wordt de huidige map al voor u geselecteerd.</para></listitem></itemizedlist>"
 
 #: ../rndesktop.xml:31 (title)
 msgid "clean-cut and powerful, the Nautilus file manager"
-msgstr "Eenvoudig maar krachtig, bestandsbeheer met Nautilus"
+msgstr "Eenvoudig maar krachtig; bestandsbeheer met Nautilus"
 
 #: ../rndesktop.xml:36 (phrase)
 msgid "The file manager"
@@ -678,9 +680,12 @@ msgid ""
 "not be interrupted when it finally opens its window."
 msgstr "Ook als bijvoorbeeld een toepassing veel tijd nodig heeft om op te starten, zal uw werk niet onderbroken worden wanneer het uiteindelijk zijn venster opent."
 
+# Systeembeheerders-, gebruikers- en toegankelijkheidshandleidingen
+# is veeeel te lang, staat erg lelijk in de index en is niet goed
+# leesbaar. Gewoon handleidingen is veel duidelijker
 #: ../rndocs.xml:10 (title)
 msgid "Sysadmin, User, and Accessibility Guides"
-msgstr "Systeembeheerders-, gebruikers- en toegankelijkheidshandleidingen"
+msgstr "Handleidingen"
 
 #: ../rndocs.xml:12 (para)
 msgid ""
@@ -691,14 +696,7 @@ msgid ""
 "developer.gnome.org/documents/style-guide/\">documentation style guide</"
 "ulink>. As in GNOME 2.8, each application shipped with GNOME 2.10 includes "
 "full user documentation."
-msgstr ""
-"Dankzij de inspanningen van het <ulink url=\"http://developer.gnome.org/"
-"projects/gdp/\">GNOME Documentatieproject</ulink>, heeft GNOME 2.10 "
-"uitgebreide en professionele documentatie. Hiervoor is veel gebruik gemaakt "
-"van de aanwijzingen in de <ulink url=\"http://developer.gnome.org/documents/"
-"style-guide/\">documentatie-stijlgids</ulink>; de meest volledige in de "
-"vrije software-wereld. Net als in GNOME 2.8, is iedere toepassing die met "
-"GNOME 2.10 meegeleverd wordt, volledig gedocumenteerd."
+msgstr "Dankzij de inspanningen van het <ulink url=\"http://developer.gnome.org/projects/gdp/\">GNOME Documentatieproject</ulink> heeft GNOME 2.10 uitgebreide en professionele documentatie. Hiervoor is veel gebruik gemaakt van de aanwijzingen in de <ulink url=\"http://developer.gnome.org/documents/style-guide/\">documentatie-stijlgids</ulink>; de meest volledige stijlgids in de vrije software-wereld. Net als bij GNOME 2.8 is iedere toepassing die met GNOME 2.10 meegeleverd wordt, volledig gedocumenteerd."
 
 #: ../rndocs.xml:22 (para)
 msgid ""
@@ -706,11 +704,7 @@ msgid ""
 "other documentation, including guides to system administration and GNOME's "
 "accessibility features, can be found on the <ulink url=\"http://www.gnome."
 "org/learn/\">GNOME Learn page</ulink>."
-msgstr ""
-"In de Desktop User Guide leert u hoe u GNOME kunt gebruiken. De User Guide "
-"en ander documentatie, inclusief de handleidingen voor systeembeheer en "
-"GNOME's toegankelijkheidsfuncties, vindt u op de (Engelse) webpagina <ulink "
-"url=\\\"http://www.gnome.org/learn/\\\">GNOME Learn page</ulink>.\" "
+msgstr "In de Desktop User Guide leert u hoe u GNOME kunt gebruiken. De User Guide en ander documentatie, inclusief de handleidingen voor systeembeheer en GNOME's toegankelijkheidsfuncties, vindt u op de (Engelse) webpagina: <ulink url=\"http://www.gnome.org/learn/\">GNOME Learn page</ulink>."
 
 # spellen geeft verwarring met tekstverwerkingsspellen
 #: ../rngames.xml:8 (title)
@@ -731,10 +725,7 @@ msgstr "Same GNOME"
 msgid ""
 "The Same GNOME game has a major new version, with better graphics, extra "
 "board sizes, and an undo feature in case you change your mind."
-msgstr ""
-"Het spelletje: 'Same GNOME' heeft in de nieuwste versie betere graphics "
-"(animatie!), een keuze om de grootte van het bord in te stellen, en de "
-"mogelijkheid om uw zetten ongedaan te maken."
+msgstr "Het spelletje: Same GNOME heeft in de nieuwste versie betere graphics (animatie!), een keuze om de grootte van het spelbord in te stellen, en de mogelijkheid om uw zetten ongedaan te maken."
 
 #: ../rngames.xml:22 (phrase)
 msgid "The Same GNOME game."
@@ -780,6 +771,8 @@ msgstr ""
 "Christian Rose en Kjartan Maraas, heeft GNOME 2.10 nu ondersteuning voor 40 "
 "talen (tenminste  80 procent vertaald)."
 
+# Deze lijst is in de vertaling niet meer op alfabetisch volgorde.
+# ik zou hem echter nu niet graag handmatig willen sorteren.
 #: ../rni18n.xml:36 (para)
 msgid ""
 "Supported languages: <itemizedlist><listitem><para>Albanian (5 million "
@@ -831,7 +824,7 @@ msgid ""
 "listitem><listitem><para>Ukrainian (50 million)</para></"
 "listitem><listitem><para>Vietnamese</para></listitem><listitem><para>Welsh "
 "(575,000)</para></listitem></itemizedlist>"
-msgstr ""
+msgstr "Ondersteunde talen: <itemizedlist><listitem><para>Albanees (5 miljoen sprekers)</para></listitem><listitem><para>Arabisch (235 miljoen)</para></listitem><listitem><para>Azerbeijaans (28 miljoen)</para></listitem><listitem><para>Baskisch (580.000)</para></listitem><listitem><para>Belarussisch (7 miljoen)</para></listitem><listitem><para>Bengaals (189 miljoen)</para></listitem><listitem><para>Bosnisch (3 miljoen)</para></listitem><listitem><para>Braziliaans (175 miljoen)</para></listitem><listitem><para>Bulgaars (9 miljoen)</para></listitem><listitem><para>Catalaans (7 miljoen)</para></listitem><listitem><para>Chinees vereenvoudigd (meer dan 1 miljard)</para></listitem><listitem><para>Chinees traditioneel (40 miljoen)</para></listitem><listitem><para>Kroatisch (5 miljoen)</para></listitem><listitem><para>Tsjechisch (11 miljoen)</para></listitem><listitem><para>Deens (5.3 miljoen)</para></listitem><listitem><para>Nederlands (over 21 miljoen)</para></listitem><listitem><para>Engels (341 miljoen)</para></listitem><listitem><para>Ests (1 miljoen)</para></listitem><listitem><para>Fins (over 5 miljoen)</para></listitem><listitem><para>Frans (over 75 miljoen)</para></listitem><listitem><para>Duits (100 miljoen)</para></listitem><listitem><para>Grieks (15 miljoen)</para></listitem><listitem><para>Gujarati (46 miljoen)</para></listitem><listitem><para>Hindi (370 miljoen)</para></listitem><listitem><para>Hungaars (14.5 miljoen)</para></listitem><listitem><para>Indonesisch (25 miljoen)</para></listitem><listitem><para>Italiaans (60 miljoen)</para></listitem><listitem><para>Japans (over 125 miljoen)</para></listitem><listitem><para>Koreaans (75 miljoen)</para></listitem><listitem><para>Litouws (4 miljoen)</para></listitem><listitem><para>Macedonisch (1.5 miljoen)</para></listitem><listitem><para>Maleisisch (over 17 miljoen)</para></listitem><listitem><para>Mongools (10 miljoen)</para></listitem><listitem><para>Noors Bokmal (5 miljoen)</para></listitem><listitem><para>Noors Nynorsk (2 miljoen)</para></listitem><listitem><para>Panjabi (60 miljoen)</para></listitem><listitem><para>Pools (44 miljoen)</para></listitem><listitem><para>Portugees (43 miljoen)</para></listitem><listitem><para>Roemeens (26 miljoen)</para></listitem><listitem><para>Russisch (170 miljoen)</para></listitem><listitem><para>Serbisch (10 miljoen)</para></listitem><listitem><para>Slowaaks (5 miljoen)</para></listitem><listitem><para>Spaans (over 350 miljoen)</para></listitem><listitem><para>Zweeds (9 miljoen)</para></listitem><listitem><para>Tamil (61 miljoen)</para></listitem><listitem><para>Turks (150 miljoen)</para></listitem><listitem><para>Oekrains (50 miljoen)</para></listitem><listitem><para>Viêtnamees</para></listitem><listitem><para>Welsh (575.000)</para></listitem></itemizedlist>"
 
 #: ../rni18n.xml:93 (para)
 msgid ""
@@ -839,25 +832,20 @@ msgid ""
 "Panjabi and Tamil are new supported languages in GNOME 2.10, thanks to the "
 "hard work of their translators. Also worthy of mention is that British "
 "English and Canadian English are also supported."
-msgstr ""
-"Merk op dat dankzij het harde werk van de vertalers, Baskisch, Bulgaars, "
-"Gujarati, Hindi, Hongaars, Noors Nynorsk, Panjabi en Tamil nu ondersteunde "
-"talen zijn in GNOME 2.10. Ook zijn nu Brits Engels en Canadees Engels "
-"ondersteunde talen."
+msgstr "Merk op dat dankzij het harde werk van de vertalers, Baskisch, Bulgaars, Gujarati, Hindi, Hongaars, Noors Nynorsk, Panjabi en Tamil nu ondersteunde talen zijn in GNOME 2.10. Ook zijn nu Brits Engels en Canadees Engels ondersteunde talen."
 
 #: ../rni18n.xml:98 (para)
 msgid ""
 "Another 9 languages are partially supported, with more than half of their "
 "strings translated. Croatian and Mongolian are particularly close to "
 "\"supported\" status."
-msgstr ""
-"Nog 9 andere talen worden gedeeltelijk ondersteund; met meer dan de helft "
-"vertaald. Kroatisch en Mongools bevinden zich zeer dicht bij de "
-"\"ondersteunde\" status."
+msgstr "Nog 9 andere talen worden gedeeltelijk ondersteund; deze talen zijn voor meer dan de helft vertaald. Kroatisch en Mongools bevinden zich zeer dicht bij de \"ondersteunde\" status."
 
+# ook mogelijk:
+# zelf installeren
 #: ../rninstallation.xml:9 (title)
 msgid "Installation of GNOME 2.10"
-msgstr "Installatie van GNOME 2.10"
+msgstr "GNOME 2.10 installeren"
 
 #: ../rninstallation.xml:11 (para)
 msgid ""
@@ -876,11 +864,7 @@ msgid ""
 "For actual use, we recommend that you install official packages, such as "
 "those for your Linux distribution. Vendors are likely to package GNOME 2.10 "
 "relatively quickly, and to release new versions soon that include GNOME 2.10."
-msgstr ""
-"Als u GNOME echt wilt gaan gebruiken, raden wij aan dat u de officiële "
-"pakketten van uw Linuxdistributie installeert. De makers van uw distributie "
-"zullen waarschijnlijk spoedig nieuwe versies uitbrengen waarin GNOME 2.10 al "
-"is geïntegreerd."
+msgstr "Voor daadwerkelijk gebruik raden wij u aan om de officiële pakketten van uw Linuxdistributie te installeren. De makers van uw distributie zullen waarschijnlijk spoedig nieuwe versies uitbrengen waarin GNOME 2.10 al is geïntegreerd."
 
 #: ../rninstallation.xml:15 (para)
 msgid ""
@@ -912,11 +896,12 @@ msgid ""
 "\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, and <ulink url="
 "\"http://www.pygtk.org/\">pygtk</ulink> projects.</para></listitem></"
 "itemizedlist>"
-msgstr "Het GNOME 2.10-ontikkelingsplatform levert een stabiele basis voor ontwikkelaars van externe software, maar ook voor de GNOME-desktop zelf. GNOME 2.10 voegt enkele API-verbeteringen door maar blijft compatibel met oudere versies. In het bijzonder hebben we deze keer: <itemizedlist><listitem><para>GTK+ 2.6 heeft nieuwe celweergave-elementen, nieuwe knoppen, een IconView en een nieuw Infovenster.</para></listitem><listitem><para>glib 2.6 heeft een vereenvoudigde API voor het verwerken van een opdrachtregel.</para></listitem><listitem><para>De Platformbindingen bevatten nu via gnome-python, volledige Python APIs voor het GNOME Development Platform. Dit is in aanvulling op de reeds bestaande bindingen voor C++, Java, Perl en Python die geleverd worden door de projecten <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, en <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>.</para></listitem></itemizedlist>"
+msgstr "Het GNOME 2.10-ontwikkelingsplatform levert niet alleen een stabiele basis voor ontwikkelaars van externe software, maar ook voor de GNOME-desktop zelf. GNOME 2.10 voert enkele API-verbeteringen door maar blijft compatibel met oudere versies. Enkele vernieuwingen in het bijzonder: <itemizedlist><listitem><para>GTK+ 2.6 biedt nieuwe celweergave-elementen, nieuwe knoppen, een IconView en een nieuw Infovenster.</para></listitem><listitem><para>Glib 2.6 heeft een vereenvoudigde API voor het verwerken van een opdrachtregel.</para></listitem><listitem><para>De Platformbindingen bevatten nu, via gnome-python, volledige Python APIs voor het GNOME-ontwikkelingsplatform. Dit is in aanvulling op de reeds bestaande bindingen voor C++, Java, Perl en Python die geleverd worden door de projecten <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, en <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>.</para></listitem></itemizedlist>"
 
+# kort en bondig beter dan: voldoen aan standaarden
 #: ../rnstandards.xml:7 (title)
 msgid "Standards Compliance"
-msgstr "Voldoen aan standaarden"
+msgstr "Standaarden"
 
 #: ../rnstandards.xml:9 (para)
 msgid ""
@@ -956,7 +941,7 @@ msgid ""
 "freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://"
 "www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink "
 "url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
-msgstr "De GNOME ontwikkelaars werken via Freedesktop.org actief samen met andere leden van de vrije softwaregemeenschap bij het ontwikkelen van standaarden voor interoperabiliteit. Deze standaarden zijn ondermeer: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">gedeelde MIME-database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">pictogramthema's</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recente bestanden</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menu's</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">bereaublad-items</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">miniaturen-beheer</ulink>, en de <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink>-specifications. Aanvullend daarop ondersteund <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, en <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
+msgstr "De GNOME ontwikkelaars werken via Freedesktop.org actief samen met andere leden van de vrije softwaregemeenschap bij het ontwikkelen van standaarden voor interoperabiliteit. Deze standaarden zijn ondermeer: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">gedeelde MIME-database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">pictogramthema's</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recente bestanden</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menu's</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">bereaublad-items</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">miniaturen-beheer</ulink>, en de <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink>-specificaties. Aanvullend daarop ondersteunt GNOME <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, en <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
 
 #: ../rnsysadmin.xml:9 (title)
 msgid "System Administration"
@@ -976,11 +961,7 @@ msgid ""
 "connection, as well as manage the users and groups on your system. At "
 "present, these system tools are most appropriate for single computers rather "
 "than large networks of computers."
-msgstr ""
-"Met het systeembeheer kunt u onder andere de datum en tijd instellen, uw "
-"netwerkverbindingen en de gebruikers en groepen op uw systeem. Momenteel "
-"zijn deze tools het best geschikt voor thuisgebruik, niet voor grote "
-"netwerken of in grote systeemcomputers."
+msgstr "Met het systeembeheer kunt u onder andere de datum en tijd instellen, uw netwerkverbindingen en de gebruikers en groepen op uw systeem. Momenteel zijn deze tools het meest geschikt voor thuisgebruik, niet voor grote netwerken of in grote systeemcomputers."
 
 # bewerken van groepsleden klinkt zo agressief...
 #: ../rnsysadmin.xml:23 (para)
@@ -991,7 +972,7 @@ msgid ""
 "listitem><listitem><para>Users and Groups: Easier editing of group members.</"
 "para></listitem><listitem><para>Changes are applied instantly where "
 "appropriate.</para></listitem></itemizedlist>"
-msgstr "GNOME 2.10 biedt enkele verbeteringen, waaronder <itemizedlist><listitem><para>Netwerken: Verbeterde ondersteuning voor draadloze netwerken (WEP- en ESSID-detectie), en IDSN-verbindingen.</para></listitem><listitem><para>Gebruikers en groepen: Eenvoudiger beheer van groepsen.</para></listitem><listitem><para>Wijzigingen worden waar mogelijk meteen doorgevoerd.</para></listitem></itemizedlist>"
+msgstr "GNOME 2.10 biedt hierin enkele verbeteringen, waaronder <itemizedlist><listitem><para>Netwerken: verbeterde ondersteuning voor draadloze netwerken (WEP- en ESSID-detectie), en IDSN-verbindingen.</para></listitem><listitem><para>Gebruikers en groepen: eenvoudiger beheer van groepen.</para></listitem><listitem><para>Wijzigingen worden waar mogelijk meteen doorgevoerd.</para></listitem></itemizedlist>"
 
 #: ../rnsysadmin.xml:34 (title)
 msgid "The Clock, Network, and Users/Groups tools"
@@ -1032,12 +1013,13 @@ msgstr "Hulpprogramma's"
 
 #: ../rnutilities.xml:10 (para)
 msgid "The GNOME utilities have some improvements, such as:"
-msgstr "De hulpprogramma's van GNOME zijn hier en daar verbeterd, zoals:"
+msgstr "De hulpprogramma's van GNOME hebben enkele verbeteringen, zoals:"
 
 #: ../rnutilities.xml:13 (title)
 msgid "Text Editor"
 msgstr "Tekst-editor"
 
+# gaat het hier om programmeertalen? die automatisch herkend worden?
 #: ../rnutilities.xml:15 (para)
 msgid ""
 "The GNOME text editor can now highlight the current line and when editing "
@@ -1045,7 +1027,7 @@ msgid ""
 "improved too. It now only highlights mispelled words when you have actually "
 "finished typing the word, and many extra languages are supported and "
 "automatically identified."
-msgstr ""
+msgstr "De teksteditor van GNOME kan nu de huidige regel laten oplichten. Bij het bewerken van programmacode, worden de haakjes en 'tags' die bij elkaar horen uitgelicht. Ook is er een verbeterde spellingcontrole. De spelling van een woord wordt pas gecontroleerd wanneer u klaar bent met het typen van het woord. Er worden nu veel meer talen ondersteund en automatisch herkend."
 
 #: ../rnutilities.xml:17 (para)
 msgid ""
@@ -1056,7 +1038,7 @@ msgid ""
 "\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>The text editor, highlighting the current "
 "line.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Veel mensen zullen blij zijn te zien dat het niet langer vraagt om wijzigingen op te slaan wanneer in feite alle wijzigingen al ongedaan zijn gemaakt. Bovendien start het programma nu ook sneller op dan bij vorige versies. <figure id=\"rnscreenshot-gedit\"><title>De teksteditor</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>De teksteditor, waarin de huidige regel is opgelicht.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:33 (title)
 msgid "Archive Manager"
@@ -1090,7 +1072,7 @@ msgid ""
 "imageobject><textobject><phrase>The dictionary, suggesting possible "
 "spellings and a definition.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
-msgstr "Het woordenboek van GNOME geeft nu suggesties wanneer u niet zeker bent hoe een woord precies gespeld dient te worden. De betekenissen kunnen worden afgedrukt, en bevatten tevens koppelingen naar externe woordenboek-webpagina's. <figure id=\"rnscreenshot-dictionary\"><title>Woordenboek</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het woordenboek, waarin het mogelijke spellingen suggereert en een betekenis geeft.</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr "Het woordenboek van GNOME geeft nu suggesties wanneer u niet zeker bent hoe een woord precies gespeld dient te worden. De betekenissen kunnen worden afgedrukt en bevatten tevens koppelingen naar externe woordenboek-webpagina's. <figure id=\"rnscreenshot-dictionary\"><title>Woordenboek</title><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het woordenboek, waarin het mogelijke spellingen suggereert en een betekenis geeft.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:70 (title)
 msgid "Floppy Formatter"
