@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"[
+<!ENTITY g2 "<acronym>GNOME</acronym> 2">
+]>
+<article id="intro">
+  <articleinfo>
+    <title>Draft GNOME2 Release Notes</title>
+  </articleinfo>
+  <sect1>
+    <title>Introduction</title>
+    <para>Gee Whiz Intro Goes Here ???</para>
+  </sect1>
+  <sect1>
+    <title>What's New in GNOME 2</title>
+    <para>
+      GNOME 2 introduces a number of new features to improve both performance
+      and usability. It also includes a powerful new framework that can be
+      leveraged by developers.
+    </para>
+    <sect2 id="fontsandgraphics">
+      <title>Improved Fonts and Graphics</title>
+      <itemizedlist>
+	<listitem>
+	  <para>Fonts can be antialiased (or not, or only antialiased at certain
+	  sizes, or whatever you like).</para>
+	</listitem>
+	<listitem>
+	  <para>No flicker in GTK apps</para>
+	</listitem>
+	<listitem>
+	  <para>Images are composited onto backgrounds with full alpha channel,
+	  accelerated via MMX and the RENDER extension.</para>
+	</listitem>
+	<listitem>
+	  <para>New enhanced icons.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <sect2 id="userinterface">
+      <title>User Interface</title>
+      <para>In general, we have tried to make the UI as elegant as we can, so
+      nontechnical users can use it, and so technical users can use it more
+      quickly and smoothly. Our focus is on better UI, not "more UI" or just
+      adding more config options. So you'll see the UI getting cleaner, starting
+      in 2.0 and continuing in releases after that.</para>
+    </sect2>
+    <sect2 id="performance">
+      <title>Performance</title>
+      <para>According to users, GNOME 2 exhibits notable performance
+      improvements over its predecessors and some competitors, even on older,
+      slower machines:</para>
+      <sect3 id="testimonial01">
+	<title>Bradley Shuttleworth</title>
+	<para>
+	  <emphasis>Just installed it smoothly on a P2-233 with 96 Mb RAM.
+	    Nautilus fires up a new window in under 5 seconds (which, given that
+	    nautilus took longer than that in 1.4 on my Gigahertz laptop, is a
+	    pleasant change).</emphasis>
+	</para>
+	<para>
+	  <emphasis>(And to brag, its a faster than Windows XP on my laptop, too
+	    ... XP takes a shine longer to fire up Explorer, and various other
+	    tasks are slightly faster.)</emphasis>
+	</para>
+      </sect3>
+      <sect3 id="testimonial02">
+	<title>Mads Villadsen</title>
+	<para>
+	  <emphasis>I run it quite comfortably on a K6-300 with 96MB
+	    RAM. Everything feels at least as fast as with gnome 1.4 - and
+	    nautilus has become really usable as well. All in all it is pleasure
+	    to use :-)</emphasis>
+	</para>
+      </sect3>
+    </sect2>
+    <sect2>
+      <title>Keyboard Navigation</title>
+      <para>Thanks to the <ulink
+      url="http://developer.gnome.org/projects/gap/">GNOME Accessibility
+      Project</ulink>, &g2; has improved keyboard navigation, including
+      mnemonics that are easier for developers to implement, improved keyboard
+      navigation of the new tree widget and key bindings that are more consistent
+      where standards already exist.</para>
+    </sect2>
+
+    <sect2 id="a11y">
+      <title>Accessibility</title>
+      <para>
+	Keyboard navigation is a key part of accessibility support that will be
+	useful to all users, but there are many other aspects to it.
+      </para>
+      <para>
+	The core of accessibility support is a set of hooks in GTK that allow an
+	external program to query applications about their GUI. For example, an
+	external program can ask what buttons and menu items there are, their
+	state, what their labels contain, and so on. This can be used by a
+	screen reader to tell a blind user what's on the screen, for example.
+      </para>
+      <para>
+	This would allow a high-level scripting feature with commands
+	such as "activate the File menu, choose Open, select all, copy" This
+	kind of scripting would use high-level
+ 	user-comprehensible GUI features and would not depend on special
+	application support for scripting. It would just work automatically with
+	any GTK app. 
+      </para>
+    </sect2>
+
+    <sect2 id="i18n">
+      <title>Internationalization</title>
+      <para>
+	Internationalization has two major changes:
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      &g2; has moved to Unicode throughout, so you can mix multiple languages
+	      and scripts in the same document, and use funky symbols such as
+	      bullets and dingbats in a document.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+		&g2; handles "hard" languages such as right-to-left
+	      languages and languages that have ligatures and
+	      reordering. 
+	    </para>
+	  </listitem>
+	</itemizedlist>
+	One major implication of Unicode is that the same code paths will now be
+	used for European and Asian text, so GNOME will almost certainly work
+	out-of-the-box for people in all countries. 
+      </para>
+    </sect2>
+    <sect2 id="guitweaks">
+      <title>GUI Tweaks</title>
+      <para>GNOME2 includes a host of interface changes to improve both
+      usability and performance:
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Menus scroll when they are too big.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      File selector doesn't lose filenames on directory select.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      A revamped color selector.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Right-click menus with cut/copy/paste in text fields.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Can drag windows between workspaces in the workspace switcher
+	      applet.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Menus do the thing where you can move diagonally into a submenu
+	      without popping down the submenu.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 id="platforms">
+    <title>Platforms</title>
+    <sect2 id="bsd">
+      <title>BSD</title>
+      <para>Notes about building on BSD ????</para>
+    </sect2>
+    <sect2 id="solaris">
+      <title>Solaris</title>
+      <para>Notes about building on Solaris. ????</para>
+    </sect2>
+    <sect2 id="linux">
+      <title>Linux</title>
+      <para>Building GNOME 2 on Linux requires a number of standard packages
+      included with most distributions. Below are listings of the packages as
+      they are named in several of the most common distributions.</para>
+      <sect3 id="debian">
+	<title>Debian</title>
+	<para>
+	  <orderedlist>
+	    <listitem>
+	      <para>libpng2-dev</para>
+	    </listitem>
+	    <listitem>
+	      <para>libjpeg-dev</para>
+	    </listitem>
+	    <listitem>
+	      <para>libtiff-dev</para>
+	    </listitem>
+	    <listitem>
+	      <para>xlibs-dev</para>
+	    </listitem>
+	    <listitem>
+	      <para>libpopt-dev</para></listitem>
+	    <listitem>
+	      <para>libgdbmg1-dev (librep)</para></listitem>
+	    <listitem>
+	      <para>libgmp3-dev (librep)</para></listitem>
+	    <listitem>
+	      <para>texinfo (librep)</para></listitem>
+	    <listitem>
+	      <para>libgnome-dev (rep-gtk - that's libgnome 1.x, believe it or not)</para></listitem>
+	    <listitem>
+	      <para>libdb3-dev (GConf)</para></listitem>
+	    <listitem>
+	      <para>libbz2-dev, zlib1g-dev (gnome-vfs, others)</para></listitem>
+	    <listitem>
+	      <para>python2.2 + python2.2-xml (libglade)</para></listitem>
+	    <listitem>
+	      <para>sp + sgml-data + docbook-xml (Docbook DTD 4.1.2) + docbook-xsl (Docbook XSL Stylesheets)</para></listitem>
+	    <listitem>
+	      <para>libncurses5-dev (gnome-utils)</para></listitem>
+	  </orderedlist>
+	</para>
+      </sect3>
+
+      <sect3 id="redhat">
+	<title>Red Hat</title>
+	<para>
+	  All of the following packages are required for a full build. Most
+	  should be installed by default and all will be available from the
+	  distribution itself. Alternatively, www.rpmfind.net is a good place to
+	  find the appropriate packages. I have used the "official" Red Hat
+	  names for each one. This is taken from a Red Hat 7.3 box, so it should
+	  be the same names across all Red Hat 7.x boxes and there are possibly
+	  some small changes on the 6.x boxes (plus some version problems on
+	  those boxes, too).
+	  <orderedlist>
+	    <listitem>
+	      <para>gcc</para>
+	    </listitem>
+	    <listitem>
+	      <para>make</para>
+	    </listitem>
+	    <listitem>
+	      <para> glibc-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>libpng</para>
+	    </listitem>
+	    <listitem>
+	      <para> libpng-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>libjpeg</para>
+	    </listitem>
+	    <listitem>
+	      <para> libjpeg-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>libtiff</para>
+	    </listitem>
+	    <listitem>
+	      <para> libtiff-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>XFree86</para>
+	    </listitem>
+	    <listitem>
+	      <para> XFree86-devel
+		<note>
+		  <para>Plus whatever XFree86 packages are required for the
+		  system to run.</para>
+		</note>
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>freetype</para>
+	    </listitem>
+	    <listitem>
+	      <para>freetype-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>popt</para>
+	    </listitem>
+	    <listitem>
+	      <para>gdbm</para>
+	    </listitem>
+	    <listitem>
+	      <para> gdbm-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>gmp</para>
+	    </listitem>
+	    <listitem>
+	      <para> gmp-devel
+		<note>
+		  <para>This is the GNU multi-precision library, not libgpm, the
+		  mouse library.</para>
+		</note>
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>texinfo</para>
+	    </listitem>
+	    <listitem>
+	      <para>db3</para>
+	    </listitem>
+	    <listitem>
+	      <para>db3-devel-- see note 3
+		<note>
+		  <para>
+		    We _may_ need db3x and db3x-devel, this needs confirming. I
+		    don't understand the precise difference between these
+		    packages. ????
+		  </para>
+		</note>
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>bzip2</para>
+	    </listitem>
+	    <listitem>
+	      <para>bzip2-libs</para>
+	    </listitem>
+	    <listitem>
+	      <para>bzip2-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>zlib</para>
+	    </listitem>
+	    <listitem>
+	      <para>zlib-devel</para>
+	    </listitem>
+	    <listitem>
+	      <para>gettext</para>
+	    </listitem>
+	    <listitem>
+	      <para>byacc or bison</para>
+	    </listitem>
+	    <listitem>
+	      <para>flex</para>
+	    </listitem>
+	    <listitem>
+	      <para>python >= 2.0 with expat support
+		<note>
+		  <para>This means you need to be able to start python, it has
+		    to be version 2.0 or greater and "from xml.parsers import
+		    expat" must work from the Python prompt. In other words,
+		    running python2 -c "from xml.parsers import expat" from a
+		    shell prompt and having no error reported is sufficient.</para>
+		</note>
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>openjade</para>
+	    </listitem>
+	    <listitem>
+	      <para>sgml-common</para>
+	    </listitem>
+	    <listitem>
+	      <para>docbook-dtds</para>
+	    </listitem>
+	    <listitem>
+	      <para>xml-common
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>docbook-style-xsl</para>
+	    </listitem>
+	    <listitem>
+	      <para>docbook-style-dsssl</para>
+	    </listitem>
+	  </orderedlist>
+	</para>
+      </sect3>
+
+      <sect3 id="mandrake">
+	<title>Mandrake</title>
+	<para>To come. ????</para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 id="systemrequirements">
+    <title>System Requirements</title>
+    <para>&g2; requires less resources than <acronym>GNOME</acronym> 1.4. We
+      recommend a P400 or equivalent with 128M <acronym>RAM</acronym> for using
+    the desktop, but it has been known to work on a system with as little as a
+      P233 with 96M <acronym>RAM</acronym>.</para>
+  </sect1>
+  <sect1 id="installation">
+    <title>Installation</title>
+    <sect2 id="buildorder">
+      <title>Build Order</title>
+      <para>The packages should be built in the following order (the figure in
+      parentheses after the package name is the estimated amount of disk space
+      used, rounded up to the nearest megabyte:
+	<programlisting>
+1. libxml2-2.4.22.tar.bz2		( 27 MB)
+ 2. libxslt-1.0.18.tar.bz2		( 26 MB)
+ 3. scrollkeeper-0.3.9.tar.bz2		(  7 MB)
+ 4. pkgconfig-0.12.0.tar.bz2		( 10 MB)
+ 5. audiofile-0.2.3.tar.bz2		( 17 MB)
+ 6. esound-0.2.27.tar.bz2		(  5 MB)
+ 7. gtk-doc-0.9.tar.bz2			(  1 MB)
+ 8. glib-2.0.3.tar.bz2			( 24 MB)
+ 9. linc-0.5.0.tar.bz2			(  4 MB)
+10. atk-1.0.2.tar.bz2			(  5 MB)
+11. gnome-common-1.2.4.tar.bz2		(  2 MB)
+12. pango-1.0.2.tar.bz2			( 26 MB)
+13. libIDL-0.8.0.tar.bz2		(  4 MB)
+14. ORBit2-2.4.0.tar.bz2		( 47 MB)
+15. intltool-0.22.tar.bz2		(  1 MB)
+16. bonobo-activation-1.0.0.tar.bz2	( 14 MB)
+17. gtk+-2.0.3.tar.bz2			(124 MB)
+18. GConf-1.2.0.tar.bz2			( 24 MB)
+19. libart_lgpl-2.3.8.tar.bz2		(  4 MB)
+20. libzvt-1.99999.0.tar.bz2		(  7 MB)
+21. libbonobo-2.0.0.tar.bz2		( 39 MB)
+22. gnome-mime-data-2.0.0.tar.bz2	(  4 MB)
+23. gnome-vfs-2.0.0.tar.bz2		( 37 MB)
+24. libglade-2.0.0.tar.bz2		(  7 MB)
+25. libgnome-2.0.1.tar.bz2		( 13 MB)
+26. libgnomecanvas-2.0.1.tar.bz2	( 15 MB)
+27. libbonoboui-2.0.0.tar.bz2		( 66 MB)
+28. libgnomeui-2.0.1.tar.bz2		( 53 MB)
+29. libwnck-0.14.tar.bz2		( 19 MB)
+30. libgnomeprint-1.115.0.tar.bz2	( 24 MB)
+31. libgnomeprintui-1.115.0.tar.bz2	( 10 MB)
+32. libgtop-2.0.0.tar.bz2		( 18 MB)
+33. librsvg-1.1.6.tar.bz2		(  3 MB)
+34. gail-0.16.tar.bz2			( 34 MB)
+35. eel-2.0.0.tar.bz2			( 24 MB)
+36. libgtkhtml-2.0.0.tar.bz2		(133 MB)
+37. gtk-engines-1.9.0.tar.bz2		(  6 MB)
+38. gnome-desktop-2.0.0.tar.bz2		( 12 MB)
+39. gnome-panel-2.0.0.tar.bz2		( 53 MB)
+40. gnome-session-2.0.0.tar.bz2		( 15 MB)
+41. gnome-terminal-2.0.0.tar.bz2	( 11 MB)
+42. gnome-utils-1.109.0.tar.bz2		( 27 MB)
+43. gnome-applets-2.0.0.tar.bz2		( 51 MB)
+44. control-center-1.99.10.tar.bz2	( 47 MB)
+45. gnome-games-2.0.0.tar.bz2		( 73 MB)
+46. bug-buddy-2.1.6.tar.bz2		(  7 MB)
+47. eog-1.0.0.tar.bz2			( 16 MB)
+48. nautilus-2.0.0.tar.bz2		( 95 MB)
+49. gnome-system-monitor-2.0.0.tar.bz2	(  8 MB)
+50. yelp-1.0.tar.bz2			( 10 MB)
+51. gedit2-1.199.0.tar.bz2		(  7 MB)
+52. librep-2002-06-11.tar.bz2		( 10 MB)
+53. rep-gtk-2002-06-11.tar.bz2		(  8 MB)
+54. sawfish-2002-06-11.tar.bz2		( 17 MB)
+55. gnome-media-2.0.0.tar.bz2		( 29 MB)
+56. gdm-2.4.0.0.tar.bz2			( 29 MB)
+57. at-spi-1.0.1.tar.bz2		( 23 MB)
+58. libgail-gnome-1.0.0.tar.bz2		(  5 MB)
+59. gconf-editor-0.2.tar.bz2		(  4 MB)
+	</programlisting>
+	In addition to the disk space required to build each package (given in
+	parentheses in the above list), the total space required to install
+	these packages is 341 M.
+      </para>
+      <para>
+	It is possible to build all these packages in a different location from
+	the default /usr/local (by passing the --prefix=&lt;location&gt; flag to
+	the &quot;configure&quot; script in each tarball). If you do that,
+	however, you should put the new location as the first component of your
+	$PATH (to avoid existing versions of scrollkeeper being picked up, for
+	example). This new $PATH should be visible to each package as it
+	compiles (so that it sees, for example, the pkg-config files from the
+	earlier packages in the build). 
+      </para>
+    </sect2>
+    <sect2 id="parallellinstall">
+      <title>Parallel Install</title>
+      <para>A paragraph about parallel installation. ????</para>
+    </sect2>
+    <sect2 id="buildscripts">
+      <title>Build Scripts</title>
+      <para>The many build scripts. ????</para>
+    </sect2>
+  </sect1>
+  <sect1 id="quirks">
+    <title>Quirks</title>
+    <para>Things that may bite people.</para>
+    <sect2>
+      <title>NFS-mounted $HOME directory</title>
+      <para>
+	For people with NFS-mounted $HOME directories, you cannot drag files
+	from the Nautilus view windows to the trashcan (you get an error about
+	the trash file not being a directory). You can still delete files by
+	selecting and then pressing the &lt;Del&gt; key, or by context-clicking on the
+	item in question and selecting "send to trash" (bug #82644)
+      </para>
+    </sect2>
+
+    <sect2 id="dotgnome">
+      <title>.gnome</title>
+      <para>
+	GNOME 2 uses $HOME/.gnome2 and $HOME/.gnome2_private as directories for
+	storing stuff. However, you cannot completely remove $HOME/.gnome, since
+	gnome-vfs needs it and does not create it, so any modifications that
+	gnome-vfs needs to save in the user's directory will not be saved. Thus,
+	users need to create a $HOME/.gnome directory before starting GNOME
+	2. This will particularly affect people doing an install on a clean
+	system or those who have removed .gnome to get around some upgrade
+	problems. This will be fixed in 2.0.1 (bug #84183).
+      </para>
+    </sect2>
+
+    <sect2 id="cutandpaste">
+      <title>Cut and Paste</title>
+      <para>
+	The clipboard is a common source of confusion. GTK has always done the
+	right thing for the clipboard, and the version used in GNOME 2 is no
+	different. See
+	http://www.freedesktop.org/standards/clipboards.txt. If the clipboard
+	doesn't work it's because some application is not following the spec
+	correctly; please file bug reports for those applications. Note that Qt
+	2 does not follow the clipboard specs correctly, so correct applications
+	do not interoperate with Qt 2. Qt 3 fixes this problem.
+      </para>
+    </sect2>
+
+  </sect1>
+  <sect1 id="bugs">
+    <title>Known bugs</title>
+    <para>The GNOME 2 release contains a number of known bugs:
+      <variablelist>
+	<varlistentry>
+	  <term>Drag and Drop fails to add menu items to applications:///</term>
+	  <listitem>
+	    <para>
+	      Bugzilla number <ulink
+				     url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term> Cannot rename items in applications:///</term>
+	  <listitem>
+	    <para>Bugzilla number <ulink
+					 url="http://bugzilla.gnome.org/show_bug.cgi?id=73773">73773</ulink></para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>problems with mime type handling</term>
+	  <listitem>
+	    <para>
+	    Bugzilla number
+	      <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=75620">75620</ulink> </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Internationalization of gnome-terminal is broken</term>
+	  <listitem>
+	    <para>
+	      Bugzilla number <ulink
+				     url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">78007</ulink>
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>vfolder monitors don't work in nautilus</term>
+	  <listitem>
+	    <para>
+	      Bugzilla number <ulink
+				     url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>system-global vfolder queries are lost when user changes something</term>
+	  <listitem>
+	    <para>
+	      Bugzilla number <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>
+	    </para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Some features formerly provided by viewports no longer available
+	  in Sawfish</term>
+	  <listitem>
+	    <para>
+	      Bugzilla number <ulink
+				     url="http://bugzilla.gnome.org/show_bug.cgi?id=82337">82337</ulink> 
+	      <note>
+		<para>The following has been reported as a workaround when added
+		  to <filename>.sawfishrc</filename>:
+		  <programlisting>
+;; Get viewports back
+   (setq customize-command-classes '(default viewport))
+
+   ;; (setq viewport-dimensions '(NUMBER_OF_COLS . NUMBER_OF_ROWS))
+   (setq viewport-dimensions '(6 . 1))  ;; example
+
+		  </programlisting>
+
+		</para>
+	      </note>
+	    </para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+      
+    </para>
+  </sect1>
+</article>
