@@ -12,8 +12,10 @@ Stuff to mention in GNOME 2.8 release notes:
     (mention that it uses freedesktop components)
   - cd burner: Simpler UI - is this really different enough to mention?
 - New themes (Industrial and glider)
-- panel: Simpler way to choose panel applets. 
-- battery monitor applet: Improvement. What exactly?
+- panel:
+  - Simpler way to choose panel applets. 
+  - battery monitor applet: Improvement. What exactly?
+  - net status: Shows wireless signal strength.
 
 - New modules:
   - evolution
@@ -24,3 +26,7 @@ Stuff to mention in GNOME 2.8 release notes:
 
 system adminstration:
   - gnome-nettool, vino, searching in gconf-editor.
+
+Improvements to developer platform:
+  - API additions in gnome-vfs.
+  - also wrapped by the platform bindings.
