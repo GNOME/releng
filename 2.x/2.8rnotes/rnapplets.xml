@@ -7,6 +7,19 @@
 <sect2 id="rnapplets">
   <title>Panel Applets</title>
 
+  <para>GNOME &version; offers a clearer way to choose panel applets. This replaces the previous hierarchical menu.
+  <figure id="rnscreenshot-panel-add">
+    <title>The panel - choosing an applet</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;panel-add.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>The panel - choosing an applet.</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </para>
+ 
   <sect3 id="rnapplets-network-monitor">
   <title>Network Monitor</title>
 
