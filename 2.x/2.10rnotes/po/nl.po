@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: releasenotes 2.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-02-23 16:46+0100\n"
-"PO-Revision-Date: 2005-03-04 01:19+0100\n"
+"PO-Revision-Date: 2005-03-05 04:34+0100\n"
 "Last-Translator: Reinout van Schouwen <reinout@cs.vu.nl>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -435,11 +435,12 @@ msgstr "glib 2.6 geeft een verbeterde commando-regel parsing API"
 
 #: ../rnplatform.xml:15
 msgid "The Platform Bindings now include full Python APIs for the GNOME Development Platform, via gnome-python. This in addition to the current C++, Java, Perl, and Python bindings, via the <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, and <ulink url=\"http://www.pygtk.org/\">pygtk</ulink> projects."
-msgstr ""
+msgstr "De Platformbindingen bevatten nu via gnome-python, volledige Python APIs voor het GNOME Development Platform. Dit is in aanvulling op de reeds bestaande bindingen voor C++, Java, Perl en Python die geleverd worden door de projecten <ulink url=\"http://www.gtkmm.org/\">gtkmm</ulink>, <ulink url=\"http://java-gnome.sourceforge.net/\">java-gnome</ulink>, <ulink url=\"http://gtk2-perl.sourceforge.net/\">gtk2-perl</ulink>, en <ulink url=\"http://www.pygtk.org/\">pygtk</ulink>."
 
+# third-party software van derden?
 #: ../rnplatform.xml:10
 msgid "The GNOME 2.10 Development Platform provides a stable base for third-party software developers, and for the GNOME Desktop itself. GNOME 2.10 adds some API improvements, while maintaining backwards compatibilty and API-stability. In particular this time we have: <placeholder-1/>"
-msgstr ""
+msgstr "Het GNOME 2.10-ontikkelingsplatform levert een stabiele basis voor ontwikkelaars van externe software, maar ook voor de GNOME-desktop zelf. GNOME 2.10 voegt enkele API-verbeteringen door maar blijft compatibel met oudere versies. In het bijzonder hebben we deze keer: <placeholder-1/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -467,11 +468,11 @@ msgstr "Same GNOME"
 
 #: ../rngames.xml:14
 msgid "The Same GNOME game has a major new version, with better graphics, extra board sizes, and an undo feature in case you change your mind."
-msgstr "Het Same GNOME spel heeft belangrijke verbeteringen ondergaan, zoals verbeterde weergave, extra bord groottes, en een ongedaan maken optie, voor als je van gedachten verandert"
+msgstr "Het spelletje: 'Same GNOME' heeft in de nieuwste versie betere graphics (animatie!), een keuze om de grootte van het bord in te stellen, en de mogelijkheid om uw zetten ongedaan te maken."
 
 #: ../rngames.xml:22 ../rngames.xml:41
 msgid "The Same GNOME game."
-msgstr "Het Same GNOME spel."
+msgstr "Het 'Same GNOME' spel."
 
 #: ../rngames.xml:31
 msgid "Nibbles"
@@ -479,7 +480,7 @@ msgstr "Nibbles"
 
 #: ../rngames.xml:33
 msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by Gnome Meeting."
-msgstr ""
+msgstr "De filosofie van GNOME: \"Werkt eenvoudig\" is zelfs merkbaar in het spelletje Nibbles. U kunt nu uw op lokale netwerk tegenstanders zoeken. Deze worden automatisch zichtbaar via dezelfde zero-configuratie techniek die GnomeMeeting gebruikt."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -507,11 +508,11 @@ msgstr "Systeemgereedschappen"
 
 #: ../rnsysadmin.xml:19
 msgid "The system tools allow you to configure your system clock and your network connection, as well as manage the users and groups on your system. At present, these system tools are most appropriate for single computers rather than large networks of computers."
-msgstr ""
+msgstr "Met het systeembeheer kunt u onder andere de datum en tijd instellen, uw netwerkverbindingen en de gebruikers en groepen op uw systeem. Momenteel zijn deze tools het best geschikt voor thuisgebruik, niet voor grote netwerken of in grote systeemcomputers."
 
 #: ../rnsysadmin.xml:26
 msgid "Networking: Improved wireless support (WEP and ESSID detection), and IDSN connections."
-msgstr "Netwerk: Verbeterde ondersteuning voor draadloze netwerken (WEB en ESSID detectering), en ISDN verbindingen"
+msgstr "Netwerk: Verbeterde ondersteuning voor draadloze netwerken (WEP- en ESSID-detectie), en ISDN-verbindingen"
 
 #: ../rnsysadmin.xml:27
 msgid "Users and Groups: Easier editing of group members."
@@ -519,7 +520,7 @@ msgstr "Gebruikers en groupen: Makkerlijker bewerken van groupsleden"
 
 #: ../rnsysadmin.xml:28
 msgid "Changes are applied instantly where appropriate."
-msgstr "Veranderingen worden meteen doorgevoerd waar dat mogelijk is"
+msgstr "Wijzigingen worden waar mogelijk meteen doorgevoerd."
 
 #: ../rnsysadmin.xml:23
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
@@ -527,13 +528,13 @@ msgstr "GNOME 2.10 heeft enkele verbeteringen, inclusief <placeholder-1/>"
 
 #: ../rnsysadmin.xml:34
 msgid "The Clock, Network, and Users/Groups tools"
-msgstr "De klok, netwerk en gebruikers/groepen gereedschappen"
+msgstr "Configuratie voor tijd, netwerk en gebruikers/groepen"
 
 #: ../rnsysadmin.xml:32
 msgid "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-system-tools.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Clock, Network, and Users/Groups tools.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnome-system-tools.png\" format=\"PNG\"/></imageobject><textobject><phrase>De configuratie van de tijd, Netwerk, en Gebruikers/Groepen.</phrase></textobject></mediaobject></screenshot></figure>"
 
-# was eerst gereedschap, maar meer dan bekijken kan je niet doen.
+# was eerst gereedschap, maar meer dan bekijken kun je niet doen.
 #: ../rnsysadmin.xml:47
 msgid "Log Viewer"
 msgstr "Logboek-viewer"
@@ -556,23 +557,23 @@ msgstr "De logboek-viewer"
 
 #: ../rnsysadmin.xml:49
 msgid "The GNOME log viewer has added a handy find feature, and an improved monitor mode. In addition, it can now <placeholder-1/><figure id=\"rnscreenshot-sysadmin-logviewer\"><placeholder-2/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Log Viewer, during a seach.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "De GNOME logboekviewer heeft nu een zoekmogelijkheid en een verbeterde bewakingsmodus. Tevens kan het nu <placeholder-1/><figure id=\"rnscreenshot-sysadmin-logviewer\"><placeholder-2/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></imageobject><textobject><phrase>De logboekviewer tijdens een zoekopdracht.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:8
 msgid "Panel Items"
-msgstr "Paneel items"
+msgstr "Paneel-items"
 
 #: ../rnapplets.xml:10
 msgid "GNOME 2.10 includes major improvements to its panel items (also known as applets), providing new features and better integration with the rest of the desktop."
-msgstr ""
+msgstr "GNOME 2.10 heeft sterk verbeterde paneel-items (ook wel bekend als applets), met nieuwe functies en verbeterde integratie met de rest van het bureaublad."
 
 #: ../rnapplets.xml:13
 msgid "The most visible change is the removal of the Actions panel menu and the addition of Places and Desktop menus. These provide fast access to the items you use most often, without navigating through sub-menus. For instance, the Places menu lists your home folder, your computer, networked servers, and the search feature. In the Desktop menu, you'll find your Preferences and Administration control panels, Log Out, and Help."
-msgstr ""
+msgstr "Opvallend is ook het verdwijnen van het paneelmenu \"Acties\" en de toevoeging van de menu's \"Lokaties\" en \"Werkplek\". Deze bieden snelle toegang tot de items die u het vaakst gebruikt zonder door submenu's te hoeven waden. In het menu \"Lokaties\" bijvoorbeeld, vindt u uw persoonlijke map, uw computer, uw netwerkservers en de zoekfunctie. In het menu \"Werkplek\" vindt u uw voorkeuren, systeembeheer, afmelden en de hulp."
 
 #: ../rnapplets.xml:15
 msgid "All of the panel menus are now defined by the cross-platform Freedesktop.org menu specification, so 3rd-party software may add itself to the Applications menu without even knowing about GNOME."
-msgstr ""
+msgstr "Alle paneelmenu's zijn nu in overeenstemming met de menuspecificaties van Freedesktop.org zodat externe software zichzelf aan het menu kan toevoegen zonder GNOME te hoeven kennen."
 
 #: ../rnapplets.xml:17
 msgid "Also, most applets can now be partly transparent, when the panel itself is transparent."
@@ -580,7 +581,7 @@ msgstr "Tevens kunnen de meeste applets nu gedeeltelijk transparant zijn, wannee
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
-msgstr "Geïntegreerde modumbediening"
+msgstr "Geïntegreerde modembediening"
 
 #: ../rnapplets.xml:23
 msgid "GNOME 2.10 introduces a new applet for controlling your Modem, integrated with GNOME System Tools."
@@ -594,9 +595,10 @@ msgstr "Paneelprullenbak"
 msgid "GNOME 2.10 features an optional trashcan for your Panel. Just like the trashcan on your desktop, you can now drag and drop files and other items into the trash without minimising your open windows."
 msgstr "GNOME 2.10 heeft nu een prullenbak voor op uw paneel. Net als bij de prullenbak op uw bureaublad kunt u bestanden en andere items naar de prullenbak slepen, maar nu hoeft u uw geopende vensters niet meer eerst te minimaliseren."
 
+# vrij vertaald
 #: ../rnapplets.xml:64
 msgid "Control Mounted Volumes"
-msgstr "Regel gekoppelde media"
+msgstr "Verwisselbare media aankoppelen"
 
 #: ../rnapplets.xml:66
 msgid "GNOME 2.8 allowed you to easily mount your digital media, such as CDs, DVDs, and USB memory sticks. Now the volume mounter applet helps you to use these volumes without the difficulty of finding their icons on the desktop, behind your open windows. The applet shows the currently mounted (or unmountable) volumes, allowing you to mount them, eject them, or open them in the file manager."
@@ -604,11 +606,11 @@ msgstr ""
 
 #: ../rnapplets.xml:88
 msgid "Get even more weather"
-msgstr "Bekijk nog meer weer"
+msgstr "Weer meer weer"
 
 #: ../rnapplets.xml:89
 msgid "The weather monitor can now show even more locations then before, and the location names have been translated into non-english languages where appropriate. In addition, the forecast now includes sunrise and sunset calculations for most locations."
-msgstr ""
+msgstr "Het weerbericht-applet kan nu voor nog meer lokaties dan voorheen, het weer tonen, en de lokaties zijn nu vertaald naar het Nederlands. Bovendien toont het bij de meeste lokaties, naast het weerbericht, nu ook de tijdstippen voor zonsopgang en zonsondergang."
 
 # geluidsbeheer
 #: ../rnapplets.xml:110
@@ -659,23 +661,24 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rncontrolcenter.xml:20
 msgid "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=c7478444677183d3926d1abbcad8aaa3"
-msgstr ""
+msgstr "@@image: 'figures/figure-keyboard-properties+layout.png'; md5=c7478444677183d3926d1abbcad8aaa3"
 
+# Configuratie
 #: ../rncontrolcenter.xml:8
 msgid "Control Center"
 msgstr ""
 
 #: ../rncontrolcenter.xml:11
 msgid "Keyboard Layouts"
-msgstr "Toetsenbord-indelingen"
+msgstr "Toetsenbord-layout"
 
 #: ../rncontrolcenter.xml:17
 msgid "Keyboard Preferences - Layouts"
-msgstr "Toetsenbord-voorkeuren - Indelingen"
+msgstr "Toetsenbord-voorkeuren - Layouts"
 
 #: ../rncontrolcenter.xml:13
 msgid "Selecting a keyboard layout is now simpler with the Keyboard control panel. Just click Add to choose from a list of international keyboard layouts. Before making your choice you can see the effect of key presses in the layout preview. The Layout Options section has also been reorganized as simpler list of choices. <figure id=\"rnscreenshot-controlpanel-keyboardlayouts\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel, while adding a new layout.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Het kiezen van de juiste layout voor het toetsenbord is nu gemakkelijker geworden met de toetsenbordconfiguratie. Door op ¨Toevoegen¨ te klikken krijgt u een lijst met internationale toetsenbordindelingen. U kunt uw keuze uitproberen in het voorbeelscherm. Bij het indrukken van een toets wordt dit zichtbaar gemaakt in het voorbeeld waardoor u kunt zien welk teken er onder die toets zit. Tevens is het tabblad \"Layout-opties\" gereorganiseerd en toont nu een eenvoudiger lijst met keuzes. <figure id=\"rnscreenshot-controlpanel-keyboardlayouts\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-keyboard-properties+layout.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het tabblad Layouts in de toetsenbordconfiguratie, tijdens het toevoegen van een nieuwe layout.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -801,19 +804,19 @@ msgstr "De mediaspeler"
 
 #: ../rnapplications.xml:13
 msgid "GNOME 2.10 now includes the popular Totem video player, using GNOME's GStreamer multimedia framework. Totem provides the intuitive user interface that GNOME users expect, with automatic hardware detection instead of complex configuration. <figure id=\"rnscreenshot-totem\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Met GNOME 2.10 wordt nu standaard de populaire Totem mediaspeler meegeleverd die gebruik maakt van GNOME's GStreamer multimedia-raamwerk. Totem heeft de intuïtieve bediening die gebruikers van GNOME verwachten, met automatische  hardware-herkenning in plaats van complexe configuratie. <figure id=\"rnscreenshot-totem\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>De Totem mediaspeler.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:31
 msgid "Audio Extraction"
-msgstr ""
+msgstr "CD's rippen"
 
 #: ../rnapplications.xml:37
 msgid "The audio extractor"
-msgstr ""
+msgstr "De CD-ripper"
 
 #: ../rnapplications.xml:33
 msgid "The much-loved Sound Juicer \"CD ripper\" easily extracts audio from CDs for later playback on your PC or portable music player. Thanks to automatic downloading of song titles, you won't need to click more than a couple of buttons. <figure id=\"rnscreenshot-soundjuicer\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></imageobject><textobject><phrase>The audio extractor.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Het veelgebruikte Sound Juicer; de \"CD-ripper\", haalt op eenvoudige wijze audio van CD's zodat u deze op uw PC of een draagbare muziekspeler kunt afspelen. Doordat het automatisch de titels van de nummers van het internet haalt, bent u met een of twee keer klikken al klaar. <figure id=\"rnscreenshot-soundjuicer\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-soundjuicer.png\" format=\"PNG\"/></imageobject><textobject><phrase>De CD-ripper.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:51
 msgid "Web Browser"
@@ -832,14 +835,14 @@ msgstr ""
 msgid "Bookmarks can be exported."
 msgstr "Bladwijzers kunnen geëxporteerd worden."
 
+# Een uitbreidingenbeheer voor extra mogelijkheden.
 #: ../rnapplications.xml:58
 msgid "An extension manager for extra features."
-msgstr "Een uitbreidingenbeheer voor extra mogelijkheden."
+msgstr "Uitbreidingen en extra functies worden nu centraal beheerd"
 
 #: ../rnapplications.xml:53
 msgid "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in 2.10 include <placeholder-1/>"
-msgstr ""
-"De \"Epiphany\" webbrowser van GNOME is gebaseerd op Mozilla maar integreert volledig met het GNOME-bureaublad. Verbeteringen in 2.10 zijn onder andere <placeholder-1/>"
+msgstr "De webbrowser van GNOME: \"Epiphany\", gebruikt de motor van Mozilla maar is volledig geïntegreerd in de GNOME-omgeving. Verbeteringen in 2.10 zijn onder andere <placeholder-1/>"
 
 #: ../rnapplications.xml:64
 msgid "The web browser"
@@ -847,7 +850,7 @@ msgstr "De webbrowser"
 
 #: ../rnapplications.xml:62
 msgid "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>The web browser.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>De webbrowser.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:77
 msgid "Evolution"
@@ -855,43 +858,49 @@ msgstr "Evolution"
 
 #: ../rnapplications.xml:79
 msgid "GNOME's integrated Email and Groupware client, Evolution supports traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. With Evolution you can read, write, and manage your emails, contacts, and calendar events."
-msgstr ""
+msgstr "Het e-mailprogramma van GNOME: \"Evolution\", kan worden gebruikt voor het normale e-mailverkeer, maar het kan tevens als Groupware-client worden ingezet voor Novell Groupwise of Microsoft Exchange. Met Evolution kunt u e-mail lezen, versturen en beheren, maar u kunt ook al uw contacten en agenda's beheren."
 
 #: ../rnapplications.xml:84
 msgid "In GNOME 2.10 it's now easier to work offline with your email, calendar, and contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes will resynchronize when you go back online."
-msgstr ""
+msgstr "Het is in GNOME 2.10 gemakkelijker geworden om offline te werken met e-mail, agenda's en contacten wanneer u IMAP, LDAP, WebCal, Groupwise of Exchange gebruikt. Uw wijzigingen zullen automatisch gesynchroniseerd worden wanneer u weer online bent."
 
 #: ../rnapplications.xml:89
 msgid "Files can be attached to events."
-msgstr ""
+msgstr "Bestanden kunnen aan agendanotities worden bijgevoegd."
 
+# herhaalde gebeurtenissen
+# herhalingen
+# herhaalde agendanotities
+# zich herhalende notities
 #: ../rnapplications.xml:90
 msgid "Exceptions can be made in recurring events."
-msgstr ""
+msgstr "Er kunnen uitzonderingen worden gemaakt op herhalende gebeurtenissen."
 
+# bevat weersinformatie/heeft
 #: ../rnapplications.xml:91
 msgid "The calendar includes weather information."
-msgstr "De kalender bevat weersinformatie"
+msgstr "De agenda bevat informatie over het weer."
 
 #: ../rnapplications.xml:87
 msgid "This new version offers some other calendar improvements: <placeholder-1/>"
-msgstr "Deze nieuwe versie biedt enkele andere kalender verbeteringen: <placeholder-1/>"
+msgstr "Deze nieuwe versie van Evolution heeft een verbeterde agenda: <placeholder-1/>"
 
 #: ../rnapplications.xml:97
 msgid "Groupwise shared folders and send options are now supported."
-msgstr ""
+msgstr "Met Groupwise gedeelde mappen en verzendopties zijn nu ondersteund."
 
 #: ../rnapplications.xml:98
 msgid "Exchange folder sizes and password expiry warnings are supported."
-msgstr ""
+msgstr "Grootte van Exchange-mappen instellen, en waarschuwen bij het verlopen van wachtwoorden is nu mogelijk."
 
 #: ../rnapplications.xml:99
 msgid "The email user interface will be properly mirrored for right-to-left languages."
-msgstr ""
+msgstr "De bediening van het e-mailprogramma functioneert nu goed in talen waar van rechts naar links wordt gelezen."
 
+# ook nieuw is het volgende
 #: ../rnapplications.xml:95
 msgid "And yet more new features: <placeholder-1/>"
-msgstr ""
+msgstr "Ook nieuw zijn: <placeholder-1/>"
 
 #: ../rnapplications.xml:105
 msgid "The email client"
@@ -899,7 +908,7 @@ msgstr "Het e-mailprogramma"
 
 #: ../rnapplications.xml:103
 msgid "<figure id=\"rnscreenshot-evolution\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-evolution-mail.png\" format=\"PNG\"/></imageobject><textobject><phrase>The Evolution email client.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "<figure id=\"rnscreenshot-evolution\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-evolution-mail.png\" format=\"PNG\"/></imageobject><textobject><phrase>Het e-mailprogramma Evolution.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:119
 msgid "GnomeMeeting"
@@ -907,15 +916,15 @@ msgstr "GnomeMeeting"
 
 #: ../rnapplications.xml:121
 msgid "GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is now shared with our Evolution email client, so you don't need to enter contact information in more than one place."
-msgstr ""
+msgstr "Met GnomeMeeting kunnen gebruikers elkaar zien en met elkaar spreken vie internet-telefonie (VoIP) en videoconferentie. In GNOME 2.10 gebruiken GnomeMeeting en het e-mailprogramma Evolution hetzelfde adresboek zodat u een contact slechts één keer hoeft in te voeren. "
 
 #: ../rnapplications.xml:128
 msgid "The internet telephony and video conferencing client"
-msgstr ""
+msgstr "Het programma voor internettelefonie en videoconferentie"
 
 #: ../rnapplications.xml:125
 msgid "Now you can even browse for other Gnome Meeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnomemeeting.png\" format=\"PNG\"/></imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</phrase></textobject></mediaobject></screenshot></figure>"
-msgstr ""
+msgstr "Het is nu zelfs mogelijk om andere gebruikers van GnomeMeeting op uw lokale netwerk ontdekken zonder dat u vooraf hun contactinformatie hoeft te weten. En u kunt uw eigen videobeeld naast die van uw spreekpartner zetten, zodat u ziet wat zij te zien krijgen. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;figure-gnomemeeting.png\" format=\"PNG\"/></imageobject><textobject><phrase>GnomeMeeting met zij-aan-zij videobeeld.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rndesktop.xml:10
 msgid "Desktop"
@@ -927,7 +936,7 @@ msgstr "Bestandsbeheer"
 
 #: ../rndesktop.xml:13
 msgid "The file manager, also known as Nautilus, is even faster and more stable in GNOME 2.10, thanks to changes to its internal architecture. This should allow software developers to extend the file manager more easily in future."
-msgstr "Het programma waarmee u bestanden beheert; Nautilus, is sneller en stabieler geworden in GNOME 2.10. Wijzigingen in de interne architectuur zijn hiervoor verantwoordelijk. Zodoende kunnen software-ontwikkelaars Nautilus voortaan gemakkelijker uitbreiden. "
+msgstr "Het programma waarmee u bestanden beheert; Nautilus, is sneller en stabieler geworden in GNOME 2.10. Wijzigingen in de interne architectuur zijn hiervoor verantwoordelijk. Hierdoor kunnen software-ontwikkelaars Nautilus voortaan gemakkelijker uitbreiden. "
 
 #: ../rndesktop.xml:18
 msgid "The file manager now also works more smoothly with other applications, such as Mozilla and Firefox, (TODO: Is this just drag-and-drop? If so, let's just say that.) and has more navigation options. TODO: What options, exactly?"
@@ -939,11 +948,11 @@ msgstr "De lokatieknop is nu duidelijker geworden."
 
 #: ../rndesktop.xml:26
 msgid "When creating new files, renaming starts automatically."
-msgstr "Bij het aanmaken van nieuwe bestanden wordt automatisch hernoemd."
+msgstr "Bij het aanmaken van nieuwe bestanden wordt er automatisch hernoemd."
 
 #: ../rndesktop.xml:27
 msgid "When using keyboard navigation to open the parent folder (Alt-Up), the current folder will be selected."
-msgstr ""
+msgstr "Bij het openen van de bovenliggende map via het toetsenbord (Alt-boven), wordt de huidige map al geselecteerd."
 
 #: ../rndesktop.xml:23
 msgid "In addition, there are many small changes that demonstrate GNOME's attention to detail. For instance, <placeholder-1/>"
@@ -962,7 +971,7 @@ msgstr "Daarnaast zijn er veel kleine wijzigingen die GNOME's oog voor detail de
 #.   </figure
 #: ../rndesktop.xml:43
 msgid "GNOME 2.10 provides a new selection of pre-installed background images and patterns, so your desktop can become your own."
-msgstr "GNOME 2.10 heeft een nieuwe verzameling achtergrondafbeeldingen en patronen zodat u uw bureaublad naar eigen smaak kunt indelen en vormgeven."
+msgstr "GNOME 2.10 heeft een nieuwe verzameling achtergronden en patronen zodat u uw bureaublad naar eigen smaak kunt indelen en vormgeven."
 
 # letterlijk, venstergedrag, maar dat is wel heeel lelijk.
 # het gaat om focusseringsgedrag
@@ -976,11 +985,11 @@ msgstr "GNOME 2.10 heeft een nieuwe eigenschap die u in eerste instantie niet me
 
 #: ../rndesktop.xml:61
 msgid "In the past, while typing something into one application when suddenly your instant messenger offered a chat request from your friend, your words would be typed into the chat window. Imagine if you were typing your password at the time. This should no longer happen in GNOME 2.10."
-msgstr ""
+msgstr "Voorheen kwam de volgende situatie nogal eens voor: U bent bezig iets aan het typen in bijvoorbeeld een tekstverwerker. Plotseling verschijnt er een venster van uw instant-messenger omdat een vriend van u met u wilt praten. Zonder dat u het doorhad zat u al in het chat-venster te typen. Stel je voor dat je op zo'n moment net je wachtwoord net je wachtwoord aan het typen bent. In GNOME 2.10 komen dit soort situaties niet meer voor."
 
 #: ../rndesktop.xml:62
 msgid "In addition, if an application takes a long time to start, your work will not be interrupted when it finally opens its window."
-msgstr ""
+msgstr "Ook als een toepassing veel tijd nodig heeft om op te starten zal uw werk niet onderbroken worden wanneer het uiteindelijk zijn venster opent."
 
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
@@ -992,7 +1001,7 @@ msgstr "Introductie"
 
 #: ../release-notes.xml:19
 msgid "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-platform free desktop environment."
-msgstr ""
+msgstr "GNOME 2.10 is de nieuwste versie van deze populaire, multi-platform, vrije desktopomgeving."
 
 #: ../release-notes.xml:21
 msgid "The GNOME desktop releases continue to arrive on schedule. GNOME 2.10 includes a number of interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections."
@@ -1008,7 +1017,7 @@ msgstr ""
 
 #: ../release-notes.xml:35
 msgid "Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/start/2.8/notes/\">release notes</ulink>."
-msgstr ""
+msgstr "Natuurlijk bevat GNOME 2.10 alle verbeteringen die voor GNOME 2.8 zijn gemaakt. Hierover kunt u lezen in het GNOME 2.8 <ulink url=\"http://www.gnome.org/start/2.8/notes/\">communiqué</ulink>."
 
 #: ../release-notes.xml:39
 msgid "The Desktop release contains all the applications needed to provide basic user functionality. Major applications such as <application>Gnumeric</application> and <application>OpenOffice.org</application> are also available, but are developed in parallel on their own release cycle rather than being included in the core GNOME release."
@@ -1016,11 +1025,11 @@ msgstr ""
 
 #: ../release-notes.xml:46
 msgid "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/philosophy/free-sw.html\">free software</ulink>."
-msgstr ""
+msgstr "GNOME is onderdeel van het GNU project, en is <ulink url=\"http://www.fsf.org/philosophy/free-sw.html\">vrije software</ulink>."
 
 #: ../release-notes.xml:50
 msgid "Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</link> section, or use the links at the right to learn more about this release and the GNOME Desktop in general."
-msgstr ""
+msgstr "Ga direct door naar de sectie <link linkend=\"rnwhatsnew\">Wat is er nieuw</link>, of gebruik de links aan de linkerkant om meer te weten te komen over deze GNOME-versie en de GNOME-desktop in het algemeen."
 
 #: ../release-notes.xml:58
 msgid "What's New In GNOME 2.10"
@@ -1062,11 +1071,12 @@ msgstr "Met dank aan"
 msgid "These release notes were assembled by Murray Cumming, Davyd Madeley, and the GNOME community."
 msgstr "Dit communiqué is samengesteld door Murray Cumming, Davyd Madeley, en de GNOME gemeenschap."
 
-# newlines worden niet meegenomen?
+# laatste regel wordt niet meegenomen, vandaar een extra spatie op het einde?
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../release-notes.xml:0
 msgid "translator-credits"
 msgstr ""
-"Vertaald door: Marc Maurer,\n"
-"Reinout van Schouwen,\n"
-"Tino Meinen"
+"Vertaald door: Tino Meinen,\n"
+"Marc Maurer,\n"
+"Reinout van Schouwen\n"
+" "
