@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: releng\n"
-"POT-Creation-Date: 2005-03-08 15:32+0100\n"
+"POT-Creation-Date: 2005-03-08 20:17+0100\n"
 "PO-Revision-Date: 2005-03-08 15:33+0100\n"
 "Last-Translator: Martin Willemoes Hansen <mwh@sysrq.dk>\n"
 "Language-Team: Danish <dansk@klid.dk>\n"
@@ -160,16 +160,16 @@ msgid ""
 "bugs:"
 msgstr ""
 "Vi opfordrer også vores brugere til at rapportere fejl så de kan blive "
-"rettet. Den bedste måde at rapportere fejl i Gnome på, er ved at bruge den "
+"rettet. Den bedste måde at rapportere fejl i Gnome, er ved at bruge den "
 "<ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">simple "
 "fejlguide</ulink>. Denne vil føre dig gennem de nødvendige skridt for at "
-"udfylde en kvalitets fejlrapport og sørge for at fejlrapporten er mærket "
+"udfylde en god fejlrapport og sørge for at fejlrapporten er mærket "
 "korrekt. Hvis du er for avanceret for hvad som helst der indeholder ordet "
-"\"simple\", så findes der også det <ulink url=\"http://bugzilla.gnome.org/"
+"\"simpel\", så findes der også det <ulink url=\"http://bugzilla.gnome.org/"
 "enter_bug.cgi\">traditionelle fejlskema</ulink>. Flere detaljer om fejl der "
-"allerede er blevet rapporteret kan findes i vores <ulink url=\"http://"
-"bugzilla.gnome.org/\">Bugzilla</ulink>. Nedenstående er nogle af de mest "
-"prominente fejl."
+"allerede er blevet rapporteret kan findes i vores fejlhåndteringssystem "
+"<ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink>. "
+"Nedenstående er nogle af de mest prominente fejl."
 
 #: ../release-notes.xml:111 (title)
 msgid "List of known issues"
@@ -252,9 +252,10 @@ msgid ""
 "to contribute more, you can join our active <ulink url=\"http://developer."
 "gnome.org/projects/bugsquad/\">bug-squad</ulink>."
 msgstr ""
-"Som en bruger kan dit bidrag simpelthen være at udfylde gode fejlrapporter. "
-"Du kan melde fejl i vores Bugzilla ved at bruge den <ulink url=\"http://"
-"bugzilla.gnome.org/simple-bug-guide.cgi\">simple fejlguide</ulink>. Hvis du "
+"Som bruger kan dit bidrag simpelthen være at udfylde gode fejlrapporter. "
+"Du kan melde fejl i vores fejlhåndteringssystem Bugzilla ved at bruge den "
+"<ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">"
+"simple fejlguide</ulink>. Hvis du "
 "har lyst til at bidrage med mere, kan du tilmelde dig vores aktive <ulink "
 "url=\"http://developer.gnome.org/projects/bugsquad/\">fejlpatrulje</ulink>."
 
@@ -267,7 +268,7 @@ msgid ""
 "get started</ulink>."
 msgstr ""
 "For udviklere er der en masse spændende at lave i hver af vores aktive "
-"udviklingsgrupper - tilgængelighed, dokumentation, brugbarhed, oversættelse "
+"udviklingsgrupper - tilgængelighed, dokumentation, brugbarhed, oversættelse, "
 "web, testing, grafik, og skrivebords- &amp; platforms-udvikling. Her er en "
 "<ulink url=\"http://live.gnome.org/JoinGnome\">guide der kan hjælpe dig i "
 "gang</ulink>."
@@ -278,7 +279,7 @@ msgid ""
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
-"At hjælpe med Gnome kan være en utrolig tilfredsstillende oplevelse. Det "
+"At arbejde på Gnome kan være en utrolig tilfredsstillende oplevelse. Det "
 "giver dig mulighed for at mødes med en bred vifte at motiverede, dygtige, og "
 "hjælpsomme mennesker, som alle arbejder hen mod det samme mål. Slut dig til "
 "os i dag og se hvilken forskel du kan gøre."
@@ -375,7 +376,7 @@ msgid ""
 "applets), providing new features and better integration with the rest of the "
 "desktop."
 msgstr ""
-"Gnome 2.10 inkluderer store forbedringer af panelobjekterne (også kendt som "
+"Gnome 2.10 har store forbedringer af panelobjekterne (også kendt som "
 "panelprogrammer), nye faciliteter og bedre integration med resten af "
 "skrivebordsmiljøet."
 
@@ -391,8 +392,8 @@ msgstr ""
 "Den mest synlige ændring er fjernelsen af panelets menu Handlinger og "
 "tilføjelsen af menuerne Steder og Skrivebord. Disse giver hurtig adgang til "
 "de objekter som du oftests bruger, uden at skulle navigere gennem "
-"undermenuer. Eksempelvis viser menuen Steder din hjemmemappe, din maskine, "
-"servere på netværket, og søgefaciliteterne. I menuen Skrivebord finder du "
+"undermenuer. Eksempelvis viser menuen \"Steder\" din hjemmemappe, din maskine, "
+"servere på netværket, og søgefaciliteterne. I menuen \"Skrivebord\" finder du "
 "dine indstillinger og administrative kontrolpaneler, logud og hjælp."
 
 #: ../rnapplets.xml:15 (para)
@@ -423,7 +424,7 @@ msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
 "with GNOME System Tools."
 msgstr ""
-"Gnome 2.10 introducerer et nyt panelprogram til at kontrollere dit Modem, "
+"Gnome 2.10 introducerer et nyt panelprogram til at kontrollere dit modem, "
 "hvilket er integreret i Gnomes systemværktøjer."
 
 #: ../rnapplets.xml:28 (title) ../rnapplets.xml:33 (phrase)
@@ -446,7 +447,7 @@ msgstr ""
 
 #: ../rnapplets.xml:50 (title)
 msgid "a Trashcan on your Panel"
-msgstr "en papirkurv på dit panel"
+msgstr "En papirkurv på dit panel"
 
 #: ../rnapplets.xml:55 (phrase)
 msgid "Drag trash to your panel"
@@ -467,7 +468,7 @@ msgid ""
 msgstr ""
 "Gnome 2.8 gav dig mulighed for nemt at montere dine digitale medier, såsom "
 "cd'er, dvd'er og usb-hukommelsespinde. Nu hjælper panelprogrammet "
-"\"montering af delarkiver\" dig med at bruge disse delarkiver uden først at "
+"\"diskmontering\" dig med at bruge disse medier uden først at "
 "skulle finde deres ikoner på skrivebordet, bag dine åbnede vinduer. "
 "Panelprogrammet viser de nuværende monterede (eller ikke monterede) "
 "delarkiver, hvilket giver dig mulighed for at montere dem, skubbe dem ud, "
@@ -492,9 +493,9 @@ msgid ""
 "appropriate. In addition, the forecast now includes sunrise and sunset "
 "calculations for most locations."
 msgstr ""
-"Vejrovervågeren kan nu vise endnu flere lokaliteter end før, og "
+"Vejrrapporten kan nu vise endnu flere lokaliteter end før, og "
 "lokaliteternes navne er blevet oversat til ikke-engelske sprog hvor det er "
-"hensigtsmæssigt. Desuden inkluderer vejrudsigten nu solopgang og solnedgang "
+"hensigtsmæssigt. Desuden indeholder vejrudsigten nu solopgang og solnedgang "
 "for de fleste lokaliteter."
 
 #: ../rnapplets.xml:94 (title)
@@ -527,7 +528,7 @@ msgstr ""
 
 #: ../rnapplets.xml:117 (title)
 msgid "all new mixer for your panel"
-msgstr "en hel ny mixer til dit panel"
+msgstr "En hel ny mixer til dit panel"
 
 #: ../rnapplets.xml:122 (phrase)
 msgid "All new mixer for your panel"
@@ -759,7 +760,7 @@ msgstr "Bogmærker kan eksporteres."
 
 #: ../rnapplications.xml:56 (para)
 msgid "An extension manager for extra features."
-msgstr "Udvidelseshåndtering for ekstra faciliteter."
+msgstr "En udvidelseshåndtering for ekstra faciliteter."
 
 #: ../rnapplications.xml:51 (para)
 msgid ""
@@ -767,8 +768,8 @@ msgid ""
 "with the GNOME desktop environment. Improvements in 2.10 include "
 "<placeholder-1/>"
 msgstr ""
-"Gnomes webbrowser \"Epiphany\" er baseret på Mozilla, men integrerer fuldt "
-"ud med skrivebordsmiljøet. Forbedringer i Gnome 2.10 inkluderer <placeholder-"
+"Gnomes webbrowser \"Epiphany\" er baseret på Mozilla og integrerer fuldt "
+"ud med skrivebordsmiljøet. Forbedringer inkluderer: <placeholder-"
 "1/>"
 
 #: ../rnapplications.xml:61 (title)
@@ -803,11 +804,11 @@ msgid ""
 msgstr ""
 "I Gnome 2.10 er det nu lettere at arbejde afkoblet med e-post, kalender og "
 "kontakter hvis du bruger IMAP, LDAP, WebCal, GroupWise eller Exchange. Dine "
-"ændringer gensynkroniserer når du bliver opkoblet igen."
+"ændringer synkroniseres når du bliver opkoblet igen."
 
 #: ../rnapplications.xml:85 (para)
 msgid "Files can be attached to events."
-msgstr "Filer kan lægges ved hændelser."
+msgstr "Filer kan vedlægges begivenheder."
 
 #: ../rnapplications.xml:86 (para)
 msgid "Exceptions can be made in recurring events."
@@ -875,8 +876,8 @@ msgid ""
 msgstr ""
 "GnomeMeeting gør det muligt for brugere at se og tale sammen med andre via "
 "internet-telefoni (VoIP) og videokonferencer. I Gnome 2.10 er adressebogen "
-"nu delt med e-post-programmet Evolution, så du ikke behøver at indtaste "
-"kontaktinformation flere end et sted."
+"nu delt med e-post-programmet Evolution, så du ikke længere behøver at "
+"indtaste kontaktinformation mere end et sted."
 
 #: ../rnapplications.xml:128 (para)
 msgid ""
@@ -887,7 +888,7 @@ msgid ""
 msgstr ""
 "Nu kan du endda lede efter andre brugere af Gnome Meeting på dit lokale "
 "netværk, uden at have opdaget deres kontaktdetaljer i forvejen. Du kan se "
-"din egen video-uddata side om side med din samtalepartners video-uddata, så "
+"din egen video side om side med din samtalepartners video, så "
 "du kan se hvad de ser."
 
 #: ../rnapplications.xml:132 (title)
@@ -985,8 +986,8 @@ msgid ""
 "Drag and drop with other applications, such as Mozilla and Firefox, now also "
 "works more smoothly."
 msgstr ""
-"Træk og slip med andre programmer, så som Mozilla og Firefox, virker nu mere "
-"blødt."
+"Træk og slip med andre programmer, såsom Mozilla og Firefox, virker nu mere "
+"flydende."
 
 #: ../rndesktop.xml:24 (para)
 msgid "The path button is now more obviously a button."
@@ -1025,8 +1026,8 @@ msgid ""
 "GNOME 2.10 provides a new selection of pre-installed background images and "
 "patterns, so your desktop can become your own."
 msgstr ""
-"Gnome 2.10 tilbyder en ny samling af præinstallerede baggrundsbilleder og "
-"mønstre, så dit skrivebord kan blive dit eget."
+"Gnome 2.10 tilbyder en ny samling baggrundsbilleder og "
+"mønstre, så du kan personliggøre dit skrivebord."
 
 #: ../rndesktop.xml:44 (title)
 msgid "a selection of simple yet artistic backgrounds"
@@ -1066,7 +1067,7 @@ msgid ""
 "In addition, if an application takes a long time to start, your work will "
 "not be interrupted when it finally opens its window."
 msgstr ""
-"Desuden, hvis et program tager lang tid om at starte, vil dit arbejde ikke "
+"Hvis et program tager lang tid om at starte, vil dit arbejde ikke "
 "blive forstyrret når programmet endelig åbner sit vindue."
 
 #: ../rndocs.xml:10 (title)
@@ -1088,7 +1089,7 @@ msgstr ""
 "en omfattende og professionel dokumentation. Der er lagt nøje mærke til "
 "detaljerne, vha. den mest komplette <ulink url=\"http://developer.gnome.org/"
 "documents/style-guide/\">guide for dokumentationsstíl</ulink>, indenfor frit "
-"programmel. Som i Gnome 2.8 inkluderer hvert program en komplet "
+"programmel. Som i Gnome 2.8 indeholder hvert program en komplet "
 "brugerdokumentation."
 
 #: ../rndocs.xml:22 (para)
@@ -1098,9 +1099,9 @@ msgid ""
 "accessibility features, can be found on the <ulink url=\"http://www.gnome."
 "org/learn/\">GNOME Learn page</ulink>."
 msgstr ""
-"Lær hvordan du bruger Gnome med skrivebordsbrugerguiden. Brugerguiden og "
+"Lær hvordan du bruger Gnome med brugerguiden. Brugerguiden og "
 "anden dokumentation, inklusiv guider til systemadministration og Gnomes "
-"tilgængelighedsfaciliteter, kan findes på <ulink url=\"http://www.gnome.org/"
+"tilgængelighedsfaciliteter, findes på <ulink url=\"http://www.gnome.org/"
 "learn/\">Lær mere om Gnome-siden</ulink>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1167,7 +1168,7 @@ msgstr ""
 
 #: ../rngames.xml:36 (title)
 msgid "join a network game"
-msgstr "vær med i et netværks spil"
+msgstr "Vær med i et netværks spil"
 
 #: ../rngames.xml:41 (phrase)
 msgid "Join a network game"
@@ -1341,7 +1342,7 @@ msgid ""
 "on your hard drive. This is the best way to see for yourself what's new."
 msgstr ""
 "En Live-cd af Gnome 2.10 er tilgængelig fra www.gnome.org. Denne Live-cd gør "
-"det muligt for dig at prøve en komplet version af Gnome skrivebordsmiljøet "
+"det muligt for dig at prøve en komplet version af skrivebordsmiljøet Gnome "
 "uden at installere noget som helst på din disk. Dette er en god måde hvorpå "
 "du kan se hvad der er blevet ændret siden sidst."
 
@@ -1365,12 +1366,12 @@ msgid ""
 "www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from "
 "CVS."
 msgstr ""
-"Dog, hvis du gerne vil bygge Gnome fra kildetekst, eksempelvis for at teste "
+"Hvis du gerne vil bygge Gnome fra kildetekst, eksempelvis for at teste "
 "de allernyeste versioner, give tilbagemeldinger og lave forbedringer, så "
 "anbefaler vi et byggeværktøj, såsom <ulink url=\"http://cipherfunk.org/"
 "garnome/\">GARNOME</ulink>, der bygger med udgivede tarbolde og <ulink url="
-"\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>der bygger "
-"udfra CVS."
+"\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink> der bygger "
+"fra CVS."
 
 #: ../rnplatform.xml:9 (title)
 msgid "Platform Improvements"
@@ -1436,7 +1437,7 @@ msgstr ""
 "interoperabilitet forbedre brugeroplevelsen ved at sikre at Gnome og KDE "
 "samt andre programmer nemmere kan arbejde sammen. Ved at benytte åbne "
 "specifikationer hjælpes der med til at sikre, at brugernes data ikke bliver "
-"fanget i leverandørejede formater."
+"låst fast i leverandørejede formater."
 
 #: ../rnstandards.xml:19 (para)
 msgid ""
@@ -1537,11 +1538,11 @@ msgstr "Brugere og grupper: Nemmere redigering af gruppemedlemmer."
 
 #: ../rnsysadmin.xml:28 (para)
 msgid "Changes are applied instantly where appropriate."
-msgstr "Ændringer anvendes straks når det er hensigtsmæssigt."
+msgstr "Ændringer anvendes straks, hvis det er hensigtsmæssigt."
 
 #: ../rnsysadmin.xml:23 (para)
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
-msgstr "Gnome 2.10 leverer en række forbedringer, heriblandt <placeholder-1/>"
+msgstr "Gnome 2.10 leverer en række forbedringer, heriblandt: <placeholder-1/>"
 
 #: ../rnsysadmin.xml:33 (title)
 msgid "The Clock, Network, and Users/Groups tools"
@@ -1565,7 +1566,7 @@ msgstr "Åbne arkiverede logger og logger på netværksenheder."
 
 #: ../rnsysadmin.xml:53 (para)
 msgid "Copy logs to the clipboard."
-msgstr "Kopiér logger til klippebordet."
+msgstr "Kopiere logger til klippebordet."
 
 #: ../rnsysadmin.xml:48 (para)
 msgid ""
@@ -1573,7 +1574,7 @@ msgid ""
 "mode. In addition, it can now <placeholder-1/>"
 msgstr ""
 "Gnomes logfremviser har fået tilføjet en behændig søgefacilitet og fået en "
-"forbedret overvågningstilstand. Endvidere kan den nu <placeholder-1/>"
+"forbedret overvågningstilstand. Endvidere kan den nu: <placeholder-1/>"
 
 #: ../rnsysadmin.xml:58 (title)
 msgid "The Log Viewer"
@@ -1631,7 +1632,7 @@ msgstr "Værktøjer"
 
 #: ../rnutilities.xml:10 (para)
 msgid "The GNOME utilities have some improvements, such as:"
-msgstr "Værktøjerne i Gnome har fået nogle forbedringer, såsom:"
+msgstr "Værktøjerne i Gnome har fået nogle forbedringer:"
 
 #: ../rnutilities.xml:13 (title) ../rnutilities.xml:21
 msgid "Text Editor"
@@ -1647,8 +1648,8 @@ msgid ""
 msgstr ""
 "Gnomes tekstredigering kan nu fremhæve den nuværende linje og ved redigering "
 "af kildetekst, fremhæves matchende parenteser. Stavekontrolen er også "
-"forbedret. Nu fremhæver den kun stavefejl i et ord, når du er færdig med at "
-"indtaste det. Mange flere sprog er understøttet og automatisk identificeret."
+"forbedret. Nu fremhæver den kun stavefejl i ord, når du er færdig med at "
+"indtaste dem. Mange flere sprog er understøttet og automatisk identificeret."
 
 #: ../rnutilities.xml:17 (para)
 msgid ""
@@ -1656,8 +1657,8 @@ msgid ""
 "when all changes have actually been undone. And in addition it even starts "
 "faster than previous versions."
 msgstr ""
-"Mange mennesker vil blive glade for at se, at den ikke længere foreslår at "
-"gemme ændringer når alle ændringer egentligt er blevet fortrudt. Desuden "
+"Mange vil blive glade for at se, at tekstredigeringen ikke længere foreslår at "
+"gemme ændringer, når alle ændringer egentligt er blevet fortrudt. Desuden "
 "starter den endda endnu hurtigere end de forrige versioner."
 
 #: ../rnutilities.xml:25 (phrase)
@@ -1676,9 +1677,9 @@ msgid ""
 "manager will now use single clicks too."
 msgstr ""
 "Gnomes arkivhåndtering kan nu åbne flere typer af arkiver, inklusiv AR-, "
-"Debian-, og 7-zip-arkiver, og RAR-arkiver beskyttet med adgangskode. Og hvis "
-"du har aktiveret indstillingen enkeltklik i filhåndteringen, vil "
-"arkivhåndteringen også benytte enkeltklik."
+"Debian-, og 7-zip-arkiver. RAR-arkiver beskyttet med adgangskode er nu også "
+"understøttet. Endvidere vil arkivhåndteringen også benytte enkeltklik, hvis "
+"du har aktiveret indstillingen enkeltklik i filhåndteringen."
 
 #: ../rnutilities.xml:43 (phrase)
 msgid "The archive manager, asking for a password for a RAR file."
