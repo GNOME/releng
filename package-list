@@ -26,8 +26,18 @@ gnome-core          1.2.2      No            No         Yes       Yes         Ja
 gnome-games         1.2.0      No            No         Yes                   Ian Peters <itp@helixcode.com>
 gnome-libs          1.2.4      No            Yes (3)    --        Yes         Miguel de Icaza <miguel@helixcode.com>
 gnome-media         1.2.0      No            No         Yes                   Peter Teichman <pat@gnu.org>
+gnome-pim           1.2.0      No            No         Yes                   Eskil Heyn Olsen <eskil@eazel.com>
+                                                                              Russel Steinthal <rms39@columbia.edu>
 gnome-print         0.24       Yes           Yes        --                    Chema Celorio <chema@celorio.com>
 gnome-user-docs     1.0.0      Yes           Yes        --        Yes         Dan Mueth <d-mueth@uchicago.edu>
+gtop                1.0.8      No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
+imlib               1.9.8.1    No            No         Yes       Yes         Mark Crichton <crichton@gimp.org>
+libghttp            1.0.7      No            Yes        --        Yes         Shane Culpepper <pepper@eazel.com>
+libglade            0.13       No            Yes (2)    --                    James Henstridge <james@daa.com.au>
+libgtop             1.0.7      No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
+libxml              1.8.10     No            No         Yes                   Daniel Veillard <Daniel.Veillard@w3.org>
+users-guide         1.1-9      Yes           Yes        --        Yes         Dan Mueth <d-mueth@uchicago.edu>
+gtkmm               1.2.4      No            No         Yes       ??          Karl Nelson <kenelson@ece.ucdavis.edu>
 gnome-utils         1.2.0      No            No         Yes                   Gregory McLean <gregm@comstar.net>
                                                                               George Lebl <jirka@5z.com>
 gtk+                1.2.8      No            No         Yes       Yes         Tim Janik <timj@redhat.com> 
@@ -40,6 +50,23 @@ libglade            0.13       No            Yes (2)    --                    Ja
 libgtop             1.0.7      No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
 libxml              1.8.10     No            No         Yes                   Daniel Veillard <Daniel.Veillard@w3.org>
 users-guide         1.1-9      Yes           Yes        --        Yes         Dan Mueth <d-mueth@uchicago.edu>
+gtkmm               1.2.4      No            No         Yes       ??          Karl Nelson <kenelson@ece.ucdavis.edu>
+libsigc++           1.0.1      No            No         Yes       ??          Karl Nelson <kenelson@ece.ucdavis.edu>
+gnome-guile         0.19       No            No         Yes       ??          Ariel Rios <jarios@usa.net>
+gnome-python        1.0.53     No            No         Yes       ??          James Henstridge <james@daa.com.au>
+nautilus            0.5                                                       Darin Adler <darin@eazel.com>
+oaf                 0.6.2 			                              Maciej Stachowiak <mjs@eazel.com> 
+gconf               0.11                                                      Havoc Pennington <hp@redhat.com> 
+gnome-print         0.24				                      Lauris Kaplinski <lauris@helixcode.com>
+gnome-vfs           0.4.2                                                     Pavel Cisler <pavel@eazel.com>
+bonobo              0.31				                      Michael Meeks <michael@helixcode.com>
+medusa              0.2.2                                                     Rebecca Schulman <rebecka@eazel.com>
+ammonite            0.8.1                                                     Mike Fleming <mfleming@eazel.com>
+xml-i18n-tools                                                                Kenneth Christiansen <kenneth@gnu.org>
+                                                                              Maciej Stachowiak <mjs@eazel.com>
+gnome--             1.2.4      No            No         ??        ??          Karl Nelson <kenelson@ece.ucdavis.edu>
+panel--                                                                       ERDI Gergo <cactus@cactus.rulez.org>    
+
 
 
 (1) It is kind of buggy though and we may want to do a new interim
@@ -49,12 +76,4 @@ release rather than waiting for gdm3
 
 (3) help stuff needs to be updated
 
-
-Packages that were in GNOME 1.2 but are likely to be moved to extra apps release
-
-dia                 0.85                     Yes        No                   James Henstridge <james@daa.com.au>
-gnumeric            0.54                     Yes        No                   Jody Goldberg <jgoldberg@home.com>
-mc                  4.5.49     No            No         No
-gnome-pim           1.2.0      No            No         Yes                  Eskil Heyn Olsen <eskil@eazel.com>
-                                                                             Russel Steinthal <rms39@columbia.edu>
 

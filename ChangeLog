@@ -1,3 +1,8 @@
+2001-01-06  Maciej Stachowiak  <mjs@eazel.com>
+
+	* TODO: Added some TODO items.
+	* package-list: Updated with items for GNOME 1.4.
+
 2000-10-02  Maciej Stachowiak  <mjs@eazel.com>
 
 	* package-list: Put Owen as gtk-engines contact.
