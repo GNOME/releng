@@ -33,29 +33,35 @@
     internationalization and accessibility support, including support for
     bi-directional text.</para>
     
-    <para>We spent the six months since the GNOME 2.0 release improving
-    usability, performance, appearance, and accessibility support. We also added new
-    functionality, including new applications, producing a feature-rich
-    GNOME 2.2 desktop.</para>
+    <para>The GNOME community has spent the six months since the GNOME
+    2.0 release improving usability, performance, appearance, and
+    accessibility support. We also added new functionality, including
+    new applications, producing a feature-rich GNOME 2.2
+    desktop.</para>
 
-    <para>GNOME provides a user-friendly environment that "just works" for everyday
-    users, without excess complexity, while at the same time providing the rich
-    flexibility experienced developers demand. We have tried to avoid
-    unnecessary complications or obscure features, sticking instead to a clear, unified vision.</para>
+    <para>GNOME provides a user-friendly environment that "just works"
+    for everyday users, without excess complexity, while at the same
+    time providing the rich flexibility experienced developers
+    demand. We have tried to avoid unnecessary complications or
+    obscure features, sticking instead to a clear, unified
+    vision.</para>
 
     <para>The GNOME 2 developer platform has matured and is now widely
-    used. While GNOME 2.0 was a major upgrade to the underlying platform, GNOME
-    &version; is a simpler time-based release that includes whatever
-    improvements have been completed since the previous release. In future you
-    can look forward to further enhancements from regularly scheduled GNOME
-    releases.</para>
+    used by applications outside of the GNOME core. While GNOME 2.0
+    was a major upgrade to the underlying platform, GNOME &version; is
+    a simpler time-based release that includes a number of improvements
+    have been completed since the previous release. In the future you
+    can look forward to further enhancements from regularly scheduled
+    GNOME releases.</para>
 
-    <para>Most major GNOME-based applications have been ported to GNOME 2, and
-    the new platform has allowed the development of several new applications. We
-    encourage developers to use the GNOME 2.2 platform,
-    to take advantage of its features.</para>
+    <para>Most major GNOME-based applications have been ported to
+    GNOME 2, and the new platform has allowed the development of
+    several new applications. We encourage developers to use the GNOME
+    2.2 platform and take advantage of its features.</para>
 
-    <para>Of course GNOME 2.2 includes all of the improvements made in GNOME 2.0, which you can learn about <ulink url="http://www.gnome.org/start/2.0/releasenotes.html">here</ulink>.</para>
+    <para>Of course GNOME 2.2 includes all of the improvements made in
+    GNOME 2.0, which you can learn about <ulink
+    url="http://www.gnome.org/start/2.0/releasenotes.html">here</ulink>.</para>
 
     <para>The Desktop and Platform release does not include large applications
       such as <application>Gnumeric</application>; those are developed in
@@ -561,40 +567,47 @@ gnome2-user-docs
 
 More details on bugs already reported can be found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Among the most prominent GNOME &version; bugs:</para>
 
-    <sect2><title>TODO something</title>
-    <para></para>
+    <sect2><title>Threading in GStreamer</title> <para>GStreamer uses
+    its own theading implementation, which has some known issues. They
+    are discussed in more detail in the <ulink
+    url="http://www.gstreamer.net/releases/0.6.0/notice.php">GStreamer
+    0.6 Release Notes.</ulink></para>
     </sect2>
 
-    <sect2><title>TODO something</title>
-    <para></para>
+    <sect2><title>FAM bugs can cause Theme Manager hangs </title>
+      <para>In some cases, problems with FAM can cause the new Theme
+      Manager to hang. For more information, see <ulink
+      url="http://bugzilla.gnome.org/show_bug.cgi?id=103797">bug
+      103797.</ulink></para>
+    </sect2>
+
+    <sect2><title>Sound Recorder hangs in some cases</title>
+      <para>In some circumstances, the Sound Recorder can hang when recording. For more information, see <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=103279">bug 103279.</ulink></para>
+    </sect2>
+
+    <sect2><title>Sawfish support in Theme Manager</title> <para>As
+    metacity is now the official window manager of GNOME, sawfish
+    support may be incomplete in the theme manager.</para>
     </sect2>
 
   </sect1>
 
   <sect1 id="rnlookingahead">
-    <title>Looking to GNOME 2.4 and Beyond</title>
-    <para>We are already looking ahead to our next big release of the GNOME
-Desktop and Developer Platform.
+    <title>Looking to GNOME 2.4 and Beyond</title> <para>The
+    popularity of the GNOME 2.0 developer platform, and our quick
+    release cycle for GNOME &version; have stimulated great interest
+    not only in GNOME 2.2 but in the next release of the GNOME Desktop
+    and Developer Platform.
     </para>
-    <para>Over the last couple of months, there has been a huge amount of
-activity at the application level. GNOME 2.4 will start to merge many of these
-newly developed and ported applications together. Expect to see a release of
-Evolution, Ximian's powerful Mail, Address and Calendar client and Galeon, the
-popular web browser, for the GNOME 2 desktop later this year. These are just two
-applications from a list of many applications that we hope to see releases from
-next year. You
-      can find many of these applications at the <ulink
-	url="http://5toe.lyrical.net/">5th Toe website</ulink>.</para>
-
-<para>
-Over the last couple of months, there has been a huge amount of activity at the
-application level. GNOME 2.4 will start to merge many of these newly developed
-and ported applications together. Expect to see a release of Evolution, Ximian's
-powerful Mail, Address and Calendar client and Galeon, the popular web browser,
-for the GNOME 2 desktop later this year. These are just two applications from a
-list of many applications that we hope to see releases from next year. You can
-find many of these applications at the 5th Toe website -
-http://5toe.lyrical.net/.</para>
+    <para>Over the last couple of months, there has been a huge amount
+of activity at the application level. GNOME 2.4 will continue to
+benefit from this activity, as we merge many of these newly developed
+and ported applications together. You can find many of these
+applications at the <ulink url="http://5toe.lyrical.net/">5th Toe
+website</ulink>. Major software releases based on the GNOME 2.2
+Developer Platform are expected in the next several months, including
+Ximian's powerful Evolution Personal Information Manager, the popular
+Galeon web browser, and Gnumeric and Abiword, two of the leading Free Software office tools. In addition, a large number of smaller apps will continue to provide a rich and usable environment for GNOME users.</para>
 <para>
 GNOME 2.4 will be more tightly integrated than ever before, making
 it a real competitor at the enterprise level, bringing a full suite of 
