@@ -1,5 +1,8 @@
 2001-02-15  Ian Peters  <itp@ximian.com>
 
+	* package-list-extras, gnome-extras-1.4beta1-versions: have some
+	GIMP loving
+
 	* package-list-extras: updated radioactive and gnomoku
 	* gnome-extras-1.4beta1-versions: ditto
 	
