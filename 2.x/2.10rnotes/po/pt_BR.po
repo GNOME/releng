@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: release-notes 2.10\n"
-"PO-Revision-Date: 2005-03-09 21:56-0300\n"
+"PO-Revision-Date: 2005-03-10 09:34-0300\n"
 "Last-Translator: Raphael Higino <raphaelh@uai.com.br>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -621,7 +621,7 @@ msgstr ""
 
 #: ../rngames.xml:36 (title)
 msgid "join a network game"
-msgstr "entre num jogo em rede"
+msgstr "Entre num jogo em rede"
 
 #: ../rngames.xml:41 (phrase)
 msgid "Join a network game"
@@ -629,7 +629,7 @@ msgstr "Entre num jogo em rede"
 
 #: ../rndocs.xml:10 (title)
 msgid "Sysadmin, User, and Accessibility Guides"
-msgstr "Administração de sistemas, usuário e guias de acessibilidade"
+msgstr "Administração do sistema, usuários e guias de acessibilidade"
 
 #: ../rndocs.xml:12 (para)
 msgid ""
@@ -641,7 +641,7 @@ msgid ""
 "ulink>. As in GNOME 2.8, each application shipped with GNOME 2.10 includes "
 "full user documentation."
 msgstr ""
-"Graças ao esforço do <ulink url=\"http://developer.gnome.org/projects/gdp/"
+"Graças aos esforços do <ulink url=\"http://developer.gnome.org/projects/gdp/"
 "\">Projeto de Documentação do GNOME</ulink>, o GNOME 2.10 vem com "
 "documentação profissional e compreensiva. Uma cuidadosa atenção foi "
 "dispensada aos detalhes, usando o mais completo <ulink url=\"http://"
@@ -735,7 +735,7 @@ msgstr ""
 
 #: ../rndesktop.xml:31 (title)
 msgid "clean-cut and powerful, the Nautilus file manager"
-msgstr "claro e poderoso, o gerenciador de arquivos Nautilus"
+msgstr "Claro e poderoso, o gerenciador de arquivos Nautilus"
 
 #: ../rndesktop.xml:36 (phrase)
 msgid "The file manager"
@@ -751,7 +751,7 @@ msgstr ""
 
 #: ../rndesktop.xml:44 (title)
 msgid "a selection of simple yet artistic backgrounds"
-msgstr "uma seleção de de planos de fundo simples, mas ainda assim artísticos"
+msgstr "Uma seleção de de planos de fundo simples, mas ainda assim artísticos"
 
 #: ../rndesktop.xml:49 (phrase)
 msgid "Desktop backgrounds"
@@ -825,7 +825,7 @@ msgstr ""
 
 #: ../rncontrolcenter.xml:18 (title)
 msgid "Keyboard Preferences - Layouts"
-msgstr "Preferências de teclado - disposições"
+msgstr "Preferências de teclado - layouts"
 
 #: ../rncontrolcenter.xml:23 (phrase)
 msgid ""
@@ -1033,7 +1033,7 @@ msgstr ""
 
 #: ../rnapplications.xml:92 (title)
 msgid "daily weather forecasts"
-msgstr "boletins meteorológicos diários"
+msgstr "Boletins meteorológicos diários"
 
 #: ../rnapplications.xml:96 (phrase)
 msgid "The Evolution calendar client."
@@ -1336,7 +1336,7 @@ msgstr ""
 
 #: ../rnapplets.xml:117 (title)
 msgid "all new mixer for your panel"
-msgstr "mixador totalmente novo para o seu painel"
+msgstr "Um mixador totalmente novo para o seu painel"
 
 #: ../rnapplets.xml:122 (phrase)
 msgid "All new mixer for your panel"
