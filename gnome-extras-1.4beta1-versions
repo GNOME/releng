@@ -5,15 +5,15 @@ gmc             4.5.51
 Gnumeric        0.61
 Dia             0.86   
 Guppi           0.35.2 
-AbiWord         0.7.12
+AbiWord         0.7.13
 GnuCash         1.4.10
 Sodipodi        0.21
 gnome-db        0.2.3
 toutdoux        1.2.4
 
-Anjuta IDE      0.1.2
+Anjuta IDE      0.1.2-beta_2
 
-gob             1.0.6   
+gob             1.0.7   
 gal             0.5
 gtkhtml         0.8.2
 libgda          0.2.3
@@ -21,17 +21,17 @@ libgda          0.2.3
 The GIMP        1.2.1
 eog             0.6
 
-GnomeICU        0.95.5 
+GnomeICU        0.96
 gabber          0.8.2pre1                 
-galeon          0.9.0
+galeon          0.10.1
 gtm             0.4.5 
 Pan             0.9.3
 Balsa           1.0.0
-Firestarter     0.6.0 
+Firestarter     0.6.1 
 
-gnomoku         1.0
-bombermaze      0.6.4
-Atomix          0.4.1
+gnomoku         1.1pre1
+bombermaze      0.6.5
+Atomix          0.4.2
 
 gedit           0.9.4 
 Glimmer         1.0.1            
@@ -41,7 +41,7 @@ Figaro's
   Password 
   Manager       0.53
 
-radioactive     1.1
+radioactive     1.2pre1
 
 Merlin's 
   CPU Fire 
@@ -49,4 +49,4 @@ Merlin's
 googlizer       0.1
 
 gnorpm          0.96
-gnome lokkit    0.43
+gnome-lokkit    0.43

@@ -10,15 +10,15 @@ gmc                4.5.51      no            no         yes       no
 Gnumeric           0.61        no            no         yes       yes         Jody Goldberg <jgoldberg@home.com>
 Dia                0.86        no            no         yes       no          James Henstridge <james@daa.com.au>
 Guppi              0.35.2      no            no         yes       yes         Jon Trowbridge <trow@gnu.org>
-AbiWord            0.7.12                                                     ???
+AbiWord            0.7.13      no            no         yes       no          ???
 GnuCash            1.4.10                                                     devel@gnumatic.com
 Sodipodi           0.21                                                       Lauris Kaplinski <lauris@kaplinski.com>
 gnome-db           0.2.3                                                      Rodrigo Moya <rodrigo@gnome-db.org>
 toutdoux           1.2.4                                                      Philippe Roy <ph_roy@toutdoux.org>
 
-Anjuta IDE         0.1.2                                                      Kh. Naba Kumar Singh <kh_naba@yahoo.com> 
+Anjuta IDE         0.1.2-beta_2                                               Kh. Naba Kumar Singh <kh_naba@yahoo.com> 
 
-gob                1.0.6       no            no         yes       no          George <jirka@5z.com>
+gob                1.0.7       no            no         yes       no          George <jirka@5z.com>
 gal                0.5         
 gtkhtml            0.8.2 
 libgda             0.2.3       no            no         no        no          Rodrigo Moya <rodrigo@gnome-db.org>
@@ -26,17 +26,17 @@ libgda             0.2.3       no            no         no        no          Ro
 The GIMP           1.2.1       no            no         yes       no          Manish Singh <yosh@gimp.org>
 eog                0.6         yes           no         yes       no          
 
-GnomeICU           0.95.5      no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
+GnomeICU           0.96        no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
 gabber             0.8.2       no            no         yes       yes         Julian Missig <julian@jabber.org>
-galeon             0.9pre3     yes           no         yes       yes         Marco Pesenti Gritti <mpeseng@tin.it>
+galeon             0.10.1      yes           no         yes       yes         Marco Pesenti Gritti <mpeseng@tin.it>
 gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.pt>
 Pan                0.9.3       no            no         yes       no          pan@superpimp.org
 Balsa              1.0.0                                                      Jay Painter <jpaint@balsa.net>
-Firestarter        0.6.0       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
+Firestarter        0.6.1       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
 
-gnomoku            1.0         yes           no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org> 
-bombermaze         0.6.4       no            no         yes       yes         Sydney Andrew Tang <stang@users.sourceforge.net>
-Atomix             0.4.1       no            no         yes       no          Jens Finke <jens@eknif.de> 
+gnomoku            1.1pre1     yes           no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org> 
+bombermaze         0.6.5       no            no         yes       yes         Sydney Andrew Tang <stang@users.sourceforge.net>
+Atomix             0.4.2       no            no         yes       no          Jens Finke <jens@eknif.de> 
 
 gedit              0.9.4       no            no         yes       no          Chema Celorio <chema@celorio.com>
 Glimmer            1.0.1       no            no         yes       no          chicane@reninet.com
@@ -46,7 +46,7 @@ Figaro's
   Password 
   Manager          0.53        no            no         yes       no          John Conneely <jconneely@figaro.org>
 
-radioactive        1.1         no            no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org>
+radioactive        1.2pre1     no            no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org>
 
 Merlin's 
   CPU Fire 
