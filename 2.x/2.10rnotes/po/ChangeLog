@@ -1,4 +1,20 @@
 2005-03-08  Alessio Frusciante  <algol@firenze.linux.it>
+	* xml-it/figures/figure-applet-drivemount.png
+	* xml-it/figures/figure-applet-mixer.png
+	* xml-it/figures/figure-applet-modem.png
+	* xml-it/figures/figure-applet-stickies.png
+	* xml-it/figures/figure-applet-trash.png
+	* xml-it/figures/figure-applet-weather.png
+	* xml-it/figures/figure-dictionary.png
+	* xml-it/figures/figure-epiphany.png
+	* xml-it/figures/figure-evolution-weather.png
+	* xml-it/figures/figure-floppy-formatter.png
+	* xml-it/figures/figure-gnome-desktop.png
+	* xml-it/figures/figure-nautilus.png
+	* xml-it/figures/figure-soundjuicer.png: Added
+
+	
+2005-03-08  Alessio Frusciante  <algol@firenze.linux.it>
 
 	* it.po: Added partial Italian translation.
 
