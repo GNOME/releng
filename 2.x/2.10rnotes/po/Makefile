@@ -19,11 +19,12 @@ release-notes.pot: $(shell cat XMLFILES)
 	(xml2po -u $@ `cat XMLFILES` >/dev/null 2>&1 && echo "ok") || echo "ERROR"
 
 xml-%: %.po
-	if [ -f $< ]; then \
+	@if [ -f $< ]; then \
 		mkdir -p $@ && \
 		for i in `cat XMLFILES`; do \
 			basename=`basename $$i`; \
-			xml2po -o $@/$$basename -p $< $$i; \
+			echo -n "Generating $@/$$basename... "; \
+			(xml2po -o $@/$$basename -p $< $$i && echo "ok") || echo "error"; \
 		done; \
 	fi
 
