@@ -563,7 +563,7 @@
 				for the system to run.)
 			  </para></listitem>
 			<listitem><para>freetype2</para></listitem>
-			<listitem<para>freetype2-devel</para></listitem>
+			<listitem><para>freetype2-devel</para></listitem>
 			<listitem><para>popt</para></listitem>
 			<listitem><para>libgdbm2</para></listitem>
 			<listitem><para>libgdbm2-devel</para></listitem>
