@@ -29,8 +29,8 @@
     version of the popular, multi-platform free desktop environment.</para>
     <para>GNOME runs on a variety of platforms, including GNU/Linux (commonly
     called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes
-    powerful features such as high-quality smooth text rendering and first class
-    internationalization and accessibility support, including support for
+    powerful features such as high-quality smooth text rendering, a first class
+    internationalization and accessibility infrastructure, including support for
     bi-directional text.</para>
     
     <para>The GNOME community has spent the six months since the GNOME
@@ -46,13 +46,13 @@
     obscure features, sticking instead to a clear, unified
     vision.</para>
 
-    <para>The GNOME 2 developer platform has matured and is now widely
-    used by applications outside of the GNOME core. While GNOME 2.0
-    was a major upgrade to the underlying platform, GNOME &version; is
-    a simpler time-based release that includes a number of improvements
-    that have been completed since the previous release. In the future you
-    can look forward to further enhancements from regularly scheduled
-    GNOME releases.</para>
+	<para>The GNOME 2 developer platform has matured and is now widely used by
+	applications outside of the GNOME Desktop release. While GNOME 2.0 was a
+	major upgrade to the entire Desktop and Developer Platform, GNOME &version;
+	is a simpler time-based release that includes a number of improvements that
+	have been completed since the previous release. In the future you can look
+	forward to further enhancements from regularly scheduled GNOME
+	releases.</para>
 
     <para>Most major GNOME-based applications have been ported to
     GNOME 2, and the new platform has allowed the development of
@@ -153,10 +153,7 @@
 	    build Xft and font-config. XFree86 4.2 or greater also is recommended.</para>
 	  </listitem>
 	  <listitem>
-	    <para>python2.2</para>
-	  </listitem>
-	  <listitem>
-	    <para>python2.2-xml</para>
+	    <para>FreeType 2.0.9 or greater, available at <ulink url="http://www.freetype.org/">http://www.freetype.org/</ulink></para>
 	  </listitem>
 	  <listitem>
 	    <para>docbook-xml [docbook dtd 4.1.2]</para>
@@ -256,11 +253,6 @@ ORBit2
 <listitem>
 <para>
 intltool
-</para>
-</listitem>
-<listitem>
-<para>
-gnome-common
 </para>
 </listitem>
 <listitem>
@@ -549,7 +541,7 @@ gnome2-user-docs
 
     <sect2 id="rngarnome">
       <title>GARNOME</title>
-      <para>If you do not wish to go through the proccess of manually building
+      <para>If you do not wish to go through the process of manually building
       each module yourself,  then you might consider using GARNOME, a GNOME
       distribution based on the GAR ports system. GARNOME automatically
       downloads the tarballs from a specified location and builds them for
@@ -615,13 +607,13 @@ users.</para>
 GNOME 2.4 will continue GNOME 2.2's movement towards a more tightly
 integrated desktop, making it a real competitor at the enterprise
 level. This next release - expected in the late (northern) summer of 2003 - should
-offer a full suite of productivity applications, utilities and
+offer several mature productivity applications, utilities and
 accessories so that a GNOME user will never have to leave a simple,
 clean, powerful GNOME application.
 </para>
 <para>
 Six months after GNOME 2.4, we anticipate that GNOME 2.6 will feature
-the next release of Gtk+, introducing new file selector and
+the next release of GTK+, introducing new file selector and
 "combo" widgets, powerful menu and toolbar widgets and
 further advances in accessibility, usability and internationalization.
 </para>
