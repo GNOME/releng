@@ -1,3 +1,8 @@
+2005-03-09  Murray Cumming  <murrayc@murrayc.com>
+
+	* es.po: Replaced with updated version from koke.
+	* xml-es/figures/Added file-roller screenshot from koke.
+
 2005-03-09  Takeshi AIHANA <aihana@jcom.home.ne.jp>
 
 	* xml-ja/figures/*.png: Added screenshots for Japanese translation.
