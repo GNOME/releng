@@ -13,3 +13,12 @@ html/index.html: $(docbook_sources)
 
 validate: release-notes.xml
 	xmllint --xinclude --valid --noout --catalogs $<
+
+rsync_args = -vz --rsh ssh 
+#rsync_args = -vz --rsh ssh --delete --delete-after
+
+upload_path = murrayc.com/temp/release
+upload-test-html: html/index.html
+	rsync $(rsync_args) figures/*.png $$USER@murrayc.com:$(upload_path)/figures/
+	rsync $(rsync_args) -r html/ $$USER@murrayc.com:$(upload_path)/html/
+
