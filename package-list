@@ -5,15 +5,15 @@ Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Co
                     Version    Unstable?                Version   New
                                                         Exists?   Release?
 
-ORBit               0.5.3      No            Yes        --        Yes         Elliot Lee <sopwith@redhat.com>
-ammonite            0.8.1                                                     Mike Fleming <mfleming@eazel.com>
-audiofile           0.1.9      No            No         Yes                   Michael Pruett <michael@68k.org>
+ORBit               0.5.8      No            Yes        --        Yes         Elliot Lee <sopwith@redhat.com>
+ammonite            1.0.1                                                     Mike Fleming <mfleming@eazel.com>
+audiofile           0.2.1      No            No         Yes                   Michael Pruett <michael@68k.org>
                                                                               Elliot Lee <sopwith@redhat.com>
-bonobo              0.31				                      Michael Meeks <michael@ximian.com>
-bug-buddy           1.0        No            No         Yes                   Jacob Berkman <jacob@ximian.com>
-control-center      1.2.2      No            Yes        --        Yes         Bradford Hovinen <hovinen@ximian.com>
-esound              0.2.19     No            No         Yes       Yes         Elliot Lee <sopwith@redhat.com>
-gconf               0.11                                                      Havoc Pennington <hp@redhat.com> 
+bonobo              1.0.6				                      Michael Meeks <michael@ximian.com>
+bug-buddy           2.0.6      No            No         Yes                   Jacob Berkman <jacob@ximian.com>
+control-center      1.4.0.1    No            Yes        --        Yes         Bradford Hovinen <hovinen@ximian.com>
+esound              0.2.22     No            No         Yes       Yes         Elliot Lee <sopwith@redhat.com>
+gconf               1.0.1                                                     Havoc Pennington <hp@redhat.com> 
 gdk-pixbuf          0.9.0      No            No         Yes                   Federico Mena-Quintero <federico@ximian.com>
 gdm                 2.0beta4   No            No         Yes                   George Lebl <jirka@5z.com>
 ggv                 1.0-test7  No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
