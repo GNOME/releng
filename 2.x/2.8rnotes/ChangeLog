@@ -1,5 +1,11 @@
 2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
 
+	* figures/figure-insert-cd.png:
+	* rndesktop.xml: If it's cool enough for Murray, it's cool enough for
+	  me. Screenshots are now done.
+
+2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
+
 	* figures/figure-nautilus-rendezvous.png:
 	* rndesktop.xml: Added screenshot showing network with Rendezvous
 	  shares

@@ -59,12 +59,12 @@
     Removable storage devices, such as CDs, DVDs, USB memory sticks, and cameras, can now be recognised and mounted automatically. GNOME can even start an appropriate application automatically, such as a music or DVD player, or a photograph organiser. This uses the Hardware Abstraction Layer from freedesktop.org, which we also expect future versions of other desktops to use.
     </para>
     <figure id="rnscreenshot-nautilus-gvm">
-      <title>Mounted USB stick. TODO: Feel free to use a different example.</title>
+      <title>Inserting a multisession Compact Disc</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-gvm.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-insert-cd.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>Mounted USB stick. TODO: Feel free to use a different example.</phrase></textobject>
+            <textobject><phrase>Inserting a multisession Compact Disc</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
