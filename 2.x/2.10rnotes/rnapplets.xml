@@ -5,49 +5,55 @@
 <!ENTITY version "2.10">
 ]>
 <sect2 id="rnapplets">
-  <title>Panel Applets</title>
+  <title>Panel Items</title>
 
-  <para>GNOME &version; offers a clearer way to choose panel applets. This replaces the previous hierarchical menu.
-  <figure id="rnscreenshot-panel-add">
-    <title>The panel - choosing an applet</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;figure-add-to-panel.png" format="PNG"/>
-          </imageobject>
-        <textobject><phrase>The panel - choosing an applet.</phrase></textobject>
-      </mediaobject>
-    </screenshot>
-  </figure>
+  <para>
+   GNOME &version; has had a significant focus on panel items (sometimes
+   referred to as applets). Many panel applications have been rewritten in order
+   to fully leverage new technology on the desktop, as well as give tighter
+   integration with the rest of the desktop.
+  </para>
+
+  <para>
+   Most applets now support the transparent panel setting that has been
+   available in GNOME for a long time. Allowing users to be able to have
+   transparent, or translucent panels.
   </para>
  
-  <sect3 id="rnapplets-clock">
-  <title>Calendar Integration</title>
+  <sect3 id="rnapplets-modemlights">
+  <title>Integrated Modem Control</title>
   <para>
-   Never miss another appointment. The calendar view, available by clicking
-   on the clock, now connects to Evolution to show your calendar and tasks.
+   A new applet for controlling your Modem debuts in GNOME &version;. This
+   monitor integrates with GNOME System Tools to give you a unified method for
+   controlling and monitoring the state of your Modem.
 
-   <figure id="rnscreenshot-panel-applet-clock">
-    <title>The clock, showing the GNOME release date</title>
+   <!-- figure id="rnscreenshot-panel-applet-modemlights">
+    FIXME
+    <title>The new modem control applet</title>
       <screenshot>
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;figure-clock+calendar.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>The clock, showing the GNOME release date.</phrase></textobject>
+        <textobject><phrase>The new modem control applet</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure>
+  </figure -->
    
   </para>
   </sect3>
 
-  <sect3 id="rnapplets-network-monitor">
-  <title>Network Monitor</title>
+  <sect3 id="rnapplets-trash">
+  <title>Panel Trashcan</title>
 
   <para>
-  The network monitor has been improved and now has support for wireless
-  interfaces, showing signal strength in the properties dialog and on the panel.
+   Oft requested, GNOME &version; features an optional trashcan for your Panel.
+   Just like the trashcan on your desktop, you can drag and drop onto the trash
+   to remove files and do other actions. Clicking on the trashcan will allow you
+   to view deleted items in Nautilus, or you can simply empty your trash from
+   the Panel.
 
-  <figure id="rnscreenshot-panel-applet-networkmonitor">
+  <!-- figure id="rnscreenshot-panel-applet-networkmonitor">
+    FIXME
     <title>Network Monitor - wireless connection</title>
       <screenshot>
         <mediaobject>
@@ -56,19 +62,24 @@
         <textobject><phrase>The Network Monitor panel applet, showing a wireless connection.</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure>
+  </figure -->
   </para>
   </sect3>
 
-  <sect3 id="rnapplets-battery-applet">
-  <title>Battery Support</title>
+  <sect3 id="rnapplets-drivemount">
+  <title>Control Mounted Volumes</title>
 
   <para>
-   The battery monitor has been improved dramatically. It now estimates the time remaining as well as the remaining battery capacity.
-   In addition, the low battery warning is now more
-   visible, more informative and vanishes automatically when you plug your laptop back in.
-  
-   <figure id="rnscreenshot-panel-applet-batterymonitor">
+   In the age of removable, easy to use digital media, we are constantly adding
+   and removing volumes from our computer systems. The volume mounter applet
+   can help. Integrating into GNOME-VFS, the same interface that Nautilus uses
+   to mount and unmount volumes. This application shows you the current user
+   mountable (or unmountable) volumes, allowing you to mount them, eject them or
+   open them in Nautilus. It is the perfect compliment to Nautilus and the GNOME
+   Volume Manager.
+   
+   <!-- figure id="rnscreenshot-panel-applet-batterymonitor">
+    FIXME
     <title>Battery Monitor</title>
       <screenshot>
         <mediaobject>
@@ -77,18 +88,22 @@
         <textobject><phrase>The battery monitor applet.</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure>
+  </figure -->
   
   </para>
   </sect3>
 
-  <sect3 id="rnapplets-weather-applet">
-  <title>Weather Alerts</title>
+  <sect3 id="rnapplets-gweather">
+  <title>Get even more weather</title>
   <para>
-   The weather applet now has more locations than ever before. As well as
-   support for the new United Kingdom weather forecasts.
+   The weather monitor has even more locations then ever before, and our team of
+   localisers have worked hard to clean up the weather locations available in
+   your area. In addition to this, we have improved the collection of weather
+   information and added new weather information, including sunrise and sunset
+   calculations for most of our locations.
 
-   <figure id="rnscreenshot-panel-applet-weather">
+   <!-- figure id="rnscreenshot-panel-applet-weather">
+   FIXME
     <title>Weather Report</title>
       <screenshot>
         <mediaobject>
@@ -97,9 +112,73 @@
         <textobject><phrase>The weather report applet.</phrase></textobject>
       </mediaobject>
     </screenshot>
-  </figure>
+  </figure -->
    
   </para>
   </sect3>
+
+  <sect3 id="rnapplets-mixer">
+  <title>Sound control</title>
+  <para>
+   A new mixer for your panel (combined with a new look mixer on the desktop)
+   leaverages the most out of your sound hardware. Using the GStreamer
+   multimedia framework (the same framework that powers Totem, Sound Juicer,
+   the GNOME CD player and a pantheon of third party applications), the mixer is
+   now more flexible and stable then ever before. Additionally, like many
+   programs in GNOME &version; the look of the mixer is entirely themable via
+   the GNOME icon theme.
+  </para>
+  </sect3>
+
+  <sect3 id="rnapplets-stickynotes">
+  <title>Taking note</title>
+  <para>
+   The ever popular stickynote program, that leaves PostIt style notes on your
+   desktop has been improved to offer new features and become aware of your
+   different workspaces. Now if you have multiple workspaces, your stickynotes
+   will stay where they belong.
+  </para>
+  <para>
+   Stickynotes now also act slightly differently from before. Stickynotes now
+   remain on top of the desktop so that you can't lose them. To hide the notes,
+   simply click on the icon and select to hide the stickynotes. Now your
+   stickynotes will always be where you expect them.
+  </para>
+  </sect3>
+
+  <sect3 id="rnapplet-cpufreq">
+  <title>Especially for laptops</title>
+  <para>
+   GNOME now includes something to monitor the speed of your laptop CPU. The CPU
+   Frequency Monitor talks to frequency scalable processers (like those with
+   Intel Speedstep) to find out how fast they are currently running. It also
+   offers a selection of speeds for you to choose between if you don't have
+   automatic frequency scaling enabled.
+  </para>
+  </sect3>
+
+  <para>
+   Some applets have gone away in GNOME &version; because they have either been
+   replaced by something better, or were unmainted and insecure. The three
+   applets to be removed are, the CD Player applet, the standalone wireless
+   monitor and mailbox check applet.
+  </para>
+  <para>
+   The CD Player panel applet did not interoperate well with GNOME CD Player,
+   instead now inserting a CD will start GNOME CD Player automatically, it can
+   then be controlled from the user interface or from a notification icon that
+   is placed in your Panel.
+  </para>
+  <para>
+   The standalone wireless applet has now been superseeded by GNOME Netstatus,
+   which has had wireless support since GNOME 2.8.
+  </para>
+  <para>
+   The mailbox monitor has been removed because it was unmaintained and
+   insecure. We hope to have an solution integrated with Evolution in the
+   future. If you don't use Evolution for your mail, you can use a third party
+   application such as <link
+   href="http://www.nongnu.org/mailnotify/">mailnotify</link>.
+  </para>
 
 </sect2>

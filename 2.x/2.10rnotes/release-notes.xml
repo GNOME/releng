@@ -18,7 +18,7 @@
       <title>Introduction</title>
       <para>The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
 
-      <para>Every new version of the GNOME &version; desktop arrives on schedule, with interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections.</para>
+      <para>The GNOME desktop releases continue to arrive on schedule. GNOME &version; includes a number of interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections.</para>
 
     <para>GNOME provides a user-friendly environment that &quot;just works&quot;
     for everyday users, without excess complexity or obscure features. At the same
@@ -55,7 +55,7 @@
     <title>What's New In GNOME &version;</title>
 
     <xi:include href="rndesktop.xml"/>
-    <xi:include href="rncontrolcenter.xml"/>
+    <!-- xi:include href="rncontrolcenter.xml"/ -->
     <xi:include href="rnapplets.xml"/>
     <xi:include href="rnapplications.xml"/>
     <xi:include href="rnsysadmin.xml"/>
