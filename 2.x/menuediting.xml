@@ -60,18 +60,7 @@
       </para>
       <para>
 	Each menu is based on a .directory file, which for all intents and
-      purposes is another .desktop file, and associating .order file which is
-      optional if you have no sub menus.
-      </para>
-      <para>
-	The contents of a .order file might be something like -
-	<programlisting>
-	Applications
-	Development
-	Games
-	Graphics
-	</programlisting>
-	where each entry is a link to another .directory file.
+      purposes is another .desktop file.
       </para>
       <para>
 	With the introduction of this mechanism, it has been necessary to
@@ -125,8 +114,8 @@
       <sect2 id="addentries">
 	<title>To Add Menu Entries</title>
 	<para>
-	  Create a .desktop file with 'Categories' key and place in the
-	  appropriate location.
+	 Create a desktop file using an existing file as a template. edit this
+	 file and add/edit a &quot;Categories=&quot; line at the bottom. 
 	</para>
 	<para>
 	  Restart the panel.
@@ -135,8 +124,7 @@
       <sect2 id="removeentries">
 	<title>To Remove Menu Entries</title>
 	<para>
-	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info or
-	  preferences.vfolder-info to 
+	  Edit $prefix/etc/gnome-vfs-2.0/applications.vfolder-info to 
 	  include an &lt;Exclude&gt; &lt;/Exclude&gt; entry for the appropriate
 	  .desktop file.
 	</para>
@@ -151,12 +139,6 @@
 	</para>
       </sect2>
       <sect2 id="changeorderprefs">
-	<title>To change the order of the 'Desktop Preferences' menu</title>
-	<para>
-	  Edit $prefix/share/gnome/vfolders/Settings.order
-	</para>
-      </sect2>
-      <sect2 id="removeaddsubmenus">
 	<title>To change the order of the 'Desktop Preferences' menu</title>
 	<para>
 	  Edit $prefix/share/gnome/vfolders/Settings.order
