@@ -1,4 +1,4 @@
-DOCBOOK_STYLESHEET ?= http://docbook.sourceforge.net/release/xsl/current/html/chunk.xsl
+DOCBOOK_STYLESHEET ?= customhtml.xsl
 
 docbook_sources = release-notes.xml  rnfileroller.xml rngnomeutilities.xml \
                   rndesktop.xml rnpanel.xml rnfonts.xml rnterminal.xml \
@@ -8,7 +8,9 @@ html: html/index.html
 
 html/index.html: $(docbook_sources)
 	-rm -rf html
-	xsltproc -o html/ --xinclude --catalogs $(DOCBOOK_STYLESHEET) $<
+	mkdir html
+	cp release.css html/
+	xsltproc -o html/ --catalogs --xinclude $(DOCBOOK_STYLESHEET) $<
 
 
 validate: release-notes.xml
