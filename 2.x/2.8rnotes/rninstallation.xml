@@ -242,6 +242,6 @@
       source code distribution based on the GAR ports system. GARNOME automatically
       downloads the tarballs and builds them for
       you. However, GARNOME is ususally used only for testing of unstable development versions of GNOME.</para>
-      <para>To find out more information visit the <ulink url="http://www.gnome.org/~jdub/garnome/">GARNOME web page</ulink>.</para>
+      <para>To find out more information visit the <ulink url="http://cipherfunk.org/garnome/">GARNOME web page</ulink>.</para>
     </sect2>
   </sect1>
