@@ -11,5 +11,5 @@
     <para>
   In this release, GTK+ 2.2 has improved support for right-to-left 
   languages, and support for OpenType Indic fonts, adding to the excellent 
-  internationalization support already available in GTK+ 2.2.
+  internationalization support already available in GTK+ 2.0.
     </para>

@@ -149,7 +149,7 @@
 	  <listitem>
 	    <para>Xft/font-config, available at <ulink
 	    url="http://nexp.cs.pdx.edu/fontconfig/release/fcpackage.2_1.tar.gz">http://nexp.cs.pdx.edu/fontconfig/release/fcpackage.2_1.tar.gz</ulink></para>
-	    <para>From the fcpackage distribution, you will need to seperately
+	    <para>From the fcpackage distribution, you will need to separately
 	    build Xft and font-config. XFree86 4.2 or greater also is recommended.</para>
 	  </listitem>
 	  <listitem>
