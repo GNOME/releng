@@ -39,12 +39,12 @@
       <application>GStreamer</application>, to the desktop.</para>
     <para>GNOME is part of the GNU Project, and is <ulink
     url="http://www.fsf.org/philosophy/free-sw.html">free
-    software</ulink>free.</para>
+    software</ulink>.</para>
   </sect1>
 
   <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
-    <para>We spent the six months Since the GNOME 2.0 release improving
+    <para>We spent the six months since the GNOME 2.0 release improving
     usability, performance and accessibility support. We also added new
     functionality, including new applications, producing a feature-rich
     GNOME 2.2 desktop.</para>
@@ -56,11 +56,11 @@
     a clear, unified vision.</para>
 
     <para>The GNOME 2 developer platform has matured and is now widely
-    used. While GNOME 2.0 was a major upgrade to the underlying platform which
-    was inevitably delayed, GNOME &version; is a simpler time-based release
-    which includes whatever improvements have been completed since the previous
-    release. In future you can look forward to further enhancements from these
-    regularly-scheduled releases.</para>
+    used. While GNOME 2.0 was a major upgrade to the underlying platform, GNOME
+    &version; is a simpler time-based release that includes whatever
+    improvements have been completed since the previous release. In future you
+    can look forward to further enhancements from regularly scheduled GNOME
+    releases.</para>
 
     <para>Most major GNOME-based applications have been ported to GNOME 2, and
     the new platform has allowed the development of several new applications. We

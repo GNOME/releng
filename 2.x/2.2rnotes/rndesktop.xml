@@ -4,11 +4,16 @@
 
     <sect2><title>The File Manager</title>
     <para>
-    Nautilus, the GNOME file manager, has the following improvements:
+    The user interface of Nautilus, the GNOME file manager, has undergone a
+    significant overhaul since the release of GNOME 2.0 to make it easier to use
+    and more powerfully integrated with the rest of the desktop and applications.:
     </para>
 
       <sect3><title>Context menu plug-ins</title>
-      <para>For instance, Fileroller adds "Expand" menu items when you right-click on an archive.</para>
+      <para>Context-sensitive menus can now link Nautilus to functions performed
+      by other applications. In this illustration, Fileroller, our new
+      archive-handling application, has added a menu
+      items when you right-click on an archive.</para>
 
 <figure>
   <title>Context Menu</title>
@@ -20,7 +25,9 @@
 </sect3>
 
       <sect3><title>Property tab plug-ins.</title>
-      <para>When viewing file properties, the dialog now shows extra custom tabs for special file formats, such as images or media files. For instance, you can see the dimensions of a graphic file, or the ID3 tags from an MP3 file.</para>
+      <para>The Nautilus ile properties dialog now shows custom tabs for special
+      file formats, such as images or media files. For instance, you can see the
+      dimensions of a graphic file, or the ID3 tags from an MP3 file.</para>
 
 <figure>
   <title>Property Pages</title>
@@ -32,7 +39,8 @@
       </sect3>
 
       <sect3><title>Improved Preferences dialog</title>
-      <para>The file manager's preferences have been brought together in one simpler dialog box.</para>
+      <para>The new Nautilus preferences dialog illustrates the GNOME design
+      philosophy: clean, simple and usable..</para>
 
 <figure>
   <title>Nautilus Preferences</title>
