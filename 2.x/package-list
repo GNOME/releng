@@ -64,6 +64,7 @@ gnome-terminal		gnome-core/gnome-terminal	-			-
 gnome-user-docs		-		-		-			-
 gsearchtool		gnome-utils	-		ported			-
 gsm			gnome-core/gsm	-		-			-
+gtkhtml			-		-		will gtkhtml1 or gtkhtml2 be ported? Anders, Larry and BillH to develop "The Plan"	-
 libgtop			=		-		1.x needs parallel install patch, head patch available (hadess)		-
 librsvg			-		-		-			-
 logview			gnome-utils	-		ported, some font issues		-
@@ -78,7 +79,6 @@ stripchart		-		-		-			-
 </section>
 
 <section title="Fifth Toe">
-gtkhtml			-		-		-			-
 gal			-		-		-			-
 evolution		-		-		-			-
 gnome-extra-applets	-		-		-			-
