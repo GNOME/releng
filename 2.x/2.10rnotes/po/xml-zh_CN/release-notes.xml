@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.10">
+<!ENTITY oldversion "2.8">
+<!ENTITY nextversion "2.12">
+<!ENTITY urlfiguresbase "figures/">
+]>
+<!-- Now uses xinclude. To validate now requires use of                         -->
+<!-- the "xinclude" and "postvalid" command line options to xmllint             -->
+<!-- and the "xinclude" option to xsltproc                                      -->
+<article xmlns:xi="http://www.w3.org/2001/XInclude" id="index" lang="zh_CN">
+  <articleinfo>
+    <title>GNOME 2.10 发布注解</title>
+
+    <abstract>
+      <title>介绍</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-desktop.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>GNOME 桌面</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+      <para>GNOME 2.10 桌面是一直流行的、多平台的自由桌面环境的最新发布版本。</para>
+
+      <para>GNOME 桌面发布版再次到了计划的发布时间。GNOME 2.10 包含了大量的新特性和数百个 BUG 修正。这次 GNOME 也包含了一个视频播放器和一个 CD 抓取工具。在下面的章节中你可以了解到更多。</para>
+
+    <para>GNOME 为每一个用户提供了一个友好的“Just works”环境，没有多余的复杂和模糊的内容。</para>
+
+    <para>GNOME 是一种支持多种平台的开发和桌面环境，可以运行在包括 GNU/Linux (通常叫做Linux)、Solaris、HP-UX、BSD 和 Apple's Darwin 系统上。GNOME 拥有很多强大的特性，如：高质量的平滑文本渲染、首个国际化和可用性支持、并且包括对反向文本的支持(注：有些国家的文字是从右到左的排版的)。</para>
+
+    <para>当然 GNOME 2.10 里也包含了 GNOME 2.8 中的所有改进，可以在 GNOME 2.8 的<ulink url="http://www.gnome.org/start/2.8/notes/">发行注解</ulink>中了解更多。</para>
+
+    <para>这个桌面发布包含了提供基本用户功能的所需的程序。主要的应用程序如 <application>Gnumeric</application> 和 <application>OpenOffice.org</application> 也可以获得，但是它们是并行地在各自在发布周期中进行开发的，而不是包含在核心的 GNOME 发布中。</para>
+
+    <para>GNOME 是 GNU 项目的一个部分，是　<ulink url="http://www.fsf.org/philosophy/free-sw.html">自由软件</ulink></para>
+
+    <para>请直接去到<link linkend="rnwhatsnew">有哪些新变化？</link>章节，或者使用右边的链接来了解更多关于本发布和通常的 GNOME 桌面的信息。</para>
+
+    </abstract>
+
+  <copyright><year>Yangh,Jcome</year><holder>角.居士</holder></copyright></articleinfo>
+
+<sect1 id="rnwhatsnew">
+    <title>GNOME 2.10 中有什么新变化</title>
+
+    <xi:include href="rndesktop.xml"/>
+    <xi:include href="rnapplications.xml"/>
+    <xi:include href="rncontrolcenter.xml"/>
+    <xi:include href="rnapplets.xml"/>
+    <xi:include href="rnutilities.xml"/>
+    <xi:include href="rnsysadmin.xml"/>
+    <xi:include href="rngames.xml"/>
+    <xi:include href="rnplatform.xml"/>
+</sect1>
+
+ <xi:include href="rndocs.xml"/>
+
+ <xi:include href="rni18n.xml"/>
+
+ <xi:include href="rnstandards.xml"/>
+
+<!--
+ <xi:include href="rnwhy.xml"/>
+-->
+
+ <xi:include href="rninstallation.xml"/>
+
+  <sect1 id="rnknownissues">
+    <title>已知的问题</title>
+    <para>所有软件在其发布之时包含了了一些开发者已知的 BUG，但因为各种原因，未能在发布之前修正。自由软件在这方面和专利的软件没有什么不同，但是有一点除外，我们会把这些问题告诉用户。</para>
+
+    <para>我们也鼓励用户去报告 BUG，以便可以及时的修正它们。在 GNOME 中最好办法就是使用 <ulink url="http://bugzilla.gnome.org/simple-bug-guide.cgi">简单 BUG 指南</ulink>。它将引导你完成填写一个合格的 BUG 报告，确保 BUG 被正确地标识。如果你已经非常熟悉‘简单模式’中所有内容，那么你也可以访问<ulink url="http://bugzilla.gnome.org/enter_bug.cgi">传统的 BUG 表单</ulink>。关于已经被报告过的 BUG 的详细信息你可以在我们的 <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink> 上查看。GNOME 2.10 中最主要的 BUGS 如下：</para>
+
+    <sect2 id="rnknownissues-list"><title>已知问题的清单</title>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para><ulink url="https://bugzilla.mozilla.org/show_bug.cgi?id=223492"> Mozilla/Firefox 新窗口焦点</ulink>：在你启动 Mozilla 或者 Firefox 时，如果已经有另一个 Mozilla 或者 Firefox 窗口已经开启，新的窗口出现后可能会因为没有获取到焦点而显示在有焦点的窗口后面。GNOME 的基于 Mozilla 的 Epiphany 浏览器没有这样的问题。Mozilla 黑客们正在努力的工作，以期在未来的 Mozilla 和 Firefox 版本解决这个问题。</para>
+        </listitem>
+        <listitem>
+          <para><ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=116814"> 会话启动时的短暂挂住 </ulink>：有会话管理问题的程序会使得登录后的欢迎屏幕挂住几分钟。缺省的会话不包含这样的程序，只有在你注销时保存了会话就会出现这样的问题。如果你遇到了这样的问题，只需要等到登录完成后，关闭类似的有问题的程序后，再保存一次会话。</para>
+        </listitem>
+      </itemizedlist>
+    </para>
+    </sect2>
+
+    </sect1>
+
+    <sect1 id="rnlookingahead">
+   <title>瞧瞧 GNOME 2.12 和更新的版本</title>
+
+        <para>GNOME 运作于一个基于时间的版本发布理论，试图尽可能快地连续不断把最好的开发成就提供给用户。在 GNOME 2.10 之后的六个月，我们期望 GNOME 2.12 将整合更好的多媒体和通讯功能和易用性，可用性和国际化方面的特色。可以参考 <ulink url="http://live.gnome.org/RoadMap">GNOME 路线图</ulink>。</para>
+</sect1>
+  <sect1 id="rngettinginvolved">
+    <title>加入</title>
+    <para>GNOME 的成功的关键在于其众多的志愿者，用户和开发者。</para>
+    <para>作为一个用户，您的贡献可以像填写 BUG 报告一样简单。您可以使用我们的 Bugzilla 中的 <ulink url="http://bugzilla.gnome.org/simple-bug-guide.cgi">简单的 BUG 助手</ulink> 来填写 BUG。如果您想做更多的贡献，您可以加入我们的活跃的 <ulink url="http://developer.gnome.org/projects/bugsquad/">BUG 中队</ulink>。</para>
+    <para>对于开发者来说，还有许多令人兴奋的东西等待我们去开发。例如在易用性，文档，可用性，翻译，Web，测试，图形设计，以及桌面和平台开发。这里的手册可以为您的开始助一臂之力。</para>
+    <para>在帮助 GNOME 的过程中，彼此帮助可以让您获得难于置信的，充满满足感的体验。它可以让你的能力最大限度的得到激发和锻炼。乐于助人的人,他们都朝向统一的目标前进。快加入我们来发掘你的潜能吧。</para>
+  </sect1>
+
+<!--<xi:include href="rnthanks.xml"/>-->
+      <appendix id="rncredits">
+        <title>贡献者</title>
+        <para>这些发行注解由 Murray Cumming，Davyd Madeley，和 GNOME 社区收集整理。</para>
+      </appendix>
+</article>

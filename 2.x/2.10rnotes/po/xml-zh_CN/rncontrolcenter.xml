@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.10">
+]>
+<sect2 id="rncontrolcenter">
+  <title>控制中心</title>
+
+  <sect3 id="rn-controlcenter-keyboard">
+  <title>键盘布局</title>
+
+    <para>通过键盘控制面板来选择键盘布局变得更加容易了。只要点击添加就可以在国际化键盘布局列表中选择。在做选择之时就可以预览到键盘布局。布局选项部分也重新组织成更简单。</para>
+
+    <figure id="rnscreenshot-controlpanel-keyboardlayouts">
+      <title>键盘设置-布局</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-keyboard-properties+layout.png" format="PNG"/>
+            </imageobject>
+          <textobject><phrase>在键盘设置控制面板中的布局标签，当加一个新布局时。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+</sect2>

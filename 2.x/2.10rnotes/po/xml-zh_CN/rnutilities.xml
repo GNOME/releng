@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.10">
+]>
+<sect2 id="rnutilities">
+  <title>实用工具</title>
+
+  <para>GNOME 实用工具已经做了一些改进，比如：</para>
+
+  <sect3>
+    <title>文本编辑器</title>
+
+    <para>现在 GNOME 文本编辑器可以突出显示当前行，并且在编辑程序源代码时会突出显示匹配的花括号，语法检查也得到改进。只在真正完成单词输入时才对拼写错误的词进行突出显示，并支持许多其他语言，也可以自动定义。</para>
+
+   <para>大家会很乐意看到，在所以变动都被取消后它不再建议保存变动。还有就是它的启动速度比之前的版本要快。</para>
+
+    <figure id="rnscreenshot-gedit">
+    <title>文本编辑器</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gedit.png" format="PNG"/></imageobject>
+          <textobject><phrase>文本编辑器，突出显示着当前行</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  <sect3>
+    <title>归档管理器</title>
+
+    <para>现在 GNOME 档案管理器可以打开更多类型的档案，包括 AR，Debian，和 7-zip 多种档案，以及密码保护的RAR档案。 如果文件管理器是单击设定，档案管理器也使用单击。</para>
+
+    <figure id="rnscreenshot-fileroller">
+    <title>归档管理器</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-file-roller.png" format="PNG"/></imageobject>
+          <textobject><phrase>档案管理器，正为一个 RAR 文件要求输入密码。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+
+ <sect3>
+    <title>词典</title>
+
+    <para>现在 GNOME 词典在您不确定如何拼写时会给出建议。解释也包含词典网站的链接，同时，这些解释也可以打印出来。</para>
+
+    <figure id="rnscreenshot-dictionary">
+    <title>词典</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-dictionary.png" format="PNG"/></imageobject>
+          <textobject><phrase>建议可能的拼写和解释的词典。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  <sect3>
+    <title>软盘格式化工具</title>
+
+    <para>现在 GNOME 软盘格式工具开始支持可移动驱动器，比如 USB 驱动器，这是通过利用 freedesktop.org 的标准 HAL 系统实现的。</para>
+
+    <figure id="rnscreenshot-floppy">
+    <title>软盘格式化工具</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-floppy-formatter.png" format="PNG"/></imageobject>
+          <textobject><phrase>对软盘进行格式化。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+
+</sect2>

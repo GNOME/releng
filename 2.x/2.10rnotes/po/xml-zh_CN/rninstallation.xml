@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.10">
+<!ENTITY urlfiguresbase "figures/">
+]>
+<sect1 id="rninstallation">
+    <title>安装 GNOME 2.10</title>
+
+   <para>我们在 www.gnome.org 上提供了一套 GNOME 2.10 的 LiveCD。这个 LiveCD 可以让您在 Linux 上试用完整的 GNOME 桌面，而不用在硬盘上安装任何东西。这是了解 GNOME 新变化的最佳途径。</para>
+  
+   <para>对于实际的用户，我们建议安装您所用的 Linux 发行版的官方包。供应商应该很快会为 GNOME 2.10 打包，并发布包含 GNOME 2.10 的新版本。</para>
+
+   <para>但是，如果您为了测试最新的版本，提供反馈和改进建议，而希望从源代码的基础上构建 GNOME ，我们建议使用构架工具，比如 <ulink url="http://cipherfunk.org/garnome/">GARNOME</ulink> 工具, 来构建已发布的打包文件，和用于从 CVS 中构建整个 GNOME 的工具 <ulink url="http://www.freedesktop.org/Software/jhbuild">jhbuild</ulink>。</para>
+
+  </sect1>

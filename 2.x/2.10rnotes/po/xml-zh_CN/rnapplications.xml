@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.10">
+]>
+<sect2 id="rnapplications">
+  <title>应用程序</title>
+
+  <sect3 id="rntotem">
+    <title>视频播放器</title>
+   
+   <para>现在 GNOME 2.10 包含了一个流行的 Totem 播放器，它使用了 GNOME 的 Gstreamer 多媒体架构。Totem 提供 GNOME 用户期望的直观的用户界面，用自动化的硬件检测来替换复杂的设定。</para>    
+ 
+   <figure id="rnscreenshot-totem">
+      <title>视频播放器</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-totem.png" format="PNG"/></imageobject>
+          <textobject><phrase>Totem 视频播放器。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  <sect3 id="rnsoundjuicer">
+    <title>音频抓取</title>
+   
+   <para>相当可爱的 Sound Juicer“CD 提取器”能轻松地从 CD 中抓取音频，然后在您的 PC 或便携音乐播放器中播放音频。由于可以自动下载歌曲标题，所以您无须点击多于两个的按钮。</para>    
+   
+   <figure id="rnscreenshot-soundjuicer">
+      <title>音频抓取器</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-soundjuicer.png" format="PNG"/></imageobject>
+          <textobject><phrase>音频抓取器。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  <sect3 id="rnbrowser">
+    <title>网络浏览器</title>
+
+    <para>GNOME 的“Epiphany”网络浏览器是基于 Mozilla 同时也与 GNOME 桌面完整的整合在一起。在 GNOME 2.10 的改进包括 <itemizedlist><listitem><para>经过改进的全屏模式。</para></listitem><listitem><para>地址条现在会显示网站是否是安全的，并显示相关图标。</para></listitem><listitem><para>书签可以导出。</para></listitem><listitem><para>一个做为额外功能的扩展管理器。</para></listitem></itemizedlist></para>
+   
+    <figure id="rnscreenshot-epiphany">
+      <title>网络浏览器</title>
+        <screenshot>
+          <mediaobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-epiphany.png" format="PNG"/></imageobject>
+            <textobject><phrase>网络浏览器。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  <sect3 id="rnevolution">
+    <title>Evolution</title>
+   
+   <para>GNOME 集成的电子邮件和群件客户端，Evolution 支持传统的邮件设定，也包括 Novell Groupwise 和 Microsoft Exchange。通过 Evolution ，您可以读、写、和管理您的电子邮件、通信簿、和日历事件。</para>
+   <para>在 GNOME 2.10 中，如果您使用 IMAP、LDAP、WebCal、Groupwise、或 Exchange， 在离线状态下处理电子邮件，日日历，和联系簿也变得更加轻松。您所做的变更在您重新在线时会自动同步。</para>
+
+   <para>这个新版本提供了其他一些改进：<itemizedlist><listitem><para>文件可以附到事件中。</para></listitem><listitem><para>在循环事件中可放置异常。</para></listitem><listitem><para>日历包含天气信息(仅限于美国)。</para></listitem></itemizedlist></para>
+   
+   <figure id="rnscreenshot-evolution-weather">
+      <title>每天的天气预报</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-evolution-weather.png" format="PNG"/></imageobject>
+          <textobject><phrase>Evolution 日历客户端。</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+   <para>更多的新特性：<itemizedlist><listitem><para>支持 Groupwise 共享文件夹和发送选项。</para></listitem><listitem><para>支持 Exchange 文件夹大小和密码期限警告。</para></listitem><listitem><para>对于从右到左顺序的语言，电子邮件用户界面可以镜像过来。</para></listitem></itemizedlist></para>
+
+   <figure id="rnscreenshot-evolution-mail">
+      <title>电子邮件客户端</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-evolution-mail.png" format="PNG"/></imageobject>
+          <textobject><phrase>Evolution 电子邮件客户端</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  <sect3 id="rngnomemeeting">
+    <title>GnomeMeeting</title>
+
+    <para>GnomeMeeting 允许用户通过 internet 电话(VoIP)和视频会议互相看见、交谈。在 GNOME 2.10 中，地址簿和 Evolution 电子邮件客户端是共享的，这样您就无须在多个地方输入联系信息了。</para>
+    <para>现在您甚至可以在局域网浏览查找其他的 GnomeMeeting 用户，而无须先行了解他们的联系细节。同时，您可以看见自己的视频输出与交流伙伴并排在那里，这样您看见的和他们看见的一模一样。</para>
+
+    <figure id="rnscreenshot-gnomemeeting">
+      <title>Internet 电话(VoIP)和视频会议</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-gnome-meeting.png" format="PNG"/></imageobject>
+          <textobject><phrase>使用并排视频的 GnomeMeeting</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+
+  </sect3>
+
+  
+</sect2>

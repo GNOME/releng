@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY urlfiguresbase "figures/">
+<!ENTITY version "2.10">
+]>
+<sect2 id="rnapplets">
+  <title>面板项目</title>
+
+  <para>GNOME 2.10 包括重要的面板项目的(也被称为小程序，Applet)改进，提供新特性和更好地与桌面的其它部分整合。</para>
+  <para>最显著的变化是去掉了动作面板菜单，添加了位置和桌面菜单。这使得你可以更加快捷地访问你最常使用的项目，而无须在子菜单中去寻找。比如，位置菜单列出了您的主文件夹，您的计算机，网络服务器，还有搜索。在桌面菜单，会发现您的设置和管理控制面板，注销，和帮助。</para>
+
+  <para>全部面板菜单是由跨平台的 Freedesktop.org 菜单规范所定义的，第三方软件甚至无须了解 GNOME 就可以把自己添加到应用程序菜单中。</para>
+ 
+  <para>同样，当面板自身是透明的时候，大多数的小程序(Applets)能实现局部透明了。</para>
+ 
+  <sect3 id="rnapplets-modemlights">
+  <title>整合的 Moden 控制</title>
+  <para>GNOME 2.10 引入了一个新的小程序来控制 Modem，这个小程序已经整合入到了 GNOME 系统工具中。</para>
+
+   <figure id="rnscreenshot-applet-modem">
+    <title>新的 modem 控制 applet</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-modem.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>新的 modem 控制 applet</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+   
+  </sect3>
+
+  <sect3 id="rnapplets-trash">
+  <title>面板垃圾桶</title>
+
+  <para>GNOME 2.10 为您的面板带来一个可选的垃圾桶。就象桌面上的垃圾桶一样，可以拖放文件和其他项目到垃圾桶中，而无须最小化打开的窗口。</para>
+
+  <figure id="rnscreenshot-applet-trash">
+    <title>一个面板上的垃圾桶</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-trash.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>拖曳垃圾到面板上</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+
+  </sect3>
+
+  <sect3 id="rnapplets-drivemount">
+  <title>控制挂载的卷标</title>
+
+  <para>GNOME 2.8 允许您轻松挂载数字媒介，比如 CD, DVD, 和 USB 存贮棒。现在卷标挂载器 applet 助您使用这些卷标，无须在桌面上困难地寻找在打开窗口之下的相关图标。这个 applet 显示当前已挂载(或未挂载)的卷标，让您挂载，弹出，或者在文件管理器中打开它们。</para>
+   
+   <figure id="rnscreenshot-applet-drivemount">
+    <title>驱动挂载</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-drivemount.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>驱动挂载小程序。</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  
+  </sect3>
+
+  <sect3 id="rnapplets-gweather">
+  <title>得到的不仅仅是天气</title>
+  <para>天气监视器现在可以现实比以前更多的地区了，在适当的地方，地区名称也翻译成非英语语言。另外，预报包括了大多数地方的日出日落计算。</para>
+
+   <figure id="rnscreenshot-applet-weather">
+    <title>天气报告</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-weather.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>天气报告小程序</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+   
+  </sect3>
+
+  <sect3 id="rnapplets-mixer">
+  <title>声音控制</title>
+  <para>面板上的一个新混音器(包含桌上的面一个新外观的混音器)从你声音硬件取得大多数属性。通过 GStreamer 多媒体构架，如今的混音器比以前更加简单和有效。在通过面板改变 GNOME 的音量时，所有使用相同构件的 Totem，Sound Juicer, GNOME CD 播放器和其他的第三方应用程序的音量也会改变。</para>
+   <figure id="rnscreenshot-applet-mixer">
+    <title>面板上的全新混音器</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-mixer.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>面板上的全新混音器</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+  </sect3>
+
+  <sect3 id="rnapplets-stickynotes">
+  <title>做记录</title>
+  <para>流行的即时帖 applet 在桌面上现在更加容易添加 PostIt 类型的记录，这得益于更加简单的用户界面和对许多问题的修正。比如，即使是在不同的显示器上，即时帖也会停留在正确的工作区上。</para>
+  <para>即时帖处于其他窗口之上，这样您就不会失去它们。要隐藏可以使用小程序的右键菜单。</para>
+  </sect3>
+   <figure id="rnscreenshot-applet-stickies">
+    <title>即时帖</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-stickies.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>即时帖</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+
+  <sect3 id="rnapplet-cpufreq">
+  <title>特别为笔记本提供</title>
+  <para>GNOME 包含了一个监视器来监视笔记本的处理器速度。CPU 频率监视器查看变速的处理器(比如那些拥有Intel Speedstep或AMD PowerNow的处理器)以显示它们的当前状态。如果没有开启自动调整频率功能，您也可以自己选择不同的速度。</para>
+
+   <figure id="rnscreenshot-applet-cpufreq">
+    <title>监视器 CPU 频率变化</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;figure-applet-cpufreq.png" format="PNG"/>
+          </imageobject>
+        <textobject><phrase>监视器 CPU 频率变化</phrase></textobject>
+      </mediaobject>
+    </screenshot>
+  </figure>
+
+  </sect3>
+
+  <sect3 id="rnapplet-removed">
+  <title>已移除的小程序</title>
+  <para>在 GNOME 2.10 中有三个小程序被去除掉了，取而代之的在多数情况下更佳的选择。</para>
+  <para>CD 播放器面板 applet 已经被去除，所以即使你把 CD 放入了驱动器，您也不能再看到CD播放器出现在面板上。做为替代方案，在插入 CD 会启动 GNOME CD 播放器，然后可以从面板上的通知区域图标来控制它。</para>
+  <para>因为包含在 GNOME 2.8 的网络监视器小程序包含了无线支持，所以专门的无线小程序被移除了。</para>
+  <para>因为无人维护和不安全，邮件监视器被除去。我们希望在将来有个与我们的 Eolution 邮件客户端整合在一起的解决方案。如果没有使用 Evolution，您可以使用一个第三方的应用程序比如 <link href="http://www.nongnu.org/mailnotify/">mailnotify</link>。</para>
+  </sect3>
+
+</sect2>
