@@ -1,5 +1,13 @@
 2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
 
+	* figures/figure-epiphany+preferences.png: Removed
+	
+	* figures/figure-epiphany+menu.png:
+	* rnapplications.xml: Replace Epiphany picture as per suggestion of
+	  murrayc
+
+2004-09-14  Davyd Madeley  <davyd@madeley.id.au>
+
 	* figures/figure-nautilus-context-menu.png:
 	* figures/figure-nautilus-properties+add-application.png:
 	* rndesktop.xml: MIME screenshots
