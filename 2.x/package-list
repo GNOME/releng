@@ -117,6 +117,7 @@ stripchart		=		-		* not necessary, applets do the same	-
 </section>
 
 <section title="Fifth Toe">
+atomix 			=    		0.9.1           ported             	Jens Finke <jens@triq.net>
 evolution		=		1.0.1		not ported			-
 gal			-		-		-			-
 galeon			=		1.1.1		not ported, waiting on mozilla		Marco Pesenti Gritti <marco@it.gnome.org>	
@@ -128,7 +129,6 @@ GStreamer		-		-		-			-
 gtk-engines		-		-		-			-
 pan			-		-		-			-
 xchat			-		-		-			-
-atomix 			=    		0.9.1           ported             	Jens Finke <jens@triq.net>
 </section>
 
 <section title="Language Bindings">
