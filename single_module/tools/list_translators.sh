@@ -2,7 +2,7 @@
 
 # usage: tranlators.sh LAST_RELEASE_TAG
 
-if [ ! $# -eq 2 ] ; then
+if [ ! $# -eq 1 ] ; then
 	echo "usage: $0 LAST_RELEASE_TAG"
 	exit 1;
 fi

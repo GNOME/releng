@@ -1,5 +1,10 @@
 2003-10-12  Bastien Nocera  <hadess@hadess.net>
 
+	* single_module/tools/list_translators.sh: that's one argument needed
+	not 2
+
+2003-10-12  Bastien Nocera  <hadess@hadess.net>
+
 	* single_module/tools/list_translators.sh: print out the usage if
 	the number of arguments is not the right one
 
