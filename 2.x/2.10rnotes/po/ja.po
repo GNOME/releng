@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome 2.10 release notes\n"
-"PO-Revision-Date: 2005-03-07 23:17+0900\n"
+"PO-Revision-Date: 2005-03-10 19:11+0900\n"
 "Last-Translator: Takeshi AIHANA <aihana@jcom.home.ne.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
@@ -1299,30 +1299,34 @@ msgid "Russian (170 million)"
 msgstr "ロシア語 Russian (1億7000万人)"
 
 #: ../rni18n.xml:67(para)
+msgid "Romanian (26 million)"
+msgstr "ルーマニア語 Romanian (2600万人)"
+
+#: ../rni18n.xml:68(para)
 msgid "Serbian (10 million)"
 msgstr "セルビア語 Serbian (1000万人)"
 
-#: ../rni18n.xml:68(para)
+#: ../rni18n.xml:69(para)
 msgid "Spanish (over 350 million)"
 msgstr "スペイン語 Spanish (3億5000万人以上)"
 
-#: ../rni18n.xml:69(para)
+#: ../rni18n.xml:70(para)
 msgid "Swedish (9 million)"
 msgstr "スウェーデン語 Swedish (900万人)"
 
-#: ../rni18n.xml:70(para)
+#: ../rni18n.xml:71(para)
 msgid "Tamil (61 million)"
 msgstr "タミル語 Tamil (6100万)"
 
-#: ../rni18n.xml:71(para)
+#: ../rni18n.xml:72(para)
 msgid "Turkish (150 million)"
 msgstr "トルコ語 Turkish (1億5000万人)"
 
-#: ../rni18n.xml:72(para)
+#: ../rni18n.xml:73(para)
 msgid "Ukrainian (50 million)"
 msgstr "ウクライナ語 Ukrainian (5000万人)"
 
-#: ../rni18n.xml:73(para)
+#: ../rni18n.xml:74(para)
 msgid "Welsh (575,000)"
 msgstr "ウェールズ語 Welsh (575,000人)"
 
@@ -1530,10 +1534,10 @@ msgstr ""
 
 #: ../rnsysadmin.xml:26(para)
 msgid ""
-"Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
+"Networking: Improved wireless support (WEP and ESSID detection), and ISDN "
 "connections."
 msgstr ""
-"ネットワーク: 改善された無線 LAN サポート (WEP と ESSID 検出)、そして IDSN 接"
+"ネットワーク: 改善された無線 LAN サポート (WEP と ESSID 検出)、そして ISDN 接"
 "続"
 
 #: ../rnsysadmin.xml:27(para)

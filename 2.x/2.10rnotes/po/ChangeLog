@@ -1,3 +1,8 @@
+2005-03-10  Takeshi AIHANA <aihana@jcom.home.ne.jp>
+
+	* ja.po: Updated Japanese translation.
+	* xml-ja/figures/*.png: Updated screenshots for Japanese.
+
 2005-03-09  Abel Cheung  <maddog@linuxhall.org>
 
 	* zh_TW.po: Incorporate suggestion from
