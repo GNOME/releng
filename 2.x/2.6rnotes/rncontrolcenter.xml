@@ -7,6 +7,9 @@
   <sect2 id="rncontrolcenter">
   <title>Control Center</title>
 
+  <sect3 id="rn-controlcenter-keyboard">
+  <title>Keyboard Layouts</title>
+
     <para>GNOME &version; makes it easier to use multiple keyboard layouts. For instance, you might choose to press both
     shift keys together to change from a U.S. English keyboard layout to a Russian keyboard layout, and then back again, to
     enter one russian word in the middle of an english sentence. This is particularly useful to the millions of people in
@@ -54,5 +57,27 @@
       </screenshot>
     </figure>
     </para>
+
+  </sect3>
+
+  <sect3 id="rn-controlcenter-background">
+  <title>Desktop Background</title>
+
+    <para>GNOME &version; has a new easy-to-use Desktop Background control panel, which you can access quickly by
+    right-clicking on the desktop. When you add new pictures, it will remember whether each one should be scaled or tiled.
+
+    <figure id="rnscreenshot-controlpanel-background">
+     <title>Keyboard Shortcuts</title>
+       <screenshot>
+         <mediaobject>
+           <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-backgroundTODO.png" format="PNG"/>
+           </imageobject>
+           <textobject><phrase>The Desktop Background control panel.</phrase></textobject>
+         </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
+  </sect3>
 
 </sect2>

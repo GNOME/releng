@@ -10,11 +10,11 @@
   <sect3 id="rnbrowser">
     <title>Web Browser</title>
 
-    <para>GNOME's Epiphany web browser is one of the most-used applications, so you will be glad to hear that it has lots of
-    improvements in GNOME &version;, based on user feedback. The user interface has been fine-tuned yet more, to
-    make browsing an even more pleasant experience. TODO: Rephrase this so it sounds more substantial.</para>
+    <para>GNOME's Epiphany web browser is one of the most-used applications, so you will be glad to hear about its
+    enhancements in GNOME &version; based on user feedback. The user interface has been fine-tuned yet more, to
+    make browsing an even more pleasant experience.</para>
 
-    <para>Other improvements include
+    <para>Improvements include
     <itemizedlist>
     <listitem><para>Auto-completion of the URL has been improved.</para></listitem>
     <listitem><para>Files can now be downloaded quickly to a standard folder, and there is improved feedback while that is happening.</para></listitem>
