@@ -15,15 +15,23 @@
     the release of GNOME 2.2, including an integrated drag-and-drop CD burner
     and the ability to change the properties of multiple files simultaneously.
     </para>
-
-<!-- CD Burner screenshot 
-    <figure>
-      <title>CD Burner</title>
-      <screenshot>
-	<graphic>
-      </screenshot>
-    </figure>
+<!--    
+    <figure id="rncdburnerscreenshot"> 
+        <title>CD Burner</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;cdburner.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>GNOME CD Burner
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
 -->
+
     <para>Other changes in Nautilus for GNOME &version; include:
       <itemizedlist>
 	<listitem>
