@@ -1,3 +1,9 @@
+2003-01-31  Murray Cumming  <murrayc@usa.net>
+
+	* Removed 2.x/moduleinfo.py: Removed it because it isn't used and it's
+	a duplication and jhbuild now uses an XML format that we can transform
+	with XSL.
+
 2003-01-22  Murray Cumming  <murrayc@usa.net>
 
 	* 2.x/package-list: Added gnome-themes and startup-notification.
