@@ -13,7 +13,6 @@ at-spi			=		0.0.5		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 atk			=		0.9		not frozen		Bill Haneman <Bill.Haneman@sun.com>
 audiofile		-		0.2.3		frozen			Michael Pruett <mpruett@sgi.com>
 bonobo-activation	=		0.9.3		frozen			Maciej Stachowiak <mjs@noisehavoc.org>, Darin Adler <darin@bentspoon.com>
-bonobo-config		=		0.106.0		frozen			Dietmar Maurer <dietmar@ximian.com>
 esound			-		0.2.23		frozen			Eric Mitchell <ericmit@ix.netcom.com>
 gail			=		0.5		no API			Bill Haneman <Bill.Haneman@sun.com>, Padraig O'Briain <padraig.obriain@sun.com>
 glib			=		1.3.12		frozen			Tim Janik <timj@redhat.com>, Owen Taylor <otaylor@redhat.com>
@@ -26,10 +25,10 @@ intltool		=		0.12		frozen			Darin Adler <darin@bentspoon.com>, Kenneth Christian
 libIDL			=		0.7.2		frozen			Mark McLoughlin <mark@skynet.ie>, Michael Meeks <michael@ximian.com>
 libart_lgpl		=		2.3.8		-			Raph Levien <raph@acm.org>
 libbonobo		=		1.108.0		frozen			Michael Meeks <michael@ximian.com>
-libbonoboui		=		1.109.1		frozen			Michael Meeks <michael@ximian.com>
+libbonoboui		=		1.109.2		frozen			Michael Meeks <michael@ximian.com>
 libghttp		gnome-http	1.0.9		* to remove if better method found	Justin Maurer <justin@slashdot.org>
 libglade		=		1.99.5		frozen			James Henstridge <james@daa.com.au>
-libgnome		=		1.109.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnome		=		1.109.1		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomecanvas		=		1.109.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.109.1		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeprintui		=		1.109.1		-			Lauris Kaplinski <lauris@ximian.com>
@@ -44,16 +43,16 @@ pkgconfig		-		0.8.0		frozen			Havoc Pennington <hp@redhat.com>
 <section title="Desktop">
 bug-buddy		=		2.1.2		done?			Jacob Berkman <jacob@ximian.com>
 eel			=		-		porting along with Nautilus	Darin Adler <darin@bentspoon.com>
-eog			=		-		blocking on old bonobo control grokkage (seth porting)	Seth Nickell <snickell@stanford.edu>
+eog			=		1.109.0		blocking on old bonobo control grokkage (seth porting)	Seth Nickell <snickell@stanford.edu>
 gdict			=		-		ported			-
 gdm			gdm2		2.3.90.1	porting			George Jirka <jirka@5z.com>
 gedit2			=		1.109.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
+ggv			=		-		ported, bonobized	Jaka Mocnik <jaka@gnu.org>
 gnome-audio		-		-		-			-
 gnome-control-center	-		-		-			Richard Hestilow <hestilow@ximian.com>
 gnome-core		=		1.5.4		see Desktop Core section		-
 gnome-games		=		1.90.1		mostly ported, minor issues		Juan Pablo Mendoza <jpablo@gnome.org>
 gnome-media		=		-		mostly ported (solaris working?)	Iain Holmes <iain@ximian.com>
-gnome-pim		=		-		* no porting action at all		-
 gnome-user-docs		-		-		hacking post-beta1	John Fleck <jfleck@inkstain.net>
 gnome-utils		=		1.97.0		see Desktop Utils section		-
 libgtkhtml		gtkhtml2	1.99.2		ported, rendering issues		-
@@ -113,8 +112,8 @@ stripchart		=		-		* not necessary, applets do the same	-
 evolution		=		1.0.1		not ported			-
 gal			-		-		-			-
 galeon			=		1.1.1		not ported, waiting on mozilla		Marco Pesenti Gritti <marco@it.gnome.org>	
-ggv			=		-					Jaka Mocnik <jaka@gnu.org>
 gimp			-		-		-			-
+gnome-pim		=		-		* no porting action at all		-
 gnomemeeting		=		0.12.2		-		Damien Sandras <dsandras@seconix.com>
 GStreamer		-		-		-			-
 gtk-engines		-		-		-			-
