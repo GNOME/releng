@@ -23,7 +23,7 @@
     <para>
     GNOME &version; delivers some improvements, including
     <itemizedlist>
-      <listitem><para>Networking: Improved wireless support (WEP and ESSID detection), and IDSN connections.</para></listitem>
+      <listitem><para>Networking: Improved wireless support (WEP and ESSID detection), and ISDN connections.</para></listitem>
       <listitem><para>Users and Groups: Easier editing of group members.</para></listitem>
       <listitem><para>Changes are applied instantly where appropriate.</para></listitem>
     </itemizedlist>

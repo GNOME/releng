@@ -1,3 +1,7 @@
+2005-03-07  Raphael Higino  <raphaelh@cvs.gnome.org>
+
+	* rnsysadmin.xml: Fixed a typo: IDSN -> ISDN.
+
 2005-03-07  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Readded "Romanian" to the list.

@@ -125,7 +125,7 @@ msgid "The system tools allow you to configure your system clock and your networ
 msgstr ""
 
 #: ../rnsysadmin.xml:26(para) 
-msgid "Networking: Improved wireless support (WEP and ESSID detection), and IDSN connections."
+msgid "Networking: Improved wireless support (WEP and ESSID detection), and ISDN connections."
 msgstr ""
 
 #: ../rnsysadmin.xml:27(para) 

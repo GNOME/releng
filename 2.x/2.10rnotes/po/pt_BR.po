@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: release-notes 2.10\n"
-"PO-Revision-Date: 2005-03-06 21:49-0300\n"
+"PO-Revision-Date: 2005-03-07 14:17-0300\n"
 "Last-Translator: Raphael Higino <raphaelh@uai.com.br>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../rnutilities.xml:25 (phrase)
 msgid "The text editor, highlighting the current line."
-msgstr ""
+msgstr "O editor de textos, destacando a linha atual."
 
 #: ../rnutilities.xml:33 (title) ../rnutilities.xml:39
 msgid "Archive Manager"
@@ -93,6 +93,7 @@ msgstr ""
 #: ../rnutilities.xml:43 (phrase)
 msgid "The archive manager, asking for a password for a RAR file."
 msgstr ""
+"O gerenciador de arquivos compactados, pedindo a senha para um arquivo RAR."
 
 #: ../rnutilities.xml:52 (title) ../rnutilities.xml:58
 msgid "Dictionary"
@@ -107,21 +108,21 @@ msgstr ""
 
 #: ../rnutilities.xml:62 (phrase)
 msgid "The dictionary, suggesting possible spellings and a definition."
-msgstr ""
+msgstr "O dicionário, sugerindo possíveis grafias e uma definição."
 
 #: ../rnutilities.xml:70 (title) ../rnutilities.xml:76
 msgid "Floppy Formatter"
-msgstr "Formatador de discos flexíveis"
+msgstr "Formatador de disquetes"
 
 #: ../rnutilities.xml:72 (para)
 msgid ""
 "The GNOME Floppy Formatter utility now supports removable drives, such as "
 "USB drives, using the standard HAL system from freedesktop.org."
-msgstr ""
+msgstr "O Formatador de Disquetes do GNOME agora suporta unidades removíveis, tais como unidades USB, usando o sistema HAL padrão do freedesktop.org."
 
 #: ../rnutilities.xml:80 (phrase)
 msgid "Formatting a floppy disk."
-msgstr ""
+msgstr "Formatando um disquete."
 
 #: ../rnthemes.xml:2 (title)
 msgid "Themes"
@@ -168,7 +169,7 @@ msgstr ""
 
 #: ../rnsysadmin.xml:26 (para)
 msgid ""
-"Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
+"Networking: Improved wireless support (WEP and ESSID detection), and ISDN "
 "connections."
 msgstr ""
 "Rede: Suporte a redes sem fio (detecção de WEP e ESSID) e conexões ISDN "
@@ -214,7 +215,7 @@ msgstr "Copie logs para a área de transferência."
 msgid ""
 "The GNOME log viewer has added a handy find feature, and an improved monitor "
 "mode. In addition, it can now <placeholder-1/>"
-msgstr ""
+msgstr "O visualizador de logs do GNOME adicionou um cômodo recurso de busca e melhorou o modo monitor. Além disso, agora ele pode <placeholder-1/>"
 
 #: ../rnsysadmin.xml:58 (title)
 msgid "The Log Viewer"
@@ -305,7 +306,7 @@ msgid ""
 "For GNOME 2.10 we have a LiveCD, available from www.gnome.org. The LiveCD "
 "allows you to try a full GNOME desktop on Linux without installing anything "
 "on your hard drive. This is the best way to see for yourself what's new."
-msgstr ""
+msgstr "Para o GNOME 2.10 nós temos um LiveCD, disponível em www.gnome.org. O LiveCD te permite experimentar um ambiente GNOME completo, no Linux, sem precisar instalar nada no seu dísco rígido. Essa é a melhor maneira de ver por si mesmo as novidades."
 
 #: ../rninstallation.xml:13 (para)
 msgid ""
@@ -335,7 +336,7 @@ msgid ""
 "projects/gtp/\">GNOME Translation Project</ulink>, under the leadership of "
 "Christian Rose and Kjartan Maraas, GNOME 2.10 offers support for 33 "
 "languages (at least 80 percent of strings translated)."
-msgstr ""
+msgstr "Graças aos membros do <ulink url=\"http://developer.gnome.org/projects/gtp/\">Projeto de Tradução do GNOME</ulink> em todo o mundo, sob a liderança de Christian Rose e Kjartan Maraas, o GNOME 2.10 oferece suporte a 33 idiomas (pelo menos 80% das frases traduzidas)."
 
 #: ../rni18n.xml:41 (para)
 msgid "Albanian (5 million speakers)"
@@ -531,7 +532,10 @@ msgid ""
 "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you "
 "can browse your local network for other people to play against, via the same "
 "zero-configuration technique used by GnomeMeeting."
-msgstr "Nossa filosofia de \"Simplesmente Funciona\" é ainda mais visível no jogo Nibbles. Agora você pode procurar por adversários na sua rede local, através da mesma técnica de configuração-zero usada pelo GnomeMeeting."
+msgstr ""
+"Nossa filosofia de \"Simplesmente Funciona\" é ainda mais visível no jogo "
+"Nibbles. Agora você pode procurar por adversários na sua rede local, através "
+"da mesma técnica de configuração-zero usada pelo GnomeMeeting."
 
 #: ../rngames.xml:36 (title)
 msgid "join a network game"
@@ -720,15 +724,16 @@ msgid ""
 msgstr ""
 
 #: ../rncontrolcenter.xml:18 (title)
-#, fuzzy
 msgid "Keyboard Preferences - Layouts"
-msgstr "Layouts de teclado"
+msgstr "Preferências de teclado - disposições"
 
 #: ../rncontrolcenter.xml:23 (phrase)
 msgid ""
 "The Layouts tab, in the Keyboard Preferences control panel, while adding a "
 "new layout."
 msgstr ""
+"A aba Disposições, no painel de controle Preferências de Teclado, ao "
+"adicionar uma nova disposição."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -912,7 +917,7 @@ msgstr ""
 
 #: ../rnapplications.xml:92 (title)
 msgid "daily weather forecasts"
-msgstr "boletins do meteorológicos diários"
+msgstr "boletins meteorológicos diários"
 
 #: ../rnapplications.xml:96 (phrase)
 msgid "The Evolution calendar client."
@@ -968,11 +973,11 @@ msgstr ""
 
 #: ../rnapplications.xml:132 (title)
 msgid "The internet telephony and video conferencing client"
-msgstr ""
+msgstr "O cliente de telefonia pela Internet e vídeo conferência"
 
 #: ../rnapplications.xml:136 (phrase)
 msgid "GnomeMeeting with side-by-side video."
-msgstr ""
+msgstr "O GnomeMeeting com vídeo lado a lado."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1053,7 +1058,7 @@ msgid ""
 "GNOME 2.10 includes major improvements to its panel items (also known as "
 "applets), providing new features and better integration with the rest of the "
 "desktop."
-msgstr ""
+msgstr "O GNOME 2.10 inclui grandes melhorias nos seus itens do painel (também conhecidos como mini-aplicativos), fornecendo novos recursos e melhor integração com o restante do ambiente."
 
 #: ../rnapplets.xml:13 (para)
 msgid ""
@@ -1089,10 +1094,12 @@ msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
 "with GNOME System Tools."
 msgstr ""
+"O GNOME 2.10 apresenta um novo mini-aplicativo para controlar seu modem, "
+"integrado com as Ferramentas de Sistema do GNOME."
 
 #: ../rnapplets.xml:28 (title) ../rnapplets.xml:33 (phrase)
 msgid "The new modem control applet"
-msgstr ""
+msgstr "O novo mini-aplicativo de controle de modem"
 
 #: ../rnapplets.xml:41 (title)
 msgid "Panel Trashcan"
@@ -1129,11 +1136,11 @@ msgstr ""
 
 #: ../rnapplets.xml:73 (title)
 msgid "Drive Mount"
-msgstr ""
+msgstr "Montagem de unidades"
 
 #: ../rnapplets.xml:78 (phrase)
 msgid "The drive mount applet."
-msgstr ""
+msgstr "O mini-aplicativo de montagem de unidades."
 
 #: ../rnapplets.xml:86 (title)
 msgid "Get even more weather"
@@ -1149,11 +1156,11 @@ msgstr ""
 
 #: ../rnapplets.xml:94 (title)
 msgid "Weather Report"
-msgstr ""
+msgstr "Relatório meteorológico"
 
 #: ../rnapplets.xml:99 (phrase)
 msgid "The weather report applet."
-msgstr ""
+msgstr "O mini-aplicativo de relatório meteorológico."
 
 #: ../rnapplets.xml:107 (title)
 msgid "Sound control"
@@ -1221,7 +1228,7 @@ msgstr ""
 
 #: ../rnapplets.xml:158 (title) ../rnapplets.xml:163 (phrase)
 msgid "Monitor CPU Frequency Scaling"
-msgstr ""
+msgstr "Monitore a graduação da freqüência da CPU"
 
 #: ../rnapplets.xml:171 (title)
 msgid "Removed Applets"
@@ -1281,13 +1288,15 @@ msgstr "Introdução"
 
 #: ../release-notes.xml:24 (phrase)
 msgid "The GNOME Desktop"
-msgstr ""
+msgstr "O Ambiente Desktop GNOME"
 
 #: ../release-notes.xml:27 (para)
 msgid ""
 "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
 "platform free desktop environment."
 msgstr ""
+"O Ambiente Desktop GNOME 2.10 é a versão mais recente do ambiente desktop "
+"livre, multi-plataforma e sempre popular."
 
 #: ../release-notes.xml:30 (para)
 msgid ""
@@ -1345,14 +1354,11 @@ msgid ""
 "Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</"
 "link> section, or use the links at the right to learn more about this "
 "release and the GNOME Desktop in general."
-msgstr ""
-"Por favor, siga diretamente para a seção <link linkend=\"rnwhatsnew\">O que "
-"há de novo</link>, ou use os links à direita para aprender mais sobre essa "
-"versão do Ambiente Desktop GNOME em geral."
+msgstr "Por favor, siga diretamente para a seção <link linkend=\"rnwhatsnew\">Novidades</link>, ou use os links à direita para aprender mais sobre essa versão do Ambiente Desktop GNOME em geral."
 
 #: ../release-notes.xml:67 (title)
 msgid "What's New In GNOME 2.10"
-msgstr "O que há de novo no GNOME 2.10"
+msgstr "Novidades do GNOME 2.10"
 
 #: ../release-notes.xml:92 (title)
 msgid "Known Issues"
