@@ -1,16 +1,7 @@
 Stuff to mention in GNOME 2.8 release notes:
 (edit this file)
 
-- File manager:
-  - Estimated time remaining when copying lots of data.  
-  - New standard file-type association system - used-by/works with KDE.
-    - Context Menu/Open With
-    - File Properties/Open With
-  - Access to password-protected servers, such as FTP sites. (It asks for a password.)
-  - Browse for local network servers (via OpenTalk), such as windows file servers.
-  - volume manager: Automatically mount CDs, DVDs, USB sticks, cameras, etc, and do something appropriate).
-    (mention that it uses freedesktop components)
-  - cd burner: Simpler UI - is this really different enough to mention?
+
 - New themes (Industrial and glider)
 - panel:
   - Simpler way to choose panel applets. 
@@ -33,3 +24,21 @@ system adminstration:
 Improvements to developer platform:
   - API additions in gnome-vfs.
   - also wrapped by the platform bindings.
+
+
+DONE (maybe with TODOs in the text:
+
+- File manager:
+  - Estimated time remaining when copying lots of data.  
+  - New standard file-type association system - used-by/works with KDE.
+    - Context Menu/Open With
+    - File Properties/Open With
+  - Access to password-protected servers, such as FTP sites. (It asks for a password.)
+  - Browse for local network servers (via OpenTalk), such as windows file servers.
+  - volume manager: Automatically mount CDs, DVDs, USB sticks, cameras, etc, and do something appropriate).
+    (mention that it uses freedesktop components)
+  - cd burner: Simpler UI - is this really different enough to mention?
+
+- New modules:
+  - evolution
+

@@ -43,67 +43,39 @@
 
     <para>
     GNOME now supports Apple's OpenTalk protocol (previously named Rendezvous) also known as
-    DNS Service Discovery. This allows you to view available shares in your Network view.
+    DNS Service Discovery. This allows you to view available shares in your Network view. TODO: Should we call this OpenTalk, Rendezvous, or DNS Discovery?
     </para>
-    <figure id="rnscreenshot-nautilus-rendezvous">
+    <figure id="rnscreenshot-nautilus-opentalk">
       <title>Network Shares</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;gnome-vfs-rendezvous.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-opentalk.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Network Shares, featuring an OpenTalk share</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
-<!--
-    <figure id="rnscreenshot-nautilus-sftp">
-      <title>A network drive</title>
+
+    <para>
+    Removable storage devices, such as CDs, DVDs, USB memory sticks, and cameras, can now be recognised and mounted automatically. GNOME can even start an appropriate application automatically, such as a music or DVD player, or a photograph organiser. This uses the Hardware Abstraction Layer from freedesktop.org, which we also expect future versions of other desktops to use.
+    </para>
+    <figure id="rnscreenshot-nautilus-gvm">
+      <title>Mounted USB stick. TODO: Feel free to use a different example.</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-sftp.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-gvm.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>An sftp location.</phrase></textobject>
+            <textobject><phrase>Mounted USB stick. TODO: Feel free to use a different example.</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
--->   
 
-  <para>
-   Finally, GNOME Volume Manager, a next generation volume managemant tool that
-   utilizes the new Hardware Abstraction Layer, is available to automatically
-   mount CDs, play music CDs, play DVDs (with appropriate player, such as Totem,
-   installed), and browse digital camera (with appropriate software, such as
-   F-Stop installed).
+  <para>Other File Manager improvements include:
+    <itemizedlist>
+      <listitem><para>Now allows access to password-protected FTP sites.</para></listitem>
+      <listitem><para>The CD burner's preferences dialog has been simplified.</para></listitem>
+    </itemizedlist>
   </para>
-  </sect3>
-
-  <sect3 id="rnevolution">
-    <title>Evolution</title>
-   
-   <para>
-   GNOME &version; ships with Evolution 2.0, the integrated Email and Groupware
-   client. Evolution 2.0 includes support for traditional mail setups, as well
-   as support for Groupwise and Exchange.
-   </para>
-
-<!-- fixme: evolution screenshot -->
-<!-- <figure id="rnscreenshot-filechooser">
-      <title>The new File Chooser dialog</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;filechooser.png" format="PNG"/></imageobject>
-          <textobject><phrase>The new File Chooser dialog.</phrase></textobject>
-        </mediaobject>
-      </screenshot>
-    </figure> -->
-    
-    <para>
-    Appointments and tasks are easier to manage now they are integrated into
-    the GNOME clock on your panel. Support for multiple backends now allow you
-    to keep your appointments in check. Have separate calendars for your
-    personal and work appointments, as well as your appointment book from
-    Exchange and online calendars available over the internet.
-    </para>
 
   </sect3>
 
