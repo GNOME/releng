@@ -1,5 +1,12 @@
 2003-09-06 John Fleck <jfleck@inkstain.net>
 
+        * release-notes.xml
+	* rngames.xml
+	* rnthanks.xml
+	add GNOME games schtick
+	
+2003-09-06 John Fleck <jfleck@inkstain.net>
+
 	* release-notes.xml
 	* rnapplets.xml
 	* rncontrolcenter.xml
