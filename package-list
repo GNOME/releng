@@ -6,7 +6,6 @@ Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Co
                                                         Exists?   Release?
 
 ORBit               0.5.8      No            Yes        --        Yes         Elliot Lee <sopwith@redhat.com>
-ammonite            1.0.1                                                     Mike Fleming <mfleming@eazel.com>
 audiofile           0.2.1      No            No         Yes                   Michael Pruett <michael@68k.org>
                                                                               Elliot Lee <sopwith@redhat.com>
 bonobo              1.0.6				                      Michael Meeks <michael@ximian.com>
@@ -14,47 +13,45 @@ bug-buddy           2.0.6      No            No         Yes                   Ja
 control-center      1.4.0.1    No            Yes        --        Yes         Bradford Hovinen <hovinen@ximian.com>
 esound              0.2.22     No            No         Yes       Yes         Elliot Lee <sopwith@redhat.com>
 gconf               1.0.1                                                     Havoc Pennington <hp@redhat.com> 
-gdk-pixbuf          0.9.0      No            No         Yes                   Federico Mena-Quintero <federico@ximian.com>
-gdm                 2.0beta4   No            No         Yes                   George Lebl <jirka@5z.com>
-ggv                 1.0-test7  No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
-ghex                1.1.4      No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
-glade               0.5.9      No            Yes        --        Yes         Damon Chaplin <damon@ximian.com>
-glib                1.2.8      No            No         Yes       Yes         Tim Janik <timj@redhat.com> 
+gdk-pixbuf          0.9.11     No            No         Yes                   Federico Mena-Quintero <federico@ximian.com>
+gdm                 2.2.2.2    No            No         Yes                   George Lebl <jirka@5z.com>
+ggv                 1.0.1      No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
+ghex                1.2.1      No            No         Yes       Yes         Jaka Mocnik <jaka@gnu.org>
+glade               0.6.2      No            Yes        --        Yes         Damon Chaplin <damon@ximian.com>
+glib                1.2.10     No            No         Yes       Yes         Tim Janik <timj@redhat.com> 
                                                                               Owen Taylor <otaylor@redhat.com>
 gnome--             1.2.4      No            No         ??        ??          Karl Nelson <kenelson@ece.ucdavis.edu>
-gnome-applets       1.2.2      No            No         Yes       Yes         Jacob Berkman <jacob@ximian.com>
+gnome-applets       1.4.0.1    No            No         Yes       Yes         Jacob Berkman <jacob@ximian.com>
                                                                               George Lebl <jirka@5z.com>
 gnome-audio         1.0.0      No            No         Yes       No          Elliott Lee <sopwith@redhat.com>
-gnome-core          1.2.2      No            No         Yes       Yes         Jacob Berkman <jacob@ximian.com>
+gnome-core          1.4.0.4    No            No         Yes       Yes         Jacob Berkman <jacob@ximian.com>
                                                                               George Lebl <jirka@5z.com>
-gnome-games         1.2.0      No            No         Yes                   Ian Peters <itp@ximian.com>
-gnome-guile         0.19       No            No         Yes       ??          Ariel Rios <jarios@usa.net>
-gnome-libs          1.2.4      No            Yes (3)    --        Yes         Miguel de Icaza <miguel@ximian.com>
-gnome-media         1.2.0      No            No         Yes                   Peter Teichman <pat@gnu.org>
+gnome-games         1.4.0.1    No            No         Yes                   Ian Peters <itp@ximian.com>
+gnome-guile         0.20       No            No         Yes       ??          Ariel Rios <jarios@usa.net>
+gnome-libs          1.2.13     No            Yes (3)    --        Yes         Miguel de Icaza <miguel@ximian.com>
+gnome-media         1.2.3      No            No         Yes                   Peter Teichman <pat@gnu.org>
 gnome-pim           1.2.0      No            No         Yes                   Eskil Heyn Olsen <eskil@eazel.com>
                                                                               Russel Steinthal <rms39@columbia.edu>
-gnome-print         0.24				                      Lauris Kaplinski <lauris@ximian.com>
-gnome-print         0.24       Yes           Yes        --                    Chema Celorio <chema@ximian.com>
-gnome-python        1.0.53     No            No         Yes       ??          James Henstridge <james@daa.com.au>
-gnome-user-docs     1.0.0      Yes           Yes        --        Yes         Dan Mueth <d-mueth@uchicago.edu>
-gnome-utils         1.2.0      No            No         Yes                   Arik Devens <arik@eazel.com>
+gnome-print         0.29       Yes           Yes        --                    Chema Celorio <chema@ximian.com>
+gnome-python        1.4.0.1    No            No         Yes       ??          James Henstridge <james@daa.com.au>
+gnome-user-docs     1.4.0.1    Yes           Yes        --        Yes         Dan Mueth <d-mueth@uchicago.edu>
+gnome-utils         1.4.0.1    No            No         Yes                   Arik Devens <arik@eazel.com>
                                                                               George Lebl <jirka@5z.com>
-gnome-vfs           0.4.2                                                     Pavel Cisler <pavel@eazel.com>
-gtk+                1.2.8      No            No         Yes       Yes         Tim Janik <timj@redhat.com> 
+gnome-vfs           1.0.1                                                     Pavel Cisler <pavel@eazel.com>
+gtk+                1.2.10     No            No         Yes       Yes         Tim Janik <timj@redhat.com> 
                                                                               Owen Taylor <otaylor@redhat.com>
-gtk-engines         0.10       No            No         Yes                   Owen Taylor <otaylor@redhat.com>
+gtk-engines         0.12       No            No         Yes                   Owen Taylor <otaylor@redhat.com>
 gtkmm               1.2.4      No            No         Yes       ??          Karl Nelson <kenelson@ece.ucdavis.edu>
-gtop                1.0.8      No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
-gtop                1.0.8      No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
-imlib               1.9.8.1    No            No         Yes       Yes         Mark Crichton <crichton@gimp.org>
-libghttp            1.0.7      No            Yes        --        Yes         Shane Culpepper <pepper@eazel.com>
-libglade            0.13       No            Yes        --                    James Henstridge <james@daa.com.au>
-libgtop             1.0.7      No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
+gtop                1.0.12     No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
+imlib               1.9.10     No            No         Yes       Yes         Mark Crichton <crichton@gimp.org>
+libghttp            1.0.9      No            Yes        --        Yes         Shane Culpepper <pepper@eazel.com>
+libglade            0.16       No            Yes        --                    James Henstridge <james@daa.com.au>
+libgtop             1.0.13     No            No         Yes                   Martin Baulig <martin@home-of-linux.com>
 libsigc++           1.0.1      No            No         Yes       ??          Karl Nelson <kenelson@ece.ucdavis.edu>
-libxml              1.8.10     No            No         Yes                   Daniel Veillard <Daniel.Veillard@w3.org>
-medusa              0.2.2                                                     Rebecca Schulman <rebecka@eazel.com>
-nautilus            0.5                                                       Darin Adler <darin@eazel.com>
-oaf                 0.6.2 			                              Maciej Stachowiak <mjs@eazel.com> 
+libxml              1.8.13     No            No         Yes                   Daniel Veillard <Daniel.Veillard@w3.org>
+medusa              0.5.0                                                     Rebecca Schulman <rebecka@eazel.com>
+nautilus            1.0.4                                                     Darin Adler <darin@eazel.com>
+oaf                 0.6.5 			                              Maciej Stachowiak <mjs@eazel.com> 
 panel--                                                                       ERDI Gergo <cactus@cactus.rulez.org>    
 rep-gtk                                                                       John Harper <jsh@eazel.com>
 sawfish                                                                       John Harper <jsh@eazel.com> 
