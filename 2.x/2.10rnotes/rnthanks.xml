@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.8">
-<!ENTITY oldversion "2.6">
+<!ENTITY version "2.10">
+<!ENTITY oldversion "2.8">
 ]>
 <appendix id="rnthanks">
   <title>Thanks</title>
   <para>The GNOMEs who bring you this software are too numerous to mention by
   name, but in addition to the folks mentioned above, a few contributors deserve
   special thanks for exceptional contributions toward making this release
-  possible: TODO: Update this for 2.8, if we have time.</para>
+  possible: TODO: Update this for 2.10, if we have time.</para>
 
   <itemizedlist>
     <listitem>

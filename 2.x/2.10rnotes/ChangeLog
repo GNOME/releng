@@ -1,3 +1,10 @@
+2005-02-05  Murray Cumming  <murrayc@murrayc.com>
+
+	* regexxer-ed the version numbers so that we mentin 2.10 instead of 
+	2.8.
+	* release-notes.xml: Edited the sentencess about new stuff and 
+	expected stuff.
+
 2005-02-03  Murray Cumming  <murrayc@murrayc.com>
 
 	* Created initial 2.10 release notes as a copy of the 2.8 

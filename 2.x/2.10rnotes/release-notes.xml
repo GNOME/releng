@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.8">
-<!ENTITY oldversion "2.6">
-<!ENTITY nextversion "2.10">
+<!ENTITY version "2.10">
+<!ENTITY oldversion "2.8">
+<!ENTITY nextversion "2.12">
 <!ENTITY urlfiguresbase "figures/">
 ]>
 
@@ -18,7 +18,7 @@
       <title>Introduction</title>
       <para>The GNOME &version; Desktop is the latest release of the ever popular, multi-platform free desktop environment.</para>
 
-      <para>Every new version of the GNOME &version; desktop arrives on schedule, with interesting new features and hundreds of bug fixes. This time GNOME makes it easier to work with removable devices and network servers, and provides valuable new tools for system administrators. We have also adopted the popular <application>Evolution</application> email and workgroup client. You can learn more in the following sections.</para>
+      <para>Every new version of the GNOME &version; desktop arrives on schedule, with interesting new features and hundreds of bug fixes. This time GNOME also includes a video player and a CD-ripping utility. You can learn more in the following sections.</para>
 
     <para>GNOME provides a user-friendly environment that &quot;just works&quot;
     for everyday users, without excess complexity or obscure features. At the same
@@ -34,7 +34,7 @@
 
     <para>Of course GNOME &version; includes all of the improvements made in
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
-    url="http://www.gnome.org/start/2.6/notes/">release notes</ulink>.</para>
+    url="http://www.gnome.org/start/2.8/notes/">release notes</ulink>.</para>
 
     <para>The Desktop release contains all the applications needed
   to provide basic user functionality. Major applications
@@ -68,13 +68,12 @@
 
  <xi:include href="rnstandards.xml"/>
 
-<!-- Did I mention I suck? -->
 <!--
  <xi:include href="rnwhy.xml"/>
 -->
 
  <xi:include href="rninstallation.xml"/>
-<!-- Luis sucks and knows it -->
+
 <!--
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
@@ -117,8 +116,8 @@
         <para>GNOME operates on a time-based release philosophy, an
     attempt to continuously provide the best of our developers' efforts
     to users as quickly as we can. Six months after GNOME &version;,
-    we anticipate that GNOME &nextversion; will feature integrated
-    multimedia funtionality and further advances in accessibility, usability and
+    we anticipate that GNOME &nextversion; will feature more integrated
+    multimedia and communication functionality and further advances in accessibility, usability and
     internationalization.</para>
 </sect1>
   <sect1 id="rngettinginvolved">

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.8">
+<!ENTITY version "2.10">
 <!ENTITY urlfiguresbase "figures/">
 ]>
 
@@ -10,8 +10,8 @@
 
    <para>We recommend that you use official installation packages, such as those for your linux distribution. Vendors are likely to package GNOME &version; relatively quickly, and to release new versions soon that include GNOME &version;. However, many people don't want to wait, and will want to build GNOME from source code, even though that is more difficult.</para>
 
-   <para>Building from source is even more difficult than normal this time, because GNOME 2.8 requires your existing applications to register themselves in the new cross-desktop MIME-type system.</para>
-   <para>As with GNOME 2.6, you must define the XDG_DATA_DIRS environment variable to the path at which your MIME database is installed, for instance <literal>&lt;prefix&gt;/share</literal>.</para>
+   <para>Building from source is even more difficult than normal this time, because GNOME 2.10 requires your existing applications to register themselves in the new cross-desktop MIME-type system.</para>
+   <para>As with GNOME 2.8, you must define the XDG_DATA_DIRS environment variable to the path at which your MIME database is installed, for instance <literal>&lt;prefix&gt;/share</literal>.</para>
 
     <sect2 id="rndeps">
       <title>External Dependencies</title>
