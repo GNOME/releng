@@ -1,5 +1,12 @@
 2005-02-20  Murray Cumming  <murrayc@murrayc.com>
 
+	* releasenotes.xml: Changed my mind about putting desktop after 
+	applications, because there are so many applications changes.
+	* rnutilities: Added floppy formatter.
+	* rnsysadmin: Added g-s-t, and log-viewer.
+
+2005-02-20  Murray Cumming  <murrayc@murrayc.com>
+
 	* rndesktop.xml: Did nautilus and gnome-backgrounds bits.
 
 2005-02-19  Murray Cumming  <murrayc@murrayc.com>

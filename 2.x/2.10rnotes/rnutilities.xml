@@ -65,7 +65,7 @@
  <sect3>
     <title>Dictionary</title>
 
-    <para>The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can now be printed.
+    <para>The GNOME Dictionary now suggests words when you aren't sure how to spell something. The definitions also contain links to external dictionary web sites, and the definitions can be printed.
 
     <figure id="rnscreenshot-dictionary">
     <title>Text Editor</title>
@@ -79,5 +79,22 @@
     </para>
 
   </sect3>
+
+  <sect3>
+    <title>Floppy Formatter</title>
+
+    <para>The GNOME Floppy Formatter utility now supports removable drives, such as USB drives, using the standard HAL system from freedesktop.org.
+
+    <figure id="rnscreenshot-floppy">
+    <title>Floppy Formatter</title>
+      <screenshot>
+        <mediaobject>
+          <imageobject><imagedata fileref="&urlfiguresbase;floppy.png" format="PNG"/></imageobject>
+          <textobject><phrase>Formatting a floppy disk.</phrase></textobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </para>
+
 
 </sect2>

@@ -54,8 +54,8 @@
 <sect1 id="rnwhatsnew">
     <title>What's New In GNOME &version;</title>
 
-    <xi:include href="rnapplications.xml"/>
     <xi:include href="rndesktop.xml"/>
+    <xi:include href="rnapplications.xml"/>
     <xi:include href="rncontrolcenter.xml" />
     <xi:include href="rnapplets.xml"/>
     <xi:include href="rnsysadmin.xml"/>

@@ -50,12 +50,12 @@
   <sect3 id="rnbrowser">
     <title>Web Browser</title>
 
-    <para>TODO. GNOME's &quot;Epiphany&quot; web browser, based on Mozilla, has some more enhancements. For instance, working with bookmarks is now even easier:
+    <para>GNOME's &quot;Epiphany&quot; web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in &version; include 
     <itemizedlist>
-    <listitem><para>Bookmarks toolbars are easier to manipulate.</para></listitem>
-    <listitem><para>Bookmarks hierarchies are preserved when importing.</para></listitem>
-    <listitem><para>Topics can be added directly from the new bookmark dialog.</para></listitem>
-    <listitem><para>Whole bookmarks folders can be opened in tabs.</para></listitem>
+    <listitem><para>An improved fullscreen mode (TODO: What exactly is better?).</para></listitem>
+    <listitem><para>The location bar now indicates whether the site is secure, and shows its favicon.</para></listitem>
+    <listitem><para>Bookmarks can be exported.</para></listitem>
+    <listitem><para>An extension manager for extra features.</para></listitem>
     </itemizedlist>
     </para>
    
@@ -64,7 +64,7 @@
       <title>The web browser</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;figure-epiphany+menu.png" format="PNG"/></imageobject>
+            <imageobject><imagedata fileref="&urlfiguresbase;figure-epiphany.png" format="PNG"/></imageobject>
             <textobject><phrase>The web browser.</phrase></textobject>
         </mediaobject>
       </screenshot>
