@@ -1,27 +1,30 @@
-# Deutsch translation
+# German translation
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome 2.10 release notes\n"
-"PO-Revision-Date: 2005-02-23 11:58+0100\n"
-"Last-Translator: Danilo <danilo@gnome.org>\n"
-"Language-Team: Serbian (sr) <gnom@prevod.org>\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-02-24 06:17+0100\n"
+"Last-Translator: Frank Arnold <frank@scirocco-5v-turbo.de>\n"
+"Language-Team: German GNOME Translators <gnome@gnome-de.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
-msgstr ""
+msgstr "GNOME 2.10 Veröffentlichungsinformationen"
 
 #: ../release-notes.xml:18
 msgid "Introduction"
-msgstr "Vorstellung"
+msgstr "Einleitung"
 
 #: ../release-notes.xml:19
 msgid ""
 "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
 "platform free desktop environment."
 msgstr ""
+"Der GNOME 2.10 Desktop ist die neueste Ausgabe der beliebten, mehrere "
+"Plattformen unterstützenden und freien Desktop-Umgebung."
 
 #: ../release-notes.xml:21
 msgid ""
@@ -30,6 +33,10 @@ msgid ""
 "This time GNOME also includes a video player and a CD-ripping utility. You "
 "can learn more in the following sections."
 msgstr ""
+"Die Veröffentlichungen des GNOME-Desktops erfolgen weiterhin planmäßig. "
+"GNOME 2.10 beinhaltet eine Reihe von interessanten Funktionen und hunderte "
+"von Fehlerkorrekturen. GNOME enthält diesmal auch eine Anwendung zur "
+"Wiedergabe von Videos und  ein Werkzeug zum Auslesen von Audio-CDs."
 
 #: ../release-notes.xml:23
 msgid ""
@@ -37,6 +44,10 @@ msgid ""
 "users, without excess complexity or obscure features. At the same time we "
 "provide the rich flexibility experienced developers demand."
 msgstr ""
+"GNOME stellt eine benutzerfreundliche Oberfläche bereit, die ohne überladene "
+"Komplexität und unklare Merkmale im Alltag „einfach funktioniert”. "
+"Gleichzeitig stellen wir die umfangreiche Flexibilität bereit, die erfahrene "
+"Entwickler verlangen."
 
 #: ../release-notes.xml:28
 msgid ""
@@ -46,6 +57,12 @@ msgid ""
 "accessibility infrastructure, and a complete internationalization "
 "infrastructure that includes support for bi-directional text."
 msgstr ""
+"GNOME läuft auf einer Vielzahl von Plattformen, unter anderem GNU/Linux "
+"(üblicherweise Linux genannt), Solaris, HP-UX, BSD und Darwin von Apple. "
+"GNOME beinhaltet leistungsfähige Funktionen, wie z.B. eine hervorragende "
+"kantengeglättete Textdarstellung, eine erstklassige Infrastruktur für "
+"Barrierefreiheit und eine vollständige Internationalisierungsinfrastruktur, "
+"die auch bidirektionalen Text unterstützt."
 
 #: ../release-notes.xml:35
 msgid ""
@@ -53,6 +70,9 @@ msgid ""
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
 "start/2.8/notes/\">release notes</ulink>."
 msgstr ""
+"Natürlich enthält GNOME 2.10 alle Verbesserungen von GNOME 2.8, deren "
+"Beschreibung in den <ulink url=\"http://www.gnome.org/start/2.8/notes/"
+"\">Veröffentlichungsinformationen</ulink> von GNOME 2.8 zu finden ist."
 
 #: ../release-notes.xml:39
 msgid ""
@@ -62,12 +82,20 @@ msgid ""
 "available, but are developed in parallel on their own release cycle rather "
 "than being included in the core GNOME release."
 msgstr ""
+"Die Desktop-Veröffentlichung enthält alle Anwendungen, die zur grundlegenden "
+"Verwendbarkeit notwendig sind. Große Anwendungen wie <application>Gnumeric</"
+"application> und <application>OpenOffice.org</application> sind ebenso "
+"verfügbar, werden jedoch parallel in einem eigenen Veröffentlichungszyklus "
+"entwickelt und sind deshalb nicht in der Kernveröffentlichung von GNOME "
+"enthalten."
 
 #: ../release-notes.xml:46
 msgid ""
 "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">free software</ulink>."
 msgstr ""
+"GNOME ist Teil des GNU-Projekts und <ulink url=\"http://www.fsf.org/"
+"philosophy/free-sw.html\">freie Software</ulink>."
 
 #: ../release-notes.xml:50
 msgid ""
@@ -75,14 +103,18 @@ msgid ""
 "link> section, or use the links at the right to learn more about this "
 "release and the GNOME Desktop in general."
 msgstr ""
+"Bitte fahren Sie mit dem Abschnitt „<link linkend=\"rnwhatsnew\">Was ist "
+"neu</link>” fort oder verwenden Sie die Verknüpfungen auf der rechten Seite, "
+"um mehr über diese Veröffentlichung und den GNOME-Desktop im allgemeinen zu "
+"erfahren."
 
 #: ../release-notes.xml:58
 msgid "What's New In GNOME 2.10"
-msgstr ""
+msgstr "Was ist neu bei GNOME 2.10"
 
 #: ../release-notes.xml:118
 msgid "Looking to GNOME 2.12 and Beyond"
-msgstr ""
+msgstr "Ausblick auf GNOME 2.12 und darüber hinaus"
 
 #: ../release-notes.xml:120
 msgid ""
@@ -92,16 +124,24 @@ msgid ""
 "feature more integrated multimedia and communication functionality and "
 "further advances in accessibility, usability and internationalization."
 msgstr ""
+"GNOME arbeitet nach einer zeitbasierten Veröffentlichungsphilosophie. Dies "
+"ist ein Versuch, die Benutzer kontinuierlich und so schnell wie möglich mit "
+"den besten Errungenschaften unserer Entwickler zu versorgen. Sechs Monate "
+"nach GNOME 2.10 erwarten wir, dass GNOME 2.12 mehr integrierte Multimedia- "
+"und Kommunikationsfunktionalität sowie weitere Fortschritte bei "
+"Barrierefreiheit, Bedienbarkeit und Internationalisierung enthalten wird."
 
 #: ../release-notes.xml:128
 msgid "Getting Involved"
-msgstr ""
+msgstr "Mitmachen"
 
 #: ../release-notes.xml:129
 msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
 msgstr ""
+"Der Kern des Erfolgs von GNOME sind seine vielen Helfer auf beiden Seiten, "
+"den Benutzern und den Entwicklern."
 
 #: ../release-notes.xml:133
 msgid ""
@@ -111,6 +151,12 @@ msgid ""
 "to contribute more, you can join our active <ulink url=\"http://developer."
 "gnome.org/projects/bugsquad/\">bug-squad</ulink>."
 msgstr ""
+"Als Benutzer kann Ihr Beitrag so einfach sein, wie das Erstellen eines guten "
+"Fehlerberichts. Fehlerberichte können in unserem Bugzilla mit dem <ulink url="
+"\"http://bugzilla. gnome.org/simple-bug-guide.cgi\">einfachen "
+"Fehlerassistenten</ulink> erstellt werden. Wenn Sie mehr beitragen möchten, "
+"können Sie unserem aktiven Projekt <ulink url=\"http://developer.gnome.org/"
+"projects/bugsquad/\">Bug-Squad</ulink> beitreten."
 
 #: ../release-notes.xml:141
 msgid ""
@@ -120,6 +166,12 @@ msgid ""
 "Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you "
 "get started</ulink>."
 msgstr ""
+"Für Entwickler gibt es viele spannende Weiterentwicklungen, an denen sie in "
+"jeder unserer Entwicklergruppen - Barrierefreiheit, Dokumentation, "
+"Bedienbarkeit, Übersetzung, Web, Grafik sowie Desktop- und "
+"Plattformentwicklung - mitwirken können. Hier ist eine <ulink url=\"http://"
+"live.gnome.org/JoinGnome\">Einführung</ulink>, die Sie bei Ihrem Einstieg "
+"unterstützt."
 
 #: ../release-notes.xml:148
 msgid ""
@@ -127,24 +179,31 @@ msgid ""
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
+"Die Mitarbeit an GNOME kann eine unglaublich befriedigende Erfahrung sein, "
+"bei der Sie eine große Anzahl von motivierten, fähigen und hilfsbereiten "
+"Leuten kennenlernen können, die alle ein gemeinsames Ziel verfolgen. Kommen "
+"Sie noch heute zu uns und stellen Sie fest, welche Unterschiede Sie bewirken "
+"können."
 
 #: ../release-notes.xml:157
 msgid "Credits"
-msgstr ""
+msgstr "Autoren"
 
 #: ../release-notes.xml:158
 msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
 msgstr ""
+"Diese Veröffentlichungsinformationen wurden zusammengetragen von Murray "
+"Cumming, Davyd Madeley und der GNOME-Community."
 
 #: ../rndesktop.xml:10
 msgid "Desktop"
-msgstr ""
+msgstr "Desktop"
 
 #: ../rndesktop.xml:12
 msgid "The File Manager"
-msgstr ""
+msgstr "Der Dateimanager"
 
 #: ../rndesktop.xml:13
 msgid ""
@@ -152,6 +211,10 @@ msgid ""
 "GNOME 2.10, thanks to changes to its internal architecture. This should "
 "allow software developers to extend the file manager more easily in future."
 msgstr ""
+"Der Dateimanager, auch bekannt als Nautilus, ist in GNOME 2.10 aufgrund von "
+"Änderungen in seiner internen Struktur noch etwas schneller und stabiler "
+"geworden. Dies sollte es Softwareentwicklern auch ermöglichen, den "
+"Dateimanager in Zukunft einfacher zu erweitern."
 
 #: ../rndesktop.xml:18
 msgid ""
@@ -159,26 +222,33 @@ msgid ""
 "as Mozilla and Firefox, (TODO: Is this just drag-and-drop? If so, let's just "
 "say that.) and has more navigation options. TODO: What options, exactly?"
 msgstr ""
+"Die Zusammenarbeit des Dateimanagers mit anderen Anwendungen, wie zum "
+"Beispiel Firefox oder Mozilla, wurde ebenfalls verbessert."
 
 #: ../rndesktop.xml:25
 msgid "The path button is now more obviously a button."
-msgstr ""
+msgstr "Der Pfadknopf ist jetzt besser als solcher zu erkennen."
 
 #: ../rndesktop.xml:26
 msgid "When creating new files, renaming starts automatically."
 msgstr ""
+"Beim Erstellen neuer Dateien wird das Umbenennen automatisch gestartet."
 
 #: ../rndesktop.xml:27
 msgid ""
 "When using keyboard navigation to open the parent folder (Alt-Up), the "
 "current folder will be selected."
 msgstr ""
+"Beim Öffnen des übergeordneten Verzeichnisses mit Hilfe der Tastatur (Alt-"
+"Hoch) wird der momentane Ordner ausgewählt."
 
 #: ../rndesktop.xml:23
 msgid ""
 "In addition, there are many small changes that demonstrate GNOME's attention "
 "to detail. For instance, <placeholder-1/>"
 msgstr ""
+"Zusätzlich gibt es viele kleine Änderungen, welche auch die Beachtung von "
+"Details innerhalb von GNOME demonstrieren. Zum Beispiel: <placeholder-1/>"
 
 #. figure id="rnscreenshot-nautilus">
 #.     FIXME
@@ -196,16 +266,22 @@ msgid ""
 "GNOME 2.10 provides a new selection of pre-installed background images and "
 "patterns, so your desktop can become your own."
 msgstr ""
+"GNOME 2.10 stellt eine neue Auswahl an vorinstallierten Hintergrundbildern "
+"und -mustern zur Verfügung, so dass Sie den Desktop nach Ihren Wünschen "
+"gestalten können."
 
 #: ../rndesktop.xml:59
 msgid "Window Behaviour"
-msgstr ""
+msgstr "Fensterverhalten"
 
 #: ../rndesktop.xml:60
 msgid ""
 "GNOME 2.10 has a new ability that you might not notice at first, "
 "implementing another cross-desktop Freedesktop.org standard."
 msgstr ""
+"GNOME 2.10 besitzt eine neue Eigenschaft, die Ihnen nicht sofort auffallen "
+"wird. Sie stellt eine weitere Implementierung des desktopübergreifenden "
+"freedesktop.org-Standards dar. "
 
 #: ../rndesktop.xml:61
 msgid ""
@@ -214,30 +290,38 @@ msgid ""
 "be typed into the chat window. Imagine if you were typing your password at "
 "the time. This should no longer happen in GNOME 2.10."
 msgstr ""
+"Wenn in der Vergangenheit etwas in eine Anwendung eingegeben wurde und zur "
+"gleichen Zeit der Instant-Messenger den Unterhaltungswunsch eines Freundes "
+"anzeigte, wurden Ihre Worte in das Chat-Fenster eingegeben. Stellen Sie "
+"sich  vor, Sie würden in so einer Situation ein Passwort eingeben. Dies "
+"sollte unter GNOME 2.10 nicht mehr passieren."
 
 #: ../rndesktop.xml:62
 msgid ""
 "In addition, if an application takes a long time to start, your work will "
 "not be interrupted when it finally opens its window."
 msgstr ""
+"Zusätzlich dazu wird Ihre Arbeit nicht mehr unterbrochen, wenn eine "
+"Anwendung längere Zeit für den Start benötigt und sie schließlich ihr "
+"Fenster öffnet."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:20
 msgid "@@image: 'figures/figure-totem.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/figure-totem.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:40
 msgid "@@image: 'figures/figure-soundjuicer.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/figure-soundjuicer.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:67
 msgid "@@image: 'figures/figure-epiphany.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/figure-epiphany.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -246,24 +330,27 @@ msgid ""
 "@@image: 'figures/figure-evolution-mail.png'; "
 "md5=66698cb49952bd470f141589b8b54479"
 msgstr ""
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=66698cb49952bd470f141589b8b54479"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:131
 msgid "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: ../rnapplications.xml:8
 msgid "Applications"
-msgstr ""
+msgstr "Anwendungen"
 
 #: ../rnapplications.xml:11
 msgid "Video Player"
-msgstr ""
+msgstr "Video-Player"
 
 #: ../rnapplications.xml:17
 msgid "The video player"
-msgstr ""
+msgstr "Der Video-Player"
 
 #: ../rnapplications.xml:13
 msgid ""
@@ -275,14 +362,22 @@ msgid ""
 "figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
 "Totem video player.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"GNOME 2.10 beinhaltet jetzt auch den populären Video-Player Totem, der das "
+"GStreamer Multimedia-Framework von GNOME verwendet. Totem stellt eine "
+"intuitive Benutzeroberfläche bereit, die GNOME-Anwender erwarten. Sie "
+"enthält auch eine automatische Hardware-Erkennung statt einer komplizierten "
+"manuellen Konfiguration. <figure id=\"rnscreenshot-totem\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>Der "
+"Video-Player Totem.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:31
 msgid "Audio Extraction"
-msgstr ""
+msgstr "Auslesen von Audio-CDs"
 
 #: ../rnapplications.xml:37
 msgid "The audio extractor"
-msgstr ""
+msgstr "Der CD-Ripper"
 
 #: ../rnapplications.xml:33
 msgid ""
@@ -295,28 +390,39 @@ msgid ""
 "imageobject><textobject><phrase>The audio extractor.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
+"Mit dem beliebten „CD-Ripper” Sound Juicer ist es einfach, Audio-CDs für die "
+"spätere Wiedergabe auf Ihrem PC oder einem tragbaren Musik-Player "
+"auszulesen. Dank des automatischen Herunterladens der Titelnamen brauchen "
+"Sie nicht mehr als ein paar Knöpfe zu drücken. <figure id=\"rnscreenshot-"
+"soundjuicer\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-soundjuicer.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Der „CD-Ripper” Sound Juicer.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:51
 msgid "Web Browser"
-msgstr ""
+msgstr "Web-Browser"
 
 #: ../rnapplications.xml:55
 msgid "An improved fullscreen mode (TODO: What exactly is better?)."
-msgstr ""
+msgstr "Einen verbesserten Vollbildmodus."
 
 #: ../rnapplications.xml:56
 msgid ""
 "The location bar now indicates whether the site is secure, and shows its "
 "favicon."
 msgstr ""
+"Die Adressleiste zeigt nun an, ob die Seite sicher ist. Außerdem wird jetzt "
+"auch das FavIcon der Seite angezeigt."
 
 #: ../rnapplications.xml:57
 msgid "Bookmarks can be exported."
-msgstr ""
+msgstr "Lesezeichen können exportiert werden."
 
 #: ../rnapplications.xml:58
 msgid "An extension manager for extra features."
-msgstr ""
+msgstr "Eine Erweiterungsverwaltung für zusätzliche Funktionen."
 
 #: ../rnapplications.xml:53
 msgid ""
@@ -324,10 +430,13 @@ msgid ""
 "with the GNOME desktop environment. Improvements in 2.10 include "
 "<placeholder-1/>"
 msgstr ""
+"Der in GNOME enthaltene Web-Browser Epiphany basiert auf Mozilla und ist "
+"voll in die GNOME-Desktopumgebung integriert. Verbesserungen in 2.10 "
+"beinhalten <placeholder-1/>"
 
 #: ../rnapplications.xml:64
 msgid "The web browser"
-msgstr ""
+msgstr "Der Web-Browser"
 
 #: ../rnapplications.xml:62
 msgid ""
@@ -336,10 +445,14 @@ msgid ""
 "figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>The "
 "web browser.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>Der "
+"Web-Browser.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:77
 msgid "Evolution"
-msgstr ""
+msgstr "Evolution"
 
 #: ../rnapplications.xml:79
 msgid ""
@@ -348,6 +461,10 @@ msgid ""
 "With Evolution you can read, write, and manage your emails, contacts, and "
 "calendar events."
 msgstr ""
+"Evolution, eine in GNOME integrierte E-Mail- und Groupware-Anwendung, "
+"unterstützt sowohl herkömmliche E-Mail-Einrichtungen als auch Novell "
+"Groupwise und Microsoft Exchange. Mit Evolution können Sie ihre E-Mails, "
+"Kontakte Termine und Aufgaben verwalten."
 
 #: ../rnapplications.xml:84
 msgid ""
@@ -355,45 +472,54 @@ msgid ""
 "contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes "
 "will resynchronize when you go back online."
 msgstr ""
+"In GNOME 2.10 ist die Offline-Arbeit mit Ihren E-Mails, Terminen und "
+"Kontakten jetzt leichter, wenn Sie IMAP, LDAP, WebCal, GroupWise oder "
+"Exchange verwenden. Die Änderungen werden synchronisiert, sobald Sie wieder "
+"online sind."
 
 #: ../rnapplications.xml:89
 msgid "Files can be attached to events."
-msgstr ""
+msgstr "Das Beilegen von Dateien zu Ereignissen ist möglich."
 
 #: ../rnapplications.xml:90
 msgid "Exceptions can be made in recurring events."
-msgstr ""
+msgstr "Bei wiederkehrenden Ereignissen können Ausnahmen gemacht werden."
 
 #: ../rnapplications.xml:91
 msgid "The calendar includes weather information."
-msgstr ""
+msgstr "Der Kalender beinhaltet Wetterinformationen."
 
 #: ../rnapplications.xml:87
 msgid ""
 "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
+"Diese neue Version bietet einige weitere Kalenderneuerungen:  <placeholder-1/"
+">"
 
 #: ../rnapplications.xml:97
 msgid "Groupwise shared folders and send options are now supported."
-msgstr ""
+msgstr "Groupwise Ordnerfreigabe und Sendeoptionen werden jetzt unterstützt."
 
 #: ../rnapplications.xml:98
 msgid "Exchange folder sizes and password expiry warnings are supported."
 msgstr ""
+"Exchange Ordnergrößen und Ablaufwarnungen für Passwörter werden unterstützt."
 
 #: ../rnapplications.xml:99
 msgid ""
 "The email user interface will be properly mirrored for right-to-left "
 "languages."
 msgstr ""
+"Die E-Mail-Benutzerschnittstelle wird für Sprachen mit einer Schriftrichtung "
+"von rechts nach links passend gespiegelt."
 
 #: ../rnapplications.xml:95
 msgid "And yet more new features: <placeholder-1/>"
-msgstr ""
+msgstr "Und noch weitere neue Funktionen: <placeholder-1/>"
 
 #: ../rnapplications.xml:105
 msgid "The email client"
-msgstr ""
+msgstr "Die E-Mail-Anwendung"
 
 #: ../rnapplications.xml:103
 msgid ""
@@ -403,10 +529,15 @@ msgid ""
 "imageobject><textobject><phrase>The Evolution email client.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"<figure id=\"rnscreenshot-evolution\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-evolution-mail.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Die E-Mail-Anwendung Evolution.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:119
 msgid "GnomeMeeting"
-msgstr ""
+msgstr "GnomeMeeting"
 
 #: ../rnapplications.xml:121
 msgid ""
@@ -415,10 +546,15 @@ msgid ""
 "now shared with our Evolution email client, so you don't need to enter "
 "contact information in more than one place."
 msgstr ""
+"GnomeMeeting erlaubt es Anwendern, sich über Internet-Telefonie (VoIP) und "
+"Videokonferenzen zu sehen und zu unterhalten. In GNOME 2.10 wird das "
+"Adressbuch mit unserer E-Mail-Anwendung Evolution geteilt. "
+"Kontaktinformationen brauchen deshalb nur noch an einem Ort eingegeben "
+"werden."
 
 #: ../rnapplications.xml:128
 msgid "The internet telephony and video conferencing client"
-msgstr ""
+msgstr "Die Internet-Telefonie- und Videokonferenzanwendung"
 
 #: ../rnapplications.xml:125
 msgid ""
@@ -431,49 +567,58 @@ msgid ""
 "imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"Sie können jetzt auch nach Benutzern von GnomeMeeting im lokalen Netzwerk "
+"suchen, ohne zuvor deren Kontakteinzelheiten herausfinden zu müssen. Ebenso "
+"können Sie sich ihre Videoausgabe Seite an Seite mit dem Video ihrer "
+"Gesprächspartner anzeigen lassen, um zu sehen was sie sehen. <figure id="
+"\"rnscreenshot-gnomemeeting\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnomemeeting.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>GnomeMeeting mit beidseitiger Ansicht.</"
+"phrase></textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:21
 msgid "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:39
 msgid "@@image: 'figures/fileroller.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/fileroller.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:57
 msgid "@@image: 'figures/search.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/search.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:74
 msgid "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:92
 msgid "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: ../rnutilities.xml:8
 msgid "Utilities"
-msgstr ""
+msgstr "Dienstprogramme"
 
 #: ../rnutilities.xml:10
 msgid "The GNOME utilities have some improvements, such as:"
-msgstr ""
+msgstr "Die GNOME-Dienstprogramme enthalten ebenfalls einige Neuerungen:"
 
 #: ../rnutilities.xml:13 ../rnutilities.xml:18 ../rnutilities.xml:36
 #: ../rnutilities.xml:54 ../rnutilities.xml:71
 msgid "Text Editor"
-msgstr ""
+msgstr "Texteditor"
 
 #: ../rnutilities.xml:15
 msgid ""
@@ -485,10 +630,18 @@ msgid ""
 "editor, highlighting the current line.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 msgstr ""
+"Der GNOME-Texteditor kann jetzt die momentane Zeile hervorheben und "
+"zusammenpassende Klammern beim Bearbeiten von Programmquellen markieren. Er "
+"startet auch schneller als vorhergehende Versionen. <figure id="
+"\"rnscreenshot-gedit\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>Der Texteditor "
+"mit Hervorhebung der momentanen Zeile.</phrase></textobject></mediaobject></"
+"screenshot></figure>"
 
 #: ../rnutilities.xml:31
 msgid "Archive Manager"
-msgstr ""
+msgstr "Archivmanager"
 
 #: ../rnutilities.xml:33
 msgid ""
@@ -501,10 +654,19 @@ msgid ""
 "imageobject><textobject><phrase>The file manager, asking for a password for "
 "a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"Der Archivmanager unterstützt jetzt weitere Archivarten, unter anderem AR-, "
+"Debian-, 7-Zip- und passwortgeschützte RAR-Archive. Wenn Sie die Einstellung "
+"des Dateimanagers für Einfach-Klicks verwenden, wird sich der Archivmanager "
+"jetzt ebenso verhalten. <figure id=\"rnscreenshot-fileroller\"><placeholder-"
+"1/><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;fileroller.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Der Archivmanager, nach einem Passwort für "
+"ein RAR-Archiv fragend.</phrase></textobject></mediaobject></screenshot></"
+"figure>"
 
 #: ../rnutilities.xml:49
 msgid "Search Tool"
-msgstr ""
+msgstr "Suchwerkzeug"
 
 #: ../rnutilities.xml:51
 msgid ""
@@ -517,10 +679,18 @@ msgid ""
 "imageobject><textobject><phrase>The search tool.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
+"Das Suchwerkzeug kann jetzt eine zweite Suche innerhalb der Ergebnisse der "
+"ersten Suche ausführen, um die Ergebnisse weiter einzuengen. Wie der "
+"Archivmanger verwendet auch das Suchwerkzeug einfache Klicks, wenn dies in "
+"den Einstellungen des Dateimanagers ausgewählt wurde. <figure id="
+"\"rnscreenshot-search\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"search.png\" format=\"PNG\"/></imageobject><textobject><phrase>Das "
+"Suchwerkzeug.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:66
 msgid "Dictionary"
-msgstr ""
+msgstr "Wörterbuch"
 
 #: ../rnutilities.xml:68
 msgid ""
@@ -533,10 +703,18 @@ msgid ""
 "dictionary, suggesting possible spellings and a definition.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"Das GNOME-Wörterbuch schlägt nun Worte vor, wenn Sie sich bei der "
+"Schreibweise nicht sicher sind. Die Definitionen enthalten auch "
+"Verknüpfungen zu externen Wörterbüchern im Netz und können gedruckt werden. "
+"<figure id=\"rnscreenshot-dictionary\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"dictionary.png\" format=\"PNG\"/></imageobject><textobject><phrase>Das "
+"Wörterbuch mit Vorschlägen für mögliche Schreibweisen und einer Definition.</"
+"phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:84 ../rnutilities.xml:89
 msgid "Floppy Formatter"
-msgstr ""
+msgstr "Disketten formatieren"
 
 #: ../rnutilities.xml:86
 msgid ""
@@ -547,6 +725,13 @@ msgid ""
 "floppy.png\" format=\"PNG\"/></imageobject><textobject><phrase>Formatting a "
 "floppy disk.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"Das GNOME-Werkzeug zum Formatieren von Disketten unterstützt jetzt "
+"wechselbare Laufwerke, wie z.B. USB-Festplatten, unter Verwendung des "
+"standardisierten HAL-Systems von freedesktop.org. <figure id=\"rnscreenshot-"
+"floppy\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata "
+"fileref=\"&urlfiguresbase;floppy.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Formatieren einer Diskette.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -555,18 +740,20 @@ msgid ""
 "@@image: 'figures/figure-keyboard-properties+layout.png'; "
 "md5=c7478444677183d3926d1abbcad8aaa3"
 msgstr ""
+"@@image: 'figures/figure-keyboard-properties+layout.png'; "
+"md5=c7478444677183d3926d1abbcad8aaa3"
 
 #: ../rncontrolcenter.xml:8
 msgid "Control Center"
-msgstr ""
+msgstr "Kontrollzentrum"
 
 #: ../rncontrolcenter.xml:11
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "Tastaturbelegungen"
 
 #: ../rncontrolcenter.xml:17
 msgid "Keyboard Preferences - Layouts"
-msgstr ""
+msgstr "Tastatureinstellungen - Belegungen"
 
 #: ../rncontrolcenter.xml:13
 msgid ""
@@ -582,10 +769,22 @@ msgid ""
 "control panel, while adding a new layout.</phrase></textobject></"
 "mediaobject></screenshot></figure>"
 msgstr ""
+"Die Auswahl einer Tastaturbelegung in den Tastatureinstellungen ist "
+"einfacher geworden. Sie brauchen nur auf „Hinzufügen” zu klicken, um aus "
+"einer Liste von internationalen Tastaturbelegungen auszuwählen. Bevor Sie "
+"Ihre Auswahl treffen, können Sie sich die Auswirkung von Tastendrücken in "
+"der Belegungsvorschau ansehen. Der Abschnitt „Belegungseinstellungen” wurde "
+"ebenfalls überarbeitet und enthält jetzt eine einfachere Auswahlliste. "
+"<figure id=\"rnscreenshot-controlpanel-keyboardlayouts\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-keyboard-properties+layout.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Der Reiter „Belegungen” in den "
+"Tastatureinstellungen während dem Hinzufügen einer neuen Tastaturbelegung.</"
+"phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:8
 msgid "Panel Items"
-msgstr ""
+msgstr "Panel-Objekte"
 
 #: ../rnapplets.xml:10
 msgid ""
@@ -593,6 +792,9 @@ msgid ""
 "applets), providing new features and better integration with the rest of the "
 "desktop."
 msgstr ""
+"GNOME 2.10 beinhaltet wesentliche Weiterentwicklungen seiner Panel-Objekte "
+"(auch bekannt als Applets), die neue Fähigkeiten und eine bessere "
+"Integration in den Rest des Desktops bieten."
 
 #: ../rnapplets.xml:13
 msgid ""
@@ -603,6 +805,13 @@ msgid ""
 "the search feature. In the Desktop menu, you'll find your Preferences and "
 "Administration control panels, Log Out, and Help."
 msgstr ""
+"Die sichtbarste Änderung ist die Entfernung des Panel-Menüs „Aktionen” und "
+"die Hinzufügung der Menüs „Orte” und „Desktop”. Sie erlauben schnellen "
+"Zugriff auf oft verwendete Objekte, ohne dass Sie durch Untermenüs "
+"navigieren müssen. Das Menü „Orte” enthält zum Beispiel Ihren persönlichen "
+"Ordner, Ihren Rechner, Netzwerkserver und eine Suchfunktion. Im Desktop-Menü "
+"werden Sie die Einstellungs- und Administrationsoberflächen sowie Einträge "
+"für das Abmelden und die Hilfe finden."
 
 #: ../rnapplets.xml:15
 msgid ""
@@ -610,26 +819,34 @@ msgid ""
 "menu specification, so 3rd-party software may add itself to the Applications "
 "menu without even knowing about GNOME."
 msgstr ""
+"Alle Panel-Menüs werden jetzt durch die plattformübergreifende Menü-"
+"Spezifikation von freedesktop.org definiert, so dass sich Software von "
+"Drittanbietern, ohne etwas über GNOME wissen zu müssen, zum Menü "
+"„Anwendungen” hinzufügen kann."
 
 #: ../rnapplets.xml:17
 msgid ""
 "Also, most applets can now be partly transparent, when the panel itself is "
 "transparent."
 msgstr ""
+"Auch sind die meisten Applets jetzt in der Lage, teilweise transparent zu "
+"erscheinen, wenn das Panel selbst transparent ist."
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
-msgstr ""
+msgstr "Integrierte Modemkontrolle"
 
 #: ../rnapplets.xml:23
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
 "with GNOME System Tools."
 msgstr ""
+"GNOME 2.10 führt ein neues Applet zur Steuerung Ihres Modems ein, welches in "
+"die GNOME-Systemwerkzeuge integriert ist."
 
 #: ../rnapplets.xml:42
 msgid "Panel Trashcan"
-msgstr ""
+msgstr "Panel-Mülleimer"
 
 #: ../rnapplets.xml:44
 msgid ""
@@ -637,10 +854,14 @@ msgid ""
 "trashcan on your desktop, you can now drag and drop files and other items "
 "into the trash without minimising your open windows."
 msgstr ""
+"GNOME 2.10 kennzeichnet ein optionaler Mülleimer für Ihr Panel. Wie auch "
+"beim Müllsymbol des Desktops, können Sie Dateien und andere Objekte darüber "
+"ziehen und in den Müll fallen lassen, ohne dass geöffnete Fenster minimiert "
+"werden müssen."
 
 #: ../rnapplets.xml:64
 msgid "Control Mounted Volumes"
-msgstr ""
+msgstr "Kontrolle eingebundener Datenträger"
 
 #: ../rnapplets.xml:66
 msgid ""
@@ -651,10 +872,18 @@ msgid ""
 "volumes, allowing you to mount them, eject them, or open them in the file "
 "manager."
 msgstr ""
+"GNOME 2.8 erlaubte bereits das einfache Einbinden Ihrer digitalen Medien, "
+"wie CDs, DVDs und USB-Sticks. Jetzt unterstützt Sie das Applet zum Einbinden "
+"von Laufwerken bei der Verwendung dieser Datenträger. Es vermeidet "
+"Schwierigkeiten beim Auffinden der Laufwerkssymbole auf Ihrem Desktop, die "
+"möglicherweise durch geöffnete Fenster verdeckt werden. Das Applet zeigt die "
+"zur Zeit eingebundenen (oder nicht aushängbaren) Datenträger an und erlaubt "
+"es Ihnen, Datenträger einzubinden, auszuwerfen oder im Dateimanager zu "
+"öffnen."
 
 #: ../rnapplets.xml:88
 msgid "Get even more weather"
-msgstr ""
+msgstr "Noch mehr Wetterinformationen"
 
 #: ../rnapplets.xml:89
 msgid ""
@@ -663,10 +892,14 @@ msgid ""
 "appropriate. In addition, the forecast now includes sunrise and sunset "
 "calculations for most locations."
 msgstr ""
+"Die Wetterüberwachung enthält jetzt mehr Orte als je zuvor. Die Standorte "
+"wurden so weit wie möglich in nicht-englische Sprachen übersetzt. Zusätzlich "
+"dazu enthalten die Vorhersagen auch Berechnungen des Sonnenaufgangs und des "
+"Sonnenuntergangs für die meisten Standorte."
 
 #: ../rnapplets.xml:110
 msgid "Sound control"
-msgstr ""
+msgstr "Einstellung der Lautstärke"
 
 #: ../rnapplets.xml:111
 msgid ""
@@ -678,10 +911,18 @@ msgid ""
 "panel will change the volume of all these applications. TODO: Is this last "
 "sentence true/new/meaningful?"
 msgstr ""
+"Ein neuer Lautstärkeregler für das Panel (kombiniert mit dem geänderten "
+"Lautstärkeregler des Desktops) holt alles aus Ihrer Sound-Hardware heraus. "
+"Durch die Verwendung des GStreamer Multimedia Frameworks ist der "
+"Lautstärkeregler nun komfortabler und stabiler als zuvor. Das gleiche "
+"Multimedia Framework wird von Totem, Sound Juicer, dem GNOME CD-Player und "
+"verschiedenen Anwendungen, welche nicht in GNOME enthalten sind, verwendet. "
+"Die Änderung der Lautstärke im Panel wirkt sich also auf jede dieser "
+"Anwendungen aus."
 
 #: ../rnapplets.xml:122
 msgid "Taking note"
-msgstr ""
+msgstr "Notizen machen"
 
 #: ../rnapplets.xml:123
 msgid ""
@@ -690,16 +931,24 @@ msgid ""
 "desktop. For instance, sticky notes will now stay on the correct workspace, "
 "or even a different monitor."
 msgstr ""
+"Das populäre Klebezettel-Applet besitzt jetzt eine einfachere "
+"Benutzerschittstelle. Weiterhin wurden eine Reihe von Fehlern beseitigt. "
+"Dadurch ist es noch einfacher geworden, Notizen im PostIt-Stil auf Ihrem "
+"Desktop zu platzieren. Ein Beispiel: Klebezettel bleiben jetzt auf der "
+"richtigen Arbeitsfläche oder sogar einem anderen Monitor."
 
 #: ../rnapplets.xml:128
 msgid ""
 "And sticky motes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
 msgstr ""
+"Klebezettel werden jetzt über anderen Fenstern angezeigt, so dass sie nicht "
+"verloren gehen. Um die Klebezettel zu verbergen, benutzen Sie einfach das "
+"Rechtsklick-Menü des Applets."
 
 #: ../rnapplets.xml:134
 msgid "Specially for laptops"
-msgstr ""
+msgstr "Speziell für Laptops"
 
 #: ../rnapplets.xml:135
 msgid ""
@@ -708,6 +957,12 @@ msgid ""
 "Intel Speedstep) to show their current status. It even allows you to choose "
 "a different speed if you don't have automatic frequency scaling enabled."
 msgstr ""
+"GNOME enthält nun ein Applet zur Überwachung des Prozessortakts von Laptops. "
+"Dieses Applet kommuniziert mit Prozessoren, die variable Geschwindigkeiten "
+"unterstützen (wie z.B. solche mit Intel Speedstep oder AMD PowerNow!), um "
+"deren momentanen Status anzuzeigen. Es erlaubt Ihnen auch, eine andere "
+"Geschwindigkeit zu wählen, wenn sie die automatische Frequenzskalierung "
+"nicht aktiviert haben."
 
 #: ../rnapplets.xml:144
 msgid ""
@@ -716,6 +971,10 @@ msgid ""
 "insecure. The three applets to be removed are, the CD Player applet, the "
 "standalone wireless monitor and mailbox check applet."
 msgstr ""
+"Einige Applets wurden in GNOME 2.10 entfernt, da sie entweder durch etwas "
+"besseres ersetzt wurden oder unbetreut und unsicher sind. Dies betrifft das "
+"CD-Player-Applet, die eigenständige Funknetzwerküberwachung und die E-Mail-"
+"Eingangsüberwachung."
 
 #: ../rnapplets.xml:152
 msgid ""
@@ -724,12 +983,19 @@ msgid ""
 "then be controlled from the user interface or from a notification icon that "
 "is placed in your Panel."
 msgstr ""
+"Das CD-Player-Applet arbeitete nicht gut mit dem GNOME CD-Player zusammen. "
+"Stattdessen wird jetzt der GNOME CD-Player beim Einlegen einer CD "
+"automatisch gestartet. Die Bedienung erfolgt über die Benutzerschnittstelle "
+"oder ein Benachrichtigungssymbol, welches in Ihr Panel eingefügt wird."
 
 #: ../rnapplets.xml:158
 msgid ""
 "The standalone wireless applet has now been superseeded by GNOME Netstatus, "
 "which has had wireless support since GNOME 2.8."
 msgstr ""
+"Die eigenständige Funknetzwerküberwachung wurde jetzt durch die GNOME "
+"Netzwerküberwachung ersetzt, die Funknetzwerke bereits seit GNOME 2.8 "
+"unterstützt."
 
 #: ../rnapplets.xml:162
 msgid ""
@@ -739,6 +1005,11 @@ msgid ""
 "application such as <link href=\"http://www.nongnu.org/mailnotify/"
 "\">mailnotify</link>."
 msgstr ""
+"Die E-Mail-Eingangsüberwachung wurde entfernt, da sie unbetreut und unsicher "
+"war. Wir hoffen, dass wir in Zukunft eine in Evolution integrierte Lösung "
+"bieten können. Sollten Sie eine andere Anwendung zur Verwaltung ihrer E-"
+"Mails bevorzugen, können Sie auf Anwendungen Dritter, wie z.B. <link href="
+"\"http://www.nongnu.org/mailnotify/\">mailnotify</link>, zurückgreifen."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -747,24 +1018,27 @@ msgid ""
 "@@image: 'figures/figure-gnome-system-tools.png'; "
 "md5=742d09549824216853191af5ffd58320"
 msgstr ""
+"@@image: 'figures/figure-gnome-system-tools.png'; "
+"md5=742d09549824216853191af5ffd58320"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnsysadmin.xml:61
 msgid "@@image: 'figures/figure-logviewer.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
+msgstr "@@image: 'figures/figure-logviewer.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: ../rnsysadmin.xml:9
 msgid "System Administration"
-msgstr ""
+msgstr "Systemadministration"
 
 #: ../rnsysadmin.xml:11
 msgid "GNOME 2.10 provides some new features for system administration."
 msgstr ""
+"GNOME 2.10 stellt einige neue Funktionen zur Systemadministration bereit."
 
 #: ../rnsysadmin.xml:17
 msgid "System Tools"
-msgstr ""
+msgstr "Systemwerkzeuge"
 
 #: ../rnsysadmin.xml:19
 msgid ""
@@ -773,28 +1047,35 @@ msgid ""
 "present, these system tools are most appropriate for single computers rather "
 "than large networks of computers."
 msgstr ""
+"Die Systemwerkzeuge erlauben Ihnen die Konfiguration der Systemuhr und Ihrer "
+"Netzwerkverbindung sowie die Verwaltung von Benutzern und Gruppen auf Ihrem "
+"System. Zur Zeit sind diese Systemwerkzeuge mehr für Einzelplatzrechner als "
+"für große Rechnernetzwerke geeignet."
 
 #: ../rnsysadmin.xml:26
 msgid ""
 "Networking: Improved wireless support (WEP and ESSID detection), and IDSN "
 "connections."
 msgstr ""
+"Netzwerk: Verbesserte Unterstützung von Funknetzwerken (WEP- und ESSID-"
+"Erkennung) und ISDN-Verbindungen."
 
 #: ../rnsysadmin.xml:27
 msgid "Users and Groups: Easier editing of group members."
-msgstr ""
+msgstr "Benutzer und Gruppen: Leichteres Bearbeiten von Gruppenmitgliedern."
 
 #: ../rnsysadmin.xml:28
 msgid "Changes are applied instantly where appropriate."
-msgstr ""
+msgstr "Änderungen werden sofort übernommen, wo es sinnvoll ist."
 
 #: ../rnsysadmin.xml:23
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr ""
+"GNOME 2.10 liefert einige Verbesserungen, unter anderem <placeholder-1/>"
 
 #: ../rnsysadmin.xml:34
 msgid "The Clock, Network, and Users/Groups tools"
-msgstr ""
+msgstr "Die Zeit-, Netzwerk- und Benutzer/Gruppen-Werkzeuge"
 
 #: ../rnsysadmin.xml:32
 msgid ""
@@ -804,26 +1085,31 @@ msgid ""
 "imageobject><textobject><phrase>The Clock, Network, and Users/Groups tools.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
+"<figure id=\"rnscreenshot-sysadmin-systemtools\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnome-system-tools.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Die Zeit-, Netzwerk- und Benutzer/Gruppen-"
+"Werkzeuge.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnsysadmin.xml:47
 msgid "Log Viewer"
-msgstr ""
+msgstr "Protokollbetrachter"
 
 #: ../rnsysadmin.xml:52
 msgid "Open multiple logs in the separate windows."
-msgstr ""
+msgstr "Mehrere Protokolle in separaten Fenstern öffnen."
 
 #: ../rnsysadmin.xml:53
 msgid "Open archived logs and logs on networked drives."
-msgstr ""
+msgstr "Archivierte Protokolle und Protokolle auf Netzwerklaufwerken öffnen."
 
 #: ../rnsysadmin.xml:54
 msgid "Copy logs to the clipboard."
-msgstr ""
+msgstr "Protokolle in die Zwischenablage kopieren."
 
 #: ../rnsysadmin.xml:58
 msgid "The Log Viewer"
-msgstr ""
+msgstr "Der Protokollbetrachter"
 
 #: ../rnsysadmin.xml:49
 msgid ""
@@ -835,6 +1121,13 @@ msgid ""
 "Log Viewer, during a seach.</phrase></textobject></mediaobject></"
 "screenshot></figure>"
 msgstr ""
+"Dem GNOME-Protokollbetrachter wurde eine handliche Suchfunktion und ein "
+"verbesserter Überwachungsmodus hinzugefügt. Zusätzlich dazu kann er nun "
+"<placeholder-1/><figure id=\"rnscreenshot-sysadmin-logviewer\"><placeholder-"
+"2/><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-logviewer.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The Log Viewer, during a seach.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -842,16 +1135,18 @@ msgstr ""
 msgid ""
 "@@image: 'figures/figure-game-same-gnome.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/figure-game-same-gnome.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rngames.xml:39
 msgid "@@image: 'figures/figure-game-nibbles.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/figure-game-nibbles.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: ../rngames.xml:8
 msgid "Games"
-msgstr ""
+msgstr "Spiele"
 
 #: ../rngames.xml:9
 msgid ""
@@ -861,7 +1156,7 @@ msgstr ""
 
 #: ../rngames.xml:12 ../rngames.xml:17 ../rngames.xml:36
 msgid "Same GNOME"
-msgstr ""
+msgstr "Same GNOME"
 
 #: ../rngames.xml:14
 msgid ""
@@ -871,11 +1166,11 @@ msgstr ""
 
 #: ../rngames.xml:22 ../rngames.xml:41
 msgid "The Same GNOME game."
-msgstr ""
+msgstr "Das Spiel Same GNOME"
 
 #: ../rngames.xml:31
 msgid "Nibbles"
-msgstr ""
+msgstr "Nibbles"
 
 #: ../rngames.xml:33
 msgid ""
@@ -886,7 +1181,7 @@ msgstr ""
 
 #: ../rnplatform.xml:9
 msgid "Platform Improvements"
-msgstr ""
+msgstr "Plattformverbesserungen"
 
 #: ../rnplatform.xml:13
 msgid ""
@@ -919,6 +1214,7 @@ msgstr ""
 #: ../rndocs.xml:10
 msgid "Sysadmin, User, and Accessibility Guides"
 msgstr ""
+"Handbücher für Systemadministratoren, Benutzer und zur Barrierefreiheit"
 
 #: ../rndocs.xml:12
 msgid ""
@@ -941,7 +1237,7 @@ msgstr ""
 
 #: ../rni18n.xml:8
 msgid "Internationalization"
-msgstr ""
+msgstr "Internationalisierung"
 
 #: ../rni18n.xml:10
 msgid ""
@@ -953,167 +1249,168 @@ msgstr ""
 
 #: ../rni18n.xml:41
 msgid "Albanian (5 million speakers)"
-msgstr ""
+msgstr "Albanisch (5 Millionen Muttersprachler)"
 
 #: ../rni18n.xml:42
 msgid "Arabic (235 million)"
-msgstr ""
+msgstr "Arabisch (235 Millionen)"
 
 #: ../rni18n.xml:43
 msgid "Azerbaijani (28 million)"
-msgstr ""
+msgstr "Aserbeidschanisch (28 Millionen)"
 
 #: ../rni18n.xml:44
 msgid "Basque (580,000)"
-msgstr ""
+msgstr "Baskisch (580.000)"
 
 #: ../rni18n.xml:45
 msgid "Bengali (189 million)"
-msgstr ""
+msgstr "Bengalisch (189 Millionen)"
 
 #: ../rni18n.xml:46
 msgid "Brazilian Portuguese (175 million)"
-msgstr ""
+msgstr "Brasilianisches Portugiesisch (175 Millionen)"
 
 #: ../rni18n.xml:47
 msgid "Bulgarian (9 million)"
-msgstr ""
+msgstr "Bulgarisch (9 Millionen)"
 
 #: ../rni18n.xml:48
 msgid "Catalan (7 million)"
-msgstr ""
+msgstr "Katalanisch (7 Millionen)"
 
 #: ../rni18n.xml:49
 msgid "Chinese Simplified (over 1 billion)"
-msgstr ""
+msgstr "Vereinfachtes Chinesisch (über eine Milliarde)"
 
 #: ../rni18n.xml:50
 msgid "Chinese Traditional (40 million)"
-msgstr ""
+msgstr "Traditionelles Chinesisch (40 Millionen)"
 
 #: ../rni18n.xml:51
 msgid "Czech (11 million)"
-msgstr ""
+msgstr "Tschechisch (11 Millionen)"
 
 #: ../rni18n.xml:52
 msgid "Danish (5.3 million)"
-msgstr ""
+msgstr "Dänisch (5,3 Millionen)"
 
 #: ../rni18n.xml:53
 msgid "Dutch (over 21 million)"
-msgstr ""
+msgstr "Holländisch (über 21 Millionen)"
 
 #: ../rni18n.xml:54
 msgid "English (341 million)"
-msgstr ""
+msgstr "Englisch (341 Millionen)"
 
 #: ../rni18n.xml:55
 msgid "Finnish (over 5 million)"
-msgstr ""
+msgstr "Finisch (über 5 Millionen)"
 
 #: ../rni18n.xml:56
 msgid "French (over 75 million)"
-msgstr ""
+msgstr "Französisch (über 75 Millionen)"
 
 #: ../rni18n.xml:57
 msgid "German (100 million)"
-msgstr ""
+msgstr "Deutsch (100 Millionen)"
 
 #: ../rni18n.xml:58
 msgid "Greek (15 million)"
-msgstr ""
+msgstr "Griechisch (15 Millionen)"
 
 #: ../rni18n.xml:59
 msgid "Gujarati (46 million)"
-msgstr ""
+msgstr "Gudscharati (46 Millionen)"
 
 #: ../rni18n.xml:60
 msgid "Hindi (370 million)"
-msgstr ""
+msgstr "Hindi (370 Millionen)"
 
 #: ../rni18n.xml:61
 msgid "Hungarian (14.5 million)"
-msgstr ""
+msgstr "Ungarisch (14,5 Millionen)"
 
 #: ../rni18n.xml:62
 msgid "Italian (60 million)"
-msgstr ""
+msgstr "Italienisch (60 Millionen)"
 
 #: ../rni18n.xml:63
 msgid "Japanese (over 125 million)"
-msgstr ""
+msgstr "Japanisch (über 125 Millionen)"
 
 #: ../rni18n.xml:64
 msgid "Korean (75 million)"
-msgstr ""
+msgstr "Koreanisch (75 Millionen)"
 
 #: ../rni18n.xml:65
 msgid "Lithuanian (4 million)"
-msgstr ""
+msgstr "Litauisch (4 Millionen)"
 
 #: ../rni18n.xml:66
 msgid "Malay (over 17 million)"
-msgstr ""
+msgstr "Malaiisch (über 17 Millionen)"
 
 #: ../rni18n.xml:67
 msgid "Norwegian Bookmal (5 million)"
-msgstr ""
+msgstr "Norwegisch Bokmål (5 Millionen)"
 
 #: ../rni18n.xml:68
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Neu-Norwegisch"
 
+# Punjabi
 #: ../rni18n.xml:69
 msgid "Panjabi (60 million)"
-msgstr ""
+msgstr "Pandschabi (60 Millionen)"
 
 #: ../rni18n.xml:70
 msgid "Polish (44 million)"
-msgstr ""
+msgstr "Polnisch (44 Millionen)"
 
 #: ../rni18n.xml:71
 msgid "Portuguese (43 million)"
-msgstr ""
+msgstr "Portugiesisch (43 Millionen)"
 
 #: ../rni18n.xml:72
 msgid "Romanian (26 million)"
-msgstr ""
+msgstr "Rumänisch (26 Millionen)"
 
 #: ../rni18n.xml:73
 msgid "Russian (170 million)"
-msgstr ""
+msgstr "Russisch (170 Millionen)"
 
 #: ../rni18n.xml:74
 msgid "Serbian (10 million)"
-msgstr ""
+msgstr "Serbisch (10 Millionen)"
 
 #: ../rni18n.xml:75
 msgid "Spanish (over 350 million)"
-msgstr ""
+msgstr "Spanisch (über 350 Millionen)"
 
 #: ../rni18n.xml:76
 msgid "Swedish (9 million)"
-msgstr ""
+msgstr "Schwedisch (9 Millionen)"
 
 #: ../rni18n.xml:77
 msgid "Tamil (61 million)"
-msgstr ""
+msgstr "Tamilisch (61 Millionen)"
 
 #: ../rni18n.xml:78
 msgid "Turkish (150 million)"
-msgstr ""
+msgstr "Türkisch (150 Millionen)"
 
 #: ../rni18n.xml:79
 msgid "Ukrainian (50 million)"
-msgstr ""
+msgstr "Ukrainisch (50 Millionen)"
 
 #: ../rni18n.xml:80
 msgid "Welsh (575,000)"
-msgstr ""
+msgstr "Walisisch (575.000)"
 
 #: ../rni18n.xml:36
 msgid "Supported languages: <placeholder-1/>"
-msgstr ""
+msgstr "Unterstützte Sprachen: <placeholder-1/>"
 
 #: ../rni18n.xml:84
 msgid ""
@@ -1132,7 +1429,7 @@ msgstr ""
 
 #: ../rnstandards.xml:7
 msgid "Standards Compliance"
-msgstr ""
+msgstr "Einhaltung von Normen"
 
 #: ../rnstandards.xml:9
 msgid ""
@@ -1167,7 +1464,7 @@ msgstr ""
 
 #: ../rnwhy.xml:8
 msgid "So, why GNOME?"
-msgstr ""
+msgstr "Warum GNOME?"
 
 #: ../rnwhy.xml:11
 msgid ""
@@ -1179,7 +1476,7 @@ msgstr ""
 
 #: ../rnwhy.xml:19
 msgid "Usability"
-msgstr ""
+msgstr "Bedienbarkeit"
 
 #: ../rnwhy.xml:20
 msgid ""
@@ -1197,7 +1494,7 @@ msgstr ""
 
 #: ../rnwhy.xml:48
 msgid "Accessibility"
-msgstr ""
+msgstr "Barrierefreiheit"
 
 #: ../rnwhy.xml:50
 msgid ""
@@ -1214,7 +1511,7 @@ msgstr ""
 
 #: ../rnwhy.xml:66
 msgid "Interface Stability"
-msgstr ""
+msgstr "Stabilität der Schnittstellen"
 
 #: ../rnwhy.xml:67
 msgid ""
@@ -1226,7 +1523,7 @@ msgstr ""
 
 #: ../rnwhy.xml:76
 msgid "Platform of Choice"
-msgstr ""
+msgstr "Plattform der Wahl"
 
 #: ../rnwhy.xml:78
 msgid ""
@@ -1241,7 +1538,7 @@ msgstr ""
 
 #: ../rnwhy.xml:93
 msgid "Organization"
-msgstr ""
+msgstr "Organisation"
 
 #: ../rnwhy.xml:94
 msgid ""
@@ -1264,7 +1561,7 @@ msgstr ""
 
 #: ../rnwhy.xml:114
 msgid "Licensing"
-msgstr ""
+msgstr "Lizenzierung"
 
 #: ../rnwhy.xml:116
 msgid ""
@@ -1276,7 +1573,7 @@ msgstr ""
 
 #: ../rnwhy.xml:125
 msgid "Support and Staying Power"
-msgstr ""
+msgstr "Unterstützung und Beständigkeit"
 
 #: ../rnwhy.xml:127
 msgid ""
@@ -1288,7 +1585,7 @@ msgstr ""
 
 #: ../rninstallation.xml:9
 msgid "Installation of GNOME 2.10"
-msgstr ""
+msgstr "Installation von GNOME 2.10"
 
 #: ../rninstallation.xml:11
 msgid ""
@@ -1303,6 +1600,11 @@ msgid ""
 "those for your Linux distribution. Vendors are likely to package GNOME 2.10 "
 "relatively quickly, and to release new versions soon that include GNOME 2.10."
 msgstr ""
+"Für die tatsächliche Benutzung empfehlen wir Ihnen die Verwendung "
+"offizieller Installationspakete, wie solche Ihrer Linux-Distribution. Die "
+"Distributoren werden wahrscheinlich recht schnell Pakete von GNOME 2.10 "
+"bereitstellen und neue Versionen veröffentlichen, die GNOME 2.10 bereits "
+"enthalten."
 
 #: ../rninstallation.xml:15
 msgid ""
@@ -1316,7 +1618,7 @@ msgstr ""
 
 #: ../rnthanks.xml:8
 msgid "Thanks"
-msgstr ""
+msgstr "Danke"
 
 #: ../rnthanks.xml:9
 msgid ""
@@ -1444,8 +1746,9 @@ msgstr ""
 
 #: ../rnthemes.xml:2
 msgid "Themes"
-msgstr ""
+msgstr "Themen"
 
+# "Frank Arnold <frank@scirocco-5v-turbo.de>, 2005."
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: ../rnthemes.xml:0
 msgid "translator-credits"
