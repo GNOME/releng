@@ -89,6 +89,7 @@
      <para>Other new file manager features include:
      <itemizedlist>
        <listitem><para>Complete keyboard navigation, so more experienced users can work even more efficiently.</para></listitem>
+       <listitem><para>Type the first letters of a file to quickly select it.</para></listitem>
        <listitem><para>User-definable templates to easily create new documents by copying existing empty documents.</para></listitem>
        <listitem><para>Emblem support for list views, with a better treeview in the sidebar.</para></listitem>
        <listitem><para>The CD burner has better burn speed detection</para></listitem>
