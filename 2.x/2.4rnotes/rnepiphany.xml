@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY version "2.4.0">
+<!ENTITY urlfiguresbase "../figures/">
+]>
+<sect2 id="rnepiphany">
+  <title>Epiphany</title>
+  <para>With <application>Epiphany</application>, GNOME &version; brings a
+  clean and simple browser to the free software desktop based on Mozilla, the
+  most standards-compliant rendering widget available.
+<!--    
+    <figure id="rnepiphanyscreenshot"> 
+        <title>Epiphany</title> 
+        <screenshot> 
+        <mediaobject> 
+          <imageobject><imagedata fileref="&urlfiguresbase;MultiLoad_applet.png"
+			format="PNG"/> 
+          </imageobject>
+ 	  <textobject> 
+ 	    <phrase>Epiphany Web Browser
+            </phrase> 
+          </textobject> 
+        </mediaobject> 
+	</screenshot> 
+      </figure> 
+-->
+  </para>
+  <para>
+    Epiphany uses the simplest interface possible for a browser. Simple does not
+    necessarily mean less powerful. Its design is based on the belief that
+    commonly used browsers of today are too big, buggy, and bloated. Epiphany
+    addresses simplicity with a small browser designed for the web &mdash; not
+    mail, newsgroups, file management, instant messaging or coffee making.
+</para>
+  <para>
+    Epiphany also address simplicity with modularity to make a light and
+    powerful application. If something can be implemented using external
+    applications or components, Epiphany's developers use it rather than wasting
+    resources in the web browser. Integration is achieved with CORBA, Bonobo, and
+    the command line.
+  </para>
+  <para>
+    The introduction of non-standard features in browsers could make it
+    difficult or impossible to use alternative products like Epiphany if
+    developers embrace them. Alternative (standards complying) browsers could
+    not be able to fully access web sites making use of these features. The
+    success of non-standard features can ultimately lead to forcing one browser,
+    on one platform to dominate the market.
+  </para>
+  <para>
+    Standards compliance ensures the freedom of choice. Epiphany aims to achieve
+    this. 
+  </para>
+</sect2>

@@ -80,6 +80,7 @@
     <title>Applications</title>
     <para>GNOME &version; includes many new and improved applications.
   TODO: Reference separate .xml files via entities.</para>
+<xi:include href="rnepiphany.xml"/>
   </sect1>
 
  <sect1 id="rndocs">
