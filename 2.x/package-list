@@ -85,6 +85,14 @@ gimp
 gnucash
 </section>
 
+<section title="Language Bindings">
+gnome-python		-				-				-				James Henstridge <james@daa.com.au>
+gnomemm
+gtkmm
+libsigc++
+pygtk				-				1.99.4			-				James Henstridge <james@daa.com.au>
+</section>
+
 <section title="Developer Carpet Bag">
 ghex
 glade
