@@ -490,8 +490,10 @@
 					This means you need to be able to start python, it has
 					to be version 2.0 or greater and <quote>from xml.parsers 
 					  import expat</quote> must work from the Python prompt. 
-					In other words, running <command>python2</command> 
-					<arg>-c</arg> <quote>from xml.parsers import expat</quote> 
+		    In other words, running <cmdsynopsis>
+<command>python2</command> 
+					<arg>-c</arg>
+		    </cmdsynopsis> <quote>from xml.parsers import expat</quote> 
 					from a shell prompt and having no error reported is 
 					sufficient.
 				  </para>
@@ -801,8 +803,10 @@
       <para>
 		It is possible to build all these packages in a different location from
 		the default <filename class="directory"><replaceable>/usr/local
-		  </replaceable></filename> (by passing the <arg>--prefix=
-		  <replaceable>location</replaceable></arg> flag to the 
+	  </replaceable></filename> (by passing the <cmdsynopsis>
+<arg>--prefix=
+		  <replaceable>location</replaceable></arg>
+	</cmdsynopsis> flag to the 
 		<command>configure</command> script in each tarball). If you do that,
 		however, you should put the new location as the first component of your
 		<envar>$PATH</envar> (to avoid existing versions of scrollkeeper 
@@ -852,17 +856,24 @@
     </para>
     <para>
       Ensure that any existing GNOME 1.x sessions have been exited and check
-      that GConfd has stopped (run <command>ps</command> <arg>ax</arg> | 
-	  <command>grep</command> <arg>[g]conf</arg>). If 
+      that GConfd has stopped (run 
+      <cmdsynopsis>
+      <command>ps</command> <arg>ax</arg>
+      </cmdsynopsis> | <cmdsynopsis> 
+	  <command>grep</command> <arg>[g]conf</arg>
+      </cmdsynopsis>). If 
 	  <application>gconf</application> is still running, execute the command 
-	  <command>gconftool-1</command> <arg>--shutdown</arg> to stop it.
+      <cmdsynopsis>
+	<command>gconftool-1</command> <arg>--shutdown</arg>
+      </cmdsynopsis>
+      to stop it.
     </para>
     <para>
       In order to have anti-aliased fonts in menus and applications, you will
       need to make sure that the environment variable 
 	  <envar>GDK_USE_XFT</envar> is exported before running the appropriate 
 	  applications. For example, you might put the following in 
-	  <filename><envar>$HOME</envar>/.gnomerc</filename>:
+	  <filename>$HOME/.gnomerc</filename>:
       <programlisting>
 		export GDK_USE_XFT=1
 		exec gnome-session
@@ -871,7 +882,7 @@
 	  interface to log into GNOME. If you are starting X from a command 
 	  prompt &mdash; using <command>startx</command> &mdash;
       then just put the above lines into your 
-	  <filename><envar>$HOME</envar>/.xinitrc</filename> file.)
+	  <filename>$HOME/.xinitrc</filename> file.)
     </para>
     <para>
       There have been cases of the initial login to GNOME 2 not going quite
@@ -882,7 +893,7 @@
       the command prompt) and then (in a terminal) removing the
       <filename class="directory">/tmp/orbit-<replaceable>user</replaceable></filename> 
 	  directory (and all of its contents), where 
-	  <replcaeable>user</replcaeable> is replaced with the appropriate user's 
+	  <replaceable>user</replaceable> is replaced with the appropriate user's 
 	  login name.
     </para>
   </sect1>
@@ -903,7 +914,6 @@
       established.
     </para>
   </sect1>
-
   <sect1 id="quirks">
     <title>Quirks</title>
     <para>Things that may bite people.</para>
@@ -952,7 +962,7 @@
 
   </sect1>
   <sect1 id="bugs">
-    <title>Known bugs</title>
+    <title>Bugs</title>
     <para>
 	  All software, when it is released, contains bugs the developers know
 	  about but have elected, for a variety of reasons, not to fix before
@@ -960,8 +970,21 @@
 	  software, except that with free software, we tell users about them.
     </para>
     <para>
-      Full details on outstanding GNOME bugs can be found at our <ulink
-		url="http://bugzilla.gnome.org/">Bugzilla</ulink>.  Among the most 
+We also, of course, encourage our users to report bugs so that they
+can be fixed. The best way
+to report bugs against GNOME2 is to use the <ulink
+url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug
+Guide</ulink>. The Simple Bug Guide will take you through the
+necessary steps to file a quality bug report, and make sure that it is
+tagged appropriately. If you're too advanced for anything with the
+word 'simple' in it, there is also the <ulink
+url="http://bugzilla.gnome.org/enter_bug.cgi">traditional bug
+form.</ulink> Please make sure to add the 'GNOME2' keyword to any bugs
+reported that way.
+    </para>
+    <para>
+      More details on bugs already reported can be found at our <ulink
+		url="http://bugzilla.gnome.org/gnome-20-report.html">Bugzilla</ulink>.  Among the most 
 	  prominent GNOME 2 bugs:
     </para>
     <sect2>
@@ -973,81 +996,89 @@
 		the trash file not being a directory). You can still delete files by 
 		selecting and then pressing the <keycap>Delete</keycap> key, or by 
 		context-clicking on the item in question and selecting 
-		<guimenuitem>Send to Trash</guimenuitem> (bug #82644).
+		<guimenuitem>Send to Trash</guimenuitem>. This will be
+		fixed in the next release, and is <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=82644">bug
+		82644</ulink>.
       </para>
     </sect2>
 
     <sect2 id="dotgnome">
       <title>.gnome</title>
       <para>
-		GNOME 2 uses <filename><envar>$HOME</envar>/.gnome2</filename> and 
-		<filename><envar>$HOME</envar>/.gnome2_private</filename> as 
+		GNOME 2 uses <filename>$HOME/.gnome2</filename> and 
+		<filename>$HOME/.gnome2_private</filename> as 
 		directories for storing stuff. However, you cannot completely remove 
-		<filename><envar>$HOME</envar>/.gnome</filename>, since
+		<filename>$HOME/.gnome</filename>, since
 		gnome-vfs needs it and does not create it, so any modifications that
 		gnome-vfs needs to save in the user's directory will not be saved. 
 		Thus, users need to create a 
-		<filename><envar>$HOME</envar>/.gnome</filename> directory before 
+		<filename>$HOME/.gnome</filename> directory before 
 		starting GNOME 2. This will particularly affect people doing an 
 		install on a clean system or those who have removed .gnome to get 
-		around some upgrade problems. This will be fixed in 2.0.1 (bug #84183).
+		around some upgrade problems. This will be fixed in
+		2.0.1 and is <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=84183">bug
+		84183</ulink>.
       </para>
     </sect2>
     <sect2>
       <title>Cannot drag and drop from Nautilus list view</title>
       <para>
-		Bugzilla number <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">74974</ulink>
+You can't drag and drop files from the list view as you can in the
+		icon view. It is hoped that this will be fixed in the
+		next release. You can track progress on this bug or
+		contribute yourself via <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">bug
+		74974</ulink>.
       </para>
     </sect2>
     <sect2>
-      <title>Drag and Drop fails to add menu items to applications:///</title>
-      
+      <title>Menu editing is incomplete</title>
       <para>
-		Bugzilla number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>
+Because a number of bugs existed in the menu editing implementation,
+and the best fixes for some of them may not be reverse compatible, it
+was decided to remove most menu editing functionality in this
+release. It will be fixed and re-enabled in the 2.0.1 release. In the
+meantime, a number of related bugs are filed, including <ulink
+		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73770">73770</ulink>, <ulink
+		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73773">73773</ulink>, <ulink
+		  url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>, and <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>. Untested instructions for manual editing of menus can be found at FIXME.
       </para>
-	</sect2>
-	<sect2>
-	  <title> Cannot rename items in applications:///</title>
-	    <para>Bugzilla number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=73773">73773</ulink>
+    </sect2>
+    <sect2>
+      <title>new mime type handlers are not always visible in nautilus</title>
+      <para>
+	    Mime-type handling in GNOME2 is generally much improved
+		over GNOME1.4. However, when a new mime-type handler
+		is installed in GNOME2, it does not show up correctly
+		in Nautilus right-click menus. It is hoped that this
+		will be fixed in GNOME2.0.1. Track it at <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=75620">bug
+		75620</ulink>.
 	  </para>
-	</sect2>
-	<sect2>
-	  <title>problems with mime type handling</title>
-	    <para>
-	    Bugzilla number
-		<ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=75620">75620</ulink>
-	  </para>
-	</sect2>
-	<sect2>
-	  <title>Internationalization of gnome-terminal is broken</title>
-	    <para>
-	      Bugzilla number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">78007</ulink>
+    </sect2>
+    <sect2>
+      <title>Internationalization of gnome-terminal is broken</title>
+      <para>Unfortunately, gnome-terminal is broken in many non-ASCII
+      locales. A fix for this was proposed but caused many other
+      problems and as a result, was withdrawn. The author has been
+      working on fixing some of the bugs and it should be fixed in
+      GNOME 2.0.1. This is bugzilla number <ulink
+		  url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">bug 78007</ulink>.
 	    </para>
-	</sect2>
-	<sect2>
-	  <title>vfolder monitors don't work in nautilus</title>
-	    <para>
-	      Bugzilla number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=81670">81670</ulink>
-	    </para>
-	</sect2>
-	<sect2>
-	  <title>system-global vfolder queries are lost when user changes something</title>
-	  <para>
-		Bugzilla number <ulink url="http://bugzilla.gnome.org/show_bug.cgi?id=82129">82129</ulink>
-	  </para>
-	</sect2>
-	<sect2>
-	  <title>Some features formerly provided by viewports no longer available
+    </sect2>
+    <sect2>
+      <title>Some features formerly provided by viewports no longer available
 	  in Sawfish</title>
-	  <para>
-	      Bugzilla number <ulink
-		  url="http://bugzilla.gnome.org/show_bug.cgi?id=82337">82337</ulink> 
+      <para>
+In order to simplify sawfish code and user interface, viewports have
+	      been removed from Sawfish2. The current functionality
+	      replaces nearly all viewport functionality, except
+	      two-dimensional workspace navigation. This is bug number <ulink
+		  url="http://bugzilla.gnome.org/show_bug.cgi?id=82337">82337</ulink>. 
 		<note>
-		  <para>The following has been reported as a workaround when added
+	  <para>The following has been reported as a workaround when added
 			to <filename>.sawfishrc</filename>:
 			<programlisting>
 			  ;; Get viewports back
@@ -1058,8 +1089,8 @@
 			  
 			</programlisting>
 		  </para>
-		</note>
+	</note>
 	  </para>
-	</sect2>
+    </sect2>
   </sect1>
 </article>
