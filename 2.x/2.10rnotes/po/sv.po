@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: rnotes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-02-13 00:57+0100\n"
-"PO-Revision-Date: 2005-03-04 23:54+0100\n"
+"PO-Revision-Date: 2005-03-05 00:44+0100\n"
 "Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -100,8 +100,8 @@ msgid ""
 "start/2.8/notes/\">release notes</ulink>."
 msgstr ""
 "Självklart innehåller GNOME 2.10 alla förbättringar som gjordes i GNOME 2.8, "
-"som du kan läsa mer om i <ulink url=\"http://www.gnome.org/start/2.8/"
-"notes/\">utgåveinformationen</ulink> för GNOME 2.8."
+"som du kan läsa mer om i <ulink url=\"http://www.gnome.org/start/2.8/notes/"
+"\">utgåveinformationen</ulink> för GNOME 2.8."
 
 #: ../release-notes.xml:48 (para)
 msgid ""
@@ -173,13 +173,13 @@ msgstr ""
 "Det bästa sättet att rapportera fel som hittats i GNOME är att använda den "
 "<ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">enkla "
 "felrapporteringsguiden</ulink>. Denna kommer att ta dig igenom de steg som "
-"är nödvändiga för att avge en högkvalitativ felrapport, och försäkra "
-"dig om att felrapporten märks korrekt. Om du är alldeles för avancerad för "
-"att tåla något med ordet \"enkelt\" i sig finns det även det <ulink url="
-"\"http://bugzilla.gnome.org/enter_bug.cgi\">traditionella "
-"felrapporteringsformuläret</ulink>. Mer information om de fel som redan "
-"rapporterats finns i vår <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</"
-"ulink>. Bland de mest signifikanta problemen med GNOME 2.10:"
+"är nödvändiga för att avge en högkvalitativ felrapport, och försäkra dig om "
+"att felrapporten märks korrekt. Om du är alldeles för avancerad för att tåla "
+"något med ordet \"enkelt\" i sig finns det även det <ulink url=\"http://"
+"bugzilla.gnome.org/enter_bug.cgi\">traditionella felrapporteringsformuläret</"
+"ulink>. Mer information om de fel som redan rapporterats finns i vår <ulink "
+"url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink>. Bland de mest "
+"signifikanta problemen med GNOME 2.10:"
 
 #: ../release-notes.xml:111 (title)
 msgid "List of known issues"
@@ -429,10 +429,6 @@ msgstr ""
 msgid "Integrated Modem Control"
 msgstr "Integrerad modemstyrning"
 
-#: ../rnapplets.xml:27 (title)
-msgid "The new modem control applet"
-msgstr "Det nya panelprogrammet för modemstyrning"
-
 #: ../rnapplets.xml:23 (para)
 msgid ""
 "GNOME 2.10 introduces a new applet for controlling your Modem, integrated "
@@ -454,10 +450,6 @@ msgstr ""
 #: ../rnapplets.xml:41 (title)
 msgid "Panel Trashcan"
 msgstr "Panelpapperskorg"
-
-#: ../rnapplets.xml:49 (title)
-msgid "a Trashcan on your Panel"
-msgstr "en papperskorg på din panel"
 
 #: ../rnapplets.xml:43 (para)
 msgid ""
@@ -482,10 +474,6 @@ msgstr ""
 #: ../rnapplets.xml:62 (title)
 msgid "Control Mounted Volumes"
 msgstr "Styr monterade volymer"
-
-#: ../rnapplets.xml:71 (title)
-msgid "Drive Mount"
-msgstr "Enhetsmontering"
 
 #: ../rnapplets.xml:64 (para)
 msgid ""
@@ -516,10 +504,6 @@ msgstr ""
 #: ../rnapplets.xml:85 (title)
 msgid "Get even more weather"
 msgstr "Få ännu mer väder"
-
-#: ../rnapplets.xml:92 (title)
-msgid "Weather Report"
-msgstr "Väderrapport"
 
 #: ../rnapplets.xml:86 (para)
 msgid ""
@@ -605,10 +589,6 @@ msgstr "Klisterlappar"
 msgid "Specially for laptops"
 msgstr "Speciellt för bärbara datorer"
 
-#: ../rnapplets.xml:155 (title)
-msgid "Monitor CPU Frequency Scaling"
-msgstr "Övervaka processorfrekvensskalning"
-
 #: ../rnapplets.xml:149 (para)
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
@@ -621,7 +601,7 @@ msgid ""
 "imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"GNOME inkluderar numera  ett panelprogram för att övervaka "
+"GNOME inkluderar numera ett panelprogram för att övervaka "
 "processorhastigheten i din bärbara dator. Processorfrekvensövervakaren "
 "bevakar processorer med variable hastigheter (som till exempel de med Intel "
 "Speedstep eller AMD PowerNow) för att visa deras aktuella status. Du kan "
@@ -744,10 +724,6 @@ msgstr "Program"
 msgid "Video Player"
 msgstr "Videospelare"
 
-#: ../rnapplications.xml:17 (title)
-msgid "The video player"
-msgstr "Videospelaren"
-
 #: ../rnapplications.xml:13 (para)
 msgid ""
 "GNOME 2.10 now includes the popular Totem video player, using GNOME's "
@@ -772,10 +748,6 @@ msgstr ""
 #: ../rnapplications.xml:31 (title)
 msgid "Audio Extraction"
 msgstr "Ljudextrahering"
-
-#: ../rnapplications.xml:37 (title)
-msgid "The audio extractor"
-msgstr "Ljudextraheraren"
 
 #: ../rnapplications.xml:33 (para)
 msgid ""
@@ -832,10 +804,6 @@ msgstr ""
 "integrerad med GNOME-skrivbordsmiljön. Förbättringar i 2.10 inkluderar "
 "<placeholder-1/>"
 
-#: ../rnapplications.xml:64 (title)
-msgid "The web browser"
-msgstr "Webbläsaren"
-
 #: ../rnapplications.xml:77 (title)
 msgid "Evolution"
 msgstr "Evolution"
@@ -878,7 +846,7 @@ msgstr "Kalendern inkluderar väderinformation (endast USA)."
 msgid ""
 "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
-"Denna nya version erbjudar andra förbättringar i kalendern: <placeholder-1/>"
+"Denna nya version erbjuder andra förbättringar i kalendern: <placeholder-1/>"
 
 #: ../rnapplications.xml:96 (title)
 msgid "daily weather forecasts"
@@ -902,15 +870,11 @@ msgid ""
 "languages."
 msgstr ""
 "E-postanvändargränssnittet kommer att speglas korrekt i höger-till-vänster-"
-"lokaler."
+"språk."
 
 #: ../rnapplications.xml:105 (para)
 msgid "And yet more new features: <placeholder-1/>"
 msgstr "Och ännu fler funktioner: <placeholder-1/>"
-
-#: ../rnapplications.xml:115 (title)
-msgid "The email client"
-msgstr "E-postklienten"
 
 #: ../rnapplications.xml:129 (title)
 msgid "GnomeMeeting"
@@ -927,10 +891,6 @@ msgstr ""
 "(VoIP) och videokonferens. I GNOME 2.10 delas adressboken numera med vår e-"
 "postklient Evolution, så att du inte behöver ange kontaktinformation på mer "
 "än ett ställe."
-
-#: ../rnapplications.xml:138 (title)
-msgid "The internet telephony and video conferencing client"
-msgstr "Klienten för Internettelefoni och videokonferenser"
 
 #: ../rnapplications.xml:135 (para)
 msgid ""
@@ -971,10 +931,6 @@ msgstr "Kontrollpanel"
 #: ../rncontrolcenter.xml:11 (title)
 msgid "Keyboard Layouts"
 msgstr "Tangentbordslayouter"
-
-#: ../rncontrolcenter.xml:17 (title)
-msgid "Keyboard Preferences - Layouts"
-msgstr "Tangentbordsinställningar - Layouter"
 
 #: ../rncontrolcenter.xml:13 (para)
 msgid ""
@@ -1087,7 +1043,7 @@ msgid ""
 "patterns, so your desktop can become your own."
 msgstr ""
 "GNOME 2.10 erbjuder ett nytt urval av förinstallerade skrivbordsbakgrunder "
-"och skrivbordsmönster, så att ditt skrivbord kan förbli ditt eget."
+"och skrivbordsmönster, så att ditt skrivbord kan bli ditt eget."
 
 #: ../rndesktop.xml:44 (title)
 msgid "a selection of simple yet artistic backgrounds"
@@ -1682,10 +1638,6 @@ msgstr "Ändringar tillämpas omedelbart där så är lämpligt."
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr "GNOME 2.10 kommer med en del förbättringar, inklusive <placeholder-1/>"
 
-#: ../rnsysadmin.xml:34 (title)
-msgid "The Clock, Network, and Users/Groups tools"
-msgstr "Klock-, nätverks- och användar-/gruppverktygen"
-
 #: ../rnsysadmin.xml:47 (title)
 msgid "Log Viewer"
 msgstr "Loggvisare"
@@ -1701,10 +1653,6 @@ msgstr "Öppna arkiverade loggar och loggar på nätverksenheter."
 #: ../rnsysadmin.xml:54 (para)
 msgid "Copy logs to the clipboard."
 msgstr "Kopiera loggar till urklipp."
-
-#: ../rnsysadmin.xml:58 (title)
-msgid "The Log Viewer"
-msgstr "Loggvisaren"
 
 #: ../rnsysadmin.xml:49 (para)
 msgid ""
@@ -1770,7 +1718,7 @@ msgstr "Verktyg"
 msgid "The GNOME utilities have some improvements, such as:"
 msgstr "GNOME-verktygen har en del förbättringar, som till exempel:"
 
-#: ../rnutilities.xml:13 (title) ../rnutilities.xml:20
+#: ../rnutilities.xml:13 (title)
 msgid "Text Editor"
 msgstr "Textredigerare"
 
@@ -1807,7 +1755,7 @@ msgstr ""
 "imageobject><textobject><phrase>Textredigeraren, färgmarkerandes den "
 "aktuella raden.</phrase></textobject></mediaobject></screenshot></figure>"
 
-#: ../rnutilities.xml:33 (title) ../rnutilities.xml:38
+#: ../rnutilities.xml:33 (title)
 msgid "Archive Manager"
 msgstr "Arkivhanterare"
 
@@ -1833,7 +1781,7 @@ msgstr ""
 "imageobject><textobject><phrase>Arkivhanteraren, frågandes efter lösenordet "
 "för en RAR-fil.</phrase></textobject></mediaobject></screenshot></figure>"
 
-#: ../rnutilities.xml:52 (title) ../rnutilities.xml:57
+#: ../rnutilities.xml:52 (title)
 msgid "Dictionary"
 msgstr "Ordbok"
 
@@ -1857,7 +1805,7 @@ msgstr ""
 "imageobject><textobject><phrase>Ordboken, föreslåendes möjliga stavningar "
 "och en definition.</phrase></textobject></mediaobject></screenshot></figure>"
 
-#: ../rnutilities.xml:70 (title) ../rnutilities.xml:75
+#: ../rnutilities.xml:70 (title)
 msgid "Floppy Formatter"
 msgstr "Diskettformateraren"
 
@@ -1885,6 +1833,45 @@ msgid "translator-credits"
 msgstr ""
 "Christian Rose\n"
 "Skicka synpunkter på översättningen till sv@li.org"
+
+#~ msgid "The new modem control applet"
+#~ msgstr "Det nya panelprogrammet för modemstyrning"
+
+#~ msgid "a Trashcan on your Panel"
+#~ msgstr "en papperskorg på din panel"
+
+#~ msgid "Drive Mount"
+#~ msgstr "Enhetsmontering"
+
+#~ msgid "Weather Report"
+#~ msgstr "Väderrapport"
+
+#~ msgid "Monitor CPU Frequency Scaling"
+#~ msgstr "Övervaka processorfrekvensskalning"
+
+#~ msgid "The video player"
+#~ msgstr "Videospelaren"
+
+#~ msgid "The audio extractor"
+#~ msgstr "Ljudextraheraren"
+
+#~ msgid "The web browser"
+#~ msgstr "Webbläsaren"
+
+#~ msgid "The email client"
+#~ msgstr "E-postklienten"
+
+#~ msgid "The internet telephony and video conferencing client"
+#~ msgstr "Klienten för Internettelefoni och videokonferenser"
+
+#~ msgid "Keyboard Preferences - Layouts"
+#~ msgstr "Tangentbordsinställningar - Layouter"
+
+#~ msgid "The Clock, Network, and Users/Groups tools"
+#~ msgstr "Klock-, nätverks- och användar-/gruppverktygen"
+
+#~ msgid "The Log Viewer"
+#~ msgstr "Loggvisaren"
 
 #~ msgid ""
 #~ "The GNOME log viewer has added a handy find feature, and an improved "
@@ -2174,7 +2161,7 @@ msgstr ""
 #~ "You may even choose a different speed if you don't have automatic "
 #~ "frequency scaling enabled."
 #~ msgstr ""
-#~ "GNOME inkluderar numera  ett panelprogram för att övervaka "
+#~ "GNOME inkluderar numera ett panelprogram för att övervaka "
 #~ "processorhastigheten i din bärbara dator. Processorfrekvensövervakaren "
 #~ "bevakar processorer med variable hastigheter (som till exempel de med "
 #~ "Intel Speedstep eller AMD PowerNow) för att visa deras aktuella status. "
