@@ -56,6 +56,7 @@
     <xi:include href="rndesktop.xml"/>
     <xi:include href="rncontrolcenter.xml"/>
     <xi:include href="rnapplets.xml"/>
+    <xi:include href="rnapplications.xml"/>
     <xi:include href="rnutilities.xml"/>
     <xi:include href="rna11y.xml"/>
 </sect1>
