@@ -1,3 +1,8 @@
+2003-08-27  Andrew Sobala  <aes@gnome.org>
+
+	* release-notes.xml: fix typo
+	* rncontrolcenter.xml: fix typo
+
 2003-08-27 Luis Villa <louie@ximian.com>
 
 	* rna11y.xml: fix tyop
