@@ -1,5 +1,13 @@
 2002-12-22  Murray Cumming  <murrayc@usa.net>
 
+	* 2.x/package-list: Added new modules such as acme, metacity,
+	nautilus-media. Didn't bother with contact details because that should
+	be in the cvs module that's linked anyway, and because jdub says
+	he has a new module-list system in his as-yet-unseen new 
+	developer.gnome.org site framework.
+
+2002-12-22  Murray Cumming  <murrayc@usa.net>
+
 	* 2.x/package-list:
 	Changed versions to major versions only, 
 	assuming, for instance, that 2.1.x will become 2.2 at the final

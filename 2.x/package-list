@@ -37,10 +37,12 @@ pkgconfig		-		0.14.0		-		Havoc Pennington <hp@redhat.com>
 </section>
 
 <section title="Desktop">
+acme			=		2.0				
 bug-buddy		=		2.2		-		Jacob Berkman <jacob@ximian.com>
 control-center		gnome-control-center		2.2	-	Richard Hestilow <hestilow@ximian.com>
 eel			=		2.2		-		Darin Adler <darin@bentspoon.com>
-eog			=		1.2				Jens Finke <jens@triq.net>, Seth Nickell <snickell@stanford.edu>
+eog			=		1.2		-		Jens Finke <jens@triq.net>, Seth Nickell <snickell@stanford.edu>
+file-roller		=		2.2
 gconf-editor		=		1.0		-		Anders Carlsson <andersca@gnu.org>
 gdm			gdm2		2.4		-		George Jirka <jirka@5z.com>
 gedit2			=		2.2		-		Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
@@ -48,6 +50,7 @@ gtk-engines		=		-		-		Owen Taylor <owen@redhat.com>
 gnome-applets		=		2.2		-		Kevin Vandersloot <kfv101@psu.edu>	
 gnome-desktop		=		2.2		-		Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
 gnome-games		=		2.2		-		Juan Pablo Mendoza <jpablo@gnome.org>
+gnome-icon-theme	=		1.0
 gnome-media		=		2.2		-		Iain Holmes <iain@ximian.com>
 gnome-panel		=		2.2		-		Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
 gnome-session		=		2.2		-		Mark McLoughlin <mark@skynet.ie>, George Lebl <jirka@5z.com>
@@ -55,6 +58,7 @@ gnome-system-monitor	procman		2.0		-		Kevin Vandersloot <kfv101@psu.edu>
 gnome-terminal		profterm	2.2		-		Havoc Pennington <hp@redhat.com>
 gnome-user-docs		-		-		-		John Fleck <jfleck@inkstain.net>
 gnome-utils		=		2.2		-		Glynn Foster <glynn.foster@sun.com>, Kevin Vandersloot <kfv101@psu.edu>
+gstreamer		=		1.0
 libgail-gnome		-		1.0		-		Padraig O'Briain <padraig.obriain@sun.com>
 libgnomeprint		=		2.2		-		Chema Celorio <chema@ximian.com>
 libgnomeprintui		=		2.2		-		Chema Celorio <chema@ximian.com>
@@ -63,7 +67,9 @@ libgtop			=		2.0		-		Kevin Vandersloot <kfv101@psu.edu>
 librsvg			=		2.2		-			-
 libvte			=		1.0		-
 libwnck			=		2.2		-		Havoc Pennington <hp@redhat.com>		
+metacity		=		2.6
 nautilus		=		2.2		-		Alex Larsson <alexl@redhat.com>, Darin Adler <darin@bentspoon.com>	-
+nautilus-media		=		1.0
 scrollkeeper		-		1.0		-
 yelp			=		2.2		-		Mikael Hallendal <micke@codefactory.se>
 </section>
