@@ -46,7 +46,7 @@
       <title>The parent-folders button</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-parentfoldersTODO.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-parentfolders.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Parent Folders</phrase></textobject>
           </mediaobject>
@@ -65,7 +65,7 @@
       <title>The Computer location</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-computerTODO.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-computer.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>Computer</phrase></textobject>
           </mediaobject>
@@ -80,7 +80,7 @@
       <title>A network drive</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-sftpTODO.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-sftp.png" format="PNG"/>
             </imageobject>
             <textobject><phrase>An sftp location.</phrase></textobject>
           </mediaobject>

@@ -16,7 +16,7 @@
       <title>Keyboard Preferences - Layouts</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardlayoutsTODO.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;controlpanel-keyboardlayouts.png" format="PNG"/>
             </imageobject>
           <textobject><phrase>The Layouts tab, in the Keyboard Preferences control panel.</phrase></textobject>
         </mediaobject>

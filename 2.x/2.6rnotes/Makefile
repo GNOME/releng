@@ -25,6 +25,6 @@ rsync_args = -vz --rsh ssh
 
 upload_path = murrayc.com/temp/release
 upload-test-html: html/index.html
-	rsync $(rsync_args) figures/*.png $$USER@murrayc.com:$(upload_path)/figures/
+	rsync $(rsync_args) figures/*.png $$USER@murrayc.com:$(upload_path)/html/figures/
 	rsync $(rsync_args) -r html/ $$USER@murrayc.com:$(upload_path)/html/
 
