@@ -70,6 +70,7 @@ The GNOME &version; Desktop is the latest release of the ever popular, multi-pla
     <xi:include href="rnapplications.xml"/>
     <xi:include href="rncontrolcenter.xml" />
     <xi:include href="rnapplets.xml"/>
+    <xi:include href="rnutilities.xml"/>
     <xi:include href="rnsysadmin.xml"/>
     <xi:include href="rngames.xml"/>
     <xi:include href="rnplatform.xml"/>
@@ -129,17 +130,6 @@ The GNOME &version; Desktop is the latest release of the ever popular, multi-pla
           If you run into this problem, just wait for the login to proceed and
           then remove any such applications before saving your session
           again.</para>
-        </listitem>
-        <listitem>
-          <para>TODO: Luis, should we include any of the others?  Kjartan
-          applied the VTE patch and rolled a tarball but didn't put it on
-          ftp.gnome.org perhaps because of Nalin's request that people fork VTE
-          instead of maintain it for him.  I don't know if the applet dying at
-          logout is dealbreaker enough to mention here.  And the other two bugs
-          still on the showstopper list are nautilus crashers that no one
-          appears to have been able to reproduce under 2.9.x so we don't know if
-          this is an issue or not (thus making it seem funny to list it under
-          the "known" issues section).</para>
         </listitem>
       </itemizedlist>
     </para>

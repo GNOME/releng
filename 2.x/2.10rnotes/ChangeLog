@@ -1,5 +1,13 @@
 2005-03-02  Murray Cumming  <murrayc@murrayc.com>
 
+	* release-notes.xml: Add rnutilities.xml. I probably forgot to 
+	do this before. Screenshots need to be done.
+	* release-notes.xml: Remove TODO on known issues - it is too late now.
+	* rnapplications.xml: Made the FIXME an xml comment instead of making 
+	it part of a translatable string.
+
+2005-03-02  Murray Cumming  <murrayc@murrayc.com>
+
 	* Translation starts in earnest now, so please do not change the 
 	English text unless absolutely necessary.
 
