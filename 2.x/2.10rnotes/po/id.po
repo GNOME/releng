@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: 2.10rnotes HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: (null)\n"
-"PO-Revision-Date: 2005-03-05 23:14+0700\n"
+"PO-Revision-Date: 2005-03-06 21:18+0700\n"
 "Last-Translator: Ahmad Riza H Nst <ari@160c.afraid.org>\n"
 "Language-Team: Indonesian <sukarelawan@gnome.linux.or.id>\n"
 "MIME-Version: 1.0\n"
@@ -42,8 +42,8 @@ msgstr ""
 "<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-gnome-desktop.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Desktop GNOME.</phrase></textobject></"
-"mediaobject></screenshot>Desktop GNOME 2.10 adalah terbitan terakhir "
-"dari yang pernah populer, lingkungan dekstop multi platform yang bebas."
+"mediaobject></screenshot>Desktop GNOME 2.10 adalah terbitan terakhir dari "
+"yang pernah populer, lingkungan dekstop multi platform yang bebas."
 
 #: ../release-notes.xml:30
 msgid ""
@@ -54,8 +54,8 @@ msgid ""
 msgstr ""
 "Penerbitan desktop GNOME berlanjut untuk tiba tepat waktu. GNOME 2.10 "
 "mengikut sertakan sejumlah fasilitas baru dan ratusan perbaikan kesalahan. "
-"Saat ini GNOME juga mengikut sertakan pemutar video dan utilitas pemotong CD. Anda"
-"dapat belajar lebih pada bagian berikut."
+"Saat ini GNOME juga mengikut sertakan pemutar video dan utilitas pemotong "
+"CD. Andadapat belajar lebih pada bagian berikut."
 
 #: ../release-notes.xml:32
 msgid ""
@@ -63,9 +63,10 @@ msgid ""
 "users, without excess complexity or obscure features. At the same time we "
 "provide the rich flexibility experienced developers demand."
 msgstr ""
-"GNOME menyediakan lingkungan pengguna yang bersahabat yang \"langsung bekerja\" untuk "
-"pengguna sehari-hari, tanpa terlalu rumit atau fasilitas yang membingungkan. Pada saat yang sama "
-"kami menyediakan pengalaman fleksibilitas yang kaya yang diinginkan para pengembang."
+"GNOME menyediakan lingkungan pengguna yang bersahabat yang \"langsung bekerja"
+"\" untuk pengguna sehari-hari, tanpa terlalu rumit atau fasilitas yang "
+"membingungkan. Pada saat yang sama kami menyediakan pengalaman fleksibilitas "
+"yang kaya yang diinginkan para pengembang."
 
 #: ../release-notes.xml:37
 msgid ""
@@ -75,11 +76,12 @@ msgid ""
 "accessibility infrastructure, and a complete internationalization "
 "infrastructure that includes support for bi-directional text."
 msgstr ""
-"GNOME berjalan pada berjenis-jenis platform, termasuk GNU/Linux (biasa disebut "
-"Linux). Solaris, HP-UX, BSD dan Darwinnya Apple. GNOME mengikut sertakan "
-"fasilitas yang kuat seperti perender teks kelas dunia yang lembut, sebagai aksesibitas "
-"infrastruktur kelas-utama dan infrastruktur internasional yang lengkap yang "
-"mengikut sertakan dukungan untuk teks dua arah."
+"GNOME berjalan pada berjenis-jenis platform, termasuk GNU/Linux (biasa "
+"disebut Linux). Solaris, HP-UX, BSD dan Darwinnya Apple. GNOME mengikut "
+"sertakan fasilitas yang kuat seperti perender teks kelas dunia yang lembut, "
+"sebagai aksesibitas infrastruktur kelas-utama dan infrastruktur "
+"internasional yang lengkap yang mengikut sertakan dukungan untuk teks dua "
+"arah."
 
 #: ../release-notes.xml:44
 msgid ""
@@ -87,9 +89,9 @@ msgid ""
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
 "start/2.8/notes/\">release notes</ulink>."
 msgstr ""
-"Tentu saja GNOME 2.10 mengikut sertakan seluruh peningkatan yang dibuat pada GNOME 2.8, "
-"yang dapat anda pelajari pada GNOME 2.8 <ulink url=\"http://www.gnome.org/"
-"start/2.8/notes/\">catatan terbitan</ulink>."
+"Tentu saja GNOME 2.10 mengikut sertakan seluruh peningkatan yang dibuat pada "
+"GNOME 2.8, yang dapat anda pelajari pada GNOME 2.8 <ulink url=\"http://www."
+"gnome.org/start/2.8/notes/\">catatan terbitan</ulink>."
 
 #: ../release-notes.xml:48
 msgid ""
@@ -102,16 +104,16 @@ msgstr ""
 "Terbitan Desktop berisi seluruh aplikasi yang dibutuhkan untuk menyediakan "
 "fungsionalitas penggua. Aplikasi utama seperti <application>Gnumeric</"
 "application> dan <application>OpenOffice.org</application> juga tersedia, "
-"tetapi di bangun secara sejajar pada siklus terbitan mereka sendiri "
-"dari pada terikut pada terbitan inti GNOME."
+"tetapi di bangun secara sejajar pada siklus terbitan mereka sendiri dari "
+"pada terikut pada terbitan inti GNOME."
 
 #: ../release-notes.xml:55
 msgid ""
 "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">free software</ulink>."
 msgstr ""
-"GNOME merupakan bagian dari Proyek GNU dan merupakan <ulink url=\"http://www.fsf.org/"
-"philosophy/free-sw.html\">perangkat lunak bebas</ulink>."
+"GNOME merupakan bagian dari Proyek GNU dan merupakan <ulink url=\"http://www."
+"fsf.org/philosophy/free-sw.html\">perangkat lunak bebas</ulink>."
 
 #: ../release-notes.xml:59
 msgid ""
@@ -119,9 +121,9 @@ msgid ""
 "link> section, or use the links at the right to learn more about this "
 "release and the GNOME Desktop in general."
 msgstr ""
-"Silahkan lanjut langsung ke bagian <link linkend=\"rnwhatsnew\">Apa yang Baru</"
-"link>, atau gunakan sambungan pada bagian kanan untuk mempelajari lebih tentang "
-"terbitan ini dan Desktop GNOME secara umum."
+"Silahkan lanjut langsung ke bagian <link linkend=\"rnwhatsnew\">Apa yang "
+"Baru</link>, atau gunakan sambungan pada bagian kanan untuk mempelajari "
+"lebih tentang terbitan ini dan Desktop GNOME secara umum."
 
 #: ../release-notes.xml:67
 msgid "What's New In GNOME 2.10"
@@ -138,10 +140,12 @@ msgid ""
 "software is no different in this regard from proprietary software, except "
 "that with free software, we tell users about these problems."
 msgstr ""
-"Seluruh perangkat lunak, ketika diterbitkan, berisi kesalahan yang telah diketahui oleh para pengembang "
-"tetapi telah dipilih, untuk alasan yang beragam, tidak dibetulkan sebelum diterbitkan. Perangkat lunak "
-"bebas tidak berbeda dengan hormat dari perangkat lunak paten, terkecuali "
-"yang menggunakan perangkat luna gratis, kami memberitahukan pengguna tentang masalah ini."
+"Seluruh perangkat lunak, ketika diterbitkan, berisi kesalahan yang telah "
+"diketahui oleh para pengembang tetapi telah dipilih, untuk alasan yang "
+"beragam, tidak dibetulkan sebelum diterbitkan. Perangkat lunak bebas tidak "
+"berbeda dengan hormat dari perangkat lunak paten, terkecuali yang "
+"menggunakan perangkat luna gratis, kami memberitahukan pengguna tentang "
+"masalah ini."
 
 #: ../release-notes.xml:98
 msgid ""
@@ -156,15 +160,17 @@ msgid ""
 "bugzilla.gnome.org/\">Bugzilla</ulink>. Among the most prominent GNOME 2.10 "
 "bugs:"
 msgstr ""
-"Kami juga memberanikan pengguna kami untuk melaporkan kesalahan sehingga dapat diperbaiki "
-"mereka. Cara terbaik untuk melaporkan kesalahan yang ditemukan di GNOME adalah "
-"menggunakan <ulink url=\"http://bugzilla.gnome.org/simple-bug-guide.cgi\">Panduan Kesalahan "
-"Sederhana</ulink>. Ha ini akan membawa anda melalui langkah-langkah penting untuk membuat file "
-"laporan kesalahan yang berkualitas, dan memastikan bahwa laporan tersebut ditulis dengan sesuai. "
-"Jika anda terlalu ahli untuk semua kata 'sederhana', ada juga <ulink url=\"http://"
-"bugzilla.gnome.org/enter_bug.cgi\">formulis kesalahan tradisional</ulink>. Lebih rinci "
-"pada pelaporan kesalahan dapat ditemukan pada <ulink url=\"http://"
-"bugzilla.gnome.org/\">Bugzilla</ulink> kami. Bersamaan dengan kesalahan GNOME 2.10 yang menonjol:"
+"Kami juga memberanikan pengguna kami untuk melaporkan kesalahan sehingga "
+"dapat diperbaiki mereka. Cara terbaik untuk melaporkan kesalahan yang "
+"ditemukan di GNOME adalah menggunakan <ulink url=\"http://bugzilla.gnome.org/"
+"simple-bug-guide.cgi\">Panduan Kesalahan Sederhana</ulink>. Ha ini akan "
+"membawa anda melalui langkah-langkah penting untuk membuat file laporan "
+"kesalahan yang berkualitas, dan memastikan bahwa laporan tersebut ditulis "
+"dengan sesuai. Jika anda terlalu ahli untuk semua kata 'sederhana', ada juga "
+"<ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi\">formulis kesalahan "
+"tradisional</ulink>. Lebih rinci pada pelaporan kesalahan dapat ditemukan "
+"pada <ulink url=\"http://bugzilla.gnome.org/\">Bugzilla</ulink> kami. "
+"Bersamaan dengan kesalahan GNOME 2.10 yang menonjol:"
 
 #: ../release-notes.xml:111
 msgid "List of known issues"
@@ -179,7 +185,14 @@ msgid ""
 "mozilla-based Epiphany browser does not have this problem, and Mozilla "
 "hackers are working to quickly fix this in future versions of Mozilla and "
 "Firefox."
-msgstr ""
+msgstr "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\">Fokus "
+"jendela baru Mozilla/Firefox</ulink>: ketika anda menjalankan Mozilla ataupun Firefox dan"
+"sudah memiliki jendela Mozilla ataupun Firefox yang telah terbuka, jendela baru akan "
+"muncul tanpa fokus dan dibelakang jendela yang yang memiliki fokus. Browser GNOME"
+"Epiphany yang berbasiskan mozilla tidak memiliki masalah ini, dan hacker Mozilla "
+"bekerja begitu cepat untuk memperbaiki hal ini pada versi Mozilla dan Firefox yang akan "
+"datang."
+""
 
 #: ../release-notes.xml:125
 msgid ""
@@ -191,6 +204,14 @@ msgid ""
 "the login to proceed and then remove any such applications before saving "
 "your session again."
 msgstr ""
+"<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
+"Startup hang untuk sementara</ulink>: Applikasi dengan pengelola sesi yang rusak "
+"dapat menyebabkan login menjadi hang untuk beberapa menit pada saat layar sekilas. Session "
+"default tidak mengandung aplikasi apapun jadi hal ini hanya akan menjadi masalah "
+"jika anda menyimpan session anda pada saat logout. Jika anda mengalami masalah ini, tunggu "
+"saja login di proses dan kemudian hilangkan aplikasi apa saja sebelum menyimpan session "
+"anda kembali."
+""
 
 #: ../release-notes.xml:112
 msgid "<placeholder-1/>"
@@ -198,7 +219,7 @@ msgstr "<placeholder-1/>"
 
 #: ../release-notes.xml:141
 msgid "Looking to GNOME 2.12 and Beyond"
-msgstr ""
+msgstr "Melihat ke GNOME 2.12 dan Melewati"
 
 #: ../release-notes.xml:143
 msgid ""
@@ -209,16 +230,24 @@ msgid ""
 "further advances in accessibility, usability and internationalization. See "
 "also the <ulink url=\"http://live.gnome.org/RoadMap\">GNOME roadmap</ulink>."
 msgstr ""
+"GNOME beroperasi pada filosofi terbitan berdasarkan waktu, suatu usaha untuk "
+"secara terus menerus menyediakan usaha terbaik dari pengembang kami untuk "
+"pengguna secepat yang kami bisa. Enam bulan setelah GNOME 2.10, kami mengantisipasi "
+"bahwa GNOME 2.12 akan memberikan kemampuan multimedia yang lebih menyatu dan "
+"fungsionalitas komunikasi serta peningkatan lebih lanjut pada aksesibilitas, usability dan internasionalisasi."
+"Lihat juga <ulink url=\"http://live.gnome.org/RoadMap\">Perjalanan GNOME</ulink>."
 
 #: ../release-notes.xml:151
 msgid "Getting Involved"
-msgstr ""
+msgstr "Ikut Serta"
 
 #: ../release-notes.xml:152
 msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
 msgstr ""
+"Kesuksesan GNOME adalah berkat para sukarelawannya, baik pengguna dan "
+"para pengembang."
 
 #: ../release-notes.xml:156
 msgid ""
@@ -228,6 +257,11 @@ msgid ""
 "to contribute more, you can join our active <ulink url=\"http://developer."
 "gnome.org/projects/bugsquad/\">bug-squad</ulink>."
 msgstr ""
+"Sebagai seorang pengguna, kontribusi anda dapat sesederhana mengisi laporan kesalahan. "
+"Anda dapat membuat file kesalahan pada Bugzilla kami dengan menggunakan <ulink url=\"http://bugzilla."
+"gnome.org/simple-bug-guide.cgi\">asisten kesalahan sederhana</ulink>. Jika anda ingin "
+"lebih berkontribusi, anda dapat bergabung dengan <ulink url=\"http://developer."
+"gnome.org/projects/bugsquad/\">pasukan kesalahan</ulink> kami."
 
 #: ../release-notes.xml:164
 msgid ""
@@ -237,6 +271,11 @@ msgid ""
 "Here is a <ulink url=\"http://live.gnome.org/JoinGnome\">guide to help you "
 "get started</ulink>."
 msgstr ""
+"Untuk para pengembang, ada proses yang lebih mengasikkan untuk dilakukan pada setiap "
+"kelompok pengembang kami yang aktif - Aksesibilitas, Dokumentasi, Usability, "
+"Terjemahan, Web, Pencobaan, Grafis dan Desktop &amp; Pengembangan Plafform. "
+"Ini <ulink url=\"http://live.gnome.org/JoinGnome\">panduan untuk membantu anda mulai"
+"</ulink>."
 
 #: ../release-notes.xml:171
 msgid ""
@@ -244,16 +283,22 @@ msgid ""
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
+"Membantu pada GNOME dapat menjadi pengalaman yang sangat memuaskan, "
+"membuat anda dapat bertemua dengan orang yang mimiliki motivasi bermacam-macam, "
+"berkeahlian dan mau menolong, keseluruhannya bekerja untuk satu tujuan. Bergabung dengan "
+"kami hari ini dan lihat perbedaan yang telah anda buat."
 
 #: ../release-notes.xml:180
 msgid "Credits"
-msgstr ""
+msgstr "Penghormatan"
 
 #: ../release-notes.xml:181
 msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
 msgstr ""
+"Catatan terbitan ini dirakit oleh Murray Cumming, Davyd madeley dan"
+"komunitas GNOME."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -262,6 +307,8 @@ msgid ""
 "@@image: 'figures/figure-applet-modem.png'; "
 "md5=e578e556196eb7b5e18e8e23dec80f3d"
 msgstr ""
+"@@image: 'figures/figure-applet-modem.png'; "
+"md5=e578e556196eb7b5e18e8e23dec80f3d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -270,6 +317,8 @@ msgid ""
 "@@image: 'figures/figure-applet-trash.png'; "
 "md5=3cae86562b76ef6650be8d0fbe007907"
 msgstr ""
+"@@image: 'figures/figure-applet-trash.png'; "
+"md5=3cae86562b76ef6650be8d0fbe007907"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -278,6 +327,8 @@ msgid ""
 "@@image: 'figures/figure-applet-drivemount.png'; "
 "md5=47fa7b661de0c2ae0223fa211145fa11"
 msgstr ""
+"@@image: 'figures/figure-applet-drivemount.png'; "
+"md5=47fa7b661de0c2ae0223fa211145fa11"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -286,6 +337,8 @@ msgid ""
 "@@image: 'figures/figure-applet-weather.png'; "
 "md5=c3a54721c5872fe130c9c24d969310bf"
 msgstr ""
+"@@image: 'figures/figure-applet-weather.png'; "
+"md5=c3a54721c5872fe130c9c24d969310bf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -294,6 +347,8 @@ msgid ""
 "@@image: 'figures/figure-applet-mixer.png'; "
 "md5=3db86d251e280b32c35142524d4759f2"
 msgstr ""
+"@@image: 'figures/figure-applet-mixer.png'; "
+"md5=3db86d251e280b32c35142524d4759f2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -302,6 +357,8 @@ msgid ""
 "@@image: 'figures/figure-applet-stickies.png'; "
 "md5=55648b50d6dde470bc89a2d9d51523d8"
 msgstr ""
+"@@image: 'figures/figure-applet-stickies.png'; "
+"md5=55648b50d6dde470bc89a2d9d51523d8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -315,7 +372,7 @@ msgstr ""
 
 #: ../rnapplets.xml:8
 msgid "Panel Items"
-msgstr ""
+msgstr "Benda Panel"
 
 #: ../rnapplets.xml:10
 msgid ""
@@ -323,6 +380,9 @@ msgid ""
 "applets), providing new features and better integration with the rest of the "
 "desktop."
 msgstr ""
+"GNOME 2.10 mengikut sertakan peningkatan utama pada benda benda di panel ( yang dikenal "
+"juga sebagai applet), menyediakan kemampuan baru dan penyatuan yang lebih baik dengan "
+"desktop."
 
 #: ../rnapplets.xml:13
 msgid ""
@@ -333,6 +393,12 @@ msgid ""
 "the search feature. In the Desktop menu, you'll find your Preferences and "
 "Administration control panels, Log Out, and Help."
 msgstr ""
+"Perubahan yang paling kentara adalah penghilangan menu panel Aksi dan dan "
+"penambahan menu Tempat dan Desktop. Hal ini menyediakan akses yang cepat "
+"pada benda yang sering anda gunakan, tanpa mencari melalui sub menu. Sebagai "
+"contoh, menu Tempat mendaftarkan folder pada home anda, komputer anda, server jaringan "
+"dan fasilitas pencarian. Pada menu Desktop, anda akan menemukan Setingan dan "
+"panel kendali Administrasi, Log Out dan Bantuan."
 
 #: ../rnapplets.xml:15
 msgid ""
@@ -340,20 +406,25 @@ msgid ""
 "menu specification, so 3rd-party software may add itself to the Applications "
 "menu without even knowing about GNOME."
 msgstr ""
+"Seluruh menu panel pada saat ini telah didefinisikan oleh spesifikasi menu Freedesktop.org "
+"yang berplatform silang, sehingga perangkat lunak pihak ke-3 dapat menambahkan dirinya "
+"ke menu aplikasi tanpa harus mengetahui tentang GNOME."
 
 #: ../rnapplets.xml:17
 msgid ""
 "Also, most applets can now be partly transparent, when the panel itself is "
 "transparent."
 msgstr ""
+"Juga, kebanyakan aplet sekarang dapat ditransparankan secara sebagaian, ketika panel "
+"itu sendiri transparan."
 
 #: ../rnapplets.xml:22
 msgid "Integrated Modem Control"
-msgstr ""
+msgstr "Pengendali Modem Terintegrasi."
 
 #: ../rnapplets.xml:27
 msgid "The new modem control applet"
-msgstr ""
+msgstr "Aplet kendali modem yang baru"
 
 #: ../rnapplets.xml:23
 msgid ""
@@ -373,11 +444,11 @@ msgstr ""
 
 #: ../rnapplets.xml:41
 msgid "Panel Trashcan"
-msgstr ""
+msgstr "Panel Tong Sampah"
 
 #: ../rnapplets.xml:49
 msgid "a Trashcan on your Panel"
-msgstr ""
+msgstr "Sebuah Tong Sampah pada Panel anda"
 
 #: ../rnapplets.xml:43
 msgid ""
@@ -391,9 +462,9 @@ msgid ""
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
 "GNOME 2.10 memfasilitasi pilihan tong sampah untuk Panel anda. Sama seperti "
-"tong sampah pada desktop anda, sekarang anda dapat menarik dan meletakkan file dan benda lain "
-"ke dalam tong tanpa menyembunyikan jendela anda yang lagi terbuka. <figure id="
-"\"rnscreenshot-applet-trash\"><placeholder-1/"
+"tong sampah pada desktop anda, sekarang anda dapat menarik dan meletakkan "
+"file dan benda lain ke dalam tong tanpa menyembunyikan jendela anda yang "
+"lagi terbuka. <figure id=\"rnscreenshot-applet-trash\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-applet-trash.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Tarik tong ke panel anda</phrase></"
@@ -401,11 +472,11 @@ msgstr ""
 
 #: ../rnapplets.xml:62
 msgid "Control Mounted Volumes"
-msgstr ""
+msgstr "Kendali Volume Terkait"
 
 #: ../rnapplets.xml:71
 msgid "Drive Mount"
-msgstr ""
+msgstr "Kait Drive"
 
 #: ../rnapplets.xml:64
 msgid ""
@@ -420,24 +491,25 @@ msgid ""
 "imageobject><textobject><phrase>The drive mount applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"GNOME 2.8 membolehkan anda untuk dengan mudah mengkaitkan media digital anda, seperti CD, DVD, "
-"memory USB. Sekarang applet pengkait isi membantu anda untuk menggunakan "
-"isi ini tanpa kesulitan menemukan icon mereka di desktop, disamping "
-"jendela anda yang terbuka. Applet menampilkan isi yang sedang terkait (atau terlepas), "
-"membolehkan anda untuk mengkaitkan mereka, mengeluarkan mereka, ataupun membuka mereka "
-"dalam pengelola file. <figure id=\"rnscreenshot-applet-drivemount\"><placeholder-1/"
+"GNOME 2.8 membolehkan anda untuk dengan mudah mengkaitkan media digital "
+"anda, seperti CD, DVD, memory USB. Sekarang applet pengkait isi membantu "
+"anda untuk menggunakan isi ini tanpa kesulitan menemukan icon mereka di "
+"desktop, disamping jendela anda yang terbuka. Applet menampilkan isi yang "
+"sedang terkait (atau terlepas), membolehkan anda untuk mengkaitkan mereka, "
+"mengeluarkan mereka, ataupun membuka mereka dalam pengelola file. <figure id="
+"\"rnscreenshot-applet-drivemount\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>Applet kait drive.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"imageobject><textobject><phrase>Applet kait drive.</phrase></textobject></"
+"mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:85
 msgid "Get even more weather"
-msgstr ""
+msgstr "Dapatkan cuaca"
 
 #: ../rnapplets.xml:92
 msgid "Weather Report"
-msgstr ""
+msgstr "Laporan Cuaca"
 
 #: ../rnapplets.xml:86
 msgid ""
@@ -450,18 +522,19 @@ msgid ""
 "imageobject><textobject><phrase>The weather report applet.</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Pemantau cuaca sekarang dapat menampilkan lebih banyak lokasi dari pada sebelumnya, dan "
-"nama lokasi telah diterjemahkan kepada bukan bahasa inggris kalau sesuai. Sebagai tambahan, "
-"sekarang lamaran cuaca mengikut sertakan perhitungan matahari terbit dan matahari terbenam "
-"untuk kebanyak lokasi. <figure·id=\"rnscreenshot-applet-weather"
-"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata·fileref="
-"\"&urlfiguresbase;figure-applet-weather.png\"·format=\"PNG\"/></"
-"imageobject><textobject><phrase>Applet laporan cuaca.</phrase></"
-"textobject></mediaobject></screenshot></figure>"
+"Pemantau cuaca sekarang dapat menampilkan lebih banyak lokasi dari pada "
+"sebelumnya, dan nama lokasi telah diterjemahkan kepada bukan bahasa inggris "
+"kalau sesuai. Sebagai tambahan, sekarang lamaran cuaca mengikut sertakan "
+"perhitungan matahari terbit dan matahari terbenam untuk kebanyak lokasi. "
+"<figure·id=\"rnscreenshot-applet-weather\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata·fileref=\"&urlfiguresbase;"
+"figure-applet-weather.png\"·format=\"PNG\"/></"
+"imageobject><textobject><phrase>Applet laporan cuaca.</phrase></textobject></"
+"mediaobject></screenshot></figure>"
 
 #: ../rnapplets.xml:106
 msgid "Sound control"
-msgstr ""
+msgstr "Kendali Suara"
 
 #: ../rnapplets.xml:107
 msgid ""
@@ -472,18 +545,24 @@ msgid ""
 "and a variety of third-party applications, so changing the GNOME volume via "
 "the panel will change the volume of all these applications."
 msgstr ""
+"Mixer baru untuk panel anda (dikombinasikan dengan mixer tampilan baru pada desktop) "
+"dapatkan yang paling dari perangkat suara anda. Menggunakan kerangka kerja multimedia "
+"GStreamer, mixer sekarang lebih sederhana dan lebih mudah dari sebelumnya. Kerangka kerja "
+"multimedia yang sama telah memperkuat Totem, Sound Juicer, pemutar CD GNOME "
+"dan bermacam aplikasi pihak ke tiga, jadi merubah volume suara melalui panel akan mengubah "
+"volume suara dari seluruh aplikasi ini."
 
 #: ../rnapplets.xml:116
 msgid "all new mixer for your panel"
-msgstr ""
+msgstr "mixerbaru untuk panel anda"
 
 #: ../rnapplets.xml:121
 msgid "All new mixer for your panel"
-msgstr ""
+msgstr "Mixer baru untuk panel anda"
 
 #: ../rnapplets.xml:128
 msgid "Taking note"
-msgstr ""
+msgstr "Mengambil catatan"
 
 #: ../rnapplets.xml:129
 msgid ""
@@ -492,24 +571,30 @@ msgid ""
 "fixes. For instance, sticky notes will now stay on the correct workspace, or "
 "even a different monitor."
 msgstr ""
+"Applet catatan tempel yang populer sekarang membuat lebih mudah untuk menambahkan "
+"catatan bergaya postit pada dekstop anda, terima kasih pada antar muka pengguna yang "
+"sederhana dan perbaikan kesalahan yang banyak. Sebagai contoh, catatan tempel sekarang "
+"akan tetap pada ruang kerja yang tepat, atau bahkan pada monitor yang berbeda."
 
 #: ../rnapplets.xml:132
 msgid ""
 "And sticky notes now stay on top other windows, so you can't lose them. To "
 "hide the notes, simply use the applet's right-click menu."
 msgstr ""
+"Dan catatan tempel sekarang tetap berada di atas jendela lain, jadi anda tidak akan kehilangan mereka. "
+"Untuk menyembunyikan catatan, gunakan saja menu klik kanan applet."
 
 #: ../rnapplets.xml:137 ../rnapplets.xml:142
 msgid "Sticky Notes"
-msgstr ""
+msgstr "Catatan Tempel"
 
 #: ../rnapplets.xml:148
 msgid "Specially for laptops"
-msgstr ""
+msgstr "Teristimewa untuk laptops"
 
 #: ../rnapplets.xml:155
 msgid "Monitor CPU Frequency Scaling"
-msgstr ""
+msgstr "Penskalaan pemantau frekuensi CPU"
 
 #: ../rnapplets.xml:149
 msgid ""
@@ -523,11 +608,12 @@ msgid ""
 "imageobject><textobject><phrase>Monitor CPU Frequency Scaling</phrase></"
 "textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"GNOME sekarang mengikut sertakan sebuah applet untuk memantau kecepatan prosesor anda. "
-"Pemantau frekuensi CPU melihat kecepatan variabel prosesor (seperti yang "
-"Intel Speedstep atau AMD PowerNow) untuk menampilkan status terkini. Anda bahkan memilih "
-"kecepatan yang berbeda jika anda tidak memiliki penskalaan frekuensi secara automatis : aktif."
-"<figure id=\"rnscreenshot-applet-cpufreq\"><placeholder-1/"
+"GNOME sekarang mengikut sertakan sebuah applet untuk memantau kecepatan "
+"prosesor anda. Pemantau frekuensi CPU melihat kecepatan variabel prosesor "
+"(seperti yang Intel Speedstep atau AMD PowerNow) untuk menampilkan status "
+"terkini. Anda bahkan memilih kecepatan yang berbeda jika anda tidak memiliki "
+"penskalaan frekuensi secara automatis : aktif.<figure id=\"rnscreenshot-"
+"applet-cpufreq\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-applet-cpufreq.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Pemantau Penskalaan Frekuensi CPU</phrase></"
@@ -535,13 +621,15 @@ msgstr ""
 
 #: ../rnapplets.xml:168
 msgid "Removed Applets"
-msgstr ""
+msgstr "Applet yang telah dibuang"
 
 #: ../rnapplets.xml:169
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
 msgstr ""
+"Tiga applet telah dibuang pada GNOME 2.10, digantikan dengan alternatif yang lebih baik "
+"dalam kebanyakan kasus."
 
 #: ../rnapplets.xml:172
 msgid ""
@@ -550,6 +638,10 @@ msgid ""
 "inserting a CD will now start the GNOME CD Player, which can then be "
 "controlled from a notification icon that it places in your Panel."
 msgstr ""
+"Panel pemutar CD telah dibuang, jadi anda tidak akan melihat sebuah pemutar CD "
+"pada panel anda ketika anda tidak memiliki CD pada drive anda. Malahan, "
+"memasukkan CD sekarang akan memulai pemutar CD GNOME, yang kemudian dapat "
+"dikendalikan dari icon pemberitahuan yang ditempatkan pada panel anda."
 
 #: ../rnapplets.xml:175
 msgid ""
@@ -562,8 +654,8 @@ msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
 "insecure. We hope to have a solution integrated with our Evolution mail "
 "client in the future. If you don't use Evolution for your mail, you can use "
-"a third party application such as <link href=\"http://www.nongnu.org/"
-"mailnotify/\">mailnotify</link>."
+"a third party application such as <ulink url=\"http://www.nongnu.org/"
+"mailnotify/\">mailnotify</ulink>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -729,8 +821,9 @@ msgid ""
 msgstr ""
 "<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>Browser"
-"web.</phrase></textobject></mediaobject></screenshot></figure>"
+"figure-epiphany.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Browserweb.</phrase></textobject></"
+"mediaobject></screenshot></figure>"
 
 #: ../rnapplications.xml:77
 msgid "Evolution"
@@ -839,12 +932,13 @@ msgid ""
 "imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Sekarang anda dapat mencari pengguna Gnome Meeting yang lain pada jaringan lokal"
-"tanpa harus menemukan alamat rinci kontak mereka pertama kali. Dan anda dapat melihat video anda "
-"sendiri sisi-ke-sisi dengan video dari teman ngobrol anda, jadi"
-"anda lihat apa yang dia lihat. <figure id=\"rnscreenshot-gnomemeeting\"><placeholder-"
-"1/><screenshot><mediaobject><imageobject><imagedata fileref="
-"\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
+"Sekarang anda dapat mencari pengguna Gnome Meeting yang lain pada jaringan "
+"lokaltanpa harus menemukan alamat rinci kontak mereka pertama kali. Dan anda "
+"dapat melihat video anda sendiri sisi-ke-sisi dengan video dari teman "
+"ngobrol anda, jadianda lihat apa yang dia lihat. <figure id=\"rnscreenshot-"
+"gnomemeeting\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnome-meeting.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Gnome Meeting dengan video sisi ke sisi.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
 
