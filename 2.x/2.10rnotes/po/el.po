@@ -1,4 +1,3 @@
-# translation of el.po to Greek
 # Greek translation of release notes for GNOME 2.10.
 # Kostas Papadimas <pkst@gnome.org>, 2005.
 # Nikos Charonitakis <charosn@her.forthnet.gr>, 2005.
@@ -9,13 +8,14 @@ msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-03 15:03+0200\n"
+"PO-Revision-Date: 2005-03-03 14:19+0000\n"
 "Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.3.1\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -23,7 +23,9 @@ msgstr ""
 msgid ""
 "@@image: 'figures/figure-gnome-desktop.png'; "
 "md5=a25ee1cd47ba6e56ce09a67de0b45372"
-msgstr "@@image: 'figures/figure-totem.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'figures/figure-gnome-desktop.png'; "
+"md5=a25ee1cd47ba6e56ce09a67de0b45372"
 
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
@@ -164,6 +166,10 @@ msgid ""
 "bugzilla.gnome.org/\">Bugzilla</ulink>. Among the most prominent GNOME 2.10 "
 "bugs:"
 msgstr ""
+"Επίσης ενθαρρύνουμε τους χρήστες μας να αναφέρουν τυχόν σφάλματα για να μπορέσουμε να τα διορθώσουμε. Ο βέλτιστος τρόπος για την αναφορά σφαλμάτων του GNOME είναι μέσω της χρήστης του <ulink url=\"http://"
+"bugzilla.gnome.org/simple-bug-guide.cgi\">Απλού Οδηγού Σφαλμάτων</ulink>. Ο οδηγός αυτός σάς καθοδηγεί στα απαραίτητα βήματα για την συμπλήρωση μιας ποιοτικής αναφοράς σφάλματος και βοηθάει στην σωστή καταχώρηση του. Αν είστε προχωρημένος χρήστης και θέλετε κάτι περισσότερο από 'απλό', υπάρχει και η <ulink url=\"http://"
+"bugzilla.gnome.org/enter_bug.cgi\">παραδοσιακή φόρμα αναφοράς σφαλμάτων</ulink>. Περισσότερες λεπτομέρειες σε σφάλματα που έχουν ήδη αναφερθεί μπορείτε να δείτε στο <ulink url=\"http://"
+"bugzilla.gnome.org/\">Bugzilla μας</ulink>. Τα πιο εμφανή σφάλματα του GNOME 2.10 είναι:"
 
 #: ../release-notes.xml:111
 msgid "List of known issues"
@@ -178,7 +184,7 @@ msgid ""
 "mozilla-based Epiphany browser does not have this problem, and Mozilla "
 "hackers are working to quickly fix this in future versions of Mozilla and "
 "Firefox."
-msgstr ""
+msgstr "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Εστίαση νέου παραθύρου σε Mozilla/Firefox</ulink>: Όταν ξεκινάτε το Mozilla ή Firefox και έχετε ήδη ένα άλλο παράθυρο Mozilla ή Firefox ανοιχτό, το νέο παράθυρο μπορεί να εμφανιστεί χωρίς εστίαση και να τοποθετηθεί πίσω από το παράθυρο που έχει την εστίαση. Ο περιηγητής του GNOME που βασίζεται στο mozilla Epiphany δεν έχει αυτό το πρόβλημα και οι προγραμματιστές του Mozilla δουλεύουν εντατικά για να το διορθώσουν σε νεώτερες εκδόσεις των Mozilla και Firefox."
 
 #: ../release-notes.xml:125
 msgid ""
@@ -189,7 +195,7 @@ msgid ""
 "you save your session on logout. If you run into this problem, just wait for "
 "the login to proceed and then remove any such applications before saving "
 "your session again."
-msgstr ""
+msgstr "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Παροδική παύση λειτουργίας της συνεδρίας κατά την εκκίνηση</ulink>: Εφαρμογές με προβληματική διαχείρηση συνεδρίας μπορεί να προκαλέσουν την εκκίνηση της συνεδρίας να παγώσει για μερικά λεπτά. Η προεπιλεγμένη συνεδρία του GNOME 2.10 δεν περιλαμβάνει τέτοιες εφαρμογές, οπότε το πρόβλημα αυτό μπορεί να εμφανιστεί όταν αποθηκεύσετε την συνεδρία σας κατά την έξοδο. Αν αντιμετωπίσετε το πρόβλημα αυτό, απλά περιμένετε να ολοκληρωθεί η εκκίνηση της συνεδρίας και διαγράψτε την προβληματική εφαρμογή πριν αποθηκεύσετε την συνεδρίας σας ξανά."
 
 #: ../release-notes.xml:112
 msgid "<placeholder-1/>"
@@ -539,11 +545,11 @@ msgstr ""
 
 #: ../rnapplets.xml:116
 msgid "all new mixer for your panel"
-msgstr ""
+msgstr "ολοκαίνουριος μίκτης για το ταμπλώ"
 
 #: ../rnapplets.xml:121
 msgid "All new mixer for your panel"
-msgstr ""
+msgstr "Ολοκαίνουριος μίκτης για το ταμπλώ"
 
 #: ../rnapplets.xml:128
 msgid "Taking note"
@@ -607,13 +613,13 @@ msgstr ""
 
 #: ../rnapplets.xml:168
 msgid "Removed Applets"
-msgstr ""
+msgstr "Εφαρμογίδια που έχουν Απομακρυνθεί"
 
 #: ../rnapplets.xml:169
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
-msgstr ""
+msgstr "Τρία εφαρμογίδια έχουν απομακρυνθεί από το GNOME 2.10, και έχουν αντικατασταθεί από καλύτερα ενναλακτικα στις περισσότερες περιπτώσεις."
 
 #: ../rnapplets.xml:172
 msgid ""
@@ -631,7 +637,7 @@ msgstr ""
 msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
-msgstr ""
+msgstr "Το αποκλειστικό εφαρμογίδιο Ασύρματων Ευρυζωνικών Δικτύων έχει αφαιρεθεί διότι το εφαρμογίδιο Παρακολούθησης Δικτύο, που συμπεριλήφθηκε από το GNOME 2.8, διαθέτει υποστήριξη και για Ασύρματα Ευρυζωνικά Δίκτυα."
 
 #: ../rnapplets.xml:178
 msgid ""
@@ -641,7 +647,7 @@ msgid ""
 "a third party application such as <link href=\"http://www.nongnu.org/"
 "mailnotify/\">mailnotify</link>."
 msgstr ""
-"Η υπάρχουσα παρακολούθηση αλληλογραφίας απομακρύνθηκε επειδή δεν ήταν πια "
+"Η υπάρχουσα Παρακολούθηση Αλληλογραφίας απομακρύνθηκε επειδή δεν ήταν πια "
 "ασφαλής. Ελπίζουμε ότι θα υπάρχει μια λύση στο μέλλον που θα ενσωματώνεται "
 "στο Evolution. Αν δεν χρησιμοποιείτε το Evolution, μπορείτε να "
 "χρησιμοποιήσετε μια τρίτη εφαρμογή όπως το <link href=\"http://www.nongnu."
@@ -650,10 +656,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:20
-msgid ""
-"@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
-msgstr ""
-"@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
+msgid "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
+msgstr "@@image: 'figures/figure-totem.png'; md5=820855d09170df890d062cce398cae53"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -668,10 +672,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnapplications.xml:67
-msgid ""
-"@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
-msgstr ""
-"@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
+msgid "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
+msgstr "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -733,7 +735,6 @@ msgstr ""
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-totem.png\" format=\"PNG\"/></imageobject><textobject><phrase>Η εφαρμογή αναπαραγωγής βίντεο Totem"
 "</phrase></textobject></mediaobject></screenshot></figure>"
-""
 
 #: ../rnapplications.xml:31
 msgid "Audio Extraction"
@@ -856,8 +857,7 @@ msgid "The calendar includes weather information (US only)."
 msgstr "Το ημερολόγιο περιέχει πληροφορίες καιρού (μόνο για ΗΠΑ)."
 
 #: ../rnapplications.xml:87
-msgid ""
-"This new version offers some other calendar improvements: <placeholder-1/>"
+msgid "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
 "Αυτή η νέα έκδοση προσφέρει και κάποιες άλλες βελτιώσεις στο ημερολόγιο: "
 "<placeholder-1/>"
@@ -872,8 +872,7 @@ msgstr "Η εφαρμογή ημερολογίου Evolution."
 
 #: ../rnapplications.xml:107
 msgid "Groupwise shared folders and send options are now supported."
-msgstr ""
-"Τώρα υποστηρίζονται κοινόχρηστοι φάκελοι Groupwise και επιλογές αποστολής."
+msgstr "Τώρα υποστηρίζονται κοινόχρηστοι φάκελοι Groupwise και επιλογές αποστολής."
 
 #: ../rnapplications.xml:108
 msgid "Exchange folder sizes and password expiry warnings are supported."
@@ -910,8 +909,6 @@ msgstr ""
 "figure-evolution-mail.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Η εφαρμογή ηλεκτρονικής αλληλογραφίας Evolution.</phrase></"
 "textobject></mediaobject></screenshot></figure"
-""
-""
 
 #: ../rnapplications.xml:129
 msgid "GnomeMeeting"
@@ -952,7 +949,6 @@ msgstr ""
 "\"&urlfiguresbase;figure-gnome-meeting.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Το Gnome Meeting με δύο παράθυρα βίντεο.</"
 "phrase></textobject></mediaobject></screenshot></figure>"
-""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1005,10 +1001,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rndesktop.xml:34
-msgid ""
-"@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
-msgstr ""
-"@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
+msgid "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
+msgstr "@@image: 'figures/figure-nautilus.png'; md5=1a9e9a424645552a8ed158db9786ebea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1044,7 +1038,7 @@ msgstr ""
 msgid ""
 "Drag and drop with other applications, such as Mozilla and Firefox, now also "
 "works more smoothly."
-msgstr ""
+msgstr "Η μεταφορά και ρίψη (drag and drop) με άλλες εφαρμογές όπως Mozilla και Firefox τώρα λειτουργεί ακόμα πιο ομαλά."
 
 #: ../rndesktop.xml:24
 msgid "The path button is now more obviously a button."
@@ -1052,8 +1046,7 @@ msgstr "Το κουμπί διαδρομής είναι πια ένα ευδιά
 
 #: ../rndesktop.xml:25
 msgid "When creating new files, renaming starts automatically."
-msgstr ""
-"Όταν δημιουργείτε νέα αρχεία, η λειτουργία μετονομασίας ξεκινάει αυτόματα."
+msgstr "Όταν δημιουργείτε νέα αρχεία, η λειτουργία μετονομασίας ξεκινάει αυτόματα."
 
 #: ../rndesktop.xml:26
 msgid ""
@@ -1644,10 +1637,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnsysadmin.xml:61
-msgid ""
-"@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
-msgstr ""
-"@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
+msgid "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
+msgstr "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
 
 #: ../rnsysadmin.xml:9
 msgid "System Administration"
@@ -1655,8 +1646,7 @@ msgstr "Διαχείριση Συστήματος"
 
 #: ../rnsysadmin.xml:11
 msgid "GNOME 2.10 provides some new features for system administration."
-msgstr ""
-"Το GNOME 2.10 παρέχει κάποιες νέες λειτουργίες για την διαχείριση συστήματος."
+msgstr "Το GNOME 2.10 παρέχει κάποιες νέες λειτουργίες για την διαχείριση συστήματος."
 
 #: ../rnsysadmin.xml:17
 msgid "System Tools"
@@ -1761,10 +1751,8 @@ msgstr "Θέματα"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ../rnutilities.xml:23
-msgid ""
-"@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
-msgstr ""
-"@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
+msgid "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
+msgstr "@@image: 'figures/figure-gedit.png'; md5=07dfd1c93907b065df31dc11c1a0717c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1811,12 +1799,12 @@ msgid ""
 "improved too. It now only highlights mispelled words when you have actually "
 "finished typing the word, and many extra languages are supported and "
 "automatically identified."
-msgstr "Ο επεξεργαστής κειμένου του GNOME μπορεί τώρα να επισημαίνει την τρέχουσα "
+msgstr ""
+"Ο επεξεργαστής κειμένου του GNOME μπορεί τώρα να επισημαίνει την τρέχουσα "
 "γραμμή και, όταν γίνεται επεξεργασία πηγαίου κώδικα ενός προγράμματος να "
 "επισημαίνει τις αγκύλες που ταιριάζουν."
 
 #: ../rnutilities.xml:17
-#, fuzzy
 msgid ""
 "Many people will be glad to see that it no longer suggests saving changes "
 "when all changes have actually been undone. And in addition it even starts "
@@ -1826,14 +1814,10 @@ msgid ""
 "imageobject><textobject><phrase>The text editor, highlighting the current "
 "line.</phrase></textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Ο επεξεργαστής κειμένου του GNOME μπορεί τώρα να επισημαίνει την τρέχουσα "
-"γραμμή και, όταν γίνεται επεξεργασία πηγαίου κώδικα ενός προγράμματος να "
-"επισημαίνει τις αγκύλες που ταιριάζουν. Ακόμα εκκινείται πιο γρήγορα από τις "
-"προηγούμενες εκδόσεις.<figure id=\"rnscreenshot-gedit\"><placeholder-1/"
-"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
-"gedit.png\" format=\"PNG\"/></imageobject><textobject><phrase>Ο επεξεργαστής "
-"κειμένου, καθώς επισημαίνει την τρέχουσα γραμμή.</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"Πολλοί χρήστες θα δουν με χαρά ότι δεν προτείνει πια να αποθηκεύσει τις αλλαγές αν όλες οι αλλαγές έχει ήδη αναιρεθεί. Επιπρόσθετα, ξεκινά ακόμα ταχύτερα από προηγούμενες εκδόσεις. <figure id=\"rnscreenshot-gedit"
+"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-gedit.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Ο επεξεργαστής κειμένου, καθώς επισημαίνει την τρέχουσα γραμμή.</phrase></textobject></mediaobject></screenshot></figure>"
 
 #: ../rnutilities.xml:33 ../rnutilities.xml:38
 msgid "Archive Manager"
@@ -1859,7 +1843,6 @@ msgstr ""
 "\"&urlfiguresbase;figure-fileroller.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Ο διαχειριστής αρχείων, ζητώντας τον κωδικό για ένα"
 " προστατευμένο αρχείο RAR.</phrase></textobject></mediaobject></screenshot></figure>"
-""
 
 #: ../rnutilities.xml:52 ../rnutilities.xml:57
 msgid "Dictionary"
@@ -1886,9 +1869,6 @@ msgstr ""
 "imageobject><textobject><phrase>Το λεξικό, καθώς προτείνει πιθανές εκδοχές για την ορθογραφία και έναν "
 "oρισμό </phrase></textobject></mediaobject></"
 "screenshot></figure>"
-""
-""
-""
 
 #: ../rnutilities.xml:70 ../rnutilities.xml:75
 msgid "Floppy Formatter"
@@ -2320,3 +2300,4 @@ msgstr ""
 
 #~ msgid "The Nibbles game."
 #~ msgstr "Το παιχνίδι Nibbles."
+
