@@ -20,6 +20,7 @@ Anjuta IDE         0.1.2                                                      Kh
 MemProf            0.4.1                                                      Owen Taylor <otaylor@redhat.com>
 gob                1.0.6       no            no         yes       no          George <jirka@5z.com>
 gal                0.5         
+gtkhtml            0.8.2 
 
 The GIMP           1.2.1       no            no         yes       no          Manish Singh <yosh@gimp.org>
 eog                0.6         yes           no         yes       no          
