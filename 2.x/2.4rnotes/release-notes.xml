@@ -93,7 +93,7 @@
  <xi:include href="rninstallation.xml"/>
 
  <xi:include href="rnplatform.xml"/>
-
+<!--
   <sect1 id="rnknownissues">
     <title>Known Issues</title>
     <para>All software, when it is released, contains bugs the developers know
@@ -119,7 +119,7 @@
     </sect2>
 
     </sect1>
-
+-->
     <sect1 id="rnlookingahead">
 	 <title>Looking to GNOME 2.6 and Beyond</title> 
 	      

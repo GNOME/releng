@@ -1,3 +1,9 @@
+2003-09-08 John Fleck <jfleck@inkstain.net>
+
+	* release-notes.xml
+	comment out "known issues" section 'cause it
+	doesn't say anything yet
+
 2003-09-08  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Minor fix. Corrected a number of Azerbaijani
