@@ -9,9 +9,12 @@
     <title>Installation of  the GNOME &version; Developer Platform and
     Desktop</title>
 
+   <para>We recommend that you use official installation packages, such as those for your linux distribution. Vendors are likely to package GNOME &version; relatively quickly, and to release new versions soon that include GNOME &version;. However, many people don't want to wait, and will want to build GNOME from source code, even though that is more difficult.</para>
+  
+
     <sect2 id="rndeps">
       <title>External Dependencies</title>
-      <para>
+        <para>
 	<itemizedlist>
 	  <listitem>
 	    <para>pkg-config, available at <ulink
@@ -78,6 +81,11 @@
 	<listitem>
 	  <para>
 	    libfam
+	  </para>
+	</listitem>
+        <listitem>
+	  <para>
+	    mozilla
 	  </para>
 	</listitem>
       </itemizedlist>
@@ -159,6 +167,11 @@ atk
 </listitem>
 <listitem>
 <para>
+shared-mime-info
+</para>
+</listitem>
+<listitem>
+<para>
 gtk+
 </para>
 </listitem>
@@ -209,7 +222,17 @@ libbonoboui
 </listitem>
 <listitem>
 <para>
+hicolor-icon-theme
+</para>
+</listitem>
+<listitem>
+<para>
 gnome-icon-theme
+</para>
+</listitem>
+<listitem>
+<para>
+gnome-keyring
 </para>
 </listitem>
 <listitem>
@@ -359,16 +382,6 @@ eog
 </listitem>
 <listitem>
 <para>
-gob
-</para>
-</listitem>
-<listitem>
-<para>
-acme
-</para>
-</listitem>
-<listitem>
-<para>
 ggv
 </para>
 </listitem>
@@ -403,18 +416,23 @@ gstreamer
 </para>
 </listitem>
 <listitem>
+<listitem>
+<para>
+gst-plugins
+</para>
+</listitem>
 <para>
 gnome-media
 </para>
 </listitem>
 <listitem>
 <para>
-gst-plugins
+nautilus-media
 </para>
 </listitem>
 <listitem>
 <para>
-nautilus-media
+gnome-netstatus
 </para>
 </listitem>
 <listitem>
@@ -469,11 +487,6 @@ gok
 </listitem>
 <listitem>
 <para>
-mozilla
-</para>
-</listitem>
-<listitem>
-<para>
 epiphany
 </para>
 </listitem>
@@ -498,10 +511,11 @@ gnome2-user-docs
 
     <sect2 id="rngarnome">
       <title>GARNOME</title>
-      <para>If you do not wish to go through the process of manually building
-      each module yourself,  then you might consider using GARNOME, a GNOME
-      distribution based on the GAR ports system. GARNOME automatically
-      downloads the tarballs from a specified location and builds them for
-      you. To find out more information visit the <ulink url="http://www.gnome.org/~jdub/garnome/">GARNOME web page</ulink>.</para>
+      <para>If you do not wish to manually build
+      each module yourself, then you might consider using GARNOME, a GNOME
+      source code distribution based on the GAR ports system. GARNOME automatically
+      downloads the tarballs and builds them for
+      you. However, GARNOME is ususally used only for testing of unstable development versions of GNOME.</para>
+      <para>To find out more information visit the <ulink url="http://www.gnome.org/~jdub/garnome/">GARNOME web page</ulink>.</para>
     </sect2>
   </sect1>
