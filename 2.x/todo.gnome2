@@ -473,7 +473,7 @@ and with various locales.
 ##############################################################################################
 ## yelp 
 ##############################################################################################
-<application name="yelp" authors="micke@codefactory.se, alexl@redhat.com, malcolm@commsecure.com.au, jfleck@inkstain.net" link="http://bugzilla.gnome.org/buglist.cgi?product=Yelp&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED">
+<application name="yelp" authors="micke@codefactory.se, alexl@redhat.com" link="http://bugzilla.gnome.org/buglist.cgi?product=Yelp&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED">
 <item done="no">
 Need to cache help pages
 </item>
