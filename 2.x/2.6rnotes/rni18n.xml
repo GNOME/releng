@@ -10,7 +10,7 @@
     <para>
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
-    Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas,
+    Project</ulink>, under the leadership of Christian Rose, Kjartan Maraas, and Danilo Segan
     GNOME &version; offers support for 32 languages (at least 80 percent of
     strings translated).
 
@@ -69,7 +69,7 @@
   </para>
   
   <para>Note that Arabic, Canadian English, Croatian, Lithuanian, Mongolian, Ukrainian, Russian, and Turkish are new
-  supported languages in GNOME &version;, thanks to the hard work of their translators. Note also that British English
+  supported languages in GNOME &version;, thanks to the hard work of their translators. Note that British English
   and Canadian English are also supported.</para>
   
   <para>Another 15 languages are partially supported, with more than half of

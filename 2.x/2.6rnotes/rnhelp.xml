@@ -9,8 +9,7 @@
     <title>Online Help</title>
     
     <para>
-    Thanks to some excellent work from Shaun McCance, the GNOME online help viewer is now much faster than in previous versions,
-    so it is now more responsive and usable.
+    Thanks to some dramatic text-processing performance improvements, the GNOME online help viewer is now much faster than in previous versions, so it is now more responsive and usable.
    
     <figure id="rnscreenshot-nautilus-spatial">
       <title>Simplified file management - the window is the folder</title>

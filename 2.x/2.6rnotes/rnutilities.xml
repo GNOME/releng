@@ -59,10 +59,10 @@
   <sect3>
     <title>Sound Recorder</title>
 
-    <para>The Sounds recorder now offers a selection of audio profiles, such as "Voice Quality", which the user can edit.
+    <para>The Sound recorder now offers a selection of audio profiles, such as "Voice Quality", which the user can edit.
     Other applications, such as the CD ripping tool Sound Juicer, can use these same audio profiles.
 
-    <figure id="rnscreenshot-soundsrecorder-audioprofiles">
+    <figure id="rnscreenshot-soundrecorder-audioprofiles">
     <title>PDF Viewer</title>
       <screenshot>
         <mediaobject>

@@ -4,9 +4,9 @@ DOCBOOK_STYLESHEER ?= http://docbook.sourceforge.net/release/xsl/current/html/ch
 
 docbook_sources = release-notes.xml rna11y.xml rnapplets.xml rnapplications.xml \
                   rncontrolcenter.xml rndesktop.xml rndocs.xml \
-                  rni18n.xml rnlockdown.xml \
+                  rnhelp.xml rni18n.xml rnlockdown.xml \
                   rninstallation.xml rnplatform.xml rnstandards.xml \
-                  rnthanks.xml rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml rnwm.xml
+                  rnthemes.xml rnutilities.xml rntoc.xml rnwhy.xml rnwm.xml
 
 html: html/index.html
 

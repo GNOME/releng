@@ -21,6 +21,7 @@
     <itemizedlist>
       <listitem><para>New file selector widget, with improved UI, filters, previews, customization, and optional use of the GNOME vfs system.</para></listitem>
       <listitem><para>New ComboBox widget with improved API, UI, and model/view separation.</para></listitem>
+      <listitem><para>New Expander widget, useful for hiding complex user-interface options.</para></listitem>
       <listitem><para>Action-based toolbar and menu API.</para></listitem>
       <listitem><para>Bidirectional improvements, for languages such as Arabic and Hebrew. GTK+ now automatically determines the direction for widgets based on their contents.</para></listitem>
       <listitem><para>ComboBoxes and Entry widgets can now offer automatic text completion.</para></listitem>
