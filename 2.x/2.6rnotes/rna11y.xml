@@ -43,9 +43,9 @@
   instance, blind users can track changes to a message field, while entering text in another.</para></listitem>
 
   <listitem><para>The &quot;describe my surroundings&quot; feature gives blind users information about the context of
-  the currently focused UI component, via speech or braile.</para></listitem>
+  the currently focused UI component, via speech or Braille.</para></listitem>
 
-  <listitem><para>And when used as an onscreen magnifier, gnopernicus now gives users even more control over tracking and
+  <listitem><para>When used as an on-screen magnifier, Gnopernicus now gives users even more control over tracking and
   cursor presentation.</para></listitem>
   </itemizedlist>
 
@@ -69,7 +69,7 @@
         <mediaobject>
           <imageobject><imagedata fileref="&urlfiguresbase;accessibility-gokTODO.png" format="PNG"/>
           </imageobject>
-        <textobject><phrase>GOK, showing a korean keyboard.</phrase></textobject>
+        <textobject><phrase>GOK, showing a Korean keyboard.</phrase></textobject>
       </mediaobject>
     </screenshot>
   </figure>
@@ -83,7 +83,7 @@
   <listitem><para>Support for multi-group keyboards.</para></listitem>
   <listitem><para>Greatly enhanced &quot;UI Grab&quot; features, allowing users to directly interact with more
   kinds of application UI elements than ever before, including applications like OpenOffice.org 1.1 and Epiphany/Mozilla.</para></listitem>
-  <listitem><para>Improved stability - and it restarts automatically if a critical error is detected.</para></listitem>
+  <listitem><para>Improved stability. It restarts automatically if a critical error is detected.</para></listitem>
   </itemizedlist>
 
   </para>
@@ -96,7 +96,7 @@
 
   <para>Dasher is an innovative predictive input system that should be particularly useful to people with severe motor disabilities.
   At the moment, it is primarily used for text entry, but it offers an alternative way to interact with user interface
-  controls as well. It is also useful on small devices such as PDAs, to allow more efficient text entry without a keyboard.
+  controls as well. It also is useful on small devices such as PDAs, to allow more efficient text entry without a keyboard.
 
   <figure id="rnscreenshot-accessibility-dasher">
     <title>Dasher</title>
