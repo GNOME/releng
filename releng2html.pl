@@ -15,7 +15,7 @@ while (<STDIN>) {
 <h3>$_</h3>
 <table cellspacing="0" cellpadding="4" width="100%">
 	<tr bgcolor="#cccccc">
-		<th>component</th>
+		<th>package</th>
 		<th>version</th>
 		<th>status</th>
 		<th>contacts</th>

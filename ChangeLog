@@ -1,5 +1,12 @@
 2001-11-16  Jeff Waugh  <jdub@perkypants.org>
 
+	* 2.x/TODO: needed a 2.x releng todo list :)
+	* 2.x/package-list: sawfish info
+	* releng2html.pl: s/component/package/ - make it painfully obvious what
+	  the point of this is (ie. these can be bits of modules)
+
+2001-11-16  Jeff Waugh  <jdub@perkypants.org>
+
 	* README, 1.x
 
 	Changed README to be slightly more global ;) and added the 1.x directory.
