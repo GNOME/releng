@@ -2,15 +2,16 @@
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"[
 <!ENTITY g2 "GNOME 2">
+<!ENTITY g2x "GNOME 2.0.1">
 ]>
 <article id="index">
   <articleinfo>
-    <title>GNOME2 Release Notes</title>
+    <title>&g2x; Release Notes</title>
   </articleinfo>
   <sect1 id="introduction">
     <title>Introduction</title>
     <para>
-	  GNOME 2 is the newest version of the complete, free and easy-to-use
+	  &g2x; is the newest version of the complete, free and easy-to-use
 	  desktop environment. In addition to basic desktop functionality, it 
 	  includes a powerful application framework for software developers, 
 	  with support for object embedding, internationalization and accessibility. 
@@ -18,23 +19,22 @@
       and is free software.
     </para>
     <para>
-      The GNOME 2 Desktop and Developer platform includes a complete suite of
+      The &g2x; Desktop and Developer platform includes a complete suite of
       libraries necessary to support GNOME applications. It also includes all
       the basic utilities for your day-to-day computing, from a simple
       weather monitor to a powerful file manager.
     </para>
     <para>
-      GNOME 2 is compatible with a number of platforms, including GNU/Linux,
+      &g2x; is compatible with a number of platforms, including GNU/Linux,
       Solaris, HP-UX, Unix and BSD.
     </para>
   </sect1>
   <sect1 id="whatsnew">
-    <title>What's New in GNOME 2</title>
+    <title>What's New in &g2;</title>
     <para>
-      The lengthy GNOME 2 development cycle allowed the introduction of a number
-      of features that improve performance
-      and usability. It also includes a powerful new framework that can be
-      leveraged by developers.
+	  The lengthy &g2; development cycle allowed the introduction of a
+	  number of features that improve performance and usability. It also
+	  includes a powerful new framework that can be leveraged by developers.
     </para>
     <sect2 id="fontsandgraphics">
       <title>Improved Fonts and Graphics</title>
@@ -60,14 +60,14 @@
       <title>Usability</title>
       <para>
 	Streamlining, consistency and coherence have been the primary foci for
-	GNOME 2 Usability work. Above all we have tried to consider you, the
+	&g2; Usability work. Above all we have tried to consider you, the
 	user, as the focus of our design.
       </para>
       <para>
 	<emphasis>Streamlining:</emphasis> Rather than adding a great pile of
-	new gadgets and preferences, GNOME 2 has been streamlined. Interface
+	new gadgets and preferences, &g2; has been streamlined. Interface
 	clutter had led to a GNOME where you could almost literally "do less
-	with more". GNOME 2 removes many obscure or rarely used features (one or
+	with more". &g2; removes many obscure or rarely used features (one or
 	two of which may have been dear to you personally). In exchange you will
 	find that most of the features you care about are much easier to access
 	because they are not obscured by a million other items.
@@ -77,12 +77,12 @@
 	consistent patterns are easier to learn, faster to use, and less prone
 	to error. The <ulink
 	url="http://usability.gnome.org/hig/draft_hig">GNOME-Human Interface
-	Guidelines</ulink> have helped make the GNOME 2 interface more
+	Guidelines</ulink> have helped make the &g2; interface more
 	predictable, producing consistency between applications and promoting
 	usable patterns within individual applications.
       </para>
       <para>
-	<emphasis>Coherence:</emphasis> The GNOME 2 desktop fits together
+	<emphasis>Coherence:</emphasis> The &g2; desktop fits together
 	well. From &quot;Log In&quot; to &quot;Log Out&quot;, usability studies,
 	countless brainstorming hours, and tireless hacking have produced a
 	holistic desktop &mdash; more than a loose confederation of modules.
@@ -228,7 +228,7 @@
     <sect2 id="performance">
       <title>Performance</title>
       <para>
-		GNOME 2 exhibits notable performance
+		&g2x; exhibits notable performance
 		improvements over its predecessors and some competitors, even on older,
 		slower machines:
 	  </para>
@@ -324,7 +324,7 @@
     <sect2 id="libxml">
       <title>XML</title>
       <para>
-	GNOME 2 marks the first GNOME release to use <ulink
+	&g2; marks the first GNOME release to use <ulink
 							    url="http://www.xmlsoft.org/">libxml2</ulink>,
 	one of the most complete and standards-compliant
 	free <acronym>XML</acronym>libraries available. It includes
@@ -340,9 +340,9 @@
   <sect1 id="beyond">
     <title>Beyond the Desktop</title>
     <para>
-      While the GNOME 2 Desktop and Developer Platform was designed so that
+      While the &g2; Desktop and Developer Platform was designed so that
       users could continue to user their GNOME 1.x applications, in many cases
-      they will not have to wait long for GNOME 2 versions of their favorite
+      they will not have to wait long for &g2; versions of their favorite
       software. A number of developers have already begun porting their
       applications to the new platform prior to its release in order to take
       advantage of its new features. Examples include:
@@ -353,7 +353,7 @@
 	    <para>
 	      <ulink
 	      url="http://www.gnome.org/projects/gnumeric/download.shtml">Gnumeric</ulink>,
-	      the spreadsheet. The 1.1.x series contains the GNOME 2 versions.
+	      the spreadsheet. The 1.1.x series contains the &g2; versions.
 	    </para>
 	  </listitem>
 	</varlistentry>
@@ -372,7 +372,7 @@
 	  <listitem>
 	    <para>
 	      <ulink url="http://galeon.sourceforge.net/">Galeon</ulink> web
-	      browser. A port is underway, but depends on completion of the gtk2
+	      browser. A port is underway, but depends on completion of the GTK+ 2
 	      port of <ulink
 			     url="http://bugzilla.mozilla.org/show_bug.cgi?id=92033">Mozilla</ulink>.
 	    </para>
@@ -453,189 +453,187 @@
     <sect2 id="buildorder">
       <title>Build Order</title>
       <para>
-		The packages should be built in the following order (the figure after
-		the dash is the estimated amount of disk space used, rounded up to 
-		the nearest megabyte):
+		The packages should be built in the following order:
 		<orderedlist>
 		  <listitem>
-			<para>libxml2-2.4.22.tar.bz2 &mdash; 27 MB</para>
+			<para>libxml2</para>
 		  </listitem>
 		  <listitem>
-			<para>libxslt-1.0.18.tar.bz2 &mdash; 26 MB</para>
+			<para>libxslt</para>
 		  </listitem>
 		  <listitem>
-			<para>scrollkeeper-0.3.9.tar.bz2 &mdash; 7 MB</para>
+			<para>scrollkeeper</para>
 		  </listitem>
 		  <listitem>
-			<para>pkgconfig-0.12.0.tar.bz2 &mdash; 10 MB</para>
+			<para>pkgconfig</para>
 		  </listitem>
 		  <listitem>
-			<para>audiofile-0.2.3.tar.bz2 &mdash; 17 MB</para>
+			<para>audiofile</para>
 		  </listitem>
 		  <listitem>
-			<para>esound-0.2.28.tar.bz2 &mdash; 5 MB</para>
+			<para>esound</para>
 		  </listitem>
 		  <listitem>
-			<para>gtk-doc-0.9.tar.bz2 &mdash; 1 MB</para>
+			<para>gtk-doc</para>
 		  </listitem>
 		  <listitem>
-			<para>glib-2.0.4.tar.bz2 &mdash; 24 MB</para>
+			<para>glib</para>
 		  </listitem>
 		  <listitem>
-			<para>linc-0.5.0.tar.bz2 &mdash; 4 MB</para>
+			<para>linc</para>
 		  </listitem>
 		  <listitem>
-			<para>atk-1.0.2.tar.bz2	&mdash; 5 MB</para>
+			<para>atk</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-common-1.2.4.tar.bz2 &mdash; 2 MB</para>
+			<para>gnome-common</para>
 		  </listitem>
 		  <listitem>
-			<para>pango-1.0.3.tar.bz2 &mdash; 26 MB</para>
+			<para>pango</para>
 		  </listitem>
 		  <listitem>
-			<para>libIDL-0.8.0.tar.bz2 &mdash; 4 MB</para>
+			<para>libIDL</para>
 		  </listitem>
 		  <listitem>
-			<para>ORBit2-2.4.0.tar.bz2 &mdash; 47 MB</para>
+			<para>ORBit2</para>
 		  </listitem>
 		  <listitem>
-			<para>intltool-0.22.tar.bz2	&mdash; 1 MB</para>
+			<para>intltool</para>
 		  </listitem>
 		  <listitem>
-			<para>bonobo-activation-1.0.2.tar.bz2 &mdash; 14 MB</para>
+			<para>bonobo-activation</para>
 		  </listitem>
 		  <listitem>
-			<para>gtk+-2.0.5.tar.bz2 &mdash; 124 MB</para>
+			<para>gtk+</para>
 		  </listitem>
 		  <listitem>
-			<para>GConf-1.2.0.tar.bz2 &mdash; 24 MB</para>
+			<para>GConf</para>
 		  </listitem>
 		  <listitem>
-			<para>libart_lgpl-2.3.9.tar.bz2	&mdash; 4 MB</para>
+			<para>libart_lgpl</para>
 		  </listitem>
 		  <listitem>
-			<para>libzvt-2.0.1.tar.bz2 &mdash; 7 MB</para>
+			<para>libzvt</para>
 		  </listitem>
 		  <listitem>
-			<para>libbonobo-2.0.0.tar.bz2 &mdash; 39 MB</para>
+			<para>libbonobo</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-mime-data-2.0.0.tar.bz2 &mdash; 4 MB</para>
+			<para>gnome-mime-data</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-vfs-2.0.1.tar.bz2 &mdash; 37 MB</para>
+			<para>gnome-vfs</para>
 		  </listitem>
 		  <listitem>
-			<para>libglade-2.0.0.tar.bz2 &mdash; 7 MB</para>
+			<para>libglade</para>
 		  </listitem>
 		  <listitem>
-			<para>libgnome-2.0.1.tar.bz2 &mdash; 13 MB</para>
+			<para>libgnome</para>
 		  </listitem>
 		  <listitem>
-			<para>libgnomecanvas-2.0.1.tar.bz2 &mdash; 15 MB</para>
+			<para>libgnomecanvas</para>
 		  </listitem>
 		  <listitem>
-			<para>libbonoboui-2.0.0.tar.bz2 &mdash; 66 MB</para>
+			<para>libbonoboui</para>
 		  </listitem>
 		  <listitem>
-			<para>libgnomeui-2.0.1.tar.bz2 &mdash; 53 MB</para>
+			<para>libgnomeui</para>
 		  </listitem>
 		  <listitem>
-			<para>libwnck-0.14.tar.bz2 &mdash; 19 MB</para>
+			<para>libwnck</para>
 		  </listitem>
 		  <listitem>
-			<para>libgnomeprint-1.115.0.tar.bz2	&mdash; 24 MB</para>
+			<para>libgnomeprint</para>
 		  </listitem>
 		  <listitem>
-			<para>libgnomeprintui-1.115.0.tar.bz2 &mdash; 10 MB</para>
+			<para>libgnomeprintui</para>
 		  </listitem>
 		  <listitem>
-			<para>libgtop-2.0.0.tar.bz2	&mdash; 18 MB</para>
+			<para>libgtop</para>
 		  </listitem>
 		  <listitem>
-			<para>librsvg-2.0.0.tar.bz2 &mdash; 3 MB</para>
+			<para>librsvg</para>
 		  </listitem>
 		  <listitem>
-			<para>gail-0.16.tar.bz2 &mdash; 34 MB</para>
+			<para>gail</para>
 		  </listitem>
 		  <listitem>
-			<para>eel-2.0.0.tar.bz2 &mdash; 24 MB</para>
+			<para>eel</para>
 		  </listitem>
 		  <listitem>
-			<para>libgtkhtml-2.0.0.tar.bz2 &mdash; 133 MB</para>
+			<para>libgtkhtml</para>
 		  </listitem>
 		  <listitem>
-			<para>gtk-engines-1.9.0.tar.bz2 &mdash; 6 MB</para>
+			<para>gtk-engines</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-desktop-2.0.2.tar.bz2 &mdash; 12 MB</para>
+			<para>gnome-desktop</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-panel-2.0.1.tar.bz2 &mdash; 53 MB</para>
+			<para>gnome-panel</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-session-2.0.1.tar.bz2 &mdash; 15 MB</para>
+			<para>gnome-session</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-terminal-2.0.0.tar.bz2 &mdash; 11 MB</para>
+			<para>gnome-terminal</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-utils-2.0.0.tar.bz2 &mdash; 27 MB</para>
+			<para>gnome-utils</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-applets-2.0.0.tar.bz2 &mdash; 51 MB</para>
+			<para>gnome-applets</para>
 		  </listitem>
 		  <listitem>
-			<para>control-center-2.0.0.tar.bz2 &mdash; 47 MB</para>
+			<para>control-center</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-games-2.0.1.tar.bz2 &mdash; 73 MB</para>
+			<para>gnome-games</para>
 		  </listitem>
 		  <listitem>
-			<para>bug-buddy-2.2.0.tar.bz2 &mdash; 7 MB</para>
+			<para>bug-buddy</para>
 		  </listitem>
 		  <listitem>
-			<para>eog-1.0.1.tar.bz2 &mdash; 16 MB</para>
+			<para>eog</para>
 		  </listitem>
 		  <listitem>
-			<para>nautilus-2.0.0.tar.bz2 &mdash; 95 MB</para>
+			<para>nautilus</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-system-monitor-2.0.0.tar.bz2 &mdash; 8 MB</para>
+			<para>gnome-system-monitor</para>
 		  </listitem>
 		  <listitem>
-			<para>yelp-1.0.1.tar.bz2 &mdash; 10 MB</para>
+			<para>yelp</para>
 		  </listitem>
 		  <listitem>
-			<para>gedit-2.0.0.tar.bz2 &mdash; 7 MB</para>
+			<para>gedit</para>
 		  </listitem>
 		  <listitem>
-			<para>librep-0.16.tar.bz2	&mdash; 10 MB</para>
+			<para>librep</para>
 		  </listitem>
 		  <listitem>
-			<para>rep-gtk-0.16.tar.bz2 &mdash; 8 MB</para>
+			<para>rep-gtk</para>
 		  </listitem>
 		  <listitem>
-			<para>sawfish-2.0.tar.bz2 &mdash; 17 MB</para>
+			<para>sawfish</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-media-2.0.0.tar.bz2 &mdash; 29 MB</para>
+			<para>gnome-media</para>
 		  </listitem>
 		  <listitem>
-			<para>gdm-2.4.0.0.tar.bz2 &mdash; 29 MB</para>
+			<para>gdm</para>
 		  </listitem>
 		  <listitem>
-			<para>at-spi-1.0.1.tar.bz2 &mdash; 23 MB</para>
+			<para>at-spi</para>
 		  </listitem>
 		  <listitem>
-			<para>libgail-gnome-1.0.0.tar.bz2 &mdash; 5 MB</para>
+			<para>libgail-gnome</para>
 		  </listitem>
 		  <listitem>
-			<para>gconf-editor-0.2.tar.bz2 &mdash; 4 MB</para>
+			<para>gconf-editor</para>
 		  </listitem>
 		  <listitem>
-		  	<para>gnome2-user-docs-1.93.tar.bz2 &mdash; 4 MB</para>
+		  	<para>gnome2-user-docs</para>
 		  </listitem>
 		</orderedlist>
 		In addition to the disk space required to build each package
@@ -660,8 +658,8 @@
     <sect2 id="parallellinstall">
       <title>Parallel Install</title>
       <para>
-		GNOME 2 may be installed in parallel with the GNOME 1.4.1 release
-		libraries, allowing you to use GNOME 2's primary desktop functions
+		&g2x; may be installed in parallel with the GNOME 1.4.1 release
+		libraries, allowing you to use &g2x;'s primary desktop functions
 		&mdash; <application>panels</application>, 
 		<application>Nautilus</application>, etc. &mdash; while also running 
 		applications that have not yet been ported and therefore still 
@@ -677,9 +675,9 @@
     </sect2>
    
       <sect2 id="garnome">
-	<title>Garnome</title>
-	<para><application>Garnome</application> builds GNOME 2 from released
-	tarballs. It is maintained by Jeff Waugh, the GNOME 2 release
+	<title>GARNOME</title>
+	<para><application>GARNOME</application> builds &g2x; from released
+	tarballs. It is maintained by Jeff Waugh, the &g2; release
 	  coordinator, and can be found <ulink
 					       url="http://www.gnome.org/~jdub/garnome/">here</ulink>.</para>
     
@@ -866,7 +864,7 @@
     <sect3 id="linux">
       <title>GNU/Linux</title>
       <para>
-		Building GNOME 2 on GNU/Linux requires a number of standard packages
+		Building &g2x; on GNU/Linux requires a number of standard packages
 		included with most distributions. Below are listings of the packages as
 		they are named in several of the most common distributions.
 	  </para>
@@ -1047,7 +1045,7 @@
       <sect4 id="mandrake">
 		<title>Mandrake</title>
 		<para>
-		  GNOME 2 binary packages are available in Mandrake Cooker <ulink
+		  &g2; binary packages are available in Mandrake Cooker <ulink
 			url="http://www.mandrakelinux.com/en/cookerdevel.php3">(ie
 			experimental / unstable) distribution
 			(http://www.mandrakelinux.com/en/cookerdevel.php3 )</ulink>
@@ -1056,7 +1054,7 @@
 			  These packages haven't yet been customized to fully integrate in
 			  Mandrake Linux (all available applications are not show in menu,
 			  some features available in Mandrake version of GNOME 1.4 have not
-			  been ported yet to GNOME 2).
+			  been ported yet to &g2;).
 			</para>
 		  </warning>
 		  These packages should only be used on full cooker system (not
@@ -1123,7 +1121,7 @@
 	  <title>Gentoo</title>
 	  <para>
 	    <ulink url="http://www.gentoo.org/">Gentoo Linux</ulink> provides
-	    GNOME 2 support. Details <ulink
+	    &g2; support. Details <ulink
 	    url="http://www.gentoo.org/~spider/">here</ulink>.
 	  </para>
 	</sect4>
@@ -1204,6 +1202,22 @@
 		</note>
       </para>
     </sect2>
+    
+	<sect2>
+      <title>Nautilus default desktop selections have changed colors</title>
+      <para>
+      In the process of fixing bug <ulink
+      url="http://bugzilla.gnome.org/show_bug.cgi?id=82194">bug
+      82194</ulink>, the way nautilus displays selected text on the
+      desktop was changed; this makes all existing nautilus themes use
+      the gtk selection color in this case. This may look like a bug
+      but it is, in fact, a feature :) If the old behavior is still
+      desired, the theme has to be fixed. For more on this, including
+      how to fix themes to display the old behavior, see Federico's
+      emails to <ulink
+      url="http://lists.gnome.org/archives/nautilus-list/2002-August/msg00041.html">nautilus
+      list.</ulink></para>
+    </sect2>
 
   </sect1>
   <sect1 id="errors">
@@ -1217,7 +1231,7 @@
     <para>
 We also encourage our users to report bugs so that they
 can be fixed. The best way
-to report bugs found in GNOME 2 is to use the <ulink
+to report bugs found in &g2x; is to use the <ulink
 url="http://bugzilla.gnome.org/simple-bug-guide.cgi">Simple Bug
 Guide</ulink>. The Simple Bug Guide will take you through the
 necessary steps to file a quality bug report, and make sure that it is
@@ -1230,57 +1244,8 @@ reported that way.
     <para>
       More details on bugs already reported can be found at our <ulink
 		url="http://bugzilla.gnome.org/gnome-20-report.html">Bugzilla</ulink>.  Among the most 
-	  prominent GNOME 2 bugs:
+	  prominent &g2x; bugs:
     </para>
-<!--
-Fixed in GNOME2.0.1.
-    <sect2>
-      <title>NFS-mounted $HOME directory</title>
-      <para>
-		For people with NFS-mounted <envar>$HOME</envar> directories, you 
-		cannot drag files from the <application>Nautilus</application> view 
-		windows to the <guilabel>trashcan</guilabel> (you get an error about 
-		the trash file not being a directory). You can still delete files by 
-		selecting and then pressing the <keycap>Delete</keycap> key, or by 
-		context-clicking on the item in question and selecting 
-		<guimenuitem>Send to Trash</guimenuitem>. This will be
-		fixed in the next release, and is <ulink
-		url="http://bugzilla.gnome.org/show_bug.cgi?id=82644">bug
-		82644</ulink>.
-      </para>
-    </sect2>
-
-    <sect2 id="dotgnome">
-      <title>.gnome</title>
-      <para>
-		GNOME 2 uses <filename>$HOME/.gnome2</filename> and 
-		<filename>$HOME/.gnome2_private</filename> as 
-		directories for storing stuff. However, you cannot completely remove 
-		<filename>$HOME/.gnome</filename>, since
-		gnome-vfs needs it and does not create it, so any modifications that
-		gnome-vfs needs to save in the user's directory will not be saved. 
-		Thus, users need to create a 
-		<filename>$HOME/.gnome</filename> directory before 
-		starting GNOME 2. This will particularly affect people doing an 
-		install on a clean system or those who have removed .gnome to get 
-		around some upgrade problems. This will be fixed in
-		2.0.1 and is <ulink
-		url="http://bugzilla.gnome.org/show_bug.cgi?id=84183">bug
-		84183</ulink>.
-      </para>
-    </sect2>
-    <sect2>
-      <title>Cannot drag and drop from Nautilus list view</title>
-      <para>
-You can't drag and drop files from the list view as you can in the
-		icon view. It is hoped that this will be fixed in the
-		next release. You can track progress on this bug or
-		contribute yourself via <ulink
-		url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">bug
-		74974</ulink>.
-      </para>
-    </sect2>
--->
     <sect2>
       <title>Menu editing is incomplete</title>
       <para>
@@ -1296,12 +1261,12 @@ url="http://www.gnome.org/start/2.0/menuediting.html">here</ulink>.
       </para>
     </sect2>
     <sect2>
-      <title>new mime type handlers are not always visible in
+      <title>New mime type handlers are not always visible in
 	    nautilus</title> 
 <para>
-Mime-type handling in GNOME 2 is generally much improved over
+Mime-type handling in &g2x; is generally much improved over
 	    GNOME1.4. However, when a new mime-type handler is
-	    installed in GNOME 2, it does not show up correctly in
+	    installed in &g2x;, it does not show up correctly in
 	    Nautilus right-click menus. This is now fixed in CVS but
 	    was not fixed in time for the 2.0.1 release.</para>
     </sect2>
@@ -1314,21 +1279,6 @@ Mime-type handling in GNOME 2 is generally much improved over
       url="http://bugzilla.gnome.org/show_bug.cgi?id=78007">bug
       78007</ulink> or in the libzvt-i18n branch of the zvt module.
 	    </para>
-    </sect2>
-    <sect2>
-      <title>Nautilus default desktop selections have changed colors</title>
-      <para>
-      In the process of fixing bug <ulink
-      url="http://bugzilla.gnome.org/show_bug.cgi?id=82194">bug
-      82194</ulink>, the way nautilus displays selected text on the
-      desktop was changed; this makes all existing nautilus themes use
-      the gtk selection color in this case. This may look like a bug
-      but it is, in fact, a feature :) If the old behavior is still
-      desired, the theme has to be fixed. For more on this, including
-      how to fix themes to display the old behavior, see Federico's
-      emails to <ulink
-      url="http://lists.gnome.org/archives/nautilus-list/2002-August/msg00041.html">nautilus
-      list.</ulink></para>
     </sect2>
     <sect2>
       <title>Some features formerly provided by viewports no longer available
@@ -1355,11 +1305,84 @@ In order to simplify sawfish code and user interface, viewports have
 	  </para>
     </sect2>
   </sect1>
+  
+  <sect1 id="fixed">
+    <title>Fixed in &g2x;</title>
+    <para>
+		The GNOME 2.0.x Desktop releases are devoted to bugfixes, translations,
+		user interface consistency, and general polish of our major 2.0 Desktop
+		release.  In &g2x;, you'll see the results of our user interface
+		review and continued performance and stability fixes:
+		<itemizedlist>
+			<listitem>
+				<para>
+					<ulink url="http://makeashorterlink.com/?O1B021581">733 total</ulink> GNOME2 bugs marked fixed
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					<ulink url="http://makeashorterlink.com/?F29412771">310 high or greater priority</ulink> GNOME2 bugs marked fixed
+				</para>
+			</listitem>
+		</itemizedlist>
+		Note that these lists include fixes on unreleased branches, and a few things that were fixed after the 2.0.1 tarballs were released, so the numbers may be slightly inflated.
+	</para>
+	<para>
+		Significant bugs mentioned in the previous release notes, now fixed, are listed here:
+	</para>
+	
+    <sect2>
+      <title>NFS-mounted $HOME directory</title>
+      <para>
+		FIXED: For people with NFS-mounted <envar>$HOME</envar> directories, you 
+		cannot drag files from the <application>Nautilus</application> view 
+		windows to the <guilabel>trashcan</guilabel> (you get an error about 
+		the trash file not being a directory). You can still delete files by 
+		selecting and then pressing the <keycap>Delete</keycap> key, or by 
+		context-clicking on the item in question and selecting 
+		<guimenuitem>Send to Trash</guimenuitem>. This will be
+		fixed in the next release, and is <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=82644">bug
+		82644</ulink>.
+      </para>
+    </sect2>
+
+    <sect2 id="dotgnome">
+      <title>.gnome</title>
+      <para>
+		FIXED: &g2; uses <filename>$HOME/.gnome2</filename> and 
+		<filename>$HOME/.gnome2_private</filename> as 
+		directories for storing stuff. However, you cannot completely remove 
+		<filename>$HOME/.gnome</filename>, since
+		gnome-vfs needs it and does not create it, so any modifications that
+		gnome-vfs needs to save in the user's directory will not be saved. 
+		Thus, users need to create a 
+		<filename>$HOME/.gnome</filename> directory before 
+		starting &g2;. This will particularly affect people doing an 
+		install on a clean system or those who have removed .gnome to get 
+		around some upgrade problems. This will be fixed in
+		2.0.1 and is <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=84183">bug
+		84183</ulink>.
+      </para>
+    </sect2>
+    <sect2>
+      <title>Cannot drag and drop from Nautilus list view</title>
+      <para>
+FIXED: You can't drag and drop files from the list view as you can in the
+		icon view. It is hoped that this will be fixed in the
+		next release. You can track progress on this bug or
+		contribute yourself via <ulink
+		url="http://bugzilla.gnome.org/show_bug.cgi?id=74974">bug
+		74974</ulink>.
+      </para>
+    </sect2>
+  </sect1>
 
   <sect1 id="gettinginvolved">
     <title>Getting Involved</title>
     <para>
-      The core of GNOME 2's
+      The core of GNOME's
       success is its volunteers, both developers and users. As a user, your
       contribution can be as simple as filing good bug reports. GNOME's bugs are
       found at our <ulink url="http://bugzilla.gnome.org/">Bugzilla</ulink>. Bugmeister Luis
