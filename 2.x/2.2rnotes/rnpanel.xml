@@ -1,6 +1,6 @@
 
     <title>Panel</title>
-    <para>The panel can now be themed along with the rest of the desktop, using GNOME's new icon theming, which allows all applications (including the panel, nautilus, and others) to share icons for commonly used concepts like folders, file types, and directional arrows.</para>
+    <para>The panel can now be themed along with the rest of the desktop, using GNOME's new icon theming, which allows all applications (including the panel, file manager, and others) to share icons for commonly used concepts like folders, file types, and directional arrows.</para>
 
     <para>Here are a few of the more significant GNOME panel improvements:</para>
 
@@ -19,7 +19,7 @@
     </sect3>
 
     <sect3><title>Search For Files</title>
-    <para>As before, you can now quickly find files via the Actions menu. Now it has an improved user interface and better integration with the file manager, so you can drag and drop files from the results window. And, like the file manager, it can open files with the appropriate applications.
+    <para>As before, you can quickly find files via the Actions menu. Now it has an improved user interface and better integration with the file manager, so you can drag and drop files from the results window. And, like the file manager, it can open files with the appropriate applications.
     </para>
 
 <figure>
