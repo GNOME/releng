@@ -36,12 +36,12 @@
 
     <para>Of course GNOME &version; includes all of the improvements made in
     GNOME &oldversion;, which you can learn about in the GNOME &oldversion; <ulink
-    url="http://www.gnome.org/start/2.4/notes/">release notes</ulink>.</para>
+    url="http://www.gnome.org/start/2.6/notes/">release notes</ulink>.</para>
 
     <para>The Desktop release contains all the applications needed
   to provide basic user functionality. Major applications
   such as <application>Gnumeric</application> and
-  <application>Evolution</application> are also available, but are
+  <application>OpenOffice.org</application> are also available, but are
   developed in parallel on their own release cycle rather than
   being included in the core GNOME release.</para>
 
@@ -123,9 +123,10 @@
         <para>GNOME operates on a time-based release philosophy, an
     attempt to continuously provide the best of our developers' efforts
     to users as quickly as we can. Six months after GNOME &version;,
-    we anticipate that GNOME &nextversion; will feature integrated email,
-    contacts, calendar, and multimedia funtionality, and further advances in
-    accessibility, usability and internationalization.</para>
+    we anticipate that GNOME &nextversion; will feature integrated
+    multimedia funtionality, better interoperability with hardware through
+    freedesktop.org, and further advances in accessibility, usability and
+    internationalization.</para>
 </sect1>
   <sect1 id="rngettinginvolved">
     <title>Getting Involved</title>

@@ -3,6 +3,7 @@
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "figures/">
 <!ENTITY version "2.8">
+<!ENTITY oldversion "2.6">
 ]>
 <sect2 id="rndesktop">
 
@@ -10,69 +11,57 @@
 
     <sect3 id="rnnautilus"><title>The File Manager</title>
     <para>
-    Nautilus, the GNOME file manager, has several significant improvements in GNOME &version;. In particular, it now has a simpler
-    and more intuitive user interface, and has improved responsiveness. This should make users feel more comfortable and productive.
+    Nautilus, the GNOME file manager, has several significant improvements in GNOME &version;. These
+    include continued work on the spatial mode debuted in GNOME &oldversion; as well as a new way of
+    handling file (MIME) types shared with freedesktop.org and KDE.
     </para>
 
-    <para>This new &quot;spatial&quot; user interface presents just one window for each folder, and remembers their location
-    and size. The user can then think of the window as being the folder. When the user opens a folder again, it will appear just
-    as it did before, so that the user can recognize it. If it is already open, it will just be brought to the front.</para>
+    <para>
+    This new file type system allows users to select an application out of a list of applications
+    available to handle the particular file.
+    </para>
 
-    <figure id="rnscreenshot-nautilus-spatial">
-      <title>Simplified file management - the window is the folder</title>
+    <figure id="rnscreenshot-nautilus-new-mime">
+      <title>New MIME system</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-spatial.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;gnome-new-mime-system.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>Spatial Nautilus</phrase></textobject>
+            <textobject><phrase>Select an application</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
 
-    <para>Continued use should show that a great deal of thought has gone into this new user interface, though at first you might
-    notice only that new folders are opened in new windows instead of changing the existing window. As you navigate to a folder,
-    you might find that there are too many folders open on your screen. You can:
-    <itemizedlist>
-      <listitem><para>Hold down the shift key when double-clicking, or double-click the middle mouse button. This closes the current folder when opening the new folder.</para></listitem>
-      <listitem><para>Choose &quot;Close Parent Folders&quot; from the File menu, or press Shift-Control-W.</para></listitem>
-      <listitem><para>Choose &quot;Open Location&quot; from the File menu, or press Control-L.</para></listitem>
-    </itemizedlist>
-    </para>
+     <para>If your application hasn't registered itself as able to handle a particular type of
+     document you can add it manually. You can also use the properties page to select your default
+     application for files of that type.</para>
 
-    <para>The parent-folders button shows the folder's full path, and lets you quickly open one of the parent folders. You can find this button at the bottom-left of the folder window.
-
-    <figure id="rnscreenshot-nautilus-parentfolders">
-      <title>The parent-folders button</title>
+    <figure id="rnscreenshot-nautilus-new-mime-properties">
+      <title>Add a new file handler</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-parentfolders.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;gnome-vfs-properties-edit-mime.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>Parent Folders</phrase></textobject>
+            <textobject><phrase>Add an application to the list of handlers</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
 
+    <para>
+    GNOME now supports Apple's OpenTalk protocol (previously named Rendezvous) also known as
+    DNS Service Discovery. This allows you to view available shares in your Network view.
     </para>
-
-    <para>Because some users are more familiar with the previous &quot;browse&quot; user interface, this is still available from the right-click menu.</para>
-
-    <para>The top-level &quot;Computer&quot; location brings together file system, removable media, and network shares.</para>
-
-    <figure id="rnscreenshot-nautilus-computer">
-      <title>The Computer location</title>
+    <figure id="rnscreenshot-nautilus-rendezvous">
+      <title>Network Shares</title>
         <screenshot>
           <mediaobject>
-            <imageobject><imagedata fileref="&urlfiguresbase;nautilus-computer.png" format="PNG"/>
+            <imageobject><imagedata fileref="&urlfiguresbase;gnome-vfs-rendezvous.png" format="PNG"/>
             </imageobject>
-            <textobject><phrase>Computer</phrase></textobject>
+            <textobject><phrase>Network Shares, featuring an OpenTalk share</phrase></textobject>
           </mediaobject>
        </screenshot>
      </figure>
-
-     <para>This is also where you will see your network drives, because you can now mount Windows SMB servers, and ftp, sftp (ssh),
-     or WebDAV locations here. For instance, you can use this to change the files on your website as if they were
-     in a local folder. And, in GNOME &version; you no longer need to repeatedly enter your password for network servers.</para>
-
+<!--
     <figure id="rnscreenshot-nautilus-sftp">
       <title>A network drive</title>
         <screenshot>
@@ -83,31 +72,21 @@
           </mediaobject>
        </screenshot>
      </figure>
-    
-     <para>Other new file manager features include:
-     <itemizedlist>
-       <listitem><para>Complete keyboard navigation, so more experienced users can work even more efficiently.</para></listitem>
-       <listitem><para>Type the first letters of a file to quickly select it.</para></listitem>
-       <listitem><para>User-definable template files to easily create new documents.</para></listitem>
-       <listitem><para>Customizable list view columns.</para></listitem>
-       <listitem><para>Emblem support for list views, with a better treeview in the sidebar.</para></listitem>
-       <listitem><para>Better speed detection for the CD burner.</para></listitem>
-       <listitem><para>More sound formats identified by the file manager.</para></listitem>
-       <listitem><para>New plug-in system for developers.</para></listitem>
-     </itemizedlist>
-     </para>
+-->   
 
   </sect3>
 
-  <sect3 id="rngeneral">
-    <title>General</title>
-    
-    <para>GNOME &version; and GNOME applications benefit from improvements in the user interface toolkit. Most
-    importantly, you will notice an improved file selection dialog box when opening or saving files. This shows
-    the same filesystem icons as you see in the &quot;Computer&quot; location on your desktop, and can remember
-    bookmarks for your favourite locations, so you can quickly get to your files.</para>
+  <sect3 id="rnevolution">
+    <title>Evolution</title>
+   
+   <para>
+   GNOME &version; ships with Evolution 2.0, the integrated Email and Groupware
+   client. Evolution 2.0 includes support for traditional mail setups, as well
+   as support for Groupwise and Exchange.
+   </para>
 
-    <figure id="rnscreenshot-filechooser">
+<!-- fixme: evolution screenshot -->
+<!-- <figure id="rnscreenshot-filechooser">
       <title>The new File Chooser dialog</title>
       <screenshot>
         <mediaobject>
@@ -115,13 +94,14 @@
           <textobject><phrase>The new File Chooser dialog.</phrase></textobject>
         </mediaobject>
       </screenshot>
-    </figure>
+    </figure> -->
     
-    <para>Other basic improvements include
-    <itemizedlist>
-      <listitem><para>An improved Combo box, to choose an item from a list.</para></listitem>
-      <listitem><para>Performance improvements when showing tables.</para></listitem>
-    </itemizedlist>
+    <para>
+    Appointments and tasks are easier to manage now they are integrated into
+    the GNOME clock on your panel. Support for multiple backends now allow you
+    to keep your appointments in check. Have separate calendars for your
+    personal and work appointments, as well as your appointment book from
+    Exchange and online calendars available over the internet.
     </para>
 
   </sect3>
