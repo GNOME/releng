@@ -2,7 +2,7 @@ Suggestions for Gnome 1.4 Extra App Release:
 
 Applications being replaced but still offered:
 
-gmc (url?)
+gmc (http://www.gnome.org/mc/)
 gnome-pim (http://www.gnome.org/gnome-office/gnome-pim.shtml)
     ...may actually be included in the main release of gnome 1.4.  it
     all depends on whether evolution is ready in time or not.  
@@ -61,4 +61,3 @@ Applets and Launchers:
 
 Merlin's CPU Fire Applet (http://nitric.com/freeware/)
 googlizer (ftp://ftp.linux.org.uk/pub/linux/alan/googlizer.tar.gz)
-
