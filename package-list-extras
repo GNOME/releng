@@ -1,0 +1,50 @@
+See  policy/package-list-policy.txt for an exmplanation of the fields
+
+
+Package Name        Current    Stabilizing   Critical?  Suitable  Planning    Contact
+                    Version    Unstable?                Version   New
+                                                        Exists?   Release?
+gmc
+
+Gnumeric
+Dia
+Guppi
+AbiWord
+GnuCash
+Sodipodi
+gnome-db
+toutdoux
+
+Anjuta IDE
+MemProf
+
+The GIMP
+gpaint
+
+gabber
+galeon
+gtm
+Pan
+Balsa
+Firestarter
+
+gnomoku
+bombermaze
+XPenguins 
+  Applet
+Atomix
+
+gedit
+Glimmer
+
+gfax
+Figaro's 
+  Password 
+  Manager
+
+radioactive
+
+Merlin's 
+  CPU Fire 
+  Applet
+googlizer
