@@ -122,11 +122,11 @@ xchat			-		-		-			-
 </section>
 
 <section title="Language Bindings">
-gnome-python		-		1.99.5		-			James Henstridge <james@daa.com.au>, Matt Wilson <msw@redhat.com>
+gnome-python		gnome-python/gnome-python	1.99.6		not frozen		James Henstridge <james@daa.com.au>, Matt Wilson <msw@redhat.com>
 gnomemm			-		-		-			-
 gtkmm			-		-		-			-
 libsigc++		-		-		-			-
-pygtk			-		1.99.5		not frozen		James Henstridge <james@daa.com.au>
+pygtk			gnome-python/pygtk		1.99.6		not frozen		James Henstridge <james@daa.com.au>
 </section>
 
 <section title="Developer Carpet Bag">
