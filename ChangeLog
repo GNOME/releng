@@ -1,3 +1,8 @@
+2001-02-15  Ian Peters  <itp@ximian.com>
+
+	* package-list-extras: updated radioactive and gnomoku
+	* gnome-extras-1.4beta1-versions: ditto
+	
 2001-02-15  Jamin Gray <jgray@writeme.com>
 
     * gnome-extras-1.4beta1-version: added eog to the version lists

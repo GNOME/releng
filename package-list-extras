@@ -31,7 +31,7 @@ Pan                0.9.2                                                      pa
 Balsa              1.0.0                                                      Jay Painter <jpaint@balsa.net>
 Firestarter        0.5.1       yes           no         yes       yes         Tomas Junnonen <majix@sci.fi>
 
-gnomoku            0.3                                                        Gergõ Érdi <cactus@cactus.rulez.org> 
+gnomoku            1.0         yes           no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org> 
 bombermaze         0.6.4       no            no         yes       yes         Sydney Andrew Tang <stang@users.sourceforge.net>
 XPenguins 
   Applet           0.9beta1                                                   Robin Hogan <R.J.Hogan@reading.ac.uk>
@@ -45,7 +45,7 @@ Figaro's
   Password 
   Manager          0.53beta    no            no         yes       no          John Conneely <jconneely@figaro.org>
 
-radioactive        1.0                                                        Gergõ Érdi <cactus@cactus.rulez.org>
+radioactive        1.1         no            no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org>
 
 Merlin's 
   CPU Fire 
