@@ -1,3 +1,11 @@
+2003-08-27 Luis Villa <louie@ximian.com>
+
+	* rna11y.xml: fix tyop
+	* release-notes.xml: wording cleanups
+	* rnepiphany.xml: wording cleanups
+	* rnpdf.xml: flesh out a touch.
+	* rni18n.xml: tyop
+	
 2003-08-26 John Fleck <jfleck@inkstain.net>
 
 	* rn18n.xml

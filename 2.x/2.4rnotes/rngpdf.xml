@@ -5,11 +5,12 @@
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 <sect2 id="rngpdf">
-  <title>GPDF</title>
-  <para>GNOME &version; includes a new viewer for <acronym>PDF</acronym>
-  files. <application>GPDF</application>, written in its most recent incarnation
-    by Martin Kretzschmar, is based on the venerable
-  <application>XPDF</application>.
+  <title>GPDF</title> <para>GNOME &version; includes a new viewer for
+  <acronym>PDF</acronym> files. <application>GPDF</application>,
+  written in its most recent incarnation by Martin Kretzschmar, is
+  based on the venerable <application>XPDF</application> and features
+  high-quality rendering of PDF files not previously available as part
+  of the GNOME desktop.
 
 <!--    
     <figure id="rngpdfscreenshot"> 

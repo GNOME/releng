@@ -32,18 +32,20 @@
       user-requested enhancements, evidence of the user-driven community
       development process used to create each GNOME release.</para>
 
-    <para>GNOME runs on a variety of platforms, including GNU/Linux (commonly
-    called Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes
-    powerful features such as high-quality smooth text rendering, a first class
-    internationalization and accessibility infrastructure, including support for
-    bi-directional text.</para>
+    <para>GNOME runs on a variety of platforms, including GNU/Linux
+    (commonly called Linux), Solaris, HP-UX, BSD and Apple's
+    Darwin. GNOME includes powerful features such as world-class
+    smooth text rendering, a first-class accessibility infrastructure,
+    and a complete internationalization infrastructure that includes
+    support for bi-directional text.</para>
     
     <para>GNOME provides a user-friendly environment that "just works"
     for everyday users, without excess complexity, while at the same
     time providing the rich flexibility experienced developers
     demand. We have tried to avoid unnecessary complications or
     obscure features, sticking instead to a clear, unified
-    vision.</para>
+    vision of a usable, powerful desktop.</para>
+
 <!-- my inclination (jfleck) is to not do this, unless we're really clear what it is
     we're willing to commit to
 

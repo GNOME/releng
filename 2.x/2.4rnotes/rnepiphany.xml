@@ -27,29 +27,19 @@
 -->
   </para>
   <para>
-    Epiphany uses the simplest interface possible for a browser. Simple does not
-    necessarily mean less powerful. Its design is based on the belief that
-    commonly used browsers of today are too big, buggy, and bloated. Epiphany
-    addresses simplicity with a small browser designed for the web &mdash; not
-    mail, newsgroups, file management, instant messaging or coffee making.
-</para>
-  <para>
-    Epiphany also address simplicity with modularity to make a light and
-    powerful application. If something can be implemented using external
-    applications or components, Epiphany's developers use it rather than wasting
-    resources in the web browser. Integration is achieved with CORBA, Bonobo, and
-    the command line.
+    Epiphany uses the simplest interface possible for a
+    browser. Simple does not necessarily mean less powerful. Its
+    design is based on the belief that commonly used browsers of today
+    are too big, buggy, and bloated. Epiphany achieves simplicity by
+    focusing on web browsing, and by tightly integrating with other
+    parts of the GNOME platform, instead of reproducing that
+    functionality in the browser.
   </para>
   <para>
-    The introduction of non-standard features in browsers could make it
-    difficult or impossible to use alternative products like Epiphany if
-    developers embrace them. Alternative (standards complying) browsers could
-    not be able to fully access web sites making use of these features. The
-    success of non-standard features can ultimately lead to forcing one browser,
-    on one platform to dominate the market.
-  </para>
-  <para>
-    Standards compliance ensures the freedom of choice. Epiphany aims to achieve
-    this. 
-  </para>
+    Epiphany also works to ensure freedom of choice by being standards
+    compliant. Respecting web standards, so that users can see the
+    same content regardless of their choice of browser or platform, is
+    an important step towards guaranteeing freedom of choice. Epiphany
+    and GNOME seek to ensure choice by using Gecko, the most
+    standards-compliant rendering engine available.</para>
 </sect2>
