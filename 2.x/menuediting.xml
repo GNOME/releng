@@ -59,7 +59,7 @@
 	other rules.
       </para>
       <para>
-	Each menu is based on a .directory file, which for all intensive
+	Each menu is based on a .directory file, which for all intents and
       purposes is another .desktop file, and associating .order file which is
       optional if you have no sub menus.
       </para>
@@ -115,7 +115,13 @@
 	$prefix/share/applications. The best advice is to look at the existing
 	examples of the various files and try to copy by example.
       </para>
-
+    <para>
+      The standard location for applications.vfolder.info is
+      <filename>$prefix/etc/gnome-vfs-2.0/vfolders</filename>. These can also be
+      mirrored in <filename>~/.gnome2/vfolders</filename>. If you want global
+      menus, edit files in <varname>$prefix</varname>, if you want per user edit
+      files in user directory.
+    </para>
       <sect2 id="addentries">
 	<title>To Add Menu Entries</title>
 	<para>
@@ -182,7 +188,7 @@
       <title>Additional Information</title>
       <para>
 	Additional details on manual editing of menus can be found <ulink
-									  url="http://www.redtux.demon.co.uk/docs/gnome_menu_edit_doc_20_6.html">
+									  url="http://www.redtux.demon.co.uk/docs/gnome_menu_edit_doc.20_6.html">
 									  here</ulink>.
       </para>
     </sect1>
