@@ -47,7 +47,6 @@ eog			=		1.109.0		blocking on old bonobo control grokkage (seth porting)	Seth Ni
 gdict			=		-		ported			-
 gdm			gdm2		2.3.90.1	porting			George Jirka <jirka@5z.com>
 gedit2			=		1.109.0		ported			Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
-ggv			=		-		ported, bonobized	Jaka Mocnik <jaka@gnu.org>
 gnome-audio		-		-		-			-
 gnome-control-center	-		-		-			Richard Hestilow <hestilow@ximian.com>
 gnome-core		=		1.5.4		see Desktop Core section		-
@@ -112,6 +111,7 @@ stripchart		=		-		* not necessary, applets do the same	-
 evolution		=		1.0.1		not ported			-
 gal			-		-		-			-
 galeon			=		1.1.1		not ported, waiting on mozilla		Marco Pesenti Gritti <marco@it.gnome.org>	
+ggv			=		-		ported, bonobized	Jaka Mocnik <jaka@gnu.org>
 gimp			-		-		-			-
 gnome-pim		=		-		* no porting action at all		-
 gnomemeeting		=		0.12.2		-		Damien Sandras <dsandras@seconix.com>
