@@ -1,3 +1,7 @@
+2005-03-09  Takeshi AIHANA <aihana@jcom.home.ne.jp>
+
+	* xml-ja/figures/*.png: Added screenshots for Japanese translation.
+
 2005-03-09  Funda Wang  <fundawang@linux.net.cn>
 
 	* zh_CN.po, xml-zh_CN/*: Added Simplified Chinese translation.
