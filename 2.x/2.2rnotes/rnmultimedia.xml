@@ -36,4 +36,9 @@
 </figure>
 
    </sect3>  
-   
+
+   <sect3><title>Thumbnailing</title> <para>In coordination with the
+    File Manager's new thumbnailing abilities, multimedia applications
+    can create thumbnails for many media types, including video.
+    </para>
+   </sect3>
