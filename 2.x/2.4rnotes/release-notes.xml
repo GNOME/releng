@@ -53,7 +53,7 @@
 	to provide basic user functionality. Major applications
 	such as <application>Gnumeric</application> and
 	<application>Evolution</application> also are available, but are
-	developed in parallel on their own natural release cycle rather than
+	developed in parallel on their own release cycle rather than
 	being included in the core GNOME release.</para>
 
     <para>GNOME is part of the GNU Project, and is <ulink

@@ -6,11 +6,12 @@
 ]>
 <sect2 id="rnapplets">
   <title>Applets</title>
-  <para>Maintainer Kevin Vandersloot and his team have done substantial work on
-  the GNOME applets package, one of the core sources of GNOME's functionality. A
-  new Sticky Notes applet by Loban Rahman has been added, and major effort,
-  primarily by Dennis Cranston, has gone into usability to make the applets
-  behavior consistent with GNOME's Human Interface Guidelines.
+  <para>Maintainer Kevin Vandersloot and the many GNOME Applets hackers have
+  done substantial work on the GNOME applets package, one of the core sources of
+  GNOME's functionality. A new Sticky Notes applet by Loban Rahman has been
+  added, and major effort, primarily by Dennis Cranston, has gone into usability
+  to make the applets behavior consistent with GNOME's Human Interface
+  Guidelines.
 <!--    
     <figure id="rnstickynotes"> 
         <title>Sticky Notes Applet</title> 

@@ -76,13 +76,19 @@
       <para>Bob Doan for cdrw blanking support in nautilus-cd-burner</para>
     </listitem>
   <listitem>
-      <para></para>
+      <para>Christian Persch for plugging memory leaks,
+	improving the window/tab communication code, cleaning up the encoding and
+	languages implementation, speeding up the tabs menu updating in Epiphany
+	</para>
     </listitem>
   <listitem>
-      <para></para>
+      <para>David Bordoley for work in Epiphany's user interface, ensuring HIG
+      compliance, cleanliness, and general usability.</para>
     </listitem>
   <listitem>
-      <para></para>
+      <para>Xan Lopez for polishing Epiphany's rough edges, including
+	implementing drag and drop of urls of links to bookmarks toolbar and
+	adding nice touches to the bookmarks views like sorting</para>
     </listitem>
   <listitem>
       <para></para>

@@ -158,7 +158,7 @@
 
   <sect3 id="rngedit">
     <title>Gedit Syntax Highlighting</title>
-    <para>Paolo Maggi and the team of <application>Gedit</application> hackers
+    <para>Paolo Maggi and the <application>Gedit</application> hackers
     have added syntax highlighting to GNOME's workhorse text editor:
 
 <!--    

@@ -2,13 +2,13 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "../figures/">
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 ]>
 <sect2 id="rncontrolcenter">
   <title>Control Center</title>
   <para>
     The <application>Control Center</application> is the heart of "the desktop
-    that cares." Jonathan Blandford and his team have given the
+    that cares." Jonathan Blandford and his collaborators have given the
     <application>Control Center</application> a new central control panel for
     GNOME's accessibility features (courtesy of Bill Haneman) and integration with
     <application>Dr. Wright</application>, an application that gives you
