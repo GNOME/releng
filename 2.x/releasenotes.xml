@@ -512,10 +512,10 @@
 			<para>GConf-1.2.0.tar.bz2 &mdash; 24 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>libart_lgpl-2.3.8.tar.bz2	&mdash; 4 MB</para>
+			<para>libart_lgpl-2.3.9.tar.bz2	&mdash; 4 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>libzvt-2.0.0.tar.bz2 &mdash; 7 MB</para>
+			<para>libzvt-2.0.1.tar.bz2 &mdash; 7 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>libbonobo-2.0.0.tar.bz2 &mdash; 39 MB</para>
@@ -569,7 +569,7 @@
 			<para>gtk-engines-1.9.0.tar.bz2 &mdash; 6 MB</para>
 		  </listitem>
 		  <listitem>
-			<para>gnome-desktop-2.0.1.tar.bz2 &mdash; 12 MB</para>
+			<para>gnome-desktop-2.0.2.tar.bz2 &mdash; 12 MB</para>
 		  </listitem>
 		  <listitem>
 			<para>gnome-panel-2.0.1.tar.bz2 &mdash; 53 MB</para>
