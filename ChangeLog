@@ -1,3 +1,14 @@
+2001-02-09  Maciej Stachowiak  <mjs@eazel.com>
+
+	* gnome-1.4-branches: 
+
+	Moved gtk-engines to Other per Owen's suggestion (no API effects).
+
+	Separeted out docs-only packages.
+
+	Added more status on gnome-print, glade, panel--, gnome-user-docs,
+	users-guide, gdm2, ggv, ghex, gnome-utilus.
+	
 2001-02-08  Maciej Stachowiak  <mjs@eazel.com>
 
 	* gnome-1.4-branches: Added branch/freeze status report.
