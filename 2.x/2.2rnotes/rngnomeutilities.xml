@@ -15,6 +15,17 @@
 
   </sect3>
 
+  <sect3><title>Image Viewer</title>
+	  <para>The Eye of GNOME image viewer now allows you to rotate images and supports a Full Screen mode.
+	  </para>
+
+<figure>
+  <title>Image View </title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;util_eogTODO.png"/>
+  </screenshot>
+</figure> 
+  </sect3>
 
   <sect3><title>Character Map</title>
     <para>The Character Map now has unicode support, allowing you to select a
