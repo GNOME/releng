@@ -1,3 +1,9 @@
+2005-03-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* th.po: Fixed typo in wm-spec URL.
+	* xml-th/figures/figure-gnome-desktop.png: Scaled down and put some
+	background.
+
 2005-03-07  Vincent Untz  <vincent@vuntz.net>
 
 	* fr.po: Fix wrong tag in French translation.
