@@ -42,11 +42,14 @@
   <sect3 id="rngnomemeeting">
     <title>GnomeMeeting</title>
 
-    <para>TODO: Waiting for email from Damien.</para>
+    <para>GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing.
+    In GNOME &version; you will notice a redesigned dialpad, eaier speed dialing, and an improved setup assistant.
 
     <para>Other improvements include
     <itemizedlist>
-    <listitem><para></para></listitem>
+    <listitem><para>Improved integration with IPBX systems</para></listitem>
+    <listitem><para>More control for system administrators - see the Lockdown section.</para></listitem>
+    <listitem><para>Support for extra audio and video devices via a new plugins system.</para></listitem>
     </itemizedlist>
 
     <figure id="rnscreenshot-gnomemeeting">

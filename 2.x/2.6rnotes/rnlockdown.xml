@@ -8,12 +8,13 @@
   <title>Lockdown</title>
     
   <para>GNOME &version; allows system administrators to restrict certain functionality, so that users have a more controlled
-  environment. This is particularly useful in very narrowly-defined work places, such as call centers, and in internet cafes.</para>
+  environment. This is particularly useful in very narrowly-defined work places, such as call centers, and in internet cafes.
+  When the system administrator has disabled features they will be visibly greyed-out rather than failing when used.</para>
 
-  <para>For instance, the following features can be disabled by the system administrator:
+  <para>For instance, the following features can be enabled/disabled by the system administrator:
   TODO: list stuff from panel, epiphany, nautilus
   <itemizedlist>
-    <listitem><para></para></listitem>
+    <listitem><para>GnomeMeeting can be forced to route calls through only one gatekeeper.</para></listitem>
     <listitem><para></para></listitem>
   </itemizedlist>
 
