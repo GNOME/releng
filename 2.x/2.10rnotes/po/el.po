@@ -18,23 +18,39 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.9.1\n"
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../release-notes.xml:23
+#, fuzzy
+msgid ""
+"@@image: 'figures/figure-gnome-desktop.png'; "
+"md5=a25ee1cd47ba6e56ce09a67de0b45372"
+msgstr "@@image: 'figures/figure-totem.png'; md5=THIS FILE DOESN'T EXIST"
+
 #: ../release-notes.xml:16
 msgid "GNOME 2.10 Release Notes"
 msgstr "Πληροφορίες Έκδοσης GNOME 2.10"
 
-#: ../release-notes.xml:18
+#: ../release-notes.xml:19
 msgid "Introduction"
 msgstr "Εισαγωγή"
 
-#: ../release-notes.xml:19
+#: ../release-notes.xml:20
+#, fuzzy
 msgid ""
-"The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
-"platform free desktop environment."
+"<screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-gnome-desktop.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The new modem control applet</phrase></"
+"textobject></mediaobject></screenshot> The GNOME 2.10 Desktop is the latest "
+"release of the ever popular, multi-platform free desktop environment."
 msgstr ""
-"Η επιφάνεια εργασίας GNOME 2.10 είναι η νεότερη έκδοση της δημοφιλούς, "
-"πολυπλατφορμικής ελεύθερης επιφάνειας εργασίας."
+"<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>Ο "
+"περιηγητής ιστοσελίδων.</phrase></textobject></mediaobject></screenshot></"
+"figure>"
 
-#: ../release-notes.xml:21
+#: ../release-notes.xml:30
 msgid ""
 "The GNOME desktop releases continue to arrive on schedule. GNOME 2.10 "
 "includes a number of interesting new features and hundreds of bug fixes. "
@@ -47,7 +63,7 @@ msgstr ""
 "το GNOME περιέχει εφαρμογή αναπαραγωγής βίντεο και εφαρμογή εξαγωγής ήχου "
 "από CD. Μπορείτε να μάθετε περισσότερα στις επόμενες ενότητες."
 
-#: ../release-notes.xml:23
+#: ../release-notes.xml:32
 msgid ""
 "GNOME provides a user-friendly environment that \"just works\" for everyday "
 "users, without excess complexity or obscure features. At the same time we "
@@ -58,7 +74,7 @@ msgstr ""
 "δυνατότητες. Ταυτόχρονα παρέχουμε ισχυρή ευελιξία κάτι που απαιτούν οι "
 "έμπειροι προγραμματιστές εφαρμογών."
 
-#: ../release-notes.xml:28
+#: ../release-notes.xml:37
 msgid ""
 "GNOME runs on a variety of platforms, including GNU/Linux (commonly called "
 "Linux), Solaris, HP-UX, BSD and Apple's Darwin. GNOME includes powerful "
@@ -73,7 +89,7 @@ msgstr ""
 "υποδομή παγκοσμιοποίησης λογισμικού η οποία υποστηρίζει και την γραφή από "
 "δεξιά σε αριστερά."
 
-#: ../release-notes.xml:35
+#: ../release-notes.xml:44
 msgid ""
 "Of course GNOME 2.10 includes all of the improvements made in GNOME 2.8, "
 "which you can learn about in the GNOME 2.8 <ulink url=\"http://www.gnome.org/"
@@ -83,7 +99,7 @@ msgstr ""
 "2.8· για το GNOME 2.8 μπορείτε να μάθετε περισσότερα στις σχετικές <ulink "
 "url=\"http://www.gnome.org/start/2.8/notes/\">πληροφορίες έκδοσης</ulink>."
 
-#: ../release-notes.xml:39
+#: ../release-notes.xml:48
 msgid ""
 "The Desktop release contains all the applications needed to provide basic "
 "user functionality. Major applications such as <application>Gnumeric</"
@@ -98,7 +114,7 @@ msgstr ""
 "τον δικούς τους κύκλους εκδόσεων και δεν περιέχονται στην βασική έκδοση του "
 "GNOME."
 
-#: ../release-notes.xml:46
+#: ../release-notes.xml:55
 msgid ""
 "GNOME is part of the GNU Project, and is <ulink url=\"http://www.fsf.org/"
 "philosophy/free-sw.html\">free software</ulink>."
@@ -106,7 +122,7 @@ msgstr ""
 "Το GNOME είναι μέρος του GNU Project, και αποτελεί <ulink url=\"http://www."
 "fsf.org/philosophy/free-sw.html\">ελεύθερο λογισμικό</ulink>."
 
-#: ../release-notes.xml:50
+#: ../release-notes.xml:59
 msgid ""
 "Please continue directly to the <link linkend=\"rnwhatsnew\">What's New</"
 "link> section, or use the links at the right to learn more about this "
@@ -116,15 +132,15 @@ msgstr ""
 "Είναι Νέο</link>, ή χρησιμοποιήστε τους συνδέσμους δεξιά για να μάθετε "
 "γενικότερα για αυτήν την έκδοση της Επιφάνειας Εργασίας GNOME."
 
-#: ../release-notes.xml:58
+#: ../release-notes.xml:67
 msgid "What's New In GNOME 2.10"
 msgstr "Τι Είναι Νέο στο GNOME 2.10"
 
-#: ../release-notes.xml:82
+#: ../release-notes.xml:91
 msgid "Known Issues"
 msgstr ""
 
-#: ../release-notes.xml:83
+#: ../release-notes.xml:92
 msgid ""
 "All software, when it is released, contains bugs the developers know about "
 "but have chosen, for a variety of reasons, not to fix before releasing. Free "
@@ -132,7 +148,7 @@ msgid ""
 "that with free software, we tell users about these problems."
 msgstr ""
 
-#: ../release-notes.xml:88
+#: ../release-notes.xml:97
 msgid ""
 "We also encourage our users to report bugs so that they can be fixed. The "
 "best way to report bugs found in GNOME is to use the <ulink url=\"http://"
@@ -146,11 +162,11 @@ msgid ""
 "bugs:"
 msgstr ""
 
-#: ../release-notes.xml:101
+#: ../release-notes.xml:110
 msgid "List of known issues"
 msgstr ""
 
-#: ../release-notes.xml:105
+#: ../release-notes.xml:114
 msgid ""
 "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozilla/"
 "Firefox new window focus</ulink>: When you launch Mozilla or Firefox and "
@@ -161,7 +177,7 @@ msgid ""
 "Firefox."
 msgstr ""
 
-#: ../release-notes.xml:115
+#: ../release-notes.xml:124
 msgid ""
 "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
 "startup temporary hang</ulink>: Applications with broken session management "
@@ -172,7 +188,7 @@ msgid ""
 "your session again."
 msgstr ""
 
-#: ../release-notes.xml:125
+#: ../release-notes.xml:134
 msgid ""
 "TODO: Luis, should we include any of the others? Kjartan applied the VTE "
 "patch and rolled a tarball but didn't put it on ftp.gnome.org perhaps "
@@ -184,15 +200,15 @@ msgid ""
 "to list it under the \"known\" issues section)."
 msgstr ""
 
-#: ../release-notes.xml:102
+#: ../release-notes.xml:111
 msgid "<placeholder-1/>"
 msgstr "<placeholder-1/>"
 
-#: ../release-notes.xml:142
+#: ../release-notes.xml:151
 msgid "Looking to GNOME 2.12 and Beyond"
 msgstr "Κοιτάζοντας το GNOME 2.12 και ακόμα παραπέρα"
 
-#: ../release-notes.xml:144
+#: ../release-notes.xml:153
 #, fuzzy
 msgid ""
 "GNOME operates on a time-based release philosophy, an attempt to "
@@ -210,11 +226,11 @@ msgstr ""
 "λειτουργικότητας καθώς και ακόμα πιο βελτιωμένες δυνατότητες "
 "προσβασιμότητας, χρηστικότητας και ευρύτερης γλωσσικής υποστήριξης."
 
-#: ../release-notes.xml:152
+#: ../release-notes.xml:161
 msgid "Getting Involved"
 msgstr "Συμμετοχή"
 
-#: ../release-notes.xml:153
+#: ../release-notes.xml:162
 msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
@@ -222,7 +238,7 @@ msgstr ""
 "Ο πυρήνας της επιτυχίας του GNOME βρίσκεται στην πλειάδα εθελοντών "
 "(προγραμματιστών και χρηστών) που το στηρίζουν."
 
-#: ../release-notes.xml:157
+#: ../release-notes.xml:166
 msgid ""
 "As a user, your contribution can be as simple as filing good bug reports. "
 "You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla."
@@ -237,7 +253,7 @@ msgstr ""
 "να γίνετε μέλος στην δραστήρια <ulink url=\"http://developer.gnome.org/"
 "projects/bugsquad/\">ομάδα μας bug-squad</ulink>."
 
-#: ../release-notes.xml:165
+#: ../release-notes.xml:174
 msgid ""
 "For developers, there is much exciting progress to be made in any of our "
 "active developer groups - Accessibility, Documentation, Usability, "
@@ -252,7 +268,7 @@ msgstr ""
 "<ulink url=\"http://live.gnome.org/JoinGnome\">Οδηγός για να σας βοηθήσει να "
 "ξεκινήσετε</ulink>."
 
-#: ../release-notes.xml:172
+#: ../release-notes.xml:181
 msgid ""
 "Helping on GNOME can be an incredibly satisfying experience, allowing you to "
 "meet a wide range of motivated, skilled, and helpful people all working "
@@ -264,11 +280,11 @@ msgstr ""
 "κοινό στόχο. Ελατε μαζί μας σήμερα κιόλας για να δοκιμάσετε και τις δικές "
 "σας ικανότητες."
 
-#: ../release-notes.xml:181
+#: ../release-notes.xml:190
 msgid "Credits"
 msgstr "Μνεία"
 
-#: ../release-notes.xml:182
+#: ../release-notes.xml:191
 msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
@@ -455,8 +471,11 @@ msgstr ""
 #: ../rnapplications.xml:118
 #, fuzzy
 msgid ""
-"@@image: 'figures/figure-evolution-mail.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr "@@image: 'figures/figure-totem.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=b27a25dd54f1118e40b9104354bda815"
+msgstr ""
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=66698cb49952bd470f141589b8b54479"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -656,7 +675,7 @@ msgstr "Και ακόμα περισσότερες νέες λειτουργίε
 
 #: ../rnapplications.xml:115
 #, fuzzy
-msgid "FIXME - The email client"
+msgid "The email client"
 msgstr "Η εφαρμογή email"
 
 #: ../rnapplications.xml:113
@@ -872,7 +891,7 @@ msgstr "Διατάξεις Πληκτρολογίου"
 
 #: ../rncontrolcenter.xml:17
 #, fuzzy
-msgid "FIXME: Keyboard Preferences - Layouts"
+msgid "Keyboard Preferences - Layouts"
 msgstr "Προτιμήσεις Πληκτρολογίου - Διατάξεις"
 
 #: ../rncontrolcenter.xml:13
@@ -936,7 +955,29 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplets.xml:131
+#: ../rnapplets.xml:95
+#, fuzzy
+msgid ""
+"@@image: 'figures/figure-applet-weather.png'; "
+"md5=c3a54721c5872fe130c9c24d969310bf"
+msgstr ""
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=66698cb49952bd470f141589b8b54479"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:119
+#, fuzzy
+msgid ""
+"@@image: 'figures/figure-applet-mixer.png'; "
+"md5=3db86d251e280b32c35142524d4759f2"
+msgstr ""
+"@@image: 'figures/figure-evolution-mail.png'; "
+"md5=66698cb49952bd470f141589b8b54479"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnapplets.xml:140
 #, fuzzy
 msgid ""
 "@@image: 'figures/figure-applet-stickies.png'; "
@@ -1050,7 +1091,7 @@ msgid "Control Mounted Volumes"
 msgstr "Έλεγχος Προσαρτημένων Τόμων"
 
 #: ../rnapplets.xml:71
-msgid "Volume Monitor"
+msgid "Drive Mount"
 msgstr ""
 
 #: ../rnapplets.xml:64
@@ -1064,8 +1105,8 @@ msgid ""
 "manager. <figure id=\"rnscreenshot-applet-drivemount\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>the volume monitor</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"imageobject><textobject><phrase>The drive mount applet.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 msgstr ""
 "Το GNOME 2.8 σας επέτρεπε να κάνετε εύκολη προσάρτηση ψηφιακών μέσων, όπως "
 "CD, DVD, και μνήμες USB. Τώρα το εφαρμογίδιο προσάρτησης τόμων σάς βοηθάει "
@@ -1079,23 +1120,33 @@ msgstr ""
 msgid "Get even more weather"
 msgstr "Λήψη περισσότερων προγνώσεων καιρού"
 
+#: ../rnapplets.xml:92
+msgid "Weather Report"
+msgstr ""
+
 #: ../rnapplets.xml:86
+#, fuzzy
 msgid ""
 "The weather monitor can now show even more locations then before, and the "
 "location names have been translated into non-english languages where "
 "appropriate. In addition, the forecast now includes sunrise and sunset "
-"calculations for most locations."
+"calculations for most locations. <figure id=\"rnscreenshot-applet-weather"
+"\"><placeholder-1/><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;figure-applet-weather.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The weather report applet.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 msgstr ""
-"Τώρα η παρακολούθηση καιρού μπορεί να προβάλλει ακόμα περισσότερες "
-"τοποθεσίες, τα δε ονόματα τους είναι πια μεταφράσιμα. Επιπρόσθετα, η "
-"πρόγνωση τώρα περιλαμβάνει υπολογισμούς ανατολής και δύσης ηλίου για τις "
-"περισσότερες τοποθεσίες."
+"<figure id=\"rnscreenshot-epiphany\"><placeholder-1/"
+"><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
+"figure-epiphany.png\" format=\"PNG\"/></imageobject><textobject><phrase>Ο "
+"περιηγητής ιστοσελίδων.</phrase></textobject></mediaobject></screenshot></"
+"figure>"
 
-#: ../rnapplets.xml:107
+#: ../rnapplets.xml:106
 msgid "Sound control"
 msgstr "Έλεγχος ήχου"
 
-#: ../rnapplets.xml:108
+#: ../rnapplets.xml:107
 #, fuzzy
 msgid ""
 "A new mixer for your panel (combined with a new-look mixer on the desktop) "
@@ -1113,11 +1164,19 @@ msgstr ""
 "αλλαγή της έντασης του ήχου μέσω του ταμπλώ θα αλλάξει και την ένταση σε "
 "όλες αυτές τις εφαρμογές."
 
-#: ../rnapplets.xml:119
+#: ../rnapplets.xml:116
+msgid "all new mixer for your panel"
+msgstr ""
+
+#: ../rnapplets.xml:121
+msgid "All new mixer for your panel"
+msgstr ""
+
+#: ../rnapplets.xml:128
 msgid "Taking note"
 msgstr "Λήψη σημειώσεων"
 
-#: ../rnapplets.xml:120
+#: ../rnapplets.xml:129
 #, fuzzy
 msgid ""
 "The popular Sticky Notes applet now makes it even easier to add PostIt-style "
@@ -1130,7 +1189,7 @@ msgstr ""
 "σημειώσεις του στυλ PostIt στην επιφάνεια εργασίας σας. Για παράδειγμα, τα "
 "sticky notes παραμένουν στο ίδιο σημείο ακόμα και σε διαφορετική οθόνη."
 
-#: ../rnapplets.xml:123
+#: ../rnapplets.xml:132
 #, fuzzy
 msgid ""
 "And sticky notes now stay on top other windows, so you can't lose them. To "
@@ -1140,15 +1199,15 @@ msgstr ""
 "μην τα χάνετε. Για να αποκρύψετε αυτές τις σημειώσεις, χρησιμοποιήστε το "
 "μενού μέσω δεξιού κλικ στο εφαρμογιδίου."
 
-#: ../rnapplets.xml:128 ../rnapplets.xml:133
+#: ../rnapplets.xml:137 ../rnapplets.xml:142
 msgid "Sticky Notes"
 msgstr ""
 
-#: ../rnapplets.xml:139
+#: ../rnapplets.xml:148
 msgid "Specially for laptops"
 msgstr "Ειδικά για φορητούς υπολογιστές"
 
-#: ../rnapplets.xml:140
+#: ../rnapplets.xml:149
 #, fuzzy
 msgid ""
 "GNOME now includes an applet to monitor your laptop's processor speed. The "
@@ -1164,17 +1223,17 @@ msgstr ""
 "να επιλέξτε μια διαφορετική ταχύτητα αν δεν έχετε ενεργοποιημένη την "
 "αυτόματη κλιμάκωση συχνότητας."
 
-#: ../rnapplets.xml:149
+#: ../rnapplets.xml:158
 msgid "Removed Applets"
 msgstr ""
 
-#: ../rnapplets.xml:150
+#: ../rnapplets.xml:159
 msgid ""
 "Three applets were removed in GNOME 2.10, replaced by better alternatives in "
 "most cases."
 msgstr ""
 
-#: ../rnapplets.xml:153
+#: ../rnapplets.xml:162
 #, fuzzy
 msgid ""
 "The CD Player panel applet has been removed, so you will not see a CD player "
@@ -1187,13 +1246,13 @@ msgstr ""
 "αυτόματα το GNOME CD Player, και ο έλεγχος του γίνεται μέσω της ίδιας της "
 "εφαρμογής ή μέσω ενός εικονιδίου ειδοποίησης που εμφανίζεται στο ταμπλώ σας."
 
-#: ../rnapplets.xml:156
+#: ../rnapplets.xml:165
 msgid ""
 "The dedicated Wireless applet has been removed because the Network Monitor "
 "applet, introduced in GNOME 2.8, also includes wireless support."
 msgstr ""
 
-#: ../rnapplets.xml:159
+#: ../rnapplets.xml:168
 #, fuzzy
 msgid ""
 "The Mailbox Monitor has been removed because it was unmaintained and "
@@ -2003,13 +2062,14 @@ msgstr ""
 "ώστε να περιλάβουν το GNOME 2.10."
 
 #: ../rninstallation.xml:15
+#, fuzzy
 msgid ""
-"However, many advanced users would like to build GNOME from source code, to "
-"test the very latest versions, to provide feedback and improvements. To help "
-"with this, we recommend the <ulink url=\"http://cipherfunk.org/garnome/"
-"\">GARNOME</ulink> utility, for building from released tarballs, and <ulink "
-"url=\"http://www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for "
-"building from CVS."
+"However, if you would like to build GNOME from source code, to test the very "
+"latest versions, to provide feedback and improvements, we recommend a build "
+"tool; such as the <ulink url=\"http://cipherfunk.org/garnome/\">GARNOME</"
+"ulink> utility, for building from released tarballs, and <ulink url=\"http://"
+"www.freedesktop.org/Software/jhbuild\">jhbuild</ulink>, for building from "
+"CVS."
 msgstr ""
 "Αρκετοί προχωρημένοι χρήστες θέλουν να εγκαθιστούν το GNOME από τον "
 "πηγαίοκώδικα, ώστε να δοκιμάζουν τις τελευταίες εκδόσεις και να παρέχουν "
@@ -2201,6 +2261,29 @@ msgstr ""
 "\n"
 "Επισκεφθείτε τον <ulink url=\"http://www.gnome.gr/\">δικτυακό τόπο της "
 "ομάδας εξελληνισμού του GNOME</ulink>"
+
+#~ msgid ""
+#~ "The GNOME 2.10 Desktop is the latest release of the ever popular, multi-"
+#~ "platform free desktop environment."
+#~ msgstr ""
+#~ "Η επιφάνεια εργασίας GNOME 2.10 είναι η νεότερη έκδοση της δημοφιλούς, "
+#~ "πολυπλατφορμικής ελεύθερης επιφάνειας εργασίας."
+
+#, fuzzy
+#~ msgid ""
+#~ "@@image: 'figures/figure-evolution-mail.png'; md5=THIS FILE DOESN'T EXIST"
+#~ msgstr "@@image: 'figures/figure-totem.png'; md5=THIS FILE DOESN'T EXIST"
+
+#~ msgid ""
+#~ "The weather monitor can now show even more locations then before, and the "
+#~ "location names have been translated into non-english languages where "
+#~ "appropriate. In addition, the forecast now includes sunrise and sunset "
+#~ "calculations for most locations."
+#~ msgstr ""
+#~ "Τώρα η παρακολούθηση καιρού μπορεί να προβάλλει ακόμα περισσότερες "
+#~ "τοποθεσίες, τα δε ονόματα τους είναι πια μεταφράσιμα. Επιπρόσθετα, η "
+#~ "πρόγνωση τώρα περιλαμβάνει υπολογισμούς ανατολής και δύσης ηλίου για τις "
+#~ "περισσότερες τοποθεσίες."
 
 #~ msgid ""
 #~ "GNOME 2.10 features an optional trashcan for your Panel. Just like the "

@@ -1089,7 +1089,7 @@ msgid "Control Mounted Volumes"
 msgstr "Kontrolle eingebundener Datenträger"
 
 #: ../rnapplets.xml:71
-msgid "Volume Monitor"
+msgid "Drive Mount"
 msgstr ""
 
 #: ../rnapplets.xml:64
@@ -1103,8 +1103,8 @@ msgid ""
 "manager. <figure id=\"rnscreenshot-applet-drivemount\"><placeholder-1/"
 "><screenshot><mediaobject><imageobject><imagedata fileref=\"&urlfiguresbase;"
 "figure-applet-drivemount.png\" format=\"PNG\"/></"
-"imageobject><textobject><phrase>the volume monitor</phrase></textobject></"
-"mediaobject></screenshot></figure>"
+"imageobject><textobject><phrase>The drive mount applet.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
 msgstr ""
 "GNOME 2.8 erlaubte bereits das einfache Einbinden Ihrer digitalen Medien, "
 "wie CDs, DVDs und USB-Sticks. Jetzt unterstützt Sie das Applet zum Einbinden "
