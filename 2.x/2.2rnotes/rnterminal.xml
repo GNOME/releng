@@ -1,6 +1,6 @@
  <sect2 id="rnterminal">
     <title>The Terminal</title>
-    <para>GNOME Terminal now has better internationalization support. TODO: More, plus a screenshot of new functionality.
+    <para>GNOME Terminal can now use anti-aliased text and has better internationalization support. TODO: More, plus a screenshot of new functionality.
 </para> 
     </sect3>
    
