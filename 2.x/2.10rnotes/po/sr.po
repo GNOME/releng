@@ -127,11 +127,11 @@ msgstr ""
 msgid "What's New In GNOME 2.10"
 msgstr "Шта има ново у Гному 2.10"
 
-#: ../release-notes.xml:91 (title)
+#: ../release-notes.xml:92 (title)
 msgid "Known Issues"
 msgstr "Познати проблеми"
 
-#: ../release-notes.xml:92 (para)
+#: ../release-notes.xml:93 (para)
 msgid ""
 "All software, when it is released, contains bugs the developers know about "
 "but have chosen, for a variety of reasons, not to fix before releasing. Free "
@@ -143,7 +143,7 @@ msgstr ""
 "се не разликује по овом питању од власничког софтвера, осим што у случају "
 "слободног софтвера, ми обавестимо кориснике о овим проблемима."
 
-#: ../release-notes.xml:97 (para)
+#: ../release-notes.xml:98 (para)
 msgid ""
 "We also encourage our users to report bugs so that they can be fixed. The "
 "best way to report bugs found in GNOME is to use the <ulink url=\"http://"
@@ -167,11 +167,11 @@ msgstr ""
 "пријављеним грешкама се може наћи у нашој <ulink url=\"http://bugzilla.gnome."
 "org/\">Бубаждаји</ulink>. Неке од истакнутијих грешака у Гному 2.10 су:"
 
-#: ../release-notes.xml:110 (title)
+#: ../release-notes.xml:111 (title)
 msgid "List of known issues"
 msgstr "Списак познатих проблема"
 
-#: ../release-notes.xml:114 (para)
+#: ../release-notes.xml:115 (para)
 msgid ""
 "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozilla/"
 "Firefox new window focus</ulink>: When you launch Mozilla or Firefox and "
@@ -188,7 +188,7 @@ msgstr ""
 "Спознаја (заснован на Мозили) нема оваквих проблема, и хакери Мозиле раде да "
 "брзо исправе ову грешку у будућим издањима Мозиле и Фајрфокса."
 
-#: ../release-notes.xml:124 (para)
+#: ../release-notes.xml:125 (para)
 msgid ""
 "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session "
 "startup temporary hang</ulink>: Applications with broken session management "
@@ -199,23 +199,11 @@ msgid ""
 "your session again."
 msgstr ""
 
-#: ../release-notes.xml:134 (para)
-msgid ""
-"TODO: Luis, should we include any of the others? Kjartan applied the VTE "
-"patch and rolled a tarball but didn't put it on ftp.gnome.org perhaps "
-"because of Nalin's request that people fork VTE instead of maintain it for "
-"him. I don't know if the applet dying at logout is dealbreaker enough to "
-"mention here. And the other two bugs still on the showstopper list are "
-"nautilus crashers that no one appears to have been able to reproduce under "
-"2.9.x so we don't know if this is an issue or not (thus making it seem funny "
-"to list it under the \"known\" issues section)."
-msgstr ""
-
-#: ../release-notes.xml:151 (title)
+#: ../release-notes.xml:141 (title)
 msgid "Looking to GNOME 2.12 and Beyond"
 msgstr "Поглед на Гном 2.12 и даље"
 
-#: ../release-notes.xml:153 (para)
+#: ../release-notes.xml:143 (para)
 msgid ""
 "GNOME operates on a time-based release philosophy, an attempt to "
 "continuously provide the best of our developers' efforts to users as quickly "
@@ -225,11 +213,11 @@ msgid ""
 "also the <ulink url=\"http://live.gnome.org/RoadMap\">GNOME roadmap</ulink>."
 msgstr ""
 
-#: ../release-notes.xml:161 (title)
+#: ../release-notes.xml:151 (title)
 msgid "Getting Involved"
 msgstr "Како се укључити"
 
-#: ../release-notes.xml:162 (para)
+#: ../release-notes.xml:152 (para)
 msgid ""
 "The core of GNOME's success is its many volunteers, both users and "
 "developers."
@@ -237,7 +225,7 @@ msgstr ""
 "Суштина успеха Гнома је у његовом великом броју добровољаца, што корисника "
 "што развијатеља."
 
-#: ../release-notes.xml:166 (para)
+#: ../release-notes.xml:156 (para)
 msgid ""
 "As a user, your contribution can be as simple as filing good bug reports. "
 "You can file bugs in our Bugzilla using the <ulink url=\"http://bugzilla."
@@ -252,7 +240,7 @@ msgstr ""
 "прикључити нашем активном <ulink url=\"http://developer.gnome.org/projects/"
 "bugsquad/\">bug-squad</ulink> тиму."
 
-#: ../release-notes.xml:174 (para)
+#: ../release-notes.xml:164 (para)
 msgid ""
 "For developers, there is much exciting progress to be made in any of our "
 "active developer groups - Accessibility, Documentation, Usability, "
@@ -265,18 +253,18 @@ msgstr ""
 "Веб, Тестирање, Графика и Развој окружења и платформе. Овде имате <ulink url="
 "\"http://live.gnome.org/JoinGnome\">смернице за почетак</ulink>."
 
-#: ../release-notes.xml:181 (para)
+#: ../release-notes.xml:171 (para)
 msgid ""
 "Helping on GNOME can be an incredibly satisfying experience, allowing you to "
 "meet a wide range of motivated, skilled, and helpful people all working "
 "towards a unified goal. Join us today and see what a difference you can make."
 msgstr ""
 
-#: ../release-notes.xml:190 (title)
+#: ../release-notes.xml:180 (title)
 msgid "Credits"
 msgstr "Заслуге"
 
-#: ../release-notes.xml:191 (para)
+#: ../release-notes.xml:181 (para)
 msgid ""
 "These release notes were assembled by Murray Cumming, Davyd Madeley, and the "
 "GNOME community."
@@ -578,7 +566,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:141 (None)
+#: ../rnapplications.xml:142 (None)
 msgid "@@image: 'figures/figure-gnomemeeting.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
@@ -743,18 +731,18 @@ msgid ""
 "contact information in more than one place."
 msgstr ""
 
-#: ../rnapplications.xml:138 (title)
-msgid "FIXME (hard) - The internet telephony and video conferencing client"
-msgstr ""
-"ИСПРАВИТИ (тешко) — Клијент за Интернет телефонију и видео конференције"
+#. FIXME (hard)
+#: ../rnapplications.xml:139 (title)
+msgid "The internet telephony and video conferencing client"
+msgstr "Клијент за Интернет телефонију и видео конференције"
 
 #: ../rnapplications.xml:135 (para)
 msgid ""
 "Now you can even browse for other Gnome Meeting users on your local network "
 "without discovering their contact details first. And you can view your own "
 "video output side by side with the video from your conversation partner, so "
-"you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><title>FIXME "
-"(hard) - The internet telephony and video conferencing client</"
+"you see what they see. <figure id=\"rnscreenshot-gnomemeeting\"><title>The "
+"internet telephony and video conferencing client</"
 "title><screenshot><mediaobject><imageobject><imagedata fileref="
 "\"&urlfiguresbase;figure-gnomemeeting.png\" format=\"PNG\"/></"
 "imageobject><textobject><phrase>Gnome Meeting with side-by-side video.</"
@@ -1417,6 +1405,113 @@ msgstr ""
 msgid "Themes"
 msgstr "Теме"
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:23 (None)
+msgid "@@image: 'figures/gedit.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:41 (None)
+msgid "@@image: 'figures/fileroller.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:60 (None)
+msgid "@@image: 'figures/dictionary.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ../rnutilities.xml:78 (None)
+msgid "@@image: 'figures/floppy.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: ../rnutilities.xml:8 (title)
+msgid "Utilities"
+msgstr ""
+
+#: ../rnutilities.xml:10 (para)
+msgid "The GNOME utilities have some improvements, such as:"
+msgstr ""
+
+#: ../rnutilities.xml:13 (title) ../rnutilities.xml:20 ../rnutilities.xml:38
+#: ../rnutilities.xml:57
+msgid "Text Editor"
+msgstr ""
+
+#: ../rnutilities.xml:15 (para)
+msgid ""
+"The GNOME text editor can now highlight the current line and when editing "
+"program source code, it highlights matching braces. Spell checking is "
+"improved too. It now only highlights mispelled words when you have actually "
+"finished typing the word, and many extra languages are supported and "
+"automatically identified."
+msgstr ""
+
+#: ../rnutilities.xml:17 (para)
+msgid ""
+"Many people will be glad to see that it no longer suggests saving changes "
+"when all changes have actually been undone. And in addition it even starts "
+"faster than previous versions. <figure id=\"rnscreenshot-gedit\"><title>Text "
+"Editor</title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;gedit.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The text editor, highlighting the current "
+"line.</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr ""
+
+#: ../rnutilities.xml:33 (title)
+#, fuzzy
+msgid "Archive Manager"
+msgstr "Управник датотека"
+
+#: ../rnutilities.xml:35 (para)
+msgid ""
+"The GNOME archive manager can now open more types of archive, including AR, "
+"Debian, and 7-zip archives, and password-protected RAR archives. And if you "
+"use the single-click preference in the file manager, then the archive "
+"manager will now use single clicks too. <figure id=\"rnscreenshot-fileroller"
+"\"><title>Text Editor</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;fileroller.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The archive manager, asking for a password "
+"for a RAR file.</phrase></textobject></mediaobject></screenshot></figure>"
+msgstr ""
+
+#: ../rnutilities.xml:52 (title)
+msgid "Dictionary"
+msgstr ""
+
+#: ../rnutilities.xml:54 (para)
+msgid ""
+"The GNOME Dictionary now suggests words when you aren't sure how to spell "
+"something. The definitions also contain links to external dictionary web "
+"sites, and the definitions can be printed. <figure id=\"rnscreenshot-"
+"dictionary\"><title>Text Editor</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;dictionary.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>The dictionary, suggesting possible "
+"spellings and a definition.</phrase></textobject></mediaobject></"
+"screenshot></figure>"
+msgstr ""
+
+#: ../rnutilities.xml:70 (title) ../rnutilities.xml:75
+msgid "Floppy Formatter"
+msgstr ""
+
+#: ../rnutilities.xml:72 (para)
+msgid ""
+"The GNOME Floppy Formatter utility now supports removable drives, such as "
+"USB drives, using the standard HAL system from freedesktop.org. <figure id="
+"\"rnscreenshot-floppy\"><title>Floppy Formatter</"
+"title><screenshot><mediaobject><imageobject><imagedata fileref="
+"\"&urlfiguresbase;floppy.png\" format=\"PNG\"/></"
+"imageobject><textobject><phrase>Formatting a floppy disk.</phrase></"
+"textobject></mediaobject></screenshot></figure>"
+msgstr ""
+
 #: ../rnwhy.xml:8 (title)
 msgid "So, why GNOME?"
 msgstr "Па, зашто Гном?"
@@ -1543,8 +1638,9 @@ msgstr ""
 msgid "translator-credits"
 msgstr "Данило Шеган <danilo@gnome.org>, 2005"
 
-#~ msgid "The internet telephony and video conferencing client"
-#~ msgstr "Клијент за Интернет телефонију и видео конференције"
+#~ msgid "FIXME (hard) - The internet telephony and video conferencing client"
+#~ msgstr ""
+#~ "ИСПРАВИТИ (тешко) — Клијент за Интернет телефонију и видео конференције"
 
 #~ msgid "Thanks"
 #~ msgstr "Захвалнице"
