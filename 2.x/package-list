@@ -28,7 +28,7 @@ libbonobo		=		1.107.0		frozen			Michael Meeks <michael@ximian.com>
 libbonoboui		=		1.106.0		frozen			Michael Meeks <michael@ximian.com>
 libghttp		gnome-http	1.0.9		remove?			Justin Maurer <justin@slashdot.org>
 libglade		=		1.99.3		not frozen		James Henstridge <james@daa.com.au>
-libgnome		=		1.105.0		frozen			Anders Carlsson <andersca@gnu.org>
+libgnome		=		1.107.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomecanvas		=		1.105.0		frozen			Anders Carlsson <andersca@gnu.org>
 libgnomeprint		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
 libgnomeprintui		=		1.106.0		-			Lauris Kaplinski <lauris@ximian.com>
@@ -51,7 +51,7 @@ gcolorsel		-		-		hadess to replace	-
 gdialog			gnome-utils	-		ported			-
 gdict			gnome-utils	-		ported, applet doesn't compile			-
 gdm			gdm2		-		branched, porting	George Jirka <jirka@5z.com>
-gedit			=		-		ported, paolo needs some help :)	Chema Celorio <chema@ximian.com>
+gedit			=		-		ported, paolo needs some help :)	Chema Celorio <chema@ximian.com>, Paolo Maggi <maggi@athena.polito.it>
 gfloppy			gnome-utils	-		ported			Jonathan Blandford <jrb@redhat.com>
 gfontsel		-		-		-			-
 ggv			-		-		-			-
