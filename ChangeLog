@@ -1,5 +1,9 @@
 2001-02-26  Jamin Gray <jgray@writeme.com>
 
+    * gnome-extras-1.4beta1-versions, package-list-extras: updated GnomeICU's version number
+
+2001-02-26  Jamin Gray <jgray@writeme.com>
+
     * gnome-extras-1.4beta1-versions, package-list-extras: updated AbiWord, Anjuta IDE, gob, GnomeICU, Firestarter, gnomoku,
     bombermaze, Atomix, radioactive, and galeon
 

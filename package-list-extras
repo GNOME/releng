@@ -26,7 +26,7 @@ libgda             0.2.3       no            no         no        no          Ro
 The GIMP           1.2.1       no            no         yes       no          Manish Singh <yosh@gimp.org>
 eog                0.6         yes           no         yes       no          
 
-GnomeICU           0.96        no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
+GnomeICU           0.96.1      no            no         yes       no          Jeremy Wise <jwise@pathwaynet.com>
 gabber             0.8.2       no            no         yes       yes         Julian Missig <julian@jabber.org>
 galeon             0.10.1      yes           no         yes       yes         Marco Pesenti Gritti <mpeseng@tin.it>
 gtm                0.4.5                                                      Bruno Pires Marinho <bapm@netcabo.pt>
