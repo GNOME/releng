@@ -17,7 +17,6 @@ gnome-db           0.2.3                                                      Ro
 toutdoux           1.2.4                                                      Philippe Roy <ph_roy@toutdoux.org>
 
 Anjuta IDE         0.1.2                                                      Kh. Naba Kumar Singh <kh_naba@yahoo.com> 
-MemProf            0.4.1                                                      Owen Taylor <otaylor@redhat.com>
 
 gob                1.0.6       no            no         yes       no          George <jirka@5z.com>
 gal                0.5         
@@ -37,8 +36,6 @@ Firestarter        0.6.0       yes           no         yes       yes         To
 
 gnomoku            1.0         yes           no         yes       no          Gergõ Érdi <cactus@cactus.rulez.org> 
 bombermaze         0.6.4       no            no         yes       yes         Sydney Andrew Tang <stang@users.sourceforge.net>
-XPenguins 
-  Applet           0.9beta1                                                   Robin Hogan <R.J.Hogan@reading.ac.uk>
 Atomix             0.4.1       no            no         yes       no          Jens Finke <jens@eknif.de> 
 
 gedit              0.9.4       no            no         yes       no          Chema Celorio <chema@celorio.com>
