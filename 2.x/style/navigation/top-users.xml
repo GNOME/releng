@@ -5,7 +5,7 @@
 		<title>About GNOME</title>
 	</item>
 
-	<item href="http://www.gnome.org/start/2.2/">
+	<item href="http://www.gnome.org/start/stable/">
 		<title>Download</title>
 	</item>
 
@@ -21,7 +21,7 @@
 		<title>Foundation</title>
 	</item>
 
-	<item href="mailto:webmaster@gnome.org">
+	<item href="http://www.gnome.org/contact/">
 		<title>Contact</title>
 	</item>
 </bar>
