@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 ]>
 <sect1 id="rndocs">
 
@@ -18,11 +18,9 @@
   &version; 
   includes full user documentation.</para>
   <para>
-  Learn to how to use GNOME with the <ulink
-  url="http://www.gnome.org/learn/users-guide/">Desktop User
-  Guide</ulink>.
-  </para>
-  <para>Other documentation, including guides to system administration and
+  Learn to how to use GNOME with the Desktop User
+  Guide. The User Guide and other documentation, including guides to system
+    administration and
     GNOME's accessibility features, can be found on the <ulink
       url="http://www.gnome.org/learn/">GNOME Learn page</ulink>.</para>
    

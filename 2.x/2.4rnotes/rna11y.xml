@@ -2,7 +2,7 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "../figures/">
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 ]>
 <sect2 id="rna11y">
   <title>Accessibility</title>
@@ -54,7 +54,7 @@
  	    magnification software, as well as other software and hardware
  	    products for the blind, for over 20 years. More information about
  	    Gnopernicus
- 	    can be found at<ulink
+ 	    can be found at <ulink
 	url="http://developer.gnome.org/projects/gap/AT/Gnopernicus">http://developer.gnome.org/projects/gap/AT/Gnopernicus</ulink>.
     </para>
   </sect3>

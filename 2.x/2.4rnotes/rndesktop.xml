@@ -2,7 +2,7 @@
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
                   "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 <!ENTITY urlfiguresbase "../figures/">
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 ]>
 <sect2 id="rndesktop">
 
@@ -139,13 +139,12 @@
     </para>
 
     <para>In addition to those user-visible changes, significant improvements in
-    behind-the-scenes panel infrastructure have been made to improve its
-    function, including:
+    behind-the-scenes panel infrastructure have been made, including:
       <itemizedlist>
 	<listitem>
 	  <para>Reworked <application>panel</application>
 	  <application>gconf</application> functionality, so configuration keys
-	  are now documented with associated schemas and *notifications.</para>
+	  are now documented with associated schemas and notifications.</para>
 	</listitem>
 	<listitem>
 	  <para>Global keybinds for the panel are no longer handled by the
@@ -159,8 +158,8 @@
 
   <sect3 id="rngedit">
     <title>Gedit Syntax Highlighting</title>
-    <para><application>Gedit</application>, GNOME's workhorse text editor, now
-    includes syntax highlighting:
+    <para>Paolo Maggi and the team of <application>Gedit</application> hackers
+    have added syntax highlighting to GNOME's workhorse text editor:
 
 <!--    
     <figure id="rngeditsyntaxscreenshot"> 

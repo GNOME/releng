@@ -1,3 +1,18 @@
+2003-09-03  John Fleck  <jfleck@inkstain.net>
+
+	* release-notes.xml
+	* rna11y.xml
+	* rndesktop.xml
+	* rndocs.xml
+	* rnepiphany.xml
+	* rngcalctool.xml
+	* rngpdf.xml
+	* rni18n.xml
+	* rninstallation.xml
+	* rnwhy.xml
+	Many minor edits
+
+
 2003-09-01  Danilo Šegan  <dsegan@gmx.net>
 
 	* rni18n.xml: Add "bokm&aring;l" to Norwegian; removed Serbian
@@ -8,7 +23,7 @@
 	* ri18n.xml
 	* rnstandards.xml
 	make language in freedesktop discussion more cautious per
-	jrb's suggest
+	jrb's suggestion
 	minor fix in translation list
 
 2003-09-01  Danilo Šegan  <dsegan@gmx.net>

@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 <sect2 id="rngpdf">
   <title>GPDF</title> <para>GNOME &version; includes a new viewer for
   <acronym>PDF</acronym> files. <application>GPDF</application>,
   written in its most recent incarnation by Martin Kretzschmar, is
-  based on the venerable <application>XPDF</application> and features
+  based on <application>XPDF</application> and features
   high-quality rendering of PDF files not previously available as part
   of the GNOME desktop.
 

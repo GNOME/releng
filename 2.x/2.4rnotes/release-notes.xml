@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 <!ENTITY oldversion "2.2">
-<!ENTITY rnwm SYSTEM "rnwm.xml">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 
@@ -19,7 +18,7 @@
       <para>The GNOME &version; Desktop and Platform is the latest
 	release of the popular, multi-platform free desktop environment.</para>
       <para>GNOME &version; expands the offerings of the popular free software
-	desktop, with a new web browser that's based on the most
+	desktop, with a new web browser based on the most
 	standards-compliant
 	rendering widget available, improved accessibility tools, a number of
       new applications to make day-to-day desktop use easier and a continued
@@ -53,7 +52,7 @@
     <para>The Desktop and Platform release contains all the applications needed
 	to provide basic user functionality. Major applications
 	such as <application>Gnumeric</application> and
-	<application>Evolution</application> also are available, but are are
+	<application>Evolution</application> also are available, but are
 	developed in parallel on their own natural release cycle rather than
 	being included in the core GNOME release.</para>
 
@@ -73,8 +72,7 @@
   </sect1>
   <sect1 id="rnapplications">
     <title>Applications</title>
-    <para>GNOME &version; includes many new and improved applications.
-  TODO: Reference separate .xml files via entities.</para>
+    <para>GNOME &version; includes many new and improved applications.</para>
 <xi:include href="rnepiphany.xml"/>
 <xi:include href="rngcalctool.xml"/>
 <xi:include href="rnzenity.xml"/>
@@ -165,7 +163,7 @@
 	    <appendix id="rncredits">
 	      <title>Credits</title>
 	      <para>These release notes were assembled by John Fleck with
-	      contributions from Dave Camp, Sayamindu Dasgupta, Murray Cumming
-	      and many more.</para>
+	      contributions from Dave Camp, Sayamindu Dasgupta, Murray Cumming,
+	      Luis Villa, Jeff Waugh and many more.</para>
 	    </appendix>
 </article>

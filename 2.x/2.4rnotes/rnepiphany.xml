@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-<!ENTITY version "2.4.0">
+<!ENTITY version "2.4">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
 <sect2 id="rnepiphany">
@@ -44,6 +44,6 @@
     and GNOME seek to ensure choice by using Gecko, the most
     standards-compliant rendering engine available.</para>
   <note>
-    <para>Note that use of Epiphany introduces a dependency on Mozilla.</para> 
+    <para>Epiphany introduces a dependency on Mozilla.</para> 
   </note>
 </sect2>
