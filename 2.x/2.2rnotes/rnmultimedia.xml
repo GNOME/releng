@@ -13,14 +13,14 @@
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_view_as_audio.png"/>
   </screenshot>
 </figure>
-
+<!-- comment out until we get an actual screenshot
 <figure>
   <title>View As Video</title>
   <screenshot>
     <graphic format="PNG" fileref="&urlfiguresbase;nautilus_view_as_videoTODO.png"/>
   </screenshot>
 </figure>
-      
+      -->
    </sect3>
 
    <sect3><title>Multimedia Utilities</title>
