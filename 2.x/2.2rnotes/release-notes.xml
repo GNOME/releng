@@ -8,7 +8,7 @@
 <!ENTITY rnfileroller SYSTEM "rnfileroller.xml">
 <!ENTITY rnmultimedia SYSTEM "rnmultimedia.xml">
 <!ENTITY rnmultimediakeys SYSTEM "rnmultimediakeys.xml">
-<!ENTITY rngnomeapplets SYSTEM "rngnomeapplets.xml">
+<!ENTITY rnterminal SYSTEM "rnterminal.xml">
 <!ENTITY rnmultihead SYSTEM "rnmultihead.xml">
 <!ENTITY urlfiguresbase "../figures/">
 ]>
@@ -61,7 +61,6 @@
   &rngnomeutils;
   &rnfileroller;
   &rnmultimediakeys;
-  &rngnomeapplets;
   &rnmultihead;
 
   </sect1>

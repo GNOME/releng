@@ -1,6 +1,8 @@
  <sect2 id="rnpanel">
-    <title>The Panel</title>
-    <para></para>
+    <title>Panel</title>
+    <para>The panel can now be themed along with the rest of the desktop, including icon theming. And like the rest of GNOME 2.2, it supports multi-head systems.</para>
+
+    <para>Here are a few of the more significant GNOME panel improvements:</para>
 
     <sect3><title>Show Desktop</title>
     <para>
@@ -56,5 +58,33 @@
 </figure>
 
     </sect3>
+
+  <sect3><title>Notification Area</title>
+    <para>
+    The panel now has a notification-area which applications such as instant messengers can use to inform you of significant events.
+    </para>
+
+<figure>
+  <title>Notification Area</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_notification_areaTODO.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
    
+<sect3><title>Wireless Link Monitor</title>
+    <para>
+    A new Wireless Link Monitor applet has been added. This shows the strength of your wireless network connection.
+    </para>
+
+<figure>
+  <title>Wireless Link</title>
+  <screenshot>
+    <graphic format="PNG" fileref="&urlfiguresbase;panel_applet_wirelessTODO.png"/>
+  </screenshot>
+</figure>
+
+    </sect3>
+
   </sect2>
