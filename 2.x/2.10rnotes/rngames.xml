@@ -30,7 +30,7 @@
   <sect3 id="rngames-nibbles">
   <title>Nibbles</title>
 
-  <para>Our &quot;Just Works&quot; philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by Gnome Meeting.</para>
+  <para>Our &quot;Just Works&quot; philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by GnomeMeeting.</para>
     
     <figure id="rnscreenshot-game-nibbles">
     <title>join a network game</title>

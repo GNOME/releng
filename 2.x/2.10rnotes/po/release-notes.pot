@@ -98,13 +98,13 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnsysadmin.xml:37(None) 
+#: ../rnsysadmin.xml:36(None) 
 msgid "@@image: 'figures/figure-gnome-system-tools.png'; md5=65e08a4a7947a0a4c0638c249cb30e7a"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnsysadmin.xml:62(None) 
+#: ../rnsysadmin.xml:61(None) 
 msgid "@@image: 'figures/figure-logviewer.png'; md5=0f8c67d43123aa20d86c812aa69556ba"
 msgstr ""
 
@@ -140,31 +140,39 @@ msgstr ""
 msgid "GNOME 2.10 delivers some improvements, including <placeholder-1/>"
 msgstr ""
 
-#: ../rnsysadmin.xml:47(title) 
+#: ../rnsysadmin.xml:33(title) 
+msgid "The Clock, Network, and Users/Groups tools"
+msgstr ""
+
+#: ../rnsysadmin.xml:38(phrase) 
+msgid "The Clock, Network, and Users/Groups tools."
+msgstr ""
+
+#: ../rnsysadmin.xml:46(title) 
 msgid "Log Viewer"
 msgstr ""
 
-#: ../rnsysadmin.xml:52(para) 
+#: ../rnsysadmin.xml:51(para) 
 msgid "Open multiple logs in the separate windows."
 msgstr ""
 
-#: ../rnsysadmin.xml:53(para) 
+#: ../rnsysadmin.xml:52(para) 
 msgid "Open archived logs and logs on networked drives."
 msgstr ""
 
-#: ../rnsysadmin.xml:54(para) 
+#: ../rnsysadmin.xml:53(para) 
 msgid "Copy logs to the clipboard."
 msgstr ""
 
-#: ../rnsysadmin.xml:49(para) 
+#: ../rnsysadmin.xml:48(para) 
 msgid "The GNOME log viewer has added a handy find feature, and an improved monitor mode. In addition, it can now <placeholder-1/>"
 msgstr ""
 
-#: ../rnsysadmin.xml:59(title) 
+#: ../rnsysadmin.xml:58(title) 
 msgid "The Log Viewer"
 msgstr ""
 
-#: ../rnsysadmin.xml:64(phrase) 
+#: ../rnsysadmin.xml:63(phrase) 
 msgid "The Log Viewer, during a search."
 msgstr ""
 
@@ -173,11 +181,11 @@ msgid "Standards Compliance"
 msgstr ""
 
 #: ../rnstandards.xml:9(para) 
-msgid "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop.org/standards/\">freedesktop.org</ulink>. Standards support is a big plus for GNOME users. Interoperability support improves the user experience by allowing GNOME, KDE, and other applications to work together more easily, and following open specifications helps ensure that user data is not trapped in proprietary formats."
+msgid "GNOME works closely with groups such as <ulink url=\"http://www.freedesktop.org/wiki/Standards\">freedesktop.org</ulink>. Standards support is a big plus for GNOME users. Interoperability support improves the user experience by allowing GNOME, KDE, and other applications to work together more easily, and following open specifications helps ensure that user data is not trapped in proprietary formats."
 msgstr ""
 
 #: ../rnstandards.xml:19(para) 
-msgid "GNOME developers are working hard with other members of the free software community through Freedesktop.org on the development of standards to allow interoperability. Those standards include: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recent files</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menus</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop entries</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">thumbnail management</ulink>, and the <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink> specifications. In addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
+msgid "GNOME developers are working hard with other members of the free software community through Freedesktop.org on the development of standards to allow interoperability. Those standards include: <ulink url=\"http://www.freedesktop.org/Standards/shared-mime-info-spec\">shared MIME database</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/icon-theme-spec\">icon themes</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/recent-file-spec\">recent files</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fmenu_2dspec\">menus</ulink>, <ulink url=\"http://www.freedesktop.org/wiki/Standards_2fdesktop_2dentry_2dspec\">desktop entries</ulink>, <ulink url=\"http://triq.net/~jens/thumbnail-spec/index.html\">thumbnail management</ulink>, and the <ulink url=\"http://www.freedesktop.org/Standards/systemtray-spec\">system tray</ulink> specifications. In addition, GNOME supports <ulink url=\"http://www.omg.org/\">CORBA</ulink>, <ulink url=\"http://www.w3.org/XML/\">XML</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/XDND\">Xdnd</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/wm-spec\">EWMH</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xembed-spec\">XEMBED</ulink>, <ulink url=\"http://www.freedesktop.org/Standards/xsettings-spec\">XSETTINGS</ulink>, and <ulink url=\"http://www.xfree86.org/current/xsmp.html\">XSMP</ulink>."
 msgstr ""
 
 #: ../rnplatform.xml:9(title) 
@@ -398,7 +406,7 @@ msgid "Nibbles"
 msgstr ""
 
 #: ../rngames.xml:33(para) 
-msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by Gnome Meeting."
+msgid "Our \"Just Works\" philosophy is even visible in the Nibbles game. Now you can browse your local network for other people to play against, via the same zero-configuration technique used by GnomeMeeting."
 msgstr ""
 
 #: ../rngames.xml:36(title) 
@@ -541,25 +549,25 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:65(None) 
+#: ../rnapplications.xml:64(None) 
 msgid "@@image: 'figures/figure-epiphany.png'; md5=12e54abf9aa9fb4a72f77f143cea904c"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:97(None) 
+#: ../rnapplications.xml:95(None) 
 msgid "@@image: 'figures/figure-evolution-weather.png'; md5=ca12d0050f5514294bd4b54f47a899db"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:116(None) 
+#: ../rnapplications.xml:113(None) 
 msgid "@@image: 'figures/figure-evolution-mail.png'; md5=b27a25dd54f1118e40b9104354bda815"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ../rnapplications.xml:140(None) 
+#: ../rnapplications.xml:135(None) 
 msgid "@@image: 'figures/figure-gnome-meeting.png'; md5=71e89305beea456fbb73016fbb645010"
 msgstr ""
 
@@ -623,75 +631,91 @@ msgstr ""
 msgid "GNOME's \"Epiphany\" web browser is based on Mozilla yet integrates fully with the GNOME desktop environment. Improvements in 2.10 include <placeholder-1/>"
 msgstr ""
 
-#: ../rnapplications.xml:75(title) 
+#: ../rnapplications.xml:61(title) 
+msgid "The web browser"
+msgstr ""
+
+#: ../rnapplications.xml:65(phrase) 
+msgid "The web browser."
+msgstr ""
+
+#: ../rnapplications.xml:73(title) 
 msgid "Evolution"
 msgstr ""
 
-#: ../rnapplications.xml:77(para) 
+#: ../rnapplications.xml:75(para) 
 msgid "GNOME's integrated Email and Groupware client, Evolution supports traditional mail setups, as well as Novell Groupwise and Microsoft Exchange. With Evolution you can read, write, and manage your emails, contacts, and calendar events."
 msgstr ""
 
-#: ../rnapplications.xml:82(para) 
+#: ../rnapplications.xml:80(para) 
 msgid "In GNOME 2.10 it's now easier to work offline with your email, calendar, and contacts if you use IMAP, LDAP, WebCal, Groupwise, or Exchange. Your changes will resynchronize when you go back online."
 msgstr ""
 
-#: ../rnapplications.xml:87(para) 
+#: ../rnapplications.xml:85(para) 
 msgid "Files can be attached to events."
 msgstr ""
 
-#: ../rnapplications.xml:88(para) 
+#: ../rnapplications.xml:86(para) 
 msgid "Exceptions can be made in recurring events."
 msgstr ""
 
-#: ../rnapplications.xml:89(para) 
+#: ../rnapplications.xml:87(para) 
 msgid "The calendar includes weather information (US only)."
 msgstr ""
 
-#: ../rnapplications.xml:85(para) 
+#: ../rnapplications.xml:83(para) 
 msgid "This new version offers some other calendar improvements: <placeholder-1/>"
 msgstr ""
 
-#: ../rnapplications.xml:94(title) 
+#: ../rnapplications.xml:92(title) 
 msgid "daily weather forecasts"
 msgstr ""
 
-#: ../rnapplications.xml:98(phrase) 
+#: ../rnapplications.xml:96(phrase) 
 msgid "The Evolution calendar client."
 msgstr ""
 
-#: ../rnapplications.xml:105(para) 
+#: ../rnapplications.xml:103(para) 
 msgid "Groupwise shared folders and send options are now supported."
 msgstr ""
 
-#: ../rnapplications.xml:106(para) 
+#: ../rnapplications.xml:104(para) 
 msgid "Exchange folder sizes and password expiry warnings are supported."
 msgstr ""
 
-#: ../rnapplications.xml:107(para) 
+#: ../rnapplications.xml:105(para) 
 msgid "The email user interface will be properly mirrored for right-to-left languages."
 msgstr ""
 
-#: ../rnapplications.xml:103(para) 
+#: ../rnapplications.xml:101(para) 
 msgid "And yet more new features: <placeholder-1/>"
 msgstr ""
 
-#: ../rnapplications.xml:127(title) 
+#: ../rnapplications.xml:110(title) 
+msgid "The email client"
+msgstr ""
+
+#: ../rnapplications.xml:114(phrase) 
+msgid "The Evolution email client."
+msgstr ""
+
+#: ../rnapplications.xml:122(title) 
 msgid "GnomeMeeting"
 msgstr ""
 
-#: ../rnapplications.xml:129(para) 
+#: ../rnapplications.xml:124(para) 
 msgid "GnomeMeeting allows users to see and speak to each other via internet telephony (VoIP) and video conferencing. In GNOME 2.10 the address book is now shared with our Evolution email client, so you don't need to enter contact information in more than one place."
 msgstr ""
 
-#: ../rnapplications.xml:133(para) 
+#: ../rnapplications.xml:128(para) 
 msgid "Now you can even browse for other GnomeMeeting users on your local network without discovering their contact details first. And you can view your own video output side by side with the video from your conversation partner, so you see what they see."
 msgstr ""
 
-#: ../rnapplications.xml:137(title) 
+#: ../rnapplications.xml:132(title) 
 msgid "The internet telephony and video conferencing client"
 msgstr ""
 
-#: ../rnapplications.xml:141(phrase) 
+#: ../rnapplications.xml:136(phrase) 
 msgid "GnomeMeeting with side-by-side video."
 msgstr ""
 
@@ -956,7 +980,7 @@ msgid "<ulink url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=223492\"> Mozil
 msgstr ""
 
 #: ../release-notes.xml:125(para) 
-msgid "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=11681\"> Session startup temporary hang</ulink>: Applications with broken session management can cause login to hang for a few minutes at the splashscreen. The default session does not contain any such apps so this will only become a problem if you save your session on logout. If you run into this problem, just wait for the login to proceed and then remove any such applications before saving your session again."
+msgid "<ulink url=\"http://bugzilla.gnome.org/show_bug.cgi?id=116814\"> Session startup temporary hang</ulink>: Applications with broken session management can cause login to hang for a few minutes at the splashscreen. The default session does not contain any such apps so this will only become a problem if you save your session on logout. If you run into this problem, just wait for the login to proceed and then remove any such applications before saving your session again."
 msgstr ""
 
 #: ../release-notes.xml:141(title) 

@@ -1,3 +1,7 @@
+2005-03-06  Christian Rose  <menthos@menthos.com>
+
+	* rngames.xml: Spelled "GnomeMeeting" consistently.
+
 2005-03-06  Frank Arnold  <farnold@cvs.gnome.org>
 
 	* release-notes.xml, rnstandards.xml: Fixed broken links.
