@@ -17,11 +17,18 @@ while (<STDIN>) {
 	if ($_ eq "" || $_ =~ /^#/) {
 		# ignore comments or blanks
 		next;
-	} elsif ($_ =~ s/<section title="(.*)">/$1/) {
+	} elsif ($_ =~ /^<section/) {
+		# grab title, and cvsbase if it's there
+		$title = $_;
+		$title =~ s/<section.*title="([^"]*)".*>/$1/;
+		if ($_ =~ /cvsbase=".*"/) {
+			$cvsbase = $_;
+			$cvsbase =~ s/<section.*cvsbase="([^"]*)".*>/$1/;
+		}
 		# format section titles
 		print qq{
 	<tr>
-		<td colspan="4"><h3>$_</h3></td>
+		<td colspan="4"><h3>$title</h3></td>
 	</tr>
 	<tr bgcolor="#cccccc">
 		<th align="left">package</th>
@@ -32,12 +39,7 @@ while (<STDIN>) {
 };
 		next;
 	} elsif ($_ eq "</section>") {
-		# format end-of-sections
-		#		print qq{
-			#	<tr>
-			#		<td colspan="4">&nbsp;</td>
-			#	</tr>
-			#};
+		$cvsbase = "";
 		$count = 0;
 		next;
 	}
@@ -51,11 +53,11 @@ while (<STDIN>) {
 	
 	# make the cvs/module stuff pretty and understandable
 	if (@module[1] eq "=") {
-		$package = "<a href=\"http://cvs.gnome.org/lxr/source/@module[0]/\">@module[0]</a>";
+		$package = "<a href=\"http://cvs.gnome.org/lxr/source/$cvsbase/@module[0]/\">@module[0]</a>";
 	} elsif (@module[1] eq "-" || @module[1] eq "") {
 		$package = "@module[0]";
 	} else {
-		$package = "<a href=\"http://cvs.gnome.org/lxr/source/@module[1]/\">@module[0]</a> [@module[1]]";
+		$package = "<a href=\"http://cvs.gnome.org/lxr/source/$cvsbase/@module[1]/\">@module[0]</a> [@module[1]]";
 	}
 
 	if (@module[3] =~ /\*.*/) {

@@ -1,5 +1,10 @@
 2001-12-09  Jeff Waugh  <jdub@perkypants.org>
 
+	* 2.x/package-list: added applets and small updates
+	* releng2html.pl: now uses cvsbase for subsections (crazy)
+
+2001-12-09  Jeff Waugh  <jdub@perkypants.org>
+
 	* releng2html.pl: render specially marked status fields in red for
 	  removal, yes this is dispicable, but it's dumb text grokking that humans
 	  also have to read.
