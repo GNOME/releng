@@ -19,7 +19,7 @@ gnome-http         Yes          HEAD (will be dead for gnome 2, no unstable bran
 libglade           Yes          libglade libglade-1-0
 libgtop            Yes          LIBGTOP_STABLE_1_0
 gnome-xml          Yes          LIB_XML_1_BRANCH
-oaf                Yes          oaf-stable-0-6
+oaf                Yes          HEAD
 xml-i18n-tools     Yes          HEAD
 
 
@@ -59,7 +59,7 @@ gnome-core          gnome-core-1-4
 gnome-games	    HEAD
 gnome-media	    HEAD
 gnome-pim	    HEAD
-gnome-utils         HEAD
+gnome-utils         gnome-utils-1-4
 gtop                HEAD
 eel                 eel-1-0
 librsvg             librsvg-1-0
