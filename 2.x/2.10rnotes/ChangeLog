@@ -1,5 +1,11 @@
 2005-02-28  Murray Cumming  <murrayc@murrayc.com>
 
+	* rnutilities: Remove gnome-search section because the mentioned 
+	feature does not exist - it is just a bug fix that, if explained, 
+	would just highlight that file searching is not that great in GNOME.
+
+2005-02-28  Murray Cumming  <murrayc@murrayc.com>
+
 	* Makfile.am: Add rnutilities to the target dependency.
 	* rnutilities: Add more gedit changes described y PaoloMaggi in the 
 	wiki.

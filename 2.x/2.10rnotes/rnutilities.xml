@@ -47,22 +47,6 @@
 
   </sect3>
 
-  <sect3>
-    <title>Search Tool</title>
-
-    <para>The search tool can now do a second search inside the results from your first search, to narrow down the results. TODO: Is this true? And like the archive manager, it now uses single clicks if that's what you've chosen in the file manager preferences.
-
-    <figure id="rnscreenshot-search">
-    <title>Text Editor</title>
-      <screenshot>
-        <mediaobject>
-          <imageobject><imagedata fileref="&urlfiguresbase;search.png" format="PNG"/></imageobject>
-          <textobject><phrase>The search tool.</phrase></textobject>
-        </mediaobject>
-      </screenshot>
-    </figure>
-    </para>
-
 
  <sect3>
     <title>Dictionary</title>
