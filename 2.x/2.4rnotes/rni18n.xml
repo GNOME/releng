@@ -10,7 +10,7 @@
     Thanks to members of the worldwide <ulink
     url="http://developer.gnome.org/projects/gtp/">GNOME Translation
     Project</ulink>, under the leadership of Christian Rose and Kjartan Maraas,
-    GNOME &version; offers support for 28 languages (at least 80 percent of
+    GNOME &version; offers support for 29 languages (at least 80 percent of
     strings translated).
 
 <!--    
@@ -187,6 +187,6 @@
   virtually untranslated status, to a fully complete status in the short
   timeframe since the last GNOME release. This means having translated 16642
   messages in just a few months, which is a most remarkable effort.</para>
-  <para>Another 14 languages are partially supported, with more than half of
+  <para>Another 13 languages are partially supported, with more than half of
   their strings translated.</para>
 </sect1>
