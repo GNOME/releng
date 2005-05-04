@@ -1,3 +1,7 @@
+2005-05-04  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* rnutilities.xml: Fix a typo: mispelled -> misspelled.
+	
 2005-03-07  Raphael Higino  <raphaelh@cvs.gnome.org>
 
 	* rnsysadmin.xml: Fixed a typo: IDSN -> ISDN.
