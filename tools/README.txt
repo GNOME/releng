@@ -12,3 +12,6 @@ release_set_scripts/release-suites
 release_set_scripts/release-news
 release_set_scripts/release-diff
 
+versions:
+  Example versions file for use with release-suites. For instance, release-suites 2.11.5 versions
+
