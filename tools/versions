@@ -63,7 +63,7 @@ desktop:gtk-engines:2.6.3:
 desktop:gtksourceview:1.2.1:
 desktop:gucharmap:1.4.3:
 desktop:libgail-gnome:1.1.0:
-desktop:libgtkhtml:3.7.4: TODO
+desktop:gtkhtml:3.7.4:
 desktop:libgtop:2.11.2:
 desktop:librsvg:2.9.5:
 desktop:libwnck:2.11.4:
@@ -101,7 +101,7 @@ desktop:gnome-doc-utils:0.3.1:
 ## PROPOSED
 desktop:eggcups:0.19.1:
 desktop:libgnomecups:0.2.0:
-desktop:evnice:0.3.2:
+desktop:evince:0.3.2:
 desktop:gnome-keyring-manager:2.11.1:
 
 
