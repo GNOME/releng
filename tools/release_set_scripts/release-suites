@@ -1,0 +1,76 @@
+#!/bin/bash
+FTPROOT=/ftp/pub/GNOME
+
+majmin() {
+	echo $1 | sed "s#\([[:digit:]]\+\.[[:digit:]]\+\).*#\1#"
+}
+
+if [ $# -ne 2 ]; then
+	echo "Usage: release <version> <datafile>"
+	exit 1
+fi
+
+RVERSION="$1"
+RDATA="$2"
+
+RSUITES="$(grep -v "\(^$\|^#\)" $RDATA | cut -d : -f 1 | sort | uniq | tr '\n' ' ')"
+RMAJMIN="$(majmin $RVERSION)"
+
+for suite in $RSUITES; do
+	# check if the suite exists at all: exists == good
+	if [ ! -d $FTPROOT/$suite ]; then
+		echo "$suite suite does not exist!"
+		exit 1
+	fi
+	# check if the version exists: exists == bad
+	if [ -d $FTPROOT/$suite/$RMAJMIN/$RVERSION ]; then
+		echo "$suite $RVERSION in the way!"
+		exit 1
+	else
+		mkdir -p $FTPROOT/$suite/$RMAJMIN/$RVERSION/sources
+	fi
+done
+
+# Read release data and create links
+grep -v "\(^$\|^#\)" $RDATA | while read MDATA; do
+	SUITE=$(echo $MDATA | cut -d : -f 1)
+	MODULE=$(echo $MDATA | cut -d : -f 2)
+	VERSION=$(echo $MDATA | cut -d : -f 3)
+	SUBDIR=$(echo $MDATA | cut -d : -f 4)
+	MAJMIN=$(majmin $VERSION)
+
+	if [ -z "$SUBDIR" ]; then
+		RDIR=$FTPROOT/$SUITE/$RMAJMIN/$RVERSION/sources
+		RELATIVE="../../../.."
+	else
+		RDIR=$FTPROOT/$SUITE/$RMAJMIN/$RVERSION/sources/$SUBDIR
+		if [ ! -d $RDIR ]; then
+			mkdir -p $RDIR
+		fi
+		RELATIVE="../../../../.."
+	fi
+	
+	if [ -f $FTPROOT/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.gz ]; then
+		ln -s $RELATIVE/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.{gz,bz2} $RDIR/
+	else
+		echo "$MODULE $VERSION is not available."
+	fi
+done
+
+for suite in $RSUITES; do
+	cd $FTPROOT/$suite/$RMAJMIN/$RVERSION/sources
+	md5sum *.gz */*.gz > MD5SUMS-for-gz 2> /dev/null
+	md5sum *.bz2 */*.bz2 > MD5SUMS-for-bz2 2> /dev/null
+	echo
+	echo "$suite $RVERSION statistics:"
+	echo "  tar.gz:   $(du -Lch *.tar.gz */*.tar.gz 2> /dev/null | grep total$)"
+	echo "  tar.bz2:  $(du -Lch *.tar.bz2 */*.tar.bz2 2> /dev/null | grep total$)"
+done
+
+# fix permissions
+chown -R :ftpadmin $FTPROOT/$suite/$RMAJMIN
+chmod g+rwX,o+rX $FTPROOT/$suite/$RMAJMIN
+find $FTPROOT/$suite/$RMAJMIN -type d | xargs chmod g+s
+
+# return your seat backs into their upright and locked positions
+cd -

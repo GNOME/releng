@@ -3,11 +3,12 @@ Some of these scripts are installed on our "widget" server. There is no particul
 install-module:
   Installed on the "widget" server. Used to release a tarball on the ftp server.
 
-gnome-release-set.sh:
+release_set_scripts/release:
   Takes a versions file and creates a new directory of symlinks for a whole GNOME release set
   release on the ftp server.
  Currently installed as /home/jdub/bin/release.
 
-gnome-bindings-release-set.sh:
-  Like gnome-release-set.sh, but the versions file has an extra "programming language" column, and it puts the tarballs in
-  a sub-directory for that programming language.
+release_set_scripts/release-suites
+release_set_scripts/release-news
+release_set_scripts/release-diff
+

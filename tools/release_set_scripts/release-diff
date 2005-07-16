@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# do we want to see which modules haven't changed?
+if [ "$1" == "--same" ]; then
+	UNIQPARAM="-d"
+	shift
+else
+	UNIQPARAM="-u"
+fi
+
+# did we get any useful parameters?
+if [ $# -eq 2 ]; then
+	find $1 $2 -name *.gz | sed 's#.*/\(.*\).tar.gz#\1#' | sort | uniq $UNIQPARAM | sed 's#\(.*\)\-.*#\1#' | uniq | while read module; do echo $module $(basename $1/$module-[[:digit:]]*.tar.gz .tar.gz) $(basename $2/$module-[[:digit:]]*.tar.gz .tar.gz) | sed "s/$module-//g"; done
+else
+	echo "Usage: release-diff [--same] <old-directory> <new-directory>"
+	exit 1
+fi

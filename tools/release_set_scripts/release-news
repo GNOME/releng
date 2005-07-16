@@ -1,0 +1,56 @@
+#!/bin/sh
+if [ $# -ne 2 ]; then
+	echo "Usage: release-news <sources-old> <sources-new>"
+	exit 1
+fi
+
+ARC=gz
+DEC=-z
+
+OLD=$1
+NEW=$2
+TMP=/tmp/release-news-$USER-$$
+
+mkdir -p $TMP
+
+find $OLD $NEW -name "*.tar.$ARC" \
+	| sed 's,.*/\(.*\),\1,' | sort | uniq -u \
+	| sed 's,\(.*\)-[[:digit:]].*,\1,' | uniq -d \
+	| while read MODULE; do
+		# pull out the NEWS files, ensuring to refer to only two module dirs
+		for ARCHIVE in $(find $OLD $NEW -name "$MODULE-[[:digit:]]*.tar.$ARC"); do
+			MODVER=$(basename $ARCHIVE .tar.$ARC);
+			tar -C $TMP $DEC -xf $ARCHIVE $MODVER/NEWS 2> /dev/null;
+		done;
+
+		# diff the news files
+		if [ $(find $TMP/$MODULE*/NEWS 2> /dev/null | wc -l) -eq 2 ]; then
+			diff -U 0 $TMP/$MODULE*/NEWS | sed '1,/^@@/d;/^@@/,$d;/^[^+]/d;s/^+//' \
+				> $TMP/$MODULE.NEWS
+		fi
+
+		# provide output if there's a sensible diff
+		if [ -f $TMP/$MODULE.NEWS ] && [ -s $TMP/$MODULE.NEWS ] \
+			&& [ $(wc -l < $TMP/$MODULE.NEWS) -gt 2 ]; then
+			
+			# print separator
+			echo ""
+			echo "========================================"
+			echo " NEWS: $MODVER"
+			echo "========================================"
+			echo ""
+		
+			cat $TMP/$MODULE.NEWS;
+		else
+			# print separator
+			echo ""
+			echo "========================================"
+			echo " UPDATED: $MODVER"
+			echo "========================================"
+			echo ""
+			echo "$MODULE was updated without a NEWS entry."
+			echo ""
+		fi
+	done
+
+rm -rf $TMP
