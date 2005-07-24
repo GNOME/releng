@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Gnome 2.10 release notes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-03-08 08:45+0100\n"
-"Last-Translator: Frank Arnold <frank@scirocco-5v-turbo.de>\n"
+"PO-Revision-Date: 2005-07-24 14:12+0200\n"
+"Last-Translator: Hendrik Richter <hendi@gnome-de.org>\n"
 "Language-Team: German GNOME Translators <gnome@gnome-de.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -557,7 +557,7 @@ msgid ""
 msgstr ""
 "Das populäre Klebezettel-Applet macht das Erstellen von Notizen im PostIt-"
 "Stil auf Ihrem Desktop jetzt noch leichter, dank einer einfacheren "
-"Benutzerschittstelle und der Beseitigung einer Reihe von Fehlern. Ein "
+"Benutzerschnittstelle und der Beseitigung einer Reihe von Fehlern. Ein "
 "Beispiel: Die Zettel bleiben jetzt auf der richtigen Arbeitsfläche oder "
 "sogar einem anderen Monitor kleben."
 
@@ -1260,7 +1260,7 @@ msgstr "Englisch (341 Millionen)"
 
 #: ../rni18n.xml:51 (para)
 msgid "Finnish (over 5 million)"
-msgstr "Finisch (über 5 Millionen)"
+msgstr "Finnisch (über 5 Millionen)"
 
 #: ../rni18n.xml:52 (para)
 msgid "French (over 75 million)"
