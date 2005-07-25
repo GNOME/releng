@@ -7,6 +7,9 @@
 # hierarchy.  (Here $SUITE_TYPE=desktop|platform|bindings, $VERSION is
 # something like 2.11.90 and $MAJOR_MINOR_OF_VERSION would be 2.11 in
 # that case)
+# CAVEAT:
+#   perl binding tarballs need to be in the local directory since they
+#   are not installed under $FTPROOT/sources/$MODULE/
 #
 # This script will modify the files on the ftp server and create
 # MD5SUMS-for-gz and MD5SUMS-for-bz2 files in the current directory.
@@ -81,6 +84,9 @@ grep -v "\(^$\|^#\)" $RDATA | while read MDATA; do
 	
 	if [ -f $FTPROOT/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.gz ]; then
 		ln -s $RELATIVE/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.{gz,bz2} $RDIR/
+	elif [[ $SUITE == "bindings" && $SUBDIR == "perl" &&
+             -f ./$MODULE-$VERSION.tar.gz ]]; then
+		cp -a ./$MODULE-$VERSION.tar.gz $RDIR/
 	else
 		echo "$MODULE $VERSION is not available."
 	fi
