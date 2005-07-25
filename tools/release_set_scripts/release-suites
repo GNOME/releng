@@ -1,4 +1,33 @@
 #!/bin/bash
+
+# This script takes a Gnome release number and a file with info about
+# each module and sets up the necessary directories and symlinks to
+# put all the tarballs in a
+#   $FTPROOT/$SUITE_TYPE/$MAJOR_MINOR_OF_VERSION/$VERSION/sources
+# hierarchy.  (Here $SUITE_TYPE=desktop|platform|bindings, $VERSION is
+# something like 2.11.90 and $MAJOR_MINOR_OF_VERSION would be 2.11 in
+# that case)
+#
+# This script will modify the files on the ftp server and create
+# MD5SUMS-for-gz and MD5SUMS-for-bz2 files in the current directory.
+#
+# Input is of the form
+#   release-suites <version> <datafile>
+# where <version> is something like 2.11.90 and <datafile> is a file with
+# lines of the form
+#     SUITE:MODULE:VERSION:SUBDIR
+# where SUBDIR can be blank (SUBDIR specifies whether the tarball is
+# held under a different directory than most other tarballs).  Lines
+# can also be entirely blank or begin with a '#' character to specify
+# a comment that should be ignored.  Some examples:
+#     platform:gtk+:2.7.2:
+#     desktop:ggv:2.11.0:
+#     # Here is a comment
+#     bindings:gconfmm:2.10.0:c++
+#
+# Output consists only of errors and a short blurb about tarball size
+# statistics for the release.
+
 FTPROOT=/ftp/pub/GNOME
 
 majmin() {
@@ -6,7 +35,7 @@ majmin() {
 }
 
 if [ $# -ne 2 ]; then
-	echo "Usage: release <version> <datafile>"
+	echo "Usage: $0 <version> <datafile>"
 	exit 1
 fi
 

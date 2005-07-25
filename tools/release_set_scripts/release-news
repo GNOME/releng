@@ -1,4 +1,36 @@
 #!/bin/sh
+
+# This script finds the difference in NEWS entries between two releases.
+#
+# This script does not modify anything (well, other than creating and
+# deleting a direcory in /tmp)
+#
+# Input is of the form
+#     release-news <old-directory> <new-directory>
+#   e.g.
+#     release-news /ftp/pub/GNOME/desktop/2.10/2.10.1/ \
+#                  /ftp/pub/GNOME/desktop/2.10/2.10.2/
+#
+# Output looks like
+#   ========================================
+#    NEWS: gnome-keyring-0.4.3
+#   ========================================
+#   
+#   Changes in version 0.4.3 are:
+#   * Translation updates
+#   * Fix bug in acl functions
+#   * implement gnome_keyring_set_info
+#   * add sync function for all operations
+#   * fix leaks
+#   
+#
+#   ========================================
+#    UPDATED: gnome-mag-0.12.1
+#   ========================================
+#   
+#   gnome-mag was updated without a NEWS entry.
+
+
 if [ $# -ne 2 ]; then
 	echo "Usage: release-news <sources-old> <sources-new>"
 	exit 1
