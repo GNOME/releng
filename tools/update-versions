@@ -1,0 +1,142 @@
+#!/bin/sh
+
+# This script provides an updated version of a given versions datafile
+# on stdout (updated w.r.t. the release numbers), which can be saved
+# and then used for the release-suites script.  See the release-suites
+# script for explanation of the datafile.
+# CAVEATS:
+#   - The exact same modules in the input will be used in the output.
+#     Fix the input file first if you want some modules added or
+#     removed.
+#   - tarballs are searched for most modules under $FTPROOT/module;
+#     tarballs for perl bindings are searched for in the local
+#     directory
+#
+# This script does not modify anything other than creating a possible
+# warnings file if release set numbers are braindead somewhere
+# (e.g. under the gnomemeeting directory *cough*)
+#
+# Input is of the form
+#     update-versions <old-datafile>
+#   e.g.
+#     update-versions versions
+#
+# Output looks like (see release-suites script for more info)
+#     platform:gtk+:2.7.2:
+#     desktop:ggv:2.11.0:
+#     # Here is a comment
+#     bindings:gconfmm:2.10.0:c++
+#  See release-suites for more info on the output.  Note that in particular
+#  you'll probably want to save this output, and perhaps compare to the
+#  <old-datafile> from which it is based to ensure accuracy.
+
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <datafile>"
+  exit 1
+fi
+
+# Sigh, if we were to quit doing stable releases once we started doing
+# unstable releases, we could just use
+#   find $FTPROOT/$MODULE -name "*.tar.gz | xargs ls -tr | tail -n 1
+# to find the latest release.  Instead, we have to do lots of ugly
+# version number comparisons, needing lots of helper functions.  So,
+# here those helper functions are:
+
+min() {
+  [ $1 -lt $2 ] && echo $1 && return
+  echo $2
+}
+
+bigger_version() {
+  local a b num i
+  a=( $(echo $1 | sed 's#\.# #g') )
+  b=( $(echo $2 | sed 's#\.# #g') )
+
+  a_len=${#a[@]}
+  b_len=${#b[@]}
+  num=$(min $a_len $b_len)
+  for ((i=0; i < num; i++)) do
+    if      [ ${a[$i]} -gt ${b[$i]} ]; then
+      echo $1
+      return
+    elif [ ${a[$i]} -lt ${b[$i]} ]; then
+      echo $2
+      return
+    fi
+  done
+  if      [ $a_len -gt $b_len ]; then
+    echo $1
+    return
+  elif [ $a_len -lt $b_len ]; then
+    echo $2
+    return
+  else
+    echo "bigger_version warning: $1 and $2 are the same version" >> warnings
+    echo $1
+    return
+  fi
+}
+
+get_max_version() {
+  local versions version i
+  versions=( "$@" )
+  num_versions=${#versions[@]}
+
+  if [ $num_versions -eq 0 ]; then
+    echo "Error: No versions specified in call to getmax"
+    exit 1
+  fi
+
+  maxversion=${versions[0]}
+  for ((i=1; i < num_versions; i++)) do
+    maxversion=$(bigger_version $maxversion ${versions[$i]})
+  done
+  echo $maxversion
+}
+
+FTPROOT=/ftp/pub/GNOME/sources
+cat $1 | while read entry; do
+  if (echo $entry | grep "\(^$\|^#\)" > /dev/null); then
+    echo $entry
+    continue
+  fi
+
+  SUITE=$(echo $entry | cut -d : -f 1)
+  MODULE=$(echo $entry | cut -d : -f 2)
+  VERSION=$(echo $entry | cut -d : -f 3)
+  SUBDIR=$(echo $entry | cut -d : -f 4)
+  ## FIXME: Should we use MAJMIN?  It'd save some effort, and make
+  ## this script useful for stable releases.  BUT, it'd fail if MODULE
+  ## only provided stable tarballs for some unstable releases and then
+  ## later made an unstable tarball for later unstable releases in the
+  ## same series.  It'd also fail if MODULE didn't make a stable
+  ## release for the big .0 Gnome release but did finally make such a
+  ## stable tarball for one of the later releases in the same Gnome
+  ## stable series.
+  #MAJMIN=$(majmin $VERSION)
+
+  if [[ $SUITE == "bindings" && $SUBDIR == "perl" ]]; then
+    versions=$(find . -maxdepth 1 -name "$MODULE*.tar.gz" \
+             | sed "s#.*-\([0-9\.]*\).tar.gz#\1#")
+    if [[ -z $versions ]]; then
+      # Have to punt because perl bindings are not in ftp anywhere
+      echo $entry
+    else
+      version=$(get_max_version $versions)
+      echo "$SUITE:$MODULE:$version:$SUBDIR"
+    fi
+    continue
+  fi
+
+  # Get the largest release series (e.g. 2.8?, 2.9?, 2.10?, 2.11?)
+  majmins=$(find $FTPROOT/$MODULE/ -type d -maxdepth 1 -mindepth 1 \
+           | sed -e 's#.*/##g')
+  majmin=$(get_max_version $majmins)
+
+  # Get the largest release number
+  versions=$(find $FTPROOT/$MODULE/$majmin -name "*.tar.gz" \
+            | sed "s#.*-\([0-9\.]*\).tar.gz#\1#")
+  version=$(get_max_version $versions)
+
+  echo "$SUITE:$MODULE:$version:$SUBDIR"
+done
