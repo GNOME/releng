@@ -107,7 +107,7 @@ desktop:gnome-keyring-manager:2.11.1:
 
 # C++
 bindings:glibmm:2.7.2:c++
-bindings:gtkmm:2.7.4:c++
+bindings:gtkmm:2.7.3:c++
 bindings:libglademm:2.6.0:c++
 bindings:gconfmm:2.10.0:c++
 bindings:libgnomecanvasmm:2.11.1:c++
