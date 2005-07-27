@@ -1,15 +1,20 @@
 #!/bin/bash
 
 # This script takes a Gnome release number and a file with info about
-# each module and sets up the necessary directories and symlinks to
-# put all the tarballs in a
-#   $FTPROOT/$SUITE_TYPE/$MAJOR_MINOR_OF_VERSION/$VERSION/sources
+# each module and sets up the necessary directories and symlinks (or
+# copies) to put all the tarballs in a
+#   $FTPROOT/$SUITE_TYPE/$MAJOR_MINOR/$VERSION/sources/$SUBDIR
 # hierarchy.  (Here $SUITE_TYPE=desktop|platform|bindings, $VERSION is
-# something like 2.11.90 and $MAJOR_MINOR_OF_VERSION would be 2.11 in
-# that case)
-# CAVEAT:
-#   perl binding tarballs need to be in the local directory since they
-#   are not installed under $FTPROOT/sources/$MODULE/
+# something like 2.11.90, $MAJOR_MINOR would be 2.11 in that case, and
+# $SUBDIR can be something like 'perl' though it is often blank.
+# Search path for finding where to get the tarball from is as follows:
+#   1) Look under 
+#        $FTPROOT/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.gz
+#      and make a symlink to that if it exists
+#   2) If not found in step -1-, look under
+#        ./$SUBDIR
+#      and copy the file to the destination if that exists
+#   3) If not found in step -1- or -2-, complain.
 #
 # This script will modify the files on the ftp server and create
 # MD5SUMS-for-gz and MD5SUMS-for-bz2 files in the current directory.
@@ -19,10 +24,9 @@
 # where <version> is something like 2.11.90 and <datafile> is a file with
 # lines of the form
 #     SUITE:MODULE:VERSION:SUBDIR
-# where SUBDIR can be blank (SUBDIR specifies whether the tarball is
-# held under a different directory than most other tarballs).  Lines
-# can also be entirely blank or begin with a '#' character to specify
-# a comment that should be ignored.  Some examples:
+# where SUBDIR can be blank.  Lines can also be entirely blank or
+# begin with a '#' character to specify a comment that should be
+# ignored.  Some examples:
 #     platform:gtk+:2.7.2:
 #     desktop:ggv:2.11.0:
 #     # Here is a comment
@@ -84,9 +88,8 @@ grep -v "\(^$\|^#\)" $RDATA | while read MDATA; do
 	
 	if [ -f $FTPROOT/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.gz ]; then
 		ln -s $RELATIVE/sources/$MODULE/$MAJMIN/$MODULE-$VERSION.tar.{gz,bz2} $RDIR/
-	elif [[ $SUITE == "bindings" && $SUBDIR == "perl" &&
-             -f ./$MODULE-$VERSION.tar.gz ]]; then
-		cp -a ./$MODULE-$VERSION.tar.gz $RDIR/
+	elif [[ -d ./$SUBDIR && -f ./$SUBDIR/$MODULE-$VERSION.tar.gz ]]; then
+		cp -a ./$SUBDIR/$MODULE-$VERSION.tar.gz $RDIR/
 	else
 		echo "$MODULE $VERSION is not available."
 	fi
