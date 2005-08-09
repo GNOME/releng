@@ -116,10 +116,10 @@ bindings:libgtk-java:2.6.2:java
 
 # Perl
 bindings:Glib:1.093:perl
+bindings:Gnome2:1.022:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.000:perl
 bindings:Gnome2-VFS:1.031:perl
-bindings:Gnome2:1.022:perl
 bindings:Gtk2:1.093:perl
 bindings:Gtk2-GladeXML:1.004:perl
 
