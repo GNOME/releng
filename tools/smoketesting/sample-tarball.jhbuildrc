@@ -47,6 +47,7 @@ module_autogenargs['howl'] = autogenargs.replace('--disable-static', '')
 # 'mozilla'; jhbuild can't handle that.  Plus, who knows if mozilla
 # would correctly install the nspr and nss headers anyway--that bug
 # has bitten people for forever.  Let's just avoid it all...
+# See http://bugzilla.gnome.org/show_bug.cgi?id=313249.
 #
 # WARNING: This will cause the totem build to fail; as root run
 #   chmod a+w /usr/lib/mozilla-1.7.10/plugins

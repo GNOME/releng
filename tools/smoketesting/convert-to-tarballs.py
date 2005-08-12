@@ -72,11 +72,15 @@ help = \
 #   ? Make a useful help message
 #   ? Automatically figure out the sourcedir from ~/.jhbuildrc
 #   ? Consider automatically removing pyorbit (and libgtkhtml?)
-#   - Do the directory thing with mozilla (see tarball-conversion section)
+#   - Directory search with mozilla (allow removing hardcode of mozilla-1.7.11)
 #   - provide a way to limit a tarball number (e.g. gstreamer <= 0.9)
 #   - versions file doesn't have subdirs for c++/java/perl/python
 #   - versions file doesn't separate c++/java/perl/python
 #   - get rid of duplicated code between ftp and http
+#   - warn about modules with revision specified that don't have a
+#     limit on the tarball number (once we have a tarball number
+#     limiting method, that is)
+#   - abort if 'versions' exists in the current directory already
 
 class Options:
     def __init__(self, filename):
