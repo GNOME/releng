@@ -808,8 +808,8 @@ msgid ""
 msgstr ""
 "Evolution, le client de courrier électronique et de messagerie collaborative de "
 "GNOME supporte les configurations de courrier électronique classiques, ainsi "
-"que les serveur Novell Groupwise et Microsoft Exchange. Avec evolution vous "
-"pouvez lire, écrire and gérer vos courriers électroniques, contacts et "
+"que les serveurs Novell Groupwise et Microsoft Exchange. Avec Evolution, vous "
+"pouvez lire, écrire et gérer vos courriers électroniques, contacts et "
 "calendriers."
 
 #: ../rnapplications.xml:80 (para)
@@ -896,7 +896,7 @@ msgid ""
 msgstr ""
 "GnomeMeeting permet à des utilisateurs de se voir et de se parler au travers "
 "de la téléphonie par internet (VoIP) et de la vidéo-conférence. Dans GNOME "
-"2.10 le carnet d'adresses est maintenant partagé avec celui du client de "
+"2.10, le carnet d'adresses est maintenant partagé avec celui du client de "
 "courrier électronique Evolution, vous n'avez donc pas à entrer la même "
 "information à différents endroits."
 
@@ -915,7 +915,7 @@ msgstr ""
 
 #: ../rnapplications.xml:132 (title)
 msgid "The internet telephony and video conferencing client"
-msgstr "Le client de téléphonie par internet de vidéo-conférence"
+msgstr "Le client de téléphonie par internet et de vidéo-conférence"
 
 #: ../rnapplications.xml:136 (phrase)
 msgid "GnomeMeeting with side-by-side video."
@@ -1181,7 +1181,7 @@ msgstr ""
 
 #: ../rngames.xml:22 (phrase)
 msgid "The Same GNOME game."
-msgstr "Le jeux Same GNOME."
+msgstr "Le jeu Same GNOME."
 
 #: ../rngames.xml:31 (title)
 msgid "Nibbles"
