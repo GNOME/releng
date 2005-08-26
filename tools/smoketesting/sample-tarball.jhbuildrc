@@ -6,7 +6,7 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.11.91'
+moduleset = 'gnome-2.11.92'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -56,8 +56,8 @@ module_autogenargs['howl'] = autogenargs.replace('--disable-static', '')
 # to set things back to normal.
 #
 skip = [ 'mozilla' ]
-module_autogenargs['evolution'] = '--with-nss-includes=/usr/include/mozilla-1.7.10 --with-nspr-includes=/usr/include/mozilla-1.7.10 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib'
-module_autogenargs['evolution-data-server'] = '--with-nss-includes=/usr/include/mozilla-1.7.10 --with-nspr-includes=/usr/include/mozilla-1.7.10 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib'
+module_autogenargs['evolution'] = '--with-nss-includes=/usr/include/mozilla-1.7.10 --with-nspr-includes=/usr/include/mozilla-1.7.10 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
+module_autogenargs['evolution-data-server'] = '--with-nss-includes=/usr/include/mozilla-1.7.10 --with-nspr-includes=/usr/include/mozilla-1.7.10 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
 
 # I don't have PWLib, SDL and other necessary stuff.  And I don't have a webcam
 # or microphone anyway
