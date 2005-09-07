@@ -6,7 +6,7 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.11.92'
+moduleset = 'gnome-2.12.0'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -72,3 +72,10 @@ skip.append('gnomemeeting')
 #
 os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
 os.environ['PYTHONPATH'] = os.path.join(prefix, 'lib/python2.4/site-packages')
+
+# I have no exchange server to test with, so I'll just skip it (for
+# those that do want to build it, they'll need openldap development
+# libraries plus the workarounds included above to build evolution and
+# evolution-data-server with openldap enabled).
+#
+skip.append('evolution-exchange')
