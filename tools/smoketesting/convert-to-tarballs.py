@@ -82,6 +82,20 @@ help = \
 #     limiting method, that is)
 #   - abort if 'versions' exists in the current directory already
 
+# TODOs for elsewhere
+#   - Add times
+#     (15 min for convert-to-tarballs, 15 minutes for fixing up output
+#      files, 4.5 hours for build, 15 minutes to test (if development
+#      version), 15 minutes to sanity check, 15 minutes to run relevant
+#      release scripts, plus 15 minutes slush time or so -- total: 6
+#      hours)
+#   - Add a big README file saying how to use stuff, basics of how it
+#     works, and how to modify it
+
+# Extra stuff to document (for myself or elsewhere)
+#   - don't forget to mount of /usr/local on amr
+#   - mention removing lines from $prefix/share/jhbuild/packagedb.xml
+
 class Options:
     def __init__(self, filename):
         self.filename = filename
