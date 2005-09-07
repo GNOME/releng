@@ -441,7 +441,9 @@ class ConvertToTarballs:
                    node.nodeName == 'svnroot' or \
                    node.nodeName == 'arch-archive':
                     continue
-                elif node.nodeName == 'cvsmodule' or node.nodeName == 'mozillamodule':
+                elif node.nodeName == 'cvsmodule' or     \
+                     node.nodeName == 'mozillamodule' or \
+                     node.nodeName == 'svnmodule':
                     entry = self._create_tarball_node(document, node)
                 elif node.nodeName == 'tarball':
                     attrs = node.attributes

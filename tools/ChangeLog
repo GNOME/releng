@@ -1,0 +1,16 @@
+2005-09-06  Elijah Newren  <newren@gmail.com>
+
+	* ChangeLog: 
+	I'd rather track changes under tools/ here rather than under the
+	main ChangeLog (besides, it looks like we haven't been logging the
+	changes so far, so this won't be much different...)
+
+	* smoketesting/covert-to-tarballs.py:
+	Handle svnmodule packages
+
+	* versions:
+	Update to the versions used in the 2.12.0 release
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update to 2.12.0 (and skip evolution-exchange since I can't test
+	it and most probably can't either)
