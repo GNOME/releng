@@ -414,6 +414,10 @@ class ConvertToTarballs:
                 if not self.options.module_included(id):
                     self.ignored.append(id)
                     return None
+            if attrName == 'checkoutdir':
+                # Must trim these or jhbuild complains when the directory is
+                # named libxml2-2.6.22 instead of libxml2...
+                continue
             attrNode = attrs.get(attrName)
             attrValue = attrNode.nodeValue
             tarball.setAttribute(attrName, attrValue)
