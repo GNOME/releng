@@ -1,3 +1,11 @@
+2005-10-04  Elijah Newren  <newren@gmail.com>
+
+	* smoketesting/convert-to-tarballs.py:
+	allow the whilelist to provide version number limits
+
+	* smoketesting/tarball-conversion.config:
+	set limit on ORBit2 to 2.13 and on gstreamer to 0.9
+
 2005-10-03  Elijah Newren  <newren@gmail.com>
 
 	* smoketesting/convert-to-tarballs.py:

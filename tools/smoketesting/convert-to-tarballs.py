@@ -73,13 +73,11 @@ help = \
 #   ? Automatically figure out the sourcedir from ~/.jhbuildrc
 #   ? Consider automatically removing pyorbit (and libgtkhtml?)
 #   - Directory search with mozilla (allow removing hardcode of mozilla-1.7.11)
-#   - provide a way to limit a tarball number (e.g. gstreamer <= 0.9)
 #   - versions file doesn't have subdirs for c++/java/perl/python
 #   - versions file doesn't separate c++/java/perl/python
 #   - get rid of duplicated code between ftp and http
 #   - warn about modules with revision specified that don't have a
-#     limit on the tarball number (once we have a tarball number
-#     limiting method, that is)
+#     limit on the tarball number
 #   - abort if 'versions' exists in the current directory already
 
 # TODOs for elsewhere
@@ -103,6 +101,7 @@ class Options:
         self.drop_prefix = []
         self.release_sets = []
         self.release_set = []
+        self.version_limit = {}
         self.cvs_locations = []
         self.module_locations = []
         self._read_conversion_info()
@@ -189,6 +188,17 @@ class Options:
                 continue
             if node.nodeName == 'package':
                 name = node.attributes.get('name').nodeValue
+
+                # Determine whether we have a version limit for this package
+                if node.attributes.get('limit'):
+                    max_version = node.attributes.get('limit').nodeValue
+                    if re.match(r'[0-9]+\.[0-9]+\.[0-9]+', max_version):
+                        sys.stderr.write('Bad limit for ' + name + ': ' + \
+                          max_version + '. x.y.z versions not allowed; drop z\n')
+                        sys.exit(1)
+                    self.version_limit[name] = max_version
+                
+                # Find the appropriate release set
                 if node.attributes.get('set'):
                     set = node.attributes.get('set').nodeValue
                 else:
@@ -207,6 +217,15 @@ class Options:
             else:
                 sys.stderr.write('Bad whitelist node\n')
                 sys.exit(1)
+
+    def get_version_limit(self, modulename):
+        # First, do the renames in the dictionary
+        try:
+            limit = self.version_limit[modulename]
+        except KeyError:
+            limit = None
+
+        return limit
 
     def _read_conversion_info(self):
         document = minidom.parse(self.filename)
@@ -255,11 +274,32 @@ class TarballLocator:
         else:
             return b
 
-    def _get_latest_version(self, versions):
-        max_version = versions[0]
+    # This is nearly the same as _bigger_version, except that
+    #   - It returns a boolean value
+    #   - If max_version is None, it just returns False
+    #   - It treats 2.13 as == 2.13.0 instead of 2.13 as < 2.13.0
+    # The second property is particularly important with directory hierarchies
+    def _version_greater_or_equal_to_max(self, a, max_version):
+        if not max_version:
+            return False
+        a_nums = re.split(r'\.', a)
+        b_nums = re.split(r'\.', max_version)
+        num_fields = min(len(a_nums), len(b_nums))
+        for i in range(0,num_fields):
+            if   int(a_nums[i]) > int(b_nums[i]):
+                return True
+            elif int(a_nums[i]) < int(b_nums[i]):
+                return False
+        return True
+
+    def _get_latest_version(self, versions, max_version):
+        biggest = versions[0]
+        skip_version_check = not max_version
         for version in versions[1:]:
-            max_version = self._bigger_version(max_version, version)
-        return max_version
+            if (version == self._bigger_version(biggest, version) and \
+                not self._version_greater_or_equal_to_max(version, max_version)):
+                biggest = version
+        return biggest
 
     def _get_files_in_tarball_dir(self, ftp):
         location = ''
@@ -297,7 +337,7 @@ class TarballLocator:
         md5sum = sum.hexdigest()
         return md5sum, str(size)
 
-    def _get_files_in_http_tarball_dir(self, location):
+    def _get_files_in_http_tarball_dir(self, location, max_version):
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
@@ -311,15 +351,16 @@ class TarballLocator:
             newdirs = filter(hasdirs, files)
             newdirs = map(fixdirs, newdirs)
             if newdirs:
-                newdir = self._get_latest_version(newdirs)
+                newdir = self._get_latest_version(newdirs, max_version)
                 location = os.path.join(location, newdir)
             else:
                 break
         return location, files
 
-    def _get_http_tarball(self, location, modulename):
+    def _get_http_tarball(self, location, modulename, max_version):
         print "LOOKING for " + modulename + " tarball at " + location
-        location, files = self._get_files_in_http_tarball_dir(location)
+        location, files = \
+          self._get_files_in_http_tarball_dir(location, max_version)
 
         def isbz2tarball(x): return x.endswith('.tar.bz2')
         def isgztarball(x):  return x.endswith('.tar.gz')
@@ -342,7 +383,7 @@ class TarballLocator:
 
         if len(versions) == 0:
             raise IOError('No versions found')
-        version = self._get_latest_version(versions)
+        version = self._get_latest_version(versions, max_version)
         index = versions.index(version)
 
         location = os.path.join(location, tarballs[index])
@@ -376,14 +417,14 @@ class TarballLocator:
         ftp.quit()
         return location, version, md5sum, size
 
-    def find_tarball(self, baselocation, modulename):
+    def find_tarball(self, baselocation, modulename, max_version):
         if re.match(r'^ftp://', baselocation):
             bla = re.match(r'^[a-z]+://([a-z0-9\._]*)/(.*)', baselocation)
             site = bla.group(1)
             subdirs = bla.group(2)
-            return self._get_ftp_tarball(site, subdirs, modulename)
+            return self._get_ftp_tarball(site, subdirs, modulename, max_version)
         elif re.match(r'^http://', baselocation):
-            return self._get_http_tarball(baselocation, modulename)
+            return self._get_http_tarball(baselocation, modulename, max_version)
         else:
             sys.stderr.write('Invalid location for ' + modulename + ': ' +
                              baselocation + '\n')
@@ -430,8 +471,9 @@ class ConvertToTarballs:
         try:
             name = self.options.translate_name(id)
             baselocation = self.options.get_download_site(cvsroot, name)
+            max_version = self.options.get_version_limit(name)
             location, version, md5sum, size = \
-                      self.locator.find_tarball(baselocation, name)
+                      self.locator.find_tarball(baselocation, name, max_version)
             print '  ', location, version, md5sum, size
             tarball.setAttribute('version', version)
             source_node.setAttribute('href', location)
