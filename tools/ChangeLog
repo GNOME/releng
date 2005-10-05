@@ -1,3 +1,18 @@
+2005-10-05  Elijah Newren  <newren@gmail.com>
+
+	* versions: update again for 2.12.1 to include the samba
+	compilation fix in gnome-vfs-2.12.1.1
+
+	* release_set_scripts/release-diff: tml's win32 stuff in the
+	release directories breaks stuff unless you're very careful about
+	how to call this function--document it.
+
+	* simple-diff:
+	* simple-news:
+	New scripts that call release-diff and release-news, respectively,
+	but which don't require such freaking long argument lines and that
+	loop over all the release suites for you.
+
 2005-10-04  Elijah Newren  <newren@gmail.com>
 
 	* versions: update for 2.12.1

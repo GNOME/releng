@@ -8,7 +8,7 @@ platform:esound:0.2.36:
 platform:gail:1.8.5:
 platform:glib:2.8.3:
 platform:gnome-mime-data:2.4.2:
-platform:gnome-vfs:2.12.1:
+platform:gnome-vfs:2.12.1.1:
 platform:gtk+:2.8.6:
 platform:gtk-doc:1.4:
 platform:intltool:0.34.1:

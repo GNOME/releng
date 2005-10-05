@@ -1,0 +1,41 @@
+#!/bin/sh
+
+# This script finds the difference in NEWS entries between two releases
+# and saves the result in the ftp hierarchy.
+#
+# This script creates new files under 
+# /ftp/pub/GNOME/<suite>/<majmin>/<release>.
+#
+# Input is of the form
+#     simple-news <old-release> <new-release>
+#   e.g.
+#     simple-news 2.12.0 2.12.1
+#
+# Output looks like
+#   /ftp/pub/GNOME/platform/2.12/2.12.1/NEWS saved
+#   /ftp/pub/GNOME/desktop/2.12/2.12.1/NEWS saved
+#   /ftp/pub/GNOME/bindings/2.12/2.12.1/NEWS saved
+
+
+curdir=$(dirname $0)
+FTPROOT=/ftp/pub/GNOME
+majmin() {
+	echo $1 | sed "s#\([[:digit:]]\+\.[[:digit:]]\+\).*#\1#"
+}
+
+# did we get any useful parameters?
+if [ $# -eq 2 ]; then
+  MAJMIN1=$(majmin $1)
+  MAJMIN2=$(majmin $2)
+  SUITES="platform desktop bindings"
+
+  for suite in $SUITES; do
+    $curdir/release-news $FTPROOT/$suite/$MAJMIN1/$1    \
+                         $FTPROOT/$suite/$MAJMIN2/$2 >  \
+                         $FTPROOT/$suite/$MAJMIN2/$2/NEWS
+    echo "$FTPROOT/$suite/$MAJMIN2/$2/NEWS saved"
+  done
+else
+  echo "Usage: simple-news <old-release> <new-release>"
+  exit 1
+fi

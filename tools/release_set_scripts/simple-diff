@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# This script finds all tarballs that are different between two releases,
+# or, if the --same parameter is passed, finds all tarballs that are the
+# same between two releases.
+#
+# This script does not modify anything
+#
+# Input is of the form
+#     simple-diff [--same] <old-release> <new-release>
+#   e.g.
+#     simple-diff --same 2.12.0 2.12.1
+#
+# Output is of the form
+#     module           version1   version2
+#   e.g.
+#     control-center   2.10.1     2.10.2
+#     epiphany         1.6.2      1.6.4
+#     nautilus-media   0.8.1      -none-
+
+
+# do we want to see which modules haven't changed?
+if [ "$1" == "--same" ]; then
+  UNIQUE="--same"
+  shift
+else
+  UNIQUE=""
+fi
+curdir=$(dirname $0)
+
+FTPROOT=/ftp/pub/GNOME
+majmin() {
+	echo $1 | sed "s#\([[:digit:]]\+\.[[:digit:]]\+\).*#\1#"
+}
+
+# did we get any useful parameters?
+if [ $# -eq 2 ]; then
+  MAJMIN1=$(majmin $1)
+  MAJMIN2=$(majmin $2)
+  SUITES="platform desktop bindings"
+
+  for suite in $SUITES; do
+    $curdir/release-diff $UNIQUE $FTPROOT/$suite/$MAJMIN1/$1/sources \
+                                 $FTPROOT/$suite/$MAJMIN2/$2/sources
+  done
+else
+  echo "Usage: simple-diff [--same] <old-release> <new-release>"
+  exit 1
+fi

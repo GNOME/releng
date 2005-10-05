@@ -9,8 +9,12 @@
 # Input is of the form
 #     release-diff [--same] <old-directory> <new-directory>
 #   e.g.
-#     release-diff /ftp/pub/GNOME/desktop/2.10/2.10.1/ \
-#                  /ftp/pub/GNOME/desktop/2.10/2.10.2/
+#     release-diff /ftp/pub/GNOME/desktop/2.10/2.10.1/sources \
+#                  /ftp/pub/GNOME/desktop/2.10/2.10.2/sources
+#
+# Note that the sources/ directory may be necessary due to people screwing
+# up the release directories by putting windows stuff in there.  ;-)
+# (e.g. the win32 directory under /ftp/pub/GNOME/desktop/2.12/2.12.0/)
 #
 # Output is of the form
 #     module           version1   version2
