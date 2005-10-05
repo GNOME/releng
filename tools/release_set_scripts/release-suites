@@ -34,6 +34,13 @@
 #
 # Output consists only of errors and a short blurb about tarball size
 # statistics for the release.
+#
+# NOTE: If for some reason your use of this script was in error
+# (e.g. one of the tarball versions in your datafile were
+# out-of-date), you can run e.g.
+#   rm -rf /ftp/pub/GNOME/{platform,desktop,bindings}/*/2.11.57/
+# and then re-run release-suites.  If you do this make sure to replace
+# 2.11.57 with the right version.
 
 FTPROOT=/ftp/pub/GNOME
 

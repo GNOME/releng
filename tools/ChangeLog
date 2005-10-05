@@ -1,5 +1,12 @@
 2005-10-05  Elijah Newren  <newren@gmail.com>
 
+	* release_set_scripts/release-suites: Add a little comment about
+	what to do if you want to re-run release-suites (because, e.g. you
+	had an out-of-date version number for a tarball in your versions
+	file)
+
+2005-10-05  Elijah Newren  <newren@gmail.com>
+
 	* versions: update again for 2.12.1 to include the samba
 	compilation fix in gnome-vfs-2.12.1.1
 
