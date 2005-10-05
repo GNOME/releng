@@ -1,5 +1,13 @@
 2005-10-04  Elijah Newren  <newren@gmail.com>
 
+	* versions: update for 2.12.1
+
+	* smoketesting/sample-tarball.jhbuildrc: update for
+	2.12.1--account for jhbuild not automatically including
+	/usr/lib/pkgconfig in PKG_CONFIG_PATH
+
+2005-10-04  Elijah Newren  <newren@gmail.com>
+
 	* smoketesting/convert-to-tarballs.py:
 	allow the whilelist to provide version number limits
 

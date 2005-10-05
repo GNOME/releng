@@ -6,7 +6,7 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.12.0'
+moduleset = 'gnome-2.12.1'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -79,3 +79,7 @@ os.environ['PYTHONPATH'] = os.path.join(prefix, 'lib/python2.4/site-packages')
 # evolution-data-server with openldap enabled).
 #
 skip.append('evolution-exchange')
+
+# jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
+# tell it to do so
+addpath('PKG_CONFIG_PATH', '/usr/lib/pkgconfig')
