@@ -1,3 +1,10 @@
+2005-10-26  Vincent Untz  <vuntz@gnome.org>
+
+	* versions: updated
+	* smoketesting/sample-tarball.jhbuildrc: add comment about the
+	--disable-mozilla switch for totem
+	* smoketesting/tarball-conversion.config: no more limit for ORBit2
+
 2005-10-05  Elijah Newren  <newren@gmail.com>
 
 	* release_set_scripts/release-suites: Add a little comment about
