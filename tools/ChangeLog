@@ -1,3 +1,8 @@
+2005-11-16  Vincent Untz  <vuntz@gnome.org>
+
+	* versions: updated
+	* smoketesting/tarball-conversion.config: typo
+
 2005-10-26  Vincent Untz  <vuntz@gnome.org>
 
 	* versions: updated
