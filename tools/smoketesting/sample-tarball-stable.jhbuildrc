@@ -1,0 +1,89 @@
+# -*- mode: python -*-
+
+# edit this file to match your settings, backup your ~/.jhbuildrc, and then
+# copy this there
+
+# what module set should be used.  The default at the moment is 'gnome28',
+# but it can be any of the files in the modulesets directory, or even
+# the URL of a module set file on a web server.
+moduleset = 'gnome-2.12.2'
+
+# A list of the modules to build.  Defaults to the Gnome Desktop and
+# developer platform.
+modules = [ 'meta-gnome-desktop' ]
+
+# what directory should the source be checked out to?
+checkoutroot = os.path.join(os.environ['HOME'], 'cvs', 'tarball-gnome')
+
+# the prefix to configure/install modules to (must have write access)
+prefix = '/opt/tarball-gnome2'
+
+# extra arguments to pass to all autogen.sh scripts
+# to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
+autogenargs='--disable-static --disable-gtk-doc'
+
+# set CFLAGS:
+os.environ['CFLAGS'] = '-g -O2'
+
+# a alternative install program to use.
+# The included install-check program won't update timestamps if the
+# header hasn't changed
+os.environ['INSTALL'] = os.path.join(os.environ['HOME'],
+                                     'bin', 'install-check')
+
+# An alternative location to look for (or download to) all downloaded tarballs
+tarballdir = os.path.join(checkoutroot, 'pkgs')
+
+
+########## Workarounds ##########
+
+# Oh, stupid howl, whenever will you quit causing problems?
+#
+module_autogenargs['howl'] = autogenargs.replace('--disable-static', '')
+
+# Mozilla and jhbuild are stupid; mozilla has stupid tarball names,
+# like mozilla-1.7.11-source.tar.bz2.  Further such tarballs do not
+# create a directory named 'mozilla-1.7.11-source', but rather
+# 'mozilla'; jhbuild can't handle that.  Plus, who knows if mozilla
+# would correctly install the nspr and nss headers anyway--that bug
+# has bitten people for forever.  Let's just avoid it all...
+# See http://bugzilla.gnome.org/show_bug.cgi?id=313249.
+#
+# WARNING: This will cause the totem build to fail; as root run
+#   chmod a+w /usr/lib/mozilla-1.7.10/plugins
+# and then resume the build.  When the build is finished, run
+#   chmod a-w /usr/lib/mozilla-1.7.10/plugins
+# to set things back to normal.
+#
+# You can optionnaly disable the totem mozilla plugin:
+# module_autogenargs['totem'] = '--disable-mozilla'
+#
+skip = [ 'mozilla' ]
+
+module_autogenargs['evolution'] = '--with-nss-includes=/usr/include/mozilla-1.7.10 --with-nspr-includes=/usr/include/mozilla-1.7.10 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
+module_autogenargs['evolution-data-server'] = '--with-nss-includes=/usr/include/mozilla-1.7.10 --with-nspr-includes=/usr/include/mozilla-1.7.10 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
+
+# I don't have PWLib, SDL and other necessary stuff.  And I don't have a webcam
+# or microphone anyway
+skip.append('gnomemeeting')
+
+# libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
+# about python.  See
+# http://mail.gnome.org/archives/garnome-list/2005-July/msg00199.html
+#
+# WARNING: This will probably fail if you don't do a jhbuild bootstrap
+# first to make sure that jhbuild installs python-2.4 in the prefix
+#
+os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
+os.environ['PYTHONPATH'] = os.path.join(prefix, 'lib/python2.4/site-packages')
+
+# I have no exchange server to test with, so I'll just skip it (for
+# those that do want to build it, they'll need openldap development
+# libraries plus the workarounds included above to build evolution and
+# evolution-data-server with openldap enabled).
+#
+skip.append('evolution-exchange')
+
+# jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
+# tell it to do so
+addpath('PKG_CONFIG_PATH', '/usr/lib/pkgconfig')

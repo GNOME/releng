@@ -1,3 +1,14 @@
+2005-11-28  Elijah Newren  <newren@gmail.com>
+
+	* versions-2-12:
+	* smoketesting/sample-tarball-2-12.jhbuildrc:
+	* smoketesting/tarball-conversion-2-12.config:
+	Add gnome-2.12 versions of these files to make the 2.12 releases
+	easier (okay, so there'll only be one more but they'll still be
+	useful at that time plus they might be helpful for others to look
+	at when it comes time for the 2.14/2.15 simultaneous development
+	too)
+
 2005-11-16  Vincent Untz  <vuntz@gnome.org>
 
 	* versions: updated
