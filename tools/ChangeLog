@@ -1,3 +1,12 @@
+2005-12-13  Elijah Newren  <newren@gmail.com>
+
+	* smoketesting/tarball-conversion.config:
+	Oops, wasn't supposed to change this file with my last commit a
+	few weeks ago
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update which moduleset to use
+	
 2005-11-28  Elijah Newren  <newren@gmail.com>
 
 	* versions-2-12:
