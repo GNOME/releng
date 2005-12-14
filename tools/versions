@@ -23,7 +23,6 @@ platform:libgnomeui:2.13.0:
 platform:libxml2:2.6.22:
 platform:libxslt:1.1.15:
 platform:pango:1.11.1:
-platform:pkg-config:0.20:
 
 ## DESKTOP
 desktop:bug-buddy:2.12.1:
@@ -42,7 +41,7 @@ desktop:gcalctool:5.7.15:
 desktop:gconf-editor:2.12.1:
 desktop:gdm:2.13.0.3:
 desktop:gedit:2.13.0:
-desktop:gnome-applets:2.13.2:
+desktop:gnome-applets:2.12.2:
 desktop:gnome-backgrounds:2.12.2:
 desktop:gnome-desktop:2.13.3:
 desktop:gnome-doc-utils:0.5.1:
@@ -122,7 +121,7 @@ bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.020:perl
 bindings:Gnome2-VFS:1.050:perl
 bindings:Gtk2:1.112:perl
-bindings:Gtk2-GladeXML:1.005:perl
+bindings:Gtk2-GladeXML:1.004:perl
 
 # Python
 bindings:gnome-python:2.12.2:python
