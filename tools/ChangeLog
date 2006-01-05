@@ -1,3 +1,7 @@
+2006-01-04  Federico Mena Quintero  <federico@ximian.com>
+
+	* versions: Updated for GNOME 2.13.4.
+
 2005-12-13  Elijah Newren  <newren@gmail.com>
 
 	* smoketesting/tarball-conversion.config:
