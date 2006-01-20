@@ -126,5 +126,6 @@ bindings:Gtk2-GladeXML:1.004:perl
 
 # Python
 bindings:gnome-python:2.12.3:python
+bindings:pygobject:2.9.0:python
 bindings:pygtk:2.8.4:python
 bindings:pyorbit:2.13.1:python
