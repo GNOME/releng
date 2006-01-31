@@ -1,3 +1,11 @@
+2006-01-30  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion.config:
+	Update to include new modules, though I was uncertain how/if we'd
+	handle gnome-power-manager, libnotify, and notification-daemon.
+	Should make it easier for others that want to build modulesets,
+	though.
+
 2006-01-19  Elijah Newren  <newren gmail com>
 
 	* versions:
