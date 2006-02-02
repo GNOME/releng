@@ -1,3 +1,18 @@
+2006-02-01  Elijah Newren  <newren gmail com>
+
+	* versions:
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update for GNOME 2.13.90
+
+	* release_set_scripts/release-suites:
+	Remove the ugly permissions warnings (and actually fix up
+	permissions in all the places its needed too), so that people will
+	don't miss the other warnings.  Also, add a note about adding a
+	new release set.
+
+	* release_set_scripts/simple-news:
+	We have an admin suite too now
+
 2006-01-30  Elijah Newren  <newren gmail com>
 
 	* smoketesting/tarball-conversion.config:

@@ -15,6 +15,10 @@
 #   /ftp/pub/GNOME/platform/2.12/2.12.1/NEWS saved
 #   /ftp/pub/GNOME/desktop/2.12/2.12.1/NEWS saved
 #   /ftp/pub/GNOME/bindings/2.12/2.12.1/NEWS saved
+#
+# Note that this script hard codes the release suites (grep for "SUITES");
+# if you've added more release sets, you'll need to update the relevant
+# line of this script.
 
 
 curdir=$(dirname $0)
@@ -27,7 +31,7 @@ majmin() {
 if [ $# -eq 2 ]; then
   MAJMIN1=$(majmin $1)
   MAJMIN2=$(majmin $2)
-  SUITES="platform desktop bindings"
+  SUITES="platform desktop bindings admin"
 
   for suite in $SUITES; do
     $curdir/release-news $FTPROOT/$suite/$MAJMIN1/$1    \

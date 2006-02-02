@@ -4,7 +4,7 @@
 # each module and sets up the necessary directories and symlinks (or
 # copies) to put all the tarballs in a
 #   $FTPROOT/$SUITE_TYPE/$MAJOR_MINOR/$VERSION/sources/$SUBDIR
-# hierarchy.  (Here $SUITE_TYPE=desktop|platform|bindings, $VERSION is
+# hierarchy.  (Here $SUITE_TYPE is e.g. desktop or bindings, $VERSION is
 # something like 2.11.90, $MAJOR_MINOR would be 2.11 in that case, and
 # $SUBDIR can be something like 'perl' though it is often blank.
 # Search path for finding where to get the tarball from is as follows:
@@ -31,6 +31,10 @@
 #     desktop:ggv:2.11.0:
 #     # Here is a comment
 #     bindings:gconfmm:2.10.0:c++
+# If SUITE corresponds to a directory that doesn't exist, you'll need to
+# create it on the server manually.  E.g.  mkdir /ftp/pub/gnome/admin.
+# No, this script won't be modified to account for that or else it can't
+# catch typos.
 #
 # Output consists only of errors and a short blurb about tarball size
 # statistics for the release.
@@ -112,10 +116,12 @@ for suite in $RSUITES; do
 	echo "  tar.bz2:  $(du -Lch *.tar.bz2 */*.tar.bz2 2> /dev/null | grep total$)"
 done
 
-# fix permissions
-chown -R :ftpadmin $FTPROOT/$suite/$RMAJMIN
-chmod g+rwX,o+rX $FTPROOT/$suite/$RMAJMIN
-find $FTPROOT/$suite/$RMAJMIN -type d | xargs chmod g+s
+for suite in $RSUITES; do
+	# fix permissions
+	chown -R :ftpadmin $FTPROOT/$suite/$RMAJMIN/$RVERSION
+	chmod g+rwX,o+rX $FTPROOT/$suite/$RMAJMIN/$RVERSION
+	find $FTPROOT/$suite/$RMAJMIN/$RVERSION -type d | xargs chmod g+s
+done
 
 # return your seat backs into their upright and locked positions
 cd -
