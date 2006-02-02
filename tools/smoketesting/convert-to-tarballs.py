@@ -69,16 +69,17 @@ help = \
 '''Get a psychiatrist.'''
 
 # Some TODOs
-#   ? Make a useful help message
-#   ? Automatically figure out the sourcedir from ~/.jhbuildrc
-#   ? Consider automatically removing pyorbit (and libgtkhtml?)
-#   - Directory search with mozilla (allow removing hardcode of mozilla-1.7.11)
+#   - Check timestamps on ftp tarballs, rejecting as 'too old' the ones that
+#     were released too late
+#   - abort if 'versions' exists in the current directory already
 #   - versions file doesn't have subdirs for c++/java/perl/python
 #   - versions file doesn't separate c++/java/perl/python
+#   ? Make a useful help message
+#   ? Automatically figure out the sourcedir from ~/.jhbuildrc
+#   - Directory search with mozilla (allow removing hardcode of mozilla-1.7.12)
 #   - get rid of duplicated code between ftp and http
 #   - warn about modules with revision specified that don't have a
 #     limit on the tarball number
-#   - abort if 'versions' exists in the current directory already
 
 # TODOs for elsewhere
 #   - Add times
