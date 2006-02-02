@@ -17,6 +17,10 @@
 #     control-center   2.10.1     2.10.2
 #     epiphany         1.6.2      1.6.4
 #     nautilus-media   0.8.1      -none-
+#
+# Note that this script hard codes the release suites (grep for "SUITES");
+# if you've added more release sets, you'll need to update the relevant
+# line of this script.
 
 
 # do we want to see which modules haven't changed?
@@ -37,7 +41,7 @@ majmin() {
 if [ $# -eq 2 ]; then
   MAJMIN1=$(majmin $1)
   MAJMIN2=$(majmin $2)
-  SUITES="platform desktop bindings"
+  SUITES="platform desktop bindings admin"
 
   for suite in $SUITES; do
     $curdir/release-diff $UNIQUE $FTPROOT/$suite/$MAJMIN1/$1/sources \

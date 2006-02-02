@@ -11,6 +11,7 @@
 	new release set.
 
 	* release_set_scripts/simple-news:
+	* release_set_scripts/simple-diff:
 	We have an admin suite too now
 
 2006-01-30  Elijah Newren  <newren gmail com>
