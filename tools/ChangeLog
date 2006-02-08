@@ -1,8 +1,15 @@
+2006-02-08  Elijah Newren  <newren gmail com>
+
+	* versions-2-12:
+	* smoketesting/sample-tarball-2-12.jhbuildrc:
+	* smoketesting/tarball-conversion-2-12.config:
+	Update for Gnome 2.12.3.
+
 2006-02-01  Elijah Newren  <newren gmail com>
 
 	* versions:
 	* smoketesting/sample-tarball.jhbuildrc:
-	Update for GNOME 2.13.90
+	Update for Gnome 2.13.90
 
 	* release_set_scripts/release-suites:
 	Remove the ugly permissions warnings (and actually fix up
