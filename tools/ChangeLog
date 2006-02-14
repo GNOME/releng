@@ -1,3 +1,11 @@
+2006-02-14  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config:
+	Use the 2.6 branch for gtk-engines.
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update for Gnome 2.13.91
+
 2006-02-08  Elijah Newren  <newren gmail com>
 
 	* versions-2-12:
