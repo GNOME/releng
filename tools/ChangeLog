@@ -1,3 +1,9 @@
+2006-02-14  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion.config:
+	libnotify didn't make 2.14 after all; remove it from the whitelist
+	and download locations
+
 2006-02-14  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config:
