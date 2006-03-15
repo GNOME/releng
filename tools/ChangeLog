@@ -1,3 +1,9 @@
+2006-03-15  Elijah Newren  <newren gmail com>
+
+	* versions:
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update for Gnome 2.14.0
+
 2006-02-28  Elijah Newren  <newren gmail com>
 
 	* versions:
