@@ -1,3 +1,8 @@
+2006-04-26  Vincent Untz  <vuntz@gnome.org>
+
+	* versions:
+	* smoketesting/sample-tarball.jhbuildrc: GNOME 2.15.1
+
 2006-04-26  Elijah Newren  <newren gmail com>
 
 	* smoketesting/convert-to-tarballs.py:
