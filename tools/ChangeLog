@@ -1,3 +1,16 @@
+2006-04-25  Elijah Newren  <newren gmail com>
+
+	* versions-stable:
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* smoketesting/tarball-conversion-stable.config:
+	Renamed from -2-12 to -stable, copied the 2.14 versions over them
+	since that's the stable branch now, and updated limits to be
+	relevant for the 2.14 versions.
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/tarball-conversion.config:
+	Updates for making 2.15.1 moduleset
+
 2006-04-12  Elijah Newren  <newren gmail com>
 
 	* versions:
