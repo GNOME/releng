@@ -1,3 +1,15 @@
+2006-04-26  Elijah Newren  <newren gmail com>
+
+	* smoketesting/convert-to-tarballs.py:
+	Handle adding subdir names (e.g. c++, python) to the versions file
+	where needed.  Still don't have items sorted by module, though.
+
+	* smoketesting/tarball-conversion.config:
+	Remove pkg-config since we haven't been including it for a while
+	anyway and updates aren't being placed on ftp.gnome.org anymore,
+	add subdirectory specifications for bindings modules so that they
+	appear in the versions file
+
 2006-04-25  Elijah Newren  <newren gmail com>
 
 	* versions-stable:

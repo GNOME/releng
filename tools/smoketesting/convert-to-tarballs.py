@@ -71,9 +71,7 @@ help = \
 # Some TODOs
 #   - Check timestamps on ftp tarballs, rejecting as 'too old' the ones that
 #     were released too late
-#   - abort if 'versions' exists in the current directory already
-#   - versions file doesn't have subdirs for c++/java/perl/python
-#   - versions file doesn't separate c++/java/perl/python
+#   - versions file doesn't group c++/java/perl/python
 #   ? Make a useful help message
 #   ? Automatically figure out the sourcedir from ~/.jhbuildrc
 #   - Directory search with mozilla (allow removing hardcode of mozilla-1.7.12)
@@ -102,6 +100,7 @@ class Options:
         self.drop_prefix = []
         self.release_sets = []
         self.release_set = []
+        self.subdir = {}
         self.version_limit = {}
         self.cvs_locations = []
         self.module_locations = []
@@ -199,6 +198,12 @@ class Options:
                         sys.exit(1)
                     self.version_limit[name] = max_version
                 
+                # Determine if we have a specified subdir for this package
+                if node.attributes.get('subdir'):
+                    self.subdir[name] = node.attributes.get('subdir').nodeValue
+                else:
+                    self.subdir[name] = ''
+
                 # Find the appropriate release set
                 if node.attributes.get('set'):
                     set = node.attributes.get('set').nodeValue
@@ -227,6 +232,15 @@ class Options:
             limit = None
 
         return limit
+
+    def get_subdir(self, modulename):
+        # First, do the renames in the dictionary
+        try:
+            subdirectory = self.subdir[modulename]
+        except KeyError:
+            subdirectory = None
+
+        return subdirectory
 
     def _read_conversion_info(self):
         document = minidom.parse(self.filename)
@@ -551,6 +565,9 @@ class ConvertToTarballs:
         if (os.path.isfile(newname)):
             sys.stderr.write('Can''t proceed; would overwrite '+newname+'\n')
             sys.exit(1)
+        if (os.path.isfile('versions')):
+            sys.stderr.write('Can''t proceed; would overwrite versions\n')
+            sys.exit(1)
 
         old_document = minidom.parse(os.path.join(self.sourcedir, input_filename))
         oldRoot = old_document.documentElement
@@ -616,8 +633,13 @@ class ConvertToTarballs:
                     try:
                         index = self.all_tarballs.index(module)
                         version = self.all_versions[index]
-                        versions.write('%s:%s:%s:\n' %
-                                       (release_set, module, version))
+                        subdir = self.options.get_subdir(module)
+                        if subdir != '':
+                            versions.write('%s:%s:%s:%s\n' %
+                                     (release_set, module, version, subdir))
+                        else:
+                            versions.write('%s:%s:%s:\n' %
+                                           (release_set, module, version))
                     except:
                         print 'No version found for %s' % module
                 versions.write('\n')
