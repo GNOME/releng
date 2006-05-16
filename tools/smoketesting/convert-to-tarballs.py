@@ -512,13 +512,10 @@ class ConvertToTarballs:
         for node in oldRoot.childNodes:
             if node.nodeType == Node.ELEMENT_NODE:
                 save_entry_as_is = False
-                if node.nodeName == 'cvsroot' or \
-                   node.nodeName == 'svnroot' or \
-                   node.nodeName == 'arch-archive':
+                if node.nodeName == 'repository':
                     continue
-                elif node.nodeName == 'cvsmodule' or     \
-                     node.nodeName == 'mozillamodule' or \
-                     node.nodeName == 'svnmodule':
+                elif node.nodeName == 'autotools' or     \
+                     node.nodeName == 'mozillamodule':
                     entry = self._create_tarball_node(document, node)
                 elif node.nodeName == 'tarball':
                     attrs = node.attributes
