@@ -1,5 +1,12 @@
 2006-05-17  Elijah Newren  <newren gmail com>
 
+	* smoketesting/tarball-conversion.config:
+	Let's make this the last time I fall for that gstreamer mess.
+	This change will need to be undone if gstreamer and gst-plugins-*
+	become external dependencies, though.
+
+2006-05-17  Elijah Newren  <newren gmail com>
+
 	* release_set_scripts/release-suites:
 	Ugh, let's hope this kills those permission problems
 
