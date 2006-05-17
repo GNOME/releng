@@ -121,6 +121,9 @@ for suite in $RSUITES; do
 	chown -R :ftpadmin $FTPROOT/$suite/$RMAJMIN/$RVERSION
 	chmod g+rwX,o+rX $FTPROOT/$suite/$RMAJMIN/$RVERSION
 	find $FTPROOT/$suite/$RMAJMIN/$RVERSION -type d | xargs chmod g+s
+        # Take care of parent directories too, as needed & able
+        find $FTPROOT/$suite -type d -uid $(id -u) | xargs chown :ftpadmin
+        find $FTPROOT/$suite -type d -uid $(id -u) | xargs chmod g+rwX
 done
 
 # return your seat backs into their upright and locked positions

@@ -1,5 +1,10 @@
 2006-05-17  Elijah Newren  <newren gmail com>
 
+	* release_set_scripts/release-suites:
+	Ugh, let's hope this kills those permission problems
+
+2006-05-17  Elijah Newren  <newren gmail com>
+
 	* versions:
 	* smoketesting/sample-tarball.jhbuildrc:
 	GNOME 2.15.2
