@@ -6,7 +6,7 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.14.1'
+moduleset = 'gnome-2.14.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -47,8 +47,8 @@ module_autogenargs['howl'] = autogenargs.replace('--disable-static', '')
 # and evolution-data-server below.  Then also read
 # http://mail.gnome.org/archives/evolution-hackers/2004-May/msg00086.html
 skip = [ 'mozilla' ]
-module_autogenargs['evolution'] = '--with-nss-includes=/usr/include/mozilla-1.7.12 --with-nspr-includes=/usr/include/mozilla-1.7.12 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
-module_autogenargs['evolution-data-server'] = '--with-nss-includes=/usr/include/mozilla-1.7.12 --with-nspr-includes=/usr/include/mozilla-1.7.12 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
+module_autogenargs['evolution'] = autogenargs + '--with-nss-includes=/usr/include/mozilla-1.7.12 --with-nspr-includes=/usr/include/mozilla-1.7.12 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
+module_autogenargs['evolution-data-server'] = autogenargs + '--with-nss-includes=/usr/include/mozilla-1.7.12 --with-nspr-includes=/usr/include/mozilla-1.7.12 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
 
 # Totem seems to stupidly try to install its plugin under /usr even if that's
 # not $PREFIX.  So, we'll disable the mozilla plugin.  Those wanting to build
@@ -57,7 +57,7 @@ module_autogenargs['evolution-data-server'] = '--with-nss-includes=/usr/include/
 # before the build.  When the build is finished, you can run
 #   chmod a-w /usr/lib/mozilla-1.7.12/plugins
 # to set things back to normal.
-module_autogenargs['totem'] = '--disable-mozilla'
+module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 
 # I don't have PWLib, SDL and other necessary stuff.  And I don't have a webcam
 # or microphone anyway

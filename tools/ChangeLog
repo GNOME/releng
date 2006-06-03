@@ -1,3 +1,12 @@
+2006-06-03  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/convert-to-tarballs.py: fix two strings and use
+	tarball-conversion-stable.config when creating stable modulesets
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* smoketesting/sample-tarball.jhbuildrc: small updates and always use
+	autogenargs
+
 2006-05-31  Elijah Newren  <newren gmail com>
 
 	* versions-stable:

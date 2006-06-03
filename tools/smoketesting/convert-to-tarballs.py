@@ -560,10 +560,10 @@ class ConvertToTarballs:
                          r'\1-' + self.version + r'\2',
                          input_filename)
         if (os.path.isfile(newname)):
-            sys.stderr.write('Can''t proceed; would overwrite '+newname+'\n')
+            sys.stderr.write('Cannot proceed; would overwrite '+newname+'\n')
             sys.exit(1)
         if (os.path.isfile('versions')):
-            sys.stderr.write('Can''t proceed; would overwrite versions\n')
+            sys.stderr.write('Cannot proceed; would overwrite versions\n')
             sys.exit(1)
 
         old_document = minidom.parse(os.path.join(self.sourcedir, input_filename))
@@ -670,7 +670,16 @@ def main(args):
         sys.stderr.write(program_name + usage + '\n')
         sys.exit(1)
 
-    options = Options('tarball-conversion.config')
+    splitted_version = version.split(".")
+    if (len(splitted_version) != 3):
+        sys.stderr.write('Version number is not valid\n')
+        sys.exit(1)
+
+    if (int(splitted_version[1]) % 2 != 0):
+        options = Options('tarball-conversion.config')
+    else:
+        options = Options('tarball-conversion-stable.config')
+
     file_location, filename = os.path.split(args[-1])
     convert = ConvertToTarballs(tarballdir, version, file_location, options)
     convert.fix_file(filename)
