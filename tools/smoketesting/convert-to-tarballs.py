@@ -446,11 +446,12 @@ class TarballLocator:
             sys.exit(1)
 
 class ConvertToTarballs:
-    def __init__(self, tarballdir, version, sourcedir, options):
+    def __init__(self, tarballdir, version, sourcedir, options, force):
         self.tarballdir = tarballdir
         self.version = version
         self.sourcedir = sourcedir
         self.options = options
+        self.force = force
         self.ignored = []
         self.not_found = []
         self.all_tarballs = []
@@ -559,12 +560,19 @@ class ConvertToTarballs:
         newname = re.sub(r'^([a-z]+).*(.modules)$',
                          r'\1-' + self.version + r'\2',
                          input_filename)
+
         if (os.path.isfile(newname)):
-            sys.stderr.write('Cannot proceed; would overwrite '+newname+'\n')
-            sys.exit(1)
+            if self.force:
+                os.unlink(newname)
+            else:
+                sys.stderr.write('Cannot proceed; would overwrite '+newname+'\n')
+                sys.exit(1)
         if (os.path.isfile('versions')):
-            sys.stderr.write('Cannot proceed; would overwrite versions\n')
-            sys.exit(1)
+            if self.force:
+                os.unlink('versions')
+            else:
+                sys.stderr.write('Cannot proceed; would overwrite versions\n')
+                sys.exit(1)
 
         old_document = minidom.parse(os.path.join(self.sourcedir, input_filename))
         oldRoot = old_document.documentElement
@@ -644,12 +652,9 @@ class ConvertToTarballs:
 
 def main(args):
     program_name = args[0]
-    if len(args) % 2 != 0:
-        sys.stderr.write(program_name + usage + '\n')
-        sys.exit(1)
     try:
-        opts, args = getopt.getopt(args[1:], 't:v:h',
-                                   ['tarballdir=', 'version=', 'help'])
+        opts, args = getopt.getopt(args[1:], 't:v:h:f',
+                                   ['tarballdir=', 'version=', 'help', 'force'])
     except getopt.error, exc:
         sys.stderr.write(program_name % ': %s\n' % str(exc))
         sys.stderr.write(program_name + usage + '\n')
@@ -657,6 +662,7 @@ def main(args):
 
     tarballdir = os.path.join(os.getcwd(), 'tarballs')
     version = None
+    force = False
     for opt, arg in opts:
         if opt in ('-h', '--help'):
             print program_name + usage
@@ -666,6 +672,8 @@ def main(args):
             tarballdir = arg
         elif opt in ('-v', '--version'):
             version = arg
+        elif opt in ('-f', '--force'):
+            force = True
     if not version:
         sys.stderr.write(program_name + usage + '\n')
         sys.exit(1)
@@ -681,7 +689,8 @@ def main(args):
         options = Options('tarball-conversion-stable.config')
 
     file_location, filename = os.path.split(args[-1])
-    convert = ConvertToTarballs(tarballdir, version, file_location, options)
+    convert = ConvertToTarballs(tarballdir, version, file_location, options, force)
+    print filename
     convert.fix_file(filename)
     convert.show_ignored()
     convert.show_unused_whitelist_modules()
