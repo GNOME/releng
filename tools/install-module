@@ -1,13 +1,22 @@
 #!/bin/bash
-# Full path to 'GNOME' FTP directory. On widget, this is '/ftp/pub/GNOME'
+#
+# Full path to FTP root directory on filesystem and destination URL
+#
 FTPROOT=/ftp/pub/GNOME
+URLROOT=http://download.gnome.org
+
+
+#
 # Initialise status variables
+#
 UNATTENDED=
 KEEP=
 SAMEVERSION=
 
 
+#
 # How to use install-module
+#
 usage() {
 	echo "Usage: install-module [OPTION] TARBALL
 Install new tarball to GNOME FTP master and mirrors.
@@ -26,7 +35,9 @@ Report bugs to <gnome-sysadmin@gnome.org>"
 }
 
 
+#
 # Process parameters
+#
 while [ "$1" ]; do
 	case "$1" in
 		--help|-h)
@@ -42,7 +53,7 @@ while [ "$1" ]; do
 			shift
 		;;
 		*.tar.gz|*.tar.bz2)
-			TARBALL="$(pwd)/$1"
+			TARBALL="$1"
 			shift
 		;;
 	esac
@@ -58,17 +69,28 @@ if [ ! -f "$TARBALL" ]; then
 fi
 
 
+#
 # Pull out required information from tarball name
+# and set up other variables for the script
+#
 FORMAT=$(echo $TARBALL | sed "s/.*\.\(tar.*\)/\1/")
 FILENAME=$(basename $TARBALL .$FORMAT)
 MODULE=$(echo $FILENAME | sed "s#\([A-Za-z0-9\_\+\-]*\)-[[:digit:]].*#\1#")
 VERSION=$(echo $FILENAME | sed "s#$MODULE-\(.*\)#\1#i")
 MAJMIN=$(echo $VERSION | sed "s#\([[:digit:]]\+\.[[:digit:]]\+\).*#\1#")
 LOCATION=$FTPROOT/sources/$MODULE/$MAJMIN
-URL="http://ftp.gnome.org/pub/GNOME/sources/$MODULE/$MAJMIN/$FILENAME"
+URL="$URLROOT/sources/$MODULE/$MAJMIN/$FILENAME"
+WHO="$(getent passwd $USER | cut -d : -f 5 | cut -d , -f 1 | sed 's, <.*,,')"
+if [ -z "$WHO" ]; then
+	WHO="$USER"
+else
+	WHO="$WHO"
+fi
 
 
+#
 # Prompt for confirmation and check for common installation errors
+#
 if [ -z $UNATTENDED ]; then
 	echo "      Module: $MODULE"
 	echo "     Version: $VERSION"
@@ -105,7 +127,9 @@ if [ -z $UNATTENDED ]; then
 fi
 
 
+#
 # Set the umask for the duration of this script
+#
 umask 0002
 
 
@@ -120,7 +144,9 @@ cp -f $TARBALL $LOCATION/
 chmod ug+w,a+r $LOCATION/$FILENAME.$FORMAT
 
 
+#
 # Create alternate format destination tarball
+#
 case $FORMAT in
 	tar.gz)
 		echo "Creating bzip2 archive..."
@@ -138,8 +164,11 @@ case $FORMAT in
 esac
 
 
-# diff against previous LATEST-IS- file,
-# unless the file doesn't exist and we haven't set the SAMEVERSION
+#
+# Generate diff, news and changes files
+#
+# diff against LATEST-IS-* unless the file doesn't exist and we haven't
+# set the SAMEVERSION
 if [ -L $LOCATION/LATEST-IS-* ] && [ -z $SAMEVERSION ]; then
 	OLDVERSION=$(basename $LOCATION/LATEST-IS-* | sed "s#LATEST-IS-\(.*\)#\1#")
 	OLDTARBALL=$MODULE-$OLDVERSION.tar.gz
@@ -163,56 +192,139 @@ if [ -L $LOCATION/LATEST-IS-* ] && [ -z $SAMEVERSION ]; then
 		DIFFFILE=$MODULE-$OLDVERSION-$VERSION.diff.gz
 		gzip -9 diff
 		mv -f diff.gz $LOCATION/$DIFFFILE
-		chown :ftpadmin $LOCATION/$DIFFFILE
-		(cd $LOCATION; md5sum $DIFFFILE > $DIFFFILE.md5)
 	fi
 
-	# Return and clean up
+	# Generate NEWS diff
+	diff -U 0 $MODULE-$OLDVERSION/NEWS $MODULE-$VERSION/NEWS | \
+		sed '1,/^@@/d;/^@@/,$d;/^[^+]/d;s/^+//;${/^$/d}' > news 2> /dev/null
+	# if there's no useful diff, skip this process
+	if [ -f news ] && [ -s news ] && [ $(wc -l < news) -gt 2 ]; then
+		NEWSFILE=$MODULE-$VERSION.news
+		mv -f news $LOCATION/$NEWSFILE
+	fi
+
+	# Generate ChangeLog diff
+	diff -U 0 $MODULE-$OLDVERSION/ChangeLog $MODULE-$VERSION/ChangeLog | \
+		sed '1,/^@@/d;/^@@/,$d;/^[^+]/d;s/^+//;${/^$/d}' > changes 2> /dev/null
+	# if there's no useful diff, skip this process
+	if [ -f changes ] && [ -s changes ] && [ $(wc -l < changes) -gt 2 ]; then
+		CHANGESFILE=$MODULE-$VERSION.changes
+		mv -f changes $LOCATION/$CHANGESFILE
+	fi
+	
 	cd -
 	rm -rf $TEMPDIR
 fi
 
 
-echo "Generating md5sums..."
+#
+# Clean up and md5sum release
+#
+echo "Checksumming and fixing permissions..."
+MD5SUMFILE=$MODULE-$VERSION.md5sum
+# Create checksum and delete LATEST-IS-* file
 (cd $LOCATION;
-	md5sum $FILENAME.tar.gz > $FILENAME.tar.gz.md5;
-	md5sum $FILENAME.tar.bz2 > $FILENAME.tar.bz2.md5)
+	md5sum *$VERSION.* > $MD5SUMFILE;
+	rm -f LATEST-IS-*;
+	ln -s $FILENAME.tar.gz LATEST-IS-$VERSION)
+# Ensure the files are group-owned by ftpadmin
+chown -R :ftpadmin $LOCATION/ 2> /dev/null
+# Delete the original tarball unless asked to keep it
+if [ -z $KEEP ]; then
+	echo "Deleting original tarball..."
+	rm -f $TARBALL
+fi
 
 
-echo -n "Updating LATEST files..."
-(cd $LOCATION; rm -f LATEST-IS-*; ln -s $FILENAME.tar.gz LATEST-IS-$VERSION)
-# Wait for LATEST file lock to disappear, but only for ten seconds
-LOCKFILE=$FTPROOT/LATEST.lock
-while [ -f $LOCKFILE ] && [ $TIMEOUT != "++++" ]; do
-	echo -n " ..."
-	sleep 2
-	TIMEOUT="$TIMEOUT+"
-done
-echo
-# Create LATEST file lock
-touch $LOCKFILE
+#
+# Update LATEST files
+#
+echo -n "Updating LATEST files... "
 # Prepend URL and current date to LATEST file
 LATEST=$FTPROOT/LATEST
 LATESTNEW=/tmp/LATEST.$$
-(echo "$URL.tar.gz|$(date -R)"; cat $LATEST) | head -n 20 > $LATESTNEW
+(echo "$URL.tar.gz|$(date -R)"; head -n 19 $LATEST 2> /dev/null) > $LATESTNEW
 cat $LATESTNEW > $LATEST
 rm -f $LATESTNEW
-# Generate RSS file
-if [ -f /usr/local/bin/generate-ftp-rss ]; then
-	/usr/local/bin/generate-ftp-rss $LATEST
-fi
-# Remove LATEST lockfile
-rm -f $LOCKFILE
+# Regenerate the RSS file
+# Print RSS Header
+echo -n "<?xml version=\"1.0\"?>
+<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">
+    <channel>
+        <title>GNOME FTP Releases</title>
+        <link>http://ftp.gnome.org/pub/GNOME/</link>
+        <description>A list of recent files released on GNOME's FTP site</description>
+        <webMaster>webmaster@gnome.org</webMaster>
+        <lastBuildDate>$(date -R)</lastBuildDate>" > $LATEST.xml
 
 
+# Add LATEST items to RSS
+cat $LATEST | while read LINE; do
+	LINE_URL=$(echo $LINE | cut -f 1 -d "|")
+	LINE_DATE=$(echo $LINE | cut -f 2 -d "|")
+	LINE_FILENAME=$(basename $LINE_URL .gz)
+	LINE_MODULE=$(echo $LINE_FILENAME | sed "s#\([A-Za-z0-9\_\+\-]*\)-[[:digit:]].*.tar#\1#")
+	LINE_VERSION=$(echo $LINE_FILENAME | sed "s#$LINE_MODULE-\(.*\).tar#\1#i")
+	LINE_MAJMIN=$(echo $LINE_VERSION | sed "s#\([[:digit:]]\+\.[[:digit:]]\+\).*#\1#")
+	
+	LINE_MODULE_LOC="sources/$LINE_MODULE"
+	LINE_TARBALL_LOC="$LINE_MODULE_LOC/$LINE_MAJMIN"
+
+	LINE_NEWSFILE="$LINE_MODULE-$LINE_VERSION.news"
+	LINE_CHANGESFILE="$LINE_MODULE-$LINE_VERSION.changes"
+
+	LINE_WHO=""
+	LINE_LINKS=""
+	
+    (echo -n "
+		<item>
+			<title>$LINE_MODULE $LINE_VERSION</title>
+			<link>$URLROOT/$LINE_TARBALL_LOC/</link>
+			<description>"
+
+	if [ -f $FTPROOT/$LINE_MODULE_LOC/$LINE_MODULE.png ]; then
+		echo "&lt;img src=\"$URLROOT/$LINE_MODULE_LOC/$LINE_MODULE.png\" align=\"right\" class=\"right\"&gt;"
+	fi
+
+	if [ -f $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE ]; then
+			echo "&lt;tt&gt;"
+		sed 's/\&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;s/$/\&lt;br\&gt;/' $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE
+			echo "&lt;/tt&gt;"
+		LINE_LINKS="$LINE_LINKS &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE\"&gt;News&lt;/a&gt;"
+	fi
+	
+	if [ -f $FTPROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE ]; then
+		if [ ! -f $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE ]; then
+			echo "&lt;tt&gt;"
+			sed 's/\&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;s/$/\&lt;br\&gt;/' $FTPROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE
+			echo "&lt;/tt&gt;"
+		fi
+		LINE_LINKS="$LINE_LINKS &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE\"&gt;ChangeLog&lt;/a&gt;"
+	fi
+
+	LINE_LINKS="$LINE_LINKS &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.gz\"&gt;gzip&lt;/a&gt; &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.bz2\"&gt;bzip2&lt;/a&gt;"
+
+	echo -n	"&lt;p&gt;$(echo $LINE_LINKS | sed 's/\&gt; \&lt;/\&gt; \&amp;middot; \&lt;/g')&lt;/p&gt;
+			</description>
+			<pubDate>$LINE_DATE</pubDate>
+		</item>") >> $LATEST.xml
+#<!-- FIXME <dc:creator>$LINE_WHO</dc:creator> -->
+done
+
+# Print RSS footer
+echo "
+	</channel>
+</rss>" >> $LATEST.xml
+
+# Finished!
+echo "done."
+
+
+#
+# Send ftp-release-list email
+#
 echo "Informing ftp-release-list..."
-WHO="$(getent passwd $USER | cut -d : -f 5 | cut -d , -f 1)"
-if [ -z "$WHO" ]; then
-	WHO=$USER
-else
-	WHO="$WHO ($USER)"
-fi
-(echo "From: $WHO <install-module@widget.gnome.org>";
+(echo "From: \"$WHO\" <install-module@window.gnome.org>";
  echo "To: FTP Releases <ftp-release-list@gnome.org>";
  echo "Subject: $MODULE $VERSION";
  echo "Reply-To: gnome-hackers@gnome.org";
@@ -222,26 +334,34 @@ fi
  echo "  Uploaded by: $WHO";
  echo;
  echo "$URL.tar.gz";
- echo "  md5sum: $(cat $LOCATION/$FILENAME.tar.gz.md5 | cut -d ' ' -f 1)";
+ echo "  md5sum: $(grep tar.gz$ $LOCATION/$MD5SUMFILE | cut -d ' ' -f 1)";
  echo "    size: $(du -sh $LOCATION/$FILENAME.tar.gz | cut -f 1)";
  echo;
  echo "$URL.tar.bz2";
- echo "  md5sum: $(cat $LOCATION/$FILENAME.tar.bz2.md5 | cut -d ' ' -f 1)";
+ echo "  md5sum: $(grep tar.bz2$ $LOCATION/$MD5SUMFILE | cut -d ' ' -f 1)";
  echo "    size: $(du -sh $LOCATION/$FILENAME.tar.bz2 | cut -f 1)";
  echo;
+ if [ -f $LOCATION/$NEWSFILE ]; then
+	echo "News";
+	echo "----";
+	echo;
+	cat $LOCATION/$NEWSFILE;
+	echo;
+ elif [ -f $LOCATION/$CHANGESFILE ]; then
+	echo "ChangeLog";
+	echo "---------";
+	echo;
+	cat $LOCATION/$CHANGESFILE;
+	echo;
+ fi
  echo "-- ";
  echo "An RSS 2.0 feed of ftp-release-list is available at:";
- echo "http://ftp.gnome.org/pub/GNOME/LATEST.xml";) | /usr/sbin/sendmail ftp-release-list@gnome.org
+ echo "$URLROOT/LATEST.xml";) | /usr/sbin/sendmail ftp-release-list@gnome.org
 
 
-# Delete the original tarball unless asked to keep it
-if [ -z $KEEP ]; then
-	echo "Deleting original tarball..."
-	rm -f $TARBALL
-fi
-
-
+#
 # Signal the mirrors
+#
 echo
 echo "Signalling mirror update process..."
 if [ -f /usr/local/bin/signal-ftp-sync ]; then
@@ -256,4 +376,20 @@ if [ -f /usr/local/bin/signal-ftp-sync ]; then
 	echo "broken http clients, and to use http as it is less taxing on the server."
 else
 	echo "Mirror update failed! The sync script does not exist."
+fi
+
+#
+# Add a bugzilla version
+#
+if [ -x /usr/local/bin/add-bugzilla-version ]; then
+	echo
+	echo "Adding new version to bugzilla..."
+	/usr/local/bin/add-bugzilla-version $MODULE $VERSION
+fi
+
+#
+# Record information for statistics
+#
+if [ -d /var/spool/gnome-stats ]; then
+	echo "$MODULE $VERSION" >> /var/spool/gnome-stats/`whoami`
 fi
