@@ -85,7 +85,7 @@ desktop:libgtop:2.14.1:
 desktop:librsvg:2.15.0:
 desktop:libsoup:2.2.94:
 desktop:libwnck:2.15.3:
-desktop:libxklavier:2.2:
+desktop:libxklavier:2.91:
 desktop:metacity:2.15.5:
 desktop:nautilus:2.15.2:
 desktop:nautilus-cd-burner:2.15.3:
@@ -116,6 +116,6 @@ bindings:libgnomeuimm:2.14.0:c++
 bindings:libsigc++:2.0.17:c++
 bindings:libxml++:2.14.0:c++
 bindings:pygobject:2.10.1:python
-bindings:pygtk:2.9.0:python
+bindings:pygtk:2.9.1:python
 bindings:pyorbit:2.14.1:python
 
