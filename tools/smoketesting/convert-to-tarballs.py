@@ -379,7 +379,13 @@ class TarballLocator:
 
         def isbz2tarball(x): return x.endswith('.tar.bz2')
         def isgztarball(x):  return x.endswith('.tar.gz')
-        tarballs = filter(isbz2tarball, files)
+        def isorigtarball(x):  return x.endswith('orig.tar.gz')
+
+        tarballs = None
+        if location.find("ftp.debian.org") != -1:
+            tarballs = filter(isorigtarball, files)
+        if not tarballs:
+            tarballs = filter(isbz2tarball, files)
         if not tarballs:
             tarballs = filter(isgztarball, files)
 
@@ -393,7 +399,7 @@ class TarballLocator:
         #tarballs = filter(valid_tarball, tarballs)
 
         def getversion(x):
-            return re.sub(r'^.*-(([0-9]+\.)*[0-9]+)\.tar.*$', r'\1', x)
+            return re.sub(r'^.*[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$', r'\1', x)
         versions = map(getversion, tarballs)
 
         if len(versions) == 0:
@@ -591,6 +597,31 @@ class ConvertToTarballs:
 
         return newname
 
+    def get_unused_with_subdirs(self):
+        full_whitelist = []
+        for set in self.options.release_set:
+            full_whitelist.extend(set)
+        unique = sets.Set(full_whitelist) - sets.Set(self.all_tarballs)
+        for module in unique:
+          subdir = self.options.get_subdir(module)
+          if subdir is None:
+              pass
+          try:
+              name = self.options.translate_name(module)
+              baselocation = self.options.get_download_site('gnome.org', name)
+              max_version = self.options.get_version_limit(name)
+              location, version, md5sum, size = \
+                        self.locator.find_tarball(baselocation, name, max_version)
+              print '  ', location, version, md5sum, size
+              self.all_tarballs.append(name)
+              self.all_versions.append(version)
+          except IOError:
+              print '**************************************************'
+              print 'Could not find site for ' + module
+              print '**************************************************'
+              print ''
+              self.not_found.append(module)
+
     def show_ignored(self):
         print '**************************************************'
         if len(self.ignored) > 0:
@@ -634,19 +665,31 @@ class ConvertToTarballs:
                 versions.write('## %s\n' % string.upper(release_set))
                 modules_sorted = self.options.release_set[set]
                 modules_sorted.sort()
+                subdirs = {}
                 for module in modules_sorted:
                     try:
                         index = self.all_tarballs.index(module)
                         version = self.all_versions[index]
                         subdir = self.options.get_subdir(module)
                         if subdir != '':
-                            versions.write('%s:%s:%s:%s\n' %
+                            if not subdirs.has_key(subdir):
+                                subdirs[subdir] = []
+                            subdirs[subdir].append ('%s:%s:%s:%s\n' %
                                      (release_set, module, version, subdir))
                         else:
                             versions.write('%s:%s:%s:\n' %
                                            (release_set, module, version))
                     except:
                         print 'No version found for %s' % module
+                subdirs_keys = subdirs.keys()
+                subdirs_keys.sort ()
+                for subdir in subdirs_keys:
+                    versions.write('\n')
+                    versions.write('# %s\n' % subdir.title())
+                    modules_sorted = subdirs[subdir]
+                    modules_sorted.sort()
+                    for module in modules_sorted:
+                        versions.write(module)
                 versions.write('\n')
         versions.close()
 
@@ -692,10 +735,14 @@ def main(args):
     convert = ConvertToTarballs(tarballdir, version, file_location, options, force)
     print filename
     convert.fix_file(filename)
+    convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings
     convert.show_ignored()
     convert.show_unused_whitelist_modules()
     convert.show_not_found()
     convert.create_versions_file()
     
 if __name__ == '__main__':
-    main(sys.argv)
+    try:
+      main(sys.argv)
+    except KeyboardInterrupt:
+      pass

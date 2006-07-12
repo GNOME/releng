@@ -1,3 +1,16 @@
+2006-07-12  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/convert-to-tarballs.py: (_get_http_tarball): special
+	case for downloading from the debian pool (useful for iso-codes)
+	(get_unused_with_subdirs): new, to help automatically handle bindings
+	(create_versions_file): when there are subdirs, do some magic stuff so
+	that it outputs what we expect
+	also, handle KeyboardInterrupt :-)
+	* smoketesting/tarball-conversion.config: use download.gnome.org where
+	it makes sense, stop using cairo snapshots, use the debian pool for
+	iso-codes, add locations for the perl bindings, kill howl, whitelist
+	perl-net-dbus for now
+
 2006-06-03  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/convert-to-tarballs.py: fix two strings and use
