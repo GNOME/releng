@@ -1,3 +1,14 @@
+2006-07-22  Elijah Newren  <newren gmail com>
+
+	Changes I forgot to check in when creating a moduleset for 2.15.4
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update to 2.15.4
+
+	* smoketesting/tarball-conversion.config:
+	Add comments for alternative sites, move libxklavier to the right
+	list, add pwlib and opal to the whitelist
+
 2006-07-12  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/convert-to-tarballs.py: (_get_http_tarball): special
