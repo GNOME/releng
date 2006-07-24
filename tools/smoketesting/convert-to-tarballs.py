@@ -519,9 +519,11 @@ class ConvertToTarballs:
         for node in oldRoot.childNodes:
             if node.nodeType == Node.ELEMENT_NODE:
                 save_entry_as_is = False
-                if node.nodeName == 'repository':
+                if node.nodeName == 'repository' or \
+                   node.nodeName == 'perl':
                     continue
                 elif node.nodeName == 'autotools' or     \
+                     node.nodeName == 'distutils'        \
                      node.nodeName == 'mozillamodule':
                     entry = self._create_tarball_node(document, node)
                 elif node.nodeName == 'tarball':

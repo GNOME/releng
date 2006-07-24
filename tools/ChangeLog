@@ -1,3 +1,9 @@
+2006-07-24  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion.config:
+	* smoketesting/convert-to-tarballs.py:
+	A few changes needed for 2.15.90
+
 2006-07-22  Elijah Newren  <newren gmail com>
 
 	Changes I forgot to check in when creating a moduleset for 2.15.4
