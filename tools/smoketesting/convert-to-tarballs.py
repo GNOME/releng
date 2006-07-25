@@ -523,7 +523,7 @@ class ConvertToTarballs:
                    node.nodeName == 'perl':
                     continue
                 elif node.nodeName == 'autotools' or     \
-                     node.nodeName == 'distutils'        \
+                     node.nodeName == 'distutils' or     \
                      node.nodeName == 'mozillamodule':
                     entry = self._create_tarball_node(document, node)
                 elif node.nodeName == 'tarball':

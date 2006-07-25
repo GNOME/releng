@@ -1,3 +1,28 @@
+2006-07-25  Elijah Newren  <newren gmail com>
+
+	A bunch of fixes for 2.15.90
+
+	* smoketesting/convert-to-tarballs.py:
+	Fix previous patch for handling distutils modules
+
+	* smoketesting/tarball-conversion-stable.config:
+	Don't forget to limit system-tools-backends too
+	
+	* smoketesting/tarball-conversion.config:
+	Remove liboobs and cap gnome-system-tools and
+	system-tools-backends since carlos never undid the hard dependency
+	on perl-net-dbus as he said he'd do
+
+	Cap ekiga since Damien said 2.2 won't be ready in time for 2.16
+
+	Add gnome-vfs-monikers to ensure API/ABI stability
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update for 2.15.90, remove the (no longer needed as howl isn't
+	built anymore) howl workaround, and build ekiga since pwlib and
+	opal are in jhbuild (even if they don't have any decent tarball
+	download sites, which royally sucks)
+
 2006-07-24  Elijah Newren  <newren gmail com>
 
 	* smoketesting/tarball-conversion.config:
