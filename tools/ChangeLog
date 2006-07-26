@@ -1,3 +1,15 @@
+2006-07-26  Elijah Newren  <newren gmail com>
+
+	* versions: Update for 2.15.90
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Add a space on autogenargs to allow people to use autogenargs +=
+	in their own changes more easily, skip ekiga for now
+
+	* smoketesting/tarball-conversion.config:
+	Add a download site for opal and pwlib (even if the site is down
+	currently and the tarballs there don't build at this time)
+
 2006-07-25  Elijah Newren  <newren gmail com>
 
 	A bunch of fixes for 2.15.90

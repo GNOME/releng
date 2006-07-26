@@ -20,7 +20,7 @@ prefix = '/opt/tarball-gnome2'
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc'
+autogenargs='--disable-static --disable-gtk-doc '
 
 # set CFLAGS:
 os.environ['CFLAGS'] = '-g -O2'
@@ -57,7 +57,9 @@ module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 
 # For those that don't have SDL installed and don't have a webcam, uncomment
 # the following line to skip building ekiga
-#skip.append('ekiga')
+#
+# opal's configure is braindead, so just skip pwlib, opal, and ekiga for now
+skip.append('ekiga')
 
 # libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
 # about python.  See
