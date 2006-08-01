@@ -1,3 +1,14 @@
+2006-08-01  Elijah Newren  <newren gmail com>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	preliminary update for 2.14.3
+
+	* smoketesting/tarball-conversion-stable.config:
+	lots of updates for 2.14.3
+
+	* smoketesting/tarball-conversion.config:
+	replace ftp.gnome.org/pub/GNOME with download.gnome.org
+
 2006-07-26  Elijah Newren  <newren gmail com>
 
 	* versions: Update for 2.15.90
