@@ -1,3 +1,9 @@
+2006-08-02  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion-stable.config:
+	* versions-stable:
+	Update for 2.14.3
+
 2006-08-01  Elijah Newren  <newren gmail com>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
