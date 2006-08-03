@@ -1,3 +1,9 @@
+2006-08-03  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion.config:
+	Update fontconfig download location; pointed out by Magnus
+	Therning
+	
 2006-08-02  Elijah Newren  <newren gmail com>
 
 	* smoketesting/tarball-conversion-stable.config:
