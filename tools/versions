@@ -131,13 +131,13 @@ bindings:libgtk-java:2.8.6:java
 bindings:gtk-sharp:2.9.0:mono
 
 # Perl
-bindings:Glib:1.120:perl
+bindings:Glib:1.132:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.032:perl
 bindings:Gnome2-VFS:1.060:perl
-bindings:Gnome2:1.060:perl
+bindings:Gnome2:1.040:perl
 bindings:Gtk2-GladeXML:1.005:perl
-bindings:Gtk2:1.122:perl
+bindings:Gtk2:1.132:perl
 
 # Python
 bindings:gnome-python:2.15.90:python
