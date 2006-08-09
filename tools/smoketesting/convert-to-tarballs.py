@@ -331,7 +331,7 @@ class TarballLocator:
                 break
         return location, files
 
-    def _get_tarball_stats(self, location, filename):
+    def _get_tarball_stats(self, location, filename, tries=0):
         newfile = os.path.join(self.tarballdir, filename)
         if not os.path.exists(newfile):
             print "Downloading ", filename
@@ -341,6 +341,26 @@ class TarballLocator:
             if error:
                 sys.stderr.write('Couldn''t download ' + filename + '!\n')
                 return '', ''
+
+        #untar to check if we downloaded correctly
+        print 'Untarring archive to check integrity'
+        if newfile.endswith('gz'):
+            flags = 'xfzO'
+        else:
+            flags = 'xfjO'
+          
+        file = os.popen('tar %s %s > /dev/null\n'%(flags, newfile))
+        error = file.close()
+        if error:
+           sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
+           os.unlink(newfile) 
+           if tries < 10:
+               sys.stderr.write('Trying again\n')
+               return self._get_tarball_stats(location, filename, tries+1)
+           else:
+               sys.stderr.write('Too many tries aborting this attempt\n')
+               return '', ''
+             
         size = os.stat(newfile)[6]
         sum = md5.new()
         fp = open(newfile, 'rb')
@@ -582,6 +602,7 @@ class ConvertToTarballs:
                 sys.stderr.write('Cannot proceed; would overwrite versions\n')
                 sys.exit(1)
 
+        print input_filename
         old_document = minidom.parse(os.path.join(self.sourcedir, input_filename))
         oldRoot = old_document.documentElement
 

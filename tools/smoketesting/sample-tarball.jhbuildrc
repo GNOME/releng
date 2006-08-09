@@ -71,6 +71,9 @@ skip.append('ekiga')
 os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
 os.environ['PYTHONPATH'] = os.path.join(prefix, 'lib/python2.4/site-packages')
 
+#set up the mono Global Application Cache prefix to the jhbuild prefix
+os.environ['MONO_GAC_PREFIX'] = prefix
+
 # I have no exchange server to test with, so I'll just skip it (for
 # those that do want to build it, they'll need openldap development
 # libraries plus the workarounds included above to build evolution and
