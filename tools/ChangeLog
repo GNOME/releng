@@ -1,3 +1,14 @@
+2006-08-24  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* version:
+	Relase 2.15.92
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	Improve build a little
+	
+	* smoketesting/tarball-conversion.config:
+	Update shared-mime-info location
+
 2006-08-03  Elijah Newren  <newren gmail com>
 
 	* smoketesting/tarball-conversion.config:
