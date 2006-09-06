@@ -1,3 +1,9 @@
+2006-09-06  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config:
+	* smoketesting/tarball-conversion-stable.config:
+	update libxklavier location
+
 2006-08-24  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* version:
