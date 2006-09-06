@@ -1,3 +1,15 @@
+2006-09-06  Elijah Newren  <newren gmail com>
+
+	* versions:
+	Update for 2.16.0
+
+	* smoketesting/tarball-conversion.config:
+	Add gnome-sharp, tomboy, glib-java, and gtk-sharp
+	
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update to 2.16.0, get rid of workarounds for evolution since they
+	don't appear to be needed anymore
+
 2006-09-06  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config:
