@@ -1,3 +1,8 @@
+2006-10-02  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion-stable.config:
+	Update; stable is 2.16.x now rather than 2.14.x
+
 2006-09-06  Elijah Newren  <newren gmail com>
 
 	* versions:
