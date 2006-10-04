@@ -1,5 +1,21 @@
 2006-10-02  Elijah Newren  <newren gmail com>
 
+	* versions:
+	Update for 2.16.1
+
+	* smoketesting/convert-to-tarballs.py:
+	Hopefully fix a bug where repeated re-running this script would
+	return old versions instead of finding new ones due to bad caching
+	effects
+	
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	update from sample-tarball.jhbuildrc
+
+	* smoketesting/tarball-conversion.config:
+	alphabetize, fix up limits
+
+2006-10-02  Elijah Newren  <newren gmail com>
+
 	* smoketesting/tarball-conversion-stable.config:
 	Update; stable is 2.16.x now rather than 2.14.x
 

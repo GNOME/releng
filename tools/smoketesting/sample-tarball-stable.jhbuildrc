@@ -6,24 +6,28 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.14.3'
+moduleset = 'gnome-2.16.1'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
 modules = [ 'meta-gnome-desktop' ]
 
 # what directory should the source be checked out to?
-checkoutroot = os.path.join(os.environ['HOME'], 'cvs', 'tarball-gnome')
+checkoutroot = os.path.join(os.environ['HOME'], 'cvs', 'tarball-gnome2')
 
 # the prefix to configure/install modules to (must have write access)
 prefix = '/opt/tarball-gnome2'
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc'
+autogenargs='--disable-static --disable-gtk-doc '
 
 # set CFLAGS:
 os.environ['CFLAGS'] = '-g -O2'
+# set only if you have more than one CPU
+# might break some builds
+#makeargs = '-j2'
+
 
 # a alternative install program to use.
 # The included install-check program won't update timestamps if the
@@ -37,19 +41,6 @@ tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 ########## Workarounds ##########
 
-# Oh, stupid howl, whenever will you quit causing problems?
-#
-module_autogenargs['howl'] = autogenargs.replace('--disable-static', '')
-
-# Mozilla is still braindead and won't install the nss headers correctly,
-# so let's just avoid it.  Those who want to re-enable can do so, just
-# remove the skip line for mozilla and module_autogenargs for evolution
-# and evolution-data-server below.  Then also read
-# http://mail.gnome.org/archives/evolution-hackers/2004-May/msg00086.html
-skip = [ 'mozilla' ]
-module_autogenargs['evolution'] = autogenargs + '--with-nss-includes=/usr/include/mozilla-1.7.12 --with-nspr-includes=/usr/include/mozilla-1.7.12 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
-module_autogenargs['evolution-data-server'] = autogenargs + '--with-nss-includes=/usr/include/mozilla-1.7.12 --with-nspr-includes=/usr/include/mozilla-1.7.12 --with-nspr-libs=/usr/lib --with-nss-libs=/usr/lib --with-openldap=yes'
-
 # Totem seems to stupidly try to install its plugin under /usr even if that's
 # not $PREFIX.  So, we'll disable the mozilla plugin.  Those wanting to build
 # it can remove this module_autogenargs comamnd and run
@@ -59,9 +50,9 @@ module_autogenargs['evolution-data-server'] = autogenargs + '--with-nss-includes
 # to set things back to normal.
 module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 
-# I don't have PWLib, SDL and other necessary stuff.  And I don't have a webcam
-# or microphone anyway
-skip.append('ekiga')
+# For those that don't have SDL installed and don't have a webcam, uncomment
+# the following line to skip building ekiga
+#skip.append('ekiga')
 
 # libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
 # about python.  See
@@ -73,11 +64,16 @@ skip.append('ekiga')
 os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
 os.environ['PYTHONPATH'] = os.path.join(prefix, 'lib/python2.4/site-packages')
 
-# I have no exchange server to test with, so I'll just skip it (for
-# those that do want to build it, they'll need openldap development
-# libraries plus the workarounds included above to build evolution and
-# evolution-data-server with openldap enabled).
-#
+# fix opal build (ugly)
+os.environ['PWLIBDIR'] = os.path.join(checkoutroot, 'pwlib-1.10.1')
+
+#set up the mono Global Application Cache prefix to the jhbuild prefix
+os.environ['MONO_GAC_PREFIX'] = prefix
+
+# evolution-exchange requires evolution-data-server to be configured
+# with ldap enabled, which it isn't by default.  That would also
+# require ldap development libraries, but I have no exchange server to
+# test with anyway.  So I just skip it.
 skip.append('evolution-exchange')
 
 # jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to

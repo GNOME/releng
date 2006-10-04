@@ -377,12 +377,18 @@ class TarballLocator:
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
         while True:
+            # Clear out the cache, I hope
+            urllib.urlcleanup()
+
+            # Get the files
             usock = urllib.urlopen(location)
             parser = urllister()
             parser.feed(usock.read())
             usock.close()
             parser.close()
             files = parser.urls
+
+            # Check to see if we need to descend to a subdirectory
             newdirs = filter(hasdirs, files)
             newdirs = map(fixdirs, newdirs)
             if newdirs:
