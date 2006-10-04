@@ -1,6 +1,7 @@
 2006-10-02  Elijah Newren  <newren gmail com>
 
 	* versions:
+	* versions-stable:
 	Update for 2.16.1
 
 	* smoketesting/convert-to-tarballs.py:
