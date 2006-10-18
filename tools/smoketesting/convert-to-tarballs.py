@@ -48,11 +48,6 @@
 #   - Add pkg-config
 
 
-
-## Stuff that I (Elijah) run while debugging and extending (ignore this):
-# rm -f freedesktop-2.11.92.modules gnome-2.11.92.modules; ./convert-to-tarballs.py -v 2.11.92 ~/floss-development/gnome/jhbuild/modulesets/gnome-2.12.modules
-# jhbuild -m `pwd`/gnome-2.11.92.modules list meta-gnome-desktop
-
 import sys, string
 import re
 import getopt
@@ -548,8 +543,35 @@ class ConvertToTarballs:
                 if node.nodeName == 'repository' or \
                    node.nodeName == 'perl':
                     continue
+                elif node.nodeName == 'distutils':
+                    # Distutils modules are kind of complicated; it
+                    # may be a tarball or a source code repo like cvs;
+                    # first, assume it'll be a tarball and try to get
+                    # name and version
+                    attrs = node.attributes
+                    name    = attrs.get('id').nodeValue
+                    version = None
+
+                    # Now, try to find the 'branch' childNode
+                    for subnode in node.childNodes:
+                        if subnode.nodeName != 'branch':
+                            continue
+                        # We're working with the 'branch' childNode;
+                        # see if it has a 'version' attribute
+                        attrs = subnode.attributes
+                        if attrs.get('version') != None:
+                            version = attrs.get('version').nodeValue
+
+                    # If we found a version, treat it like a tarball
+                    if version != None:
+                        self.all_tarballs.append(name)
+                        self.all_versions.append(version)
+                        save_entry_as_is = True
+                    else:
+                        # Otherwise, treat it like a source code repository
+                        entry = self._create_tarball_node(document, node)
+
                 elif node.nodeName == 'autotools' or     \
-                     node.nodeName == 'distutils' or     \
                      node.nodeName == 'mozillamodule':
                     entry = self._create_tarball_node(document, node)
                 elif node.nodeName == 'tarball':
