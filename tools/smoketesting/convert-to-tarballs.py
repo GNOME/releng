@@ -43,8 +43,6 @@
 #     meant for gnome-2.12; this should be considered a bug in my script,
 #     but can be found by searching for "revision" in the .modules file
 # Manual editing of versions:
-#   - Add java and perl bindings
-#   - Add evolution-exchange
 #   - Add pkg-config
 
 
