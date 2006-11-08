@@ -1,4 +1,9 @@
 2006-11-08  Vincent Untz  <vuntz@gnome.org>
+
+	* versions: lower some perl packages since they're not on window right
+	now
+	
+2006-11-08  Vincent Untz  <vuntz@gnome.org>
 	
 	* versions:
 	* smoketesting/sample-tarball.jhbuildrc:
