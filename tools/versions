@@ -18,22 +18,22 @@ platform:libart_lgpl:2.3.17:
 platform:libbonobo:2.16.0:
 platform:libbonoboui:2.16.0:
 platform:libglade:2.6.0:
-platform:libgnome:2.17.0:
+platform:libgnome:2.17.1:
 platform:libgnomecanvas:2.14.0:
 platform:libgnomeui:2.17.0:
 platform:libxml2:2.6.26:
 platform:libxslt:1.1.17:
-platform:pango:1.15.0:
+platform:pango:1.15.1:
 
 ## DESKTOP
 desktop:alacarte:0.10.1:
 desktop:bug-buddy:2.17.2:
-desktop:control-center:2.17.1:
+desktop:control-center:2.17.3:
 desktop:dasher:4.3.2:
 desktop:deskbar-applet:2.17.2:
 desktop:eel:2.16.3:
 desktop:ekiga:2.0.3:
-desktop:eog:2.17.1:
+desktop:eog:2.17.2:
 desktop:epiphany:2.17.3:
 desktop:evince:0.6.1:
 desktop:evolution:2.9.3:
@@ -41,10 +41,10 @@ desktop:evolution-data-server:1.9.3:
 desktop:evolution-exchange:2.9.3:
 desktop:evolution-webcal:2.8.0:
 desktop:fast-user-switch-applet:2.17.3:
-desktop:file-roller:2.17.2:
-desktop:gcalctool:5.9.7:
+desktop:file-roller:2.17.3:
+desktop:gcalctool:5.9.8:
 desktop:gconf-editor:2.16.0:
-desktop:gdm:2.17.2:
+desktop:gdm:2.17.3:
 desktop:gedit:2.17.1:
 desktop:gnome-applets:2.16.2:
 desktop:gnome-backgrounds:2.16.2:
@@ -62,7 +62,7 @@ desktop:gnome-nettool:2.16.0:
 desktop:gnome-panel:2.16.2:
 desktop:gnome-power-manager:2.17.3:
 desktop:gnome-python-desktop:2.17.1:
-desktop:gnome-screensaver:2.17.2:
+desktop:gnome-screensaver:2.17.3:
 desktop:gnome-session:2.17.3:
 desktop:gnome-sharp:2.16.0:
 desktop:gnome-speech:0.4.6:
@@ -100,7 +100,7 @@ desktop:totem:2.17.3:
 desktop:vino:2.17.2:
 desktop:vte:0.14.1:
 desktop:yelp:2.16.2:
-desktop:zenity:2.16.2:
+desktop:zenity:2.17.1:
 
 ## ADMIN
 admin:pessulus:2.16.1:
@@ -131,7 +131,7 @@ bindings:libgtk-java:2.10.1:java
 bindings:gtk-sharp:2.10.0:mono
 
 # Perl
-bindings:Glib:1.141:perl
+bindings:Glib:1.142:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.043:perl
 bindings:Gnome2-VFS:1.061:perl
