@@ -98,7 +98,7 @@ desktop:startup-notification:0.8:
 desktop:tomboy:0.5.1:
 desktop:totem:2.17.3:
 desktop:vino:2.17.2:
-desktop:vte:0.14.1:
+desktop:vte:0.15.0:
 desktop:yelp:2.16.2:
 desktop:zenity:2.17.1:
 
@@ -133,11 +133,11 @@ bindings:gtk-sharp:2.10.0:mono
 # Perl
 bindings:Glib:1.142:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.043:perl
-bindings:Gnome2-VFS:1.061:perl
-bindings:Gnome2:1.061:perl
+bindings:Gnome2-GConf:1.040:perl
+bindings:Gnome2-VFS:1.060:perl
+bindings:Gnome2:1.040:perl
 bindings:Gtk2-GladeXML:1.006:perl
-bindings:Gtk2:1.141:perl
+bindings:Gtk2:1.150:perl
 
 # Python
 bindings:gnome-python:2.16.2:python
