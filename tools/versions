@@ -67,7 +67,7 @@ desktop:gnome-session:2.17.3:
 desktop:gnome-sharp:2.16.0:
 desktop:gnome-speech:0.4.7:
 desktop:gnome-system-monitor:2.17.4.2:
-desktop:gnome-system-tools:2.17.3:
+desktop:gnome-system-tools:2.14.0:
 desktop:gnome-terminal:2.16.1:
 desktop:gnome-themes:2.17.4:
 desktop:gnome-user-docs:2.16.1:
