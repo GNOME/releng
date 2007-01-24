@@ -15,7 +15,7 @@ platform:gtk-doc:1.7:
 platform:intltool:0.35.4:
 platform:libIDL:0.8.7:
 platform:libart_lgpl:2.3.17:
-platform:libbonobo:2.16.90:
+platform:libbonobo:2.17.90:
 platform:libbonoboui:2.17.0:
 platform:libglade:2.6.0:
 platform:libgnome:2.17.90:
@@ -106,7 +106,7 @@ desktop:zenity:2.17.90:
 
 ## ADMIN
 admin:pessulus:2.16.2:
-admin:sabayon:2.12.90:
+admin:sabayon:2.17.90:
 
 ## BINDINGS
 
