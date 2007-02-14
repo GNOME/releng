@@ -1,5 +1,11 @@
 2007-02-14  Vincent Untz  <vuntz@gnome.org>
 
+	* release_set_scripts/simple-diff:
+	* release_set_scripts/simple-news:
+	* release_set_scripts/release-suites: add stuff for devtools suite
+
+2007-02-14  Vincent Untz  <vuntz@gnome.org>
+
 	* versions:
 	* smoketesting/sample-tarball.jhbuildrc: updates for 2.17.91
 
