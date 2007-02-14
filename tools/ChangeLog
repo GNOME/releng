@@ -1,3 +1,11 @@
+2007-02-14  Vincent Untz  <vuntz@gnome.org>
+
+	* versions:
+	* smoketesting/sample-tarball.jhbuildrc: updates for 2.17.91
+
+	* smoketesting/tarball-conversion.config: add glade3, devhelp,
+	seahorse, network-manager-applet
+
 2007-01-31  Elijah Newren  <newren gmail com>
 
 	* versions-stable: 
