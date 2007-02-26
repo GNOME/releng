@@ -10,7 +10,7 @@ if [ ! $# -eq 1 ] ; then
         exit 1;
 fi
 
-cvs diff -u -r $1 po/ChangeLog | \
+svn diff -r $1 po/ChangeLog | \
   (awk  '/\+.*[a-z][a-zA-Z@_]*\.po/ { print gensub ("[:,]", "\n", "g", $3); }' | \
     while read file; do
   if [ -z "$file" ]; then continue; fi
