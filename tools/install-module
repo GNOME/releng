@@ -139,7 +139,10 @@ if mkdir -p $LOCATION/; then : ; else
 	echo "FATAL: Could not create module directory!"
 	exit 1
 fi
-cp -f $TARBALL $LOCATION/
+if cp -f $TARBALL $LOCATION/ ; then : ; else
+	echo "FATAL: Could not copy the tarball!"
+	exit 1
+fi
 # Just in case the original file wasn't group writable
 chmod ug+w,a+r $LOCATION/$FILENAME.$FORMAT
 
