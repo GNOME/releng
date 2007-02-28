@@ -381,15 +381,8 @@ fi
 #
 # Add a bugzilla version
 #
-if [ -x /usr/local/bin/add-bugzilla-version ]; then
+if [ -x /usr/bin/curl ]; then
 	echo
 	echo "Adding new version to bugzilla..."
-	/usr/local/bin/add-bugzilla-version $MODULE $VERSION
-fi
-
-#
-# Record information for statistics
-#
-if [ -d /var/spool/gnome-stats ]; then
-	echo "$MODULE $VERSION" >> /var/spool/gnome-stats/`whoami`
+	/usr/bin/curl "http://bugzilla.gnome.org/add-version.cgi?$MODULE|$VERSION"
 fi
