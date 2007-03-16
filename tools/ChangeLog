@@ -1,3 +1,9 @@
+2007-03-16  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion-stable.config:
+	* smoketesting/tarball-conversion.config: startup-notification is an
+	external dependency, and isn't in the desktop set
+
 2007-03-14  Elijah Newren  <newren gmail com>
 
 	* versions:
