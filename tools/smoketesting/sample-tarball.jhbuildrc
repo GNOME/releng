@@ -16,17 +16,17 @@ modules = [ 'meta-gnome-desktop' ]
 checkoutroot = os.path.join(os.environ['HOME'], 'cvs', 'tarball-gnome2')
 
 # the prefix to configure/install modules to (must have write access)
-prefix = '/home/j5/tarball-gnome2'
+prefix = '/opt/tarball-gnome2'
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc '
 
 # set CFLAGS:
-os.environ['CFLAGS'] = '-ggdb -O0'
+os.environ['CFLAGS'] = '-g -O2'
 # set only if you have more than one CPU
 # might break some builds
-makeargs = '-j2'
+#makeargs = '-j2'
 
 
 # a alternative install program to use.
