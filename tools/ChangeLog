@@ -1,3 +1,19 @@
+2007-04-11  Elijah Newren  <newren gmail com>
+
+	* smoketesting/tarball-conversion-stable.config:
+	* smoketesting/tarball-conversion.config:
+	Remove mozilla tarball download location; not needed anymore (and
+	it was wrong anyway)
+
+	* smoketesting/convert-to-tarballs.py:
+	include repository definitions when they define tarball locations,
+	leave autotools modules as-is if they are tarball modules
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* versions:
+	* versions-stable:
+	update to 2.18.1
+
 2007-03-16  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion-stable.config:

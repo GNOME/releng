@@ -538,14 +538,23 @@ class ConvertToTarballs:
         for node in oldRoot.childNodes:
             if node.nodeType == Node.ELEMENT_NODE:
                 save_entry_as_is = False
-                if node.nodeName == 'repository' or \
-                   node.nodeName == 'perl':
+                if node.nodeName == 'perl':
                     continue
-                elif node.nodeName == 'distutils':
-                    # Distutils modules are kind of complicated; it
-                    # may be a tarball or a source code repo like cvs;
-                    # first, assume it'll be a tarball and try to get
-                    # name and version
+                elif node.nodeName == 'repository':
+                    # We are interested in tarball repositories but not
+                    # cvs/svn/git/arch/bzr/scm-du-jour repositories
+                    attrs = node.attributes
+                    type = attrs.get('type').nodeValue
+                    if type == 'tarball':
+                        save_entry_as_is = True
+                    else:
+                        continue
+                elif node.nodeName == 'distutils' or \
+                     node.nodeName == 'autotools':
+                    # Distutils and autotools modules are kind of
+                    # complicated; they may be a tarball or a source code
+                    # repo like cvs; first, assume it'll be a tarball and
+                    # try to get name and version
                     attrs = node.attributes
                     name    = attrs.get('id').nodeValue
                     version = None
@@ -569,8 +578,7 @@ class ConvertToTarballs:
                         # Otherwise, treat it like a source code repository
                         entry = self._create_tarball_node(document, node)
 
-                elif node.nodeName == 'autotools' or     \
-                     node.nodeName == 'mozillamodule':
+                elif node.nodeName == 'mozillamodule':
                     entry = self._create_tarball_node(document, node)
                 elif node.nodeName == 'tarball':
                     attrs = node.attributes
