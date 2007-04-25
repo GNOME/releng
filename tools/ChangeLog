@@ -1,5 +1,11 @@
 2007-04-25  Frederic Crozat  <fcrozat@mandriva.com>
 
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: 
+	Update for GNOME 2.19.1
+
+2007-04-25  Frederic Crozat  <fcrozat@mandriva.com>
+
 	* smoketesting/convert-to-tarballs.py:
 	Fix regexp to correctly detect gnome-suites and gnome-external-deps,
 	courtesy of Vincent Untz, Python Regexp Master.

@@ -1,14 +1,14 @@
 ## PLATFORM
 platform:GConf:2.18.0.1:
 platform:ORBit2:2.14.7:
-platform:at-spi:1.18.1:
-platform:atk:1.18.0:
+platform:at-spi:1.19.1:
+platform:atk:1.19.1:
 platform:audiofile:0.2.6:
 platform:esound:0.2.37:
-platform:gail:1.18.0:
-platform:glib:2.12.11:
-platform:gnome-mime-data:2.4.3:
-platform:gnome-vfs:2.18.0.1:
+platform:gail:1.19.1:
+platform:glib:2.13.0:
+platform:gnome-mime-data:2.18.0:
+platform:gnome-vfs:2.18.1:
 platform:gnome-vfs-monikers:2.15.3:
 platform:gtk+:2.10.11:
 platform:gtk-doc:1.8:
@@ -23,34 +23,34 @@ platform:libgnomecanvas:2.14.0:
 platform:libgnomeui:2.18.1:
 platform:libxml2:2.6.27:
 platform:libxslt:1.1.20:
-platform:pango:1.16.2:
+platform:pango:1.16.3:
 
 ## DESKTOP
 desktop:alacarte:0.11.3:
 desktop:bug-buddy:2.18.1:
-desktop:control-center:2.18.0:
+desktop:control-center:2.18.1:
 desktop:dasher:4.4.1:
 desktop:deskbar-applet:2.18.1:
 desktop:eel:2.18.0.1:
-desktop:ekiga:2.0.7:
+desktop:ekiga:2.0.9:
 desktop:eog:2.18.1:
 desktop:epiphany:2.18.1:
 desktop:evince:0.8.1:
-desktop:evolution:2.10.1:
-desktop:evolution-data-server:1.10.1:
-desktop:evolution-exchange:2.10.1:
+desktop:evolution:2.11.1.1:
+desktop:evolution-data-server:1.11.1:
+desktop:evolution-exchange:2.11.1:
 desktop:evolution-webcal:2.10.0:
 desktop:fast-user-switch-applet:2.18.0:
-desktop:file-roller:2.18.1:
-desktop:gcalctool:5.9.14:
+desktop:file-roller:2.18.2:
+desktop:gcalctool:5.19.1:
 desktop:gconf-editor:2.18.0:
-desktop:gdm:2.18.1:
-desktop:gedit:2.18.0:
+desktop:gdm:2.19.0:
+desktop:gedit:2.18.1:
 desktop:gnome-applets:2.18.0:
 desktop:gnome-backgrounds:2.16.2:
 desktop:gnome-desktop:2.18.1:
 desktop:gnome-doc-utils:0.10.3:
-desktop:gnome-games:2.18.1:
+desktop:gnome-games:2.19.1:
 desktop:gnome-icon-theme:2.18.0:
 desktop:gnome-keyring:0.8.1:
 desktop:gnome-keyring-manager:2.18.0:
@@ -66,19 +66,19 @@ desktop:gnome-screensaver:2.18.1:
 desktop:gnome-session:2.18.0:
 desktop:gnome-sharp:2.16.0:
 desktop:gnome-speech:0.4.11:
-desktop:gnome-system-monitor:2.18.1:
+desktop:gnome-system-monitor:2.19.1:
 desktop:gnome-system-tools:2.18.1:
 desktop:gnome-terminal:2.18.0:
-desktop:gnome-themes:2.18.1:
+desktop:gnome-themes:2.19.1:
 desktop:gnome-user-docs:2.18.1:
-desktop:gnome-utils:2.18.0:
+desktop:gnome-utils:2.18.1:
 desktop:gnome-volume-manager:2.17.0:
 desktop:gok:1.2.3:
 desktop:gst-plugins-base:0.10.7:
 desktop:gst-plugins-good:0.10.3:
 desktop:gstreamer:0.10.8:
-desktop:gtk-engines:2.10.0:
-desktop:gtkhtml:3.14.1:
+desktop:gtk-engines:2.10.1:
+desktop:gtkhtml:3.15.1:
 desktop:gtksourceview:1.8.5:
 desktop:gucharmap:1.10.0:
 desktop:libgail-gnome:1.18.0:
@@ -90,17 +90,17 @@ desktop:liboobs:2.18.1:
 desktop:librsvg:2.16.1:
 desktop:libsoup:2.2.100:
 desktop:libwnck:2.18.0:
-desktop:metacity:2.18.2:
-desktop:nautilus:2.18.0.1:
-desktop:nautilus-cd-burner:2.18.1:
-desktop:orca:2.18.1:
+desktop:metacity:2.19.5:
+desktop:nautilus:2.18.1:
+desktop:nautilus-cd-burner:2.19.1:
+desktop:orca:2.19.1:
 desktop:scrollkeeper:0.3.14:
 desktop:seahorse:1.0.1:
-desktop:sound-juicer:2.16.3:
-desktop:tomboy:0.6.3:
+desktop:sound-juicer:2.16.4:
+desktop:tomboy:0.7.0:
 desktop:totem:2.18.1:
 desktop:vino:2.18.1:
-desktop:vte:0.16.1:
+desktop:vte:0.16.2:
 desktop:yelp:2.18.1:
 desktop:zenity:2.18.1:
 
@@ -116,9 +116,9 @@ devtools:glade3:3.2.0:
 
 # C++
 bindings:gconfmm:2.18.0:c++
-bindings:glibmm:2.12.7:c++
+bindings:glibmm:2.13.4:c++
 bindings:gnome-vfsmm:2.18.0:c++
-bindings:gtkmm:2.10.8:c++
+bindings:gtkmm:2.10.9:c++
 bindings:libglademm:2.6.3:c++
 bindings:libgnomecanvasmm:2.16.0:c++
 bindings:libgnomemm:2.18.0:c++
@@ -139,15 +139,15 @@ bindings:gtk-sharp:2.10.0:mono
 # Perl
 bindings:Glib:1.144:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.040:perl
-bindings:Gnome2-VFS:1.060:perl
-bindings:Gnome2:1.040:perl
+bindings:Gnome2-GConf:1.043:perl
+bindings:Gnome2-VFS:1.061:perl
+bindings:Gnome2:1.061:perl
 bindings:Gtk2-GladeXML:1.006:perl
 bindings:Gtk2:1.144:perl
 
 # Python
 bindings:gnome-python:2.18.2:python
-bindings:pygobject:2.12.3:python
+bindings:pygobject:2.13.0:python
 bindings:pygtk:2.10.4:python
 bindings:pyorbit:2.14.2:python
 
