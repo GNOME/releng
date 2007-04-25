@@ -619,7 +619,7 @@ class ConvertToTarballs:
                     newRoot.appendChild(entry)
 
     def fix_file(self, input_filename):
-        newname = re.sub(r'^([a-z]+).*(.modules)$',
+        newname = re.sub(r'^([-a-z]+?)(?:-[0-9\.]*)?(.modules)$',
                          r'\1-' + self.version + r'\2',
                          input_filename)
 
