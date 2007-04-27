@@ -1,3 +1,8 @@
+2007-04-27  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* smoketesting/tarball-conversion.config: Fix control-center
+	handling, since it changed name.
+
 2007-04-25  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* versions: Fix incorrect version for one perl binding.
