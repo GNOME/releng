@@ -4,13 +4,13 @@ platform:ORBit2:2.14.7:
 platform:at-spi:1.19.1:
 platform:atk:1.19.1:
 platform:audiofile:0.2.6:
-platform:esound:0.2.37:
+platform:esound:0.2.38:
 platform:gail:1.19.1:
-platform:glib:2.13.0:
+platform:glib:2.13.1:
 platform:gnome-mime-data:2.18.0:
-platform:gnome-vfs:2.18.1:
+platform:gnome-vfs:2.19.2:
 platform:gnome-vfs-monikers:2.15.3:
-platform:gtk+:2.10.11:
+platform:gtk+:2.10.12:
 platform:gtk-doc:1.8:
 platform:intltool:0.35.5:
 platform:libIDL:0.8.8:
@@ -23,53 +23,53 @@ platform:libgnomecanvas:2.14.0:
 platform:libgnomeui:2.18.1:
 platform:libxml2:2.6.27:
 platform:libxslt:1.1.20:
-platform:pango:1.16.3:
+platform:pango:1.17.0:
 
 ## DESKTOP
 desktop:alacarte:0.11.3:
 desktop:bug-buddy:2.18.1:
-desktop:control-center:2.18.1:
-desktop:dasher:4.4.1:
+desktop:dasher:4.5.0:
 desktop:deskbar-applet:2.18.1:
-desktop:eel:2.18.0.1:
+desktop:eel:2.19.2:
 desktop:ekiga:2.0.9:
-desktop:eog:2.18.1:
-desktop:epiphany:2.18.1:
-desktop:evince:0.8.1:
-desktop:evolution:2.11.1.1:
-desktop:evolution-data-server:1.11.1:
-desktop:evolution-exchange:2.11.1:
+desktop:eog:2.19.2:
+desktop:epiphany:2.19.2:
+desktop:evince:0.9.0:
+desktop:evolution:2.11.2:
+desktop:evolution-data-server:1.11.2:
+desktop:evolution-exchange:2.11.2:
 desktop:evolution-webcal:2.10.0:
 desktop:fast-user-switch-applet:2.18.0:
-desktop:file-roller:2.18.2:
-desktop:gcalctool:5.19.1:
+desktop:file-roller:2.19.1:
+desktop:gcalctool:5.19.2:
 desktop:gconf-editor:2.18.0:
-desktop:gdm:2.19.0:
+desktop:gdm:2.19.1:
 desktop:gedit:2.18.1:
 desktop:gnome-applets:2.18.0:
 desktop:gnome-backgrounds:2.16.2:
-desktop:gnome-desktop:2.18.1:
+desktop:gnome-control-center:2.19.1:
+desktop:gnome-desktop:2.19.2:
 desktop:gnome-doc-utils:0.10.3:
-desktop:gnome-games:2.19.1:
+desktop:gnome-games:2.19.2:
 desktop:gnome-icon-theme:2.18.0:
-desktop:gnome-keyring:0.8.1:
+desktop:gnome-keyring:2.19.2:
 desktop:gnome-keyring-manager:2.18.0:
 desktop:gnome-mag:0.14.3:
 desktop:gnome-media:2.18.0:
-desktop:gnome-menus:2.18.0:
+desktop:gnome-menus:2.19.2:
 desktop:gnome-netstatus:2.12.1:
 desktop:gnome-nettool:2.18.0:
-desktop:gnome-panel:2.18.1:
-desktop:gnome-power-manager:2.18.2:
+desktop:gnome-panel:2.19.2:
+desktop:gnome-power-manager:2.19.2:
 desktop:gnome-python-desktop:2.18.0:
-desktop:gnome-screensaver:2.18.1:
-desktop:gnome-session:2.18.0:
+desktop:gnome-screensaver:2.19.1.1:
+desktop:gnome-session:2.19.2:
 desktop:gnome-sharp:2.16.0:
-desktop:gnome-speech:0.4.11:
-desktop:gnome-system-monitor:2.19.1:
+desktop:gnome-speech:0.4.12:
+desktop:gnome-system-monitor:2.19.2:
 desktop:gnome-system-tools:2.18.1:
 desktop:gnome-terminal:2.18.0:
-desktop:gnome-themes:2.19.1:
+desktop:gnome-themes:2.19.2:
 desktop:gnome-user-docs:2.18.1:
 desktop:gnome-utils:2.18.1:
 desktop:gnome-volume-manager:2.17.0:
@@ -77,48 +77,48 @@ desktop:gok:1.2.3:
 desktop:gst-plugins-base:0.10.7:
 desktop:gst-plugins-good:0.10.3:
 desktop:gstreamer:0.10.8:
-desktop:gtk-engines:2.10.1:
-desktop:gtkhtml:3.15.1:
+desktop:gtk-engines:2.11.0:
+desktop:gtkhtml:3.15.2:
 desktop:gtksourceview:1.8.5:
 desktop:gucharmap:1.10.0:
 desktop:libgail-gnome:1.18.0:
 desktop:libgnomekbd:2.18.1:
 desktop:libgnomeprint:2.18.0:
 desktop:libgnomeprintui:2.18.0:
-desktop:libgtop:2.14.8:
+desktop:libgtop:2.19.2:
 desktop:liboobs:2.18.1:
 desktop:librsvg:2.16.1:
 desktop:libsoup:2.2.100:
-desktop:libwnck:2.18.0:
+desktop:libwnck:2.19.2:
 desktop:metacity:2.19.5:
-desktop:nautilus:2.18.1:
+desktop:nautilus:2.19.2:
 desktop:nautilus-cd-burner:2.19.1:
-desktop:orca:2.19.1:
+desktop:orca:2.19.2:
 desktop:scrollkeeper:0.3.14:
-desktop:seahorse:1.0.1:
-desktop:sound-juicer:2.16.4:
-desktop:tomboy:0.7.0:
-desktop:totem:2.18.1:
+desktop:seahorse:2.19.2:
+desktop:sound-juicer:2.19.1:
+desktop:tomboy:0.7.1:
+desktop:totem:2.19.2:
 desktop:vino:2.18.1:
-desktop:vte:0.16.2:
+desktop:vte:0.16.3:
 desktop:yelp:2.18.1:
-desktop:zenity:2.18.1:
+desktop:zenity:2.19.1:
 
 ## ADMIN
 admin:pessulus:2.16.2:
 admin:sabayon:2.18.1:
 
 ## DEVTOOLS
-devtools:devhelp:0.13:
-devtools:glade3:3.2.0:
+devtools:devhelp:0.14:
+devtools:glade3:3.2.1:
 
 ## BINDINGS
 
 # C++
 bindings:gconfmm:2.18.0:c++
-bindings:glibmm:2.13.4:c++
+bindings:glibmm:2.13.5:c++
 bindings:gnome-vfsmm:2.18.0:c++
-bindings:gtkmm:2.10.9:c++
+bindings:gtkmm:2.10.10:c++
 bindings:libglademm:2.6.3:c++
 bindings:libgnomecanvasmm:2.16.0:c++
 bindings:libgnomemm:2.18.0:c++
@@ -139,15 +139,15 @@ bindings:gtk-sharp:2.10.0:mono
 # Perl
 bindings:Glib:1.144:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.043:perl
-bindings:Gnome2-VFS:1.061:perl
-bindings:Gnome2:1.041:perl
+bindings:Gnome2-GConf:1.040:perl
+bindings:Gnome2-VFS:1.060:perl
+bindings:Gnome2:1.040:perl
 bindings:Gtk2-GladeXML:1.006:perl
 bindings:Gtk2:1.144:perl
 
 # Python
 bindings:gnome-python:2.18.2:python
-bindings:pygobject:2.13.0:python
+bindings:pygobject:2.13.1:python
 bindings:pygtk:2.10.4:python
 bindings:pyorbit:2.14.2:python
 

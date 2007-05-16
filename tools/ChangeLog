@@ -1,3 +1,9 @@
+2007-05-16  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions:
+	Update for GNOME 2.19.2
+
 2007-04-27  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* smoketesting/tarball-conversion.config: Fix control-center
