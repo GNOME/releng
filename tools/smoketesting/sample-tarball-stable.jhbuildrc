@@ -17,6 +17,12 @@ checkoutroot = os.path.join(os.environ['HOME'], 'cvs', 'tarball-gnome2')
 
 # the prefix to configure/install modules to (must have write access)
 prefix = '/opt/tarball-gnome2'
+if os.path.exists('/usr/lib64'):
+  libdir = os.path.join(prefix, 'lib64')
+  system_libdir = '/usr/lib64'
+else:
+  libdir = os.path.join(prefix, 'lib')
+  system_libdir = '/usr/lib'
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
@@ -61,11 +67,11 @@ module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 # WARNING: This will probably fail if you don't do a jhbuild bootstrap
 # first to make sure that jhbuild installs python-2.4 in the prefix
 #
-os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
-os.environ['PYTHONPATH'] = os.path.join(prefix, 'lib/python2.4/site-packages')
+##os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
+##os.environ['PYTHONPATH'] = os.path.join(libdir, 'python2.4/site-packages')
 
 # fix opal build (ugly)
-os.environ['PWLIBDIR'] = os.path.join(checkoutroot, 'pwlib-1.10.2')
+os.environ['PWLIBDIR'] = os.path.join(checkoutroot, 'pwlib-1.10.4')
 
 # set up the mono Global Application Cache prefix to the jhbuild prefix
 os.environ['MONO_GAC_PREFIX'] = prefix
@@ -78,4 +84,4 @@ skip.append('evolution-exchange')
 
 # jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
 # tell it to do so
-addpath('PKG_CONFIG_PATH', '/usr/lib/pkgconfig')
+addpath('PKG_CONFIG_PATH', os.path.join(system_libdir, 'pkgconfig'))

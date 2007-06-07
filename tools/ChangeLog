@@ -1,3 +1,13 @@
+2007-06-06  Elijah Newren  <newren gamil com>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions:
+	Update for GNOME 2.19.3
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	Fix up handling 32 vs 64 bit installs
+
 2007-05-30  Elijah Newren  <newren gamil com>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
