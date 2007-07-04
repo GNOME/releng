@@ -10,7 +10,7 @@ platform:glib:2.13.5:
 platform:gnome-mime-data:2.18.0:
 platform:gnome-vfs:2.19.2:
 platform:gnome-vfs-monikers:2.15.3:
-platform:gtk+:2.11.4:
+platform:gtk+:2.11.5:
 platform:gtk-doc:1.8:
 platform:intltool:0.35.5:
 platform:libIDL:0.8.8:
@@ -23,7 +23,7 @@ platform:libgnomecanvas:2.14.0:
 platform:libgnomeui:2.19.0:
 platform:libxml2:2.6.27:
 platform:libxslt:1.1.20:
-platform:pango:1.17.2:
+platform:pango:1.17.3:
 
 ## DESKTOP
 desktop:alacarte:0.11.3:
@@ -148,6 +148,6 @@ bindings:Gtk2:1.144:perl
 # Python
 bindings:gnome-python:2.18.2:python
 bindings:pygobject:2.13.1:python
-bindings:pygtk:2.10.4:python
+bindings:pygtk:2.10.5:python
 bindings:pyorbit:2.14.3:python
 

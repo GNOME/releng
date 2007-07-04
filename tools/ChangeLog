@@ -1,5 +1,10 @@
 2007-07-04  Elijah Newren  <newren gmail com>
 
+	* versions:
+	Update for actually working moduleset for GNOME 2.19.4
+
+2007-07-04  Elijah Newren  <newren gmail com>
+
 	* versions-stable:
 	Fix evince version before the actual GNOME 2.18.3 release.
 
