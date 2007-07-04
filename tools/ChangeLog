@@ -1,3 +1,8 @@
+2007-07-04  Elijah Newren  <newren gmail com>
+
+	* versions-stable:
+	Fix evince version before the actual GNOME 2.18.3 release.
+
 2007-07-03  Elijah Newren  <newren gmail com>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
