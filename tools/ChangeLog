@@ -1,3 +1,12 @@
+2007-07-11  Elijah Newren  <newren gmail com>
+
+	* versions:
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/tarball-conversion.config:
+	Update for GNOME 2.19.5.  Still need to add gtksourceview-1.0 to
+	tarball-conversion.config and convert-to-tarballs.py somehow.  For
+	now, I just manually add it to the created moduleset.
+
 2007-07-04  Elijah Newren  <newren gmail com>
 
 	* versions:
