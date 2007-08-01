@@ -1,3 +1,11 @@
+2007-08-01  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/tarball-conversion.config:
+	* versions:
+	Update for GNOME 2.19.6. Still need the gtksourceview-1.0 trick.
+	Using rarian for now too.
+
 2007-07-11  Elijah Newren  <newren gmail com>
 
 	* versions:
