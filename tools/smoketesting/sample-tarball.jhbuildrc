@@ -67,6 +67,8 @@ module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 # my distro work.  *shrug*
 skip.append('firefox')
 
+# we're better off using the distro packages for mozilla/firefox
+skip.append('mozilla')
 
 # libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
 # about python.  See

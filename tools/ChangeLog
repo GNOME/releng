@@ -1,3 +1,8 @@
+2007-08-15  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* smoketesting/sample-tarball.jhbuildrc: skip mozilla to make
+	building a release simpler.
+
 2007-08-01  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/sample-tarball.jhbuildrc:
