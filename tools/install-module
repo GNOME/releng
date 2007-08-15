@@ -363,6 +363,12 @@ echo "Informing ftp-release-list..."
 
 
 #
+# Trigger an update to the GNOME Library website
+#
+echo "Triggering GNOME Library update..."
+echo forced | mail -s "UPDATE library-web" gnomeweb@www.gnome.org
+
+#
 # Signal the mirrors
 #
 echo

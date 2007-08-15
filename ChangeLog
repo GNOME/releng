@@ -1,3 +1,7 @@
+2007-08-15  Olav Vitters  <olav@bkor.dhs.org>
+
+	* tools/install-module: Trigger GNOME library to rebuild.
+
 2004-10-17  Curtis Hovey  <sinzui@cox.net>
 
 	* 2.x/style/navigation/top-users.xml:
