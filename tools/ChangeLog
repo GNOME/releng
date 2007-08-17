@@ -1,3 +1,8 @@
+2007-08-17  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* smoketesting/tarball-conversion.config: Add new modules
+	accerciser and gnome-devel-docs to the devtools set.
+
 2007-08-15  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* smoketesting/sample-tarball.jhbuildrc: skip mozilla to make
