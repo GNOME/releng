@@ -1,3 +1,10 @@
+2007-09-19  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* smoketesting/tarball-conversion-stable.config:
+	* versions-stable:
+	Time for GNOME 2.20.0.
+
 2007-08-29  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* smoketesting/sample-tarball.jhbuildrc:
