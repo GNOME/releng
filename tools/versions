@@ -43,11 +43,11 @@ desktop:fast-user-switch-applet:2.20.0:
 desktop:file-roller:2.20.1:
 desktop:gcalctool:5.21.1:
 desktop:gconf-editor:2.20.0:
-desktop:gdm:2.20.1:
+desktop:gdm:2.21.1:
 desktop:gedit:2.20.3:
 desktop:gnome-applets:2.20.0:
 desktop:gnome-backgrounds:2.20.0:
-desktop:gnome-control-center:2.20.1:
+desktop:gnome-control-center:2.21.1:
 desktop:gnome-desktop:2.20.1:
 desktop:gnome-doc-utils:0.12.0:
 desktop:gnome-games:2.21.1:
@@ -98,7 +98,7 @@ desktop:pygtksourceview:2.0.0:
 desktop:seahorse:2.20.1:
 desktop:sound-juicer:2.20.1:
 desktop:tomboy:0.9.0:
-desktop:totem:2.21.0:
+desktop:totem:2.21.1:
 desktop:vino:2.21.1:
 desktop:vte:0.16.9:
 desktop:yelp:2.20.0:
