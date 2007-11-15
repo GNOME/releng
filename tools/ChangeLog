@@ -1,3 +1,9 @@
+2007-11-15  Elijah Newren  <newren gmail com>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions:
+	Update for 2.21.2
+
 2007-10-31  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* versions: Update again.
