@@ -1,3 +1,9 @@
+2007-11-28  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* versions-stable:
+	Update for GNOME 2.20.2.
+
 2007-11-15  Elijah Newren  <newren gmail com>
 
 	* smoketesting/sample-tarball.jhbuildrc:
