@@ -550,6 +550,7 @@ class ConvertToTarballs:
                     else:
                         continue
                 elif node.nodeName == 'distutils' or \
+                     node.nodeName == 'waf' or \
                      node.nodeName == 'autotools':
                     # Distutils and autotools modules are kind of
                     # complicated; they may be a tarball or a source code

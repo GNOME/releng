@@ -1,3 +1,7 @@
+2007-12-18  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Support <waf>.
+
 2007-12-05  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* smoketesting/sample-tarball.jhbuildrc:
