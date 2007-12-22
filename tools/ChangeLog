@@ -1,3 +1,10 @@
+2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/tarball-conversion.config:
+	* versions: Update for GNOME 2.21.4.
+
 2007-12-22  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Search for

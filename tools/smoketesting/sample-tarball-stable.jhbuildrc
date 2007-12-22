@@ -13,7 +13,7 @@ moduleset = 'gnome-2.20.2'
 modules = [ 'meta-gnome-desktop' ]
 
 # what directory should the source be checked out to?
-checkoutroot = os.path.join(os.environ['HOME'], 'cvs', 'tarball-gnome2')
+checkoutroot = os.path.join(os.environ['HOME'], 'src', 'tarball-gnome2')
 
 # the prefix to configure/install modules to (must have write access)
 prefix = '/opt/tarball-gnome2'
