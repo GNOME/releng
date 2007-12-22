@@ -50,6 +50,7 @@ import sys, string
 import re
 import getopt
 import os
+import os.path
 from ftplib import FTP
 import md5
 from xml.dom import minidom, Node
@@ -753,6 +754,7 @@ class ConvertToTarballs:
 
 def main(args):
     program_name = args[0]
+    program_dir = os.path.abspath(sys.path[0] or os.curdir)
     try:
         opts, args = getopt.getopt(args[1:], 't:v:h:f',
                                    ['tarballdir=', 'version=', 'help', 'force'])
@@ -785,9 +787,9 @@ def main(args):
         sys.exit(1)
 
     if (int(splitted_version[1]) % 2 != 0):
-        options = Options('tarball-conversion.config')
+        options = Options(os.path.join(program_dir, 'tarball-conversion.config'))
     else:
-        options = Options('tarball-conversion-stable.config')
+        options = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
 
     file_location, filename = os.path.split(args[-1])
     convert = ConvertToTarballs(tarballdir, version, file_location, options, force)

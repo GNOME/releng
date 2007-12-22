@@ -1,3 +1,9 @@
+2007-12-22  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Search for
+	tarball-conversion.config in the same directory as the
+	convert-to-tarballs script.
+
 2007-12-18  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Support <waf>.
