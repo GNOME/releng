@@ -753,7 +753,6 @@ class ConvertToTarballs:
         versions.close()
 
 def main(args):
-    program_name = args[0]
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
 
     parser = optparse.OptionParser()
