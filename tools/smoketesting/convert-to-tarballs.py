@@ -230,12 +230,7 @@ class Options:
 
     def get_subdir(self, modulename):
         # First, do the renames in the dictionary
-        try:
-            subdirectory = self.subdir[modulename]
-        except KeyError:
-            subdirectory = None
-
-        return subdirectory
+        return self.subdir.get(modulename, None)
 
     def _read_conversion_info(self):
         document = minidom.parse(self.filename)
@@ -272,8 +267,8 @@ class TarballLocator:
             os.mkdir(tarballdir)
 
     def _bigger_version(self, a, b):
-        a_nums = re.split(r'\.', a)
-        b_nums = re.split(r'\.', b)
+        a_nums = a.split('.')
+        b_nums = b.split('.')
         num_fields = min(len(a_nums), len(b_nums))
         for i in range(0,num_fields):
             if   int(a_nums[i]) > int(b_nums[i]):
@@ -293,8 +288,8 @@ class TarballLocator:
     def _version_greater_or_equal_to_max(self, a, max_version):
         if not max_version:
             return False
-        a_nums = re.split(r'\.', a)
-        b_nums = re.split(r'\.', max_version)
+        a_nums = a.split('.')
+        b_nums = max_version.split('.')
         num_fields = min(len(a_nums), len(b_nums))
         for i in range(0,num_fields):
             if   int(a_nums[i]) > int(b_nums[i]):
@@ -796,7 +791,6 @@ def main(args):
 
     moduleset = None
     if len(args):
-        #file_location, filename = os.path.split(args[-1])
         moduleset = os.path.split(args[-1])
     elif jhbuild_dir:
         # Determine file_location from jhbuild checkoutdir
