@@ -57,6 +57,7 @@ import md5
 from xml.dom import minidom, Node
 from sgmllib import SGMLParser
 import urllib2
+import urlparse
 import sets
 
 usage = ' -t tarball-directory -v version /some/random/path/filename-to-convert'
@@ -390,10 +391,13 @@ class TarballLocator:
                 break
         return location, files
 
-    def _get_http_tarball(self, location, modulename, max_version):
+    def _get_http_tarball(self, parsed_url, modulename, max_version):
+        location = urlparse.urlunparse(parsed_url)
+
         print "LOOKING for " + modulename + " tarball at " + location
-        location, files = \
-          self._get_files_in_http_tarball_dir(location, max_version)
+
+        location, files = self._get_files_in_http_tarball_dir(location,
+                                                              max_version)
 
         tarballs = None
         if location.find("ftp.debian.org") != -1:
@@ -415,7 +419,7 @@ class TarballLocator:
             return re.sub(r'^.*[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$', r'\1', x)
         versions = map(getversion, tarballs)
 
-        if len(versions) == 0:
+        if not len(versions):
             raise IOError('No versions found')
         version = self._get_latest_version(versions, max_version)
         index = versions.index(version)
@@ -424,12 +428,12 @@ class TarballLocator:
         md5sum, size = self._get_tarball_stats(location, tarballs[index])
         return location, version, md5sum, size
 
-    def _get_ftp_tarball(self, site, basedir, modulename):
+    def _get_ftp_tarball(self, parsed_url, modulename):
         print "LOOKING for " + modulename + " tarball at " + \
-              "ftp://" + site + "/" + basedir
-        ftp = FTP(site)
-        ftp.login('anonymous', '')
-        ftp.cwd(basedir)
+              urlparse.unparse(parsed_url)
+        ftp = FTP(u.hostname)
+        ftp.login(u.username or 'anonymous', u.password or '')
+        ftp.cwd(u.path)
         subdir, files = self._get_files_in_tarball_dir(ftp)
 
         tarballs = [file for file in files if file.endswith('.tar.bz2')]
@@ -442,21 +446,20 @@ class TarballLocator:
         version = self._get_latest_version(versions)
         index = versions.index(version)
 
-        location = os.path.join ('ftp://'+site, basedir)
-        location = os.path.join (location, subdir)
-        location = os.path.join (location, tarballs[index])
+        newloc = list(u)
+        if not newloc[2].endswith('/'): newloc[2] += '/'
+        newloc[2] += '/'.join((subdir, tarballs[index]))
+        location = urlparse.urlunparse(newloc)
         md5sum, size = self._get_tarball_stats(location, tarballs[index])
         ftp.quit()
         return location, version, md5sum, size
 
     def find_tarball(self, baselocation, modulename, max_version):
-        if re.match(r'^ftp://', baselocation):
-            bla = re.match(r'^[a-z]+://([a-z0-9\._]*)/(.*)', baselocation)
-            site = bla.group(1)
-            subdirs = bla.group(2)
-            return self._get_ftp_tarball(site, subdirs, modulename, max_version)
-        elif re.match(r'^http://', baselocation):
-            return self._get_http_tarball(baselocation, modulename, max_version)
+        u = urlparse.urlparse(baselocation)
+        if u.scheme == 'ftp':
+            return self._get_ftp_tarball(u, modulename, max_version)
+        elif u.scheme in ('http', 'https'):
+            return self._get_http_tarball(u, modulename, max_version)
         else:
             sys.stderr.write('Invalid location for ' + modulename + ': ' +
                              baselocation + '\n')
