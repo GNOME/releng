@@ -326,10 +326,9 @@ class TarballLocator:
         newfile = os.path.join(self.tarballdir, filename)
         if not os.path.exists(newfile):
             print "Downloading ", filename
-            print 'wget ' + location + ' -O ' + newfile
-            file = os.popen('wget ' + location + ' -O ' + newfile)
-            error = file.close()
-            if error:
+            cmd = ['wget', location, '-O', newfile]
+            retcode = subprocess.call(cmd)
+            if retcode != 0:
                 sys.stderr.write('Couldn''t download ' + filename + '!\n')
                 return '', ''
 
@@ -337,12 +336,14 @@ class TarballLocator:
         print 'Untarring archive to check integrity'
         if newfile.endswith('gz'):
             flags = 'xfzO'
+        elif newfile.endswith('lzma'):
+            flags = 'xfYO'
         else:
             flags = 'xfjO'
-          
-        file = os.popen('tar %s %s > /dev/null\n'%(flags, newfile))
-        error = file.close()
-        if error:
+
+        cmd = ['tar', flags, newfile]
+        retcode = subprocess.call(cmd, stdout=file('/dev/null', 'w'))
+        if retcode:
            sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
            os.unlink(newfile) 
            if tries < 10:
@@ -351,7 +352,7 @@ class TarballLocator:
            else:
                sys.stderr.write('Too many tries aborting this attempt\n')
                return '', ''
-             
+
         size = os.stat(newfile)[6]
         sum = md5.new()
         fp = open(newfile, 'rb')
