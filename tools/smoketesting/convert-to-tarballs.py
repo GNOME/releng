@@ -55,7 +55,7 @@ from ftplib import FTP
 import md5
 from xml.dom import minidom, Node
 from sgmllib import SGMLParser
-import urllib
+import urllib2
 import sets
 
 usage = ' -t tarball-directory -v version /some/random/path/filename-to-convert'
@@ -96,16 +96,14 @@ class Options:
         self.release_set = []
         self.subdir = {}
         self.version_limit = {}
+        self.real_name = {}
         self.cvs_locations = []
         self.module_locations = []
         self._read_conversion_info()
 
     def translate_name(self, modulename):
         # First, do the renames in the dictionary
-        try:
-            newname = self.rename[modulename]
-        except KeyError:
-            newname = modulename
+        newname = self.rename.get(modulename, modulename)
 
         # Second, drop any given prefixes
         for drop in self.drop_prefix:
@@ -191,7 +189,10 @@ class Options:
                           max_version + '. x.y.z versions not allowed; drop z\n')
                         sys.exit(1)
                     self.version_limit[name] = max_version
-                
+
+                if node.attributes.get('module'):
+                    self.real_name[name] = node.attributes.get('module').nodeValue
+
                 # Determine if we have a specified subdir for this package
                 if node.attributes.get('subdir'):
                     self.subdir[name] = node.attributes.get('subdir').nodeValue
@@ -220,12 +221,11 @@ class Options:
 
     def get_version_limit(self, modulename):
         # First, do the renames in the dictionary
-        try:
-            limit = self.version_limit[modulename]
-        except KeyError:
-            limit = None
+        return self.version_limit.get(modulename, None)
 
-        return limit
+    def get_real_name(self, modulename):
+        # First, do the renames in the dictionary
+        return  self.real_name.get(modulename, modulename)
 
     def get_subdir(self, modulename):
         # First, do the renames in the dictionary
@@ -370,12 +370,10 @@ class TarballLocator:
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
+        url = urllib2.build_opener()
         while True:
-            # Clear out the cache, I hope
-            urllib.urlcleanup()
-
             # Get the files
-            usock = urllib.urlopen(location)
+            usock = url.open(location)
             parser = urllister()
             parser.feed(usock.read())
             usock.close()
@@ -514,8 +512,9 @@ class ConvertToTarballs:
             name = self.options.translate_name(id)
             baselocation = self.options.get_download_site(cvsroot, name)
             max_version = self.options.get_version_limit(name)
+            real_name = self.options.get_real_name(name)
             location, version, md5sum, size = \
-                      self.locator.find_tarball(baselocation, name, max_version)
+                      self.locator.find_tarball(baselocation, real_name, max_version)
             print '  ', location, version, md5sum, size
             tarball.setAttribute('version', version)
             source_node.setAttribute('href', location)
@@ -669,8 +668,9 @@ class ConvertToTarballs:
               name = self.options.translate_name(module)
               baselocation = self.options.get_download_site('gnome.org', name)
               max_version = self.options.get_version_limit(name)
+              real_name = self.options.get_real_name(name)
               location, version, md5sum, size = \
-                        self.locator.find_tarball(baselocation, name, max_version)
+                        self.locator.find_tarball(baselocation, real_name, max_version)
               print '  ', location, version, md5sum, size
               self.all_tarballs.append(name)
               self.all_versions.append(version)

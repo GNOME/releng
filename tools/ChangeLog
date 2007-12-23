@@ -1,5 +1,11 @@
 2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py:
+	* smoketesting/tarball-conversion.config: Add way to put
+	gtksourceview-1.0 in the modules files. Further, switch to urllib2.
+
+2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/sample-tarball-stable.jhbuildrc:
 	* smoketesting/sample-tarball.jhbuildrc:
 	* smoketesting/tarball-conversion.config:
