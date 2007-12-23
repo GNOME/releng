@@ -325,7 +325,7 @@ class TarballLocator:
     def _get_tarball_stats(self, location, filename, tries=0):
         newfile = os.path.join(self.tarballdir, filename)
         if not os.path.exists(newfile):
-            print "Downloading ", filename
+            print "Downloading ", filename, newfile
             cmd = ['wget', location, '-O', newfile]
             retcode = subprocess.call(cmd)
             if retcode != 0:
@@ -368,9 +368,11 @@ class TarballLocator:
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
+        # Follow 302 codes when retrieving URLs, speeds up conversion by 60sec
+        redirect_location = location
         while True:
             # Get the files
-            usock = self.urlopen.open(location)
+            usock = self.urlopen.open(redirect_location)
             parser = urllister()
             parser.feed(usock.read())
             usock.close()
@@ -382,6 +384,7 @@ class TarballLocator:
             newdirs = map(fixdirs, newdirs)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
+                redirect_location = os.path.join(usock.url, newdir)
                 location = os.path.join(location, newdir)
             else:
                 break
@@ -392,21 +395,16 @@ class TarballLocator:
         location, files = \
           self._get_files_in_http_tarball_dir(location, max_version)
 
-        def isbz2tarball(x): return x.endswith('.tar.bz2')
-        def isgztarball(x):  return x.endswith('.tar.gz')
-        def isorigtarball(x):  return x.endswith('orig.tar.gz')
-
         tarballs = None
         if location.find("ftp.debian.org") != -1:
-            tarballs = filter(isorigtarball, files)
+            tarballs = [file for file in files if file.endswith('orig.tar.gz')]
         if not tarballs:
-            tarballs = filter(isbz2tarball, files)
+            tarballs = [file for file in files if file.endswith('.tar.bz2')]
         if not tarballs:
-            tarballs = filter(isgztarball, files)
+            tarballs = [file for file in files if file.endswith('.tar.gz')]
 
         # Only include tarballs for the given module
-        def has_modulename(x): return re.match(re.escape(modulename), x)
-        tarballs = filter(has_modulename, tarballs)
+        tarballs = [tarball for tarball in tarballs if modulename in tarball]
 
         ## Don't include -beta -installer -stub-installer and all kinds of
         ## other stupid inane tarballs
@@ -434,11 +432,9 @@ class TarballLocator:
         ftp.cwd(basedir)
         subdir, files = self._get_files_in_tarball_dir(ftp)
 
-        def isbz2tarball(x): return x.endswith('.tar.bz2')
-        def isgztarball(x):  return x.endswith('.tar.gz')
-        tarballs = filter(isbz2tarball, files)
+        tarballs = [file for file in files if file.endswith('.tar.bz2')]
         if not tarballs:
-            tarballs = filter(isgztarball, files)
+            tarballs = [file for file in files if file.endswith('.tar.gz')]
 
         def getversion(x):
             return re.sub(r'^.*-(([0-9]+\.)*[0-9]+)\.tar.*$', r'\1', x)

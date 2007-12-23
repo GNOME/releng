@@ -1,5 +1,11 @@
 2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py: Follow http redirects, avoiding
+	up to 50 secs of 302 response codes. Also clean up the code by
+	removing 'filter' usage.
+
+2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/convert-to-tarballs.py: Use subprocess, not popen.
 
 2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
