@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 # Example of running:
-#   $ ./convert-to-tarballs.py -t ~/cvs/tarball-gnome2/pkgs -v 2.11.91 \
-#       ~/cvs/gnome/jhbuild/modulesets/gnome-2.12.modules
+#   $ ./convert-to-tarballs.py -t ~/src/tarball-gnome2/pkgs -v 2.11.91 \
+#       ~/src/jhbuild/modulesets/gnome-2.12.modules
 #   $ jhbuild -m `pwd`/gnome-2.11.91.modules build meta-gnome-desktop
 #
 # Explanation:
@@ -51,6 +51,7 @@ import re
 import optparse
 import os
 import os.path
+import subprocess
 from ftplib import FTP
 import md5
 from xml.dom import minidom, Node
@@ -752,17 +753,25 @@ class ConvertToTarballs:
                 versions.write('\n')
         versions.close()
 
+def get_path(filename, path):
+    for dir in path:
+        if os.path.isfile(os.path.join(dir, filename)):
+            return dir
+    return None
+
 def main(args):
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
 
     parser = optparse.OptionParser()
     parser.add_option("-t", "--tarballdir", dest="tarballdir",
-                      default=os.path.join(os.getcwd(), 'tarballs'),
                       help="location of tarballs", metavar="DIR")
     parser.add_option("-v", "--version", dest="version",
                       help="GNOME version to build")
     parser.add_option("-f", "--force", action="store_true", dest="force",
                       default=False, help="overwrite existing versions and *.modules files")
+
+    if os.path.exists(os.path.join(os.getcwd(), 'tarballs')):
+        parser.set_defaults(tarballdir=os.path.join(os.getcwd(), 'tarballs'))
 
     (options, args) = parser.parse_args()
 
@@ -770,17 +779,53 @@ def main(args):
         parser.print_help()
         sys.exit(1)
 
-    splitted_version = version.split(".")
+    splitted_version = options.version.split(".")
     if (len(splitted_version) != 3):
-        sys.stderr.write('Version number is not valid\n')
+        sys.stderr.write("ERROR: Version number is not valid\n")
         sys.exit(1)
 
-    if (int(splitted_version[1]) % 2 != 0):
-        conversion = Options(os.path.join(program_dir, 'tarball-conversion.config'))
-    else:
+    is_stable = (int(splitted_version[1]) % 2 == 0)
+    if is_stable:
         conversion = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
+        jhbuildrc = os.path.join(program_dir, 'sample-tarball-stable.jhbuildrc')
+    else:
+        conversion = Options(os.path.join(program_dir, 'tarball-conversion.config'))
+        jhbuildrc = os.path.join(program_dir, 'sample-tarball.jhbuildrc')
 
-    file_location, filename = os.path.split(args[-1])
+    jhbuild_dir = get_path('jhbuild.in', (os.path.expanduser('~/src/jhbuild'), '/cvs/jhbuild'))
+
+    moduleset = None
+    if len(args):
+        #file_location, filename = os.path.split(args[-1])
+        moduleset = os.path.split(args[-1])
+    elif jhbuild_dir:
+        # Determine file_location from jhbuild checkoutdir
+        if is_stable:
+            moduleset = os.path.join(jhbuild_dir, 'modulesets',
+                                     'gnome-%s.%s.modules' % splitted_version[:2])
+        else:
+            moduleset = os.path.join(jhbuild_dir, 'modulesets',
+                                     'gnome-%s.%s.modules' % (splitted_version[0],
+                                                              str(int(splitted_version[1])+1)))
+
+        # Make sure the jhbuild checkout directory is up to date
+        retcode = subprocess.call(['svn', '--quiet', 'update'], cwd=jhbuild_dir)
+        if retcode != 0:
+            sys.stderr("WARNING: Error updating jhbuild checkout directory\n")
+
+    if not moduleset or not os.path.exists(moduleset):
+        sys.stderr.write("ERROR: No valid module file specified!\n")
+        parser.print_help()
+        sys.exit(1)
+    file_location, filename = os.path.split(moduleset)
+
+    if jhbuild_dir and not options.tarballdir:
+        sys.path.insert(0, jhbuild_dir)
+        import jhbuild.config
+        setattr(jhbuild.config.Config, 'setup_env', lambda self: None)
+        jhbuild_opts = jhbuild.config.Config(jhbuildrc)
+        options.tarballdir = jhbuild_opts.tarballdir
+
     convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force)
     convert.fix_file(filename)
     convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings

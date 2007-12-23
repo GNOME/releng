@@ -1,5 +1,11 @@
 2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py: Try to automatically determine
+	the tarball location and moduleset. Now the script should only require
+	a version to be specified.
+
+2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/convert-to-tarballs.py: Convert to optparse instead of
 	getopt. Further, don't print the name of the first module file twice.
 
