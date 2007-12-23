@@ -48,7 +48,7 @@
 
 import sys, string
 import re
-import getopt
+import optparse
 import os
 import os.path
 from ftplib import FTP
@@ -266,6 +266,7 @@ class urllister(SGMLParser):
 class TarballLocator:
     def __init__(self, tarballdir):
         self.tarballdir = tarballdir
+        self.urlopen = urllib2.build_opener()
         if not os.path.exists(tarballdir):
             os.mkdir(tarballdir)
 
@@ -358,10 +359,10 @@ class TarballLocator:
         size = os.stat(newfile)[6]
         sum = md5.new()
         fp = open(newfile, 'rb')
-        data = fp.read(4096)
+        data = fp.read(32768)
         while data:
             sum.update(data)
-            data = fp.read(4096)
+            data = fp.read(32768)
         fp.close()
         md5sum = sum.hexdigest()
         return md5sum, str(size)
@@ -370,10 +371,9 @@ class TarballLocator:
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
-        url = urllib2.build_opener()
         while True:
             # Get the files
-            usock = url.open(location)
+            usock = self.urlopen.open(location)
             parser = urllister()
             parser.feed(usock.read())
             usock.close()
@@ -755,30 +755,20 @@ class ConvertToTarballs:
 def main(args):
     program_name = args[0]
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
-    try:
-        opts, args = getopt.getopt(args[1:], 't:v:h:f',
-                                   ['tarballdir=', 'version=', 'help', 'force'])
-    except getopt.error, exc:
-        sys.stderr.write(program_name % ': %s\n' % str(exc))
-        sys.stderr.write(program_name + usage + '\n')
-        sys.exit(1)
 
-    tarballdir = os.path.join(os.getcwd(), 'tarballs')
-    version = None
-    force = False
-    for opt, arg in opts:
-        if opt in ('-h', '--help'):
-            print program_name + usage
-            print help
-            sys.exit(0)
-        elif opt in ('-t', '--tarballdir'):
-            tarballdir = arg
-        elif opt in ('-v', '--version'):
-            version = arg
-        elif opt in ('-f', '--force'):
-            force = True
-    if not version:
-        sys.stderr.write(program_name + usage + '\n')
+    parser = optparse.OptionParser()
+    parser.add_option("-t", "--tarballdir", dest="tarballdir",
+                      default=os.path.join(os.getcwd(), 'tarballs'),
+                      help="location of tarballs", metavar="DIR")
+    parser.add_option("-v", "--version", dest="version",
+                      help="GNOME version to build")
+    parser.add_option("-f", "--force", action="store_true", dest="force",
+                      default=False, help="overwrite existing versions and *.modules files")
+
+    (options, args) = parser.parse_args()
+
+    if not options.version:
+        parser.print_help()
         sys.exit(1)
 
     splitted_version = version.split(".")
@@ -787,13 +777,12 @@ def main(args):
         sys.exit(1)
 
     if (int(splitted_version[1]) % 2 != 0):
-        options = Options(os.path.join(program_dir, 'tarball-conversion.config'))
+        conversion = Options(os.path.join(program_dir, 'tarball-conversion.config'))
     else:
-        options = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
+        conversion = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
 
     file_location, filename = os.path.split(args[-1])
-    convert = ConvertToTarballs(tarballdir, version, file_location, options, force)
-    print filename
+    convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force)
     convert.fix_file(filename)
     convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings
     convert.show_ignored()
