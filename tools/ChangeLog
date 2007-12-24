@@ -1,3 +1,10 @@
+2007-12-25  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Make it work for stable GNOME
+	versions.
+	* smoketesting/tarball-conversion-stable.config: Stable GNOME versions
+	should also use SFTP to detect the latest version.
+
 2007-12-24  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Implement connection cache.

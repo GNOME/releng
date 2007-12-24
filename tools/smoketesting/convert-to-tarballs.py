@@ -908,7 +908,8 @@ def main(args):
         # Determine file_location from jhbuild checkoutdir
         if is_stable:
             moduleset = os.path.join(jhbuild_dir, 'modulesets',
-                                     'gnome-%s.%s.modules' % splitted_version[:2])
+                                     'gnome-%s.%s.modules' % (splitted_version[0],
+                                                              splitted_version[1]))
         else:
             moduleset = os.path.join(jhbuild_dir, 'modulesets',
                                      'gnome-%s.%s.modules' % (splitted_version[0],
