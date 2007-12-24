@@ -1,5 +1,12 @@
 2007-12-24  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py: Implement connection cache.
+	Only used for SFTP at the moment. Further, switch to curl instead of
+	wget as that allows for a more minimal output. Finally, try to use
+	psyco (i386 only).
+
+2007-12-24  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/convert-to-tarballs.py: Rewrite the various URL
 	handlers in TarballLocator. Also add the concept of 'mirrors'. These
 	mirrors are only consulted to determine the latest version, the

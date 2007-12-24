@@ -60,6 +60,9 @@ from sgmllib import SGMLParser
 import urllib2
 import urlparse
 import sets
+import socket
+try: import psyco
+except: pass
 
 have_sftp = False
 try:
@@ -289,6 +292,7 @@ class TarballLocator:
         self.tarballdir = tarballdir
         self.urlopen = urllib2.build_opener()
         self.have_sftp = self._test_sftp()
+        self.cache = {}
         for key in mirrors.keys():
             mirror = mirrors[key]
             if mirror[1].startswith('sftp://'):
@@ -299,6 +303,15 @@ class TarballLocator:
         self.mirrors = mirrors
         if not os.path.exists(tarballdir):
             os.mkdir(tarballdir)
+
+    def cleanup(self):
+        """Clean connection cache, close any connections"""
+        if 'ftp' in self.cache:
+            for connection in self.cache['ftp'].itervalues():
+                connection.quit()
+        if 'sftp' in self.cache:
+            for connection in self.cache['sftp'].itervalues():
+                connection.sock.get_transport().close()
 
     def _test_sftp(self):
         """Perform a best effort guess to determine if sftp is available"""
@@ -373,8 +386,8 @@ class TarballLocator:
     def _get_tarball_stats(self, location, filename, tries=0):
         newfile = os.path.join(self.tarballdir, filename)
         if not os.path.exists(newfile):
-            print "Downloading ", filename, newfile
-            cmd = ['wget', location, '-O', newfile]
+            print "Downloading", filename, newfile
+            cmd = ['curl', '-C', '-', '-#kRfL', '--disable-epsv',  location, '-o', newfile]
             retcode = subprocess.call(cmd)
             if retcode != 0:
                 sys.stderr.write('Couldn''t download ' + filename + '!\n')
@@ -437,29 +450,34 @@ class TarballLocator:
     def _get_files_from_sftp(self, parsed_url, max_version):
         hostname = parsed_url.hostname
 
-        hostkeytype = self.sftp_hosts[hostname].keys()[0]
-        hostkey = self.sftp_hosts[hostname][hostkeytype]
-        cfg = self.sftp_cfg.lookup(hostname)
-        hostname = cfg.get('hostname', hostname)
-        port = parsed_url.port or cfg.get('port', 22)
-        username = parsed_url.username or cfg.get('user')
+        if hostname in self.cache.setdefault('sftp', {}):
+            sftp = self.cache['sftp'][hostname]
+        else:
+            hostkeytype = self.sftp_hosts[hostname].keys()[0]
+            hostkey = self.sftp_hosts[hostname][hostkeytype]
+            cfg = self.sftp_cfg.lookup(hostname)
+            hostname = cfg.get('hostname', hostname)
+            port = parsed_url.port or cfg.get('port', 22)
+            username = parsed_url.username or cfg.get('user')
 
-        t = paramiko.Transport((hostname, port))
-        t.connect(hostkey=hostkey)
+            t = paramiko.Transport((hostname, port))
+            t.sock.setsockopt(socket.SOL_TCP, socket.TCP_NODELAY, 1)
+            t.connect(hostkey=hostkey)
 
-        for key in self.sftp_keys:
-            try:
-                t.auth_publickey(username, key)
-                break
-            except paramiko.SSHException:
-                pass
+            for key in self.sftp_keys:
+                try:
+                    t.auth_publickey(username, key)
+                    break
+                except paramiko.SSHException:
+                    pass
 
-        if not t.is_authenticated():
-            t.close()
-            sys.stderr('ERROR: Cannot authenticate to %s' % hostname)
-            sys.exit(1)
+            if not t.is_authenticated():
+                t.close()
+                sys.stderr('ERROR: Cannot authenticate to %s' % hostname)
+                sys.exit(1)
 
-        sftp = paramiko.SFTPClient.from_transport(t)
+            sftp = paramiko.SFTPClient.from_transport(t)
+            self.cache['sftp'][hostname] = sftp
 
         path = parsed_url.path
         good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
@@ -473,7 +491,7 @@ class TarballLocator:
                 path = posixjoin(path, newdir)
             else:
                 break
-        t.close() # Log out
+
         newloc = list(parsed_url)
         newloc[2] = path
         location = urlparse.urlunparse(newloc)
@@ -706,6 +724,9 @@ class ConvertToTarballs:
                     # Append the new node to the newRoot
                     newRoot.appendChild(entry)
 
+    def cleanup(self):
+        self.locator.cleanup()
+
     def fix_file(self, input_filename):
         newname = re.sub(r'^([-a-z]+?)(?:-[0-9\.]*)?(.modules)$',
                          r'\1-' + self.version + r'\2',
@@ -918,6 +939,7 @@ def main(args):
     convert.show_unused_whitelist_modules()
     convert.show_not_found()
     convert.create_versions_file()
+    convert.cleanup()
     
 if __name__ == '__main__':
     try:
