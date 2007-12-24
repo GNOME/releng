@@ -1,3 +1,15 @@
+2007-12-24  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Rewrite the various URL
+	handlers in TarballLocator. Also add the concept of 'mirrors'. These
+	mirrors are only consulted to determine the latest version, the
+	downloading still occurs on the main site. Also add automatic SFTP
+	support. This requires a proper SFTP setup (keys in ssh-agent,
+	username configured in ~/.ssh.config as well as host in
+	~/.ssh/known_hosts).
+	* smoketesting/tarball-conversion.config: Add master.gnome.org sftp as
+	mirror for download.gnome.org.
+
 2007-12-23  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Use urlparse module instead of

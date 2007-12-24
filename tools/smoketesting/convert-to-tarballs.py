@@ -51,6 +51,7 @@ import re
 import optparse
 import os
 import os.path
+from posixpath import join as posixjoin # Handy for URLs
 import subprocess
 from ftplib import FTP
 import md5
@@ -59,6 +60,13 @@ from sgmllib import SGMLParser
 import urllib2
 import urlparse
 import sets
+
+have_sftp = False
+try:
+    import paramiko
+
+    have_sftp = True
+except: pass
 
 usage = ' -t tarball-directory -v version /some/random/path/filename-to-convert'
 help = \
@@ -92,6 +100,7 @@ help = \
 class Options:
     def __init__(self, filename):
         self.filename = filename
+        self.mirrors = {}
         self.rename = {}
         self.drop_prefix = []
         self.release_sets = []
@@ -131,13 +140,13 @@ class Options:
                 subdir = ''
                 if len(list) == 3:
                     subdir = re.sub(r'\$module', modulename, list[2])
-                return os.path.join(list[1], subdir)
+                return posixjoin(list[1], subdir)
         for list in self.cvs_locations:
             if re.search(list[0] + '$', cvssite):
                 subdir = ''
                 if len(list) == 3:
                     subdir = re.sub(r'\$module', modulename, list[2])
-                return os.path.join(list[1], subdir)
+                return posixjoin(list[1], subdir)
         raise IOError('No download site found!\n')
 
     def _get_locations(self, locations_node):
@@ -159,6 +168,19 @@ class Options:
                         self.module_locations.append([module, location])
             else:
                 sys.stderr.write('Bad location node\n')
+                sys.exit(1)
+
+    def _get_mirrors(self, mirrors_node):
+        for node in mirrors_node.childNodes:
+            if node.nodeType != Node.ELEMENT_NODE:
+                continue
+            if node.nodeName == 'mirror':
+                old = node.attributes.get('location').nodeValue
+                new = node.attributes.get('alternate').nodeValue
+                u = urlparse.urlparse(old)
+                self.mirrors[(u.scheme, u.hostname)] = (old, new)
+            else:
+                sys.stderr.write('Bad mirror node\n')
                 sys.exit(1)
 
     def _get_renames(self, renames_node):
@@ -241,6 +263,8 @@ class Options:
                 continue
             if node.nodeName == 'locations':
                 self._get_locations(node)
+            elif node.nodeName == 'mirrors':
+                self._get_mirrors(node)
             elif node.nodeName == 'rename':
                 self._get_renames(node)
             elif node.nodeName == 'whitelist':
@@ -261,11 +285,49 @@ class urllister(SGMLParser):
             self.urls.extend(href)
 
 class TarballLocator:
-    def __init__(self, tarballdir):
+    def __init__(self, tarballdir, mirrors):
         self.tarballdir = tarballdir
         self.urlopen = urllib2.build_opener()
+        self.have_sftp = self._test_sftp()
+        for key in mirrors.keys():
+            mirror = mirrors[key]
+            if mirror[1].startswith('sftp://'):
+                hostname = urlparse.urlparse(mirror[1]).hostname
+                if not self.have_sftp or not self._test_sftp_host(hostname):
+                    sys.stderr.write("WARNING: Removing sftp mirror %s due to non-working sftp setup\n" % mirror[1])
+                    del(mirrors[key])
+        self.mirrors = mirrors
         if not os.path.exists(tarballdir):
             os.mkdir(tarballdir)
+
+    def _test_sftp(self):
+        """Perform a best effort guess to determine if sftp is available"""
+        global have_sftp
+        if not have_sftp: return False
+
+        try:
+            self.sftp_cfg = paramiko.SSHConfig()
+            self.sftp_cfg.parse(file(os.path.expanduser('~/.ssh/config'), 'r'))
+
+            self.sftp_keys = paramiko.Agent().get_keys()
+            if not len(self.sftp_keys): raise KeyError('no sftp_keys')
+
+            self.sftp_hosts = paramiko.util.load_host_keys(os.path.expanduser('~/.ssh/known_hosts'))
+        except:
+            have_sftp = False
+
+        return have_sftp
+
+    def _test_sftp_host(self, hostname):
+        do_sftp = True
+        try:
+            cfg = self.sftp_cfg.lookup(hostname)
+            cfg.get('user') # require a username to be defined
+            if not self.sftp_hosts.has_key(hostname): raise KeyError('unknown hostname')
+        except KeyError:
+            do_sftp = False
+
+        return do_sftp
 
     def _bigger_version(self, a, b):
         a_nums = a.split('.')
@@ -308,21 +370,6 @@ class TarballLocator:
                 biggest = version
         return biggest
 
-    def _get_files_in_tarball_dir(self, ftp):
-        location = ''
-        good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
-        def hasdirs(x): return good_dir.search(x)
-        while True:
-            files = ftp.nlst()
-            newdirs = filter(hasdirs, files)
-            if newdirs:
-                newdir = self._get_latest_version(newdirs)
-                location = os.path.join(location, newdir)
-                ftp.cwd(newdir)
-            else:
-                break
-        return location, files
-
     def _get_tarball_stats(self, location, filename, tries=0):
         newfile = os.path.join(self.tarballdir, filename)
         if not os.path.exists(newfile):
@@ -333,7 +380,6 @@ class TarballLocator:
                 sys.stderr.write('Couldn''t download ' + filename + '!\n')
                 return '', ''
 
-        #untar to check if we downloaded correctly
         print 'Untarring archive to check integrity'
         if newfile.endswith('gz'):
             flags = 'xfzO'
@@ -365,15 +411,85 @@ class TarballLocator:
         md5sum = sum.hexdigest()
         return md5sum, str(size)
 
-    def _get_files_in_http_tarball_dir(self, location, max_version):
+    def _get_files_from_ftp(self, parsed_url, max_version):
+        ftp = FTP(parsed_url.hostname)
+        ftp.login(parsed_url.username or 'anonymous', parsed_url.password or '')
+        ftp.cwd(parsed_url.path)
+        path = parsed_url.path
+        good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
+        def hasdirs(x): return good_dir.search(x)
+        while True:
+            files = ftp.nlst()
+            newdirs = filter(hasdirs, files)
+            if newdirs:
+                newdir = self._get_latest_version(newdirs, max_version)
+                path = posixjoin(path, newdir)
+                ftp.cwd(newdir)
+            else:
+                break
+        ftp.quit()
+
+        newloc = list(parsed_url)
+        newloc[2] = path
+        location = urlparse.urlunparse(newloc)
+        return location, files
+
+    def _get_files_from_sftp(self, parsed_url, max_version):
+        hostname = parsed_url.hostname
+
+        hostkeytype = self.sftp_hosts[hostname].keys()[0]
+        hostkey = self.sftp_hosts[hostname][hostkeytype]
+        cfg = self.sftp_cfg.lookup(hostname)
+        hostname = cfg.get('hostname', hostname)
+        port = parsed_url.port or cfg.get('port', 22)
+        username = parsed_url.username or cfg.get('user')
+
+        t = paramiko.Transport((hostname, port))
+        t.connect(hostkey=hostkey)
+
+        for key in self.sftp_keys:
+            try:
+                t.auth_publickey(username, key)
+                break
+            except paramiko.SSHException:
+                pass
+
+        if not t.is_authenticated():
+            t.close()
+            sys.stderr('ERROR: Cannot authenticate to %s' % hostname)
+            sys.exit(1)
+
+        sftp = paramiko.SFTPClient.from_transport(t)
+
+        path = parsed_url.path
+        good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
+        def hasdirs(x): return good_dir.search(x)
+        while True:
+            files = sftp.listdir(path)
+
+            newdirs = filter(hasdirs, files)
+            if newdirs:
+                newdir = self._get_latest_version(newdirs, max_version)
+                path = posixjoin(path, newdir)
+            else:
+                break
+        t.close() # Log out
+        newloc = list(parsed_url)
+        newloc[2] = path
+        location = urlparse.urlunparse(newloc)
+        return location, files
+
+    def _get_files_from_http(self, parsed_url, max_version):
+        obj = self.urlopen
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
+        location = urlparse.urlunparse(parsed_url)
         # Follow 302 codes when retrieving URLs, speeds up conversion by 60sec
         redirect_location = location
         while True:
             # Get the files
-            usock = self.urlopen.open(redirect_location)
+            usock = obj.open(redirect_location)
             parser = urllister()
             parser.feed(usock.read())
             usock.close()
@@ -385,19 +501,29 @@ class TarballLocator:
             newdirs = map(fixdirs, newdirs)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
-                redirect_location = os.path.join(usock.url, newdir)
-                location = os.path.join(location, newdir)
+                redirect_location = posixjoin(usock.url, newdir)
+                location = posixjoin(location, newdir)
             else:
                 break
         return location, files
 
-    def _get_http_tarball(self, parsed_url, modulename, max_version):
-        location = urlparse.urlunparse(parsed_url)
+    def find_tarball(self, baselocation, modulename, max_version):
+        print "LOOKING for " + modulename + " tarball at " + baselocation
+        u = urlparse.urlparse(baselocation)
 
-        print "LOOKING for " + modulename + " tarball at " + location
+        mirror = self.mirrors.get((u.scheme, u.hostname), None)
+        if mirror:
+            baselocation = baselocation.replace(mirror[0], mirror[1], 1)
+            u = urlparse.urlparse(baselocation)
 
-        location, files = self._get_files_in_http_tarball_dir(location,
-                                                              max_version)
+        # Determine which function handles the actual retrieving
+        locator = getattr(self, '_get_files_from_%s' % u.scheme, None)
+        if locator is None:
+            sys.stderr.write('Invalid location for ' + modulename + ': ' +
+                             baselocation + '\n')
+            sys.exit(1)
+
+        location, files = locator(u, max_version)
 
         tarballs = None
         if location.find("ftp.debian.org") != -1:
@@ -424,46 +550,11 @@ class TarballLocator:
         version = self._get_latest_version(versions, max_version)
         index = versions.index(version)
 
-        location = os.path.join(location, tarballs[index])
+        location = posixjoin(location, tarballs[index])
+        if mirror: # XXX - doesn't undo everything -- not needed
+            location = location.replace(mirror[1], mirror[0], 1)
         md5sum, size = self._get_tarball_stats(location, tarballs[index])
         return location, version, md5sum, size
-
-    def _get_ftp_tarball(self, parsed_url, modulename):
-        print "LOOKING for " + modulename + " tarball at " + \
-              urlparse.unparse(parsed_url)
-        ftp = FTP(u.hostname)
-        ftp.login(u.username or 'anonymous', u.password or '')
-        ftp.cwd(u.path)
-        subdir, files = self._get_files_in_tarball_dir(ftp)
-
-        tarballs = [file for file in files if file.endswith('.tar.bz2')]
-        if not tarballs:
-            tarballs = [file for file in files if file.endswith('.tar.gz')]
-
-        def getversion(x):
-            return re.sub(r'^.*-(([0-9]+\.)*[0-9]+)\.tar.*$', r'\1', x)
-        versions = map(getversion, tarballs)
-        version = self._get_latest_version(versions)
-        index = versions.index(version)
-
-        newloc = list(u)
-        if not newloc[2].endswith('/'): newloc[2] += '/'
-        newloc[2] += '/'.join((subdir, tarballs[index]))
-        location = urlparse.urlunparse(newloc)
-        md5sum, size = self._get_tarball_stats(location, tarballs[index])
-        ftp.quit()
-        return location, version, md5sum, size
-
-    def find_tarball(self, baselocation, modulename, max_version):
-        u = urlparse.urlparse(baselocation)
-        if u.scheme == 'ftp':
-            return self._get_ftp_tarball(u, modulename, max_version)
-        elif u.scheme in ('http', 'https'):
-            return self._get_http_tarball(u, modulename, max_version)
-        else:
-            sys.stderr.write('Invalid location for ' + modulename + ': ' +
-                             baselocation + '\n')
-            sys.exit(1)
 
 class ConvertToTarballs:
     def __init__(self, tarballdir, version, sourcedir, options, force):
@@ -476,7 +567,7 @@ class ConvertToTarballs:
         self.not_found = []
         self.all_tarballs = []
         self.all_versions = []
-        self.locator = TarballLocator(tarballdir)
+        self.locator = TarballLocator(tarballdir, options.mirrors)
 
     def _create_tarball_node(self, document, node):
         tarball = document.createElement('tarball')
