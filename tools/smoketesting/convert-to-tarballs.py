@@ -81,9 +81,6 @@ help = \
 #     were released too late
 #   - versions file doesn't group c++/java/perl/python
 #   ? Make a useful help message
-#   ? Automatically figure out the sourcedir from ~/.jhbuildrc
-#   - Directory search with mozilla (allow removing hardcode of mozilla-1.7.12)
-#   - get rid of duplicated code between ftp and http
 #   - warn about modules with revision specified that don't have a
 #     limit on the tarball number
 
@@ -411,7 +408,7 @@ class TarballLocator:
                     try: os.unlink(newfile)
                     except OSError: pass
 
-                    sys.stderr.write('Couldn''t download ' + filename + '!\n')
+                    sys.stderr.write('Couldn\'t download ' + filename + '!\n')
                     tries -= 1
                     continue
 
@@ -806,7 +803,7 @@ class ConvertToTarballs:
 
     def show_ignored(self):
         print '**************************************************'
-        if len(self.ignored) > 0:
+        if len(self.ignored):
             print 'The following modules were ignored: ',
             for module in self.ignored:
                 print module,
@@ -820,7 +817,7 @@ class ConvertToTarballs:
         for set in self.options.release_set:
             full_whitelist.extend(set)
         unique = sets.Set(full_whitelist) - sets.Set(self.all_tarballs)
-        if len(unique) > 0:
+        if len(unique):
             print 'Unused whitelisted modules: ',
             for module in unique:
                 print module,
@@ -830,7 +827,7 @@ class ConvertToTarballs:
 
     def show_not_found(self):
         print '**************************************************'
-        if len(self.not_found) > 0:
+        if len(self.not_found):
             print 'Tarballs were not found for the following modules: ',
             for module in self.not_found:
                 print module,
@@ -949,14 +946,16 @@ def main(args):
         options.tarballdir = jhbuild_opts.tarballdir
 
     convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force)
-    convert.fix_file(filename)
-    convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings
-    convert.show_ignored()
-    convert.show_unused_whitelist_modules()
-    convert.show_not_found()
-    convert.create_versions_file()
-    convert.cleanup()
-    
+    try:
+        convert.fix_file(filename)
+        convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings
+        convert.show_ignored()
+        convert.show_unused_whitelist_modules()
+        convert.show_not_found()
+        convert.create_versions_file()
+    finally:
+        convert.cleanup()
+
 if __name__ == '__main__':
     try:
       main(sys.argv)

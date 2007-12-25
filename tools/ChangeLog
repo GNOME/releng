@@ -1,5 +1,11 @@
 2007-12-25  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py: Close all cached connections on
+	error (ctrl-c or otherwise). This is needed as otherwise the script
+	wouldn't exit. Also do some code cleanups.
+
+2007-12-25  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/convert-to-tarballs.py: Rewrite downloading retry code
 	to avoid recursion and to wait a bit between retries. Also allow Curl
 	to resume existing downloads. However, do download from scratch when
