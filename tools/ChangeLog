@@ -1,5 +1,13 @@
 2007-12-25  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py: Rewrite downloading retry code
+	to avoid recursion and to wait a bit between retries. Also allow Curl
+	to resume existing downloads. However, do download from scratch when
+	needed (e.g. when whole file has been downloaded and some part is
+	corrupted).
+
+2007-12-25  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/convert-to-tarballs.py: Make it work for stable GNOME
 	versions.
 	* smoketesting/tarball-conversion-stable.config: Stable GNOME versions

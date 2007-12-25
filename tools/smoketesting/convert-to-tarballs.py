@@ -60,6 +60,7 @@ from sgmllib import SGMLParser
 import urllib2
 import urlparse
 import sets
+import time
 import socket
 try: import psyco
 except: pass
@@ -383,17 +384,9 @@ class TarballLocator:
                 biggest = version
         return biggest
 
-    def _get_tarball_stats(self, location, filename, tries=0):
+    def _get_tarball_stats(self, location, filename):
+        MAX_TRIES = 10
         newfile = os.path.join(self.tarballdir, filename)
-        if not os.path.exists(newfile):
-            print "Downloading", filename, newfile
-            cmd = ['curl', '-C', '-', '-#kRfL', '--disable-epsv',  location, '-o', newfile]
-            retcode = subprocess.call(cmd)
-            if retcode != 0:
-                sys.stderr.write('Couldn''t download ' + filename + '!\n')
-                return '', ''
-
-        print 'Untarring archive to check integrity'
         if newfile.endswith('gz'):
             flags = 'xfzO'
         elif newfile.endswith('lzma'):
@@ -401,17 +394,39 @@ class TarballLocator:
         else:
             flags = 'xfjO'
 
-        cmd = ['tar', flags, newfile]
-        retcode = subprocess.call(cmd, stdout=file('/dev/null', 'w'))
-        if retcode:
-           sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
-           os.unlink(newfile) 
-           if tries < 10:
-               sys.stderr.write('Trying again\n')
-               return self._get_tarball_stats(location, filename, tries+1)
-           else:
-               sys.stderr.write('Too many tries aborting this attempt\n')
-               return '', ''
+        tries = MAX_TRIES
+        while tries:
+            if tries < MAX_TRIES:
+                sys.stderr.write('Trying again\n')
+                time.sleep(12)
+
+            if not os.path.exists(newfile) or tries != MAX_TRIES:
+                print "Downloading", filename, newfile
+                # one of those options will make Curl resume an existing download
+                cmd = ['curl', '-C', '-', '-#kRfL', '--disable-epsv',  location, '-o', newfile]
+                retcode = subprocess.call(cmd)
+                if retcode != 0:
+                    # Curl gives an error when an existing file cannot be continued
+                    # in which case the existing file is likely corrupt somehow
+                    try: os.unlink(newfile)
+                    except OSError: pass
+
+                    sys.stderr.write('Couldn''t download ' + filename + '!\n')
+                    tries -= 1
+                    continue
+
+            print 'Untarring archive to check integrity'
+            cmd = ['tar', flags, newfile]
+            retcode = subprocess.call(cmd, stdout=file('/dev/null', 'w'))
+            if retcode:
+                sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
+                tries -= 1
+                continue
+
+            break
+        else:
+            sys.stderr.write('Too many tries. Aborting this attempt\n')
+            return '', ''
 
         size = os.stat(newfile)[6]
         sum = md5.new()
