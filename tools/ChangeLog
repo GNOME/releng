@@ -1,3 +1,10 @@
+2007-12-28  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Warn when there is a revision
+	set, but tarball-conversion lacks a max_version. This could lead to
+	too new versions being released. Further, only warn if there is
+	something wrong.
+
 2007-12-25  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Close all cached connections on

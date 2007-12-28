@@ -72,17 +72,10 @@ try:
     have_sftp = True
 except: pass
 
-usage = ' -t tarball-directory -v version /some/random/path/filename-to-convert'
-help = \
-'''Get a psychiatrist.'''
-
 # Some TODOs
 #   - Check timestamps on ftp tarballs, rejecting as 'too old' the ones that
 #     were released too late
-#   - versions file doesn't group c++/java/perl/python
 #   ? Make a useful help message
-#   - warn about modules with revision specified that don't have a
-#     limit on the tarball number
 
 # TODOs for elsewhere
 #   - Add times
@@ -91,8 +84,6 @@ help = \
 #      version), 15 minutes to sanity check, 15 minutes to run relevant
 #      release scripts, plus 15 minutes slush time or so -- total: 6
 #      hours)
-#   - Add a big README file saying how to use stuff, basics of how it
-#     works, and how to modify it
 
 # Extra stuff to document (for myself or elsewhere)
 #   - don't forget to mount of /usr/local on amr
@@ -374,7 +365,6 @@ class TarballLocator:
 
     def _get_latest_version(self, versions, max_version):
         biggest = versions[0]
-        skip_version_check = not max_version
         for version in versions[1:]:
             if (version == self._bigger_version(biggest, version) and \
                 not self._version_greater_or_equal_to_max(version, max_version)):
@@ -597,6 +587,7 @@ class ConvertToTarballs:
         self.not_found = []
         self.all_tarballs = []
         self.all_versions = []
+        self.no_max_version = []
         self.locator = TarballLocator(tarballdir, options.mirrors)
 
     def _create_tarball_node(self, document, node):
@@ -625,6 +616,13 @@ class ConvertToTarballs:
         if cvsroot == None:  # gnome cvs
             cvsroot = 'gnome.org'
 
+        max_version = None
+        revision = None
+        for subnode in node.getElementsByTagName('branch'):
+            # see if it has a 'version' attribute
+            attrs = subnode.attributes
+            if attrs.get('revision') != None:
+                revision = attrs.get('revision').nodeValue
         try:
             name = self.options.translate_name(id)
             baselocation = self.options.get_download_site(cvsroot, name)
@@ -649,6 +647,8 @@ class ConvertToTarballs:
             source_node.setAttribute('href', 'http://somewhere.over.the.rainbow/where/bluebirds/die')
             source_node.setAttribute('size', 'HUGE')
             source_node.setAttribute('md5sum', 'blablablaihavenorealclue')
+        if revision and not max_version:
+            self.no_max_version.append(id)
         return tarball
 
     def _walk(self, oldRoot, newRoot, document):
@@ -678,9 +678,7 @@ class ConvertToTarballs:
                     version = None
 
                     # Now, try to find the 'branch' childNode
-                    for subnode in node.childNodes:
-                        if subnode.nodeName != 'branch':
-                            continue
+                    for subnode in node.getElementsByTagName('branch'):
                         # We're working with the 'branch' childNode;
                         # see if it has a 'version' attribute
                         attrs = subnode.attributes
@@ -802,38 +800,37 @@ class ConvertToTarballs:
               self.not_found.append(module)
 
     def show_ignored(self):
+        if not len(self.ignored): return
+
         print '**************************************************'
-        if len(self.ignored):
-            print 'The following modules were ignored: ',
-            for module in self.ignored:
-                print module,
-            print ''
-        else:
-            print 'No modules were ignored.'
+        print 'The following modules were ignored: '
+        print ' '.join(self.ignored)
 
     def show_unused_whitelist_modules(self):
-        print '**************************************************'
         full_whitelist = []
         for set in self.options.release_set:
             full_whitelist.extend(set)
         unique = sets.Set(full_whitelist) - sets.Set(self.all_tarballs)
-        if len(unique):
-            print 'Unused whitelisted modules: ',
-            for module in unique:
-                print module,
-            print ''
-        else:
-            print "No unused whitelisted modules!"
+
+        if not len(unique): return
+
+        print '**************************************************'
+        print 'Unused whitelisted modules:'
+        print ' '.join(unique)
 
     def show_not_found(self):
+        if not len(self.not_found): return
+
         print '**************************************************'
-        if len(self.not_found):
-            print 'Tarballs were not found for the following modules: ',
-            for module in self.not_found:
-                print module,
-            print ''
-        else:
-            print "Tarballs were found for all non-ignored modules!"
+        print 'Tarballs were not found for the following modules: '
+        print ' '.join(self.not_found)
+
+    def show_missing_max_versions(self):
+        if not len(self.no_max_version): return
+
+        print '**************************************************'
+        print 'The following modules lack a max_version in the tarball-conversion file:'
+        print ', '.join(self.no_max_version)
 
     def create_versions_file(self):
         print '**************************************************'
@@ -941,7 +938,7 @@ def main(args):
     if jhbuild_dir and not options.tarballdir:
         sys.path.insert(0, jhbuild_dir)
         import jhbuild.config
-        setattr(jhbuild.config.Config, 'setup_env', lambda self: None)
+        jhbuild.config.Config.setup_env = lambda self: None
         jhbuild_opts = jhbuild.config.Config(jhbuildrc)
         options.tarballdir = jhbuild_opts.tarballdir
 
@@ -952,6 +949,7 @@ def main(args):
         convert.show_ignored()
         convert.show_unused_whitelist_modules()
         convert.show_not_found()
+        convert.show_missing_max_versions()
         convert.create_versions_file()
     finally:
         convert.cleanup()
