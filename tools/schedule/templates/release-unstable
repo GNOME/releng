@@ -1,0 +1,27 @@
+Hi,
+
+Tarballs are due on Monday October 29th before 23:59 UTC for the GNOME
+2.21.1 Development Release, which will be delivered on Wednesday.
+Modules which were proposed for inclusion should try to follow the 2.21
+schedule so everyone can test them.
+
+Also note that Monday October 29th at 23:59 UTC also marks the deadline
+for new (app) modules proposal. For directions on proposing your module,
+please see:
+   http://live.gnome.org/ReleasePlanning/ModuleProposing
+
+Please make sure that your tarballs will be uploaded before Monday 23:59
+UTC: tarballs uploaded later than that will probably be too late to get
+in 2.21.1. If you are not able to make a tarball before this deadline or
+if you think you'll be late, please send a mail to the release team and
+we'll find someone to roll the tarball for you!
+
+For more informations about 2.21, the full schedule, the official
+module lists and the proposed module lists, please see our colorful 2.21
+page on the wiki:
+   http://live.gnome.org/TwoPointTwentyone
+
+For a quick overview of the GNOME schedule, please see:
+   http://live.gnome.org/Schedule
+
+Thanks,

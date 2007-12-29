@@ -1,0 +1,40 @@
+﻿||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||
+||<-4 rowbgcolor="#dddddd"> '''September''' ||
+||<|2 : #9db8d2> '''0''' ||<: #c5d2c8> September 17 || GNOME 2.20.0 Tarballs Due ||  ||
+||<: #c5d2c8> September 19 || '''GNOME 2.20.0 Final Release!''' ||  ||
+||<-4 rowbgcolor="#dddddd"> '''October''' ||
+||<: #9db8d2> '''2''' ||<: #c5d2c8> October 6-8th || Boston Summit || [http://live.gnome.org/Boston2007] ||
+||<|2 : #9db8d2> '''4''' ||<: #c5d2c8> October 15 || GNOME 2.20.1 Tarballs Due ||  ||
+||<: #c5d2c8> October 17 || GNOME 2.20.1 Stable Release ||  ||
+||<|2 : #9db8d2> '''6''' ||<: #c5d2c8> October 29 || GNOME 2.21.1 Tarballs Due ||<:#e0b6af> End of [wiki:ReleasePlanning/ModuleProposing new (app) modules proposal] period||
+||<: #c5d2c8> October 31 || GNOME 2.21.1 Development Release ||  ||
+||<-4 rowbgcolor="#dddddd"> '''November''' ||
+||<|2 : #9db8d2> '''8''' ||<: #c5d2c8> November 10 || GNOME 2.21.2 Tarballs Due ||  ||
+||<: #c5d2c8> November 12 || GNOME 2.21.2 Development Release ||  ||
+||<|2 : #9db8d2> '''10''' ||<: #c5d2c8> November 26 || GNOME 2.20.2 Tarballs Due ||  ||
+||<: #c5d2c8> November 28 || GNOME 2.20.2 Stable Release ||  ||
+||<-4 rowbgcolor="#dddddd"> '''December''' ||
+||<|2 : #9db8d2> '''11''' ||<: #c5d2c8> December 3 || GNOME 2.21.3 Tarballs Due ||  ||
+||<: #c5d2c8> December 5 || GNOME 2.21.3 Development Release ||  ||
+||<|2 : #9db8d2> '''13''' ||<: #c5d2c8> December 17 || GNOME 2.21.4 Tarballs Due ||<:#e0b6af> String Change Announcement Period: All string changes must be announced to both [http://mail.gnome.org/mailman/listinfo/gnome-i18n gnome-i18n@] and [http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@].[[BR]]UI Change Announcement Period: All user interface changes must be announced to [http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@].[[BR]]Module inclusion discussion heats up.||
+||<: #c5d2c8> December 19 || GNOME 2.21.4 Development Release ||  ||
+||<-4 rowbgcolor="#dddddd"> '''January''' ||
+||<|2 : #9db8d2> '''16''' ||<: #c5d2c8> January 7 || GNOME 2.20.3 Tarballs Due ||<:#e0b6af> [wiki:ReleasePlanning/Freezes API/ABI Freeze] for 2.21.x: developer APIs should be frozen at this point.[[BR]][http://mail.gnome.org/mailman/listinfo/release-team Release Team] meets about new module decisions for 2.22 with community input up to this point. ||
+||<: #c5d2c8> January 9 || GNOME 2.20.3 Stable Release ||  ||
+||<|2 : #9db8d2> '''17''' ||<: #c5d2c8> January 14 || GNOME 2.21.5 Tarballs Due ||<:#e0b6af> [wiki:ReleasePlanning/Freezes Feature and Module Freeze]: new modules and functionality are chosen now.||
+||<: #c5d2c8> January 16 || GNOME 2.21.5 Development Release ||  ||
+||<: #9db8d2> '''18''' ||<: #c5d2c8> January 21 ||  ||<:#e0b6af> [http://live.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df New APIs must be fully documented][[BR]][http://live.gnome.org/ReleaseNotes Writing of release notes begins]||
+||<|2 : #9db8d2> '''19''' ||<: #c5d2c8> January 28 || GNOME 2.21.90 Tarballs Due ||<:#e0b6af> [wiki:ReleasePlanning/Freezes UI Freeze]: No UI changes may be made without approval from the [http://mail.gnome.org/mailman/listinfo/release-team release-team] and notification to the GDP ([http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@])[[BR]]||
+||<: #c5d2c8> January 30 || GNOME 2.22.0 Beta 1 (2.21.90) Release ||  ||
+||<-4 rowbgcolor="#dddddd"> '''February''' ||
+||<|2 : #9db8d2> '''21''' ||<: #c5d2c8> February 11 || GNOME 2.21.91 Tarballs Due ||<:#e0b6af> [wiki:ReleasePlanning/Freezes String Freeze]: no string changes may be made without confirmation from the l10n team ([http://mail.gnome.org/mailman/listinfo/gnome-i18n gnome-i18n@]) and notification to both the release team and the GDP ([http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@]).||
+||<: #c5d2c8> February 13 || GNOME 2.22.0 Beta 2 (2.21.91) Release ||  ||
+||<|2 : #9db8d2> '''23''' ||<: #c5d2c8> February 25 || GNOME 2.21.92 Tarballs Due ||  ||
+||<: #c5d2c8> February 27 || GNOME 2.22.0 Release Candidate2.21.92 ||  ||
+||<-4 rowbgcolor="#dddddd"> '''March''' ||
+||<: #9db8d2> '''24''' ||<: #c5d2c8> March 3 ||  ||<:#e0b6af> [wiki:ReleasePlanning/Freezes Hard Code Freeze]: no source code changes can be made without approval from the [http://mail.gnome.org/mailman/listinfo/release-team release-team]. Translation and documentation can continue.||
+||<|2 : #9db8d2> '''25''' ||<: #c5d2c8> March 10 || GNOME 2.22.0 Tarballs Due ||<:#e0b6af> Hard Code Freeze ends, but other freezes remain in effect for the stable branch.||
+||<: #c5d2c8> March 12 || '''GNOME 2.22.0 Final Release!''' ||  ||
+||<-4 rowbgcolor="#dddddd"> '''April''' ||
+||<|2 : #9db8d2> '''29''' ||<: #c5d2c8> April 7 || GNOME 2.22.1 Tarballs Due ||  ||
+||<: #c5d2c8> April 9 || GNOME 2.22.1 Stable Release ||  ||

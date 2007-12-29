@@ -1,3 +1,17 @@
+2007-12-30  Olav Vitters  <olav@bkor.dhs.org>
+
+	* schedule/2.22.schedule:
+	* schedule/automail.py:
+	* schedule/2.22.wiki:
+	* schedule/ical.py:
+	* schedule/test.wiki:
+	* schedule/wiki.py:
+	* schedule/libschedule.py:
+	* schedule/templates:
+	* schedule/templates/release-unstable:
+
+	Add vuntz schedule scripts to SVN so I can properly hack it into submission.
+
 2007-12-28  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Warn when there is a revision
