@@ -1,4 +1,7 @@
-YearWeek:200738
+yearweek:200738
+stable:2.20
+unstable:2.21
+newstable:2.22
 -2:modules:proposals-start
 0:release:stable.0
 4:release:stable.1

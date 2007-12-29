@@ -4,15 +4,21 @@ import datetime
 import re
 
 class GnomeReleaseEvent:
-    def __init__ (self, date, week, category, detail):
+    def __init__ (self, date, week, category, detail, version=None):
         self.date = date
         self.rel_week = week
         self.category = category
         self.category_index = ["release", "freeze", "modules", "misc"].index (category)
         self.detail = detail
+        self.version = version
 
     def __str__(self):
-        return "<%s: %s %s %s>" % (self.__class__, self.date, self.category, self.detail)
+        v = self.version
+        if v is None:
+            v = ''
+        else:
+            v = ' ' + v
+        return "<%s: %s %s %s%s>" % (self.__class__, self.date, self.category, self.detail, v)
 
     def __cmp__ (self, other):
         if self.date < other.date:
@@ -28,14 +34,12 @@ def find_date (year, week):
     return found
 
 def parse_file (filename):
-    yearweek_re = re.compile ("^YearWeek:(\d{4})(\d{2})$")
-    item_re = re.compile ("^(-?\d{1,2}):([^:]*):([^:]*)$")
-
     file = open (filename, 'r')
     lines = file.readlines ()
     file.close ()
 
     events = []
+    definitions = {}
     start = None
 
     for line in lines:
@@ -43,30 +47,38 @@ def parse_file (filename):
         if line[0] == "#" or len (line) == 1:
             continue
 
-        match = yearweek_re.match (line)
-        if match:
-            if start:
-                print "Error: more than one start date specified"
-                return None
-            year = int (match.group (1))
-            week = int (match.group (2))
-            if year < 2007 or year > 2015:
-                print "Error: %s is not a valid year for the start date" % year
-                return None
-            if week > 54:
-                print "Error: %s is not a valid week for the start date" % week
-                return None
-            start = find_date (year, week)
-            continue
+        if not ':' in line:
+            print "Error: line '%s' is not parsable" % line[0:-1]
+            return None
 
-        match = item_re.match (line[0:-1])
-        if match:
-            if not start:
-                print "Error: no start date specified before line '%s'" % line[0:-1]
+        info = [item.lower().strip() for item in line.split(':')]
+
+        if len(info) == 2:
+            if info[0] == 'yearweek':
+                if start:
+                    print "Error: more than one start date specified"
+                    return None
+
+                year = int(info[1][:4])
+                week = int(info[1][-2:])
+                if year < 2007 or year > 2015:
+                    print "Error: %s is not a valid year for the start date" % year
+                    return None
+                if week > 54:
+                    print "Error: %s is not a valid week for the start date" % week
+                    return None
+                start = find_date (year, week)
+            else:
+                definitions[info[0]] = info[1]
+            continue
+        elif len(info) == 3:
+            if not start or 'unstable' not in definitions or 'stable' not in definitions:
+                print "Error: Need yearweek, stable and unstable definitions before line '%s'" % line[0:-1]
                 return None
-            week = int (match.group (1))
-            category = match.group (2)
-            event = match.group (3)
+
+            week = int(info[0])
+            category = info[1]
+            event = info[2]
             if week < -10 or week > 40:
                 print "Error: %s is not a valid week for an event" % week
                 return None
@@ -74,12 +86,23 @@ def parse_file (filename):
                 print "Error: %s is not a valid category for an event" % category
                 return None
             date = start + datetime.timedelta (week * 7)
-            rel_event = GnomeReleaseEvent (date, week, category, event)
+
+            # Expand event info
+            version = None
+            if category == 'release' and '.' in event:
+                i = event.split('.', 1)
+                if not '.' in i[1]:
+                    event = i[0]
+                    i[0] = definitions.get(i[0], definitions['unstable'])
+                    version = '.'.join(i)
+            if category == 'release' and version is None:
+                print "Error: line '%s' is not parsable" % line[0:-1]
+                return None
+
+            rel_event = GnomeReleaseEvent (date, week, category, event, version)
             events.append (rel_event)
             continue
 
-        print "Error: line '%s' is not parsable" % line[0:-1]
-        return None
 
     if not start:
         print "Error: empty data file"
