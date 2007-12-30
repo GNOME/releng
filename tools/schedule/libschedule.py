@@ -8,17 +8,25 @@ class GnomeReleaseEvent:
         self.date = date
         self.rel_week = week
         self.category = category
-        self.category_index = ["release", "freeze", "modules", "misc"].index (category)
+        self.category_index = ["release", "tarball", "freeze", "modules", "misc"].index (category)
         self.detail = detail
         self.version = version
 
-    def __str__(self):
+    def __repr__(self):
         v = self.version
         if v is None:
             v = ''
         else:
             v = ' ' + v
         return "<%s: %s %s %s%s>" % (self.__class__, self.date, self.category, self.detail, v)
+
+    def wiki_text(self):
+        if self.category == 'release':
+            return 'GNOME %s %s release' % (self.version, self.detail)
+        elif self.category == 'tarball':
+            return 'GNOME %s %s tarballs due' % (self.version, self.detail)
+        else:
+            return `self`
 
     def __cmp__ (self, other):
         if self.date < other.date:
@@ -98,6 +106,11 @@ def parse_file (filename):
             if category == 'release' and version is None:
                 print "Error: line '%s' is not parsable" % line[0:-1]
                 return None
+
+            if category == 'release':
+                rel_event = GnomeReleaseEvent (date, week, 'tarball', event, version)
+                events.append (rel_event)
+                date = date + datetime.timedelta(2)
 
             rel_event = GnomeReleaseEvent (date, week, category, event, version)
             events.append (rel_event)

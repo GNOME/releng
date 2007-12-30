@@ -1,5 +1,14 @@
 2007-12-30  Olav Vitters  <olav@bkor.dhs.org>
 
+	* schedule/libschedule.py: Add new category, 'tarball'. Pretend every
+	time there is a 'release' that it is an tarball due event and the
+	actual release is two days later. Further, add a wiki_text method to
+	return appropriate text for the wiki layout.
+	* schedule/wiki.py: Totally rewrite this thing. Doesn't complete work
+	mostly due to wiki_text not giving a good text representation.
+
+2007-12-30  Olav Vitters  <olav@bkor.dhs.org>
+
 	* schedule/libschedule.py: Change the schedule format to be a bit more
 	'free'. Further, add version information to the file.
 	* schedule/2.22.schedule: Update schedule per code changes.
