@@ -24,17 +24,20 @@ for month, events_month in itertools.groupby(events, by_month):
 
         dates = list([(key, list(items)) for key, items in itertools.groupby(events, by_date)])
 
-        print "||<|%d : #9db8d2> '''%d''' " % (len (dates), rel_week_str),
+        print "||<|%d ^ : #9db8d2> '''%d''' " % (len (dates), rel_week_str),
         for date, items in dates:
             date_str = items[0].date.strftime("%b %d")
-            print "||<: #c5d2c8> %s" % date_str,
+            print "||<^ : #c5d2c8> %s" % date_str,
 
 
             task_items = [item for item in items if item.category in cat_task]
             note_items = [item for item in items if item.category not in cat_task]
 
             print "|| ", "[[BR]]".join([i.wiki_text() for i in task_items]),
-            print "|| ", "[[BR]]".join([i.wiki_text() for i in note_items]),
+            if len(note_items):
+                print "||<:#e0b6af> ", "[[BR]]".join([i.wiki_text() for i in note_items]),
+            else:
+                print "|| ",
 
             print "||"
 

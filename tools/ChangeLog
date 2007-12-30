@@ -1,5 +1,12 @@
 2007-12-30  Olav Vitters  <olav@bkor.dhs.org>
 
+	* schedule/libschedule.py: Add wiki_text function which gives a wiki
+	text representation of a specific event.
+	* schedule/wiki.py: Add colouring for notes. Vertically align dates
+	and week numbers to the top.
+
+2007-12-30  Olav Vitters  <olav@bkor.dhs.org>
+
 	* schedule/libschedule.py: Add new category, 'tarball'. Pretend every
 	time there is a 'release' that it is an tarball due event and the
 	actual release is two days later. Further, add a wiki_text method to

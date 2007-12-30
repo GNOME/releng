@@ -2,6 +2,7 @@
 
 import datetime
 import re
+import string
 
 class GnomeReleaseEvent:
     def __init__ (self, date, week, category, detail, version=None):
@@ -11,6 +12,34 @@ class GnomeReleaseEvent:
         self.category_index = ["release", "tarball", "freeze", "modules", "misc"].index (category)
         self.detail = detail
         self.version = version
+        self.wiki_predefined_text = {
+                'tarball': 'GNOME $version $detail tarballs due',
+                'modules': {
+                    'proposals-start': 'Start of [wiki:ReleasePlanning/ModuleProposing new (app) modules proposal] period',
+                    'proposals-end': 'End of [wiki:ReleasePlanning/ModuleProposing new (app) modules proposal] period',
+                    'discussion': 'Module inclusion discussion heats up.',
+                    'decision': '[http://mail.gnome.org/mailman/listinfo/release-team Release Team] meets about new module decisions for 2.22 with community input up to this point.'
+                },
+                'release': 'GNOME $version $detail release',
+                'freeze': {
+                    'string-announcement': 'String Change Announcement Period: All string changes must be announced to both [http://mail.gnome.org/mailman/listinfo/gnome-i18n gnome-i18n@] and [http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@].',
+                    'ui-announcement': 'UI Change Announcement Period: All user interface changes must be announced to [http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@].',
+                    'api': '[wiki:ReleasePlanning/Freezes API/ABI Freeze] for 2.21.x: developer APIs should be frozen at this point.',
+                    'feature': '[wiki:ReleasePlanning/Freezes Feature and Module Freeze]: new modules and functionality are chosen now.',
+                    'ui': '[wiki:ReleasePlanning/Freezes UI Freeze]: No UI changes may be made without approval from the [http://mail.gnome.org/mailman/listinfo/release-team release-team] and notification to the GDP ([http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@])',
+                    'string': '[wiki:ReleasePlanning/Freezes String Freeze]: no string changes may be made without confirmation from the l10n team ([http://mail.gnome.org/mailman/listinfo/gnome-i18n gnome-i18n@]) and notification to both the release team and the GDP ([http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@]).',
+                    'hard-code': '[wiki:ReleasePlanning/Freezes Hard Code Freeze]: no source code changes can be made without approval from the [http://mail.gnome.org/mailman/listinfo/release-team release-team]. Translation and documentation can continue.',
+                    'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.'
+                },
+                'misc': {
+                    'api-doc': '[http://live.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df New APIs must be fully documented]',
+                    'release-notes-start': '[http://live.gnome.org/ReleaseNotes Writing of release notes begins]'
+                }
+        }
+
+    def __getitem__(self, item):
+        """Allows the GnomeReleaseEvent class to be used in a string.Template"""
+        return getattr(self, item)
 
     def __repr__(self):
         v = self.version
@@ -21,12 +50,21 @@ class GnomeReleaseEvent:
         return "<%s: %s %s %s%s>" % (self.__class__, self.date, self.category, self.detail, v)
 
     def wiki_text(self):
-        if self.category == 'release':
-            return 'GNOME %s %s release' % (self.version, self.detail)
-        elif self.category == 'tarball':
-            return 'GNOME %s %s tarballs due' % (self.version, self.detail)
-        else:
+        text = None
+
+        predef = self.wiki_predefined_text.get(self.category, None)
+        if type(predef) == dict:
+            text = predef.get(self.detail)
+        elif type(predef) == str:
+            text = predef
+
+        if text is not None and '$' in text:
+            text = string.Template(text).safe_substitute(self)
+
+        if text is None:
             return `self`
+        else:
+            return text
 
     def __cmp__ (self, other):
         if self.date < other.date:
