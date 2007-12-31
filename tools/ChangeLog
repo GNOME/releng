@@ -1,3 +1,14 @@
+2007-12-31  Olav Vitters  <olav@bkor.dhs.org>
+
+	* schedule/libschedule.py: Add summary and description functions to
+	GnomeReleaseEvent. Summary is a quick overview for usage in e.g. the
+	subject of an email. Description provides full information about an
+	event. E.g. that the tarballs should be released before 23:59 UTC,
+	etc. The description texts need more work.
+	* schedule/ical.py: Initial attempt at making an ical file. The alarms
+	don't work with Evolution yet. This requires the 'vobject' and
+	'dateutils' Python modules.
+
 2007-12-30  Olav Vitters  <olav@bkor.dhs.org>
 
 	* schedule/libschedule.py: Add wiki_text function which gives a wiki

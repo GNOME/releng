@@ -12,7 +12,7 @@ class GnomeReleaseEvent:
         self.category_index = ["release", "tarball", "freeze", "modules", "misc"].index (category)
         self.detail = detail
         self.version = version
-        self.wiki_predefined_text = {
+        self.wiki_template = {
                 'tarball': 'GNOME $version $detail tarballs due',
                 'modules': {
                     'proposals-start': 'Start of [wiki:ReleasePlanning/ModuleProposing new (app) modules proposal] period',
@@ -36,6 +36,81 @@ class GnomeReleaseEvent:
                     'release-notes-start': '[http://live.gnome.org/ReleaseNotes Writing of release notes begins]'
                 }
         }
+        self.summary_template = {
+                'tarball': 'GNOME $version $detail tarballs due',
+                'modules': {
+                    'proposals-start': 'New module proposal start',
+                    'proposals-end': 'New module proposal end',
+                    'discussion': 'Module inclusion discussion heats up',
+                    'decision': 'Release Team decides on new modules'
+                },
+                'release': 'GNOME $version $detail release',
+                'freeze': {
+                    'string-announcement': 'String Change Announcement Period',
+                    'ui-announcement': 'UI Change Announcement Period',
+                    'api': 'API/ABI Freeze',
+                    'feature': 'Feature and Module Freeze',
+                    'ui': 'UI Freeze',
+                    'string': 'String Freeze',
+                    'hard-code': 'Hard Code Freeze',
+                    'hard-code-end': 'Hard Code Freeze ends'
+                },
+                'misc': {
+                    'api-doc': 'New APIs must be fully documented',
+                    'release-notes-start': 'Writing of release notes begins'
+                }
+        }
+        self.description_template = {
+                'tarball': """Tarballs are due on $date before 23:59 UTC for the GNOME
+2.21.1 Development Release, which will be delivered on Wednesday.
+Modules which were proposed for inclusion should try to follow the 2.21
+schedule so everyone can test them.
+
+Please make sure that your tarballs will be uploaded before Monday 23:59
+UTC: tarballs uploaded later than that will probably be too late to get
+in 2.21.1. If you are not able to make a tarball before this deadline or
+if you think you'll be late, please send a mail to the release team and
+we'll find someone to roll the tarball for you!
+
+For more informations about 2.21, the full schedule, the official
+module lists and the proposed module lists, please see our colorful 2.21
+page on the wiki:
+   http://www.gnome.org/start/unstable
+
+For a quick overview of the GNOME schedule, please see:
+   http://live.gnome.org/Schedule""",
+                'modules': {
+                    'proposals-start': 'New module proposal start',
+                    'proposals-end': 'New module proposal end',
+                    'discussion': 'Module inclusion discussion heats up',
+                    'decision': 'Release Team decides on new modules'
+                },
+                'release': 'GNOME $version $detail release',
+                'freeze': {
+                    'string-announcement': 'String Change Announcement Period',
+                    'ui-announcement': 'UI Change Announcement Period',
+                    'api': """No API or ABI changes should be made in the platform libraries. For instance, no new functions, no changed function signatures or struct fields.
+
+This provides a stable development platform for the rest of the schedule.
+
+There should usually be a "Slushy" API/ABI Freeze before the Hard API/ABI Freeze, to encourage developers to think about API problems while they have a chance to correct them.
+
+API freeze is not required for non-platform libraries, but is recommended.""",
+                    'feature': """Desktop and platform release module additions are finalised, major feature additions are listed. No new modules or features will be accepted for this release period. "Feature" should be interpreted as "Functionality" or "Ability". Bug fixes of existing features are not affected.
+
+This allows developers to concentrate on refining the new features instead of adding yet more functionality.""",
+                    'ui': """No UI changes may be made at all without confirmation from the release team and notification to the documentation team.""",
+                    'string': """No string changes may be made without confirmation from the i18n team and notification to release team, translation team, and documentation team.
+From this point, developers can concentrate on stability and bug-fixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots.
+For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check TranslationProject/HandlingStringFreezes. """,
+                    'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
+                    'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
+                },
+                'misc': {
+                    'api-doc': 'New APIs must be fully documented',
+                    'release-notes-start': 'Writing of release notes begins'
+                }
+        }
 
     def __getitem__(self, item):
         """Allows the GnomeReleaseEvent class to be used in a string.Template"""
@@ -50,9 +125,33 @@ class GnomeReleaseEvent:
         return "<%s: %s %s %s%s>" % (self.__class__, self.date, self.category, self.detail, v)
 
     def wiki_text(self):
+        text = self.make_text(self.wiki_template)
+
+        if text is None:
+            return `self`
+        else:
+            return text
+
+    def summary(self):
+        text = self.make_text(self.summary_template)
+
+        if text is None:
+            return `self`
+        else:
+            return text
+
+    def description(self):
+        text = self.make_text(self.description_template)
+
+        if text is None:
+            return ""
+        else:
+            return text
+
+    def make_text(self, template):
         text = None
 
-        predef = self.wiki_predefined_text.get(self.category, None)
+        predef = template.get(self.category, None)
         if type(predef) == dict:
             text = predef.get(self.detail)
         elif type(predef) == str:
@@ -61,10 +160,7 @@ class GnomeReleaseEvent:
         if text is not None and '$' in text:
             text = string.Template(text).safe_substitute(self)
 
-        if text is None:
-            return `self`
-        else:
-            return text
+        return text
 
     def __cmp__ (self, other):
         if self.date < other.date:
