@@ -62,13 +62,13 @@ class GnomeReleaseEvent:
         }
         self.description_template = {
                 'tarball': """Tarballs are due on $date before 23:59 UTC for the GNOME
-2.21.1 Development Release, which will be delivered on Wednesday.
-Modules which were proposed for inclusion should try to follow the 2.21
+$version $detail release, which will be delivered on Wednesday.
+Modules which were proposed for inclusion should try to follow the unstable
 schedule so everyone can test them.
 
 Please make sure that your tarballs will be uploaded before Monday 23:59
 UTC: tarballs uploaded later than that will probably be too late to get
-in 2.21.1. If you are not able to make a tarball before this deadline or
+in $version. If you are not able to make a tarball before this deadline or
 if you think you'll be late, please send a mail to the release team and
 we'll find someone to roll the tarball for you!
 
@@ -102,7 +102,7 @@ This allows developers to concentrate on refining the new features instead of ad
                     'ui': """No UI changes may be made at all without confirmation from the release team and notification to the documentation team.""",
                     'string': """No string changes may be made without confirmation from the i18n team and notification to release team, translation team, and documentation team.
 From this point, developers can concentrate on stability and bug-fixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots.
-For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check TranslationProject/HandlingStringFreezes. """,
+For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check http://live.gnome.org/TranslationProject/HandlingStringFreezes. """,
                     'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
                     'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
                 },

@@ -1,5 +1,12 @@
 2007-12-31  Olav Vitters  <olav@bkor.dhs.org>
 
+	* schedule/automail.py: Make it mail stuff 3 days in advance. This
+	should be tweaked. Further, the descriptions in libschedule need
+	updating.
+	* schedule/libschedule.py: Make some of the descriptions more generic.
+
+2007-12-31  Olav Vitters  <olav@bkor.dhs.org>
+
 	* schedule/libschedule.py: Add summary and description functions to
 	GnomeReleaseEvent. Summary is a quick overview for usage in e.g. the
 	subject of an email. Description provides full information about an
