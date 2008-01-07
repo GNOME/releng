@@ -60,6 +60,7 @@ today_plus3 = today + datetime.timedelta (3)
 
 events_to_email = []
 for event in events:
+    print event
     if event.date == today_plus3:
         events_to_email.append(event)
 

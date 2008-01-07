@@ -1,5 +1,10 @@
 2008-01-07  Olav Vitters  <olav@bkor.dhs.org>
 
+	* schedule/libschedule.py: Sort tarball/release stuff before all other
+	events. Don't understand why it was the other way around.
+
+2008-01-07  Olav Vitters  <olav@bkor.dhs.org>
+
 	* schedule/automail.py: Wrap descriptions using textwrap. Add a common
 	footer to every mail. Don't output anything to stdout.
 	* schedule/libschedule.py: Add custom definitions from the schedule

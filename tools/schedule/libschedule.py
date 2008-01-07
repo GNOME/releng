@@ -164,7 +164,7 @@ For the string freezes explained, and to see which kind of changes are not cover
             return -1
         if self.date > other.date:
             return 1
-        return - (self.category_index - other.category_index)
+        return self.category_index - other.category_index
 
 def find_date (year, week):
     guessed = datetime.date (year, week / 4, 1)
