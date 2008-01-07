@@ -1,3 +1,11 @@
+2008-01-07  Olav Vitters  <olav@bkor.dhs.org>
+
+	* schedule/automail.py: Wrap descriptions using textwrap. Add a common
+	footer to every mail. Don't output anything to stdout.
+	* schedule/libschedule.py: Add custom definitions from the schedule
+	file to the GnomeReleaseEvent (hackish). This allows to replace the
+	hard coded 2.2[012] stuff with 'variables'.
+
 2007-12-31  Olav Vitters  <olav@bkor.dhs.org>
 
 	* schedule/automail.py: Make it mail stuff 3 days in advance. This

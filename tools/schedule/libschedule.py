@@ -5,6 +5,8 @@ import re
 import string
 
 class GnomeReleaseEvent:
+    definitions = {}
+
     def __init__ (self, date, week, category, detail, version=None):
         self.date = date
         self.rel_week = week
@@ -18,13 +20,13 @@ class GnomeReleaseEvent:
                     'proposals-start': 'Start of [wiki:ReleasePlanning/ModuleProposing new (app) modules proposal] period',
                     'proposals-end': 'End of [wiki:ReleasePlanning/ModuleProposing new (app) modules proposal] period',
                     'discussion': 'Module inclusion discussion heats up.',
-                    'decision': '[http://mail.gnome.org/mailman/listinfo/release-team Release Team] meets about new module decisions for 2.22 with community input up to this point.'
+                    'decision': '[http://mail.gnome.org/mailman/listinfo/release-team Release Team] meets about new module decisions for $newstable with community input up to this point.'
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
                     'string-announcement': 'String Change Announcement Period: All string changes must be announced to both [http://mail.gnome.org/mailman/listinfo/gnome-i18n gnome-i18n@] and [http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@].',
                     'ui-announcement': 'UI Change Announcement Period: All user interface changes must be announced to [http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@].',
-                    'api': '[wiki:ReleasePlanning/Freezes API/ABI Freeze] for 2.21.x: developer APIs should be frozen at this point.',
+                    'api': '[wiki:ReleasePlanning/Freezes API/ABI Freeze] for $unstable.x: developer APIs should be frozen at this point.',
                     'feature': '[wiki:ReleasePlanning/Freezes Feature and Module Freeze]: new modules and functionality are chosen now.',
                     'ui': '[wiki:ReleasePlanning/Freezes UI Freeze]: No UI changes may be made without approval from the [http://mail.gnome.org/mailman/listinfo/release-team release-team] and notification to the GDP ([http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@])',
                     'string': '[wiki:ReleasePlanning/Freezes String Freeze]: no string changes may be made without confirmation from the l10n team ([http://mail.gnome.org/mailman/listinfo/gnome-i18n gnome-i18n@]) and notification to both the release team and the GDP ([http://mail.gnome.org/mailman/listinfo/gnome-doc-list gnome-doc-list@]).',
@@ -70,15 +72,7 @@ Please make sure that your tarballs will be uploaded before Monday 23:59
 UTC: tarballs uploaded later than that will probably be too late to get
 in $version. If you are not able to make a tarball before this deadline or
 if you think you'll be late, please send a mail to the release team and
-we'll find someone to roll the tarball for you!
-
-For more informations about 2.21, the full schedule, the official
-module lists and the proposed module lists, please see our colorful 2.21
-page on the wiki:
-   http://www.gnome.org/start/unstable
-
-For a quick overview of the GNOME schedule, please see:
-   http://live.gnome.org/Schedule""",
+we'll find someone to roll the tarball for you!""",
                 'modules': {
                     'proposals-start': 'New module proposal start',
                     'proposals-end': 'New module proposal end',
@@ -114,7 +108,10 @@ For the string freezes explained, and to see which kind of changes are not cover
 
     def __getitem__(self, item):
         """Allows the GnomeReleaseEvent class to be used in a string.Template"""
-        return getattr(self, item)
+        if hasattr(self, item):
+            return getattr(self, item)
+        else:
+            return GnomeReleaseEvent.definitions[item]
 
     def __repr__(self):
         v = self.version
@@ -181,8 +178,9 @@ def parse_file (filename):
     file.close ()
 
     events = []
-    definitions = {}
     start = None
+
+    definitions = GnomeReleaseEvent.definitions
 
     for line in lines:
         # ignore comments & empty lines
