@@ -1,5 +1,11 @@
 2008-01-09  Elijah Newren  <newren gmail com>
 
+	* smoketesting/convert-to-tarballs.py:
+	Use gnome-suites-%d-%d.modules, not gnome-%d-%d.modules.  The latter
+	contains extra cruft unrelated to releases.
+
+2008-01-09  Elijah Newren  <newren gmail com>
+
 	* smoketesting/tarball-conversion-stable.config:
 	* smoketesting/sample-tarball-stable.jhbuildrc:
 	* versions-stable:
