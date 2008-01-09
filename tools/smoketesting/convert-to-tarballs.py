@@ -912,7 +912,7 @@ def main(args):
 
     moduleset = None
     if len(args):
-        moduleset = os.path.split(args[-1])
+        moduleset = args[-1]
     elif jhbuild_dir:
         # Determine file_location from jhbuild checkoutdir
         if is_stable:
