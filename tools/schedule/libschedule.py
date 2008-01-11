@@ -3,6 +3,9 @@
 import datetime
 import re
 import string
+import os
+import os.path
+import sys
 
 class GnomeReleaseEvent:
     definitions = {}
@@ -173,7 +176,10 @@ def find_date (year, week):
     return found
 
 def parse_file (filename):
-    file = open (filename, 'r')
+    try:
+        file = open(filename, 'r')
+    except IOError:
+        file = open(os.path.join(os.path.abspath(sys.path[0] or os.curdir), filename), 'r')
     lines = file.readlines ()
     file.close ()
 

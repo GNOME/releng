@@ -1,3 +1,8 @@
+2008-01-11  Olav Vitters  <olav@bkor.dhs.org>
+
+	* schedule/libschedule.py: Look for the schedule file first in cwd,
+	then in the directory of the py files. Ensures cron job will work.
+
 2008-01-09  Elijah Newren  <newren gmail com>
 
 	* smoketesting/convert-to-tarballs.py:
