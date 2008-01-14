@@ -1,3 +1,8 @@
+2008-01-15  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/tarball-conversion.config: Add new modules and their
+	accepted dependencies.
+
 2008-01-11  Olav Vitters  <olav@bkor.dhs.org>
 
 	* schedule/libschedule.py: Look for the schedule file first in cwd,
