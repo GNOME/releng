@@ -1,3 +1,8 @@
+2008-01-16  Martyn Russell  <martyn@imendio.com>
+	
+	* tools/maintainer/*: Added the maintainer script to be homed on
+	GNOME's	servers rather than Imendio's servers. 
+	
 2007-08-15  Olav Vitters  <olav@bkor.dhs.org>
 
 	* tools/install-module: Trigger GNOME library to rebuild.

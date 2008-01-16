@@ -1,0 +1,72 @@
+2008-01-16  Martyn Russell  <martyn@imendio.com>
+
+	* Release 0.7.
+
+2007-06-19  Martyn Russell  <martyn@imendio.com>
+
+	* Makefile: Make it install to $HOME/bin, make it possible to
+	uninstall too.
+	
+	* maintainer.py: Now extract the new information from the NEWS
+	file and use it in the release note. Patch from Xavier Claessens. 
+
+2007-06-19  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Add support for tagging automatically and make
+	releasing on master.gnome.org work without prompting the user,
+	patch from Xavier Claessens.
+
+2007-05-30  Martyn Russell  <martyn@imendio.com>
+
+	* Release 0.6.
+	
+2007-05-30  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Add support for creating an release email.
+
+2007-05-25  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Added a patch from Lucas Rocha to include manual
+	translator credits in the release note that is generated.
+
+2007-05-25  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Bumped version to 0.6 and also added a patch from
+	Xavier Claessens which gets the project website and installs the
+	uploaded tarball.
+
+2007-05-24  Martyn Russell  <martyn@imendio.com>
+
+	* announcer.py: Added for debian releases to Nokia.
+
+2007-04-30  Martyn Russell  <martyn@imendio.com>
+
+	* Release 0.5.
+
+2007-04-30  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Bumped version to 0.5.
+
+2007-03-04  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Updated the function that gets the product
+	description so you don't have to be logged into bugzilla to get it.
+
+2006-12-31  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Fixed things so they work with the new move to
+	subversion that GNOME just undertook. Bumped version to 0.4.
+
+2006-12-08  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: Fixed function to get bugzilla product from the bug
+	report variable.
+
+2006-11-11  Richard Hult  <richard@imendio.com>
+
+	* maintainer.py: Use the full bugzilla link for bug reporting.
+
+2006-11-09  Martyn Russell  <martyn@imendio.com>
+
+	* maintainer.py: First addition to repository.
+
