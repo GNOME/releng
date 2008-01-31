@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+# vim: ft=perl
 # -*- Mode: perl; indent-tabs-mode: nil; c-basic-offset: 2  -*-
 
 # Perl script to create a ChangeLog entry with names of files
@@ -6,8 +7,9 @@
 #
 # Darin Adler <darin@eazel.com>, started 20 April 2000
 # Java support added by Maciej Stachowiak <mjs@eazel.com>
-# Multiple ChangeLog support added by Laszlo (Laca) Peter <laca@sun.com>
-# last updated 23 May 2006
+# last updated 28 December 2000
+# Fernando Herrera added Subversion support
+# Sven Herzberg added Git support
 #
 # (Someone put a license in here, like maybe GPL.)
 #
@@ -24,6 +26,8 @@
 #   Handle C++ and yacc source files too (other languages?).
 #   Help merge when there are ChangeLog conflicts or if there's
 #     already a partly written ChangeLog entry.
+#   Find appropriate ChangeLog to edit for each changed file
+#     instead of always using ChangeLog in current directory.
 #   Add command line option to put the ChangeLog into a separate
 #     file or just spew it out stdout.
 #   Figure out how to allow -z options from .cvsrc to work without
@@ -44,36 +48,51 @@ use strict;
 
 use English;
 use Text::Wrap;
-use File::Basename;
+use File::Temp qw/ tempfile /;
 
-# Check for cvs or svn system
+# Check for cvs, svn or git system
 my $command;
-if (-e ".svn/entries")
+if (-e "CVS/Root")
+  {
+    $command = "cvs";
+  }
+elsif (-d ".svn")
   {
     $command = "svn";
   }
-elsif (-e "CVS/Root")
+elsif (-d ".git")
   {
-    $command = "cvs";
+    $command = "git";
   }
 else
   {
     die "There is not known revision system.\n"
   }
 
-# Update the change log file.
-sub update_change_log ($) {
-    my $logname = shift;
-    if ($command eq "cvs") {
-        print STDERR "  Updating $logname from cvs repository.\n";
-        open ERRORS, "cvs update $logname |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
-    } else {
-        print STDERR "  Updating $logname from svn repository.\n";
-        open ERRORS, "svn update $logname |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
-    }
-    print STDERR "    $ARG" while <ERRORS>;
-    close ERRORS;
-}
+# Read the old change log file.
+# It's less efficient to read the whole thing into memory than it would be
+# to read it while we prepend to it later, but I like doing this part first.
+if ($command eq "cvs")
+  {
+     print STDERR "  Updating ChangeLog from cvs repository.\n";
+     open ERRORS, "cvs update ChangeLog |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
+  }
+elsif ($command eq "svn")
+  {
+     print STDERR "  Updating ChangeLog from svn repository.\n";
+     open ERRORS, "svn update ChangeLog |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
+  }
+else
+  {
+    print STDERR "  Not updating ChangeLog from git repository.\n";
+    #open ERRORS, "svn update ChangeLog |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
+    open ERRORS, "true |";
+  }
+print STDERR "    $ARG" while <ERRORS>;
+close ERRORS;
+open OLD_CHANGE_LOG, "ChangeLog" or die "Could not open ChangeLog file: $OS_ERROR.\n";
+my @old_change_log = <OLD_CHANGE_LOG>;
+close OLD_CHANGE_LOG;
 
 # For each file, build a list of modified lines.
 # Use line numbers from the "after" side of each diff.
@@ -84,18 +103,32 @@ if ($command eq "cvs")
     print STDERR "  Running cvs diff to find changes.\n";
     open DIFF, "cvs -fq diff -N |" or die "The cvs diff failed: $OS_ERROR.\n";
   }
-else
+elsif ($command eq "svn")
   {
     print STDERR "  Running svn diff to find changes.\n";
-    open DIFF, "svn --non-interactive diff --diff-cmd diff -x \"-b\" |" or die "The cvs diff failed: $OS_ERROR.\n";
+    open DIFF, "svn --non-interactive diff --diff-cmd diff -x \"-b\" |" or die "The svn diff failed: $OS_ERROR.\n";
+  }
+else
+  {
+    my ($tmphandle,$tmpname) = tempfile (UNLINK => 1);
+    print STDERR "  Running git diff to find changes.\n";
+    print $tmphandle <<EOF;
+#!/bin/bash
+echo "Index: \$1"
+echo "==================================================================="
+diff -b \$1 \$2 || true
+EOF
+    close $tmphandle or die "Failed closing the script file: $OS_ERROR.\n";
+    chmod (0700, $tmpname);
+    open DIFF, "GIT_EXTERNAL_DIFF='$tmpname' git diff |" or die "The git diff failed: $OS_ERROR.\n";
   }
 
 while (<DIFF>)
   {
     $file = $1 if /^Index: (\S+)$/;
-    my $basename = basename ($file);
+
     if (defined $file
-        and $basename ne "ChangeLog"
+        and $file ne "ChangeLog"
         and (/^\d+(,\d+)?[acd](\d+)(,(\d+))?/ or /^Binary files/) )
       {
         push @{$changed_line_ranges{$file}}, [ $2, $4 || $2 ];
@@ -160,25 +193,7 @@ foreach my $file (keys %changed_line_ranges)
   }
 
 # Write out a new ChangeLog file.
-print STDERR "  Finding ChangeLog files:\n";
-my %changelogs;
-foreach my $file (sort keys %function_lists) {
-    $file = dirname ($file);
-    while ($file ne '.' and $file ne '/') {
-        if (-f "$file/ChangeLog") {
-            $changelogs{"./$file"} = 1;
-            last;
-        }
-        $file = dirname ($file);
-    }
-}
-$changelogs{'.'} = 1;
-
-foreach my $chl (reverse sort keys %changelogs) {
-    print STDERR "\t${chl}/ChangeLog\n";
-}
-
-print STDERR "  Editing the ChangeLog file(s).\n";
+print STDERR "  Editing the ChangeLog file.\n";
 my $date = sprintf "%d-%02d-%02d",
   1900 + (localtime $BASETIME)[5], # year
   1 + (localtime $BASETIME)[4], # month
@@ -189,38 +204,23 @@ my $name = $ENV{CHANGE_LOG_NAME}
   || "set REAL_NAME environment variable";
 my $email_address = $ENV{CHANGE_LOG_EMAIL_ADDRESS}
   || $ENV{EMAIL_ADDRESS}
-  || ((getlogin || getpwuid($<)) . "@" . `hostname`)
   || "set EMAIL_ADDRESS environment variable";
-chomp($email_address);
-foreach my $chlog (reverse sort keys %changelogs) {
-    update_change_log ("$chlog/ChangeLog");
-    # It's less efficient to read the whole thing into memory than it would be
-    # to read it while we prepend to it later, but I like doing this part first.
-    open OLD_CHANGE_LOG, "${chlog}/ChangeLog" or die "Could not open ChangeLog file: $OS_ERROR.\n";
-    my @old_change_log = <OLD_CHANGE_LOG>;
-    close OLD_CHANGE_LOG;
-    open CHANGE_LOG, "> ${chlog}/ChangeLog" or die "Could not write ChangeLog\n.";
-    print CHANGE_LOG "$date  $name  <$email_address>\n\n";
-    print CHANGE_LOG "\treviewed by: <delete if not using a buddy>\n\n";
-    foreach my $file (sort keys %function_lists) {
-        my $fname = "./$file";
-        if ($fname =~ /^${chlog}\//) {
-            $fname =~ s/^${chlog}\///;
-            my $lines = wrap("\t", "\t", "XX$fname:$function_lists{$file}");
-            $lines =~ s/^\tXX/\t* /;
-            print CHANGE_LOG "$lines\n";
-            delete ($function_lists{$file});
-        }
-    }
-    print CHANGE_LOG "\n", @old_change_log;
-    close CHANGE_LOG;
-    
-    # Done.
-    print STDERR "  Done editing ${chlog}/ChangeLog.\n";
-    last if not (keys %function_lists);
-}
+open CHANGE_LOG, "> ChangeLog" or die "Could not write ChangeLog\n.";
+print CHANGE_LOG "$date  $name  <$email_address>\n\n";
+print CHANGE_LOG "\treviewed by: <delete if not using a buddy>\n\n";
+foreach my $file (sort keys %function_lists)
+  {
+    my $lines = wrap("\t", "\t", "XX$file:$function_lists{$file}");
+    $lines =~ s/^\tXX/\t* /;
+    print CHANGE_LOG "$lines\n";
+  }
+print CHANGE_LOG "\n", @old_change_log;
+close CHANGE_LOG;
 
+# Done.
+print STDERR "  Done editing ChangeLog.\n";
 exit;
+
 
 
 sub get_function_line_ranges
