@@ -844,6 +844,7 @@ class ConvertToTarballs:
                 subdirs = {}
                 for module in modules_sorted:
                     try:
+                        real_module = self.options.get_real_name(module)
                         index = self.all_tarballs.index(module)
                         version = self.all_versions[index]
                         subdir = self.options.get_subdir(module)
@@ -851,10 +852,10 @@ class ConvertToTarballs:
                             if not subdirs.has_key(subdir):
                                 subdirs[subdir] = []
                             subdirs[subdir].append ('%s:%s:%s:%s\n' %
-                                     (release_set, module, version, subdir))
+                                     (release_set, real_module, version, subdir))
                         else:
                             versions.write('%s:%s:%s:\n' %
-                                           (release_set, module, version))
+                                           (release_set, real_module, version))
                     except:
                         print 'No version found for %s' % module
                 subdirs_keys = subdirs.keys()

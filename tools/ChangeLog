@@ -1,5 +1,10 @@
 2008-01-31  Olav Vitters  <olav@bkor.dhs.org>
 
+	* smoketesting/convert-to-tarballs.py: Ensure gtksourceview-1.0 is
+	written to the versions file as gtksourceview (no '-1.0').
+
+2008-01-31  Olav Vitters  <olav@bkor.dhs.org>
+
 	* smoketesting/tarball-conversion.config: Move libxml2 and libxslt to
 	external dependency.
 
