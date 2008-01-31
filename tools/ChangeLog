@@ -1,6 +1,17 @@
 2008-01-30  Elijah Newren  <newren gmail com>
 
 	* versions:
+	Another update for GNOME 2.21.90.
+
+	libxml2 and libxslt shouldn't be in versions anymore; they're now
+	external deps.  swfdec-gnome-0.5 was pulling from freedesktop.org,
+	and we need ftp.gnome.org tarballs for releases (so I had to
+	update to late released tarball).  And there's no such thing as
+	"gtksourceview-1.0".
+
+2008-01-30  Elijah Newren  <newren gmail com>
+
+	* versions:
 	* smoketesting/sample-tarball.jhbuildrc:
 	Update for GNOME 2.21.90
 

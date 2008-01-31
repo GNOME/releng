@@ -21,8 +21,6 @@ platform:libglade:2.6.2:
 platform:libgnome:2.21.90:
 platform:libgnomecanvas:2.20.1.1:
 platform:libgnomeui:2.21.90:
-platform:libxml2:2.6.31:
-platform:libxslt:1.1.22:
 platform:pango:1.19.3:
 
 ## DESKTOP
@@ -82,7 +80,7 @@ desktop:gstreamer:0.10.16:
 desktop:gtk-engines:2.13.4:
 desktop:gtkhtml:3.17.90.1:
 desktop:gtksourceview:2.1.0:
-desktop:gtksourceview-1.0:1.8.5:
+desktop:gtksourceview:1.8.5:
 desktop:gucharmap:2.21.5:
 desktop:gvfs:0.1.6:
 desktop:libgail-gnome:1.20.0:
@@ -103,7 +101,7 @@ desktop:orca:2.21.90:
 desktop:pygtksourceview:2.1.0:
 desktop:seahorse:2.21.91:
 desktop:sound-juicer:2.21.2:
-desktop:swfdec-gnome:0.5.5:
+desktop:swfdec-gnome:2.21.90:
 desktop:tomboy:0.9.5:
 desktop:totem:2.21.90:
 desktop:totem-pl-parser:2.21.91:
