@@ -1,3 +1,9 @@
+2008-01-30  Elijah Newren  <newren gmail com>
+
+	* versions:
+	* smoketesting/sample-tarball.jhbuildrc:
+	Update for GNOME 2.21.90
+
 2008-01-15  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/tarball-conversion.config: Add new modules and their
