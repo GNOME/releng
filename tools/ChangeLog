@@ -1,3 +1,8 @@
+2008-01-31  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/tarball-conversion.config: Move libxml2 and libxslt to
+	external dependency.
+
 2008-01-30  Elijah Newren  <newren gmail com>
 
 	* versions:
