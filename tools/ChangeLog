@@ -1,3 +1,7 @@
+2008-02-02  Sven Herzberg  <sven@imendio.com>
+
+	* tools/prepare-ChangeLog.pl: fix execution warnings
+
 2008-02-02  Sven Herzberg  <herzi@gnome-de.org>
 
 	* prepare-ChangeLog.pl: after chatting with rob we realized that we

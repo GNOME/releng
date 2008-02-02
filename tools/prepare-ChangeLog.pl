@@ -113,15 +113,12 @@ else
     my ($tmphandle,$tmpname) = tempfile (UNLINK => 1);
     print STDERR "  Running git diff to find changes.\n";
     my @args = ("git-diff", "--cached", "--quiet");
+    my $cached = "HEAD";
     my $reference = ""; # our reference for diffing; HEAD or --cached
     system (@args);
     if ($? >> 8)
       {
 	$cached = "--cached";
-      }
-    else
-      {
-	$cached = "HEAD";
       }
     print $tmphandle <<EOF;
 #!/bin/bash
