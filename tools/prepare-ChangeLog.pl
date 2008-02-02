@@ -112,15 +112,26 @@ else
   {
     my ($tmphandle,$tmpname) = tempfile (UNLINK => 1);
     print STDERR "  Running git diff to find changes.\n";
+    my @args = ("git-diff", "--cached", "--quiet");
+    my $reference = ""; # our reference for diffing; HEAD or --cached
+    system (@args);
+    if ($? >> 8)
+      {
+	$cached = "--cached";
+      }
+    else
+      {
+	$cached = "HEAD";
+      }
     print $tmphandle <<EOF;
 #!/bin/bash
 echo "Index: \$1"
 echo "==================================================================="
-diff -b \$1 \$2 || true
+diff -b \$2 \$5 || true
 EOF
     close $tmphandle or die "Failed closing the script file: $OS_ERROR.\n";
     chmod (0700, $tmpname);
-    open DIFF, "GIT_EXTERNAL_DIFF='$tmpname' git diff |" or die "The git diff failed: $OS_ERROR.\n";
+    open DIFF, "GIT_EXTERNAL_DIFF='$tmpname' git diff $cached |" or die "The git diff failed: $OS_ERROR.\n";
   }
 
 while (<DIFF>)
