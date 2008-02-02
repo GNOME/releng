@@ -60,7 +60,7 @@ elsif (-d ".svn")
   {
     $command = "svn";
   }
-elsif (-d ".git")
+elsif (system ("git-rev-parse --git-dir > /dev/null") >> 8 == 0)
   {
     $command = "git";
   }
