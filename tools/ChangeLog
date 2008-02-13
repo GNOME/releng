@@ -1,3 +1,13 @@
+2008-02-13  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* smoketesting/tarball-conversion.config:
+	Fix location for swfdec-gnome, version for gtkmm and add
+	gnome-sharp-destop.
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions:
+	GNOME 2.21.91 release
+
 2008-02-13  Sven Herzberg  <sven@imendio.com>
 
 	* prepare-ChangeLog.pl: included behdad's changes
