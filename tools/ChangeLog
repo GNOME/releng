@@ -1,3 +1,7 @@
+2008-02-13  Sven Herzberg  <sven@imendio.com>
+
+	* tools/prepare-ChangeLog.pl: re-merged the multiple-changelog support
+
 2008-02-02  Sven Herzberg  <sven@imendio.com>
 
 	* tools/prepare-ChangeLog.pl: recognize git repositories even inside
