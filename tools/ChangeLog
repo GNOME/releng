@@ -1,5 +1,9 @@
 2008-02-13  Frederic Crozat  <fcrozat@mandriva.com>
 
+	* versions: Fix incorrect version for perl-Gnome2 module.
+
+2008-02-13  Frederic Crozat  <fcrozat@mandriva.com>
+
 	* smoketesting/tarball-conversion.config:
 	Fix location for swfdec-gnome, version for gtkmm and add
 	gnome-sharp-destop.
