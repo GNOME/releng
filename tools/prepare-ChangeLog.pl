@@ -10,11 +10,13 @@
 # Multiple ChangeLog support added by Laszlo (Laca) Peter <laca@sun.com>
 # Fernando Herrera added Subversion support
 # Sven Herzberg added Git support
+# Behdad Esfahbod improved the file format
 # last updated 13 February 2007
 #
 # (Someone put a license in here, like maybe GPL.)
 #
 # TODO:
+#   Command line parameter for reviewed-by lines
 #   Provide option to put new ChangeLog into a separate file
 #     instead of editing the ChangeLog.
 #   For new files, just say "New file" instead of listing
@@ -128,12 +130,14 @@ while (<DIFF>)
   {
     $file = $1 if /^Index: (\S+)$/;
 
-    my $basename = basename ($file);
-    if (defined $file
-        and $basename ne "ChangeLog"
-        and (/^\d+(,\d+)?[acd](\d+)(,(\d+))?/ or /^Binary files/) )
+    if (defined $file)
       {
-        push @{$changed_line_ranges{$file}}, [ $2, $4 || $2 ];
+        my $basename = basename ($file);
+        if ($basename ne "ChangeLog"
+            and (/^\d+(,\d+)?[acd](\d+)(,(\d+))?/ or /^Binary files/) )
+          {
+            push @{$changed_line_ranges{$file}}, [ $2, $4 || $2 ];
+          }
       }
   }
 close DIFF;
@@ -191,7 +195,7 @@ foreach my $file (keys %changed_line_ranges)
       }
 
     # Format the list of functions now.
-    $function_lists{$file} = " (" . join("), (", @functions) . "):" if @functions;
+    $function_lists{$file} = " (" . join("), (", @functions) . ")" if @functions;
   }
 
 # Write out a new ChangeLog file.
@@ -220,7 +224,7 @@ my $date = sprintf "%d-%02d-%02d",
   (localtime $BASETIME)[3]; # day within month
 my $name = $ENV{CHANGE_LOG_NAME}
   || $ENV{REAL_NAME}
-  || (getpwuid $REAL_USER_ID)[6]
+  || ((split(",",(getpwuid $REAL_USER_ID)[6]))[0])
   || "set REAL_NAME environment variable";
 my $email_address = $ENV{CHANGE_LOG_EMAIL_ADDRESS}
   || $ENV{EMAIL_ADDRESS}
@@ -241,7 +245,7 @@ foreach my $chlog (reverse sort keys %changelogs) {
         my $fname = "./$file";
         if ($fname =~ /^${chlog}\//) {
             $fname =~ s/^${chlog}\///;
-            my $lines = wrap("\t", "\t", "XX$fname:$function_lists{$file}");
+            my $lines = wrap("\t", "\t", "XX$fname$function_lists{$file}:");
             $lines =~ s/^\tXX/\t* /;
             print CHANGE_LOG "$lines\n";
             delete ($function_lists{$file});
