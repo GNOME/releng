@@ -1,3 +1,11 @@
+2008-02-25  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Limit GDM to 2.20. Use
+	java-gnome for Java bindings (4.0 version).
+	* smoketesting/tarball-conversion.config: Add option to set the config
+	file. Limit tarballs to files with a valid name (not the 'rc1' stuff
+	used in java-gnome).
+
 2008-02-13  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* versions: Fix incorrect version for perl-Gnome2 module.

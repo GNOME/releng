@@ -556,14 +556,12 @@ class TarballLocator:
         # Only include tarballs for the given module
         tarballs = [tarball for tarball in tarballs if modulename in tarball]
 
+        re_tarball = r'^.*[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
         ## Don't include -beta -installer -stub-installer and all kinds of
         ## other stupid inane tarballs
-        #def valid_tarball(x): return re.search(r'([0-9]+\.)*[0-9]+\.tar', x)
-        #tarballs = filter(valid_tarball, tarballs)
+        tarballs = filter(lambda t: re.search(re_tarball, t), tarballs)
 
-        def getversion(x):
-            return re.sub(r'^.*[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$', r'\1', x)
-        versions = map(getversion, tarballs)
+        versions = map(lambda t: re.sub(re_tarball, r'\1', t), tarballs)
 
         if not len(versions):
             raise IOError('No versions found')
@@ -886,6 +884,8 @@ def main(args):
                       help="GNOME version to build")
     parser.add_option("-f", "--force", action="store_true", dest="force",
                       default=False, help="overwrite existing versions and *.modules files")
+    parser.add_option("-c", "--config", dest="config",
+                      help="tarball-conversion config file", metavar="FILE")
 
     if os.path.exists(os.path.join(os.getcwd(), 'tarballs')):
         parser.set_defaults(tarballdir=os.path.join(os.getcwd(), 'tarballs'))
@@ -908,6 +908,8 @@ def main(args):
     else:
         conversion = Options(os.path.join(program_dir, 'tarball-conversion.config'))
         jhbuildrc = os.path.join(program_dir, 'sample-tarball.jhbuildrc')
+    if options.config:
+        conversion = Options(os.path.join(program_dir, options.config))
 
     jhbuild_dir = get_path('jhbuild.in', (os.path.expanduser('~/src/jhbuild'), '/cvs/jhbuild'))
 
