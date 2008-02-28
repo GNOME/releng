@@ -1,3 +1,11 @@
+2008-02-28  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: add limit for gucharmap,
+	metacity and orca, revert the java-gnome change for now since we
+	don't know if 4.0.x is stable
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: 2.21.92 release
+
 2008-02-25  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Limit GDM to 2.20. Use
