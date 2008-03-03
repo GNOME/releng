@@ -56,6 +56,9 @@ script_about = 'A script to do the laborious tasks when releasing a GNOME projec
 po_dir = 'po'
 help_dir = 'help'
 
+# Translator information template
+translator_template = 'Updated $lang: $translator'
+
 # Commands
 vc_command = ''
 vc_parameters = ''
@@ -429,6 +432,48 @@ def get_summary(bugs):
 
         return summary
 
+def get_last_translator(lang, dir):
+      exp = '"Last-Translator: (?P<name>.*?)( *<.*@.*>)?\\\\n"\\n'
+      trans_pattern = re.compile(exp)
+      
+      file = os.path.join (dir, lang + ".po")
+
+      if opts.debug: 
+              print 'Trying to open PO file "%s"....' % (file) 
+
+      try:
+              f = open(file, 'r')
+      except IOError, (errno, strerror):
+              # If this fails, we try to use the 'dir/lang/lang.po' for help PO files
+              file = os.path.join (dir, lang, lang + ".po")
+
+              if opts.debug: 
+                      print 'Trying to open PO file "%s"....' % (file) 
+
+              try:
+                      f = open(file, 'r')
+              except IOError, (errno, strerror):
+                      return ''
+      
+      translator = ''
+
+      line = f.readline()
+      
+      while translator == '' and line != '':
+              match = trans_pattern.match (line)
+              if not match:
+                      line = f.readline()
+                      continue
+
+              translator = match.group ('name')
+
+      if translator != '':
+              translator = translator.strip()
+          
+      f.close()
+
+      return translator
+
 def get_translators(tag, dir):
         get_package_info()
 
@@ -458,8 +503,8 @@ def get_translators(tag, dir):
         changelog_pattern = re.compile(exp, re.S | re.M)
 
         # Pattern to match language and sponsored name for change, e.g.: 
-        # "en_GB.po: Updated by (Martyn Russell)"
-        exp = '.*\* (.*/)?(?P<lang>.*).po: (.*\((?P<name>.*)\))?'
+        # "en_GB.po: Updated by Martyn Russell"
+        exp = '.*\* (.*/)?(?P<lang>.*).po: ((.*) by (?P<name>[^.]*)\.?)?'
         lang_pattern = re.compile(exp, re.S | re.M)
 
         if opts.debug:
@@ -493,6 +538,7 @@ def get_translators(tag, dir):
                 match = changelog_pattern.match(line)
 		if match:
 			last_committer = match.group('name')	
+                        date = match.group('date')
 			continue
 
 		# Get bug fix details
@@ -506,13 +552,32 @@ def get_translators(tag, dir):
 		if lang == '':
 			continue
 		
+                # Get last translator from .po file
+                last_translator = get_last_translator (lang, dir)
+                
+                if opts.debug:
+                        print 'Found lang "%s" with last translator "%s"' % (lang, last_translator) 
+                
+                if last_translator != '':
+                        if translators.has_key (lang):
+                                if translators[lang].find (last_translator) == -1:
+                                        translators[lang] += ', ' + last_translator
+                                else:
+                                        translators[lang] = last_translator
+		
 		if name == None:	
 			name = last_committer.strip()
+
+                        if opts.debug:
+                                print 'Found lang "%s" with last committer "%s" on "%s"' % (lang, name, date) 
 		else:
 			name = name.replace('\n', '')
 			name = name.replace('\t', '')
 			name = name.replace('+', ' ')
 			name = name.strip()
+
+                        if opts.debug:
+                                print 'Found lang "%s" with last committer "%s" **' % (lang, name) 
 
                 if translators.has_key(lang):
                         if translators[lang].find(name) > -1:
@@ -527,12 +592,15 @@ def get_translators(tag, dir):
 	if opts.html:
 		summary += '<ul>'
 	
-        for lang in translators:
+        sorted_langs = translators.keys ()
+        sorted_langs.sort ()
+
+        for lang in sorted_langs:
                 if len(summary) > 0:
                         summary += '\n'
 
-                text = 'Updated %s: %s' % (lang, translators[lang])
-
+                t = Template(translator_template)
+                text = t.substitute (translator = translators[lang], lang = lang)
 		if opts.html:
 			summary += '<li>%s</li>' % (text)
 		else: 

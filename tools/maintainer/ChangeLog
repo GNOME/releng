@@ -1,3 +1,13 @@
+2008-03-03  Martyn Russell  <martyn@imendio.com>
+
+	* Makefile: Include install location in usage help.
+	
+	* maintainer.py: Patch from Claudio Saavedra to improve translator
+	information, now the list is sorted, is templatable, uses a more
+	common regular expression for committing with names of people that
+	have contributed and includes the last translator information from
+	the PO file.
+
 2008-01-16  Martyn Russell  <martyn@imendio.com>
 
 	* Release 0.7.

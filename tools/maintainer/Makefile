@@ -1,5 +1,5 @@
 all:
-	@echo "Use make install or make uninstall"
+	@echo "Use make install or make uninstall (to/from '$(HOME)/bin')"
 
 scripts = maintainer.py announcer.py
 
