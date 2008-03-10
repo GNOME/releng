@@ -1,3 +1,10 @@
+2008-03-10  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* smoketesting/tarball-conversion-stable.config: update for 2.22.0.
+	Hopefully, it's right :-)
+	* smoketesting/tarball-conversion.config: reorder stuff a bit
+
 2008-02-28  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: add limit for gucharmap,
