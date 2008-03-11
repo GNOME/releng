@@ -1,3 +1,8 @@
+2008-03-11  Vincent Untz  <vuntz@gnome.org>
+
+	* versions-stable: updated for 2.22.0. Committing it now so it doesn't
+	get lost somewhere... There might still be one or two updates.
+
 2008-03-11  Olav Vitters  <olav@bkor.dhs.org>
 
 	* smoketesting/convert-to-tarballs.py: Add --versions-only command
