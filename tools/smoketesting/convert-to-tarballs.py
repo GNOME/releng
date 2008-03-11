@@ -277,10 +277,11 @@ class urllister(SGMLParser):
             self.urls.extend(href)
 
 class TarballLocator:
-    def __init__(self, tarballdir, mirrors):
+    def __init__(self, tarballdir, mirrors, determine_stats=True):
         self.tarballdir = tarballdir
         self.urlopen = urllib2.build_opener()
         self.have_sftp = self._test_sftp()
+        self.get_stats = determine_stats
         self.cache = {}
         for key in mirrors.keys():
             mirror = mirrors[key]
@@ -571,22 +572,29 @@ class TarballLocator:
         location = posixjoin(location, tarballs[index])
         if mirror: # XXX - doesn't undo everything -- not needed
             location = location.replace(mirror[1], mirror[0], 1)
-        md5sum, size = self._get_tarball_stats(location, tarballs[index])
+
+        # Only get tarball stats if we're not in a hurry
+        if self.get_stats:
+            md5sum, size = self._get_tarball_stats(location, tarballs[index])
+        else:
+            md5sum = 'blablablaihavenorealclue'
+            size = 'HUGE'
         return location, version, md5sum, size
 
 class ConvertToTarballs:
-    def __init__(self, tarballdir, version, sourcedir, options, force):
+    def __init__(self, tarballdir, version, sourcedir, options, force, versions_only):
         self.tarballdir = tarballdir
         self.version = version
         self.sourcedir = sourcedir
         self.options = options
         self.force = force
+        self.versions_only = versions_only
         self.ignored = []
         self.not_found = []
         self.all_tarballs = []
         self.all_versions = []
         self.no_max_version = []
-        self.locator = TarballLocator(tarballdir, options.mirrors)
+        self.locator = TarballLocator(tarballdir, options.mirrors, not versions_only)
 
     def _create_tarball_node(self, document, node):
         tarball = document.createElement('tarball')
@@ -740,13 +748,13 @@ class ConvertToTarballs:
                          r'\1-' + self.version + r'\2',
                          input_filename)
 
-        if (os.path.isfile(newname)):
+        if not self.versions_only and os.path.isfile(newname):
             if self.force:
                 os.unlink(newname)
             else:
                 sys.stderr.write('Cannot proceed; would overwrite '+newname+'\n')
                 sys.exit(1)
-        if (os.path.isfile('versions')):
+        if os.path.isfile('versions'):
             if self.force:
                 os.unlink('versions')
             else:
@@ -763,8 +771,9 @@ class ConvertToTarballs:
 
         self._walk(oldRoot, newRoot, new_document)
 
-        newfile = file(newname, 'w+')
-        new_document.writexml(newfile, "", "  ", '\n')
+        if not self.versions_only:
+            newfile = file(newname, 'w+')
+            new_document.writexml(newfile, "", "  ", '\n')
 
         old_document.unlink()
         new_document.unlink()
@@ -886,6 +895,8 @@ def main(args):
                       default=False, help="overwrite existing versions and *.modules files")
     parser.add_option("-c", "--config", dest="config",
                       help="tarball-conversion config file", metavar="FILE")
+    parser.add_option("-o", "--versions-only", action="store_true", dest="versions_only",
+                      default=False, help="only create a versions file, without downloading the tarballs")
 
     if os.path.exists(os.path.join(os.getcwd(), 'tarballs')):
         parser.set_defaults(tarballdir=os.path.join(os.getcwd(), 'tarballs'))
@@ -894,6 +905,13 @@ def main(args):
 
     if not options.version:
         parser.print_help()
+        sys.exit(1)
+
+    if options.versions_only and not options.tarballdir:
+        options.tarballdir = os.getcwd()
+
+    if not options.tarballdir:
+        sys.stderr.write("ERROR: destination directory of tarballs is not defined\n")
         sys.exit(1)
 
     splitted_version = options.version.split(".")
@@ -945,7 +963,7 @@ def main(args):
         jhbuild_opts = jhbuild.config.Config(jhbuildrc)
         options.tarballdir = jhbuild_opts.tarballdir
 
-    convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force)
+    convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force, options.versions_only)
     try:
         convert.fix_file(filename)
         convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings

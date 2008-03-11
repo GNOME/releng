@@ -1,3 +1,10 @@
+2008-03-11  Olav Vitters  <olav@bkor.dhs.org>
+
+	* smoketesting/convert-to-tarballs.py: Add --versions-only command
+	line option. Mostly hacked together by Vincent Untz. Needs some
+	restructuring to make it less hacky. Basically: first get the latest
+	versions, then do another pass for md5+size.
+
 2008-03-10  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
