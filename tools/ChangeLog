@@ -1,5 +1,9 @@
 2008-03-12  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/tarball-conversion.config: update for 2.23.x
+
+2008-03-12  Vincent Untz  <vuntz@gnome.org>
+
 	* versions-stable: update sabayon for 2.22.0
 
 2008-03-11  Vincent Untz  <vuntz@gnome.org>
