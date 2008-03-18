@@ -172,8 +172,6 @@ class Options:
                 if new.startswith('file://'):
                     if not node.attributes.get('host') or node.attributes.get('host').nodeValue != socket.getfqdn():
                         continue
-                else:
-                    host = None
                 u = urlparse.urlparse(old)
                 # Only add the mirror if we don't have one or if it's a local
                 # mirror (in which case we replace what we had before)
@@ -285,11 +283,12 @@ class urllister(SGMLParser):
             self.urls.extend(href)
 
 class TarballLocator:
-    def __init__(self, tarballdir, mirrors, determine_stats=True):
+    def __init__(self, tarballdir, mirrors, determine_stats=True, local_only=False):
         self.tarballdir = tarballdir
         self.urlopen = urllib2.build_opener()
         self.have_sftp = self._test_sftp()
         self.get_stats = determine_stats
+        self.local_only = local_only
         self.cache = {}
         for key in mirrors.keys():
             mirror = mirrors[key]
@@ -564,6 +563,9 @@ class TarballLocator:
             baselocation = baselocation.replace(mirror[0], mirror[1], 1)
             u = urlparse.urlparse(baselocation)
 
+        if u.scheme != 'file' and self.local_only:
+            return 'http://somewhere.in.france/', '', 'blablablaihavenorealclue', 'HUGE'
+
         # Determine which function handles the actual retrieving
         locator = getattr(self, '_get_files_from_%s' % u.scheme, None)
         if locator is None:
@@ -609,7 +611,7 @@ class TarballLocator:
         return location, version, md5sum, size
 
 class ConvertToTarballs:
-    def __init__(self, tarballdir, version, sourcedir, options, force, versions_only):
+    def __init__(self, tarballdir, version, sourcedir, options, force, versions_only, local_only):
         self.tarballdir = tarballdir
         self.version = version
         self.sourcedir = sourcedir
@@ -621,7 +623,7 @@ class ConvertToTarballs:
         self.all_tarballs = []
         self.all_versions = []
         self.no_max_version = []
-        self.locator = TarballLocator(tarballdir, options.mirrors, not versions_only)
+        self.locator = TarballLocator(tarballdir, options.mirrors, not versions_only, local_only)
 
     def _create_tarball_node(self, document, node):
         tarball = document.createElement('tarball')
@@ -924,6 +926,8 @@ def main(args):
                       help="tarball-conversion config file", metavar="FILE")
     parser.add_option("-o", "--versions-only", action="store_true", dest="versions_only",
                       default=False, help="only create a versions file, without downloading the tarballs")
+    parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
+                      default=False, help="only look for files on a local file system")
 
     if os.path.exists(os.path.join(os.getcwd(), 'tarballs')):
         parser.set_defaults(tarballdir=os.path.join(os.getcwd(), 'tarballs'))
@@ -990,7 +994,7 @@ def main(args):
         jhbuild_opts = jhbuild.config.Config(jhbuildrc)
         options.tarballdir = jhbuild_opts.tarballdir
 
-    convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force, options.versions_only)
+    convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force, options.versions_only, options.local_only)
     try:
         convert.fix_file(filename)
         convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings
