@@ -1,5 +1,9 @@
 2008-03-18  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/tarball-conversion.config: add a local mirror here too
+
+2008-03-18  Vincent Untz  <vuntz@gnome.org>
+
 	* smoketesting/convert-to-tarballs.py: add --local-only to be used with
 	the file:// mirror so we don't try to download stuff. Fast fast fast.
 
