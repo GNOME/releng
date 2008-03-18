@@ -169,8 +169,16 @@ class Options:
             if node.nodeName == 'mirror':
                 old = node.attributes.get('location').nodeValue
                 new = node.attributes.get('alternate').nodeValue
+                if new.startswith('file://'):
+                    if not node.attributes.get('host') or node.attributes.get('host').nodeValue != socket.getfqdn():
+                        continue
+                else:
+                    host = None
                 u = urlparse.urlparse(old)
-                self.mirrors[(u.scheme, u.hostname)] = (old, new)
+                # Only add the mirror if we don't have one or if it's a local
+                # mirror (in which case we replace what we had before)
+                if not self.mirrors.has_key((u.scheme, u.hostname)) or u.scheme == 'file':
+                    self.mirrors[(u.scheme, u.hostname)] = (old, new)
             else:
                 sys.stderr.write('Bad mirror node\n')
                 sys.exit(1)
@@ -444,6 +452,25 @@ class TarballLocator:
             else:
                 break
         ftp.quit()
+
+        newloc = list(parsed_url)
+        newloc[2] = path
+        location = urlparse.urlunparse(newloc)
+        return location, files
+
+    def _get_files_from_file(self, parsed_url, max_version):
+        path = parsed_url.path
+        good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
+        def hasdirs(x): return good_dir.search(x)
+        while True:
+            files = os.listdir(path)
+
+            newdirs = filter(hasdirs, files)
+            if newdirs:
+                newdir = self._get_latest_version(newdirs, max_version)
+                path = posixjoin(path, newdir)
+            else:
+                break
 
         newloc = list(parsed_url)
         newloc[2] = path

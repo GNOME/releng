@@ -1,3 +1,11 @@
+2008-03-18  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/convert-to-tarballs.py:
+	* smoketesting/tarball-conversion-stable.config:
+	Add a file:// mirror for download.gnome.org so that we can run the
+	script on window and have super-fast result! That's very very
+	convenient with --versions-only
+
 2008-03-12  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: update for 2.23.x
