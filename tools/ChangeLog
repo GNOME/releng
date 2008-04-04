@@ -1,3 +1,8 @@
+2008-04-04  Olav Vitters  <olav@bkor.dhs.org>
+
+	* schedule/automail.py: Parse 2.24 schedule file.
+	* schedule/wiki.py: Parse 2.24 schedule file.
+
 2008-03-24  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: don't limit gtk+ to 2.13.
