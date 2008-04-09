@@ -1,5 +1,10 @@
 2008-04-09  Vincent Untz  <vuntz@gnome.org>
 
+	* versions: revert
+	* versions-stable: and commit to the right file :-)
+
+2008-04-09  Vincent Untz  <vuntz@gnome.org>
+
 	* versions: fix perl versions
 
 2008-04-09  Vincent Untz  <vuntz@gnome.org>
