@@ -1,3 +1,8 @@
+2008-04-09  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* versions-stable: updated for 2.22.1
+
 2008-04-04  Olav Vitters  <olav@bkor.dhs.org>
 
 	* schedule/automail.py: Parse 2.24 schedule file.
