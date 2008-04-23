@@ -458,11 +458,15 @@ class TarballLocator:
         return location, files
 
     def _get_files_from_file(self, parsed_url, max_version):
+        files = []
         path = parsed_url.path
         good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
         def hasdirs(x): return good_dir.search(x)
         while True:
-            files = os.listdir(path)
+            try:
+                files = os.listdir(path)
+            except OSError:
+                break
 
             newdirs = filter(hasdirs, files)
             if newdirs:

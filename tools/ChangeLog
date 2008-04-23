@@ -1,5 +1,11 @@
 2008-04-23  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/convert-to-tarballs.py: do not "crash" in
+	_get_files_from_file if we try to list the tarballs for a module that
+	never had any release so far. Just ignore it (and warn about it).
+
+2008-04-23  Vincent Untz  <vuntz@gnome.org>
+
 	* smoketesting/tarball-conversion.config: add seahorse-plugins (which
 	was split from seahorse)
 
