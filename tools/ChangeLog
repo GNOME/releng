@@ -1,5 +1,10 @@
 2008-04-23  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/tarball-conversion.config: add seahorse-plugins (which
+	was split from seahorse)
+
+2008-04-23  Vincent Untz  <vuntz@gnome.org>
+
 	* smoketesting/sample-tarball.jhbuildrc:
 	* smoketesting/tarball-conversion.config:
 	* versions: updated for 2.23.1
