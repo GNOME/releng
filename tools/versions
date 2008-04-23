@@ -129,7 +129,7 @@ devtools:gnome-devel-docs:2.22.0:
 bindings:gconfmm:2.22.0:c++
 bindings:glibmm:2.16.2:c++
 bindings:gnome-vfsmm:2.22.0:c++
-bindings:gtkmm:2.13.0:c++
+bindings:gtkmm:2.12.7:c++
 bindings:libglademm:2.6.6:c++
 bindings:libgnomecanvasmm:2.22.0:c++
 bindings:libgnomemm:2.22.0:c++
