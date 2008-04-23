@@ -1,5 +1,9 @@
 2008-04-23  Vincent Untz  <vuntz@gnome.org>
 
+	* versions: fix perl bindings versions
+
+2008-04-23  Vincent Untz  <vuntz@gnome.org>
+
 	* versions: revert gtkmm to 2.12.7 for now. See bug #529496.
 
 2008-04-23  Vincent Untz  <vuntz@gnome.org>
