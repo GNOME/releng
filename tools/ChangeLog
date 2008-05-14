@@ -1,3 +1,8 @@
+2008-05-14  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.23.2
+
 2008-04-23  Vincent Untz  <vuntz@gnome.org>
 
 	* versions: fix perl bindings versions
