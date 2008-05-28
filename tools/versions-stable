@@ -153,7 +153,7 @@ bindings:Glib:1.182:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.043:perl
 bindings:Gnome2-VFS:1.081:perl
-bindings:Gnome2:1.081:perl
+bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.006:perl
 bindings:Gtk2:1.182:perl
 
