@@ -67,7 +67,7 @@ desktop:gnome-sharp:2.20.1:
 desktop:gnome-speech:0.4.19:
 desktop:gnome-system-monitor:2.23.3:
 desktop:gnome-system-tools:2.22.0:
-desktop:gnome-terminal:2.23.3:
+desktop:gnome-terminal:2.23.3.1:
 desktop:gnome-themes:2.23.3:
 desktop:gnome-user-docs:2.22.1:
 desktop:gnome-utils:2.20.0.1:
@@ -106,7 +106,7 @@ desktop:totem:2.23.3:
 desktop:totem-pl-parser:2.23.1:
 desktop:vinagre:2.23.3.1:
 desktop:vino:2.22.2:
-desktop:vte:0.16.13:
+desktop:vte:0.16.14:
 desktop:yelp:2.23.1:
 desktop:zenity:2.23.2:
 
