@@ -22,11 +22,7 @@ Thanks,"""
 def mail_events(events):
     if not len(events): return # sanity check
 
-#    mail = 'release-team@gnome.org'
-    mail = 'fcrozat@mandriva.com'
-#    mail = 'fcrozat@gmail.com'
-
-#    mail = 'devel-announce-list@gnome.org'
+    mail = 'release-team@gnome.org'
 
     subject = ""
     tasks = [event for event in events if event.category in cat_task]

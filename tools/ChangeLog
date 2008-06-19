@@ -1,3 +1,7 @@
+2008-06-19  Vincent Untz  <vuntz@gnome.org>
+
+	* schedule/automail.py: revert accidental commit from Frederic
+
 2008-06-18  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* smoketesting/sample-tarball.jhbuildrc:
