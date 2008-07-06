@@ -1,3 +1,9 @@
+2008-07-06  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* versions-stable:
+	Update for 2.22.3.
+
 2008-06-19  Vincent Untz  <vuntz@gnome.org>
 
 	* schedule/automail.py: revert accidental commit from Frederic
