@@ -52,8 +52,27 @@ use Text::Wrap;
 use File::Basename;
 use File::Temp qw/ tempfile /;
 
+my $item;
+foreach $item (@ARGV)
+  {
+    if ($item eq "--help")
+      {
+        print STDERR "Usage: $0 [arguments]\n";
+        print STDERR "Add an entry to the ChangeLog file with the names of files and functions that\n";
+        print STDERR "have been changed when compared with the latest files from the repository.\n";
+        print STDERR "\n";
+        print STDERR "generic arguments:\n";
+        print STDERR "  --help         Show this output\n";
+        print STDERR "\n";
+        print STDERR "arguments for svn:\n";
+        print STDERR "  <changelist>   The name of a changelist to use when looking for changes.\n";
+        exit;
+      }
+  }
+
 # Check for cvs, svn or git system
 my $command;
+my $changelist;
 if (-e "CVS/Root")
   {
     $command = "cvs";
@@ -61,6 +80,16 @@ if (-e "CVS/Root")
 elsif (-e ".svn/entries")
   {
     $command = "svn";
+    if ($#ARGV == 0) {
+        $changelist = " --changelist $ARGV[0]";
+    }
+    elsif($#ARGV > 0) {
+        die "Only a single argument, the name of a changelist, is allowed for svn repositories."
+    }
+    else
+    {
+        $changelist = "";
+    }
   }
 elsif (system ("git-rev-parse --git-dir > /dev/null") >> 8 == 0)
   {
@@ -101,7 +130,7 @@ if ($command eq "cvs")
 elsif ($command eq "svn")
   {
     print STDERR "  Running svn diff to find changes.\n";
-    open DIFF, "svn --non-interactive diff --diff-cmd diff -x \"-b\" |" or die "The svn diff failed: $OS_ERROR.\n";
+    open DIFF, "svn --non-interactive diff --diff-cmd diff -x \"-b\" $changelist |" or die "The svn diff failed: $OS_ERROR.\n";
   }
 else
   {

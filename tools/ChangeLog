@@ -1,3 +1,10 @@
+2008-07-22  Sven Herzberg  <sven@imendio.com>
+
+	Added Changelist support for svn.
+	Patch by Maurice van der Pot <griffon26@kfk4ever.com>.
+
+	* tools/prepare-ChangeLog.pl: checngelist support and --help output
+
 2008-07-06  Kjartan Maraas  <kmaraas@gnome.org>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
