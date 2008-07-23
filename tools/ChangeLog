@@ -1,3 +1,10 @@
+2008-07-23  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: add pangomm, remove the limit
+	for epiphany since the 2.24 version doesn't use webkit yet.
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.23.5
+
 2008-07-22  Sven Herzberg  <sven@imendio.com>
 
 	Added Changelist support for svn.
