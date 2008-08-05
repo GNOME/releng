@@ -1,3 +1,9 @@
+2008-08-05  Vincent Untz  <vuntz@gnome.org>
+
+	* install-module: improve RSS output, by using CDATA, adding a guid tag
+	and a atom:link tag.
+	Patch by Patryk Zawadzki <patrys@pld-linux.org>
+
 2008-07-23  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: add pangomm, remove the limit
