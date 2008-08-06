@@ -1,3 +1,10 @@
+2008-08-06  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: add empathy (project-hamster
+	will be added later: it's not in jhbuild yet)
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.23.6
+
 2008-08-05  Vincent Untz  <vuntz@gnome.org>
 
 	* install-module: improve RSS output, by using CDATA, adding a guid tag
