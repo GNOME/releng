@@ -1,75 +1,75 @@
 ## PLATFORM
-platform:GConf:2.23.1:
-platform:ORBit2:2.14.13:
+platform:GConf:2.23.2:
+platform:ORBit2:2.14.14:
 platform:at-spi:1.23.6:
 platform:atk:1.23.5:
 platform:audiofile:0.2.6:
 platform:esound:0.2.39:
-platform:glib:2.17.6:
+platform:glib:2.17.7:
 platform:gnome-mime-data:2.18.0:
 platform:gnome-vfs:2.23.0:
 platform:gnome-vfs-monikers:2.15.3:
-platform:gtk+:2.13.6:
+platform:gtk+:2.13.7:
 platform:gtk-doc:1.10:
 platform:intltool:0.40.3:
-platform:libIDL:0.8.10:
+platform:libIDL:0.8.11:
 platform:libart_lgpl:2.3.20:
-platform:libbonobo:2.23.0:
+platform:libbonobo:2.23.1:
 platform:libbonoboui:2.23.5:
-platform:libglade:2.6.2:
-platform:libgnome:2.23.4:
+platform:libglade:2.6.3:
+platform:libgnome:2.23.5:
 platform:libgnomecanvas:2.20.1.1:
-platform:libgnomeui:2.23.4:
-platform:pango:1.21.3:
+platform:libgnomeui:2.23.90:
+platform:pango:1.21.4:
 
 ## DESKTOP
 desktop:alacarte:0.11.5:
-desktop:bug-buddy:2.23.6:
-desktop:cheese:2.23.6:
+desktop:bug-buddy:2.23.90:
+desktop:cheese:2.23.90:
 desktop:dasher:4.9.0:
-desktop:deskbar-applet:2.23.6:
-desktop:eel:2.23.6:
+desktop:deskbar-applet:2.23.90:
+desktop:eel:2.23.90:
 desktop:ekiga:2.0.11:
-desktop:empathy:2.23.6:
-desktop:eog:2.23.6:
-desktop:epiphany:2.23.5:
-desktop:evince:2.23.5:
-desktop:evolution:2.23.6:
-desktop:evolution-data-server:2.23.6:
-desktop:evolution-exchange:2.23.6:
+desktop:empathy:2.23.90:
+desktop:eog:2.23.90:
+desktop:epiphany:2.23.90:
+desktop:evince:2.23.6:
+desktop:evolution:2.23.90:
+desktop:evolution-data-server:2.23.90.1:
+desktop:evolution-exchange:2.23.90:
 desktop:evolution-webcal:2.21.92:
 desktop:fast-user-switch-applet:2.22.0:
-desktop:file-roller:2.23.5:
-desktop:gcalctool:5.23.6:
+desktop:file-roller:2.23.6:
+desktop:gcalctool:5.23.90:
 desktop:gconf-editor:2.22.0:
 desktop:gdm:2.23.2:
-desktop:gedit:2.23.1:
-desktop:gnome-applets:2.23.4:
-desktop:gnome-backgrounds:2.23.0:
-desktop:gnome-control-center:2.23.6:
-desktop:gnome-desktop:2.23.6:
-desktop:gnome-desktop-sharp:2.20.1:
+desktop:gedit:2.23.90:
+desktop:gnome-applets:2.23.90:
+desktop:gnome-backgrounds:2.23.90:
+desktop:gnome-control-center:2.23.90:
+desktop:gnome-desktop:2.23.90:
+desktop:gnome-desktop-sharp:2.23.90:
 desktop:gnome-doc-utils:0.12.2:
-desktop:gnome-games:2.23.6:
-desktop:gnome-icon-theme:2.23.3:
-desktop:gnome-keyring:2.23.6:
+desktop:gnome-games:2.23.90:
+desktop:gnome-icon-theme:2.23.90:
+desktop:gnome-keyring:2.23.90:
 desktop:gnome-mag:0.15.2:
 desktop:gnome-media:2.23.3:
 desktop:gnome-menus:2.23.6:
 desktop:gnome-netstatus:2.12.1:
 desktop:gnome-nettool:2.22.0:
-desktop:gnome-panel:2.23.6:
+desktop:gnome-panel:2.23.90.1:
 desktop:gnome-power-manager:2.23.6:
 desktop:gnome-python-desktop:2.23.0:
 desktop:gnome-screensaver:2.23.3:
-desktop:gnome-session:2.23.6:
-desktop:gnome-settings-daemon:2.23.6:
-desktop:gnome-sharp:2.20.1:
+desktop:gnome-session:2.23.90:
+desktop:gnome-settings-daemon:2.23.90:
+desktop:gnome-sharp:2.23.90:
 desktop:gnome-speech:0.4.21:
-desktop:gnome-system-monitor:2.23.6:
+desktop:gnome-system-monitor:2.23.90:
 desktop:gnome-system-tools:2.22.0:
 desktop:gnome-terminal:2.23.6:
-desktop:gnome-themes:2.23.6:
+desktop:gnome-themes:2.23.90:
 desktop:gnome-user-docs:2.22.1:
 desktop:gnome-utils:2.20.0.1:
 desktop:gnome-volume-manager:2.22.5:
@@ -77,40 +77,39 @@ desktop:gok:1.4.0:
 desktop:gst-plugins-base:0.10.20:
 desktop:gst-plugins-good:0.10.6:
 desktop:gstreamer:0.10.20:
-desktop:gtk-engines:2.15.2:
-desktop:gtkhtml:3.23.6:
-desktop:gtksourceview:2.2.2:
-desktop:gtksourceview:1.8.5:
+desktop:gtk-engines:2.15.3:
+desktop:gtkhtml:3.23.90:
+desktop:gtksourceview:2.3.1:
 desktop:gucharmap:2.23.6:
-desktop:gvfs:0.99.4:
-desktop:hamster-applet:2.23.6:
+desktop:gvfs:0.99.5:
+desktop:hamster-applet:2.23.90:
 desktop:libgail-gnome:1.20.0:
 desktop:libgnomekbd:2.23.2:
 desktop:libgnomeprint:2.18.4:
 desktop:libgnomeprintui:2.18.2:
-desktop:libgtop:2.23.4:
+desktop:libgtop:2.23.90:
 desktop:libgweather:2.23.6:
 desktop:liboobs:2.22.0:
 desktop:librsvg:2.22.2:
 desktop:libsoup:2.23.6:
 desktop:libwnck:2.23.6:
-desktop:metacity:2.23.55:
-desktop:mousetweaks:2.23.6:
-desktop:nautilus:2.23.6.1:
-desktop:nautilus-cd-burner:2.22.1:
-desktop:orca:2.23.6:
-desktop:pygtksourceview:2.2.0:
-desktop:seahorse:2.23.6:
+desktop:metacity:2.23.144:
+desktop:mousetweaks:2.23.90:
+desktop:nautilus:2.23.90:
+desktop:nautilus-cd-burner:2.23.90:
+desktop:orca:2.23.90:
+desktop:pygtksourceview:2.3.0:
+desktop:seahorse:2.23.90:
 desktop:seahorse-plugins:2.23.6:
-desktop:sound-juicer:2.23.1:
+desktop:sound-juicer:2.23.2:
 desktop:swfdec-gnome:2.23.2:
-desktop:tomboy:0.11.1:
+desktop:tomboy:0.11.3:
 desktop:totem:2.23.4:
 desktop:totem-pl-parser:2.23.3:
-desktop:vinagre:2.23.4:
-desktop:vino:2.23.5:
-desktop:vte:0.17.1:
-desktop:yelp:2.23.1:
+desktop:vinagre:2.23.90:
+desktop:vino:2.23.90:
+desktop:vte:0.17.2:
+desktop:yelp:2.23.2:
 desktop:zenity:2.23.3.1:
 
 ## ADMIN
@@ -119,26 +118,26 @@ admin:sabayon:2.22.0:
 
 ## DEVTOOLS
 devtools:accerciser:1.3.6:
-devtools:anjuta:2.5.0:
+devtools:anjuta:2.5.90:
 devtools:devhelp:0.19.1:
-devtools:gdl:0.7.11:
+devtools:gdl:2.23.90:
 devtools:glade3:3.5.2:
-devtools:gnome-build:0.3.0:
+devtools:gnome-build:2.23.90:
 devtools:gnome-devel-docs:2.22.0:
 
 ## BINDINGS
 
 # C++
 bindings:gconfmm:2.22.0:c++
-bindings:glibmm:2.17.1:c++
+bindings:glibmm:2.17.2:c++
 bindings:gnome-vfsmm:2.22.0:c++
-bindings:gtkmm:2.13.6:c++
+bindings:gtkmm:2.13.7:c++
 bindings:libglademm:2.6.6:c++
 bindings:libgnomecanvasmm:2.23.1:c++
 bindings:libgnomemm:2.22.0:c++
 bindings:libgnomeuimm:2.22.0:c++
 bindings:libsigc++:2.2.2:c++
-bindings:libxml++:2.23.2:c++
+bindings:libxml++:2.23.3:c++
 bindings:pangomm:2.13.7:c++
 
 # Java
@@ -149,16 +148,16 @@ bindings:libgnome-java:2.12.7:java
 bindings:libgtk-java:2.10.2:java
 
 # Mono
-bindings:gtk-sharp:2.12.1:mono
+bindings:gtk-sharp:2.12.2:mono
 
 # Perl
-bindings:Glib:1.183:perl
+bindings:Glib:1.191:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.044:perl
 bindings:Gnome2-VFS:1.081:perl
 bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.006:perl
-bindings:Gtk2:1.183:perl
+bindings:Gtk2:1.191:perl
 
 # Python
 bindings:gnome-python:2.22.1:python
