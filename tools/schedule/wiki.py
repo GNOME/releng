@@ -3,7 +3,7 @@
 from libschedule import *
 import itertools
 
-events = parse_file ("2.24.schedule")
+events = parse_file ("2.26.schedule")
 
 print "||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||"
 
@@ -33,9 +33,9 @@ for month, events_month in itertools.groupby(events, by_month):
             task_items = [item for item in items if item.category in cat_task]
             note_items = [item for item in items if item.category not in cat_task]
 
-            print "|| ", "[[BR]]".join([i.wiki_text() for i in task_items]),
+            print "|| ", "<<BR>>".join([i.wiki_text() for i in task_items]),
             if len(note_items):
-                print "||<:#e0b6af> ", "[[BR]]".join([i.wiki_text() for i in note_items]),
+                print "||<:#e0b6af> ", "<<BR>>".join([i.wiki_text() for i in note_items]),
             else:
                 print "|| ",
 

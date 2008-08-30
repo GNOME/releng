@@ -1,5 +1,9 @@
 2008-08-30  Andre Klapper  <a9016009@gmx.de>
 
+	* schedule/wiki.py: Fix wiki markup for line breaks.
+
+2008-08-30  Andre Klapper  <a9016009@gmx.de>
+
 	* schedule/libschedule.py: Fix wiki markup to link correctly.
 
 2008-08-21  Vincent Untz  <vuntz@gnome.org>
