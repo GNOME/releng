@@ -1,3 +1,7 @@
+2008-08-30  Andre Klapper  <a9016009@gmx.de>
+
+	* schedule/libschedule.py: Fix wiki markup to link correctly.
+
 2008-08-21  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: add hamster-applet, remove
