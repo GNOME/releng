@@ -6,7 +6,7 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.23.90'
+moduleset = 'gnome-2.23.91'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -58,9 +58,6 @@ module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 
 # For those that don't have SDL installed and don't have a webcam, uncomment
 # the following line to skip building ekiga
-#
-# opal's configure is braindead, so just skip pwlib, opal, and ekiga for now
-#skip.append('ekiga')
 
 # firefox-1.5.0.6 won't build; firefox-1.5.0.7 doesn't correctly install
 # ssl.h, but the firefox-devel packages (+necessary dependencies) from
@@ -79,9 +76,6 @@ skip.append('mozilla')
 #
 ##os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
 ##os.environ['PYTHONPATH'] = os.path.join(libdir, 'python2.4/site-packages')
-
-# fix opal build (ugly)
-os.environ['PWLIBDIR'] = os.path.join(checkoutroot, 'pwlib-1.10.4')
 
 #set up the mono Global Application Cache prefix to the jhbuild prefix
 os.environ['MONO_GAC_PREFIX'] = prefix

@@ -1,3 +1,9 @@
+2008-09-03  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/tarball-conversion.config:
+	* versions: update for 2.23.91 (including some changes for ekiga)
+
 2008-08-30  Andre Klapper  <a9016009@gmx.de>
 
 	* schedule/wiki.py: Fix wiki markup for line breaks.
