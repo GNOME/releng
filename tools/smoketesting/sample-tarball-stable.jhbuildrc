@@ -96,4 +96,3 @@ skip.append('evolution-exchange')
 # tell it to do so
 addpath('PKG_CONFIG_PATH', os.path.join(system_libdir, 'pkgconfig'))
 addpath('PKG_CONFIG_PATH', '/usr/share/pkgconfig')
-

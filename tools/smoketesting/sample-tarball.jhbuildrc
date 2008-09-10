@@ -16,7 +16,7 @@ modules = [ 'meta-gnome-desktop' ]
 checkoutroot = os.path.join(os.environ['HOME'], 'src', 'tarball-gnome2')
 
 # the prefix to configure/install modules to (must have write access)
-prefix = '/home/mclasen/src/install/tarball-gnome2'
+prefix = '/opt/tarball-gnome2'
 if os.path.exists('/usr/lib64'):
   libdir = os.path.join(prefix, 'lib64')
   system_libdir = '/usr/lib64'
