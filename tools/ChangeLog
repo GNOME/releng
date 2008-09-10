@@ -1,3 +1,9 @@
+2008-09-10  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* smoketesting/tarball-conversion.config:
+	* versions: update for 2.23.92
+
 2008-09-03  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/sample-tarball.jhbuildrc:
