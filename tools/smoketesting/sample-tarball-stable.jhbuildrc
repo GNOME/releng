@@ -95,3 +95,5 @@ skip.append('evolution-exchange')
 # jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
 # tell it to do so
 addpath('PKG_CONFIG_PATH', os.path.join(system_libdir, 'pkgconfig'))
+addpath('PKG_CONFIG_PATH', '/usr/share/pkgconfig')
+

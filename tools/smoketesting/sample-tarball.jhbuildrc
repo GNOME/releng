@@ -16,7 +16,7 @@ modules = [ 'meta-gnome-desktop' ]
 checkoutroot = os.path.join(os.environ['HOME'], 'src', 'tarball-gnome2')
 
 # the prefix to configure/install modules to (must have write access)
-prefix = '/opt/tarball-gnome2'
+prefix = '/home/mclasen/src/install/tarball-gnome2'
 if os.path.exists('/usr/lib64'):
   libdir = os.path.join(prefix, 'lib64')
   system_libdir = '/usr/lib64'
@@ -89,3 +89,4 @@ skip.append('evolution-exchange')
 # jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
 # tell it to do so
 addpath('PKG_CONFIG_PATH', os.path.join(system_libdir, 'pkgconfig'))
+addpath('PKG_CONFIG_PATH', '/usr/share/pkgconfig')
