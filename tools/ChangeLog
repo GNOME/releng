@@ -1,3 +1,7 @@
+2008-09-10  Vincent Untz  <vuntz@gnome.org>
+
+	* versions: update for new *mm stuff. Needed to have the release build.
+
 2008-09 10  Matthias Clasen  <mclasen@redhat.com>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:

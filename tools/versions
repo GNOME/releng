@@ -128,17 +128,17 @@ devtools:gnome-devel-docs:2.23.1:
 ## BINDINGS
 
 # C++
-bindings:gconfmm:2.22.0:c++
+bindings:gconfmm:2.23.1:c++
 bindings:glibmm:2.17.3:c++
 bindings:gnome-vfsmm:2.22.0:c++
-bindings:gtkmm:2.13.7:c++
+bindings:gtkmm:2.13.8:c++
 bindings:libglademm:2.6.6:c++
 bindings:libgnomecanvasmm:2.23.1:c++
 bindings:libgnomemm:2.22.0:c++
 bindings:libgnomeuimm:2.22.0:c++
 bindings:libsigc++:2.2.2:c++
 bindings:libxml++:2.23.3:c++
-bindings:pangomm:2.13.7:c++
+bindings:pangomm:2.13.8:c++
 
 # Java
 bindings:glib-java:0.4.2:java
