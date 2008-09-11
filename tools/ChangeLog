@@ -1,3 +1,13 @@
+2008-09-11  Vincent Untz  <vuntz@gnome.org>
+
+	Add mobile release suite.
+
+	* release_set_scripts/release-suites:
+	* release_set_scripts/simple-diff:
+	* release_set_scripts/simple-news: add mobile with other suites
+	* smoketesting/tarball-conversion.config: add definition for mobile
+	stuff
+
 2008-09-10  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
