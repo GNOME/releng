@@ -1,3 +1,9 @@
+2008-09-17  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: add limit for bug-buddy and
+	glade3. The latter is a big change since we used to release 3.5 but
+	we'll use 3.4 for 2.24.0.
+
 2008-09-11  Vincent Untz  <vuntz@gnome.org>
 
 	Add mobile release suite.
