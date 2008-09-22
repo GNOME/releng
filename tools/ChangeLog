@@ -1,5 +1,10 @@
 2008-09-23  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/tarball-conversion.config: remove limits for 2.25
+	(except glib/gtk+)
+
+2008-09-23  Vincent Untz  <vuntz@gnome.org>
+
 	* smoketesting/sample-tarball-stable.jhbuildrc:
 	* smoketesting/tarball-conversion-stable.config:
 	* smoketesting/tarball-conversion.config: prepare stable data for 2.24
