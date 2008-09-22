@@ -1,3 +1,9 @@
+2008-09-23  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* smoketesting/tarball-conversion-stable.config:
+	* smoketesting/tarball-conversion.config: prepare stable data for 2.24
+
 2008-09-22  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: we'll use devhelp 0.21 for
