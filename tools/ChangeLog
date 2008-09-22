@@ -1,3 +1,8 @@
+2008-09-22  Vincent Untz  <vuntz@gnome.org>
+
+	* tools/smoketesting/tarball-conversion.config: remove
+	fast-user-switch-applet: it's deprecated with the new GDM.
+
 2008-09-17  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: add limit for bug-buddy and
