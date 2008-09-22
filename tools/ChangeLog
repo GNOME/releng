@@ -1,5 +1,10 @@
 2008-09-22  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/tarball-conversion.config: we'll use devhelp 0.21 for
+	2.24.0, so bump the limit
+
+2008-09-22  Vincent Untz  <vuntz@gnome.org>
+
 	* tools/smoketesting/tarball-conversion.config: remove
 	fast-user-switch-applet: it's deprecated with the new GDM.
 
