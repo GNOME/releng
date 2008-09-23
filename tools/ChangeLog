@@ -1,5 +1,11 @@
 2008-09-23  Vincent Untz  <vuntz@gnome.org>
 
+	* smoketesting/tarball-conversion-stable.config: fix anjuta limit,
+	and add a limit for gnome-common
+	* versions-stable: first non-final version for 2.24.0
+
+2008-09-23  Vincent Untz  <vuntz@gnome.org>
+
 	* smoketesting/tarball-conversion.config: remove limits for 2.25
 	(except glib/gtk+)
 
