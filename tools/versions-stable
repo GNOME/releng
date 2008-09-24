@@ -80,7 +80,7 @@ desktop:gtk-engines:2.16.0:
 desktop:gtkhtml:3.24.0:
 desktop:gtksourceview:2.4.0:
 desktop:gucharmap:2.24.0:
-desktop:gvfs:1.0.0:
+desktop:gvfs:1.0.1:
 desktop:hamster-applet:2.24.0:
 desktop:libgail-gnome:1.20.1:
 desktop:libgnomekbd:2.24.0:
@@ -90,7 +90,7 @@ desktop:libgtop:2.24.0:
 desktop:libgweather:2.24.0:
 desktop:liboobs:2.22.0:
 desktop:librsvg:2.22.3:
-desktop:libsoup:2.24.0:
+desktop:libsoup:2.24.0.1:
 desktop:libwnck:2.24.0:
 desktop:metacity:2.24.0:
 desktop:mousetweaks:2.24.0:
