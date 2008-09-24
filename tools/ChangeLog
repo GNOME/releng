@@ -1,5 +1,10 @@
 2008-09-24  Vincent Untz  <vuntz@gnome.org>
 
+	* versions-stable: needed gnome-applets and gnome-control-center
+	2.24.0.1 for two crashers.
+
+2008-09-24  Vincent Untz  <vuntz@gnome.org>
+
 	* versions-stable: should be the final list of versions for 2.24.0.
 
 2008-09-24  Vincent Untz  <vuntz@gnome.org>

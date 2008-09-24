@@ -43,9 +43,9 @@ desktop:gcalctool:5.24.0:
 desktop:gconf-editor:2.24.0.1:
 desktop:gdm:2.24.0:
 desktop:gedit:2.24.0:
-desktop:gnome-applets:2.24.0:
+desktop:gnome-applets:2.24.0.1:
 desktop:gnome-backgrounds:2.24.0:
-desktop:gnome-control-center:2.24.0:
+desktop:gnome-control-center:2.24.0.1:
 desktop:gnome-desktop:2.24.0:
 desktop:gnome-desktop-sharp:2.24.0:
 desktop:gnome-doc-utils:0.14.0:
