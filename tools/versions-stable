@@ -9,7 +9,7 @@ platform:glib:2.18.1:
 platform:gnome-mime-data:2.18.0:
 platform:gnome-vfs:2.24.0:
 platform:gnome-vfs-monikers:2.15.3:
-platform:gtk+:2.14.2:
+platform:gtk+:2.14.3:
 platform:gtk-doc:1.10:
 platform:intltool:0.40.4:
 platform:libIDL:0.8.11:
@@ -32,7 +32,7 @@ desktop:eel:2.24.0:
 desktop:ekiga:3.0.0:
 desktop:empathy:2.24.0:
 desktop:eog:2.24.0:
-desktop:epiphany:2.24.0:
+desktop:epiphany:2.24.0.1:
 desktop:evince:2.24.0:
 desktop:evolution:2.24.0:
 desktop:evolution-data-server:2.24.0:
@@ -40,7 +40,7 @@ desktop:evolution-exchange:2.24.0:
 desktop:evolution-webcal:2.24.0:
 desktop:file-roller:2.24.0:
 desktop:gcalctool:5.24.0:
-desktop:gconf-editor:2.24.0:
+desktop:gconf-editor:2.24.0.1:
 desktop:gdm:2.24.0:
 desktop:gedit:2.24.0:
 desktop:gnome-applets:2.24.0:
@@ -52,15 +52,15 @@ desktop:gnome-doc-utils:0.14.0:
 desktop:gnome-games:2.24.0:
 desktop:gnome-icon-theme:2.24.0:
 desktop:gnome-keyring:2.24.0:
-desktop:gnome-mag:0.15.3:
-desktop:gnome-media:2.24.0:
+desktop:gnome-mag:0.15.4:
+desktop:gnome-media:2.24.0.1:
 desktop:gnome-menus:2.24.0:
 desktop:gnome-netstatus:2.12.2:
 desktop:gnome-nettool:2.22.1:
 desktop:gnome-panel:2.24.0:
 desktop:gnome-power-manager:2.24.0:
 desktop:gnome-python-desktop:2.24.0:
-desktop:gnome-screensaver:2.23.90:
+desktop:gnome-screensaver:2.24.0:
 desktop:gnome-session:2.24.0:
 desktop:gnome-settings-daemon:2.24.0:
 desktop:gnome-sharp:2.24.0:
@@ -71,7 +71,7 @@ desktop:gnome-terminal:2.24.0:
 desktop:gnome-themes:2.24.0:
 desktop:gnome-user-docs:2.24.0:
 desktop:gnome-utils:2.24.0:
-desktop:gnome-volume-manager:2.22.5:
+desktop:gnome-volume-manager:2.24.0:
 desktop:gok:2.24.0:
 desktop:gst-plugins-base:0.10.20:
 desktop:gst-plugins-good:0.10.10:
@@ -95,7 +95,7 @@ desktop:libwnck:2.24.0:
 desktop:metacity:2.24.0:
 desktop:mousetweaks:2.24.0:
 desktop:nautilus:2.24.0:
-desktop:nautilus-cd-burner:2.23.90:
+desktop:nautilus-cd-burner:2.24.0:
 desktop:orca:2.24.0:
 desktop:pygtksourceview:2.4.0:
 desktop:seahorse:2.24.0:
@@ -117,7 +117,7 @@ admin:sabayon:2.22.1:
 
 ## DEVTOOLS
 devtools:accerciser:1.4.0:
-devtools:anjuta:2.24.0:
+devtools:anjuta:2.24.0.1:
 devtools:devhelp:0.21:
 devtools:gdl:2.24.0:
 devtools:glade3:3.4.5:
@@ -147,7 +147,7 @@ bindings:libgnome-java:2.12.7:java
 bindings:libgtk-java:2.10.2:java
 
 # Mono
-bindings:gtk-sharp:2.12.3:mono
+bindings:gtk-sharp:2.12.4:mono
 
 # Perl
 bindings:Glib:1.200:perl
@@ -171,7 +171,7 @@ mobile:evolution-data-server-dbus:2.20.0:
 mobile:glib:2.18.1:
 mobile:gst-plugins-base:0.10.20:
 mobile:gstreamer:0.10.20:
-mobile:gtk+:2.14.2:
+mobile:gtk+:2.14.3:
 mobile:gtk-doc:1.10:
 mobile:intltool:0.40.4:
 mobile:pango:1.22.0:
