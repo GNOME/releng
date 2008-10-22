@@ -1,3 +1,11 @@
+2008-10-22  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* versions-stable: update for 2.24.1
+
+	* smoketesting/tarball-conversion-stable.config:
+	* smoketesting/tarball-conversion.config: remove opencdk (unused)
+
 2008-09-24  Vincent Untz  <vuntz@gnome.org>
 
 	* versions-stable: needed gnome-applets and gnome-control-center
