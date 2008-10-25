@@ -1,3 +1,8 @@
+2008-10-25  Frederic Peters  <fpeters@0d.be>
+
+	* 2.x/2.0rnotes/menuediting.xml: fixed outdated link in 2.0 menu
+	editing notes.  (closes: #551177)
+
 2007-03-13  Lucas Rocha  <lucasr@gnome.org>
 
 	* tools/schedule/2.24.schedule: added missing unstable .6 release.
