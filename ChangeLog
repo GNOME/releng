@@ -1,3 +1,11 @@
+2008-11-03  Murray Cumming  <murrayc@murrayc.com>
+
+	* 2.x/: Moved to the release-notes module.
+	* 1.x/: Removed because it is old and useless.
+	* single_module/:
+	* docs/: Removed because this was moved to live.gnome.org long 
+	ago.
+
 2008-10-25  Frederic Peters  <fpeters@0d.be>
 
 	* 2.x/2.0rnotes/menuediting.xml: fixed outdated link in 2.0 menu
