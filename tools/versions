@@ -150,13 +150,13 @@ bindings:libgtk-java:2.10.2:java
 bindings:gtk-sharp:2.12.5:mono
 
 # Perl
-bindings:Glib:1.200:perl
+bindings:Glib:1.210:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.043:perl
+bindings:Gnome2-GConf:1.044:perl
 bindings:Gnome2-VFS:1.081:perl
-bindings:Gnome2:1.081:perl
+bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.007:perl
-bindings:Gtk2:1.202:perl
+bindings:Gtk2:1.201:perl
 
 # Python
 bindings:gnome-python:2.22.3:python
