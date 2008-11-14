@@ -1,3 +1,8 @@
+2008-11-14  Frederic Peters  <fpeters@gnome.org>
+
+	* mail-maintainers.py, mail-maintainers.blacklisted-modules: added
+	script to send an email to module maintainers
+
 2008-11-06  Vincent Untz  <vuntz@gnome.org>
 
 	* versions: oops, perl updated.
