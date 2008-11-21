@@ -40,9 +40,11 @@
 #   ./mail-maintainers.py -m gnome-utils --force-maintainers=cosimoc \
 #           roadmap-call-to-update.txt
 #
-# Note:
-#   You should run this script on a machine that can connect to
-#   the LDAP server
+# Notes:
+#  + You should run this script on a machine that can connect to
+#    the LDAP server
+#  + You should check that MODULESET_URL points to the current jhbuild
+#    moduleset.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -74,6 +76,7 @@ from string import Template
 
 SENDMAIL = '/usr/sbin/sendmail'
 LDAP_URL = 'ldap://ldap-back'
+MODULESET_URL = 'http://svn.gnome.org/svn/jhbuild/trunk/modulesets/gnome-suites-2.26.modules'
 
 def sendmail(mssg):
     if options.simulate:
@@ -150,8 +153,7 @@ if __name__ == '__main__':
     if options.modules:
         modules = options.modules.split(',')
     else:
-        suites = ET.parse(urllib2.urlopen(
-                    'http://svn.gnome.org/svn/jhbuild/trunk/modulesets/gnome-suites-2.26.modules'))
+        suites = ET.parse(urllib2.urlopen(MODULESET_URL))
         modules = [x.attrib.get('id') for x in suites.getroot().getchildren() \
                    if x.tag not in ('repository', 'metamodule', 'include')]
         if options.blacklist:
