@@ -1,3 +1,8 @@
+2008-11-25  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball-stable.jhbuildrc:
+	* versions-stable: update for 2.24.2
+
 2008-11-21  Vincent Untz  <vuntz@gnome.org>
 
 	* mail-maintainers.py: make the jhbuild moduleset more visible and add
