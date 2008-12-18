@@ -1,3 +1,8 @@
+2008-12-18  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: remove eel from the release
+	sets.
+
 2008-11-26  Vincent Untz  <vuntz@gnome.org>
 
 	* versions-stable: update for ephy 2.24.2.1
