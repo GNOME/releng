@@ -1,3 +1,8 @@
+2008-12-22  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.25.3 (work done by Frederic Peters)
+
 2008-12-18  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: remove eel from the release
