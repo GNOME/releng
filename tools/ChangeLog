@@ -1,3 +1,9 @@
+2008-01-07  Lucas Rocha  <lucasr@gnome.org>
+
+	* smoketesting/tarball-conversion.config: set gtk+ limit to 2.15
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.25.4
+
 2008-12-22  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/sample-tarball.jhbuildrc:
