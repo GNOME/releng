@@ -9,7 +9,7 @@ platform:glib:2.19.4:
 platform:gnome-mime-data:2.18.0:
 platform:gnome-vfs:2.24.0:
 platform:gnome-vfs-monikers:2.15.3:
-platform:gtk+:2.14.6:
+platform:gtk+:2.15.0:
 platform:gtk-doc:1.11:
 platform:intltool:0.40.5:
 platform:libIDL:0.8.12:
@@ -154,10 +154,10 @@ bindings:gtk-sharp:2.12.7:mono
 bindings:Glib:1.210:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.044:perl
-bindings:Gnome2-VFS:1.081:perl
+bindings:Gnome2-VFS:1.042:perl
 bindings:Gnome2:1.081:perl
 bindings:Gtk2-GladeXML:1.007:perl
-bindings:Gtk2:1.202:perl
+bindings:Gtk2:1.201:perl
 
 # Python
 bindings:gnome-python:2.22.3:python
