@@ -1,3 +1,10 @@
+2008-01-21  Lucas Rocha  <lucasr@gnome.org>
+
+	* smoketesting/tarball-conversion.config: add brasero,
+	gnome-user-share and evolution-mapi.
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.25.5
+
 2009-01-09  Frederic Peters  <fpeters@0d.be>
 
 	* smoketesting/tarball-conversion.config: removed GTK+ 2.15 limit.
