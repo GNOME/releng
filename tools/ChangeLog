@@ -1,3 +1,8 @@
+2009-01-31  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: remove gnome-build
+	  (integrated in anjuta)
+
 2008-01-21  Lucas Rocha  <lucasr@gnome.org>
 
 	* smoketesting/tarball-conversion.config: add brasero,
