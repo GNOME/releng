@@ -1,3 +1,9 @@
+2009-02-01  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion.config: remove gnome-volume-manager
+	and nautilus-cd-burner (deprecated now), and move intltool to an
+	external dependency
+
 2009-01-31  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: remove gnome-build
