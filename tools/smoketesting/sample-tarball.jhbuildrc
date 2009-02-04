@@ -6,14 +6,14 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.25.5'
+moduleset = 'gnome-2.25.90'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
 modules = [ 'meta-gnome-desktop' ]
 
 # what directory should the source be checked out to?
-checkoutroot = os.path.join(os.environ['HOME'], 'releases', 'gnome-2.25.5')
+checkoutroot = os.path.join(os.environ['HOME'], 'releases', 'gnome-2.25.90')
 
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')

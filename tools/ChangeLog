@@ -1,3 +1,8 @@
+2009-02-05  Frederic Peters  <fpeters@0d.be>
+
+	* smoketesting/sample-tarball.jhbuildrc:
+	* versions: update for 2.25.90
+
 2009-02-01  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion.config: remove gnome-volume-manager
