@@ -1,3 +1,7 @@
+2009-02-06  Frederic Peters  <fpeters@0d.be>
+
+	* smoketesting/convert-to-tarballs.py: cache md5sum of tarballs
+
 2009-02-05  Frederic Peters  <fpeters@0d.be>
 
 	* smoketesting/sample-tarball.jhbuildrc:

@@ -410,13 +410,17 @@ class TarballLocator:
                     tries -= 1
                     continue
 
-            print 'Untarring archive to check integrity'
-            cmd = ['tar', flags, newfile]
-            retcode = subprocess.call(cmd, stdout=file('/dev/null', 'w'))
-            if retcode:
-                sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
-                tries -= 1
-                continue
+                if os.path.exists(newfile + '.md5sum'):
+                    os.unlink(newfile + '.md5sum')
+
+            if not os.path.exists(newfile + '.md5sum'):
+                print 'Untarring archive to check integrity'
+                cmd = ['tar', flags, newfile]
+                retcode = subprocess.call(cmd, stdout=file('/dev/null', 'w'))
+                if retcode:
+                    sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
+                    tries -= 1
+                    continue
 
             break
         else:
@@ -424,14 +428,18 @@ class TarballLocator:
             return '', ''
 
         size = os.stat(newfile)[6]
-        sum = md5.new()
-        fp = open(newfile, 'rb')
-        data = fp.read(32768)
-        while data:
-            sum.update(data)
+        if not os.path.exists(newfile + '.md5sum'):
+            sum = md5.new()
+            fp = open(newfile, 'rb')
             data = fp.read(32768)
-        fp.close()
-        md5sum = sum.hexdigest()
+            while data:
+                sum.update(data)
+                data = fp.read(32768)
+            fp.close()
+            md5sum = sum.hexdigest()
+            file(newfile + '.md5sum', 'w').write(md5sum)
+        else:
+            md5sum = file(newfile + '.md5sum').read()
         return md5sum, str(size)
 
     def _get_files_from_ftp(self, parsed_url, max_version):
