@@ -1,3 +1,7 @@
+2009-02-18  Frederic Crozat  <fcrozat@mandriva.com>
+
+	* versions: fix version for Gnome2-Canvas
+
 2009-02-19  Frederic Crozat  <fcrozat@mandriva.com>
 
 	* smoketesting/sample-tarball.jhbuildrc:
