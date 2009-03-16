@@ -13,7 +13,7 @@ moduleset = 'gnome-2.25.92'
 modules = [ 'meta-gnome-desktop' ]
 
 # what directory should the source be checked out to?
-checkoutroot = os.path.join(os.environ['HOME'], 'releases', 'gnome-2.25.92')
+checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
