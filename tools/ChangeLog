@@ -1,3 +1,9 @@
+2009-03-17  Vincent Untz  <vuntz@gnome.org>
+
+	* smoketesting/tarball-conversion-stable.config: fix limit for
+	gnome-netstatus, add Pango perl binding (commented out for now)
+	* versions-stable: update for 2.26.0
+
 2009-03-16  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/sample-tarball-stable.jhbuildrc:
