@@ -12,6 +12,7 @@
 # Sven Herzberg added Git support
 # Behdad Esfahbod improved the file format
 # last updated 13 February 2007
+# Luis Medinas added support for git >= 1.6.x
 #
 # (Someone put a license in here, like maybe GPL.)
 #
@@ -91,7 +92,7 @@ elsif (-e ".svn/entries")
         $changelist = "";
     }
   }
-elsif (system ("git-rev-parse --git-dir > /dev/null") >> 8 == 0)
+elsif (system ("git rev-parse --git-dir > /dev/null") >> 8 == 0)
   {
     $command = "git";
   }
@@ -108,11 +109,11 @@ sub update_change_log ($) {
         open ERRORS, "cvs update $logname |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
     } elsif ($command eq "svn") {
         print STDERR "  Updating $logname from svn repository.\n";
-        open ERRORS, "svn update $logname |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
+        open ERRORS, "svn update $logname |" or die "The svn update of ChangeLog failed: $OS_ERROR.\n";
     } else {
-        print STDERR "  Not updating ChangeLog from git repository.\n";
-	#open ERRORS, "svn update ChangeLog |" or die "The cvs update of ChangeLog failed: $OS_ERROR.\n";
-	open ERRORS, "true |";
+        print STDERR "  Updating ChangeLog from git repository.\n";
+	open ERRORS, "git checkout $logname |" or die "The git update of ChangeLog failed: $OS_ERROR.\n";
+	#open ERRORS, "true |";
     }
     print STDERR "    $ARG" while <ERRORS>;
     close ERRORS;
@@ -136,7 +137,7 @@ else
   {
     my ($tmphandle,$tmpname) = tempfile (UNLINK => 1);
     print STDERR "  Running git diff to find changes.\n";
-    my @args = ("git-diff", "--cached", "--quiet");
+    my @args = ("git diff --cached --quiet");
     my $cached = "HEAD";
     my $reference = ""; # our reference for diffing; HEAD or --cached
     system (@args);

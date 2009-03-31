@@ -1,3 +1,9 @@
+2009-03-31  Luis Medinas  <lmedinas@gnome.org>
+
+	* prepare-ChangeLog.pl:
+
+	Add support for git >= 1.6.x on prepare.Changelog script.
+
 2009-03-17  Vincent Untz  <vuntz@gnome.org>
 
 	* smoketesting/tarball-conversion-stable.config: fix limit for
