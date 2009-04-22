@@ -3,7 +3,7 @@
 from libschedule import *
 import itertools
 
-events = parse_file ("2.26.schedule")
+events = parse_file ("2.28.schedule")
 
 print "||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||"
 
