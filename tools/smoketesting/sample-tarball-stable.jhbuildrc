@@ -66,6 +66,8 @@ skip.append('firefox')
 
 # we're better off using the distro packages for mozilla/firefox
 skip.append('mozilla')
+
+# do not build things that the distro can provide
 skip.append('nspr')
 skip.append('nss')
 skip.append('pulseaudio')

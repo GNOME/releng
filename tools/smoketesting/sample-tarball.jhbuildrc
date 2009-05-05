@@ -67,6 +67,11 @@ skip.append('firefox')
 # we're better off using the distro packages for mozilla/firefox
 skip.append('mozilla')
 
+# do not build things that the distro can provide
+skip.append('nspr')
+skip.append('nss')
+skip.append('pulseaudio')
+
 # libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
 # about python.  See
 # http://mail.gnome.org/archives/garnome-list/2005-July/msg00199.html
