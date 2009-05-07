@@ -5,7 +5,7 @@ newstable:2.28
 -2:modules:proposals-start
 0:release:stable.0
 4:release:stable.1
-6:release:unstable.1
+7:release:unstable.1
 9:modules:proposals-end
 9:release:stable.2
 10:release:unstable.2
