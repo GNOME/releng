@@ -1,11 +1,11 @@
 ## PLATFORM
-platform:GConf:2.26.0:
+platform:GConf:2.26.2:
 platform:ORBit2:2.14.17:
 platform:at-spi:1.26.0:
 platform:atk:1.26.0:
 platform:audiofile:0.2.6:
 platform:esound:0.2.41:
-platform:glib:2.20.1:
+platform:glib:2.20.2:
 platform:gnome-mime-data:2.18.0:
 platform:gnome-vfs:2.24.1:
 platform:gnome-vfs-monikers:2.15.3:
@@ -19,37 +19,37 @@ platform:libglade:2.6.4:
 platform:libgnome:2.26.0:
 platform:libgnomecanvas:2.26.0:
 platform:libgnomeui:2.24.1:
-platform:pango:1.24.1:
+platform:pango:1.24.2:
 
 ## DESKTOP
-desktop:alacarte:0.11.10:
-desktop:brasero:2.26.1:
+desktop:alacarte:0.12.1:
+desktop:brasero:2.26.2:
 desktop:bug-buddy:2.26.0:
-desktop:cheese:2.26.0:
-desktop:dasher:4.10.0:
-desktop:deskbar-applet:2.26.1:
-desktop:ekiga:3.2.0:
-desktop:empathy:2.26.1:
-desktop:eog:2.26.1:
-desktop:epiphany:2.26.1:
-desktop:evince:2.26.0:
-desktop:evolution:2.26.1.1:
-desktop:evolution-data-server:2.26.1.1:
-desktop:evolution-exchange:2.26.1:
-desktop:evolution-mapi:0.26.1:
+desktop:cheese:2.26.2:
+desktop:dasher:4.10.1:
+desktop:deskbar-applet:2.26.2:
+desktop:ekiga:3.2.1:
+desktop:empathy:2.26.2:
+desktop:eog:2.26.2:
+desktop:epiphany:2.26.2:
+desktop:evince:2.26.2:
+desktop:evolution:2.26.2:
+desktop:evolution-data-server:2.26.2:
+desktop:evolution-exchange:2.26.2:
+desktop:evolution-mapi:0.27.1:
 desktop:evolution-webcal:2.26.0:
-desktop:file-roller:2.26.1:
-desktop:gcalctool:5.26.1:
+desktop:file-roller:2.26.2:
+desktop:gcalctool:5.26.2:
 desktop:gconf-editor:2.26.0:
 desktop:gdm:2.26.1:
-desktop:gedit:2.26.1:
+desktop:gedit:2.26.2:
 desktop:gnome-applets:2.26.1:
 desktop:gnome-backgrounds:2.24.1:
 desktop:gnome-control-center:2.26.0:
 desktop:gnome-desktop:2.26.1:
 desktop:gnome-desktop-sharp:2.26.0:
 desktop:gnome-doc-utils:0.16.1:
-desktop:gnome-games:2.26.1:
+desktop:gnome-games:2.26.2:
 desktop:gnome-icon-theme:2.26.0:
 desktop:gnome-keyring:2.26.1:
 desktop:gnome-mag:0.15.6:
@@ -58,7 +58,7 @@ desktop:gnome-menus:2.26.1:
 desktop:gnome-netstatus:2.26.0:
 desktop:gnome-nettool:2.26.1:
 desktop:gnome-panel:2.26.1:
-desktop:gnome-power-manager:2.26.0:
+desktop:gnome-power-manager:2.26.1:
 desktop:gnome-python-desktop:2.26.0:
 desktop:gnome-screensaver:2.26.1:
 desktop:gnome-session:2.26.1:
@@ -67,21 +67,21 @@ desktop:gnome-sharp:2.24.1:
 desktop:gnome-speech:0.4.25:
 desktop:gnome-system-monitor:2.26.1:
 desktop:gnome-system-tools:2.22.2:
-desktop:gnome-terminal:2.26.1:
-desktop:gnome-themes:2.26.1:
-desktop:gnome-user-docs:2.26.1:
+desktop:gnome-terminal:2.26.2:
+desktop:gnome-themes:2.26.2:
+desktop:gnome-user-docs:2.26.2:
 desktop:gnome-user-share:2.26.0:
 desktop:gnome-utils:2.26.0:
 desktop:gok:2.26.0:
-desktop:gst-plugins-base:0.10.22:
+desktop:gst-plugins-base:0.10.23:
 desktop:gst-plugins-good:0.10.14:
-desktop:gstreamer:0.10.22:
-desktop:gtk-engines:2.18.1:
-desktop:gtkhtml:3.26.1.1:
-desktop:gtksourceview:2.6.1:
-desktop:gucharmap:2.26.1:
-desktop:gvfs:1.2.2:
-desktop:hamster-applet:2.26.0:
+desktop:gstreamer:0.10.23:
+desktop:gtk-engines:2.18.2:
+desktop:gtkhtml:3.26.2:
+desktop:gtksourceview:2.6.2:
+desktop:gucharmap:2.26.2:
+desktop:gvfs:1.2.3:
+desktop:hamster-applet:2.26.2:
 desktop:libgail-gnome:1.20.1:
 desktop:libgnomekbd:2.26.0:
 desktop:libgnomeprint:2.18.6:
@@ -90,23 +90,23 @@ desktop:libgtop:2.26.1:
 desktop:libgweather:2.26.1:
 desktop:liboobs:2.22.0:
 desktop:librsvg:2.26.0:
-desktop:libsoup:2.26.1:
+desktop:libsoup:2.26.2:
 desktop:libwnck:2.26.1:
 desktop:metacity:2.26.0:
-desktop:mousetweaks:2.26.0:
-desktop:nautilus:2.26.2:
-desktop:orca:2.26.1:
+desktop:mousetweaks:2.26.2:
+desktop:nautilus:2.26.3:
+desktop:orca:2.26.2:
 desktop:pygtksourceview:2.6.0:
 desktop:seahorse:2.26.1:
 desktop:seahorse-plugins:2.26.1:
 desktop:sound-juicer:2.26.1:
 desktop:swfdec-gnome:2.26.0:
-desktop:tomboy:0.14.1:
-desktop:totem:2.26.1:
-desktop:totem-pl-parser:2.26.1:
-desktop:vinagre:2.26.1:
-desktop:vino:2.26.1:
-desktop:vte:0.20.1:
+desktop:tomboy:0.14.2:
+desktop:totem:2.26.2:
+desktop:totem-pl-parser:2.26.2:
+desktop:vinagre:2.26.2:
+desktop:vino:2.26.2:
+desktop:vte:0.20.2:
 desktop:yelp:2.26.0:
 desktop:zenity:2.26.0:
 
@@ -116,11 +116,11 @@ admin:sabayon:2.25.0:
 
 ## DEVTOOLS
 devtools:accerciser:1.6.1:
-devtools:anjuta:2.26.1.0:
+devtools:anjuta:2.26.2.0:
 devtools:devhelp:0.21:
-devtools:gdl:2.26.0:
-devtools:glade3:3.6.1:
-devtools:gnome-devel-docs:2.26.1:
+devtools:gdl:2.26.2:
+devtools:glade3:3.6.3:
+devtools:gnome-devel-docs:2.26.2:
 
 ## BINDINGS
 
@@ -148,13 +148,14 @@ bindings:libgtk-java:2.10.2:java
 bindings:gtk-sharp:2.12.8:mono
 
 # Perl
-bindings:Glib:1.221:perl
+bindings:Glib:1.220:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.043:perl
+bindings:Gnome2-GConf:1.044:perl
 bindings:Gnome2-VFS:1.081:perl
-bindings:Gnome2:1.081:perl
+bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.007:perl
 bindings:Gtk2:1.220:perl
+bindings:Pango:1.220:perl
 
 # Python
 bindings:gnome-python:2.26.1:python
@@ -166,10 +167,10 @@ bindings:pyorbit:2.14.3:python
 mobile:GConf-dbus:2.16.0:
 mobile:atk:1.26.0:
 mobile:evolution-data-server-dbus:2.20.0:
-mobile:glib:2.20.1:
-mobile:gst-plugins-base:0.10.22:
-mobile:gstreamer:0.10.22:
+mobile:glib:2.20.2:
+mobile:gst-plugins-base:0.10.23:
+mobile:gstreamer:0.10.23:
 mobile:gtk+:2.16.1:
 mobile:gtk-doc:1.11:
-mobile:pango:1.24.1:
+mobile:pango:1.24.2:
 
