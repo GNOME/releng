@@ -46,7 +46,7 @@ desktop:gedit:2.26.2:
 desktop:gnome-applets:2.26.1:
 desktop:gnome-backgrounds:2.24.1:
 desktop:gnome-control-center:2.26.0:
-desktop:gnome-desktop:2.26.1:
+desktop:gnome-desktop:2.26.2:
 desktop:gnome-desktop-sharp:2.26.0:
 desktop:gnome-doc-utils:0.16.1:
 desktop:gnome-games:2.26.2:
@@ -57,7 +57,7 @@ desktop:gnome-media:2.26.0:
 desktop:gnome-menus:2.26.1:
 desktop:gnome-netstatus:2.26.0:
 desktop:gnome-nettool:2.26.1:
-desktop:gnome-panel:2.26.1:
+desktop:gnome-panel:2.26.2:
 desktop:gnome-power-manager:2.26.1:
 desktop:gnome-python-desktop:2.26.0:
 desktop:gnome-screensaver:2.26.1:
