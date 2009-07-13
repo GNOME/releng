@@ -221,13 +221,13 @@ fi
 
 
 #
-# Clean up and md5sum release
+# Clean up and sha256sum release
 #
 echo "Checksumming and fixing permissions..."
-MD5SUMFILE=$MODULE-$VERSION.md5sum
+SHA256SUMFILE=$MODULE-$VERSION.sha256sum
 # Create checksum and delete LATEST-IS-* file
 (cd $LOCATION;
-	md5sum *$VERSION.* > $MD5SUMFILE;
+	sha256sum *$VERSION.* > $SHA256SUMFILE;
 	rm -f LATEST-IS-*;
 	ln -s $FILENAME.tar.gz LATEST-IS-$VERSION)
 # Ensure the files are group-owned by ftpadmin
@@ -337,14 +337,12 @@ echo "Informing ftp-release-list..."
  echo "  Uploaded by: $WHO";
  echo;
  echo "$URL.tar.gz";
- echo "  md5sum: $(grep tar.gz$ $LOCATION/$MD5SUMFILE | cut -d ' ' -f 1)";
- echo " sha1sum: $(sha1sum $LOCATION/$FILENAME.tar.gz | cut -d ' ' -f 1)";
- echo "    size: $(du -sh $LOCATION/$FILENAME.tar.gz | cut -f 1)";
+ echo " sha256sum: $(sha256sum $LOCATION/$FILENAME.tar.gz | cut -d ' ' -f 1)";
+ echo "      size: $(du -sh $LOCATION/$FILENAME.tar.gz | cut -f 1)";
  echo;
  echo "$URL.tar.bz2";
- echo "  md5sum: $(grep tar.bz2$ $LOCATION/$MD5SUMFILE | cut -d ' ' -f 1)";
- echo " sha1sum: $(sha1sum $LOCATION/$FILENAME.tar.bz2 | cut -d ' ' -f 1)";
- echo "    size: $(du -sh $LOCATION/$FILENAME.tar.bz2 | cut -f 1)";
+ echo " sha256sum: $(sha256sum $LOCATION/$FILENAME.tar.bz2 | cut -d ' ' -f 1)";
+ echo "      size: $(du -sh $LOCATION/$FILENAME.tar.bz2 | cut -f 1)";
  echo;
  if [ -f $LOCATION/$NEWSFILE ]; then
 	echo "News";
