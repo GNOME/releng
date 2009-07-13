@@ -252,13 +252,12 @@ rm -f $LATESTNEW
 # Regenerate the RSS file
 # Print RSS Header
 echo -n "<?xml version=\"1.0\"?>
-<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\">
+<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">
     <channel>
         <title>GNOME FTP Releases</title>
         <link>http://ftp.gnome.org/pub/GNOME/</link>
-        <atom:link href=\"http://ftp.gnome.org/pub/GNOME/LATEST.xml\" rel=\"self\" type=\"application/rss+xml\" />
         <description>A list of recent files released on GNOME's FTP site</description>
-        <webMaster>webmaster@gnome.org (GNOME webmaster)</webMaster>
+        <webMaster>webmaster@gnome.org</webMaster>
         <lastBuildDate>$(date -R)</lastBuildDate>" > $LATEST.xml
 
 
@@ -284,35 +283,32 @@ cat $LATEST | while read LINE; do
 		<item>
 			<title>$LINE_MODULE $LINE_VERSION</title>
 			<link>$URLROOT/$LINE_TARBALL_LOC/</link>
-			<guid>$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.bz2</guid>
-			<description><![CDATA["
+			<description>"
 
 	if [ -f $FTPROOT/$LINE_MODULE_LOC/$LINE_MODULE.png ]; then
-		echo "<img src=\"$URLROOT/$LINE_MODULE_LOC/$LINE_MODULE.png\" align=\"right\" class=\"right\">"
+		echo "&lt;img src=\"$URLROOT/$LINE_MODULE_LOC/$LINE_MODULE.png\" align=\"right\" class=\"right\"&gt;"
 	fi
 
 	if [ -f $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE ]; then
-			echo "<tt>"
-			# escape all HTML as we don't expect any formatting here
-			sed 's/\&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;s/$/<br/>/' $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE
-			echo "</tt>"
-		LINE_LINKS="$LINE_LINKS <a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE\">News</a>"
+			echo "&lt;tt&gt;"
+		sed 's/\&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;s/$/\&lt;br\&gt;/' $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE
+			echo "&lt;/tt&gt;"
+		LINE_LINKS="$LINE_LINKS &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE\"&gt;News&lt;/a&gt;"
 	fi
 	
 	if [ -f $FTPROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE ]; then
 		if [ ! -f $FTPROOT/$LINE_TARBALL_LOC/$LINE_NEWSFILE ]; then
-			echo "<tt>"
-			# escape all HTML as we don't expect any formatting here
-			sed 's/\&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;s/$/<br/>/' $FTPROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE
-			echo "</tt>"
+			echo "&lt;tt&gt;"
+			sed 's/\&/\&amp;/g;s/</\&lt;/g;s/>/\&gt;/g;s/$/\&lt;br\&gt;/' $FTPROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE
+			echo "&lt;/tt&gt;"
 		fi
-		LINE_LINKS="$LINE_LINKS <a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE\">ChangeLog</a>"
+		LINE_LINKS="$LINE_LINKS &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_CHANGESFILE\"&gt;ChangeLog&lt;/a&gt;"
 	fi
 
-	LINE_LINKS="$LINE_LINKS <a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.gz\">gzip</a> <a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.bz2\">bzip2</a>"
+	LINE_LINKS="$LINE_LINKS &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.gz\"&gt;gzip&lt;/a&gt; &lt;a href=\"$URLROOT/$LINE_TARBALL_LOC/$LINE_FILENAME.bz2\"&gt;bzip2&lt;/a&gt;"
 
-	echo -n	"<p>$(echo $LINE_LINKS | sed 's/> </> \&middot; </g')</p>;
-			]]></description>
+	echo -n	"&lt;p&gt;$(echo $LINE_LINKS | sed 's/\&gt; \&lt;/\&gt; \&amp;middot; \&lt;/g')&lt;/p&gt;
+			</description>
 			<pubDate>$LINE_DATE</pubDate>
 		</item>") >> $LATEST.xml
 #<!-- FIXME <dc:creator>$LINE_WHO</dc:creator> -->
@@ -342,10 +338,12 @@ echo "Informing ftp-release-list..."
  echo;
  echo "$URL.tar.gz";
  echo "  md5sum: $(grep tar.gz$ $LOCATION/$MD5SUMFILE | cut -d ' ' -f 1)";
+ echo " sha1sum: $(sha1sum $LOCATION/$FILENAME.tar.gz | cut -d ' ' -f 1)";
  echo "    size: $(du -sh $LOCATION/$FILENAME.tar.gz | cut -f 1)";
  echo;
  echo "$URL.tar.bz2";
  echo "  md5sum: $(grep tar.bz2$ $LOCATION/$MD5SUMFILE | cut -d ' ' -f 1)";
+ echo " sha1sum: $(sha1sum $LOCATION/$FILENAME.tar.bz2 | cut -d ' ' -f 1)";
  echo "    size: $(du -sh $LOCATION/$FILENAME.tar.bz2 | cut -f 1)";
  echo;
  if [ -f $LOCATION/$NEWSFILE ]; then
