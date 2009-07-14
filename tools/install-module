@@ -1,5 +1,11 @@
 #!/bin/bash
 #
+# *****************************************************************
+# *                                                               *
+# *    THIS SCRIPT LIVES IN RELENG MODULE, TOOLS DIRECTORY        *
+# *                                                               *
+# *****************************************************************
+#
 # Full path to FTP root directory on filesystem and destination URL
 #
 FTPROOT=/ftp/pub/GNOME
