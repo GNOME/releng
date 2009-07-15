@@ -17,7 +17,7 @@
 #   3) If not found in step -1- or -2-, complain.
 #
 # This script will modify the files on the ftp server and create
-# MD5SUMS-for-gz and MD5SUMS-for-bz2 files in the current directory.
+# SHA256SUMS-for-gz and SHA256SUMS-for-bz2 files in the current directory.
 #
 # Input is of the form
 #   release-suites <version> <datafile>
@@ -108,8 +108,8 @@ done
 
 for suite in $RSUITES; do
 	cd $FTPROOT/$suite/$RMAJMIN/$RVERSION/sources
-	md5sum *.gz */*.gz > MD5SUMS-for-gz 2> /dev/null
-	md5sum *.bz2 */*.bz2 > MD5SUMS-for-bz2 2> /dev/null
+	sha256sum *.gz  */*.gz  > SHA256SUMS-for-gz  2> /dev/null
+	sha256sum *.bz2 */*.bz2 > SHA256SUMS-for-bz2 2> /dev/null
 	echo
 	echo "$suite $RVERSION statistics:"
 	echo "  tar.gz:   $(du -Lch *.tar.gz */*.tar.gz 2> /dev/null | grep total$)"

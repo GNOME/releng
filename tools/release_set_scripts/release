@@ -49,9 +49,9 @@ cat $RDATA | while read MDATA; do
 done
 
 cd $RDIR
-md5sum *.gz > MD5SUMS-for-gz
-md5sum *.bz2 > MD5SUMS-for-bz2
-chmod g+w $RDIR/MD5SUMS-for-*
+sha256sum *.gz  > SHA256SUMS-for-gz
+sha256sum *.bz2 > SHA256SUMS-for-bz2
+chmod g+w $RDIR/SHA256SUMS-for-*
 
 # Print download sizss
 echo

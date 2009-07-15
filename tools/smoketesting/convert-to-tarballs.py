@@ -54,14 +54,18 @@ import os.path
 from posixpath import join as posixjoin # Handy for URLs
 import subprocess
 from ftplib import FTP
-import md5
 from xml.dom import minidom, Node
 from sgmllib import SGMLParser
 import urllib2
 import urlparse
-import sets
+if not hasattr(__builtins__, 'set'):
+    from sets import Set as set
 import time
 import socket
+try:
+    import hashlib
+except ImportError:
+    import md5 as hashlib
 try: import psyco
 except: pass
 
@@ -289,6 +293,10 @@ class TarballLocator:
         self.have_sftp = self._test_sftp()
         self.get_stats = determine_stats
         self.local_only = local_only
+        if hasattr(hashlib, 'sha256'):
+            self.hash_algo = 'sha256'
+        else:
+            self.hash_algo = 'md5'
         self.cache = {}
         for key in mirrors.keys():
             mirror = mirrors[key]
@@ -382,6 +390,7 @@ class TarballLocator:
     def _get_tarball_stats(self, location, filename):
         MAX_TRIES = 10
         newfile = os.path.join(self.tarballdir, filename)
+        hashfile = newfile + '.' + self.hash_algo + 'sum'
         if newfile.endswith('gz'):
             flags = 'xfzO'
         elif newfile.endswith('lzma'):
@@ -410,13 +419,15 @@ class TarballLocator:
                     tries -= 1
                     continue
 
-                if os.path.exists(newfile + '.md5sum'):
-                    os.unlink(newfile + '.md5sum')
+                if os.path.exists(hashfile):
+                    os.unlink(hashfile)
 
-            if not os.path.exists(newfile + '.md5sum'):
-                print 'Untarring archive to check integrity'
+            if not os.path.exists(hashfile):
+                time.sleep(1)
                 cmd = ['tar', flags, newfile]
-                retcode = subprocess.call(cmd, stdout=file('/dev/null', 'w'))
+                devnull = file('/dev/null', 'wb')
+                retcode = subprocess.call(cmd, stdout=devnull)
+                devnull.close()
                 if retcode:
                     sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
                     tries -= 1
@@ -428,19 +439,19 @@ class TarballLocator:
             return '', ''
 
         size = os.stat(newfile)[6]
-        if not os.path.exists(newfile + '.md5sum'):
-            sum = md5.new()
+        if not os.path.exists(hashfile):
+            sum = getattr(hashlib, self.hash_algo)()
             fp = open(newfile, 'rb')
             data = fp.read(32768)
             while data:
                 sum.update(data)
                 data = fp.read(32768)
             fp.close()
-            md5sum = sum.hexdigest()
-            file(newfile + '.md5sum', 'w').write(md5sum)
+            hash = sum.hexdigest()
+            file(hashfile, 'w').write(hash)
         else:
-            md5sum = file(newfile + '.md5sum').read()
-        return md5sum, str(size)
+            hash = file(hashfile).read()
+        return '%s:%s' % (self.hash_algo, hash), str(size)
 
     def _get_files_from_ftp(self, parsed_url, max_version):
         ftp = FTP(parsed_url.hostname)
@@ -616,11 +627,11 @@ class TarballLocator:
 
         # Only get tarball stats if we're not in a hurry
         if self.get_stats:
-            md5sum, size = self._get_tarball_stats(location, tarballs[index])
+            hash, size = self._get_tarball_stats(location, tarballs[index])
         else:
-            md5sum = 'blablablaihavenorealclue'
+            hash = 'md5:blablablaihavenorealclue'
             size = 'HUGE'
-        return location, version, md5sum, size
+        return location, version, hash, size
 
 class ConvertToTarballs:
     def __init__(self, tarballdir, version, sourcedir, options, force, versions_only, local_only):
@@ -675,13 +686,13 @@ class ConvertToTarballs:
             baselocation = self.options.get_download_site(cvsroot, name)
             max_version = self.options.get_version_limit(name)
             real_name = self.options.get_real_name(name)
-            location, version, md5sum, size = \
+            location, version, hash, size = \
                       self.locator.find_tarball(baselocation, real_name, max_version)
-            print '  ', location, version, md5sum, size
+            print '  ', location, version, hash, size
             tarball.setAttribute('version', version)
             source_node.setAttribute('href', location)
             source_node.setAttribute('size', size)
-            source_node.setAttribute('md5sum', md5sum)
+            source_node.setAttribute('hash', hash)
             self.all_tarballs.append(name)
             self.all_versions.append(version)
         except IOError:
@@ -693,7 +704,7 @@ class ConvertToTarballs:
             tarball.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
             source_node.setAttribute('href', 'http://somewhere.over.the.rainbow/where/bluebirds/die')
             source_node.setAttribute('size', 'HUGE')
-            source_node.setAttribute('md5sum', 'blablablaihavenorealclue')
+            source_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
         if revision and not max_version:
             self.no_max_version.append(id)
         return tarball
@@ -825,7 +836,7 @@ class ConvertToTarballs:
         full_whitelist = []
         for set in self.options.release_set:
             full_whitelist.extend(set)
-        unique = sets.Set(full_whitelist) - sets.Set(self.all_tarballs)
+        unique = set(full_whitelist) - set(self.all_tarballs)
         for module in unique:
           subdir = self.options.get_subdir(module)
           if subdir is None:
@@ -835,9 +846,9 @@ class ConvertToTarballs:
               baselocation = self.options.get_download_site('gnome.org', name)
               max_version = self.options.get_version_limit(name)
               real_name = self.options.get_real_name(name)
-              location, version, md5sum, size = \
+              location, version, hash, size = \
                         self.locator.find_tarball(baselocation, real_name, max_version)
-              print '  ', location, version, md5sum, size
+              print '  ', location, version, hash, size
               self.all_tarballs.append(name)
               self.all_versions.append(version)
           except IOError:
@@ -858,7 +869,7 @@ class ConvertToTarballs:
         full_whitelist = []
         for set in self.options.release_set:
             full_whitelist.extend(set)
-        unique = sets.Set(full_whitelist) - sets.Set(self.all_tarballs)
+        unique = set(full_whitelist) - set(self.all_tarballs)
 
         if not len(unique): return
 
