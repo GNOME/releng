@@ -83,7 +83,7 @@ template = '''
 $name $version is now available for download from:
 $download
 
-$md5sums
+$sha256sums
 
 What is it?
 ===========
@@ -119,7 +119,7 @@ template_in_html = '''
 <ul>
   <li><a href="$download">$download</a></li>
 </ul>
-<p>$md5sums</p>
+<p>$sha256sums</p>
 
 <h3>What is it?</h3>
 <p>$about</p>
@@ -783,16 +783,16 @@ def create_release_note(tag, template_file):
                                                                  package_version)
 
         # Get an MD5 sum of the tarballs.
-        md5sums = ''
+        sha256sums = ''
         
-        cmd = 'md5sum %s-%s.tar.gz' % (package_name.lower(), package_version)
-        md5sums += os.popen(cmd).read()
+        cmd = 'sha256sum %s-%s.tar.gz' % (package_name.lower(), package_version)
+        sha256sums += os.popen(cmd).read()
 
-        cmd = 'md5sum %s-%s.tar.bz2' % (package_name.lower(), package_version)
-        md5sums += os.popen(cmd).read()
+        cmd = 'sha256sum %s-%s.tar.bz2' % (package_name.lower(), package_version)
+        sha256sums += os.popen(cmd).read()
 
         if opts.html:
-                md5sums = md5sums.replace('\n', '<br>\n')
+                sha256sums = sha256sums.replace('\n', '<br>\n')
         
         about = get_description()
         website = get_website()
