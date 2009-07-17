@@ -18,14 +18,14 @@ newstable:2.28
 18:freeze:api
 18:modules:decision
 19:freeze:feature
-19:release:unstable.5
+19:release:unstable.5 vuntz
 20:misc:api-doc
 20:misc:release-notes-start
 21:freeze:ui
-21:release:beta.90
+21:release:beta.90 fcrozat
 23:freeze:string
-23:release:beta.91
-25:release:rc.92
+23:release:beta.91 fredp
+25:release:rc.92 vuntz
 26:freeze:hard-code
 27:release:newstable.0
 27:freeze:hard-code-end
