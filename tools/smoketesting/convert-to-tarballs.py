@@ -121,9 +121,9 @@ class Options:
     def module_included(self, modulename):
         index = None
         realname = self.translate_name(modulename)
-        for set in range(len(self.release_sets)):
+        for idx in range(len(self.release_sets)):
             try:
-                index = self.release_set[set].index(realname)
+                index = self.release_set[idx].index(realname)
             except:
                 index = None
             if index is not None:
@@ -227,19 +227,19 @@ class Options:
 
                 # Find the appropriate release set
                 if node.attributes.get('set'):
-                    set = node.attributes.get('set').nodeValue
+                    release_set = node.attributes.get('set').nodeValue
                 else:
-                    set = 'Other'
+                    release_set = 'Other'
 
                 # Add it to the lists
                 try:
-                    index = self.release_sets.index(set)
+                    index = self.release_sets.index(release_set)
                 except:
                     index = None
                 if index is not None:
                     self.release_set[index].append(name)
                 else:
-                    self.release_sets.append(set)
+                    self.release_sets.append(release_set)
                     self.release_set.append([ name ])
             else:
                 sys.stderr.write('Bad whitelist node\n')
@@ -834,8 +834,8 @@ class ConvertToTarballs:
 
     def get_unused_with_subdirs(self):
         full_whitelist = []
-        for set in self.options.release_set:
-            full_whitelist.extend(set)
+        for release_set in self.options.release_set:
+            full_whitelist.extend(release_set)
         unique = set(full_whitelist) - set(self.all_tarballs)
         for module in unique:
           subdir = self.options.get_subdir(module)
@@ -867,8 +867,8 @@ class ConvertToTarballs:
 
     def show_unused_whitelist_modules(self):
         full_whitelist = []
-        for set in self.options.release_set:
-            full_whitelist.extend(set)
+        for release_set in self.options.release_set:
+            full_whitelist.extend(release_set)
         unique = set(full_whitelist) - set(self.all_tarballs)
 
         if not len(unique): return
@@ -894,11 +894,11 @@ class ConvertToTarballs:
     def create_versions_file(self):
         print '**************************************************'
         versions = open('versions', 'w')
-        for set in range(len(self.options.release_sets)):
-            release_set = self.options.release_sets[set]
+        for idx in range(len(self.options.release_sets)):
+            release_set = self.options.release_sets[idx]
             if release_set != 'Other':
                 versions.write('## %s\n' % string.upper(release_set))
-                modules_sorted = self.options.release_set[set]
+                modules_sorted = self.options.release_set[idx]
                 modules_sorted.sort()
                 subdirs = {}
                 for module in modules_sorted:
