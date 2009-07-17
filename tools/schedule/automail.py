@@ -33,6 +33,8 @@ def mail_events(events):
         # Show tasks only, even if we have notes
         subject = "%s (and more)" % ', '.join([task.summary() for task in tasks])
 
+    if mail == 'release-team@gnome.org' and event.assignee:
+        subject += ' -- %s' % event.assignee
 
     contents = StringIO.StringIO()
     contents.write("Hello all,\n\n")

@@ -10,13 +10,14 @@ import sys
 class GnomeReleaseEvent:
     definitions = {}
 
-    def __init__ (self, date, week, category, detail, version=None):
+    def __init__ (self, date, week, category, detail, version=None, assignee=None):
         self.date = date
         self.rel_week = week
         self.category = category
         self.category_index = ["release", "tarball", "freeze", "modules", "misc"].index (category)
         self.detail = detail
         self.version = version
+        self.assignee = assignee
         self.wiki_template = {
                 'tarball': 'GNOME $version $detail tarballs due',
                 'modules': {
@@ -235,7 +236,14 @@ def parse_file (filename):
 
             # Expand event info
             version = None
+            assignee = None
             if category == 'release' and '.' in event:
+                if ' ' in event:
+                    i = event.split(' ', 1)
+                    event = i[0]
+                    if i[1].strip():
+                        assignee = i[1].strip()
+
                 i = event.split('.', 1)
                 if not '.' in i[1]:
                     event = i[0]
@@ -246,11 +254,11 @@ def parse_file (filename):
                 return None
 
             if category == 'release':
-                rel_event = GnomeReleaseEvent (date, week, 'tarball', event, version)
+                rel_event = GnomeReleaseEvent (date, week, 'tarball', event, version, assignee)
                 events.append (rel_event)
                 date = date + datetime.timedelta(2)
 
-            rel_event = GnomeReleaseEvent (date, week, category, event, version)
+            rel_event = GnomeReleaseEvent (date, week, category, event, version, assignee)
             events.append (rel_event)
             continue
 
