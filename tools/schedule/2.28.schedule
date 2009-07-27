@@ -27,6 +27,6 @@ newstable:2.28
 23:release:beta.91 fredp
 25:release:rc.92 vuntz
 26:freeze:hard-code
-27:release:newstable.0
+27:release:newstable.0 lucasr
 27:freeze:hard-code-end
-31:release:newstable.1
+31:release:newstable.1 mclasen
