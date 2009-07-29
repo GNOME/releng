@@ -52,6 +52,7 @@ import optparse
 import os
 import os.path
 from posixpath import join as posixjoin # Handy for URLs
+import signal
 import subprocess
 from ftplib import FTP
 from xml.dom import minidom, Node
@@ -388,6 +389,10 @@ class TarballLocator:
         return biggest
 
     def _get_tarball_stats(self, location, filename):
+        def default_sigpipe():
+            "restore default signal handler (http://bugs.python.org/issue1652)"
+            signal.signal(signal.SIGPIPE, signal.SIG_DFL)
+
         MAX_TRIES = 10
         newfile = os.path.join(self.tarballdir, filename)
         hashfile = newfile + '.' + self.hash_algo + 'sum'
@@ -426,7 +431,7 @@ class TarballLocator:
                 time.sleep(1)
                 cmd = ['tar', flags, newfile]
                 devnull = file('/dev/null', 'wb')
-                retcode = subprocess.call(cmd, stdout=devnull)
+                retcode = subprocess.call(cmd, stdout=devnull, preexec_fn=default_sigpipe)
                 devnull.close()
                 if retcode:
                     sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
