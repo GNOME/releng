@@ -76,9 +76,6 @@ skip.append('pulseaudio')
 ##os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
 ##os.environ['PYTHONPATH'] = os.path.join(libdir, 'python2.4/site-packages')
 
-#set up the mono Global Application Cache prefix to the jhbuild prefix
-os.environ['MONO_GAC_PREFIX'] = prefix
-
 # evolution-exchange requires evolution-data-server to be configured
 # with ldap enabled, which it isn't by default.  That would also
 # require ldap development libraries, but I have no exchange server to
