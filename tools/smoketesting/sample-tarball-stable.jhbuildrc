@@ -35,12 +35,6 @@ os.environ['CFLAGS'] = '-g -O2'
 #makeargs = '-j2'
 
 
-# a alternative install program to use.
-# The included install-check program won't update timestamps if the
-# header hasn't changed
-os.environ['INSTALL'] = os.path.join(os.environ['HOME'],
-                                     'bin', 'install-check')
-
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
