@@ -399,5 +399,5 @@ fi
 if [ -x /usr/bin/curl ]; then
 	echo
 	echo "Adding new version to bugzilla..."
-	/usr/bin/curl "http://bugzilla.gnome.org/add-version.cgi?$MODULE|$VERSION"
+	/usr/bin/curl -L "http://bugzilla.gnome.org/add-version.cgi?$MODULE|$VERSION"
 fi
