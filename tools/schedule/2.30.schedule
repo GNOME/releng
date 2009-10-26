@@ -9,6 +9,7 @@ newstable:2.30
 5:modules:discussion
 5:release:unstable.1
 6:modules:decision
+6:freeze:module
 8:release:unstable.2
 10:release:unstable.3
 12:release:stable.2
@@ -17,7 +18,7 @@ newstable:2.30
 16:freeze:ui-announcement
 16:release:unstable.5
 17:freeze:api
-18:freeze:feature
+18:freeze:feature2
 18:release:unstable.6
 19:misc:api-doc
 19:misc:release-notes-start

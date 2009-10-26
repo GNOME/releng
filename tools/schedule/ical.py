@@ -6,7 +6,7 @@ import itertools
 import vobject
 import dateutil.tz
 
-events = parse_file ("2.28.schedule")
+events = parse_file ("2.30.schedule")
 
 cal = vobject.iCalendar()
 
