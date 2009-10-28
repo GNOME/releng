@@ -23,7 +23,7 @@ platform:pango:1.26.0:
 
 ## DESKTOP
 desktop:alacarte:0.12.4:
-desktop:brasero:2.29.1:
+desktop:brasero:2.28.2:
 desktop:bug-buddy:2.28.0:
 desktop:cheese:2.28.1:
 desktop:dasher:4.10.1:
