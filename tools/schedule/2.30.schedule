@@ -10,25 +10,25 @@ newstable:2.30
 5:release:unstable.1
 6:modules:decision
 6:freeze:module
-8:release:unstable.2
-10:release:unstable.3
-12:release:stable.2
-13:release:unstable.4
+8:release:unstable.2 lucasr
+10:release:unstable.3 mclasen
+12:release:stable.2 vuntz
+13:release:unstable.4 fredp
 16:freeze:string-announcement
 16:freeze:ui-announcement
-16:release:unstable.5
+16:release:unstable.5 fcrozat
 17:freeze:api
 18:freeze:feature2
-18:release:unstable.6
+18:release:unstable.6 lucasr
 19:misc:api-doc
 19:misc:release-notes-start
 20:freeze:ui
-20:release:beta.90
+20:release:beta.90 mclasen
 22:freeze:string
-22:release:beta.91
-24:release:rc.92
+22:release:beta.91 fredp
+24:release:rc.92 fcrozat
 25:freeze:hard-code
-27:release:newstable.0
+27:release:newstable.0 vuntz
 27:freeze:hard-code-end
 31:release:newstable.1
 
