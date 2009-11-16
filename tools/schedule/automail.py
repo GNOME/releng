@@ -57,7 +57,7 @@ def mail_events(events):
 
 
 
-events = parse_file ("2.28.schedule")
+events = parse_file ("2.30.schedule")
 today = datetime.date.today()
 today_plus3 = today + datetime.timedelta (3)
 
