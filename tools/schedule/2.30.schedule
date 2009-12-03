@@ -12,14 +12,14 @@ newstable:2.30
 6:freeze:module
 8:release:unstable.2 lucasr
 10:release:unstable.3 mclasen
-12:release:stable.2 vuntz
-13:release:unstable.4 fredp
+12:release:stable.2 lucasr
+13:release:unstable.4 vuntz
 16:freeze:string-announcement
 16:freeze:ui-announcement
 16:release:unstable.5 fcrozat
 17:freeze:api
 18:freeze:feature2
-18:release:unstable.6 lucasr
+18:release:unstable.6 fredp
 19:misc:api-doc
 19:misc:release-notes-start
 20:freeze:ui
