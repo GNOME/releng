@@ -1,16 +1,16 @@
 ## PLATFORM
 platform:GConf:2.28.0:
 platform:ORBit2:2.14.17:
-platform:at-spi:1.29.2:
-platform:atk:1.29.2:
+platform:at-spi:1.29.3:
+platform:atk:1.29.4:
 platform:audiofile:0.2.6:
 platform:esound:0.2.41:
-platform:glib:2.22.2:
+platform:glib:2.23.1:
 platform:gnome-mime-data:2.18.0:
 platform:gnome-vfs:2.24.2:
 platform:gnome-vfs-monikers:2.15.3:
-platform:gtk+:2.19.0:
-platform:gtk-doc:1.11:
+platform:gtk+:2.19.2:
+platform:gtk-doc:1.13:
 platform:libIDL:0.8.13:
 platform:libart_lgpl:2.3.20:
 platform:libbonobo:2.24.2:
@@ -19,49 +19,51 @@ platform:libglade:2.6.4:
 platform:libgnome:2.28.0:
 platform:libgnomecanvas:2.26.0:
 platform:libgnomeui:2.24.2:
-platform:pango:1.26.1:
+platform:pango:1.26.2:
 
 ## DESKTOP
 desktop:alacarte:0.12.4:
-desktop:brasero:2.29.2:
+desktop:at-spi2-atk:0.1.4:
+desktop:at-spi2-core:0.1.4:
+desktop:brasero:2.29.4:
 desktop:bug-buddy:2.28.0:
 desktop:cheese:2.28.1:
 desktop:dasher:4.10.1:
 desktop:deskbar-applet:2.28.0:
 desktop:ekiga:3.2.6:
-desktop:empathy:2.29.2:
-desktop:eog:2.29.2:
-desktop:epiphany:2.29.1:
-desktop:evince:2.29.2:
-desktop:evolution:2.29.2:
-desktop:evolution-data-server:2.29.2:
-desktop:evolution-exchange:2.29.2:
-desktop:evolution-mapi:0.29.2:
+desktop:empathy:2.29.4:
+desktop:eog:2.29.3:
+desktop:epiphany:2.29.3:
+desktop:evince:2.29.4:
+desktop:evolution:2.29.4:
+desktop:evolution-data-server:2.29.4:
+desktop:evolution-exchange:2.29.4:
+desktop:evolution-mapi:0.29.4:
 desktop:evolution-webcal:2.28.0:
-desktop:file-roller:2.29.1:
-desktop:gcalctool:5.29.2:
+desktop:file-roller:2.29.3:
+desktop:gcalctool:5.29.4:
 desktop:gconf-editor:2.28.0:
-desktop:gdm:2.29.0:
-desktop:gedit:2.29.2:
+desktop:gdm:2.29.4:
+desktop:gedit:2.29.3:
 desktop:gnome-applets:2.28.0:
 desktop:gnome-backgrounds:2.28.0:
-desktop:gnome-bluetooth:2.29.2:
+desktop:gnome-bluetooth:2.29.3:
 desktop:gnome-control-center:2.28.1:
-desktop:gnome-desktop:2.29.2:
+desktop:gnome-desktop:2.29.4:
 desktop:gnome-desktop-sharp:2.26.0:
 desktop:gnome-disk-utility:2.28.1:
-desktop:gnome-doc-utils:0.18.0:
-desktop:gnome-games:2.29.2:
+desktop:gnome-doc-utils:0.18.1:
+desktop:gnome-games:2.29.4:
 desktop:gnome-icon-theme:2.28.0:
-desktop:gnome-keyring:2.28.1:
+desktop:gnome-keyring:2.29.4:
 desktop:gnome-mag:0.15.9:
 desktop:gnome-media:2.28.1:
 desktop:gnome-menus:2.28.0.1:
 desktop:gnome-netstatus:2.28.0:
 desktop:gnome-nettool:2.28.0:
-desktop:gnome-packagekit:2.28.1:
+desktop:gnome-packagekit:2.29.1:
 desktop:gnome-panel:2.28.0:
-desktop:gnome-power-manager:2.28.1:
+desktop:gnome-power-manager:2.29.1:
 desktop:gnome-python-desktop:2.28.0:
 desktop:gnome-screensaver:2.28.0:
 desktop:gnome-session:2.28.0:
@@ -69,62 +71,63 @@ desktop:gnome-settings-daemon:2.28.1:
 desktop:gnome-sharp:2.24.1:
 desktop:gnome-speech:0.4.25:
 desktop:gnome-system-monitor:2.28.0:
-desktop:gnome-system-tools:2.28.1:
-desktop:gnome-terminal:2.28.1:
+desktop:gnome-system-tools:2.29.1:
+desktop:gnome-terminal:2.29.1:
 desktop:gnome-themes:2.29.2:
-desktop:gnome-user-docs:2.28.0:
-desktop:gnome-user-share:2.28.1:
+desktop:gnome-user-docs:2.28.2:
+desktop:gnome-user-share:2.28.2:
 desktop:gnome-utils:2.28.1:
 desktop:gok:2.29.2:
 desktop:gst-plugins-base:0.10.25:
 desktop:gst-plugins-good:0.10.17:
 desktop:gstreamer:0.10.25:
 desktop:gtk-engines:2.18.4:
-desktop:gtkhtml:3.29.2:
-desktop:gtksourceview:2.9.2:
+desktop:gtkhtml:3.29.4:
+desktop:gtksourceview:2.9.3:
 desktop:gucharmap:2.29.1:
 desktop:gvfs:1.5.1:
-desktop:hamster-applet:2.29.2:
+desktop:hamster-applet:2.29.4:
 desktop:libgail-gnome:1.20.1:
-desktop:libgnomekbd:2.28.0:
+desktop:libgnome-keyring:2.29.4:
+desktop:libgnomekbd:2.28.2:
 desktop:libgnomeprint:2.18.6:
 desktop:libgnomeprintui:2.18.4:
 desktop:libgtop:2.28.0:
-desktop:libgweather:2.28.0:
-desktop:liboobs:2.22.2:
+desktop:libgweather:2.29.4:
+desktop:liboobs:2.29.1:
 desktop:librsvg:2.26.0:
-desktop:libsoup:2.28.1:
+desktop:libsoup:2.29.3:
 desktop:libwnck:2.28.0:
 desktop:metacity:2.28.0:
-desktop:mousetweaks:2.29.2:
-desktop:nautilus:2.28.1:
+desktop:mousetweaks:2.29.4:
+desktop:nautilus:2.29.1:
 desktop:nautilus-sendto:2.28.2:
-desktop:orca:2.29.2:
+desktop:orca:2.29.4:
 desktop:pygtksourceview:2.9.1:
-desktop:seahorse:2.29.1:
-desktop:seahorse-plugins:2.29.1:
-desktop:sound-juicer:2.28.0:
+desktop:seahorse:2.29.3:
+desktop:seahorse-plugins:2.29.3:
+desktop:sound-juicer:2.28.1:
 desktop:swfdec-gnome:2.28.0:
 desktop:tomboy:1.1.0:
-desktop:totem:2.28.3:
-desktop:totem-pl-parser:2.28.1:
+desktop:totem:2.29.2:
+desktop:totem-pl-parser:2.28.2:
 desktop:vinagre:2.29.1:
 desktop:vino:2.28.1:
-desktop:vte:0.23.1:
-desktop:yelp:2.28.0:
+desktop:vte:0.23.2:
+desktop:yelp:2.28.1:
 desktop:zenity:2.28.0:
 
 ## ADMIN
 admin:pessulus:2.28.0:
-admin:sabayon:2.29.0:
+admin:sabayon:2.29.2:
 
 ## DEVTOOLS
-devtools:accerciser:1.8.0:
-devtools:anjuta:2.29.2.0:
-devtools:devhelp:2.29.2:
+devtools:accerciser:1.9.3:
+devtools:anjuta:2.29.4.0:
+devtools:devhelp:2.29.3:
 devtools:gdl:2.29.2:
 devtools:glade3:3.6.7:
-devtools:gnome-devel-docs:2.28.0:
+devtools:gnome-devel-docs:2.28.1:
 
 ## BINDINGS
 
@@ -150,7 +153,7 @@ bindings:libgnome-java:2.12.7:java
 bindings:libgtk-java:2.10.2:java
 
 # Js
-bindings:seed:2.29.2:js
+bindings:seed:2.29.4:js
 
 # Mono
 bindings:gtk-sharp:2.12.9:mono
@@ -167,18 +170,19 @@ bindings:Pango:1.220:perl
 
 # Python
 bindings:gnome-python:2.28.0:python
-bindings:pygobject:2.20.0:python
+bindings:pyatspi:0.1.4:python
+bindings:pygobject:2.21.0:python
 bindings:pygtk:2.16.0:python
 bindings:pyorbit:2.24.0:python
 
 ## MOBILE
 mobile:GConf-dbus:2.16.0:
-mobile:atk:1.29.2:
-mobile:evolution-data-server-dbus:2.20.0:
-mobile:glib:2.22.2:
+mobile:atk:1.29.4:
+mobile:evolution-data-server:2.29.4:
+mobile:glib:2.23.1:
 mobile:gst-plugins-base:0.10.25:
 mobile:gstreamer:0.10.25:
-mobile:gtk+:2.19.0:
-mobile:gtk-doc:1.11:
-mobile:pango:1.26.1:
+mobile:gtk+:2.19.2:
+mobile:gtk-doc:1.13:
+mobile:pango:1.26.2:
 
