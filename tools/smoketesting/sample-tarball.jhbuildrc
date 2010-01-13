@@ -26,7 +26,7 @@ else:
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc '
+autogenargs='--disable-static --disable-gtk-doc --disable-introspection'
 
 # set CFLAGS:
 os.environ['CFLAGS'] = '-g -O2'
