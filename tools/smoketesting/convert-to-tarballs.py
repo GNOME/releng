@@ -1024,7 +1024,7 @@ def main(args):
                                                               str(int(splitted_version[1])+1)))
 
         # Make sure the jhbuild checkout directory is up to date
-        retcode = subprocess.call(['svn', '--quiet', 'update'], cwd=jhbuild_dir)
+        retcode = subprocess.call(['git', 'pull', '--rebase'], cwd=jhbuild_dir)
         if retcode != 0:
             sys.stderr("WARNING: Error updating jhbuild checkout directory\n")
 
