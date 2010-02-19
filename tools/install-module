@@ -372,7 +372,7 @@ echo "Informing ftp-release-list..."
 # Trigger an update to the GNOME Library website
 #
 echo "Triggering GNOME Library update..."
-echo forced | mail -s "UPDATE library-web" gnomeweb@www.gnome.org
+echo forced | mail -s "GNOME_GIT library-web" gnomeweb@www.gnome.org
 
 #
 # Signal the mirrors
