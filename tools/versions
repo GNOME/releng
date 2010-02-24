@@ -159,14 +159,14 @@ bindings:seed:2.29.91.1:js
 bindings:gtk-sharp:2.12.9:mono
 
 # Perl
-bindings:Glib:1.222:perl
+bindings:Glib:1.220:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.043:perl
+bindings:Gnome2-GConf:1.044:perl
 bindings:Gnome2-VFS:1.081:perl
-bindings:Gnome2:1.081:perl
+bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.007:perl
-bindings:Gtk2:1.221:perl
-bindings:Pango:1.221:perl
+bindings:Gtk2:1.220:perl
+bindings:Pango:1.220:perl
 
 # Python
 bindings:gnome-python:2.28.0:python
