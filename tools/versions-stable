@@ -56,7 +56,7 @@ desktop:gnome-doc-utils:0.20.0:
 desktop:gnome-games:2.30.0:
 desktop:gnome-icon-theme:2.30.0:
 desktop:gnome-keyring:2.30.0:
-desktop:gnome-mag:0.16.0:
+desktop:gnome-mag:0.16.1:
 desktop:gnome-media:2.30.0:
 desktop:gnome-menus:2.30.0:
 desktop:gnome-netstatus:2.28.1:
@@ -86,7 +86,7 @@ desktop:gtkhtml:3.30.0:
 desktop:gtksourceview:2.10.0:
 desktop:gucharmap:2.30.0:
 desktop:gvfs:1.6.0:
-desktop:hamster-applet:2.30.0:
+desktop:hamster-applet:2.30.0.1:
 desktop:libgail-gnome:1.20.2:
 desktop:libgnome-keyring:2.30.0:
 desktop:libgnomekbd:2.30.0:
@@ -98,7 +98,7 @@ desktop:liboobs:2.30.0:
 desktop:librsvg:2.26.2:
 desktop:libsoup:2.30.0:
 desktop:libwnck:2.30.0:
-desktop:metacity:2.28.1:
+desktop:metacity:2.30.0:
 desktop:mousetweaks:2.30.0:
 desktop:nautilus:2.30.0:
 desktop:nautilus-sendto:2.28.4:
@@ -159,14 +159,14 @@ bindings:seed:2.30.0:js
 bindings:gtk-sharp:2.12.10:mono
 
 # Perl
-bindings:Glib:1.220:perl
+bindings:Glib:1.222:perl
 bindings:Gnome2-Canvas:1.002:perl
 bindings:Gnome2-GConf:1.044:perl
 bindings:Gnome2-VFS:1.081:perl
 bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.007:perl
-bindings:Gtk2:1.220:perl
-bindings:Pango:1.220:perl
+bindings:Gtk2:1.221:perl
+bindings:Pango:1.221:perl
 
 # Python
 bindings:gnome-python:2.28.1:python
