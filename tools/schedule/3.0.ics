@@ -1,0 +1,911 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20100331T162128Z-31721@etaules.vuntz.net
+DTSTART:20100215T230000Z
+DTEND:20100215T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:New module proposal start
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:New module proposal start
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New module proposal start
+TRIGGER;VALUE=DATE-TIME:20100212T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-86769@etaules.vuntz.net
+DTSTART:20100329T230000Z
+DTEND:20100329T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-03-29 before 23:59 UTC for the GNOME\
+ n2.30.0 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 2.30.0. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.30.0 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.30.0 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100326T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-4798@etaules.vuntz.net
+DTSTART:20100331T230000Z
+DTEND:20100331T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.30.0 stable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.30.0 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.30.0 stable release
+TRIGGER;VALUE=DATE-TIME:20100331T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-71127@etaules.vuntz.net
+DTSTART:20100426T230000Z
+DTEND:20100426T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-04-26 before 23:59 UTC for the GNOME\
+ n2.30.1 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 2.30.1. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.30.1 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.30.1 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100423T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-34405@etaules.vuntz.net
+DTSTART:20100428T230000Z
+DTEND:20100428T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.30.1 stable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.30.1 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.30.1 stable release
+TRIGGER;VALUE=DATE-TIME:20100428T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-28585@etaules.vuntz.net
+DTSTART:20100503T230000Z
+DTEND:20100503T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-05-03 before 23:59 UTC for the GNOME\
+ n2.31.1 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 2.31.1. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.1 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.1 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100430T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-41790@etaules.vuntz.net
+DTSTART:20100503T230000Z
+DTEND:20100503T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:New module proposal end
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:New module proposal end
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New module proposal end
+TRIGGER;VALUE=DATE-TIME:20100430T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-21439@etaules.vuntz.net
+DTSTART:20100503T230000Z
+DTEND:20100503T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Module inclusion discussion heats up
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Module inclusion discussion heats up
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Module inclusion discussion heats up
+TRIGGER;VALUE=DATE-TIME:20100430T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-7729@etaules.vuntz.net
+DTSTART:20100505T230000Z
+DTEND:20100505T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.1 unstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.1 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.1 unstable release
+TRIGGER;VALUE=DATE-TIME:20100505T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-35031@etaules.vuntz.net
+DTSTART:20100510T230000Z
+DTEND:20100510T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Module Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Module Freeze
+TRIGGER;VALUE=DATE-TIME:20100507T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-84618@etaules.vuntz.net
+DTSTART:20100510T230000Z
+DTEND:20100510T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Release Team decides on new modules
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Release Team decides on new modules
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Release Team decides on new modules
+TRIGGER;VALUE=DATE-TIME:20100507T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-56937@etaules.vuntz.net
+DTSTART:20100524T230000Z
+DTEND:20100524T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-05-24 before 23:59 UTC for the GNOME\
+ n2.31.2 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 2.31.2. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.2 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.2 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100521T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-86869@etaules.vuntz.net
+DTSTART:20100526T230000Z
+DTEND:20100526T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.2 unstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.2 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.2 unstable release
+TRIGGER;VALUE=DATE-TIME:20100526T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-88689@etaules.vuntz.net
+DTSTART:20100607T230000Z
+DTEND:20100607T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-06-07 before 23:59 UTC for the GNOME\
+ n2.31.3 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 2.31.3. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.3 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.3 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100604T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-54226@etaules.vuntz.net
+DTSTART:20100609T230000Z
+DTEND:20100609T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.3 unstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.3 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.3 unstable release
+TRIGGER;VALUE=DATE-TIME:20100609T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-55544@etaules.vuntz.net
+DTSTART:20100621T230000Z
+DTEND:20100621T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-06-21 before 23:59 UTC for the GNOME\
+ n2.30.2 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 2.30.2. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.30.2 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.30.2 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100618T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-2957@etaules.vuntz.net
+DTSTART:20100623T230000Z
+DTEND:20100623T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.30.2 stable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.30.2 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.30.2 stable release
+TRIGGER;VALUE=DATE-TIME:20100623T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-18515@etaules.vuntz.net
+DTSTART:20100628T230000Z
+DTEND:20100628T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-06-28 before 23:59 UTC for the GNOME\
+ n2.31.4 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 2.31.4. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.4 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.4 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100625T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-37951@etaules.vuntz.net
+DTSTART:20100630T230000Z
+DTEND:20100630T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.4 unstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.4 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.4 unstable release
+TRIGGER;VALUE=DATE-TIME:20100630T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-71629@etaules.vuntz.net
+DTSTART:20100712T230000Z
+DTEND:20100712T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-07-12 before 23:59 UTC for the GNOME\
+ n2.31.5 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 2.31.5. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.5 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.5 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100709T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-87761@etaules.vuntz.net
+DTSTART:20100712T230000Z
+DTEND:20100712T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:String Change Announcement Period
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:String Change Announcement Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Change Announcement Period
+TRIGGER;VALUE=DATE-TIME:20100709T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-98636@etaules.vuntz.net
+DTSTART:20100712T230000Z
+DTEND:20100712T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:UI Change Announcement Period
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:UI Change Announcement Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UI Change Announcement Period
+TRIGGER;VALUE=DATE-TIME:20100709T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-76871@etaules.vuntz.net
+DTSTART:20100714T230000Z
+DTEND:20100714T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.5 unstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.5 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.5 unstable release
+TRIGGER;VALUE=DATE-TIME:20100714T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-39828@etaules.vuntz.net
+DTSTART:20100802T230000Z
+DTEND:20100802T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-08-02 before 23:59 UTC for the GNOME\
+ n2.31.6 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 2.31.6. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.6 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.6 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100730T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-68777@etaules.vuntz.net
+DTSTART:20100802T230000Z
+DTEND:20100802T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:No API or ABI changes should be made in the platform libraries
+ . For instance\, no new functions\, no changed function signatures or stru
+ ct fields.\n\nThis provides a stable development platform for the rest of 
+ the schedule.\n\nThere should usually be a "Slushy" API/ABI Freeze before 
+ the Hard API/ABI Freeze\, to encourage developers to think about API probl
+ ems while they have a chance to correct them.\n\nAPI freeze is not require
+ d for non-platform libraries\, but is recommended.
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:API/ABI Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:API/ABI Freeze
+TRIGGER;VALUE=DATE-TIME:20100730T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-82854@etaules.vuntz.net
+DTSTART:20100802T230000Z
+DTEND:20100802T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Feature Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Feature Freeze
+TRIGGER;VALUE=DATE-TIME:20100730T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-52257@etaules.vuntz.net
+DTSTART:20100802T230000Z
+DTEND:20100802T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Writing of release notes begins
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Writing of release notes begins
+TRIGGER;VALUE=DATE-TIME:20100730T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-54644@etaules.vuntz.net
+DTSTART:20100804T230000Z
+DTEND:20100804T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.6 unstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.6 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.6 unstable release
+TRIGGER;VALUE=DATE-TIME:20100804T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-61559@etaules.vuntz.net
+DTSTART:20100809T230000Z
+DTEND:20100809T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:New APIs must be fully documented
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New APIs must be fully documented
+TRIGGER;VALUE=DATE-TIME:20100806T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-55059@etaules.vuntz.net
+DTSTART:20100816T230000Z
+DTEND:20100816T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-08-16 before 23:59 UTC for the GNOME\
+ n2.31.90 beta release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 2.31.90. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.90 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.90 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20100813T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-87327@etaules.vuntz.net
+DTSTART:20100816T230000Z
+DTEND:20100816T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:No UI changes may be made at all without confirmation from the
+  release team and notification to the documentation team.
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:UI Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:UI Freeze
+TRIGGER;VALUE=DATE-TIME:20100813T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-55980@etaules.vuntz.net
+DTSTART:20100818T230000Z
+DTEND:20100818T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.90 beta release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.90 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.90 beta release
+TRIGGER;VALUE=DATE-TIME:20100818T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-38421@etaules.vuntz.net
+DTSTART:20100830T230000Z
+DTEND:20100830T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-08-30 before 23:59 UTC for the GNOME\
+ n2.31.91 beta release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 2.31.91. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.91 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.91 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20100827T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-9669@etaules.vuntz.net
+DTSTART:20100830T230000Z
+DTEND:20100830T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:No string changes may be made without confirmation from the i1
+ 8n team and notification to release team\, translation team\, and document
+ ation team.\nFrom this point\, developers can concentrate on stability and
+  bug-fixing. Translators can work without worrying that the original Engli
+ sh strings will change\, and documentation writers can take accurate scree
+ nshots.\nFor the string freezes explained\, and to see which kind of chang
+ es are not covered by freeze rules\, check http://live.gnome.org/Translati
+ onProject/HandlingStringFreezes. 
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:String Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Freeze
+TRIGGER;VALUE=DATE-TIME:20100827T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-63803@etaules.vuntz.net
+DTSTART:20100901T230000Z
+DTEND:20100901T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.91 beta release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.91 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.91 beta release
+TRIGGER;VALUE=DATE-TIME:20100901T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-22745@etaules.vuntz.net
+DTSTART:20100913T230000Z
+DTEND:20100913T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-09-13 before 23:59 UTC for the GNOME\
+ n2.31.92 rc release\, which will be delivered on Wednesday.\nModules which
+  were proposed for inclusion should try to follow the unstable\nschedule s
+ o everyone can test them.\n\nPlease make sure that your tarballs will be u
+ ploaded before Monday 23:59\nUTC: tarballs uploaded later than that will p
+ robably be too late to get\nin 2.31.92. If you are not able to make a tarb
+ all before this deadline or\nif you think you'll be late\, please send a m
+ ail to the release team and\nwe'll find someone to roll the tarball for yo
+ u!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.92 rc tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.92 rc tarballs due
+TRIGGER;VALUE=DATE-TIME:20100910T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-39431@etaules.vuntz.net
+DTSTART:20100913T230000Z
+DTEND:20100913T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:This is a late freeze to avoids sudden last-minute accidents w
+ hich could risk the stability that should have been reached at this point.
+  No source code changes are allowed without approval from the release team
+ \, but translation and documentation should continue. Simple build fixes a
+ re\, of course\, allowed without asking. 
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Hard Code Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze
+TRIGGER;VALUE=DATE-TIME:20100910T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-95461@etaules.vuntz.net
+DTSTART:20100915T230000Z
+DTEND:20100915T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 2.31.92 rc release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 2.31.92 rc release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 2.31.92 rc release
+TRIGGER;VALUE=DATE-TIME:20100915T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-13349@etaules.vuntz.net
+DTSTART:20100927T230000Z
+DTEND:20100927T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-09-27 before 23:59 UTC for the GNOME\
+ n3.0.0 newstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.0.0. If you are not able to make a t
+ arball before this deadline or\nif you think you'll be late\, please send 
+ a mail to the release team and\nwe'll find someone to roll the tarball for
+  you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 3.0.0 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.0.0 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20100924T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-98054@etaules.vuntz.net
+DTSTART:20100927T230000Z
+DTEND:20100927T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Hard Code Freeze ends\, but other freezes remain in effect for
+  the stable branch.
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:Hard Code Freeze ends
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze ends
+TRIGGER;VALUE=DATE-TIME:20100924T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-25667@etaules.vuntz.net
+DTSTART:20100929T230000Z
+DTEND:20100929T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 3.0.0 newstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 3.0.0 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.0.0 newstable release
+TRIGGER;VALUE=DATE-TIME:20100929T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-77441@etaules.vuntz.net
+DTSTART:20101025T230000Z
+DTEND:20101025T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:Tarballs are due on 2010-10-25 before 23:59 UTC for the GNOME\
+ n3.0.1 newstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.0.1. If you are not able to make a t
+ arball before this deadline or\nif you think you'll be late\, please send 
+ a mail to the release team and\nwe'll find someone to roll the tarball for
+  you!
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 3.0.1 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.0.1 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20101022T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20100331T162128Z-45637@etaules.vuntz.net
+DTSTART:20101027T230000Z
+DTEND:20101027T235959Z
+CLASS:PUBLIC
+CREATED:20100331T162128
+DESCRIPTION:GNOME 3.0.1 newstable release
+DTSTAMP:20100331T162128
+LAST-MODIFIED:20100331T162128
+SEQUENCE:1
+SUMMARY:GNOME 3.0.1 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.0.1 newstable release
+TRIGGER;VALUE=DATE-TIME:20101027T220000Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
