@@ -33,13 +33,13 @@ desktop:deskbar-applet:2.30.1:
 desktop:ekiga:3.2.6:
 desktop:empathy:2.31.2:
 desktop:eog:2.31.2:
-desktop:epiphany:2.31.2:
+desktop:epiphany:2.30.2:
 desktop:evince:2.31.2:
 desktop:evolution:2.31.2:
 desktop:evolution-data-server:2.31.2:
 desktop:evolution-exchange:2.31.2:
 desktop:evolution-mapi:0.31.2:
-desktop:evolution-webcal:2.28.1:
+desktop:evolution-webcal:2.31.2:
 desktop:file-roller:2.31.1:
 desktop:gcalctool:5.31.2:
 desktop:gconf-editor:2.30.0:
@@ -53,7 +53,7 @@ desktop:gnome-desktop:2.31.2:
 desktop:gnome-desktop-sharp:2.26.0:
 desktop:gnome-disk-utility:2.30.1:
 desktop:gnome-doc-utils:0.20.1:
-desktop:gnome-games:2.31.2:
+desktop:gnome-games:2.31.1:
 desktop:gnome-icon-theme:2.30.3:
 desktop:gnome-keyring:2.30.1:
 desktop:gnome-mag:0.16.1:
@@ -61,7 +61,7 @@ desktop:gnome-media:2.30.0:
 desktop:gnome-menus:2.30.0:
 desktop:gnome-netstatus:2.28.1:
 desktop:gnome-nettool:2.30.0:
-desktop:gnome-packagekit:2.30.1:
+desktop:gnome-packagekit:2.30.2:
 desktop:gnome-panel:2.31.2:
 desktop:gnome-power-manager:2.30.1:
 desktop:gnome-python-desktop:2.30.0:
@@ -85,7 +85,7 @@ desktop:gtk-engines:2.20.1:
 desktop:gtkhtml:3.31.2:
 desktop:gtksourceview:2.10.1:
 desktop:gucharmap:2.30.1:
-desktop:gvfs:1.6.1:
+desktop:gvfs:1.6.2:
 desktop:hamster-applet:2.31.2:
 desktop:libgail-gnome:1.20.2:
 desktop:libgnome-keyring:2.30.1:
@@ -94,7 +94,7 @@ desktop:libgnomeprint:2.18.7:
 desktop:libgnomeprintui:2.18.5:
 desktop:libgtop:2.28.1:
 desktop:libgweather:2.30.0:
-desktop:liboobs:2.30.1:
+desktop:liboobs:2.31.1:
 desktop:librsvg:2.26.3:
 desktop:libsoup:2.31.2:
 desktop:libwnck:2.30.0:
@@ -114,8 +114,8 @@ desktop:totem-pl-parser:2.30.1:
 desktop:vinagre:2.30.1:
 desktop:vino:2.28.2:
 desktop:vte:0.25.1:
-desktop:yelp:2.31.2:
-desktop:yelp-xsl:2.31.1:
+desktop:yelp:2.31.3:
+desktop:yelp-xsl:2.31.2:
 desktop:zenity:2.30.0:
 
 ## ADMIN
