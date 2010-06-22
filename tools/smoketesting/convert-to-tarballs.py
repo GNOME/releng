@@ -709,9 +709,9 @@ class ConvertToTarballs:
                 revision = attrs.get('revision').nodeValue
         try:
             name = self.options.translate_name(id)
-            baselocation = self.options.get_download_site(cvsroot, name)
-            max_version = self.options.get_version_limit(name)
             real_name = self.options.get_real_name(name)
+            baselocation = self.options.get_download_site(cvsroot, real_name)
+            max_version = self.options.get_version_limit(name)
             location, version, hash, size = \
                       self.locator.find_tarball(baselocation, real_name, max_version)
             print '  ', location, version, hash, size
