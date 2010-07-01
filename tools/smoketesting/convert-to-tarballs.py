@@ -150,6 +150,15 @@ class Options:
                 return True
         return False
 
+    def get_base_site(self, cvssite, modulename):
+        for list in self.module_locations:
+            if list[0] == modulename:
+                return list[1]
+        for list in self.cvs_locations:
+            if re.search(list[0] + '$', cvssite):
+                return list[1]
+        raise IOError('No download site found!\n')
+
     def get_download_site(self, cvssite, modulename):
         for list in self.module_locations:
             if list[0] == modulename:
@@ -673,9 +682,19 @@ class ConvertToTarballs:
         self.all_versions = []
         self.no_max_version = []
         self.locator = TarballLocator(tarballdir, options.mirrors, not versions_only, local_only)
+        self.known_repositories = []
+        self.known_repositories_nodes = []
+
+    def _create_tarball_repo_node(self, document, href):
+        repo = document.createElement('repository')
+        repo.setAttribute('href', href)
+        repo.setAttribute('name', href)
+        repo.setAttribute('type', 'tarball')
+        self.known_repositories_nodes.append(repo)
 
     def _create_tarball_node(self, document, node):
-        tarball = document.createElement('tarball')
+        assert node.nodeName != 'tarball'
+        tarball = document.createElement(node.nodeName)
         attrs = node.attributes
         cvsroot = None
         for attrName in attrs.keys():
@@ -694,8 +713,9 @@ class ConvertToTarballs:
             attrNode = attrs.get(attrName)
             attrValue = attrNode.nodeValue
             tarball.setAttribute(attrName, attrValue)
-        source_node = document.createElement('source')
-        tarball.appendChild(source_node)
+
+        branch_node = document.createElement('branch')
+        tarball.appendChild(branch_node)
 
         if cvsroot == None:  # gnome cvs
             cvsroot = 'gnome.org'
@@ -710,15 +730,20 @@ class ConvertToTarballs:
         try:
             name = self.options.translate_name(id)
             real_name = self.options.get_real_name(name)
+            repo = self.options.get_base_site(cvsroot, real_name)
+            if not repo in self.known_repositories:
+                self._create_tarball_repo_node(document, repo)
+                self.known_repositories.append(repo)
             baselocation = self.options.get_download_site(cvsroot, real_name)
             max_version = self.options.get_version_limit(name)
             location, version, hash, size = \
                       self.locator.find_tarball(baselocation, real_name, max_version)
             print '  ', location, version, hash, size
-            tarball.setAttribute('version', version)
-            source_node.setAttribute('href', location)
-            source_node.setAttribute('size', size)
-            source_node.setAttribute('hash', hash)
+            branch_node.setAttribute('version', version)
+            branch_node.setAttribute('repo', repo)
+            branch_node.setAttribute('module', location[len(repo):])
+            branch_node.setAttribute('size', size)
+            branch_node.setAttribute('hash', hash)
             self.all_tarballs.append(name)
             self.all_versions.append(version)
         except IOError:
@@ -728,9 +753,9 @@ class ConvertToTarballs:
             print ''
             self.not_found.append(id)
             tarball.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
-            source_node.setAttribute('href', 'http://somewhere.over.the.rainbow/where/bluebirds/die')
-            source_node.setAttribute('size', 'HUGE')
-            source_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
+            branch_node.setAttribute('href', 'http://somewhere.over.the.rainbow/where/bluebirds/die')
+            branch_node.setAttribute('size', 'HUGE')
+            branch_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
         if revision and not max_version:
             self.no_max_version.append(id)
         return tarball
@@ -789,7 +814,7 @@ class ConvertToTarballs:
                     save_entry_as_is = True
                 elif node.nodeName == 'include':
                     location = node.attributes.get('href').nodeValue
-                    newname = self.fix_file(location)
+                    newname = self.fix_file(location, include_repositories=False)
                     # Write out the element name.
                     entry = document.createElement(node.nodeName)
                     # Write out the attributes.
@@ -802,6 +827,9 @@ class ConvertToTarballs:
                             entry.setAttribute(attrName, attrValue)
                 else:
                     save_entry_as_is = True
+                    if node.nodeName == 'branch':
+                        if len(node.attributes.keys()) == 0:
+                            continue
 
                 if save_entry_as_is:
                     # Write out the element name.
@@ -821,7 +849,7 @@ class ConvertToTarballs:
     def cleanup(self):
         self.locator.cleanup()
 
-    def fix_file(self, input_filename):
+    def fix_file(self, input_filename, include_repositories=True):
         newname = re.sub(r'^([-a-z]+?)(?:-[0-9\.]*)?(.modules)$',
                          r'\1-' + self.version + r'\2',
                          input_filename)
@@ -839,7 +867,6 @@ class ConvertToTarballs:
                 sys.stderr.write('Cannot proceed; would overwrite versions\n')
                 sys.exit(1)
 
-        print input_filename
         old_document = minidom.parse(os.path.join(self.sourcedir, input_filename))
         oldRoot = old_document.documentElement
 
@@ -848,6 +875,9 @@ class ConvertToTarballs:
         new_document.appendChild(newRoot)
 
         self._walk(oldRoot, newRoot, new_document)
+        if include_repositories:
+            for repo in self.known_repositories_nodes:
+                newRoot.appendChild(repo)
 
         if not self.versions_only:
             newfile = file(newname, 'w+')
