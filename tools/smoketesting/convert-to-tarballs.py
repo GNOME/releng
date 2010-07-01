@@ -752,8 +752,9 @@ class ConvertToTarballs:
             print '**************************************************'
             print ''
             self.not_found.append(id)
-            tarball.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
-            branch_node.setAttribute('href', 'http://somewhere.over.the.rainbow/where/bluebirds/die')
+            branch_node.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
+            branch_node.setAttribute('repo', 'http://somewhere.over.the.rainbow/')
+            branch_node.setAttribute('module', 'where/bluebirds/die')
             branch_node.setAttribute('size', 'HUGE')
             branch_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
         if revision and not max_version:
