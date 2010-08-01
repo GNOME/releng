@@ -1,7 +1,7 @@
 yearweek:201013
 stable:2.30
 unstable:2.31
-newstable:3.0
+newstable:2.32
 -6:modules:proposals-start
 0:release:stable.0 vuntz
 4:release:stable.1 fredp

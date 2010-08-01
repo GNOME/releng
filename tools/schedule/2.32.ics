@@ -807,22 +807,22 @@ DTEND:20100927T235959Z
 CLASS:PUBLIC
 CREATED:20100331T162128
 DESCRIPTION:Tarballs are due on 2010-09-27 before 23:59 UTC for the GNOME\
- n3.0.0 newstable release\, which will be delivered on Wednesday.\nModules 
- which were proposed for inclusion should try to follow the unstable\nsched
- ule so everyone can test them.\n\nPlease make sure that your tarballs will
-  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
- ill probably be too late to get\nin 3.0.0. If you are not able to make a t
- arball before this deadline or\nif you think you'll be late\, please send 
- a mail to the release team and\nwe'll find someone to roll the tarball for
-  you!
+ n2.32.0 newstable release\, which will be delivered on Wednesday.\nModules 
+  which were proposed for inclusion should try to follow the unstable\nsche
+ dule so everyone can test them.\n\nPlease make sure that your tarballs wil
+ l be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that 
+ will probably be too late to get\nin 2.32.0. If you are not able to make a
+  tarball before this deadline or\nif you think you'll be late\, please sen
+ d a mail to the release team and\nwe'll find someone to roll the tarball f
+ or you!
 DTSTAMP:20100331T162128
 LAST-MODIFIED:20100331T162128
 SEQUENCE:1
-SUMMARY:GNOME 3.0.0 newstable tarballs due
+SUMMARY:GNOME 2.32.0 newstable tarballs due
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:GNOME 3.0.0 newstable tarballs due
+DESCRIPTION:GNOME 2.32.0 newstable tarballs due
 TRIGGER;VALUE=DATE-TIME:20100924T230000Z
 END:VALARM
 END:VEVENT
@@ -851,15 +851,15 @@ DTSTART:20100929T230000Z
 DTEND:20100929T235959Z
 CLASS:PUBLIC
 CREATED:20100331T162128
-DESCRIPTION:GNOME 3.0.0 newstable release
+DESCRIPTION:GNOME 2.32.0 newstable release
 DTSTAMP:20100331T162128
 LAST-MODIFIED:20100331T162128
 SEQUENCE:1
-SUMMARY:GNOME 3.0.0 newstable release
+SUMMARY:GNOME 2.32.0 newstable release
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:GNOME 3.0.0 newstable release
+DESCRIPTION:GNOME 2.32.0 newstable release
 TRIGGER;VALUE=DATE-TIME:20100929T220000Z
 END:VALARM
 END:VEVENT
@@ -870,22 +870,22 @@ DTEND:20101025T235959Z
 CLASS:PUBLIC
 CREATED:20100331T162128
 DESCRIPTION:Tarballs are due on 2010-10-25 before 23:59 UTC for the GNOME\
- n3.0.1 newstable release\, which will be delivered on Wednesday.\nModules 
- which were proposed for inclusion should try to follow the unstable\nsched
- ule so everyone can test them.\n\nPlease make sure that your tarballs will
-  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
- ill probably be too late to get\nin 3.0.1. If you are not able to make a t
- arball before this deadline or\nif you think you'll be late\, please send 
- a mail to the release team and\nwe'll find someone to roll the tarball for
-  you!
+ n2.32.1 newstable release\, which will be delivered on Wednesday.\nModules
+  which were proposed for inclusion should try to follow the unstable\nsche
+ dule so everyone can test them.\n\nPlease make sure that your tarballs wil
+ l be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that 
+ will probably be too late to get\nin 2.32.1. If you are not able to make a
+  tarball before this deadline or\nif you think you'll be late\, please sen
+ d a mail to the release team and\nwe'll find someone to roll the tarball f
+ or you!
 DTSTAMP:20100331T162128
 LAST-MODIFIED:20100331T162128
 SEQUENCE:1
-SUMMARY:GNOME 3.0.1 newstable tarballs due
+SUMMARY:GNOME 2.32.1 newstable tarballs due
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:GNOME 3.0.1 newstable tarballs due
+DESCRIPTION:GNOME 2.32.1 newstable tarballs due
 TRIGGER;VALUE=DATE-TIME:20101022T230000Z
 END:VALARM
 END:VEVENT
@@ -895,15 +895,15 @@ DTSTART:20101027T230000Z
 DTEND:20101027T235959Z
 CLASS:PUBLIC
 CREATED:20100331T162128
-DESCRIPTION:GNOME 3.0.1 newstable release
+DESCRIPTION:GNOME 2.32.1 newstable release
 DTSTAMP:20100331T162128
 LAST-MODIFIED:20100331T162128
 SEQUENCE:1
-SUMMARY:GNOME 3.0.1 newstable release
+SUMMARY:GNOME 2.32.1 newstable release
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:GNOME 3.0.1 newstable release
+DESCRIPTION:GNOME 2.32.1 newstable release
 TRIGGER;VALUE=DATE-TIME:20101027T220000Z
 END:VALARM
 END:VEVENT
