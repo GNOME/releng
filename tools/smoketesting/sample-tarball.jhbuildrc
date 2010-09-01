@@ -6,7 +6,7 @@
 # what module set should be used.  The default at the moment is 'gnome28',
 # but it can be any of the files in the modulesets directory, or even
 # the URL of a module set file on a web server.
-moduleset = 'gnome-2.31.6'
+moduleset = 'gnome-2.31.91'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -26,7 +26,7 @@ else:
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc --disable-introspection'
+autogenargs='--disable-static --disable-gtk-doc'
 
 # set CFLAGS:
 os.environ['CFLAGS'] = '-g -O2'
