@@ -28,7 +28,6 @@ desktop:at-spi2-atk:0.3.92:
 desktop:at-spi2-core:0.3.92:
 desktop:brasero:2.31.92:
 desktop:bug-buddy:2.31.92:
-desktop:caribou:0.1.5:
 desktop:cheese:2.31.92:
 desktop:dasher:4.11:
 desktop:dconf:0.5.1:
@@ -74,7 +73,6 @@ desktop:gnome-screensaver:2.30.0:
 desktop:gnome-session:2.31.6:
 desktop:gnome-settings-daemon:2.31.92:
 desktop:gnome-sharp:2.24.1:
-desktop:gnome-shell:2.31.5:
 desktop:gnome-speech:0.4.25:
 desktop:gnome-system-monitor:2.28.1:
 desktop:gnome-system-tools:2.31.92:
@@ -84,6 +82,7 @@ desktop:gnome-user-docs:2.30.1:
 desktop:gnome-user-share:2.30.0:
 desktop:gnome-utils:2.31.1:
 desktop:gobject-introspection:0.9.6:
+desktop:gok:2.30.0:
 desktop:gst-plugins-base:0.10.30:
 desktop:gst-plugins-good:0.10.25:
 desktop:gstreamer:0.10.30:
@@ -106,7 +105,6 @@ desktop:libsoup:2.31.92:
 desktop:libwnck:2.30.4:
 desktop:metacity:2.30.2:
 desktop:mousetweaks:2.31.92:
-desktop:mutter:2.31.5:
 desktop:nautilus:2.31.92:
 desktop:nautilus-sendto:2.31.90:
 desktop:orca:2.31.92:
@@ -170,13 +168,13 @@ bindings:seed:2.31.91:js
 bindings:gtk-sharp:2.12.10:mono
 
 # Perl
-bindings:Glib:1.223:perl
+bindings:Glib:1.222:perl
 bindings:Gnome2-Canvas:1.002:perl
-bindings:Gnome2-GConf:1.043:perl
+bindings:Gnome2-GConf:1.044:perl
 bindings:Gnome2-VFS:1.081:perl
 bindings:Gnome2:1.042:perl
 bindings:Gtk2-GladeXML:1.007:perl
-bindings:Gtk2:1.222:perl
+bindings:Gtk2:1.221:perl
 bindings:Pango:1.221:perl
 
 # Python
