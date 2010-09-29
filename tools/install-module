@@ -123,7 +123,7 @@ if [ -z $UNATTENDED ]; then
 	echo -n "Install $MODULE? [Y/n] "
 	read CONTINUE
 	# Continue if empty or response starts with y -> cute, huh?
-	if [ -z $CONTINUE ] || echo $CONTINUE | grep -qi ^y; then : ; else
+	if [ -z "$CONTINUE" ] || echo $CONTINUE | grep -qi ^y; then : ; else
 		echo
 		echo "Module installation cancelled. Please report any problems with this"
 		echo "script to gnome-sysadmin@gnome.org. Thanks."
