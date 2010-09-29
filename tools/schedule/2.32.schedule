@@ -26,9 +26,9 @@ newstable:2.32
 20:release:beta.90 fredp
 22:freeze:string
 22:release:beta.91 fcrozat
-24:release:rc.92
+24:release:rc.92 vuntz
 24:freeze:hard-code
-26:release:newstable.0
+26:release:newstable.0 vuntz
 26:freeze:hard-code-end
 30:release:newstable.1
 

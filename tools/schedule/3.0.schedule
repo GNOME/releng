@@ -3,17 +3,17 @@ stable:2.32
 unstable:2.91
 newstable:3.0
 0:modules:proposals-start
-0:release:stable.0
-1:release:unstable.0
-3:release:unstable.1
+0:release:stable.0 vuntz
+1:release:unstable.0 mclasen
+3:release:unstable.1 lucasr
 4:modules:proposals-end
 5:modules:discussion
 6:modules:decision
 6:freeze:module
-6:release:unstable.2
-7:release:stable.1
-9:release:unstable.3
-12:release:unstable.4
+6:release:unstable.2 mclasen
+7:release:stable.1 vuntz
+9:release:unstable.3 lucasr
+12:release:unstable.4 vuntz
 15:freeze:string-announcement
 15:freeze:ui-announcement
 15:release:unstable.5
