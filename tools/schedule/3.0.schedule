@@ -16,19 +16,19 @@ newstable:3.0
 12:release:unstable.4 vuntz
 15:freeze:string-announcement
 15:freeze:ui-announcement
-15:release:unstable.5
+15:release:unstable.5 vuntz
 18:freeze:api
 18:freeze:feature2
-18:release:unstable.6
+18:release:unstable.6 fredp
 19:misc:api-doc
 19:misc:release-notes-start
 21:freeze:ui
-21:release:beta.90
+21:release:beta.90 lucasr
 23:freeze:string
 23:release:beta.91
-25:release:rc.92
+25:release:rc.92 fredp
 25:freeze:hard-code
-27:release:newstable.0
+27:release:newstable.0 vuntz
 27:freeze:hard-code-end
 30:release:newstable.1
 
