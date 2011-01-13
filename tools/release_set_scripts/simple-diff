@@ -41,7 +41,7 @@ majmin() {
 if [ $# -eq 2 ]; then
   MAJMIN1=$(majmin $1)
   MAJMIN2=$(majmin $2)
-  SUITES="platform desktop bindings admin devtools mobile"
+  SUITES="core apps"
 
   for suite in $SUITES; do
     $curdir/release-diff $UNIQUE $FTPROOT/$suite/$MAJMIN1/$1/sources \
