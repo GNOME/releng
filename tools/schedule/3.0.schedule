@@ -25,10 +25,10 @@ newstable:3.0
 21:freeze:ui
 21:release:beta.90 lucasr
 23:freeze:string
-23:release:beta.91
+23:release:beta.91 kmaraas
 25:release:rc.92 fredp
 25:freeze:hard-code
 27:release:newstable.0 vuntz
 27:freeze:hard-code-end
-30:release:newstable.1
+30:release:newstable.1 vuntz
 
