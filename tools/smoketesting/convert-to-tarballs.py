@@ -687,10 +687,7 @@ class ConvertToTarballs:
 
     def _create_tarball_repo_node(self, document, href):
         repo = document.createElement('repository')
-        repo.setAttribute('href', href)
-        repo.setAttribute('name', href)
-        repo.setAttribute('type', 'tarball')
-        self.known_repositories_nodes.append(repo)
+        self.known_repositories_nodes.append({'href': href, 'name': href, 'type': 'tarball'})
 
     def _create_tarball_node(self, document, node):
         assert node.nodeName != 'tarball'
@@ -816,7 +813,7 @@ class ConvertToTarballs:
                     save_entry_as_is = True
                 elif node.nodeName == 'include':
                     location = node.attributes.get('href').nodeValue
-                    newname = self.fix_file(location, include_repositories=False)
+                    newname = self.fix_file(location)
                     # Write out the element name.
                     entry = document.createElement(node.nodeName)
                     # Write out the attributes.
@@ -851,7 +848,7 @@ class ConvertToTarballs:
     def cleanup(self):
         self.locator.cleanup()
 
-    def fix_file(self, input_filename, include_repositories=True):
+    def fix_file(self, input_filename):
         newname = re.sub(r'^([-a-z]+?)(?:-[0-9\.]*)?(.modules)$',
                          r'\1-' + self.version + r'\2',
                          input_filename)
@@ -877,9 +874,14 @@ class ConvertToTarballs:
         new_document.appendChild(newRoot)
 
         self._walk(oldRoot, newRoot, new_document)
-        if include_repositories:
-            for repo in self.known_repositories_nodes:
-                newRoot.appendChild(repo)
+
+        # modules converted to tarball nodes may need the definition of some
+        # new repositories, add all of them to the moduleset.
+        for repo_dict in self.known_repositories_nodes:
+            repo = new_document.createElement('repository')
+            for attr in repo_dict.keys():
+                repo.setAttribute(attr, repo_dict.get(attr))
+            newRoot.appendChild(repo)
 
         if not self.versions_only:
             newfile = file(newname, 'w+')
