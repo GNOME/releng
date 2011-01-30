@@ -748,7 +748,8 @@ class ConvertToTarballs:
             print 'Could not find site for ' + id
             print '**************************************************'
             print ''
-            self.not_found.append(id)
+            if not id in self.not_found:
+                self.not_found.append(id)
             branch_node.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
             branch_node.setAttribute('repo', 'http://somewhere.over.the.rainbow/')
             branch_node.setAttribute('module', 'where/bluebirds/die')
@@ -916,14 +917,15 @@ class ConvertToTarballs:
               print 'Could not find site for ' + module
               print '**************************************************'
               print ''
-              self.not_found.append(module)
+              if not module in self.not_found:
+                  self.not_found.append(module)
 
     def show_ignored(self):
         if not len(self.ignored): return
 
         print '**************************************************'
         print 'The following modules were ignored: '
-        print ' '.join(self.ignored)
+        print ' '.join(sorted(self.ignored))
 
     def show_unused_whitelist_modules(self):
         full_whitelist = []
@@ -935,21 +937,21 @@ class ConvertToTarballs:
 
         print '**************************************************'
         print 'Unused whitelisted modules:'
-        print ' '.join(unique)
+        print ' '.join(sorted(unique))
 
     def show_not_found(self):
         if not len(self.not_found): return
 
         print '**************************************************'
         print 'Tarballs were not found for the following modules: '
-        print ' '.join(self.not_found)
+        print ' '.join(sorted(self.not_found))
 
     def show_missing_max_versions(self):
         if not len(self.no_max_version): return
 
         print '**************************************************'
         print 'The following modules lack a max_version in the tarball-conversion file:'
-        print ', '.join(self.no_max_version)
+        print ', '.join(sorted(self.no_max_version))
 
     def create_versions_file(self):
         print '**************************************************'
