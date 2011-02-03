@@ -68,7 +68,6 @@ skip.append('mozilla')
 skip.append('nspr')
 skip.append('nss')
 skip.append('pulseaudio')
-skip.append('WebKit')
 
 # libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
 # about python.  See
