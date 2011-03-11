@@ -13,7 +13,7 @@ core:evince:2.91.90:
 core:evolution-data-server:2.91.91:
 core:gcalctool:5.91.90:
 core:gdk-pixbuf:2.23.1:
-core:gjs:0.7.11:
+core:gjs:0.7.13:
 core:glib:2.28.2:
 core:glib-networking:2.28.0:
 core:glibmm:2.27.95:
@@ -27,7 +27,7 @@ core:gnome-doc-utils:0.20.4:
 core:gnome-icon-theme:2.91.7:
 core:gnome-icon-theme-extras:2.90.7:
 core:gnome-icon-theme-symbolic:2.91.7:
-core:gnome-keyring:2.91.91:
+core:gnome-keyring:2.91.92:
 core:gnome-menus:2.91.91:
 core:gnome-packagekit:2.91.90:
 core:gnome-panel:2.91.91:
@@ -42,7 +42,7 @@ core:gnome-themes-standard:2.91.91:
 core:gnome-user-docs:2.91.91:
 core:gnome-user-share:2.91.6:
 core:gnome-utils:2.91.90:
-core:gobject-introspection:0.10.3:
+core:gobject-introspection:0.10.4:
 core:gsettings-desktop-schemas:2.91.91:
 core:gst-plugins-base:0.10.32:
 core:gst-plugins-good:0.10.28:
@@ -53,7 +53,7 @@ core:gtk-doc:1.17:
 core:gtkmm:2.99.5:
 core:gucharmap:2.33.2:
 core:gvfs:1.7.2:
-core:libgnome-keyring:2.32.0:
+core:libgnome-keyring:2.91.92:
 core:libgnomekbd:2.91.91:
 core:libgtop:2.28.2:
 core:libgweather:2.91.6:
@@ -65,7 +65,7 @@ core:metacity:2.30.3:
 core:mm-common:0.9.2:
 core:mutter:2.91.91:
 core:nautilus:2.91.91:
-core:network-manager-applet:0.8.995:
+core:network-manager-applet:0.8.996:
 core:notification-daemon:0.7.1:
 core:pango:1.28.3:
 core:pangomm:2.27.1:
@@ -73,7 +73,7 @@ core:polkit-gnome:0.101:
 core:pulseaudio:0.9.21:
 core:telepathy-glib:0.13.16:
 core:telepathy-mission-control:5.7.6:
-core:totem:2.91.7:
+core:totem:2.91.91:
 core:totem-pl-parser:2.32.3:
 core:vino:2.99.3:
 core:vte:0.27.90:
@@ -84,7 +84,7 @@ core:zenity:2.91.90:
 ## APPS
 apps:alacarte:0.13.2:
 apps:anjuta:2.91.91.0:
-apps:cheese:2.91.4:
+apps:cheese:2.91.91.1:
 apps:devhelp:2.91.91.2:
 apps:ekiga:3.3.0:
 apps:evolution:2.91.91:
