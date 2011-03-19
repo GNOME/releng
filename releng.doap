@@ -19,5 +19,12 @@
       <gnome:userid>kmaraas</gnome:userid>
     </foaf:Person>
   </maintainer>
+  <!-- to test ftpadmin -->
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>testuser</foaf:name>
+      <gnome:userid>testuser</gnome:userid>
+    </foaf:Person>
+  </maintainer>
 
 </Project>
