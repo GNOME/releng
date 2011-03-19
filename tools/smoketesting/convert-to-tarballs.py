@@ -631,13 +631,31 @@ class TarballLocator:
 
         location, files = locator(u, max_version)
 
-        tarballs = None
+        basenames = set()
+        tarballs = []
         if location.find("ftp.debian.org") != -1:
-            tarballs = [file for file in files if file.endswith('orig.tar.gz')]
-        if not tarballs:
-            tarballs = [file for file in files if file.endswith('.tar.bz2')]
-        if not tarballs:
-            tarballs = [file for file in files if file.endswith('.tar.gz')]
+            extensions = [
+                '.tar.xz',
+                '.tar.bz2',
+                '.tar.gz',
+            ]
+        else:
+            extensions = [
+                '.tar.xz',
+                'orig.tar.bz2',
+                '.tar.bz2',
+                'orig.tar.gz',
+                '.tar.gz',
+            ]
+
+
+        # Has to be checked by extension first; we prefer .tar.xz over .tar.bz2 and .tar.gz
+        for ext in extensions:
+            for file in files:
+                basename = file[:-len(ext)] # only valid when file ends with ext
+                if file.endswith(ext) and basename not in basenames:
+                    basenames.add(basename)
+                    tarballs.append(file)
 
         # Only include tarballs for the given module
         tarballs = [tarball for tarball in tarballs if modulename in tarball]
