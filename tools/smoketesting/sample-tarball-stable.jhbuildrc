@@ -3,14 +3,17 @@
 # edit this file to match your settings, backup your ~/.jhbuildrc, and then
 # copy this there
 
-# what module set should be used.  The default at the moment is 'gnome28',
-# but it can be any of the files in the modulesets directory, or even
-# the URL of a module set file on a web server.
-moduleset = 'gnome-2.32.1'
+# what module set should be used.  The default at the moment is
+# 'gnome-suites-core-3.0', but it can be any of the files in the
+# modulesets directory, or even the URL of a module set file on
+# a web server.
+moduleset = 'gnome-suites-core-3.0.0'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
-modules = [ 'meta-gnome-desktop' ]
+modules = [ 'meta-gnome-core', 'meta-gnome-apps-tested' ]
+
+tarballdir = os.path.join(os.environ['HOME'], 'releases', 'checkoutroot')
 
 # what directory should the source be checked out to?
 checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
@@ -26,7 +29,7 @@ else:
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc '
+autogenargs='--disable-static --disable-gtk-doc'
 
 # set CFLAGS:
 os.environ['CFLAGS'] = '-g -O2'
@@ -84,5 +87,6 @@ skip.append('evolution-exchange')
 
 # jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
 # tell it to do so
-addpath('PKG_CONFIG_PATH', os.path.join(system_libdir, 'pkgconfig'))
+addpath('PKG_CONFIG_PATH', '/usr/lib/pkgconfig')
+addpath('PKG_CONFIG_PATH', '/usr/lib64/pkgconfig')
 addpath('PKG_CONFIG_PATH', '/usr/share/pkgconfig')
