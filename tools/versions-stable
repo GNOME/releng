@@ -20,7 +20,7 @@ core:glib-networking:2.28.5:
 core:glibmm:2.28.0:
 core:gnome-backgrounds:3.0.0:
 core:gnome-bluetooth:3.0.0:
-core:gnome-control-center:3.0.0:
+core:gnome-control-center:3.0.0.1:
 core:gnome-desktop:3.0.0:
 core:gnome-disk-utility:3.0.0:
 core:gnome-doc-utils:0.20.5:
@@ -30,11 +30,11 @@ core:gnome-icon-theme-symbolic:3.0.0:
 core:gnome-keyring:3.0.0:
 core:gnome-menus:3.0.0:
 core:gnome-packagekit:3.0.0:
-core:gnome-panel:3.0.0:
+core:gnome-panel:3.0.0.1:
 core:gnome-power-manager:3.0.0:
 core:gnome-screensaver:3.0.0:
 core:gnome-session:3.0.0:
-core:gnome-settings-daemon:3.0.0:
+core:gnome-settings-daemon:3.0.0.1:
 core:gnome-shell:3.0.0.1:
 core:gnome-system-monitor:3.0.0:
 core:gnome-terminal:3.0.0:
@@ -50,7 +50,7 @@ core:gstreamer:0.10.32:
 core:gtk+:3.0.8:
 core:gtk+:2.24.4:
 core:gtk-doc:1.17:
-core:gtkmm:2.99.8:
+core:gtkmm:3.0.0:
 core:gucharmap:3.0.0:
 core:gvfs:1.8.0:
 core:libgnome-keyring:3.0.0:
