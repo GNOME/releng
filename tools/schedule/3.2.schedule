@@ -4,18 +4,18 @@ unstable:3.1
 newstable:3.2
 #0:modules:proposals-start
 0:release:stable.0
-3:release:stable.1
-5:release:unstable.1
+3:release:stable.1 fredp
+5:release:unstable.1 mclasen
 #4:modules:proposals-end
 #5:modules:discussion
 #6:modules:decision
 #6:freeze:module
-7:release:stable.2
-10:release:unstable.2
-13:release:unstable.3
+7:release:stable.2 jjardon-fredp
+10:release:unstable.2 API-kmaraas
+13:release:unstable.3 mclasen
 16:freeze:string-announcement
 16:freeze:ui-announcement
-16:release:unstable.4
+16:release:unstable.4 walters-mclasen
 19:freeze:api
 19:freeze:feature2
 19:release:unstable.5
