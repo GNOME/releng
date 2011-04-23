@@ -19,8 +19,8 @@ newstable:2.22
 16:modules:decision
 17:release:unstable.5
 17:freeze:feature
-18:misc:api-doc
-18:misc:release-notes-start
+18:task:api-doc
+18:task:release-notes-start
 19:release:beta.90
 19:freeze:ui
 21:release:beta.91

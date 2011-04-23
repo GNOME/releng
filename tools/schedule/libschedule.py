@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import datetime
+import time
 import re
 import string
 import os
@@ -9,12 +10,13 @@ import sys
 
 class GnomeReleaseEvent:
     definitions = {}
+    categories = ["release", "tarball", "freeze", "modules", "task", "conference", "hackfest"]
 
     def __init__ (self, date, week, category, detail, version=None, assignee=None):
         self.date = date
         self.rel_week = week
         self.category = category
-        self.category_index = ["release", "tarball", "freeze", "modules", "misc"].index (category)
+        self.category_index = self.categories.index(category)
         self.detail = detail
         self.version = version
         self.assignee = assignee
@@ -39,10 +41,12 @@ class GnomeReleaseEvent:
                     'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[http://mail.gnome.org/mailman/listinfo/release-team|release-team]]. Translation and documentation can continue.',
                     'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.'
                 },
-                'misc': {
+                'task': {
                     'api-doc': '[[http://live.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df|New APIs must be fully documented]]',
                     'release-notes-start': '[[http://live.gnome.org/ReleaseNotes|Writing of release notes begins]]'
-                }
+                },
+                'conference': '$detail conference',
+                'hackfast': '$detail hackfest',
         }
         self.summary_template = {
                 'tarball': 'GNOME $version $detail tarballs due',
@@ -65,10 +69,12 @@ class GnomeReleaseEvent:
                     'hard-code': 'Hard Code Freeze',
                     'hard-code-end': 'Hard Code Freeze ends'
                 },
-                'misc': {
+                'task': {
                     'api-doc': 'New APIs must be fully documented',
                     'release-notes-start': 'Writing of release notes begins'
-                }
+                },
+                'conference': '$detail conference',
+                'hackfast': '$detail hackfest',
         }
         self.description_template = {
                 'tarball': """Tarballs are due on $date before 23:59 UTC for the GNOME
@@ -108,7 +114,7 @@ For the string freezes explained, and to see which kind of changes are not cover
                     'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
                     'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
                 },
-                'misc': {
+                'task': {
                     'api-doc': 'New APIs must be fully documented',
                     'release-notes-start': 'Writing of release notes begins'
                 }
@@ -119,7 +125,7 @@ For the string freezes explained, and to see which kind of changes are not cover
         if hasattr(self, item):
             return getattr(self, item)
         else:
-            return GnomeReleaseEvent.definitions[item]
+            return self.__class__.definitions[item]
 
     def __repr__(self):
         v = self.version
@@ -168,75 +174,78 @@ For the string freezes explained, and to see which kind of changes are not cover
         return text
 
     def __cmp__ (self, other):
-        if self.date < other.date:
-            return -1
-        if self.date > other.date:
-            return 1
-        return self.category_index - other.category_index
+        return cmp(self.date, other.date) or cmp(self.category_index, other.category_index)
 
-def find_date (year, week):
-    guessed = datetime.date (year, week / 4, 1)
-    (iso_y, iso_w, iso_d) = guessed.isocalendar ()
-    found = guessed - datetime.timedelta ((iso_d - 1) + (iso_w - week) * 7)
-    return found
+def find_date(year, week):
+    guessed = datetime.date(year, 2, 1)
+    (iso_y, iso_w, iso_d) = guessed.isocalendar()
+    return guessed - datetime.timedelta((iso_d - 1) + (iso_w - week) * 7)
 
-def parse_file (filename):
+def line_input (file):
+    for line in file:
+        if line[-1] == '\n':
+            yield line[:-1]
+        else:
+            yield line
+
+def parse_file (filename, cls=GnomeReleaseEvent):
     try:
         file = open(filename, 'r')
     except IOError:
         file = open(os.path.join(os.path.abspath(sys.path[0] or os.curdir), filename), 'r')
-    lines = file.readlines ()
-    file.close ()
 
     events = []
     start = None
 
-    definitions = GnomeReleaseEvent.definitions
+    definitions = cls.definitions
 
-    for line in lines:
+    for line in line_input(file):
         # ignore comments & empty lines
-        if line[0] == "#" or len (line) == 1:
+        if line == '' or line[0] == "#":
             continue
 
         if not ':' in line:
             print "Error: line '%s' is not parsable" % line[0:-1]
             return None
 
-        info = [item.lower().strip() for item in line.split(':')]
+        info = [item.strip() for item in line.split(':')]
 
         if len(info) == 2:
-            if info[0] == 'yearweek':
+            if info[0].lower() == 'yearweek':
                 if start:
                     print "Error: more than one start date specified"
                     return None
 
                 year = int(info[1][:4])
                 week = int(info[1][-2:])
-                if year < 2007 or year > 2015:
+                if year < 2007 or year > 2020:
                     print "Error: %s is not a valid year for the start date" % year
                     return None
                 if week > 54:
                     print "Error: %s is not a valid week for the start date" % week
                     return None
-                start = find_date (year, week)
+                start = find_date(year, week)
             else:
-                definitions[info[0]] = info[1]
+                definitions[info[0].lower()] = info[1]
             continue
-        elif len(info) == 3:
+        else:
             if not start or 'unstable' not in definitions or 'stable' not in definitions:
                 print "Error: Need yearweek, stable and unstable definitions before line '%s'" % line[0:-1]
                 return None
 
-            week = int(info[0])
-            category = info[1]
+            if info[0].isdigit():
+                week = int(info[0])
+                if week < -10 or week > 53:
+                    print "Error: %s is not a valid week for an event" % week
+                    return None
+                date = start + datetime.timedelta(week * 7)
+            else:
+                date = datetime.date(*(time.strptime(info[0], '%Y-%m-%d')[0:3]))
+            category = info[1].lower()
             event = info[2]
-            if week < -10 or week > 40:
-                print "Error: %s is not a valid week for an event" % week
-                return None
-            if category not in ["release", "freeze", "modules", "misc"]:
+            if category not in cls.categories:
                 print "Error: %s is not a valid category for an event" % category
                 return None
-            date = start + datetime.timedelta (week * 7)
 
             # Expand event info
             version = None
@@ -258,14 +267,15 @@ def parse_file (filename):
                 return None
 
             if category == 'release':
-                rel_event = GnomeReleaseEvent (date, week, 'tarball', event, version, assignee)
+                rel_event = cls(date, week, 'tarball', event, version, assignee)
                 events.append (rel_event)
                 date = date + datetime.timedelta(2)
 
-            rel_event = GnomeReleaseEvent (date, week, category, event, version, assignee)
+            rel_event = cls(date, week, category, event, version, assignee)
             events.append (rel_event)
             continue
 
+    file.close ()
 
     if not start:
         print "Error: empty data file"
@@ -274,3 +284,14 @@ def parse_file (filename):
     events.sort()
 
     return events
+
+if __name__ == '__main__':
+    d = datetime.date(1980,1,7)
+    end = datetime.date(2020,1,1)
+    adv = datetime.timedelta(7)
+    while d < end:
+        yw = d.isocalendar()[:2]
+        dcalc = find_date(yw[0], yw[1])
+        print yw, dcalc, d, "" if d == dcalc else "WRONG"
+
+        d += adv

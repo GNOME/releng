@@ -20,8 +20,8 @@ newstable:2.30
 17:freeze:api
 18:freeze:feature2
 18:release:unstable.6 fredp
-19:misc:api-doc
-19:misc:release-notes-start
+19:task:api-doc
+19:task:release-notes-start
 20:freeze:ui
 20:release:beta.90 mclasen
 22:freeze:string

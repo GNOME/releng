@@ -19,9 +19,9 @@ newstable:2.32
 15:release:unstable.5 lucasr
 18:freeze:api
 18:freeze:feature2
-18:misc:release-notes-start
+18:task:release-notes-start
 18:release:unstable.6 vuntz
-19:misc:api-doc
+19:task:api-doc
 20:freeze:ui
 20:release:beta.90 fredp
 22:freeze:string
