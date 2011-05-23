@@ -7,7 +7,8 @@
 # 'gnome-suites-core-3.0', but it can be any of the files in the
 # modulesets directory, or even the URL of a module set file on
 # a web server.
-moduleset = 'gnome-apps-2.91.93'
+use_local_modulesets = True
+moduleset = 'gnome-apps-3.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -71,6 +72,8 @@ skip.append('pulseaudio')
 
 # do not build cheese at the moment, as it has an unapproved dependency on mx
 skip.append('cheese')
+skip.append('libxml2')
+skip.append('libxslt')
 
 # libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
 # about python.  See
