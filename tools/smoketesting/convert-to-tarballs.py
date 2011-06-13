@@ -426,8 +426,8 @@ class TarballLocator:
         hashfile = newfile + '.' + self.hash_algo + 'sum'
         if newfile.endswith('gz'):
             flags = 'xfzO'
-        elif newfile.endswith('lzma'):
-            flags = 'xfYO'
+        elif newfile.endswith('xz'):
+            flags = 'xfJO'
         else:
             flags = 'xfjO'
 
