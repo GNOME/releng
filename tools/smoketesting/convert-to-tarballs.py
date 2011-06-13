@@ -67,7 +67,7 @@
 
 import sys, string
 import re
-import optparse
+import argparse
 import os
 import os.path
 from posixpath import join as posixjoin # Handy for URLs
@@ -1019,24 +1019,27 @@ def get_path(filename, path):
 def main(args):
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
 
-    parser = optparse.OptionParser()
-    parser.add_option("-t", "--tarballdir", dest="tarballdir",
-                      help="location of tarballs", metavar="DIR")
-    parser.add_option("-v", "--version", dest="version",
-                      help="GNOME version to build")
-    parser.add_option("-f", "--force", action="store_true", dest="force",
-                      default=False, help="overwrite existing versions and *.modules files")
-    parser.add_option("-c", "--config", dest="config",
-                      help="tarball-conversion config file", metavar="FILE")
-    parser.add_option("-o", "--versions-only", action="store_true", dest="versions_only",
-                      default=False, help="only create a versions file, without downloading the tarballs")
-    parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
-                      default=False, help="only look for files on a local file system")
+    description = "Create tarball modulesets and version file"
+    parser = argparse.ArgumentParser(description=description)
+    parser.add_argument("-t", "--tarballdir", dest="tarballdir",
+                        help="location of tarballs", metavar="DIR")
+    parser.add_argument("-f", "--force", action="store_true", dest="force",
+                        default=False, help="overwrite existing versions and *.modules files")
+    parser.add_argument("-c", "--config", dest="config",
+                        help="tarball-conversion config file", metavar="FILE")
+    parser.add_argument("-o", "--versions-only", action="store_true", dest="versions_only",
+                        default=False, help="only create a versions file, without downloading the tarballs")
+    parser.add_argument("-l", "--local-only", action="store_true", dest="local_only",
+                        default=False, help="only look for files on a local file system")
+    parser.add_argument("-v", "--version", dest="version", required=True,
+                        help="GNOME version to build")
+    parser.add_argument('moduleset', nargs='?',
+                        help='moduleset file to use')
 
     if os.path.exists(os.path.join(os.getcwd(), 'tarballs')):
         parser.set_defaults(tarballdir=os.path.join(os.getcwd(), 'tarballs'))
 
-    (options, args) = parser.parse_args()
+    options = parser.parse_args()
 
     if not options.version:
         parser.print_help()
@@ -1067,8 +1070,8 @@ def main(args):
     jhbuild_dir = get_path('jhbuild.in', (os.path.expanduser('~/src/jhbuild'), '/cvs/jhbuild'))
 
     moduleset = None
-    if len(args):
-        moduleset = args[-1]
+    if options.moduleset:
+        moduleset = options.moduleset
     elif jhbuild_dir:
         # Determine file_location from jhbuild checkoutdir
         if is_stable:
