@@ -541,7 +541,7 @@ class TarballLocator:
             hostkeytype = self.sftp_hosts[hostname].keys()[0]
             hostkey = self.sftp_hosts[hostname][hostkeytype]
             cfg = self.sftp_cfg.lookup(hostname)
-            hostname = cfg.get('hostname', hostname)
+            hostname = cfg.get('hostname', hostname).replace('%h', hostname)
             port = parsed_url.port or cfg.get('port', 22)
             username = parsed_url.username or cfg.get('user')
 
