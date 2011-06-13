@@ -440,7 +440,8 @@ class TarballLocator:
             if not os.path.exists(newfile) or tries != MAX_TRIES:
                 print "Downloading", filename, newfile
                 # one of those options will make Curl resume an existing download
-                cmd = ['curl', '-C', '-', '-#kRfL', '--disable-epsv',  location, '-o', newfile]
+                # speed-limit ensures 1KB/s over 30sec average (in case of connection problems)
+                cmd = ['curl', '-C', '-', '-#kRfL', '--speed-limit', '1024', '--disable-epsv',  location, '-o', newfile]
                 retcode = subprocess.call(cmd)
                 if retcode != 0:
                     # Curl gives an error when an existing file cannot be continued
