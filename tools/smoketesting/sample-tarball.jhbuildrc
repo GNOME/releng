@@ -54,6 +54,13 @@ tarballdir = os.path.join(checkoutroot, 'pkgs')
 # to set things back to normal.
 module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
 
+# Some modules didn't do a new release after some glib GAtomic changes
+module_makeargs['gnome-shell'] = makeargs + 'CFLAGS+="-UG_DISABLE_DEPRECATED"'
+module_makeargs['network-manager-applet'] = makeargs + 'CFLAGS+="-UG_DISABLE_DEPRECATED"'
+
+# I needed to add this in order to compile in my machine
+module_autogenargs['gmp'] = autogenargs + ' ABI=32'
+
 # For those that don't have SDL installed and don't have a webcam, uncomment
 # the following line to skip building ekiga
 
