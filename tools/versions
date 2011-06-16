@@ -1,5 +1,5 @@
 ## CORE
-core:GConf:2.32.3:
+core:GConf:2.32.4:
 core:atk:2.0.1:
 core:atkmm:2.22.5:
 core:brasero:3.0.0:
@@ -70,7 +70,7 @@ core:mutter:3.0.2.1:
 core:nautilus:3.1.2:
 core:network-manager-applet:0.8.9997:
 core:notification-daemon:0.7.1:
-core:pango:1.28.4:
+core:pango:1.29.3:
 core:pangomm:2.28.2:
 core:polkit-gnome:0.101:
 core:pulseaudio:0.9.21:
