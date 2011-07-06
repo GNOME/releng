@@ -78,7 +78,6 @@ skip.append('nss')
 skip.append('pulseaudio')
 
 # do not build cheese at the moment, as it has an unapproved dependency on mx
-skip.append('cheese')
 skip.append('libxml2')
 skip.append('libxslt')
 
