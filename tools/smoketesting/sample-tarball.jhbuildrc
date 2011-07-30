@@ -69,9 +69,3 @@ skip.append('libxslt')
 # require ldap development libraries, but I have no exchange server to
 # test with anyway.  So I just skip it.
 skip.append('evolution-exchange')
-
-# jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
-# tell it to do so
-addpath('PKG_CONFIG_PATH', '/usr/lib/pkgconfig')
-addpath('PKG_CONFIG_PATH', '/usr/lib64/pkgconfig')
-addpath('PKG_CONFIG_PATH', '/usr/share/pkgconfig')
