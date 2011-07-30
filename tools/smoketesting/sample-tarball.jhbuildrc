@@ -24,7 +24,7 @@ prefix = os.path.join(checkoutroot, 'install')
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc'
+autogenargs='--disable-static --disable-gtk-doc --disable-maintainer-mode'
 
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
