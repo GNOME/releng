@@ -34,24 +34,6 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 
-########## Workarounds ##########
-
-# Totem seems to stupidly try to install its plugin under /usr even if that's
-# not $PREFIX.  So, we'll disable the mozilla plugin.  Those wanting to build
-# it can remove this module_autogenargs comamnd and run
-#   chmod a+w /usr/lib/mozilla-1.7.12/plugins
-# before the build.  When the build is finished, you can run
-#   chmod a-w /usr/lib/mozilla-1.7.12/plugins
-# to set things back to normal.
-module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
-
-# Some modules didn't do a new release after some glib GAtomic changes
-module_makeargs['gnome-shell'] = makeargs + 'CFLAGS+="-UG_DISABLE_DEPRECATED"'
-module_makeargs['network-manager-applet'] = makeargs + 'CFLAGS+="-UG_DISABLE_DEPRECATED"'
-
-# I needed to add this in order to compile in my machine
-module_autogenargs['gmp'] = autogenargs + ' ABI=32'
-
 # For those that don't have SDL installed and don't have a webcam, uncomment
 # the following line to skip building ekiga
 
