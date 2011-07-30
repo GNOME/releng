@@ -33,39 +33,3 @@ autogenargs='--disable-static --disable-gtk-doc'
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
-
-# For those that don't have SDL installed and don't have a webcam, uncomment
-# the following line to skip building ekiga
-
-# firefox-1.5.0.6 won't build; firefox-1.5.0.7 doesn't correctly install
-# ssl.h, but the firefox-devel packages (+necessary dependencies) from
-# my distro work.  *shrug*
-skip.append('firefox')
-
-# we're better off using the distro packages for mozilla/firefox
-skip.append('mozilla')
-
-# do not build things that the distro can provide
-skip.append('nspr')
-skip.append('nss')
-skip.append('pulseaudio')
-
-# do not build cheese at the moment, as it has an unapproved dependency on mx
-skip.append('libxml2')
-skip.append('libxslt')
-
-# libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
-# about python.  See
-# http://mail.gnome.org/archives/garnome-list/2005-July/msg00199.html
-#
-# WARNING: This will probably fail if you don't do a jhbuild bootstrap
-# first to make sure that jhbuild installs python-2.4 in the prefix
-#
-##os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
-##os.environ['PYTHONPATH'] = os.path.join(libdir, 'python2.4/site-packages')
-
-# evolution-exchange requires evolution-data-server to be configured
-# with ldap enabled, which it isn't by default.  That would also
-# require ldap development libraries, but I have no exchange server to
-# test with anyway.  So I just skip it.
-skip.append('evolution-exchange')
