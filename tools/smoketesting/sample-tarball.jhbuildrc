@@ -30,13 +30,6 @@ else:
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc'
 
-# set CFLAGS:
-os.environ['CFLAGS'] = '-g -O2'
-# set only if you have more than one CPU
-# might break some builds
-#makeargs = '-j2'
-
-
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
