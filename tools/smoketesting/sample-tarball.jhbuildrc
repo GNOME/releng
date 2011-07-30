@@ -21,10 +21,6 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
-if os.path.exists('/usr/lib64'):
-  libdir = os.path.join(prefix, 'lib64')
-else:
-  libdir = os.path.join(prefix, 'lib')
 
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
