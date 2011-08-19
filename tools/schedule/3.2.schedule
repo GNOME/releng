@@ -19,10 +19,10 @@ newstable:3.2
 19:freeze:api
 19:freeze:feature2
 19:release:unstable.5
-20:task:api-doc
-20:task:release-notes-start
-20:freeze:ui
-20:release:beta.90
+21:task:api-doc
+21:task:release-notes-start
+21:freeze:ui
+21:release:beta.90
 22:freeze:string
 22:release:beta.91
 24:release:rc.92
