@@ -24,12 +24,12 @@ newstable:3.2
 21:freeze:ui
 21:release:beta.90
 22:freeze:string
-22:release:beta.91
-24:release:rc.92
+22:release:beta.91 jjardon
+24:release:rc.92 fredp
 24:freeze:hard-code
-25:release:newstable.0
+25:release:newstable.0 mclasen
 25:freeze:hard-code-end
-28:release:newstable.1
+28:release:newstable.1 elleuca
 2011-05-09:hackfest:ATK Hackfest:https://live.gnome.org/Hackfests/ATK2011
 2011-05-10:hackfest:ATK Hackfest:https://live.gnome.org/Hackfests/ATK2011
 2011-05-11:hackfest:ATK Hackfest:https://live.gnome.org/Hackfests/ATK2011
