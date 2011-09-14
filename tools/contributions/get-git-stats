@@ -1,0 +1,56 @@
+#!/bin/sh
+# vim: set ts=4:
+
+SINCE="2011-04-06"
+
+statdir=`pwd`
+
+mkdir -p top-10
+
+> "$statdir"/all-authors
+
+echo -e "module\tcommits\tcommitters\tauthors"
+
+for d in ~/src/*; do
+
+	if [ ! -d "$d" ]; then
+		continue
+	fi
+
+	# check it is from gnome
+	cd "$d"
+	git config --get remote.origin.url | grep -q gnome || continue
+
+	module=$(basename "$d")
+
+	# Total number of commits:
+	commits=$(git log --after=$SINCE --pretty=oneline | wc -l)
+
+	if [ "$commits" == "0" ]; then
+		committers=0
+		authors=0
+	else
+
+			# Check how many different committers for that module exist:
+			# note: This is case-specific
+			committers=$(git log --after=$SINCE --committer='' --pretty=format:"%ce" | sort -u | wc -l)
+
+			# Check how many different authors for that module exist:
+			# note: This is case-specific
+			authors=$(git log --after=$SINCE --author='' --pretty=format:"%ae" | sort -u | wc -l)
+
+			# Get 10 most active authors for all the commits, sorted by number of commits:
+			git log --after=$SINCE --author='' --pretty=format:"%ae" | sort | uniq -c | sort -rn | head -n 10 > "$statdir/top-10/$module.csv"
+
+			git log --after=$SINCE --author='' --pretty=format:"%ae" >> "$statdir"/all-authors
+
+	fi
+
+	echo -e "$module\t$commits\t$committers\t$authors"
+done
+
+cd "$statdir"
+
+authors=$(cat all-authors | sort -u | wc -l)
+echo -e "TOTAL\t?\t?\t$authors"
+
