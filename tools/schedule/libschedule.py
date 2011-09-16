@@ -46,7 +46,7 @@ class GnomeReleaseEvent:
                     'release-notes-start': '[[http://live.gnome.org/ReleaseNotes|Writing of release notes begins]]'
                 },
                 'conference': '$detail conference',
-                'hackfast': '$detail hackfest',
+                'hackfest': '$detail hackfest',
         }
         self.summary_template = {
                 'tarball': 'GNOME $version $detail tarballs due',
@@ -74,7 +74,7 @@ class GnomeReleaseEvent:
                     'release-notes-start': 'Writing of release notes begins'
                 },
                 'conference': '$detail conference',
-                'hackfast': '$detail hackfest',
+                'hackfest': '$detail hackfest',
         }
         self.description_template = {
                 'tarball': """Tarballs are due on $date before 23:59 UTC for the GNOME
