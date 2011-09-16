@@ -88,10 +88,10 @@ in $version. If you are not able to make a tarball before this deadline or
 if you think you'll be late, please send a mail to the release team and
 we'll find someone to roll the tarball for you!""",
                 'modules': {
-                    'proposals-start': 'New module proposal start',
-                    'proposals-end': 'New module proposal end',
-                    'discussion': 'Module inclusion discussion heats up',
-                    'decision': 'Release Team decides on new modules'
+                    'proposals-start': 'New feature proposals period start',
+                    'proposals-end': 'New feature proposals period end',
+                    'discussion': 'Feature proposals discussion heats up',
+                    'decision': 'Release Team decides on new features'
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
