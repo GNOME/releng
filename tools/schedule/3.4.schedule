@@ -1,0 +1,37 @@
+yearweek:201139
+stable:3.2
+unstable:3.3
+newstable:3.4
+0:modules:proposals-start
+0:release:stable.0 mclasen
+2011-10-08:conference:Montreal Summit:https://live.gnome.org/Montreal2011
+2011-10-09:conference:Montreal Summit:https://live.gnome.org/Montreal2011
+2011-10-10:conference:Montreal Summit:https://live.gnome.org/Montreal2011
+3:release:stable.1 elleuca
+4:release:unstable.1 
+4:modules:proposals-end
+5:modules:discussion
+6:modules:decision
+#6:freeze:module
+7:release:stable.2 
+8:release:unstable.2 
+12:release:unstable.3 
+16:freeze:string-announcement
+16:freeze:ui-announcement
+16:release:unstable.4 
+19:freeze:api
+19:freeze:feature2
+19:release:unstable.5
+21:task:api-doc
+21:task:release-notes-start
+2012-02-17:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
+2012-02-18:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
+21:freeze:ui
+21:release:beta.90
+23:freeze:string
+23:release:beta.91
+25:release:rc.92
+25:freeze:hard-code
+26:release:newstable.0
+26:freeze:hard-code-end
+29:release:newstable.1
