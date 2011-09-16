@@ -2,16 +2,16 @@ yearweek:201139
 stable:3.2
 unstable:3.3
 newstable:3.4
-0:modules:proposals-start
+0:features:proposals-start
 0:release:stable.0 mclasen
 2011-10-08:conference:Montreal Summit:https://live.gnome.org/Montreal2011
 2011-10-09:conference:Montreal Summit:https://live.gnome.org/Montreal2011
 2011-10-10:conference:Montreal Summit:https://live.gnome.org/Montreal2011
 3:release:stable.1 elleuca
 4:release:unstable.1 
-4:modules:proposals-end
-5:modules:discussion
-6:modules:decision
+4:features:proposals-end
+5:features:discussion
+6:features:decision
 #6:freeze:module
 7:release:stable.2 
 8:release:unstable.2 

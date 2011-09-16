@@ -10,7 +10,7 @@ import sys
 
 class GnomeReleaseEvent:
     definitions = {}
-    categories = ["release", "tarball", "freeze", "modules", "task", "conference", "hackfest"]
+    categories = ["release", "tarball", "freeze", "modules", "features", "task", "conference", "hackfest"]
 
     def __init__ (self, date, week, category, detail, version=None, assignee=None):
         self.date = date
@@ -56,6 +56,12 @@ class GnomeReleaseEvent:
                     'discussion': 'Module inclusion discussion heats up',
                     'decision': 'Release Team decides on new modules'
                 },
+                'features': {
+                    'proposals-start': 'New feature proposals period start',
+                    'proposals-end': 'New feature proposals period end',
+                    'discussion': 'Feature proposals discussion heats up',
+                    'decision': 'Release Team decides on new features'
+                },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
                     'string-announcement': 'String Change Announcement Period',
@@ -88,6 +94,12 @@ in $version. If you are not able to make a tarball before this deadline or
 if you think you'll be late, please send a mail to the release team and
 we'll find someone to roll the tarball for you!""",
                 'modules': {
+                    'proposals-start': 'New module proposal start',
+                    'proposals-end': 'New module proposal end',
+                    'discussion': 'Module proposals discussion heats up',
+                    'decision': 'Release Team decides on new modules'
+                },
+                'features': {
                     'proposals-start': 'New feature proposals period start',
                     'proposals-end': 'New feature proposals period end',
                     'discussion': 'Feature proposals discussion heats up',
