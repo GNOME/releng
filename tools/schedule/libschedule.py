@@ -23,8 +23,8 @@ class GnomeReleaseEvent:
         self.wiki_template = {
                 'tarball': 'GNOME $version $detail tarballs due',
                 'modules': {
-                    'proposals-start': 'Start of new feature proposals period',
-                    'proposals-end': 'End of new feature proposals period',
+                    'proposals-start': 'Start of new feature proposals period for $newstable',
+                    'proposals-end': 'End of new feature proposals period for $newstable',
                     'discussion': 'Feature proposals discussion heats up.',
                     'decision': '[[http://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new feature proposals for $newstable with community input up to this point.'
                 },
