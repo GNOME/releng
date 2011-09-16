@@ -63,3 +63,7 @@ committers=$(cat all-committers | sort -u | wc -l)
 authors=$(cat all-authors | sort -u | wc -l)
 echo -e "TOTAL\t$commits\t$committers\t$authors"
 
+sort "$statdir"/all-authors | uniq -c | sort -rn > "$statdir/authors.csv"
+sort "$statdir"/all-committers | uniq -c | sort -rn > "$statdir/committers.csv"
+
+rm -f "$statdir/authors" "$statdir/committers"
