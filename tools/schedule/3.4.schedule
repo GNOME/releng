@@ -20,7 +20,7 @@ newstable:3.4
 16:freeze:ui-announcement
 16:release:unstable.4 
 19:freeze:api
-19:freeze:feature2
+#19:freeze:feature2
 19:release:unstable.5
 21:task:api-doc
 21:task:release-notes-start
