@@ -1,5 +1,5 @@
 #!/bin/sh
-# vim: set ts=4:
+# vim: set ts=4 sw=4:
 
 SINCE="2011-04-06"
 
@@ -37,13 +37,17 @@ for d in ~/src/*; do
 			# note: This is case-specific
 
 			git log --after=$SINCE --committer='' --pretty=format:"%ce" > "$statdir"/committers
+			if [ "$(tail -c 1 "$statdir"/committers | od -t d1 -A n)" != "   10" ]; then echo >> "$statdir"/committers; fi
 			committers=$(sort -u "$statdir"/committers | wc -l)
 
 			cat "$statdir"/committers >> "$statdir"/all-committers
 
+
+
 			# Check how many different authors for that module exist:
 			# note: This is case-specific
 			git log --after=$SINCE --author='' --pretty=format:"%ae" > "$statdir"/authors
+			if [ "$(tail -c 1 "$statdir"/authors | od -t d1 -A n)" != "   10" ]; then echo >> "$statdir"/authors; fi
 			authors=$(sort -u "$statdir"/authors | wc -l)
 
 			# Get 10 most active authors for all the commits, sorted by number of commits:
