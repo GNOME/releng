@@ -7,7 +7,7 @@
 # 'gnome-suites-core-3.0', but it can be any of the files in the
 # modulesets directory, or even the URL of a module set file on
 # a web server.
-moduleset = 'gnome-suites-core-3.0.2'
+moduleset = 'gnome-apps-3.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -35,58 +35,13 @@ autogenargs='--disable-static --disable-gtk-doc'
 os.environ['CFLAGS'] = '-g -O2'
 # set only if you have more than one CPU
 # might break some builds
-#makeargs = '-j2'
+makeargs = '-j4'
 
 
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
+# Workarounds
 
-########## Workarounds ##########
-
-# Totem seems to stupidly try to install its plugin under /usr even if that's
-# not $PREFIX.  So, we'll disable the mozilla plugin.  Those wanting to build
-# it can remove this module_autogenargs comamnd and run
-#   chmod a+w /usr/lib/mozilla-1.7.12/plugins
-# before the build.  When the build is finished, you can run
-#   chmod a-w /usr/lib/mozilla-1.7.12/plugins
-# to set things back to normal.
-module_autogenargs['totem'] = autogenargs + '--disable-mozilla'
-
-# For those that don't have SDL installed and don't have a webcam, uncomment
-# the following line to skip building ekiga
-
-# firefox-1.5.0.6 won't build; firefox-1.5.0.7 doesn't correctly install
-# ssl.h, but the firefox-devel packages (+necessary dependencies) from
-# my distro work.  *shrug*
-skip.append('firefox')
-
-# we're better off using the distro packages for mozilla/firefox
-skip.append('mozilla')
-
-# do not build things that the distro can provide
-skip.append('nspr')
-skip.append('nss')
-skip.append('pulseaudio')
-
-# libxml2, libxslt, and gamin are totally inconsistent with the rest of Gnome
-# about python.  See
-# http://mail.gnome.org/archives/garnome-list/2005-July/msg00199.html
-#
-# WARNING: This will probably fail if you don't do a jhbuild bootstrap
-# first to make sure that jhbuild installs python-2.4 in the prefix
-#
-##os.environ['PYTHON'] = os.path.join(prefix, 'bin/python')
-##os.environ['PYTHONPATH'] = os.path.join(libdir, 'python2.4/site-packages')
-
-# evolution-exchange requires evolution-data-server to be configured
-# with ldap enabled, which it isn't by default.  That would also
-# require ldap development libraries, but I have no exchange server to
-# test with anyway.  So I just skip it.
-skip.append('evolution-exchange')
-
-# jhbuild no longer automatically looks in /usr/lib/pkgconfig, so we need to
-# tell it to do so
-addpath('PKG_CONFIG_PATH', '/usr/lib/pkgconfig')
-addpath('PKG_CONFIG_PATH', '/usr/lib64/pkgconfig')
-addpath('PKG_CONFIG_PATH', '/usr/share/pkgconfig')
+# these are hard to build or interfere with system packages
+skip = [ 'libxml', 'nss', 'nspr' ]
