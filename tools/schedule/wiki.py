@@ -38,7 +38,7 @@ def splitter(l, n):
         i += n
         chunk = l[i:i+n]
 
-events = parse_file ("3.2.schedule")
+events = parse_file ("3.4.schedule")
 
 cat_task = set(('release', 'tarball'))
 by_month = lambda val: val.date.month
