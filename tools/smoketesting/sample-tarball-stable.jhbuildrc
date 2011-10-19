@@ -44,4 +44,4 @@ tarballdir = os.path.join(checkoutroot, 'pkgs')
 # Workarounds
 
 # these are hard to build or interfere with system packages
-skip = [ 'libxml', 'nss', 'nspr' ]
+skip = [ 'libxml2', 'nss', 'nspr' ]
