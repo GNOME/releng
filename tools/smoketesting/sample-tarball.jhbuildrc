@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.3.1'
+moduleset = 'gnome-apps-3.3.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -29,3 +29,5 @@ autogenargs='--disable-static --disable-gtk-doc --disable-maintainer-mode'
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
+# these are hard to build or interfere with system packages
+skip = [ 'libxml2', 'nss', 'nspr', 'gudev', 'pulseaudio', 'icon-naming-utils', "libmusicbrainz"]
