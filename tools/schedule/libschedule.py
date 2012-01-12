@@ -77,16 +77,18 @@ class GnomeReleaseEvent:
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
+                    'feature': 'Feature and Module Freeze',
+                    'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period',
+                    'string': 'String Freeze',
+                    'hard-code': 'Hard Code Freeze',
+                    'hard-code-end': 'Hard Code Freeze ends',
+                    # not used anymore since 3.3:
+                    'feature2': 'Feature Addition Freeze',
                     'string-announcement': 'String Change Announcement Period',
                     'ui-announcement': 'UI Change Announcement Period',
                     'api': 'API/ABI Freeze',
                     'module': 'Module Freeze',
-                    'feature': 'Feature and Module Freeze',
-                    'feature2': 'Feature Addition Freeze',
-                    'ui': 'UI Freeze',
-                    'string': 'String Freeze',
-                    'hard-code': 'Hard Code Freeze',
-                    'hard-code-end': 'Hard Code Freeze ends'
+                    'ui': 'UI Freeze'
                 },
                 'task': {
                     'api-doc': 'New APIs must be fully documented',
