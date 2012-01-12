@@ -16,17 +16,20 @@ newstable:3.4
 7:release:stable.2 API
 8:release:unstable.2 jjardon
 12:release:unstable.3 fredp
-16:freeze:string-announcement
-16:freeze:ui-announcement
+2012-01-18:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
+2012-01-19:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
+2012-01-20:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
+2012-01-21:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
+2012-01-22:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
 16:release:unstable.4 
-19:freeze:api
-19:freeze:feature2
 19:release:unstable.5
 21:task:api-doc
 21:task:release-notes-start
 2012-02-17:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
 2012-02-18:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
-21:freeze:ui
+2012-02-19:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
+2012-02-21:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
+21:freeze:the-freeze
 21:release:beta.90
 23:freeze:string
 23:release:beta.91
