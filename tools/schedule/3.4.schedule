@@ -21,8 +21,8 @@ newstable:3.4
 2012-01-20:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
 2012-01-21:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
 2012-01-22:hackfest:ATK and AT-SPI Hackfest:https://live.gnome.org/Accessibility/Hackfests/ATK2012
-16:release:unstable.4 
-19:release:unstable.5
+16:release:unstable.4 walters
+19:release:unstable.5 mclasen
 21:task:api-doc
 21:task:release-notes-start
 2012-02-17:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
@@ -30,9 +30,9 @@ newstable:3.4
 2012-02-19:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
 2012-02-21:hackfest:Developer Conference Brno:https://live.gnome.org/Hackfests/DeveloperConference2012
 21:freeze:the-freeze
-21:release:beta.90
+21:release:beta.90 api
 23:freeze:string
-23:release:beta.91
+23:release:beta.91 walters
 25:release:rc.92
 25:freeze:hard-code
 26:release:newstable.0
