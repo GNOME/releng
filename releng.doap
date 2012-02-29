@@ -9,7 +9,8 @@
   <shortdesc>Tools for GNOME release management</shortdesc>
 
   <homepage rdf:resource="http://live.gnome.org/ReleasePlanning"/>
-
+  <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/release-team" />
+  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=Release%20Engineering" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#infrastructure" />
 
   <maintainer>
