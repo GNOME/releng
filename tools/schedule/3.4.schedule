@@ -33,8 +33,8 @@ newstable:3.4
 21:release:beta.90 api
 23:freeze:string
 23:release:beta.91 walters
-25:release:rc.92
+25:release:rc.92 jjardon
 25:freeze:hard-code
-26:release:newstable.0
+26:release:newstable.0 mclasen
 26:freeze:hard-code-end
-29:release:newstable.1
+29:release:newstable.1 fredp
