@@ -32,7 +32,8 @@ class GnomeReleaseEvent:
                     'proposals-start': 'Start of new feature proposals period for $newstable',
                     'proposals-end': 'End of new feature proposals period for $newstable',
                     'discussion': 'Feature proposals discussion heats up.',
-                    'decision': '[[http://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new feature proposals for $newstable with community input up to this point.'
+                    'decision': '[[http://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new feature proposals for $newstable with community input up to this point.',
+                    'proposals-start-next': 'Start of new feature proposals period for $nextnewstable'
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
@@ -73,7 +74,8 @@ class GnomeReleaseEvent:
                     'proposals-start': 'New feature proposals period start',
                     'proposals-end': 'New feature proposals period end',
                     'discussion': 'Feature proposals discussion heats up',
-                    'decision': 'Release Team decides on new features'
+                    'decision': 'Release Team decides on new features',
+                    'proposals-start-next': 'New feature proposals period start'
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
@@ -118,7 +120,8 @@ we'll find someone to roll the tarball for you!""",
                     'proposals-start': 'New feature proposals period start',
                     'proposals-end': 'New feature proposals period end',
                     'discussion': 'Feature proposals discussion heats up',
-                    'decision': 'Release Team decides on new features'
+                    'decision': 'Release Team decides on new features',
+                    'proposals-start-next': 'New feature proposals period start'
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
