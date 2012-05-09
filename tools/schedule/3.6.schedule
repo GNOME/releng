@@ -5,15 +5,15 @@ newstable:3.6
 nextnewstable:3.8
 0:features:proposals-start
 0:release:stable.0 mclasen
-3:release:stable.1 
-5:release:unstable.1 
+3:release:stable.1 fredp
+5:release:unstable.1 fredp
 4:features:proposals-end
 5:features:discussion
 6:features:decision
-7:release:stable.2 
-10:release:unstable.2 
-13:release:unstable.3 
-16:release:unstable.4 
+7:release:stable.2 walters
+10:release:unstable.2 mclasen
+13:release:unstable.3 elleuca
+16:release:unstable.4 API
 2012-07-26:conference:GUADEC:http://www.guadec.org/
 2012-07-27:conference:GUADEC:http://www.guadec.org/
 2012-07-28:conference:GUADEC:http://www.guadec.org/
