@@ -57,7 +57,7 @@ core:gnome-settings-daemon:3.5.2:
 core:gnome-shell:3.5.2:
 core:gnome-system-log:3.4.1:
 core:gnome-system-monitor:3.4.1:
-core:gnome-terminal:3.3.0:
+core:gnome-terminal:3.4.1.1:
 core:gnome-themes-standard:3.5.2:
 core:gnome-user-docs:3.4.2:
 core:gnome-user-share:3.0.2:
