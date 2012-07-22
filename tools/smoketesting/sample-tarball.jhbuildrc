@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.5.3'
+moduleset = 'gnome-apps-3.5.4'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -30,4 +30,7 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
-skip = ['libxml2', 'gudev', 'pulseaudio']
+skip = [ 'gudev', 'gnome-disk-utility', 'libvirt', 'libvirt-glib', 'gnome-boxes', 'gnome-color-manager']
+
+# API additions for 3.5.4
+module_autogenargs['PackageKit'] = autogenargs + ' --disable-systemd'
