@@ -23,7 +23,7 @@ core:folks:0.7.2.2:
 core:gcalctool:6.5.3:
 core:gcr:3.5.4:
 core:gdk-pixbuf:2.26.1:
-core:gdm:3.5.4.1:
+core:gdm:3.5.4.2:
 core:geocode-glib:0.99.0:
 core:gjs:1.33.4:
 core:glib:2.33.6:
@@ -66,8 +66,6 @@ core:gobject-introspection:1.33.4:
 core:grilo:0.1.19:
 core:grilo-plugins:0.1.19:
 core:gsettings-desktop-schemas:3.5.4:
-core:gst-plugins-bad:0.10.23:
-core:gstreamer:0.10.36:
 core:gst-plugins-base:0.10.36:
 core:gstreamer:0.10.36:
 core:gst-plugins-good:0.10.31:
@@ -133,7 +131,7 @@ apps:cheese:3.5.4:
 apps:devhelp:3.4.1:
 apps:evolution:3.5.4:
 apps:file-roller:3.5.3:
-apps:gedit:3.4.2:
+apps:gedit:3.5.1:
 apps:glade:3.13.0:
 apps:gnome-boxes:3.5.4.1:
 apps:gnome-color-manager:3.5.3:
