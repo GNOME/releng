@@ -21,16 +21,16 @@ nextnewstable:3.8
 2012-07-30:conference:GUADEC:http://www.guadec.org/
 2012-07-31:conference:GUADEC:http://www.guadec.org/
 2012-08-01:conference:GUADEC:http://www.guadec.org/
-19:release:unstable.5
+19:release:unstable.5 mclasen
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90
+21:release:beta.90 elleuca
 23:freeze:string
-23:release:beta.91 
+23:release:beta.91 jjardon
 24:features:proposals-start-next
-25:release:rc.92 
+25:release:rc.92 fredp
 25:freeze:hard-code
-26:release:newstable.0 
+26:release:newstable.0 mclasen
 26:freeze:hard-code-end
-29:release:newstable.1 
+29:release:newstable.1 fredp
