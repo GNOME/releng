@@ -1,7 +1,22 @@
 #!/bin/sh
 # vim: set ts=4 sw=4:
 
-SINCE="2011-04-06"
+if [ -z "$1" ]; then
+	echo "Usage: $0 SINCE UNTIL" >&2
+	echo "" >&2
+	echo "e.g. $0 2011-04-06 2011-09-28"
+	exit 1
+fi
+
+SINCE="$1"
+UNTIL="$2"
+
+if [ -z "UNTIL" ]; then
+	UNTIL=`date "+%Y-%m-%d" --date="tomorrow"`
+fi
+
+mkdir -p $UNTIL || exit 1
+cd $UNTIL || exit 1
 
 statdir=`pwd`
 
@@ -71,3 +86,5 @@ sort "$statdir"/all-authors | uniq -c | sort -rn > "$statdir/authors.csv"
 sort "$statdir"/all-committers | uniq -c | sort -rn > "$statdir/committers.csv"
 
 rm -f "$statdir/authors" "$statdir/committers"
+
+cd ..
