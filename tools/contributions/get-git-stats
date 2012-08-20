@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # vim: set ts=4 sw=4:
 
 if [ -z "$1" ]; then
@@ -38,6 +38,7 @@ for d in ~/src/* /git/*.git /git/archive/*.git; do
 	git config --get hooks.mailinglist | grep -q gnome || continue
 
 	module=$(basename "$d")
+	module="${module%.git}"
 
 	# Total number of commits:
 	commits=$(git log --after="$SINCE" --until="$UNTIL" --pretty=oneline | wc -l)
