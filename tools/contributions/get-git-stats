@@ -35,7 +35,7 @@ for d in ~/src/* /git/*.git /git/archive/*.git; do
 	# (config.mailinglist is gnome specific)
 	cd "$d"
 	git config --get remote.origin.url | grep -q gnome || \
-	git config --get config.mailinglist | grep -q gnome || continue
+	git config --get hooks.mailinglist | grep -q gnome || continue
 
 	module=$(basename "$d")
 
