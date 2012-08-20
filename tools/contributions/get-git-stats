@@ -15,9 +15,6 @@ if [ -z "UNTIL" ]; then
 	UNTIL=`date "+%Y-%m-%d" --date="tomorrow"`
 fi
 
-mkdir -p $UNTIL || exit 1
-cd $UNTIL || exit 1
-
 statdir=`pwd`
 
 mkdir -p top-10
@@ -28,20 +25,22 @@ echo -e "module\tcommits\tcommitters\tauthors"
 
 allcommits=0
 
-for d in ~/src/*; do
+for d in ~/src/* /git/*.git /git/archive/*.git; do
 
 	if [ ! -d "$d" ]; then
 		continue
 	fi
 
-	# check it is from gnome
+	# check it is from gnome or running on git.gnome.org
+	# (config.mailinglist is gnome specific)
 	cd "$d"
-	git config --get remote.origin.url | grep -q gnome || continue
+	git config --get remote.origin.url | grep -q gnome || \
+	git config --get config.mailinglist | grep -q gnome || continue
 
 	module=$(basename "$d")
 
 	# Total number of commits:
-	commits=$(git log --after=$SINCE --pretty=oneline | wc -l)
+	commits=$(git log --after="$SINCE" --until="$UNTIL" --pretty=oneline | wc -l)
 
 	if [ "$commits" == "0" ]; then
 		committers=0
@@ -51,7 +50,7 @@ for d in ~/src/*; do
 			# Check how many different committers for that module exist:
 			# note: This is case-specific
 
-			git log --after=$SINCE --committer='' --pretty=format:"%ce" > "$statdir"/committers
+			git log --after="$SINCE" --until="$UNTIL" --committer='' --pretty=format:"%ce" > "$statdir"/committers
 			if [ "$(tail -c 1 "$statdir"/committers | od -t d1 -A n)" != "   10" ]; then echo >> "$statdir"/committers; fi
 			committers=$(sort -u "$statdir"/committers | wc -l)
 
@@ -61,7 +60,7 @@ for d in ~/src/*; do
 
 			# Check how many different authors for that module exist:
 			# note: This is case-specific
-			git log --after=$SINCE --author='' --pretty=format:"%ae" > "$statdir"/authors
+			git log --after="$SINCE" --until="$UNTIL" --author='' --pretty=format:"%ae" > "$statdir"/authors
 			if [ "$(tail -c 1 "$statdir"/authors | od -t d1 -A n)" != "   10" ]; then echo >> "$statdir"/authors; fi
 			authors=$(sort -u "$statdir"/authors | wc -l)
 
@@ -86,5 +85,3 @@ sort "$statdir"/all-authors | uniq -c | sort -rn > "$statdir/authors.csv"
 sort "$statdir"/all-committers | uniq -c | sort -rn > "$statdir/committers.csv"
 
 rm -f "$statdir/authors" "$statdir/committers"
-
-cd ..
