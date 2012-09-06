@@ -789,7 +789,7 @@ class ConvertToTarballs:
                     # cvs/svn/git/arch/bzr/scm-du-jour repositories
                     attrs = node.attributes
                     type = attrs.get('type').nodeValue
-                    if type == 'tarball':
+                    if type in ('tarball', 'system'):
                         save_entry_as_is = True
                     else:
                         continue
