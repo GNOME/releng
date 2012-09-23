@@ -8,7 +8,7 @@ nextnewstable:3.10
 2012-10-06:conference:Boston Summit:https://live.gnome.org/Boston2012
 2012-10-07:conference:Boston Summit:https://live.gnome.org/Boston2012
 2012-10-08:conference:Boston Summit:https://live.gnome.org/Boston2012
-3:release:stable.1
+3:release:stable.1 fredp
 4:release:unstable.1
 4:features:proposals-end
 5:features:discussion
