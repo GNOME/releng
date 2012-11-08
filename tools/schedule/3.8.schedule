@@ -9,20 +9,20 @@ nextnewstable:3.10
 2012-10-07:conference:Boston Summit:https://live.gnome.org/Boston2012
 2012-10-08:conference:Boston Summit:https://live.gnome.org/Boston2012
 3:release:stable.1 fredp
-4:release:unstable.1
+4:release:unstable.1 mclasen
 4:features:proposals-end
 5:features:discussion
 6:features:decision
 #6:freeze:module
-7:release:stable.2
-8:release:unstable.2
-12:release:unstable.3
-16:release:unstable.4
-19:release:unstable.5
+7:release:stable.2 mclasen
+8:release:unstable.2 jjardon
+12:release:unstable.3 fredp
+16:release:unstable.4 kmaraas
+19:release:unstable.5 walters
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90 api
+21:release:beta.90 api mclasen
 23:freeze:string
 23:release:beta.91
 24:features:proposals-start-next
