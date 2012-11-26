@@ -62,7 +62,6 @@ core:grilo:0.2.3:
 core:grilo-plugins:0.2.3:
 core:gsettings-desktop-schemas:3.7.2:
 core:gssdp:0.13.1:
-core:gst-plugins-bad:1.0.3:
 core:gst-plugins-base:1.0.3:
 core:gst-plugins-good:1.0.3:
 core:gstreamer:1.0.3:
