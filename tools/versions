@@ -15,7 +15,7 @@ core:cogl:1.12.0:
 core:dconf:0.15.2:
 core:empathy:3.7.3:
 core:eog:3.7.2:
-core:epiphany:3.7.1:
+core:epiphany:3.7.3:
 core:evince:3.7.1:
 core:evolution-data-server:3.7.3:
 core:folks:0.8.0:
@@ -61,7 +61,7 @@ core:gnome-video-effects:0.4.0:
 core:gobject-introspection:1.35.3:
 core:grilo:0.2.4:
 core:grilo-plugins:0.2.5:
-core:gsettings-desktop-schemas:3.7.2:
+core:gsettings-desktop-schemas:3.7.3:
 core:gssdp:0.13.2:
 core:gst-plugins-base:1.0.3:
 core:gst-plugins-good:1.0.3:
@@ -114,7 +114,7 @@ core:tracker:0.15.0:
 core:vala:0.18.1:
 core:vino:3.7.3:
 core:vte:0.34.2:
-core:yelp:3.6.2:
+core:yelp:3.7.3:
 core:yelp-tools:3.6.1:
 core:yelp-xsl:3.7.2:
 core:zenity:3.7.2:
@@ -125,7 +125,7 @@ apps:aisleriot:3.6.2:
 apps:anjuta:3.7.3:
 apps:brasero:3.6.1:
 apps:cheese:3.7.3:
-apps:devhelp:3.6.1:
+apps:devhelp:3.7.3:
 apps:evolution:3.7.3.1:
 apps:file-roller:3.7.1:
 apps:five-or-more:3.7.2:
