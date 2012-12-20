@@ -21,7 +21,7 @@ core:evolution-data-server:3.7.3:
 core:folks:0.8.0:
 core:gcr:3.7.2:
 core:gdk-pixbuf:2.26.5:
-core:gdm:3.7.3:
+core:gdm:3.7.3.1:
 core:geocode-glib:0.99.0:
 core:gjs:1.35.3:
 core:glib:2.35.3:
@@ -32,7 +32,7 @@ core:gnome-backgrounds:3.6.1:
 core:gnome-bluetooth:3.6.1:
 core:gnome-calculator:3.7.3:
 core:gnome-contacts:3.7.3:
-core:gnome-control-center:3.7.1:
+core:gnome-control-center:3.7.3:
 core:gnome-desktop:3.7.3:
 core:gnome-dictionary:3.6.0:
 core:gnome-disk-utility:3.7.0:
@@ -48,8 +48,8 @@ core:gnome-online-accounts:3.7.3:
 core:gnome-packagekit:3.6.1:
 core:gnome-screenshot:3.6.1:
 core:gnome-session:3.7.3:
-core:gnome-settings-daemon:3.7.1:
-core:gnome-shell:3.7.3:
+core:gnome-settings-daemon:3.7.3:
+core:gnome-shell:3.7.3.1:
 core:gnome-shell-extensions:3.7.3:
 core:gnome-system-log:3.6.1:
 core:gnome-system-monitor:3.6.1:
@@ -139,7 +139,7 @@ apps:gnome-color-manager:3.6.0:
 apps:gnome-devel-docs:3.7.2:
 apps:gnome-documents:3.7.3:
 apps:gnome-getting-started-docs:3.7.2:
-apps:gnome-initial-setup:0.4:
+apps:gnome-initial-setup:0.5:
 apps:gnome-klotski:3.7.2:
 apps:gnome-mahjongg:3.7.2:
 apps:gnome-mines:3.7.2:
