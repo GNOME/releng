@@ -6,7 +6,7 @@ core:at-spi2-core:2.7.3:
 core:atk:2.7.3:
 core:atkmm:2.22.6:
 core:baobab:3.6.3:
-core:cantarell-fonts:0.0.11:
+core:cantarell-fonts:0.0.12:
 core:caribou:0.4.6:
 core:clutter:1.12.2:
 core:clutter-gst:1.9.92:
@@ -31,9 +31,9 @@ core:gmime:2.6.13:
 core:gnome-backgrounds:3.6.1:
 core:gnome-bluetooth:3.6.1:
 core:gnome-calculator:3.7.3:
-core:gnome-contacts:3.6.2:
+core:gnome-contacts:3.7.3:
 core:gnome-control-center:3.7.1:
-core:gnome-desktop:3.7.2:
+core:gnome-desktop:3.7.3:
 core:gnome-dictionary:3.6.0:
 core:gnome-disk-utility:3.7.0:
 core:gnome-doc-utils:0.20.10:
@@ -126,7 +126,7 @@ apps:anjuta:3.7.3:
 apps:brasero:3.6.1:
 apps:cheese:3.7.3:
 apps:devhelp:3.7.3:
-apps:evolution:3.7.3.1:
+apps:evolution:3.7.3.2:
 apps:file-roller:3.7.1:
 apps:five-or-more:3.7.2:
 apps:four-in-a-row:3.7.2:
