@@ -18,11 +18,11 @@ nextnewstable:3.10
 8:release:unstable.2 jjardon
 12:release:unstable.3 fredp
 16:release:unstable.4 kmaraas
-19:release:unstable.5 walters
+19:release:unstable.5 mclasen
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90 api mclasen
+21:release:beta.90 walters
 23:freeze:string
 23:release:beta.91
 24:features:proposals-start-next
