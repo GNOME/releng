@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.7.5'
+moduleset = 'gnome-apps-3.7.90'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -30,4 +30,4 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
-skip = [ 'polkit']
+skip = [ 'gcr', 'geocode-glib', 'totem', 'evolution', 'gnome-nettool', 'gdlmm', 'pygobject']
