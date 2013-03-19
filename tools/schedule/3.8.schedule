@@ -24,10 +24,10 @@ nextnewstable:3.10
 21:freeze:the-freeze
 21:release:beta.90 walters
 23:freeze:string
-23:release:beta.91
+23:release:beta.91 API
 24:features:proposals-start-next
-25:release:rc.92
+25:release:rc.92 fredp
 25:freeze:hard-code
-26:release:newstable.0
+26:release:newstable.0 mclasen
 26:freeze:hard-code-end
 29:release:newstable.1
