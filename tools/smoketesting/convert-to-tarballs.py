@@ -975,6 +975,7 @@ class ConvertToTarballs:
     def create_versions_file(self):
         print '**************************************************'
         versions = open('versions', 'w')
+        done = {}
         for idx in range(len(self.options.release_sets)):
             release_set = self.options.release_sets[idx]
             if release_set != 'Other':
@@ -994,8 +995,10 @@ class ConvertToTarballs:
                             subdirs[subdir].append ('%s:%s:%s:%s\n' %
                                      (release_set, real_module, version, subdir))
                         else:
-                            versions.write('%s:%s:%s:\n' %
-                                           (release_set, real_module, version))
+                            triplet = '%s:%s:%s:\n' % (release_set, real_module, version)
+                            if not triplet in done:
+                                versions.write(triplet)
+                                done[triplet] = True
                     except:
                         print 'No version found for %s' % module
                 subdirs_keys = subdirs.keys()
