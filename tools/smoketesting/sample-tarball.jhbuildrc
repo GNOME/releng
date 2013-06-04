@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.9.1'
+moduleset = 'gnome-apps-3.9.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -30,9 +30,10 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
-skip = [ 'geocode-glib', 'evolution', 'gnome-nettool', 'gdlmm', 'pulseaudio', 'gtkmm']
+skip = ['pulseaudio', 'geocode-glib', 'libpeas', 'totem', 'eog', 'gedit', 'aisleriot', 'orca']
 
 module_autogenargs['atkmm'] = autogenargs + ' --disable-documentation'
 module_autogenargs['pangomm'] = autogenargs + ' --disable-documentation'
 module_autogenargs['glibmm'] = autogenargs + ' --disable-documentation'
 module_autogenargs['gtkmm'] = autogenargs + ' --disable-documentation'
+module_autogenargs['gtk+'] = autogenargs + ' --disable-installed-tests'
