@@ -10,10 +10,10 @@ nextnewstable:3.12
 4:features:proposals-end
 5:features:discussion
 6:features:decision
-7:release:stable.2
-9:release:unstable.2
-12:release:unstable.3
-15:release:unstable.4
+7:release:stable.2 fredp
+9:release:unstable.2 jjardon
+12:release:unstable.3 fredp
+15:release:unstable.4 mclasen
 2012-08-01:conference:GUADEC:http://www.guadec.org/
 2012-08-02:conference:GUADEC:http://www.guadec.org/
 2012-08-03:conference:GUADEC:http://www.guadec.org/
@@ -22,11 +22,11 @@ nextnewstable:3.12
 2012-08-06:conference:GUADEC:http://www.guadec.org/
 2012-08-07:conference:GUADEC:http://www.guadec.org/
 2012-08-08:conference:GUADEC:http://www.guadec.org/
-18:release:unstable.5
+18:release:unstable.5 elleuca
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90
+21:release:beta.90 mclasen
 23:freeze:string
 23:release:beta.91
 24:features:proposals-start-next
