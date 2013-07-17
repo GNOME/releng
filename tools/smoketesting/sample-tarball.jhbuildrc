@@ -30,7 +30,7 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
-skip = ['pulseaudio', 'geocode-glib', 'libpeas', 'totem', 'eog', 'gedit', 'aisleriot', 'orca']
+#skip = ['']
 
 module_autogenargs['atkmm'] = autogenargs + ' --disable-documentation'
 module_autogenargs['pangomm'] = autogenargs + ' --disable-documentation'
