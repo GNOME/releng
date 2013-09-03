@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.9.90'
+moduleset = 'gnome-apps-3.9.91'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -30,14 +30,6 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
-#skip = ['']
+skip = ['gnome-contacts', 'gnome-initial-setup', 'gtksourceviewmm']
 
-module_autogenargs['atkmm'] = autogenargs + ' --disable-documentation'
-module_autogenargs['pangomm'] = autogenargs + ' --disable-documentation'
-module_autogenargs['glibmm'] = autogenargs + ' --disable-documentation'
-module_autogenargs['gtkmm'] = autogenargs + ' --disable-documentation'
-module_autogenargs['gtk+'] = autogenargs + ' --disable-installed-tests'
-
-## additions for 3.9.5
-skip = ['glade']
-module_autogenargs['epiphany'] = autogenargs + ' --disable-maintainer-mode'
+module_autogenargs['gjs'] = autogenargs + ' --disable-installed-tests'
