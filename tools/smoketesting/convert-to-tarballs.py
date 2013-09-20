@@ -409,9 +409,9 @@ class TarballLocator:
         return True
 
     def _get_latest_version(self, versions, max_version):
-        biggest = versions[0]
-        for version in versions[1:]:
-            if (version == self._bigger_version(biggest, version) and \
+        biggest = None
+        for version in versions:
+            if ((biggest is None or version == self._bigger_version(biggest, version)) and \
                 not self._version_greater_or_equal_to_max(version, max_version)):
                 biggest = version
         return biggest
