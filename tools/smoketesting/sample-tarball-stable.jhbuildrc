@@ -9,6 +9,8 @@
 # a web server.
 moduleset = 'gnome-apps-3.10.0'
 
+use_local_modulesets = True
+
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
 modules = [ 'meta-gnome-core', 'meta-gnome-apps-tested' ]
