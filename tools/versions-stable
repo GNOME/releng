@@ -99,7 +99,7 @@ core:libwnck:3.4.7:
 core:libzapojit:0.0.3:
 core:mm-common:0.9.6:
 core:mousetweaks:3.10.0:
-core:mutter:3.10.0:
+core:mutter:3.10.0.1:
 core:nautilus:3.10.0:
 core:network-manager-applet:0.9.8.4:
 core:pango:1.36.0:
