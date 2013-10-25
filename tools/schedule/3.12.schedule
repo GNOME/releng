@@ -1,0 +1,33 @@
+yearweek:201339
+stable:3.10
+unstable:3.11
+newstable:3.12
+nextnewstable:3.13
+0:features:proposals-start
+0:release:stable.0 mclasen
+2013-10-12:conference:Montreal Summit:https://live.gnome.org/Montreal2103
+2013-10-13:conference:Montreal Summit:https://live.gnome.org/Montreal2103
+2013-10-14:conference:Montreal Summit:https://live.gnome.org/Montreal2103
+3:release:stable.1
+4:features:proposals-end
+5:release:unstable.1
+5:features:discussion
+6:features:decision
+#6:freeze:module
+7:release:stable.2
+8:release:unstable.2
+12:release:unstable.3
+16:release:unstable.4
+19:release:unstable.5
+21:task:api-doc
+21:task:release-notes-start
+21:freeze:the-freeze
+21:release:beta.90
+23:freeze:string
+23:release:beta.91
+24:features:proposals-start-next
+25:release:rc.92
+25:freeze:hard-code
+26:release:newstable.0
+26:freeze:hard-code-end
+29:release:newstable.1
