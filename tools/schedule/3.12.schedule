@@ -8,16 +8,16 @@ nextnewstable:3.13
 2013-10-12:conference:Montreal Summit:https://live.gnome.org/Montreal2103
 2013-10-13:conference:Montreal Summit:https://live.gnome.org/Montreal2103
 2013-10-14:conference:Montreal Summit:https://live.gnome.org/Montreal2103
-3:release:stable.1
+3:release:stable.1 fredp
 4:features:proposals-end
-5:release:unstable.1
+5:release:unstable.1 jjardon
 5:features:discussion
 6:features:decision
 #6:freeze:module
-7:release:stable.2
-8:release:unstable.2
+7:release:stable.2 API
+8:release:unstable.2 API
 12:release:unstable.3
-16:release:unstable.4
+16:release:unstable.4 elleuca
 19:release:unstable.5
 21:task:api-doc
 21:task:release-notes-start
