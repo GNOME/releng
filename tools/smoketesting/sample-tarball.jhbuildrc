@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.11.90'
+moduleset = 'gnome-apps-3.11.91'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -30,7 +30,7 @@ autogenargs='--disable-static --disable-gtk-doc'
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
-skip = ['aisleriot' , 'evolution', 'evolution-data-server', 'gnome-boxes', 'libpeas', 'spice-gtk']
+skip = ['aisleriot', 'gnome-boxes', 'gnome-packagekit', 'gnome-software', 'spice-gtk', 'PackageKit']
 
 # This is needed to compile with g++ < 4.8
 module_autogenargs['WebKit'] = 'CXXFLAGS="-D_GLIBCXX_USE_SCHED_YIELD -D_GLIBCXX_USE_NANOSLEEP"'
