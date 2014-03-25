@@ -7,9 +7,8 @@
 # 'gnome-suites-core-3.0', but it can be any of the files in the
 # modulesets directory, or even the URL of a module set file on
 # a web server.
-moduleset = 'gnome-apps-3.10.2'
-
 use_local_modulesets = True
+moduleset = 'gnome-apps-3.12.0'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -22,30 +21,16 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
-if os.path.exists('/usr/lib64'):
-  libdir = os.path.join(prefix, 'lib64')
-  system_libdir = '/usr/lib64'
-else:
-  libdir = os.path.join(prefix, 'lib')
-  system_libdir = '/usr/lib'
 
 # extra arguments to pass to all autogen.sh scripts
-# to speed up builds of gnome2, try '--disable-static --disable-gtk-doc'
+# to speed up builds, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc'
-
-# set CFLAGS:
-os.environ['CFLAGS'] = '-g -O2'
-# set only if you have more than one CPU
-# might break some builds
-makeargs = '-j4'
-
 
 # An alternative location to look for (or download to) all downloaded tarballs
 tarballdir = os.path.join(checkoutroot, 'pkgs')
 
-# Workarounds
-
 # these are hard to build or interfere with system packages
-# 3.10.2 release:
-skip = [ 'iso-codes', 'ibus-pinyin', 'guile']
-module_autogenargs['tracker'] = autogenargs + ' --disable-upower' # see bug#711496
+skip = ['aisleriot', 'gnome-boxes', 'gnome-packagekit', 'gnome-software', 'spice-gtk', 'PackageKit']
+
+# This is needed to compile with g++ < 4.8
+module_autogenargs['WebKit'] = 'CXXFLAGS="-D_GLIBCXX_USE_SCHED_YIELD -D_GLIBCXX_USE_NANOSLEEP"'
