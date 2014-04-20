@@ -1,0 +1,872 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20140420T084930Z-64971@localhost.localdomain
+DTSTART:20140324T230000Z
+DTEND:20140324T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-03-24 before 23:59 UTC for the GNOME\
+ n3.12.0 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 3.12.0. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.12.0 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.12.0 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140321T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-18448@localhost.localdomain
+DTSTART:20140324T230000Z
+DTEND:20140324T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:New feature proposals period start
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:New feature proposals period start
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New feature proposals period start
+TRIGGER;VALUE=DATE-TIME:20140321T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-66791@localhost.localdomain
+DTSTART:20140326T230000Z
+DTEND:20140326T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.12.0 stable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.12.0 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.12.0 stable release
+TRIGGER;VALUE=DATE-TIME:20140326T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-87747@localhost.localdomain
+DTSTART:20140414T230000Z
+DTEND:20140414T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-04-14 before 23:59 UTC for the GNOME\
+ n3.12.1 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 3.12.1. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.12.1 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.12.1 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140411T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-23289@localhost.localdomain
+DTSTART:20140416T230000Z
+DTEND:20140416T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.12.1 stable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.12.1 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.12.1 stable release
+TRIGGER;VALUE=DATE-TIME:20140416T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-79435@localhost.localdomain
+DTSTART:20140421T230000Z
+DTEND:20140421T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:New feature proposals period end
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:New feature proposals period end
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New feature proposals period end
+TRIGGER;VALUE=DATE-TIME:20140418T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-44564@localhost.localdomain
+DTSTART:20140428T230000Z
+DTEND:20140428T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-04-28 before 23:59 UTC for the GNOME\
+ n3.13.1 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.13.1. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.1 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.1 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140425T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-93626@localhost.localdomain
+DTSTART:20140428T230000Z
+DTEND:20140428T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Feature proposals discussion heats up
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:Feature proposals discussion heats up
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Feature proposals discussion heats up
+TRIGGER;VALUE=DATE-TIME:20140425T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-8331@localhost.localdomain
+DTSTART:20140430T230000Z
+DTEND:20140430T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.1 unstable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.1 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.1 unstable release
+TRIGGER;VALUE=DATE-TIME:20140430T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-30921@localhost.localdomain
+DTSTART:20140505T230000Z
+DTEND:20140505T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Release Team decides on new features
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:Release Team decides on new features
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Release Team decides on new features
+TRIGGER;VALUE=DATE-TIME:20140502T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-59001@localhost.localdomain
+DTSTART:20140512T230000Z
+DTEND:20140512T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-05-12 before 23:59 UTC for the GNOME\
+ n3.12.2 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 3.12.2. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.12.2 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.12.2 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140509T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-71236@localhost.localdomain
+DTSTART:20140514T230000Z
+DTEND:20140514T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.12.2 stable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.12.2 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.12.2 stable release
+TRIGGER;VALUE=DATE-TIME:20140514T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-84090@localhost.localdomain
+DTSTART:20140526T230000Z
+DTEND:20140526T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-05-26 before 23:59 UTC for the GNOME\
+ n3.13.2 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.13.2. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.2 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.2 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140523T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-31392@localhost.localdomain
+DTSTART:20140528T230000Z
+DTEND:20140528T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.2 unstable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.2 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.2 unstable release
+TRIGGER;VALUE=DATE-TIME:20140528T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-50132@localhost.localdomain
+DTSTART:20140623T230000Z
+DTEND:20140623T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-06-23 before 23:59 UTC for the GNOME\
+ n3.13.3 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.13.3. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.3 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.3 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140620T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-6610@localhost.localdomain
+DTSTART:20140625T230000Z
+DTEND:20140625T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.3 unstable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.3 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.3 unstable release
+TRIGGER;VALUE=DATE-TIME:20140625T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-91482@localhost.localdomain
+DTSTART:20140721T230000Z
+DTEND:20140721T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-07-21 before 23:59 UTC for the GNOME\
+ n3.13.4 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.13.4. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.4 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.4 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140718T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-48351@localhost.localdomain
+DTSTART:20140723T230000Z
+DTEND:20140723T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.4 unstable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.4 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.4 unstable release
+TRIGGER;VALUE=DATE-TIME:20140723T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-10342@localhost.localdomain
+DTSTART:20140726T230000Z
+DTEND:20140726T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140723T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-62099@localhost.localdomain
+DTSTART:20140727T230000Z
+DTEND:20140727T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140724T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-55152@localhost.localdomain
+DTSTART:20140728T230000Z
+DTEND:20140728T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140725T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-92555@localhost.localdomain
+DTSTART:20140729T230000Z
+DTEND:20140729T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140726T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-28270@localhost.localdomain
+DTSTART:20140730T230000Z
+DTEND:20140730T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140727T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-39114@localhost.localdomain
+DTSTART:20140731T230000Z
+DTEND:20140731T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140728T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-31122@localhost.localdomain
+DTSTART:20140801T230000Z
+DTEND:20140801T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20140729T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-6034@localhost.localdomain
+DTSTART:20140818T230000Z
+DTEND:20140818T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-08-18 before 23:59 UTC for the GNOME\
+ n3.13.90 beta release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.13.90. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.90 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.90 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20140815T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-89767@localhost.localdomain
+DTSTART:20140818T230000Z
+DTEND:20140818T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:API/ABI\, UI and Feature Addition Freeze\; String Change Announcem
+ ent Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:API/ABI\, UI and Feature Addition Freeze\; String Change Annou
+ ncement Period
+TRIGGER;VALUE=DATE-TIME:20140815T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-81043@localhost.localdomain
+DTSTART:20140818T230000Z
+DTEND:20140818T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:New APIs must be fully documented
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New APIs must be fully documented
+TRIGGER;VALUE=DATE-TIME:20140815T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-4880@localhost.localdomain
+DTSTART:20140818T230000Z
+DTEND:20140818T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:Writing of release notes begins
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Writing of release notes begins
+TRIGGER;VALUE=DATE-TIME:20140815T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-86422@localhost.localdomain
+DTSTART:20140820T230000Z
+DTEND:20140820T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.90 beta release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.90 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.90 beta release
+TRIGGER;VALUE=DATE-TIME:20140820T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-5784@localhost.localdomain
+DTSTART:20140901T230000Z
+DTEND:20140901T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-09-01 before 23:59 UTC for the GNOME\
+ n3.13.91 beta release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.13.91. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.91 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.91 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20140829T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-11140@localhost.localdomain
+DTSTART:20140901T230000Z
+DTEND:20140901T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:No string changes may be made without confirmation from the i1
+ 8n team and notification to release team\, translation team\, and document
+ ation team.\nFrom this point\, developers can concentrate on stability and
+  bug-fixing. Translators can work without worrying that the original Engli
+ sh strings will change\, and documentation writers can take accurate scree
+ nshots.\nFor the string freezes explained\, and to see which kind of chang
+ es are not covered by freeze rules\, check http://live.gnome.org/Translati
+ onProject/HandlingStringFreezes. 
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:String Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Freeze
+TRIGGER;VALUE=DATE-TIME:20140829T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-13449@localhost.localdomain
+DTSTART:20140903T230000Z
+DTEND:20140903T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.91 beta release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.91 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.91 beta release
+TRIGGER;VALUE=DATE-TIME:20140903T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-37472@localhost.localdomain
+DTSTART:20140908T230000Z
+DTEND:20140908T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:New feature proposals period start
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:New feature proposals period start
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New feature proposals period start
+TRIGGER;VALUE=DATE-TIME:20140905T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-64689@localhost.localdomain
+DTSTART:20140915T230000Z
+DTEND:20140915T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-09-15 before 23:59 UTC for the GNOME\
+ n3.13.92 rc release\, which will be delivered on Wednesday.\nModules which
+  were proposed for inclusion should try to follow the unstable\nschedule s
+ o everyone can test them.\n\nPlease make sure that your tarballs will be u
+ ploaded before Monday 23:59\nUTC: tarballs uploaded later than that will p
+ robably be too late to get\nin 3.13.92. If you are not able to make a tarb
+ all before this deadline or\nif you think you'll be late\, please send a m
+ ail to the release team and\nwe'll find someone to roll the tarball for yo
+ u!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.92 rc tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.92 rc tarballs due
+TRIGGER;VALUE=DATE-TIME:20140912T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-31466@localhost.localdomain
+DTSTART:20140915T230000Z
+DTEND:20140915T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:This is a late freeze to avoids sudden last-minute accidents w
+ hich could risk the stability that should have been reached at this point.
+  No source code changes are allowed without approval from the release team
+ \, but translation and documentation should continue. Simple build fixes a
+ re\, of course\, allowed without asking. 
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:Hard Code Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze
+TRIGGER;VALUE=DATE-TIME:20140912T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-12075@localhost.localdomain
+DTSTART:20140917T230000Z
+DTEND:20140917T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.13.92 rc release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.13.92 rc release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.13.92 rc release
+TRIGGER;VALUE=DATE-TIME:20140917T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-58989@localhost.localdomain
+DTSTART:20140922T230000Z
+DTEND:20140922T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-09-22 before 23:59 UTC for the GNOME\
+ n3.14.0 newstable release\, which will be delivered on Wednesday.\nModules
+  which were proposed for inclusion should try to follow the unstable\nsche
+ dule so everyone can test them.\n\nPlease make sure that your tarballs wil
+ l be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that 
+ will probably be too late to get\nin 3.14.0. If you are not able to make a
+  tarball before this deadline or\nif you think you'll be late\, please sen
+ d a mail to the release team and\nwe'll find someone to roll the tarball f
+ or you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.14.0 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.14.0 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20140919T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-91332@localhost.localdomain
+DTSTART:20140922T230000Z
+DTEND:20140922T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Hard Code Freeze ends\, but other freezes remain in effect for
+  the stable branch.
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:Hard Code Freeze ends
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze ends
+TRIGGER;VALUE=DATE-TIME:20140919T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-96521@localhost.localdomain
+DTSTART:20140924T230000Z
+DTEND:20140924T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.14.0 newstable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.14.0 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.14.0 newstable release
+TRIGGER;VALUE=DATE-TIME:20140924T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-19814@localhost.localdomain
+DTSTART:20141013T230000Z
+DTEND:20141013T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:Tarballs are due on 2014-10-13 before 23:59 UTC for the GNOME\
+ n3.14.1 newstable release\, which will be delivered on Wednesday.\nModules
+  which were proposed for inclusion should try to follow the unstable\nsche
+ dule so everyone can test them.\n\nPlease make sure that your tarballs wil
+ l be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that 
+ will probably be too late to get\nin 3.14.1. If you are not able to make a
+  tarball before this deadline or\nif you think you'll be late\, please sen
+ d a mail to the release team and\nwe'll find someone to roll the tarball f
+ or you!
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.14.1 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.14.1 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20141010T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20140420T084930Z-62733@localhost.localdomain
+DTSTART:20141015T230000Z
+DTEND:20141015T235959Z
+CLASS:PUBLIC
+CREATED:20140420T084930
+DESCRIPTION:GNOME 3.14.1 newstable release
+DTSTAMP:20140420T084930
+LAST-MODIFIED:20140420T084930
+SEQUENCE:1
+SUMMARY:GNOME 3.14.1 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.14.1 newstable release
+TRIGGER;VALUE=DATE-TIME:20141015T220000Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
