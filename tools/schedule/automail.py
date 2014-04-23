@@ -17,7 +17,10 @@ page:
 For a quick overview of the GNOME schedule, please see:
    http://live.gnome.org/Schedule
 
-Thanks,"""
+Thanks,
+-- 
+Automatically generated email. Source at:
+https://git.gnome.org/browse/releng/tree/tools/schedule/automail.py"""
 
 def mail_events(events):
     if not len(events): return # sanity check
