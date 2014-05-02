@@ -15,7 +15,7 @@ page:
    http://www.gnome.org/start/unstable
 
 For a quick overview of the GNOME schedule, please see:
-   http://live.gnome.org/Schedule
+   https://wiki.gnome.org/Schedule
 
 Thanks,
 -- 

@@ -26,26 +26,26 @@ class GnomeReleaseEvent:
                     'proposals-start': 'Start of new module proposals period for $newstable',
                     'proposals-end': 'End of new module proposals period for $newstable',
                     'discussion': 'Module proposals discussion heats up.',
-                    'decision': '[[http://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new module proposals for $newstable with community input up to this point.'
+                    'decision': '[[https://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new module proposals for $newstable with community input up to this point.'
                 },
                 'features': {
                     'proposals-start': 'Start of new feature proposals period for $newstable',
                     'proposals-end': 'End of new feature proposals period for $newstable',
                     'discussion': 'Feature proposals discussion heats up.',
-                    'decision': '[[http://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new feature proposals for $newstable with community input up to this point.',
+                    'decision': '[[https://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new feature proposals for $newstable with community input up to this point.',
                     'proposals-start-next': 'Start of new feature proposals period for $nextnewstable'
                 },
                 'release': 'GNOME $version $detail release',
                 'freeze': {
                     'feature': '[[ReleasePlanning/Freezes|Feature and Module Freeze]]: new system-wide functionality and modules are chosen now.',
-                    'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[http://mail.gnome.org/mailman/listinfo/release-team|release-team]] and notification to [[http://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to both [[http://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]] and [[http://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
-                    'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without confirmation from the l10n team ([[http://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]) and notification to both the release team and the GDP ([[http://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]]).',
-                    'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[http://mail.gnome.org/mailman/listinfo/release-team|release-team]]. Translation and documentation can continue.',
+                    'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]] and notification to [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to both [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]] and [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
+                    'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without confirmation from the l10n team ([[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]) and notification to both the release team and the GDP ([[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]]).',
+                    'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]. Translation and documentation can continue.',
                     'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.',
                     # 'string-announcement' merged into 'the-freeze' for 3.3
-                    'string-announcement': 'String Change Announcement Period: All string changes must be announced to both [[http://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]] and [[http://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
+                    'string-announcement': 'String Change Announcement Period: All string changes must be announced to both [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]] and [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
                     # 'ui-announcement' not used anymore since 3.3
-                    'ui-announcement': 'UI Change Announcement Period: All user interface changes must be announced to [[http://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
+                    'ui-announcement': 'UI Change Announcement Period: All user interface changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
                     # 'api' merged into 'the-freeze' for 3.3
                     'api': '[[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: developer APIs should be frozen at this point.',
                     # 'module' not used anymore since 3.1, replaced by 'feature'
@@ -53,11 +53,11 @@ class GnomeReleaseEvent:
                     # 'feature2' merged into 'the-freeze' for 3.3
                     'feature2': '[[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now.',
                     # 'ui' merged into 'the-freeze' for 3.3
-                    'ui': '[[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[http://mail.gnome.org/mailman/listinfo/release-team|release-team]] and notification to the GDP ([[http://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]])'
+                    'ui': '[[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]] and notification to the GDP ([[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]])'
                 },
                 'task': {
-                    'api-doc': '[[http://live.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df|New APIs must be fully documented]]',
-                    'release-notes-start': '[[http://live.gnome.org/ReleaseNotes|Writing of release notes begins]]'
+                    'api-doc': '[[https://wiki.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df|New APIs must be fully documented]]',
+                    'release-notes-start': '[[https://wiki.gnome.org/ReleaseNotes|Writing of release notes begins]]'
                 },
                 'conference': '$detail conference',
                 'hackfest': '$detail hackfest',
@@ -140,7 +140,7 @@ This allows developers to concentrate on refining the new features instead of ad
                     'ui': """No UI changes may be made at all without confirmation from the release team and notification to the documentation team.""",
                     'string': """No string changes may be made without confirmation from the i18n team and notification to release team, translation team, and documentation team.
 From this point, developers can concentrate on stability and bug-fixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots.
-For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check http://live.gnome.org/TranslationProject/HandlingStringFreezes. """,
+For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check https://wiki.gnome.org/TranslationProject/HandlingStringFreezes. """,
                     'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
                     'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
                 },
