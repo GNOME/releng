@@ -74,7 +74,7 @@ core:gtksourceview:3.12.2:
 core:gucharmap:3.12.1:
 core:gupnp:0.20.11:
 core:gupnp-igd:0.2.3:
-core:gvfs:1.21.1:
+core:gvfs:1.20.2:
 core:json-glib:1.0.0:
 core:libchamplain:0.12.7:
 core:libcroco:0.6.8:
