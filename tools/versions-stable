@@ -1,8 +1,8 @@
 ## CORE
 core:NetworkManager:0.9.8.10:
-core:at-spi2-atk:2.13.1:
-core:at-spi2-core:2.13.1:
-core:atk:2.13.1:
+core:at-spi2-atk:2.12.1:
+core:at-spi2-core:2.12.0:
+core:atk:2.12.0:
 core:atkmm:2.22.7:
 core:baobab:3.12.1:
 core:cantarell-fonts:0.0.15:
