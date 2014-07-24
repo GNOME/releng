@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python2
 #
 # Script to publish the list of module maintainers
 # Copyright (c) 2012 Frederic Peters <fpeters@gnome.org>

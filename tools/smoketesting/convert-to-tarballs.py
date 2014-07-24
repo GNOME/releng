@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
 
 # Copyright (c) 2005-2008, Elijah Newren
 # Copyright (c) 2007-2009, Olav Vitters

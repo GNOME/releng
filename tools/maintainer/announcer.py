@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 #
 # Python script useful to maintainers.
 # Copyright (C) 2007 Martyn Russell <martyn@imendio.com> 

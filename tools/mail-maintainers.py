@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python2
 #
 # Script to send an email to module maintainers
 # Copyright (c) 2008 Frederic Peters <fpeters@gnome.org>
