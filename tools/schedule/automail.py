@@ -25,7 +25,7 @@ https://git.gnome.org/browse/releng/tree/tools/schedule/automail.py"""
 def mail_events(events):
     if not len(events): return # sanity check
 
-    mail = 'release-team@gnome.org'
+    mail = 'devel-announce-list@gnome.org'
 
     subject = ""
     tasks = [event for event in events if event.category in cat_task]
@@ -37,8 +37,8 @@ def mail_events(events):
         subject = "%s (and more)" % ', '.join([task.summary() for task in tasks])
 
     assignees = set(event.assignee for event in events if event.assignee)
-    if mail == 'release-team@gnome.org' and len(assignees) != 0:
-        subject += ' -- %s' % ', '.join(assignees)
+    if len(assignees) != 0:
+        subject += ' (responsible: %s)' % ', '.join(assignees)
 
     contents = StringIO.StringIO()
     contents.write("Hello all,\n\n")
@@ -55,6 +55,7 @@ def mail_events(events):
     mime = MIMEText(contents.read())
     mime['Subject'] = subject
     mime['From'] = 'Release Team <release-team@gnome.org>'
+    mime['Cc'] = 'Release Team <release-team@gnome.org>'
     mime['To'] = mail
     s.sendmail('accounts@gnome.org', [mail], mime.as_string())
 
