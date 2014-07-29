@@ -165,6 +165,7 @@ For the string freezes explained, and to see which kind of changes are not cover
             v = ' ' + v
         return "<%s: %s %s %s%s>" % (self.__class__, self.date, self.category, self.detail, v)
 
+    @property
     def wiki_text(self):
         text = self.make_text(self.wiki_template)
 
@@ -173,6 +174,7 @@ For the string freezes explained, and to see which kind of changes are not cover
         else:
             return text
 
+    @property
     def summary(self):
         text = self.make_text(self.summary_template)
 
@@ -181,6 +183,7 @@ For the string freezes explained, and to see which kind of changes are not cover
         else:
             return text
 
+    @property
     def description(self):
         text = self.make_text(self.description_template)
 

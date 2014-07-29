@@ -8,7 +8,7 @@ def wiki_cal_week(events, week, m):
     cells = []
     for day in week:
         f1 = '<#c5d2c8>' if day.month == m else ''
-        f2 = str(day.day) if day not in events else '[[#d%s|%s|title="%s"]]' % (day.isoformat(), str(day.day), '; '.join((event.summary() for event in events[day])))
+        f2 = str(day.day) if day not in events else '[[#d%s|%s|title="%s"]]' % (day.isoformat(), str(day.day), '; '.join((event.summary for event in events[day])))
         cells.append('%s%s' % (f1, f2))
     return cells
 
@@ -82,9 +82,9 @@ for month, events_month in itertools.groupby(events, by_month):
             task_items = [item for item in items if item.category in cat_task]
             note_items = [item for item in items if item.category not in cat_task]
 
-            print "|| ", "<<BR>>".join([i.wiki_text() for i in task_items]),
+            print "|| ", "<<BR>>".join([i.wiki_text for i in task_items]),
             if len(note_items):
-                print "||<:#e0b6af> ", "<<BR>>".join([i.wiki_text() for i in note_items]),
+                print "||<:#e0b6af> ", "<<BR>>".join([i.wiki_text for i in note_items]),
             else:
                 print "|| ",
 

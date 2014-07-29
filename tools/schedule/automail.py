@@ -31,10 +31,10 @@ def mail_events(events):
     tasks = [event for event in events if event.category in cat_task]
     notes = [event for event in events if event.category not in cat_task]
     if (tasks and not notes) or (notes and not tasks):
-        subject = ', '.join([event.summary() for event in events])
+        subject = ', '.join([event.summary for event in events])
     else:
         # Show tasks only, even if we have notes
-        subject = "%s (and more)" % ', '.join([task.summary() for task in tasks])
+        subject = "%s (and more)" % ', '.join([task.summary for task in tasks])
 
     assignees = set(event.assignee for event in events if event.assignee)
     if assignees:
@@ -43,9 +43,9 @@ def mail_events(events):
     contents = StringIO.StringIO()
     contents.write("Hello all,\n\n")
     if len(events) > 1:
-        contents.write("We would like to inform you about the following:\n* %s\n\n\n" % "\n* ".join([event.summary() for event in events]))
+        contents.write("We would like to inform you about the following:\n* %s\n\n\n" % "\n* ".join([event.summary for event in events]))
 
-    contents.write("\n\n\n".join([textwrap.fill(event.description()) for event in events]))
+    contents.write("\n\n\n".join([textwrap.fill(event.description) for event in events]))
 
     contents.write(string.Template(FOOTER).safe_substitute(events[0]))
 

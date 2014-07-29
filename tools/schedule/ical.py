@@ -34,7 +34,7 @@ for event in events:
     summary.value = event.summary()
 
     desc = vevent.add('description')
-    desc.value = event.description()
+    desc.value = event.description
 
     start = vevent.add('dtstart')
     start.value = datetime.datetime(event.date.year, event.date.month, event.date.day, 23, 00, tzinfo = mytz)
