@@ -31,7 +31,7 @@ for event in events:
     vevent.add('last-modified').value = now
 
     summary = vevent.add('summary')
-    summary.value = event.summary()
+    summary.value = event.summary
 
     desc = vevent.add('description')
     desc.value = event.description
