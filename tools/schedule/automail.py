@@ -23,21 +23,21 @@ Automatically generated email. Source at:
 https://git.gnome.org/browse/releng/tree/tools/schedule/automail.py"""
 
 def mail_events(events):
-    if not len(events): return # sanity check
+    if not events: return # sanity check
 
     mail = 'devel-announce-list@gnome.org'
 
     subject = ""
     tasks = [event for event in events if event.category in cat_task]
     notes = [event for event in events if event.category not in cat_task]
-    if (len(tasks) and not len(notes)) or (len(notes) and not len(tasks)):
+    if (tasks and not notes) or (notes and not tasks):
         subject = ', '.join([event.summary() for event in events])
     else:
         # Show tasks only, even if we have notes
         subject = "%s (and more)" % ', '.join([task.summary() for task in tasks])
 
     assignees = set(event.assignee for event in events if event.assignee)
-    if len(assignees) != 0:
+    if assignees:
         subject += ' (responsible: %s)' % ', '.join(assignees)
 
     contents = StringIO.StringIO()
@@ -70,7 +70,7 @@ for event in events:
     if event.date == today_plus3:
         events_to_email.append(event)
 
-if len(events_to_email):
+if events_to_email:
     mail_events(events_to_email)
 
 # For testing purposes
