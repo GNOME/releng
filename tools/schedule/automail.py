@@ -61,14 +61,11 @@ def mail_events(events):
 
 
 
-events = parse_file ("3.14.schedule")
+events = parse_file()
 today = datetime.date.today()
-today_plus3 = today + datetime.timedelta (3)
+date_to_notify_for = today + datetime.timedelta (3)
 
-events_to_email = []
-for event in events:
-    if event.date == today_plus3:
-        events_to_email.append(event)
+events_to_email = [event for event in events if event.automail and event.date == date_to_notify_for]
 
 if events_to_email:
     mail_events(events_to_email)
