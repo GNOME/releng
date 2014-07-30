@@ -169,6 +169,7 @@ For the string freezes explained, and to see which kind of changes are not cover
 
     def __init__ (self, date, week, category, detail, version=None, assignee=None):
         self.date = date
+        self.isoweek = (date.isocalendar()[0] * 100) + date.isocalendar()[1]
         self.rel_week = week
         self.category = category
         self.detail = detail

@@ -42,7 +42,7 @@ events = parse_file()
 
 cat_task = set(('release', 'tarball'))
 by_month = lambda val: val.date.month
-by_week = lambda val: val.rel_week
+by_week = lambda val: val.isoweek
 by_date = lambda val: val.date
 
 cal = calendar.Calendar()
@@ -61,21 +61,27 @@ for smonths in splitter(months, 4):
 
 print ""
 print "||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||"
+year = None
 for month, events_month in itertools.groupby(events, by_month):
     events = list(events_month)
 
     month_str = events[0].date.strftime ("%B")
+    if year is None:
+        year = events[0].date.year
+    elif year != events[0].date.year:
+        year = events[0].date.year
+        print "||<-4 rowbgcolor=\"#dddddd\"> '''%d''' ||" % year
     print "||<-4 rowbgcolor=\"#dddddd\"> '''%s''' ||" % month_str
 
     for week, events_week in itertools.groupby(events, by_week):
         events = list(events_week)
-        rel_week_str = events[0].rel_week
+        rel_week_str = "%s" % (events[0].isoweek % 100)
 
         dates = list([(key, list(items)) for key, items in itertools.groupby(events, by_date)])
 
-        print "||<|%d ^ : #9db8d2> '''%d''' " % (len (dates), rel_week_str),
+        print "||<|%d ^ : #9db8d2> %s " % (len (dates), rel_week_str),
         for date, items in dates:
-            date_str = items[0].date.strftime("%b %d")
+            date_str = items[0].date.strftime("%a %d")
             print "||<^ : #c5d2c8> %s %s" % (date_str, '<<Anchor(d%s)>>' % items[0].date.isoformat()),
 
 
