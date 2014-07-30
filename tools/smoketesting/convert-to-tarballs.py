@@ -611,6 +611,8 @@ class TarballLocator:
                 break
         return location, files
 
+    _get_files_from_https = _get_files_from_http
+
     def find_tarball(self, baselocation, modulename, max_version):
         print "LOOKING for " + modulename + " tarball at " + baselocation
         u = urlparse.urlparse(baselocation)
