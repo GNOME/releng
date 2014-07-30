@@ -76,7 +76,7 @@ import subprocess
 from ftplib import FTP
 from xml.dom import minidom, Node
 from sgmllib import SGMLParser
-import urllib2
+import requests
 import urlparse
 if not hasattr(__builtins__, 'set'):
     from sets import Set as set
@@ -318,7 +318,6 @@ class urllister(SGMLParser):
 class TarballLocator:
     def __init__(self, tarballdir, mirrors, determine_stats=True, local_only=False):
         self.tarballdir = tarballdir
-        self.urlopen = urllib2.build_opener()
         self.have_sftp = self._test_sftp()
         self.get_stats = determine_stats
         self.local_only = local_only
@@ -584,7 +583,6 @@ class TarballLocator:
         return location, files
 
     def _get_files_from_http(self, parsed_url, max_version):
-        obj = self.urlopen
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
@@ -593,10 +591,12 @@ class TarballLocator:
         redirect_location = location
         while True:
             # Get the files
-            usock = obj.open(redirect_location)
+            req = requests.get(redirect_location)
+            if req.status_code != requests.codes.ok:
+                files = None
+                break
             parser = urllister()
-            parser.feed(usock.read())
-            usock.close()
+            parser.feed(req.content)
             parser.close()
             files = parser.urls
 
@@ -605,7 +605,7 @@ class TarballLocator:
             newdirs = map(fixdirs, newdirs)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
-                redirect_location = posixjoin(usock.url, newdir)
+                redirect_location = posixjoin(req.url, newdir)
                 location = posixjoin(location, newdir)
             else:
                 break
@@ -623,7 +623,7 @@ class TarballLocator:
             u = urlparse.urlparse(baselocation)
 
         if u.scheme != 'file' and self.local_only:
-            return 'http://somewhere.in.france/', '', 'blablablaihavenorealclue', 'HUGE'
+            return None, '', None, None
 
         # Determine which function handles the actual retrieving
         locator = getattr(self, '_get_files_from_%s' % u.scheme, None)
@@ -685,8 +685,8 @@ class TarballLocator:
         if self.get_stats:
             hash, size = self._get_tarball_stats(location, tarballs[index])
         else:
-            hash = 'md5:blablablaihavenorealclue'
-            size = 'HUGE'
+            hash = None
+            size = None
         return location, version, hash, size
 
 class ConvertToTarballs:
@@ -756,7 +756,7 @@ class ConvertToTarballs:
             max_version = self.options.get_version_limit(name)
             location, version, hash, size = \
                       self.locator.find_tarball(baselocation, real_name, max_version)
-            print '  ', location, version, hash, size
+            print '  ', location, version, hash if hash else "", size if size else ""
             branch_node.setAttribute('version', version)
             branch_node.setAttribute('repo', repo)
             branch_node.setAttribute('module', location[len(repo):])
@@ -771,11 +771,11 @@ class ConvertToTarballs:
             print ''
             if not id in self.not_found:
                 self.not_found.append(id)
-            branch_node.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
-            branch_node.setAttribute('repo', 'http://somewhere.over.the.rainbow/')
-            branch_node.setAttribute('module', 'where/bluebirds/die')
-            branch_node.setAttribute('size', 'HUGE')
-            branch_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
+            #branch_node.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
+            #branch_node.setAttribute('repo', 'http://somewhere.over.the.rainbow/')
+            #branch_node.setAttribute('module', 'where/bluebirds/die')
+            #branch_node.setAttribute('size', 'HUGE')
+            #branch_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
         if revision and not max_version:
             self.no_max_version.append(id)
         return tarball
