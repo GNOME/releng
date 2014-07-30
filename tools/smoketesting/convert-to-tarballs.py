@@ -605,8 +605,8 @@ class TarballLocator:
             newdirs = map(fixdirs, newdirs)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
-                redirect_location = posixjoin(req.url, newdir)
-                location = posixjoin(location, newdir)
+                redirect_location = posixjoin(req.url, newdir, "")
+                location = posixjoin(location, newdir, "")
             else:
                 break
         return location, files
