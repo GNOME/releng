@@ -930,7 +930,7 @@ class ConvertToTarballs:
               real_name = self.options.get_real_name(name)
               location, version, hash, size = \
                         self.locator.find_tarball(baselocation, real_name, max_version)
-              print '  ', location, version, hash, size
+              print '  ', location, version, hash if hash else "", size if size else ""
               self.all_tarballs.append(name)
               self.all_versions.append(version)
           except IOError:
