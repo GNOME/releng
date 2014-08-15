@@ -24,7 +24,7 @@ nextnewstable:3.16
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90
+21:release:beta.90 fredp
 23:freeze:string
 23:release:beta.91
 24:features:proposals-start-next
