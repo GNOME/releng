@@ -26,10 +26,10 @@ nextnewstable:3.16
 21:freeze:the-freeze
 21:release:beta.90 fredp
 23:freeze:string
-23:release:beta.91
+23:release:beta.91 jjardon
 24:features:proposals-start-next
 25:freeze:hard-code
-25:release:rc.92
+25:release:rc.92 fredp
 26:release:newstable.0
 26:freeze:hard-code-end
 29:release:newstable.1
