@@ -369,7 +369,7 @@ class TarballLocator:
         try:
             cfg = self.sftp_cfg.lookup(hostname)
             cfg.get('user') # require a username to be defined
-            if not self.sftp_hosts.has_key(hostname): raise KeyError('unknown hostname')
+            if not hostname in self.sftp_hosts: raise KeyError('unknown hostname')
         except KeyError:
             do_sftp = False
 
