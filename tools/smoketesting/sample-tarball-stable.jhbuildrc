@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.12.2'
+moduleset = 'gnome-apps-3.14.0'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -25,9 +25,6 @@ prefix = os.path.join(checkoutroot, 'install')
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc'
-
-# An alternative location to look for (or download to) all downloaded tarballs
-tarballdir = os.path.join(checkoutroot, 'pkgs')
 
 # these are hard to build or interfere with system packages
 skip = ['aisleriot', 'gnome-boxes', 'gnome-packagekit', 'gnome-software', 'spice-gtk', 'PackageKit']
