@@ -32,4 +32,4 @@ nextnewstable:3.16
 25:release:rc.92 fredp
 26:release:newstable.0 mclasen
 26:freeze:hard-code-end
-29:release:newstable.1
+29:release:newstable.1 fredp
