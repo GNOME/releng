@@ -1,0 +1,28 @@
+yearweek:201439
+stable:3.14
+unstable:3.15
+newstable:3.16
+nextnewstable:3.18
+0:features:proposals-start
+0:release:stable.0 mclasen
+3:release:stable.1 fredp
+5:release:unstable.1 mclasen
+4:features:proposals-end
+5:features:discussion
+6:features:decision
+7:release:stable.2
+9:release:unstable.2
+13:release:unstable.3
+17:release:unstable.4
+21:task:api-doc
+21:task:release-notes-start
+21:freeze:the-freeze
+21:release:beta.90
+23:freeze:string
+23:release:beta.91
+24:features:proposals-start-next
+25:freeze:hard-code
+25:release:rc.92
+26:release:newstable.0
+26:freeze:hard-code-end
+29:release:newstable.1
