@@ -12,7 +12,7 @@ nextnewstable:3.18
 6:features:decision
 7:release:stable.2
 9:release:unstable.2
-13:release:unstable.3
+12:release:unstable.3
 17:release:unstable.4
 21:task:api-doc
 21:task:release-notes-start
