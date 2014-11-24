@@ -10,9 +10,9 @@ nextnewstable:3.18
 4:features:proposals-end
 5:features:discussion
 6:features:decision
-7:release:stable.2
-9:release:unstable.2
-12:release:unstable.3
+7:release:stable.2 fredp
+9:release:unstable.2 mclasen
+12:release:unstable.3 fredp
 17:release:unstable.4
 21:task:api-doc
 21:task:release-notes-start
