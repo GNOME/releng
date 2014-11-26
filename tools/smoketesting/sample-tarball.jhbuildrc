@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.15.1'
+moduleset = 'gnome-apps-3.15.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -27,8 +27,7 @@ prefix = os.path.join(checkoutroot, 'install')
 autogenargs='--disable-static --disable-gtk-doc'
 
 # these are hard to build or interfere with system packages
-skip = ["aisleriot", "atkmm", "cairo", "gdlmm", "glibmm", "gtkmm", "gtksourceviewmm", "itstool", "libpwquality", "libcanberra", "libsigc++2", "libvirt", "pangomm", "telepathy-logger", "telepathy-mission-control", "zeitgeist"]
+skip = ["aisleriot", "atkmm", "gdlmm", "glibmm", "gtkmm", "gtksourceviewmm", "itstool", "libpwquality", "libcanberra", "libsigc++2", "libvirt", "pangomm", "telepathy-logger", "telepathy-mission-control", "zeitgeist"]
 
 # This is needed to compile with g++ < 4.8
 module_autogenargs['WebKit'] = 'CXXFLAGS="-D_GLIBCXX_USE_SCHED_YIELD -D_GLIBCXX_USE_NANOSLEEP"'
-module_autogenargs['cairo'] = 'CXXFLAGS="-flto -ffat-lto-objects"'
