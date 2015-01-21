@@ -32,7 +32,7 @@ core:gnome-backgrounds:3.15.2:
 core:gnome-bluetooth:3.15.4:
 core:gnome-calculator:3.15.1:
 core:gnome-contacts:3.15.4:
-core:gnome-control-center:3.14.2:
+core:gnome-control-center:3.15.4:
 core:gnome-desktop:3.15.4:
 core:gnome-dictionary:3.14.2:
 core:gnome-disk-utility:3.14.0:
@@ -46,8 +46,8 @@ core:gnome-packagekit:3.15.4:
 core:gnome-screenshot:3.14.0:
 core:gnome-session:3.15.3:
 core:gnome-settings-daemon:3.15.4:
-core:gnome-shell:3.15.3:
-core:gnome-shell-extensions:3.15.3.1:
+core:gnome-shell:3.15.4:
+core:gnome-shell-extensions:3.15.4:
 core:gnome-system-log:3.9.90:
 core:gnome-system-monitor:3.15.4:
 core:gnome-terminal:3.15.0:
@@ -93,7 +93,7 @@ core:libwnck:3.14.0:
 core:libzapojit:0.0.3:
 core:mm-common:0.9.7:
 core:mousetweaks:3.12.0:
-core:mutter:3.15.3:
+core:mutter:3.15.4:
 core:nautilus:3.14.2:
 core:network-manager-applet:1.0.0:
 core:pango:1.36.8:
