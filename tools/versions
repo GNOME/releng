@@ -8,7 +8,7 @@ core:atkmm:2.22.7:
 core:baobab:3.14.1:
 core:cantarell-fonts:0.0.16:
 core:caribou:0.4.16:
-core:clutter:1.20.0:
+core:clutter:1.21.4:
 core:clutter-gst:2.0.12:
 core:clutter-gtk:1.6.0:
 core:cogl:1.18.2:
