@@ -745,6 +745,15 @@ class ConvertToTarballs:
             attrs = subnode.attributes
             if attrs.get('revision') != None:
                 revision = attrs.get('revision').nodeValue
+
+        # remove m4-common from dependencies as it's only useful when building
+        # modules from git.
+        for dependencies_node in node.getElementsByTagName('dependencies'):
+            for subnode in dependencies_node.getElementsByTagName('dep'):
+                if subnode.attributes.get('package').value == 'm4-common':
+                    dependencies_node.removeChild(subnode)
+                    continue
+
         try:
             name = self.options.translate_name(id)
             real_name = self.options.get_real_name(name)
