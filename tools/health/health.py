@@ -28,7 +28,8 @@ import json
 
 
 CACHE_DIR = 'cache'
-GIT_REPOSITORIES_DIR = '/scratch/jhbuild/src/'
+GIT_REPOSITORIES_DIR = os.environ.get('JHBUILD_CHECKOUT_DIR',
+        os.path.expanduser('~/jhbuild/checkout'))
 modules = {}
 
 
