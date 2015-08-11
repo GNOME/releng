@@ -1,6 +1,6 @@
-#! /usr/bin/env python2
+#! /usr/bin/env python3
 
-# Copyright (C) 2014  Frederic Peters
+# Copyright (C) 2014-2015  Frederic Peters
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 
 
 import datetime
-import urllib2
+import urllib.request
 import string
 import subprocess
 import hashlib
@@ -39,17 +39,18 @@ def setup():
 
 
 def url_cache_read(url, prefix = ''):
-    s = prefix + hashlib.md5(url).hexdigest()
+    print(url)
+    s = prefix + hashlib.md5(url.encode('ascii')).hexdigest()
     cache_file = os.path.join(CACHE_DIR, s)
     if os.path.exists(cache_file):
-        return file(cache_file).read()
+        return open(cache_file).read()
     try:
-        st = urllib2.urlopen(url).read()
+        st = urllib.request.urlopen(url).read()
     except:
         return ''
     if not os.path.exists(CACHE_DIR):
         os.mkdir(CACHE_DIR)
-    file(cache_file, 'w').write(st)
+    open(cache_file, 'w').write(str(st))
     return st
 
 
@@ -59,26 +60,24 @@ def tryint(x):
     except ValueError:
         return x
 
-def version_cmp(x, y):
-    try:
-        return cmp([tryint(j) for j in x.split('.')], [tryint(k) for k in y.split('.')])
-    except ValueError:
-        return 0
+def version_key(x):
+    return [tryint(j) for j in x.split('.')]
 
 
 def get_latest_gnome_version():
     versions = []
     for line in url_cache_read('ftp://ftp.gnome.org/pub/GNOME/teams/releng/').splitlines():
-        version = line.strip().split()[-1]
+        version = str(line, 'utf-8').strip().split()[-1]
         if version[0] in string.digits:
             versions.append(version)
-    versions.sort(version_cmp)
+    versions.sort(key=version_key)
     return versions[-1]
 
 def pick_moduleset_infos():
     for line in url_cache_read(
             'ftp://ftp.gnome.org/pub/GNOME/teams/releng/%s/versions' % \
                     get_latest_gnome_version()).splitlines():
+        line = str(line, 'utf-8')
         if line.startswith('#') or not line.strip():
             continue
         category, name, version = line.split(':', 4)[:3]
@@ -140,7 +139,7 @@ def pick_doap_infos():
 
 class Commit:
     date = None
-    msg = u''
+    msg = ''
     files = None
     translation_commit = False
     author = None
@@ -148,7 +147,7 @@ class Commit:
     def __init__(self, **kwargs):
         for k, v in kwargs.items():
             setattr(self, k, v)
-        if type(self.date) is unicode:
+        if type(self.date) is str:
             self.date = datetime.datetime.strptime(self.date, '%Y-%m-%d %H:%M')
 
     def to_dict(self):
@@ -167,6 +166,7 @@ def get_git_log(cwd):
     current_commit = None
     logs = []
     for line in p.stdout:
+        line = str(line, 'utf-8')
         if line.startswith('commit '):
             if current_commit:
                 yield current_commit
@@ -179,12 +179,12 @@ def get_git_log(cwd):
             current_commit.date = datetime.datetime.strptime(date, '%Y-%m-%d')
         elif line.startswith('Author:'):
             author = line.split(':')[-1].strip()
-            current_commit.author = unicode(author, 'utf-8', errors='ignore')
+            current_commit.author = author
         elif line.startswith('Commit:'):
             committer = line.split(':')[-1].strip()
-            current_commit.committer = unicode(committer, 'utf-8', errors='ignore')
+            current_commit.committer = committer
         elif line.startswith(' '*4):
-            current_commit.msg += unicode(line[4:], 'utf-8', errors='ignore')
+            current_commit.msg += line[4:]
         elif line.startswith(' '):
             if '|' in line:
                 current_commit.files.append(line.split('|')[0].strip())
@@ -198,15 +198,15 @@ def pick_git_infos():
     if not os.path.exists(os.path.join(CACHE_DIR, 'git')):
         os.mkdir(os.path.join(CACHE_DIR, 'git'))
     for i, module in enumerate(modules.keys()):
-        print module
+        print(module)
         if not os.path.exists(os.path.join(GIT_REPOSITORIES_DIR, module)):
             continue
         if os.path.exists(os.path.join(CACHE_DIR, 'git', '%s.json' % module)):
-            git_log = [Commit(**x) for x in json.load(file(os.path.join(CACHE_DIR, 'git', '%s.json' % module)))]
+            git_log = [Commit(**x) for x in json.load(open(os.path.join(CACHE_DIR, 'git', '%s.json' % module)))]
         else:
             git_log = list(get_git_log(os.path.join(GIT_REPOSITORIES_DIR, module)))
             json.dump([x.to_dict() for x in git_log],
-                    file(os.path.join(CACHE_DIR, 'git', '%s.json' % module), 'w'))
+                    open(os.path.join(CACHE_DIR, 'git', '%s.json' % module), 'w'))
         modules[module]['git'] = {}
         most_recent_commit = [x for x in git_log if not x.translation_commit][0]
         modules[module]['git']['most_recent_commit'] = most_recent_commit.date.strftime('%Y-%m-%d')
@@ -244,10 +244,10 @@ def pick_git_infos():
             extensions[extension] += 1
         language = None
         for extension in ('.vala', '.js', '.py', '.cpp', '.cc', '.cxx', '.c'):
-            if extensions.get(extension) > 5:
-                if extensions.get('.c') > extensions.get(extension, 0)*2:
+            if extensions.get(extension, 0) > 5:
+                if extensions.get('.c', 0) > extensions.get(extension, 0)*2:
                     extension = '.c'
-            if extensions.get(extension) > 5:
+            if extensions.get(extension, 0) > 5:
                 language = {
                     '.vala': 'Vala',
                     '.js': 'JavaScript',
@@ -265,4 +265,4 @@ if __name__ == '__main__':
     pick_moduleset_infos()
     pick_doap_infos()
     pick_git_infos()
-    json.dump(modules.values(), file('data.json', 'w'), indent=2)
+    json.dump(list(modules.values()), open('data.json', 'w'), indent=2)
