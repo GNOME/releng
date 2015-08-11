@@ -39,7 +39,6 @@ def setup():
 
 
 def url_cache_read(url, prefix = ''):
-    print(url)
     s = prefix + hashlib.md5(url.encode('ascii')).hexdigest()
     cache_file = os.path.join(CACHE_DIR, s)
     if os.path.exists(cache_file):
