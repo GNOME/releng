@@ -42,14 +42,14 @@ def url_cache_read(url, prefix = ''):
     s = prefix + hashlib.md5(url.encode('ascii')).hexdigest()
     cache_file = os.path.join(CACHE_DIR, s)
     if os.path.exists(cache_file):
-        return open(cache_file).read()
+        return open(cache_file, 'rb').read()
     try:
         st = urllib.request.urlopen(url).read()
     except:
         return ''
     if not os.path.exists(CACHE_DIR):
         os.mkdir(CACHE_DIR)
-    open(cache_file, 'w').write(str(st))
+    open(cache_file, 'w').write(str(st, 'utf-8'))
     return st
 
 
