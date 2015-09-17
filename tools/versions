@@ -77,6 +77,7 @@ core:libchamplain:0.12.10:
 core:libcroco:0.6.8:
 core:libgdata:0.17.3:
 core:libgee:0.18.0:
+core:libgrss:0.7.0:
 core:libgsf:1.14.34:
 core:libgtop:2.31.91:
 core:libgweather:3.17.92:
