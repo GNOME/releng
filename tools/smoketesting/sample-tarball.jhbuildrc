@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.17.92'
+moduleset = 'gnome-apps-3.19.1'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -27,7 +27,7 @@ prefix = os.path.join(checkoutroot, 'install')
 autogenargs='--disable-static --disable-gtk-doc'
 
 # these are hard to build or interfere with system packages
-skip = ['libpwquality', 'zeitgeist', 'gdm', 'gitg', 'nemiver', 'gnome-builder', 'PackageKit', 'gdlmm']
+skip = ['libpwquality', 'zeitgeist', 'gdm', 'telepathy-logger', 'gitg', 'gnome-photos', 'gdlmm']
 
 # This is needed to compile with g++ < 4.8
 module_autogenargs['WebKit'] = 'CXXFLAGS="-D_GLIBCXX_USE_SCHED_YIELD -D_GLIBCXX_USE_NANOSLEEP"'
