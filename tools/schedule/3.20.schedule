@@ -4,10 +4,10 @@ unstable:3.19
 newstable:3.20
 nextnewstable:3.22
 0:release:stable.0 mclasen
-3:release:stable.1
-5:release:unstable.1
-7:release:stable.2
-9:release:unstable.2
+3:release:stable.1 jjardon
+5:release:unstable.1 jjardon
+7:release:stable.2 mclasen
+9:release:unstable.2 fredp
 12:release:unstable.3
 17:release:unstable.4
 21:task:api-doc
