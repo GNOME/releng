@@ -154,6 +154,36 @@ class Commit:
         d['date'] = datetime.datetime.strftime(d['date'], '%Y-%m-%d %H:%M')
         return d
 
+def get_recent_tag_info(cwd):
+    cmd = ['git', 'describe', '--tags', '--long']
+    p = subprocess.Popen(cmd,
+            close_fds=True,
+            stdin=None,
+            stdout=subprocess.PIPE,
+            stderr=None,
+            cwd=cwd)
+    tagname, nb_commits, commit_id = str(p.stdout.read(), 'ascii').strip().rsplit('-', 2)
+
+    cmd = ['git', 'show', tagname]
+    p = subprocess.Popen(cmd,
+            close_fds=True,
+            stdin=None,
+            stdout=subprocess.PIPE,
+            stderr=None,
+            cwd=cwd)
+    commit_id = None
+    for line in p.stdout.readlines():
+        line = str(line, 'ascii', 'ignore')
+        if line.startswith('commit '):
+            commit_id = line.strip().split(' ')[1]
+            break
+
+    return {
+            'most_recent_tag': tagname,
+            'commits_since_most_recent_tag': int(nb_commits),
+            'most_recent_tag_commit_id': commit_id,
+            }
+
 def get_git_log(cwd):
     cmd = ['git', 'log', '--stat', '--date=short', '--format=fuller']
     p = subprocess.Popen(cmd,
@@ -165,7 +195,7 @@ def get_git_log(cwd):
     current_commit = None
     logs = []
     for line in p.stdout:
-        line = str(line, 'utf-8')
+        line = str(line, 'utf-8', 'replace')
         if line.startswith('commit '):
             if current_commit:
                 yield current_commit
@@ -207,12 +237,22 @@ def pick_git_infos():
             json.dump([x.to_dict() for x in git_log],
                     open(os.path.join(CACHE_DIR, 'git', '%s.json' % module), 'w'))
         modules[module]['git'] = {}
+        modules[module]['git'].update(get_recent_tag_info(
+            cwd=os.path.join(GIT_REPOSITORIES_DIR, module)))
         most_recent_commit = [x for x in git_log if not x.translation_commit][0]
         modules[module]['git']['most_recent_commit'] = most_recent_commit.date.strftime('%Y-%m-%d')
         modules[module]['git']['first_commit'] = git_log[-1].date.strftime('%Y-%m-%d')
         one_year_ago = datetime.datetime.now() - datetime.timedelta(days=365)
         modules[module]['git']['commits_in_12m'] = len(
                 [x for x in git_log if x.date > one_year_ago])
+        if modules[module]['git'].get('most_recent_tag'):
+            most_recent_tag_commit_id = modules[module]['git']['most_recent_tag_commit_id']
+            most_recent_tag_commit = [x for x in git_log if x.id.startswith(most_recent_tag_commit_id)]
+            if most_recent_commit:
+                commits = [x for x in git_log[:git_log.index(most_recent_tag_commit[0])]]
+                modules[module]['git']['non_translation_commits_since_most_recent_tag'] = len(
+                    [x for x in commits if not x.translation_commit])
+
         committers = {}
         authors = {}
         maintainers = {}
@@ -261,7 +301,10 @@ def pick_git_infos():
 
 
 if __name__ == '__main__':
+    print('pick_moduleset_infos')
     pick_moduleset_infos()
+    print('pick_doap_infos')
     pick_doap_infos()
+    print('pick_git_infos')
     pick_git_infos()
     json.dump(list(modules.values()), open('data.json', 'w'), indent=2)

@@ -1,0 +1,143 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Wanted Releases</title>
+<script src="js/jquery-latest.js"></script>
+<style>
+body { font-family: sans-serif; font-size: 10px; color: #333;}
+
+span { font-size: 10px; font-weight: normal; }
+
+div.prio0 {
+        font-size: 80%;
+}
+
+h1, h2 { display: inline-block; padding-right: 1em; }
+
+h2.prio0 { color: #ccc; font-weight: normal; }
+h2.prio1 { color: #f99; }
+h2.prio2 { color: #f66; }
+h2.prio3 { color: #f33; }
+h2.prio3 { color: #f00; }
+h2.prio4 { color: #f00; font-size: 110%; }
+
+</style>
+</head>
+<body>
+<div class="legend">(numbers are numbers of commits since last tag, first number
+	omits the translation commits)</div>
+
+<script>
+var by_maintainers = Object();
+$(document).ready(function() {
+  jQuery.getJSON('data.json', function(data, status, xhr) {
+    $(data).each(function(idx, value) {
+       if (value.doap_error) return;
+       if (typeof(value.git) === 'undefined') return;
+       $.map(value.maintainers, function(o, i) {
+         if (o.commits_in_12m > 0) {
+           if (typeof(by_maintainers[o.name]) === 'undefined') {
+             by_maintainers[o.name] = Array();
+           }
+           by_maintainers[o.name].push(value);
+           by_maintainers[o.name].sort(function(x, y) { return x.module.localeCompare(y.module); });
+         }
+       });
+    })
+    sorted_maintainers = Object.keys(by_maintainers);
+    sorted_maintainers.sort();
+    $(sorted_maintainers).each(function(idx, value) {
+      var div = $('<div>');
+      $('<h1>' + value + '</h1>').appendTo(div);
+      $(by_maintainers[value]).each(function(idx, value) {
+        var h2 = $('<h2>' + value.module + ' </h2>').appendTo(div);
+        var nb_commits = parseInt(value.git.commits_since_most_recent_tag);
+        var nb_non_translation_commits = parseInt(value.git.non_translation_commits_since_most_recent_tag);
+        $('<span class="nb">' + nb_non_translation_commits + ' / ' + nb_commits + '</span>').appendTo(h2);
+        max_prio = 0;
+        if (nb_commits < 5 || nb_non_translation_commits < 5) {
+           $(h2).attr('class', 'prio0');
+        } else if (nb_commits < 15 || nb_non_translation_commits < 15) {
+           $(h2).attr('class', 'prio1');
+           max_prio = Math.max(max_prio, 1);
+        } else if (nb_commits < 30 || nb_non_translation_commits < 30) {
+           $(h2).attr('class', 'prio2');
+           max_prio = Math.max(max_prio, 2);
+        } else if (nb_commits < 60 || nb_non_translation_commits < 60) {
+           $(h2).attr('class', 'prio3');
+           max_prio = Math.max(max_prio, 3);
+        } else {
+           $(h2).attr('class', 'prio4');
+           max_prio = Math.max(max_prio, 4);
+        }
+        $(div).attr('class', 'prio' + max_prio);
+      });
+      $(div).appendTo($('body'));
+    });
+  });
+/*
+  $(Object.keys(by_maintainers))
+       $('<td>' + value.jhbuild_category + '</td>').appendTo(row);
+       $('<td>' + value.module + '</td>').appendTo(row);
+       $('<td>' + value.shortdesc + '</td>').appendTo(row);
+       $('<td>' + $.map(value.maintainers, function(o, i) {
+         if (o.commits_in_12m == 0) {
+           return '<span class="inactive">' + o.name + '</span>';
+         } else {
+           return o.name;
+         }
+       }).join(", ") + '</td>').appendTo(row);
+       if (value.programminglanguage) {
+         $('<td>' + value.programminglanguage + '</td>').appendTo(row);
+       } else if (value.git.language) {
+         $('<td>' + value.git.language + ' (guess)</td>').appendTo(row);
+       } else {
+         $('<td></td>').appendTo(row);
+       }
+       code_repos_score = 0;
+       if (value.git.commits_in_12m == 0) {
+         code_repos_score += 5;
+       } else if (value.git.commits_in_12m < 5) {
+         code_repos_score += 2;
+       } else if (value.git.commits_in_12m < 20) {
+         code_repos_score += 1;
+       }
+       if (value.git.committers_in_12m == 1) {
+         code_repos_score += 3;
+       } else if (value.git.committers_in_12m == 2) {
+         code_repos_score += 1;
+       }
+       number_of_maintainers = value.maintainers.length;
+       if (number_of_maintainers == 0) {
+         code_repos_score += 2;
+       } else if (number_of_maintainers == 1) {
+         code_repos_score += 1;
+       }
+
+       inactive_maintainers = Array();
+       for (i = 0; i < value.maintainers.length; i++) {
+         maintainer = value.maintainers[i];
+         if (maintainer.commits_in_12m == 0) {
+           inactive_maintainers.push(maintainer);
+         }
+       }
+       if (inactive_maintainers.length == value.maintainers.length) {
+         code_repos_score += 2;
+       } else if (inactive_maintainers.length > 0) {
+         code_repos_score += 1;
+       }
+
+       if (value.git.committers_in_12m == value.git.authors_in_12m) {
+         code_repos_score += 1;
+       }
+
+       $('<td>' + code_repos_score + '</td>').appendTo(row);
+       $(row).appendTo($('tbody'));
+    });
+  });
+  */
+});
+</script>
+</body>
+</html>
+
