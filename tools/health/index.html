@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Health</title>
+<!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
+<script src="js/jquery-latest.js"></script>
+<script src="js/jquery.tablesorter.js"></script>
+<link rel="stylesheet" href="js/themes/blue/style.css" type="text/css" />
+<style>
+span.inactive {
+  color: #aaa;
+}
+</style>
+</head>
+<body>
+<table class="tablesorter">
+  <thead>
+    <th>Category</th>
+    <th>Module</th>
+    <th>Short desc</th>
+    <th>Maintainers</th>
+    <th>Language</th>
+    <th>Code Activity Score</th>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<ul>
+  <li>Maintainers: grayed out maintainers are maintainers that didn't commit for the last 12
+  months.</li>
+  <li>Code Activity Score: the lower the better, go and read <a
+	  href="http://blogs.gnome.org/aklapper/2014/01/30/lack-of-maintainership-finding-a-project-to-contribute-to/">Andre's
+	  paper</a> for details.</li>
+</ul>
+
+
+<script>
+$(document).ready(function() {
+  jQuery.getJSON('data.json', function(data, status, xhr) {
+    $(data).each(function(idx, value) {
+       if (value.doap_error) return;
+       if (typeof(value.git) === 'undefined') return;
+       row = $('<tr>');
+       $('<td>' + value.jhbuild_category + '</td>').appendTo(row);
+       $('<td>' + value.module + '</td>').appendTo(row);
+       $('<td>' + value.shortdesc + '</td>').appendTo(row);
+       $('<td>' + $.map(value.maintainers, function(o, i) {
+         if (o.commits_in_12m == 0) {
+           return '<span class="inactive">' + o.name + '</span>';
+         } else {
+           return o.name;
+         }
+       }).join(", ") + '</td>').appendTo(row);
+       if (value.programminglanguage) {
+         $('<td>' + value.programminglanguage + '</td>').appendTo(row);
+       } else if (value.git.language) {
+         $('<td>' + value.git.language + ' (guess)</td>').appendTo(row);
+       } else {
+         $('<td></td>').appendTo(row);
+       }
+       code_repos_score = 0;
+       if (value.git.commits_in_12m == 0) {
+         code_repos_score += 5;
+       } else if (value.git.commits_in_12m < 5) {
+         code_repos_score += 2;
+       } else if (value.git.commits_in_12m < 20) {
+         code_repos_score += 1;
+       }
+       if (value.git.committers_in_12m == 1) {
+         code_repos_score += 3;
+       } else if (value.git.committers_in_12m == 2) {
+         code_repos_score += 1;
+       }
+       number_of_maintainers = value.maintainers.length;
+       if (number_of_maintainers == 0) {
+         code_repos_score += 2;
+       } else if (number_of_maintainers == 1) {
+         code_repos_score += 1;
+       }
+
+       inactive_maintainers = Array();
+       for (i = 0; i < value.maintainers.length; i++) {
+         maintainer = value.maintainers[i];
+         if (maintainer.commits_in_12m == 0) {
+           inactive_maintainers.push(maintainer);
+         }
+       }
+       if (inactive_maintainers.length == value.maintainers.length) {
+         code_repos_score += 2;
+       } else if (inactive_maintainers.length > 0) {
+         code_repos_score += 1;
+       }
+
+       if (value.git.committers_in_12m == value.git.authors_in_12m) {
+         code_repos_score += 1;
+       }
+
+       $('<td>' + code_repos_score + '</td>').appendTo(row);
+       $(row).appendTo($('tbody'));
+    });
+    $("table").tablesorter();
+  });
+});
+</script>
+</body>
+</html>
