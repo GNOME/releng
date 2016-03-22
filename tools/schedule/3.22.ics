@@ -1,0 +1,710 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20160322T191437Z-89400@canis.lupus
+DTSTART:20160321T230000Z
+DTEND:20160321T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-03-21 before 23:59 UTC for the GNOME\
+ n3.20.0 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 3.20.0. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.20.0 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.20.0 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160318T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-52965@canis.lupus
+DTSTART:20160323T230000Z
+DTEND:20160323T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.20.0 stable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.20.0 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.20.0 stable release
+TRIGGER;VALUE=DATE-TIME:20160323T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-26000@canis.lupus
+DTSTART:20160411T230000Z
+DTEND:20160411T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-04-11 before 23:59 UTC for the GNOME\
+ n3.20.1 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 3.20.1. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.20.1 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.20.1 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160408T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-2500@canis.lupus
+DTSTART:20160413T230000Z
+DTEND:20160413T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.20.1 stable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.20.1 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.20.1 stable release
+TRIGGER;VALUE=DATE-TIME:20160413T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-81121@canis.lupus
+DTSTART:20160425T230000Z
+DTEND:20160425T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-04-25 before 23:59 UTC for the GNOME\
+ n3.21.1 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.21.1. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.1 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.1 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160422T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-86340@canis.lupus
+DTSTART:20160427T230000Z
+DTEND:20160427T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.1 unstable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.1 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.1 unstable release
+TRIGGER;VALUE=DATE-TIME:20160427T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-24926@canis.lupus
+DTSTART:20160509T230000Z
+DTEND:20160509T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-05-09 before 23:59 UTC for the GNOME\
+ n3.20.2 stable release\, which will be delivered on Wednesday.\nModules wh
+ ich were proposed for inclusion should try to follow the unstable\nschedul
+ e so everyone can test them.\n\nPlease make sure that your tarballs will b
+ e uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wil
+ l probably be too late to get\nin 3.20.2. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.20.2 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.20.2 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160506T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-22401@canis.lupus
+DTSTART:20160511T230000Z
+DTEND:20160511T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.20.2 stable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.20.2 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.20.2 stable release
+TRIGGER;VALUE=DATE-TIME:20160511T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-61063@canis.lupus
+DTSTART:20160523T230000Z
+DTEND:20160523T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-05-23 before 23:59 UTC for the GNOME\
+ n3.21.2 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.21.2. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.2 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.2 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160520T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-60908@canis.lupus
+DTSTART:20160525T230000Z
+DTEND:20160525T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.2 unstable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.2 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.2 unstable release
+TRIGGER;VALUE=DATE-TIME:20160525T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-19698@canis.lupus
+DTSTART:20160620T230000Z
+DTEND:20160620T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-06-20 before 23:59 UTC for the GNOME\
+ n3.21.3 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.21.3. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.3 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.3 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160617T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-56815@canis.lupus
+DTSTART:20160622T230000Z
+DTEND:20160622T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.3 unstable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.3 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.3 unstable release
+TRIGGER;VALUE=DATE-TIME:20160622T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-24217@canis.lupus
+DTSTART:20160718T230000Z
+DTEND:20160718T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-07-18 before 23:59 UTC for the GNOME\
+ n3.21.4 unstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.21.4. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.4 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.4 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160715T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-93966@canis.lupus
+DTSTART:20160720T230000Z
+DTEND:20160720T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.4 unstable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.4 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.4 unstable release
+TRIGGER;VALUE=DATE-TIME:20160720T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-58925@canis.lupus
+DTSTART:20160812T230000Z
+DTEND:20160812T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20160809T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-51676@canis.lupus
+DTSTART:20160813T230000Z
+DTEND:20160813T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20160810T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-58493@canis.lupus
+DTSTART:20160814T230000Z
+DTEND:20160814T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20160811T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-53257@canis.lupus
+DTSTART:20160815T230000Z
+DTEND:20160815T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-08-15 before 23:59 UTC for the GNOME\
+ n3.21.90 beta release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.21.90. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.90 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.90 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20160812T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-63150@canis.lupus
+DTSTART:20160815T230000Z
+DTEND:20160815T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:API/ABI\, UI and Feature Addition Freeze\; String Change Announcem
+ ent Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:API/ABI\, UI and Feature Addition Freeze\; String Change Annou
+ ncement Period
+TRIGGER;VALUE=DATE-TIME:20160812T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-73318@canis.lupus
+DTSTART:20160815T230000Z
+DTEND:20160815T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:New APIs must be fully documented
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New APIs must be fully documented
+TRIGGER;VALUE=DATE-TIME:20160812T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-56897@canis.lupus
+DTSTART:20160815T230000Z
+DTEND:20160815T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:Writing of release notes begins
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Writing of release notes begins
+TRIGGER;VALUE=DATE-TIME:20160812T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-69087@canis.lupus
+DTSTART:20160817T230000Z
+DTEND:20160817T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.90 beta release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.90 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.90 beta release
+TRIGGER;VALUE=DATE-TIME:20160817T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-40223@canis.lupus
+DTSTART:20160829T230000Z
+DTEND:20160829T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-08-29 before 23:59 UTC for the GNOME\
+ n3.21.91 beta release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.21.91. If you are not able to make a ta
+ rball before this deadline or\nif you think you'll be late\, please send a
+  mail to the release team and\nwe'll find someone to roll the tarball for 
+ you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.91 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.91 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20160826T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-84468@canis.lupus
+DTSTART:20160829T230000Z
+DTEND:20160829T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:No string changes may be made without confirmation from the i1
+ 8n team and notification to release team\, translation team\, and document
+ ation team.\nFrom this point\, developers can concentrate on stability and
+  bug-fixing. Translators can work without worrying that the original Engli
+ sh strings will change\, and documentation writers can take accurate scree
+ nshots.\nFor the string freezes explained\, and to see which kind of chang
+ es are not covered by freeze rules\, check https://wiki.gnome.org/Translat
+ ionProject/HandlingStringFreezes. 
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:String Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Freeze
+TRIGGER;VALUE=DATE-TIME:20160826T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-91708@canis.lupus
+DTSTART:20160831T230000Z
+DTEND:20160831T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.91 beta release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.91 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.91 beta release
+TRIGGER;VALUE=DATE-TIME:20160831T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-52770@canis.lupus
+DTSTART:20160912T230000Z
+DTEND:20160912T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-09-12 before 23:59 UTC for the GNOME\
+ n3.21.92 rc release\, which will be delivered on Wednesday.\nModules which
+  were proposed for inclusion should try to follow the unstable\nschedule s
+ o everyone can test them.\n\nPlease make sure that your tarballs will be u
+ ploaded before Monday 23:59\nUTC: tarballs uploaded later than that will p
+ robably be too late to get\nin 3.21.92. If you are not able to make a tarb
+ all before this deadline or\nif you think you'll be late\, please send a m
+ ail to the release team and\nwe'll find someone to roll the tarball for yo
+ u!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.92 rc tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.92 rc tarballs due
+TRIGGER;VALUE=DATE-TIME:20160909T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-8729@canis.lupus
+DTSTART:20160912T230000Z
+DTEND:20160912T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:This is a late freeze to avoids sudden last-minute accidents w
+ hich could risk the stability that should have been reached at this point.
+  No source code changes are allowed without approval from the release team
+ \, but translation and documentation should continue. Simple build fixes a
+ re\, of course\, allowed without asking. 
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:Hard Code Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze
+TRIGGER;VALUE=DATE-TIME:20160909T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-89827@canis.lupus
+DTSTART:20160914T230000Z
+DTEND:20160914T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.21.92 rc release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.21.92 rc release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.21.92 rc release
+TRIGGER;VALUE=DATE-TIME:20160914T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-70027@canis.lupus
+DTSTART:20160919T230000Z
+DTEND:20160919T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-09-19 before 23:59 UTC for the GNOME\
+ n3.22.0 newstable release\, which will be delivered on Wednesday.\nModules
+  which were proposed for inclusion should try to follow the unstable\nsche
+ dule so everyone can test them.\n\nPlease make sure that your tarballs wil
+ l be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that 
+ will probably be too late to get\nin 3.22.0. If you are not able to make a
+  tarball before this deadline or\nif you think you'll be late\, please sen
+ d a mail to the release team and\nwe'll find someone to roll the tarball f
+ or you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.22.0 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.22.0 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20160916T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-40220@canis.lupus
+DTSTART:20160919T230000Z
+DTEND:20160919T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Hard Code Freeze ends\, but other freezes remain in effect for
+  the stable branch.
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:Hard Code Freeze ends
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze ends
+TRIGGER;VALUE=DATE-TIME:20160916T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-29630@canis.lupus
+DTSTART:20160921T230000Z
+DTEND:20160921T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.22.0 newstable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.22.0 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.22.0 newstable release
+TRIGGER;VALUE=DATE-TIME:20160921T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-28851@canis.lupus
+DTSTART:20161010T230000Z
+DTEND:20161010T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:Tarballs are due on 2016-10-10 before 23:59 UTC for the GNOME\
+ n3.22.1 newstable release\, which will be delivered on Wednesday.\nModules
+  which were proposed for inclusion should try to follow the unstable\nsche
+ dule so everyone can test them.\n\nPlease make sure that your tarballs wil
+ l be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that 
+ will probably be too late to get\nin 3.22.1. If you are not able to make a
+  tarball before this deadline or\nif you think you'll be late\, please sen
+ d a mail to the release team and\nwe'll find someone to roll the tarball f
+ or you!
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.22.1 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.22.1 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20161007T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20160322T191438Z-9617@canis.lupus
+DTSTART:20161012T230000Z
+DTEND:20161012T235959Z
+CLASS:PUBLIC
+CREATED:20160322T191437
+DESCRIPTION:GNOME 3.22.1 newstable release
+DTSTAMP:20160322T191437
+LAST-MODIFIED:20160322T191437
+SEQUENCE:1
+SUMMARY:GNOME 3.22.1 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.22.1 newstable release
+TRIGGER;VALUE=DATE-TIME:20161012T220000Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
