@@ -3,24 +3,24 @@ stable:3.20
 unstable:3.21
 newstable:3.22
 nextnewstable:3.24
-0:release:stable.0
-3:release:stable.1
-5:release:unstable.1
+0:release:stable.0 mclasen
+3:release:stable.1 fredp
+5:release:unstable.1 mclasen
 7:release:stable.2
-9:release:unstable.2
-13:release:unstable.3
-17:release:unstable.4
+9:release:unstable.2 jjardon
+13:release:unstable.3 mcatanzaro
+17:release:unstable.4 mcatanzaro
 2016-08-12:conference:GUADEC:http://www.guadec.org/
 2016-08-13:conference:GUADEC:http://www.guadec.org/
 2016-08-14:conference:GUADEC:http://www.guadec.org/
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90
+21:release:beta.90 fredp
 23:freeze:string
-23:release:beta.91
+23:release:beta.91 mclasen
 25:freeze:hard-code
-25:release:rc.92
-26:release:newstable.0
+25:release:rc.92 jjardon
+26:release:newstable.0 mclasen
 26:freeze:hard-code-end
 29:release:newstable.1
