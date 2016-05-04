@@ -6,7 +6,7 @@ nextnewstable:3.24
 0:release:stable.0 mclasen
 3:release:stable.1 fredp
 5:release:unstable.1 mclasen
-7:release:stable.2
+7:release:stable.2 fredp
 9:release:unstable.2 jjardon
 13:release:unstable.3 mcatanzaro
 17:release:unstable.4 mcatanzaro
