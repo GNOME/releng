@@ -8,7 +8,7 @@
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.21.1'
+moduleset = 'gnome-apps-3.21.3'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
