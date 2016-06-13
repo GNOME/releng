@@ -27,7 +27,4 @@ prefix = os.path.join(checkoutroot, 'install')
 autogenargs='--disable-static --disable-gtk-doc'
 
 # these are hard to build or interfere with system packages
-skip = ['telepathy-logger', 'telepathy-mission-control', 'gnome-photos', 'gitg', 'gdlmm']
-
-# This is needed to compile with g++ < 4.8
-module_autogenargs['WebKit'] = 'CXXFLAGS="-D_GLIBCXX_USE_SCHED_YIELD -D_GLIBCXX_USE_NANOSLEEP"'
+skip = ['gitg']
