@@ -26,8 +26,10 @@ prefix = os.path.join(checkoutroot, 'install')
 # to speed up builds, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc'
 
-# these are hard to build or interfere with system packages
-skip = ['libpwquality', 'zeitgeist', 'gdm', 'gnome-packagekit', 'telepathy-mission-control', 'gitg']
+# https://bugzilla.gnome.org/show_bug.cgi?id=767917
+module_extra_env = {
+    'vinagre': {'CFLAGS': '-w' },
+}
 
-# This is needed to compile with g++ < 4.8
-module_autogenargs['WebKit'] = 'CXXFLAGS="-D_GLIBCXX_USE_SCHED_YIELD -D_GLIBCXX_USE_NANOSLEEP"'
+# these are hard to build
+skip = ['gitg', 'osinfo-db']
