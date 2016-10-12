@@ -4,20 +4,20 @@ unstable:3.23
 newstable:3.24
 nextnewstable:3.26
 0:release:stable.0 mclasen
-3:release:stable.1
-5:release:unstable.1
-7:release:stable.2
-9:release:unstable.2
-12:release:unstable.3
-17:release:unstable.4
+3:release:stable.1 fpeters
+5:release:unstable.1 jjardon
+7:release:stable.2 mcatanzaro
+9:release:unstable.2 mcatanzaro
+12:release:unstable.3 mcatanzaro
+17:release:unstable.4 jjardon
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:release:beta.90
+21:release:beta.90 mcatanzaro
 23:freeze:string
-23:release:beta.91
+23:release:beta.91 mclasen
 25:freeze:hard-code
-25:release:rc.92
-26:release:newstable.0
+25:release:rc.92 jjardon
+26:release:newstable.0 mclasen
 26:freeze:hard-code-end
-29:release:newstable.1
+29:release:newstable.1 mclasen
