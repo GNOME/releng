@@ -805,6 +805,7 @@ class ConvertToTarballs:
                     else:
                         continue
                 elif node.nodeName == 'distutils' or \
+                     node.nodeName == 'meson' or \
                      node.nodeName == 'waf' or \
                      node.nodeName == 'cmake' or \
                      node.nodeName == 'autotools':
