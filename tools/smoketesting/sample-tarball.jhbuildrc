@@ -3,17 +3,15 @@
 # edit this file to match your settings, backup your ~/.jhbuildrc, and then
 # copy this there
 
-# what module set should be used.  The default at the moment is
-# 'gnome-suites-core-3.0', but it can be any of the files in the
-# modulesets directory, or even the URL of a module set file on
-# a web server.
+# what moduleset should be used.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.23.2'
+moduleset = 'gnome-apps-3.23.3'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
 modules = [ 'meta-gnome-core', 'meta-gnome-apps-tested' ]
 
+# what directory should downloaded tarballs be placed in?
 tarballdir = os.path.join(os.environ['HOME'], 'releases', 'checkoutroot')
 
 # what directory should the source be checked out to?
@@ -25,7 +23,3 @@ prefix = os.path.join(checkoutroot, 'install')
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc'
-
-# Modules listed here are at risk of being dropped if they are not fixed.
-# Never skip any module without contacting a maintainer.
-skip = ['gitg', 'osinfo-db', 'nemiver']
