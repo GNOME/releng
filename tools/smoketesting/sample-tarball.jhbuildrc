@@ -23,3 +23,6 @@ prefix = os.path.join(checkoutroot, 'install')
 # extra arguments to pass to all autogen.sh scripts
 # to speed up builds, try '--disable-static --disable-gtk-doc'
 autogenargs='--disable-static --disable-gtk-doc'
+
+# https://git.gnome.org/browse/pygobject/commit/?id=d005df9645fd5fb2f19bd09384355f45591f1e58
+module_autogenargs['pygobject'] = '--enable-compile-warnings=minimum'
