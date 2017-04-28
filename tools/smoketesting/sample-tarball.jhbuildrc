@@ -5,7 +5,7 @@
 
 # what moduleset should be used.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.23.92'
+moduleset = 'gnome-apps-3.25.1'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -20,9 +20,9 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
 
-# extra arguments to pass to all autogen.sh scripts
-# to speed up builds, try '--disable-static --disable-gtk-doc'
-autogenargs='--disable-static --disable-gtk-doc'
-
-# https://git.gnome.org/browse/pygobject/commit/?id=d005df9645fd5fb2f19bd09384355f45591f1e58
-module_autogenargs['pygobject'] = '--enable-compile-warnings=minimum'
+skip = [
+  # https://bugzilla.gnome.org/show_bug.cgi?id=781880
+  'gegl', 'gnome-photos',
+  #https://bugzilla.gnome.org/show_bug.cgi?id=781881
+  'gnome-system-monitor'
+]
