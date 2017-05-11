@@ -3,12 +3,14 @@
 # edit this file to match your settings, backup your ~/.jhbuildrc, and then
 # copy this there
 
+ignore_suggests = True
+
 # what module set should be used.  The default at the moment is
 # 'gnome-suites-core-3.0', but it can be any of the files in the
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.24.1'
+moduleset = 'gnome-apps-3.24.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
