@@ -20,9 +20,4 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
 
-skip = [
-  # https://bugzilla.gnome.org/show_bug.cgi?id=781880
-  'gegl', 'gnome-photos',
-  #https://bugzilla.gnome.org/show_bug.cgi?id=781881
-  'gnome-system-monitor'
-]
+skip = ['pango', 'appstream-glib', 'gstreamer', 'clutter-gtk', 'glade', 'gnome-photos', 'gnome-software', 'simple-scan', 'spice-gtk', 'gnome-dictionary']
