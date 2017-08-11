@@ -5,7 +5,7 @@
 
 # what moduleset should be used.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.25.90'
+moduleset = 'gnome-apps-3.25.4'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -20,4 +20,4 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
 
-#skip = ['glade', 'simple-scan']
+skip = ['pango', 'at-spi2-atk', 'vte', 'gdm', 'clutter-gtk', 'graphene', 'nautilus', 'glade', 'libgxps', 'libgepub', 'gnome-font-viewer', 'fwupd', 'gnome-terminal', 'totem', 'simple-scan', 'usbredir', 'spice-gtk', 'gst-plugins-base', 'gst-plugins-bad', 'gnome-dictionary', 'nautilus-sendto', 'gnome-builder', 'gnome-chess', 'gnome-sudoku']
