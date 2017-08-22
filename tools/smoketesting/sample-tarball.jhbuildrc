@@ -19,6 +19,3 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
-
-# https://bugzilla.gnome.org/show_bug.cgi?id=786248
-module_mesonargs['totem'] = '-Dwith-plugins=none'
