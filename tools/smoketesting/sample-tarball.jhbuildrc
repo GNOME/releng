@@ -5,7 +5,7 @@
 
 # what moduleset should be used.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.25.91'
+moduleset = 'gnome-apps-3.26.0'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.

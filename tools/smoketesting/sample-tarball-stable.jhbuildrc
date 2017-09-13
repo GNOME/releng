@@ -10,7 +10,7 @@ ignore_suggests = True
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.24.2'
+moduleset = 'gnome-apps-3.26.0'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -31,3 +31,7 @@ module_extra_env = {
 
 # these are hard to build
 skip = ['gitg', 'osinfo-db']
+
+disable_Werror = False
+
+autogenargs="--disable-static"
