@@ -10,7 +10,7 @@ ignore_suggests = True
 # modulesets directory, or even the URL of a module set file on
 # a web server.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.26.0'
+moduleset = 'gnome-apps-3.26.1'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
