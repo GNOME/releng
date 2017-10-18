@@ -5,18 +5,18 @@ newstable:3.28
 nextnewstable:3.30
 0:release:stable.0 mclasen
 3:release:stable.1 mclasen
-5:release:unstable.1
+5:release:unstable.1 jjardon
 7:release:stable.2
 9:release:unstable.2
 13:release:unstable.3
-17:release:unstable.4
+17:release:unstable.4 jjardon
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
 21:release:beta.90
 23:freeze:string
 23:release:beta.91
-25:release:rc.92
+25:release:rc.92 jjardon
 25:freeze:hard-code
 26:release:newstable.0
 26:freeze:hard-code-end
