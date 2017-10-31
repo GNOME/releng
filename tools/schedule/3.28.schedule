@@ -7,7 +7,7 @@ nextnewstable:3.30
 3:release:stable.1 mclasen
 5:release:unstable.1 jjardon
 7:release:stable.2 mcatanzaro
-9:release:unstable.2 mclasen
+9:release:unstable.2 tristan
 13:release:unstable.3 mclasen
 17:release:unstable.4 jjardon
 21:task:api-doc
