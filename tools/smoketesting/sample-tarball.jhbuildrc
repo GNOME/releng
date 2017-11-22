@@ -5,7 +5,7 @@
 
 # what moduleset should be used.
 use_local_modulesets = True
-moduleset = 'gnome-apps-3.28.0'
+moduleset = 'gnome-apps-3.27.2'
 
 # A list of the modules to build.  Defaults to the Gnome Desktop and
 # developer platform.
@@ -19,5 +19,3 @@ checkoutroot = os.path.join(os.environ['HOME'], 'releases', moduleset)
 
 # the prefix to configure/install modules to (must have write access)
 prefix = os.path.join(checkoutroot, 'install')
-
-skip = ['nautilus-sendto', 'gnome-recipes', 'gnome-chess', 'gnome-software', 'gnome-boxes', 'gnome-screenshot', 'gom', 'gnome-documents', 'libgepub', 'libgxps', 'gnome-getting-started-docs', 'pango', 'appstream-glib', 'colord', 'clutter-gtk', 'graphene', 'gst-plugins-bad', 'geocode-glib', 'network-manager-applet']
