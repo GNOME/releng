@@ -3,6 +3,7 @@
 # Copyright (c) 2005-2008, Elijah Newren
 # Copyright (c) 2007-2009, Olav Vitters
 # Copyright (c) 2006-2009, Vincent Untz
+# Copyright (c) 2017, Codethink Limited
 #
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
@@ -18,52 +19,6 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
 # USA
-
-# Example of running:
-#   $ ./convert-to-tarballs.py -t ~/src/tarball-gnome2/pkgs -v 2.11.91 \
-#       ~/src/jhbuild/modulesets/gnome-2.12.modules
-#   $ jhbuild -m `pwd`/gnome-2.11.91.modules build meta-gnome-desktop
-#
-# Explanation:
-#   The first command reads ~/cvs/gnome/jhbuild/modulesets/gnome-2.12.modules
-#   and creates:
-#     ./gnome-2.11.91.modules
-#     ./freedesktop-2.11.91.modules (pulled in by gnome-2.12.modules include)
-#     ./versions (needs some hand editing first, though)
-#     ~/cvs/tarball-gnome2/pkgs/<lots of tarballs>
-#   The gnome-2.11.91.modules file should be useable for building with jhbuild;
-#   the versions file should be useful for making a gnome release with the
-#   release scripts in releng/tools/release_set_scripts
-#
-# Other useful files:
-#   tarball-conversion.config (used to know how to do conversion)
-#   sample-tarball.jhbuildrc  (you may not want to use your normal .jhbuildrc
-#                              when building this tarball version of gnome)
-
-# GOTCHAS:
-#   - tarball-conversion.config may need to be updated over time
-#   - the .modules files and version files aren't perfect and may
-#     require some hand editing (seems to be minimial, though)
-#   - tarball md5sums and sizes depend on correct downloading with
-#     wget (I got a 0 size for mozilla once); easy to fix, though.
-#   - this script can pick up too recent tarballs
-#     (e.g. gstreamer-0.9.1 instead of 0.8.10) without warning; will
-#     be fixed later, but can be detected by searching for 'revision'
-#     in the .modules files.
-
-# Examples of hand editing needed for 2.11.91:
-# Manual editing of gnome-2.11.91.modules:
-#   - remove pyorbit as gnome-python dependency
-#   - fixed an incorrectly downloaded mozilla tarball md5sum & size (it
-#     somehow got downloaded as an empty file)
-#   - remove "--" from autogenargs for gstreamer and gst-plugins;
-#     configure fails with it
-#   - must manually downgrade gstreamer tarball to 0.8.10 as 0.9.1 isn't
-#     meant for gnome-2.12; this should be considered a bug in my script,
-#     but can be found by searching for "revision" in the .modules file
-# Manual editing of versions:
-#   - Add pkg-config
-
 
 import sys, string
 import re
@@ -96,22 +51,11 @@ try:
     have_sftp = True
 except: pass
 
-# Some TODOs
-#   - Check timestamps on ftp tarballs, rejecting as 'too old' the ones that
-#     were released too late
-#   ? Make a useful help message
-
-# TODOs for elsewhere
-#   - Add times
-#     (15 min for convert-to-tarballs, 15 minutes for fixing up output
-#      files, 4.5 hours for build, 15 minutes to test (if development
-#      version), 15 minutes to sanity check, 15 minutes to run relevant
-#      release scripts, plus 15 minutes slush time or so -- total: 6
-#      hours)
-
-# Extra stuff to document (for myself or elsewhere)
-#   - don't forget to mount of /usr/local on amr
-#   - mention removing lines from $prefix/share/jhbuild/packagedb.xml
+try:
+    from ruamel import yaml
+except ImportError:
+    print("Converting to BuildStream requires the ruamel.yaml library.")
+    sys.exit(1)
 
 class Options:
     def __init__(self, filename):
@@ -316,15 +260,15 @@ class urllister(SGMLParser):
             self.urls.extend(href)
 
 class TarballLocator:
-    def __init__(self, tarballdir, mirrors, determine_stats=True, local_only=False):
+    def __init__(self, tarballdir, mirrors, local_only=False):
         self.tarballdir = tarballdir
         self.have_sftp = self._test_sftp()
-        self.get_stats = determine_stats
+        self.get_stats = True
         self.local_only = local_only
         if hasattr(hashlib, 'sha256'):
             self.hash_algo = 'sha256'
         else:
-            self.hash_algo = 'md5'
+            raise Exception("sha256 hashing required")
         self.cache = {}
         for key in mirrors.keys():
             mirror = mirrors[key]
@@ -409,6 +353,8 @@ class TarballLocator:
 
     def _get_latest_version(self, versions, max_version):
         biggest = None
+        versions = [ v.rstrip(os.path.sep) for v in versions ]
+
         for version in versions:
             if ((biggest is None or version == self._bigger_version(biggest, version)) and \
                 not self._version_greater_or_equal_to_max(version, max_version)):
@@ -484,7 +430,7 @@ class TarballLocator:
             file(hashfile, 'w').write(hash)
         else:
             hash = file(hashfile).read()
-        return '%s:%s' % (self.hash_algo, hash), str(size)
+        return hash, str(size)
 
     def _get_files_from_ftp(self, parsed_url, max_version):
         ftp = FTP(parsed_url.hostname)
@@ -633,7 +579,8 @@ class TarballLocator:
             sys.exit(1)
 
         location, files = locator(u, max_version)
-
+        files = files or []
+        
         basenames = set()
         tarballs = []
         if location.find("ftp.debian.org") != -1:
@@ -689,300 +636,103 @@ class TarballLocator:
             size = None
         return location, version, hash, size
 
+
 class ConvertToTarballs:
-    def __init__(self, tarballdir, version, sourcedir, options, force, versions_only, local_only):
-        self.tarballdir = tarballdir
-        self.version = version
-        self.sourcedir = sourcedir
+    def __init__(self, options, locator):
         self.options = options
-        self.force = force
-        self.versions_only = versions_only
-        self.ignored = []
-        self.not_found = []
+        self.locator = locator
+
         self.all_tarballs = []
         self.all_versions = []
-        self.no_max_version = []
-        self.locator = TarballLocator(tarballdir, options.mirrors, not versions_only, local_only)
-        self.known_repositories = []
-        self.known_repositories_nodes = []
 
-    def _create_tarball_repo_node(self, document, href):
-        repo = document.createElement('repository')
-        self.known_repositories_nodes.append({'href': href, 'name': href, 'type': 'tarball'})
+    def find_tarball_by_name(self, name):
+        translated_name = self.options.translate_name(name)
+        real_name = self.options.get_real_name(translated_name)
+        max_version = self.options.get_version_limit(translated_name)
+        baselocation = self.options.get_download_site('gnome.org', real_name)
 
-    def _create_tarball_node(self, document, node):
-        assert node.nodeName != 'tarball'
-        tarball = document.createElement(node.nodeName)
-        attrs = node.attributes
-        cvsroot = None
-        for attrName in attrs.keys():
-            if attrName == 'cvsroot':
-                cvsroot = attrs.get(attrName).nodeValue
-                continue
-            if attrName == 'id':
-                id = attrs.get(attrName).nodeValue
-                if not self.options.module_included(id):
-                    self.ignored.append(id)
-                    return None
-            if attrName == 'checkoutdir':
-                # Must trim these or jhbuild complains when the directory is
-                # named libxml2-2.6.22 instead of libxml2...
-                continue
-            attrNode = attrs.get(attrName)
-            attrValue = attrNode.nodeValue
-            tarball.setAttribute(attrName, attrValue)
+        # Ask the locator to hunt down a tarball
+        location, version, hash, size = self.locator.find_tarball(baselocation, real_name, max_version)
+    
+        # Save the versions
+        self.all_tarballs.append(translated_name)
+        self.all_versions.append(version)
 
-        branch_node = document.createElement('branch')
-        tarball.appendChild(branch_node)
+        return location, version, hash, size
 
-        if cvsroot == None:  # gnome cvs
-            cvsroot = 'gnome.org'
+    def write_bst_file(self, fullpath, element, location, sha):
+        #
+        # Replace the source list with one tarball
+        #
+        element['sources'] = [{
+            'kind': 'tar',
+            'url': location,
+            'ref': sha
+        }]
 
-        max_version = None
-        revision = None
-        for subnode in node.getElementsByTagName('branch'):
-            # see if it has a 'version' attribute
-            attrs = subnode.attributes
-            if attrs.get('revision') != None:
-                revision = attrs.get('revision').nodeValue
+        # Dump it now
+        with open(fullpath, 'w') as f:
+            yaml.round_trip_dump(element, f)
 
-        # remove m4-common from dependencies as it's only useful when building
-        # modules from git.
-        for dependencies_node in node.getElementsByTagName('dependencies'):
-            for subnode in dependencies_node.getElementsByTagName('dep'):
-                if subnode.attributes.get('package').value == 'm4-common':
-                    dependencies_node.removeChild(subnode)
-                    continue
+    def process_one_file(self, dirname, basename):
+        module_name = re.sub('\.bst$', '', basename)
+        fullpath = os.path.join(dirname, basename)
+
+        element = None
+        with open(fullpath) as f:
+            try:
+                element = yaml.load(f, yaml.loader.RoundTripLoader)
+            except (yaml.scanner.ScannerError, yaml.composer.ComposerError, yaml.parser.ParserError) as e:
+                raise Exception("Malformed YAML:\n\n{}\n\n{}\n".format(e.problem, e.problem_mark))
+
+        if element.get('kind', None) == 'stack':
+            print("IGNORE stack element {}".format(basename))
+            return
+
+        sources = element.get('sources', [])
+        if not sources:
+            print("IGNORE element without sources {}".format(basename))
+            return
+        if sources[0].get('kind', None) == 'tar':
+
+            #
+            # The project already uses a tarball, this could be either a redundant
+            # run of convert-to-tarballs.py, or an element which explicitly uses
+            # tarballs
+            #
+            translated_name = self.options.translate_name(module_name)
+            real_name = self.options.get_real_name(translated_name)
+
+            tarball = sources[0].get('url', None)
+            tarball = os.path.basename(tarball)
+            if ':' in tarball:
+                tarball = tarball.split(':', 2)[1]
+        
+            re_tarball = r'^'+re.escape(real_name)+'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
+            version = re.sub(re_tarball, r'\1', tarball)
+
+            self.all_tarballs.append(translated_name)
+            self.all_versions.append(version)
+
+            print("IGNORE element {} (version: {}) which already uses tarball: {}".format(basename, version, tarball))
+            return
 
         try:
-            name = self.options.translate_name(id)
-            real_name = self.options.get_real_name(name)
-            repo = self.options.get_base_site(cvsroot, real_name)
-            if not repo in self.known_repositories:
-                self._create_tarball_repo_node(document, repo)
-                self.known_repositories.append(repo)
-            baselocation = self.options.get_download_site(cvsroot, real_name)
-            max_version = self.options.get_version_limit(name)
-            location, version, hash, size = \
-                      self.locator.find_tarball(baselocation, real_name, max_version)
-            print '  ', location, version, hash if hash else "", size if size else ""
-            branch_node.setAttribute('version', version)
-            branch_node.setAttribute('repo', repo)
-            branch_node.setAttribute('module', location[len(repo):])
-            branch_node.setAttribute('size', size)
-            branch_node.setAttribute('hash', hash)
-            self.all_tarballs.append(name)
-            self.all_versions.append(version)
+            print("REWRITE {}".format(basename))
+            location, version, hash, size = self.find_tarball_by_name(module_name)
+
+            self.write_bst_file(fullpath, element, location, hash)
+
         except IOError:
             print '**************************************************'
-            print 'Could not find site for ' + id
+            print 'Could not find site for ' + module_name
             print '**************************************************'
-            print ''
-            if not id in self.not_found:
-                self.not_found.append(id)
-            #branch_node.setAttribute('version', 'EAT-YOUR-BRAAAAAANE')
-            #branch_node.setAttribute('repo', 'http://somewhere.over.the.rainbow/')
-            #branch_node.setAttribute('module', 'where/bluebirds/die')
-            #branch_node.setAttribute('size', 'HUGE')
-            #branch_node.setAttribute('hash', 'md5:blablablaihavenorealclue')
-        if revision and not max_version:
-            self.no_max_version.append(id)
-        return tarball
 
-    def _walk(self, oldRoot, newRoot, document):
-        for node in oldRoot.childNodes:
-            if node.nodeType == Node.ELEMENT_NODE:
-                save_entry_as_is = False
-                if node.nodeName == 'perl':
-                    continue
-                elif node.nodeName == 'repository':
-                    # We are interested in tarball repositories but not
-                    # cvs/svn/git/arch/bzr/scm-du-jour repositories
-                    attrs = node.attributes
-                    type = attrs.get('type').nodeValue
-                    if type in ('tarball', 'system'):
-                        save_entry_as_is = True
-                    else:
-                        continue
-                elif node.nodeName == 'distutils' or \
-                     node.nodeName == 'meson' or \
-                     node.nodeName == 'waf' or \
-                     node.nodeName == 'cmake' or \
-                     node.nodeName == 'autotools':
-                    # Distutils and autotools modules are kind of
-                    # complicated; they may be a tarball or a source code
-                    # repo like cvs; first, assume it'll be a tarball and
-                    # try to get name and version
-                    attrs = node.attributes
-                    name    = attrs.get('id').nodeValue
-                    version = None
-
-                    # Now, try to find the 'branch' childNode
-                    for subnode in node.getElementsByTagName('branch'):
-                        # We're working with the 'branch' childNode;
-                        # see if it has a 'version' attribute
-                        attrs = subnode.attributes
-                        if attrs.get('version') != None:
-                            version = attrs.get('version').nodeValue
-
-                    # If we found a version, treat it like a tarball
-                    if version != None:
-                        self.all_tarballs.append(name)
-                        self.all_versions.append(version)
-                        save_entry_as_is = True
-                    else:
-                        # Otherwise, treat it like a source code repository
-                        entry = self._create_tarball_node(document, node)
-
-                elif node.nodeName == 'mozillamodule':
-                    entry = self._create_tarball_node(document, node)
-                elif node.nodeName == 'tarball':
-                    attrs = node.attributes
-                    name    = attrs.get('id').nodeValue
-                    version = attrs.get('version').nodeValue
-                    self.all_tarballs.append(name)
-                    self.all_versions.append(version)
-                    save_entry_as_is = True
-                elif node.nodeName == 'include':
-                    location = node.attributes.get('href').nodeValue
-                    newname = self.fix_file(location)
-                    # Write out the element name.
-                    entry = document.createElement(node.nodeName)
-                    # Write out the attributes.
-                    attrs = node.attributes
-                    for attrName in attrs.keys():
-                        if attrName == 'href':
-                            entry.setAttribute(attrName, newname)
-                        else:
-                            attrValue = attrs.get(attrName).nodeValue
-                            entry.setAttribute(attrName, attrValue)
-                else:
-                    save_entry_as_is = True
-                    if node.nodeName == 'branch':
-                        if len(node.attributes.keys()) == 0:
-                            continue
-
-                if save_entry_as_is:
-                    # Write out the element name.
-                    entry = document.createElement(node.nodeName)
-                    # Write out the attributes.
-                    attrs = node.attributes
-                    for attrName in attrs.keys():
-                        attrNode = attrs.get(attrName)
-                        attrValue = attrNode.nodeValue
-                        entry.setAttribute(attrName, attrValue)
-                if entry:   # entry can be None if we want to skip this tarball
-                    # Walk the child nodes.
-                    self._walk(node, entry, document)
-                    # Append the new node to the newRoot
-                    newRoot.appendChild(entry)
-
-    def cleanup(self):
-        self.locator.cleanup()
-
-    def fix_file(self, input_filename):
-        newname = re.sub(r'^([-a-z]+?)(?:-[0-9\.]*)?(.modules)$',
-                         r'\1-' + self.version + r'\2',
-                         input_filename)
-
-        if not self.versions_only and os.path.isfile(newname):
-            if self.force:
-                os.unlink(newname)
-            else:
-                sys.stderr.write('Cannot proceed; would overwrite '+newname+'\n')
-                sys.exit(1)
-        if os.path.isfile('versions'):
-            if self.force:
-                os.unlink('versions')
-            else:
-                sys.stderr.write('Cannot proceed; would overwrite versions\n')
-                sys.exit(1)
-
-        old_document = minidom.parse(os.path.join(self.sourcedir, input_filename))
-        oldRoot = old_document.documentElement
-
-        new_document = minidom.Document()
-        newRoot = new_document.createElement(oldRoot.nodeName)
-        new_document.appendChild(newRoot)
-
-        self._walk(oldRoot, newRoot, new_document)
-
-        # modules converted to tarball nodes may need the definition of some
-        # new repositories, add all of them to the moduleset.
-        for repo_dict in self.known_repositories_nodes:
-            repo = new_document.createElement('repository')
-            for attr in repo_dict.keys():
-                repo.setAttribute(attr, repo_dict.get(attr))
-            newRoot.appendChild(repo)
-
-        if not self.versions_only:
-            newfile = file(newname, 'w+')
-            new_document.writexml(newfile, "", "  ", '\n')
-
-        old_document.unlink()
-        new_document.unlink()
-
-        return newname
-
-    def get_unused_with_subdirs(self):
-        full_whitelist = []
-        for release_set in self.options.release_set:
-            full_whitelist.extend(release_set)
-        unique = set(full_whitelist) - set(self.all_tarballs)
-        for module in unique:
-          subdir = self.options.get_subdir(module)
-          if subdir is None:
-              pass
-          try:
-              name = self.options.translate_name(module)
-              baselocation = self.options.get_download_site('gnome.org', name)
-              max_version = self.options.get_version_limit(name)
-              real_name = self.options.get_real_name(name)
-              location, version, hash, size = \
-                        self.locator.find_tarball(baselocation, real_name, max_version)
-              print '  ', location, version, hash if hash else "", size if size else ""
-              self.all_tarballs.append(name)
-              self.all_versions.append(version)
-          except IOError:
-              print '**************************************************'
-              print 'Could not find site for ' + module
-              print '**************************************************'
-              print ''
-              if not module in self.not_found:
-                  self.not_found.append(module)
-
-    def show_ignored(self):
-        if not len(self.ignored): return
-
-        print '**************************************************'
-        print 'The following modules were ignored: '
-        print ' '.join(sorted(self.ignored))
-
-    def show_unused_whitelist_modules(self):
-        full_whitelist = []
-        for release_set in self.options.release_set:
-            full_whitelist.extend(release_set)
-        unique = set(full_whitelist) - set(self.all_tarballs)
-
-        if not len(unique): return
-
-        print '**************************************************'
-        print 'Unused whitelisted modules:'
-        print ' '.join(sorted(unique))
-
-    def show_not_found(self):
-        if not len(self.not_found): return
-
-        print '**************************************************'
-        print 'Tarballs were not found for the following modules: '
-        print ' '.join(sorted(self.not_found))
-
-    def show_missing_max_versions(self):
-        if not len(self.no_max_version): return
-
-        print '**************************************************'
-        print 'The following modules lack a max_version in the tarball-conversion file:'
-        print ', '.join(sorted(self.no_max_version))
+    def process_bst_files(self, directory):
+        for root, dirs, files in os.walk(directory):
+            for name in files:
+                if name.endswith(".bst") and name != 'm4-common.bst':
+                    self.process_one_file(root, name)
 
     def create_versions_file(self):
         print '**************************************************'
@@ -1025,11 +775,6 @@ class ConvertToTarballs:
                 versions.write('\n')
         versions.close()
 
-def get_path(filename, path):
-    for dir in path:
-        if os.path.isfile(os.path.join(dir, filename)):
-            return dir
-    return None
 
 def main(args):
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
@@ -1037,14 +782,14 @@ def main(args):
     parser = optparse.OptionParser()
     parser.add_option("-t", "--tarballdir", dest="tarballdir",
                       help="location of tarballs", metavar="DIR")
+    parser.add_option("-d", "--directory", dest="directory",
+                      help="buildstream project directory", metavar="DIR")
     parser.add_option("-v", "--version", dest="version",
                       help="GNOME version to build")
     parser.add_option("-f", "--force", action="store_true", dest="force",
-                      default=False, help="overwrite existing versions and *.modules files")
+                      default=False, help="overwrite existing versions file")
     parser.add_option("-c", "--config", dest="config",
                       help="tarball-conversion config file", metavar="FILE")
-    parser.add_option("-o", "--versions-only", action="store_true", dest="versions_only",
-                      default=False, help="only create a versions file, without downloading the tarballs")
     parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
                       default=False, help="only look for files on a local file system")
 
@@ -1057,7 +802,7 @@ def main(args):
         parser.print_help()
         sys.exit(1)
 
-    if options.versions_only and not options.tarballdir:
+    if not options.tarballdir:
         options.tarballdir = os.getcwd()
 
     if not options.tarballdir:
@@ -1069,61 +814,38 @@ def main(args):
         sys.stderr.write("ERROR: Version number is not valid\n")
         sys.exit(1)
 
-    is_stable = (int(splitted_version[1]) % 2 == 0)
-    if is_stable:
-        conversion = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
-        jhbuildrc = os.path.join(program_dir, 'sample-tarball-stable.jhbuildrc')
-    else:
-        conversion = Options(os.path.join(program_dir, 'tarball-conversion.config'))
-        jhbuildrc = os.path.join(program_dir, 'sample-tarball.jhbuildrc')
     if options.config:
-        conversion = Options(os.path.join(program_dir, options.config))
-
-    jhbuild_dir = get_path('jhbuild.in', (os.path.expanduser('~/src/jhbuild'), '/cvs/jhbuild'))
-
-    moduleset = None
-    if len(args):
-        moduleset = args[-1]
-    elif jhbuild_dir:
-        # Determine file_location from jhbuild checkoutdir
+        try:
+            config = Options(os.path.join(program_dir, options.config))
+        except IOError:
+            try:
+                config = Options(options.config)
+            except IOError:
+                sys.stderr.write("ERROR: Config file could not be loaded from file: {}\n".format(options.config))
+                sys.exit(1)
+    else:
+        is_stable = (int(splitted_version[1]) % 2 == 0)
         if is_stable:
-            moduleset = os.path.join(jhbuild_dir, 'modulesets',
-                                     'gnome-suites-%s.%s.modules' % (splitted_version[0],
-                                                              splitted_version[1]))
+            config = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
         else:
-            moduleset = os.path.join(jhbuild_dir, 'modulesets',
-                                     'gnome-suites-%s.%s.modules' % (splitted_version[0],
-                                                              str(int(splitted_version[1])+1)))
+            config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
-        # Make sure the jhbuild checkout directory is up to date
-        retcode = subprocess.call(['git', 'pull', '--rebase'], cwd=jhbuild_dir)
-        if retcode != 0:
-            sys.stderr("WARNING: Error updating jhbuild checkout directory\n")
+    if os.path.isfile('versions'):
+        if options.force:
+            os.unlink('versions')
+        else:
+            sys.stderr.write('Cannot proceed; would overwrite versions\n')
+            sys.exit(1)
 
-    if not moduleset or not os.path.exists(moduleset):
-        sys.stderr.write("ERROR: No valid module file specified!\n")
+    if not options.directory:
+        sys.stderr.write('Must specify the directory of the GNOME buildstream project to convert\n\n')
         parser.print_help()
         sys.exit(1)
-    file_location, filename = os.path.split(moduleset)
 
-    if jhbuild_dir and not options.tarballdir:
-        sys.path.insert(0, jhbuild_dir)
-        import jhbuild.config
-        jhbuild.config.Config.setup_env = lambda self: None
-        jhbuild_opts = jhbuild.config.Config(jhbuildrc)
-        options.tarballdir = jhbuild_opts.tarballdir
-
-    convert = ConvertToTarballs(options.tarballdir, options.version, file_location, conversion, options.force, options.versions_only, options.local_only)
-    try:
-        convert.fix_file(filename)
-        convert.get_unused_with_subdirs() #FIXME: this should probably be get_unused_bindings
-        convert.show_ignored()
-        convert.show_unused_whitelist_modules()
-        convert.show_not_found()
-        convert.show_missing_max_versions()
-        convert.create_versions_file()
-    finally:
-        convert.cleanup()
+    locator = TarballLocator(options.tarballdir, config.mirrors, options.local_only)
+    convert = ConvertToTarballs(config, locator)
+    convert.process_bst_files(options.directory)
+    convert.create_versions_file()
 
 if __name__ == '__main__':
     try:
