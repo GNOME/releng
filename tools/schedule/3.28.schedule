@@ -15,7 +15,7 @@ nextnewstable:3.30
 21:freeze:the-freeze
 21:release:beta.90 mcatanzaro
 23:freeze:string
-23:release:beta.91 mcatanzaro
+23:release:beta.91 *this release is cancelled*
 25:release:rc.92 jjardon
 25:freeze:hard-code
 26:release:newstable.0 mclasen
