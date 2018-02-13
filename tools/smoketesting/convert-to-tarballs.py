@@ -786,10 +786,6 @@ def main(args):
                       help="tarball-conversion config file", metavar="FILE")
     parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
                       default=False, help="only look for files on a local file system")
-
-    if os.path.exists(os.path.join(os.getcwd(), 'tarballs')):
-        parser.set_defaults(tarballdir=os.path.join(os.getcwd(), 'tarballs'))
-
     (options, args) = parser.parse_args()
 
     if not options.version:
@@ -797,11 +793,12 @@ def main(args):
         sys.exit(1)
 
     if not options.tarballdir:
-        options.tarballdir = os.getcwd()
-
-    if not options.tarballdir:
-        sys.stderr.write("ERROR: destination directory of tarballs is not defined\n")
-        sys.exit(1)
+        tarballdir = os.path.join(os.getcwd(), 'tarballs')
+        try:
+            os.mkdir(tarballdir)
+        except OSError:
+            pass
+        options.tarballdir = tarballdir
 
     splitted_version = options.version.split(".")
     if (len(splitted_version) != 3):
