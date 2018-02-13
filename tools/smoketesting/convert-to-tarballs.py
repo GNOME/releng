@@ -94,15 +94,6 @@ class Options:
                 return True
         return False
 
-    def get_base_site(self, cvssite, modulename):
-        for list in self.module_locations:
-            if list[0] == modulename:
-                return list[1]
-        for list in self.cvs_locations:
-            if re.search(list[0] + '$', cvssite):
-                return list[1]
-        raise IOError('No download site found!\n')
-
     def get_download_site(self, cvssite, modulename):
         for list in self.module_locations:
             if list[0] == modulename:
