@@ -844,7 +844,8 @@ def main(args):
 
     locator = TarballLocator(options.tarballdir, config.mirrors, options.local_only)
     convert = ConvertToTarballs(config, locator)
-    convert.process_bst_files(options.directory)
+    convert.process_bst_files(os.path.join(options.directory, 'elements', 'core-deps'))
+    convert.process_bst_files(os.path.join(options.directory, 'elements', 'core'))
     convert.create_versions_file()
 
 if __name__ == '__main__':
