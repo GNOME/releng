@@ -638,13 +638,15 @@ class ConvertToTarballs:
 
     def find_tarball_by_name(self, name):
         translated_name = self.options.translate_name(name)
+        if not self.options.module_included(translated_name):
+            print("FATAL: module {} is missing from conversion script".format(translated_name))
+            sys.exit(1)
         real_name = self.options.get_real_name(translated_name)
         max_version = self.options.get_version_limit(translated_name)
         baselocation = self.options.get_download_site('gnome.org', real_name)
 
         # Ask the locator to hunt down a tarball
         location, version, hash, size = self.locator.find_tarball(baselocation, real_name, max_version)
-    
         # Save the versions
         self.all_tarballs.append(translated_name)
         self.all_versions.append(version)
