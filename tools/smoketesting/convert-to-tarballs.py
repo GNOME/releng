@@ -215,7 +215,7 @@ class Options:
 
     def get_real_name(self, modulename):
         # First, do the renames in the dictionary
-        return  self.real_name.get(modulename, modulename)
+        return self.real_name.get(modulename, modulename)
 
     def get_subdir(self, modulename):
         # First, do the renames in the dictionary
