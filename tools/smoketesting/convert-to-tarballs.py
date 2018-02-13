@@ -755,7 +755,8 @@ class ConvertToTarballs:
                                 versions.write(triplet)
                                 done[triplet] = True
                     except:
-                        print 'No version found for %s' % module
+                        print 'FATAL: module %s missing from BuildStream projects' % module
+                        sys.exit(1)
                 subdirs_keys = subdirs.keys()
                 subdirs_keys.sort ()
                 for subdir in subdirs_keys:
