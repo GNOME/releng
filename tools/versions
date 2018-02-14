@@ -8,7 +8,6 @@ core:atkmm:2.25.4:
 core:atkmm:2.24.2:
 core:baobab:3.27.2:
 core:cairomm:1.15.4:
-core:cairomm:1.13.1:
 core:cantarell-fonts:0.100:
 core:cheese:3.26.0:
 core:clutter:1.26.2:
