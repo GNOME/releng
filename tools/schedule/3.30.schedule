@@ -1,0 +1,29 @@
+yearweek:201711
+stable:3.28
+unstable:3.29
+newstable:3.30
+nextnewstable:3.32
+0:release:stable.0 mclasen
+4:release:stable.1 mclasen
+5:release:unstable.1
+8:release:stable.2
+10:release:unstable.2
+14:release:unstable.3
+18:release:unstable.4
+2017-07-06:conference:GUADEC:http://www.guadec.org/
+2017-07-07:conference:GUADEC:http://www.guadec.org/
+2017-07-08:conference:GUADEC:http://www.guadec.org/
+2017-07-09:conference:GUADEC:http://www.guadec.org/
+2017-07-10:conference:GUADEC:http://www.guadec.org/
+2017-07-11:conference:GUADEC:http://www.guadec.org/
+20:task:api-doc
+20:task:release-notes-start
+20:freeze:the-freeze
+20:release:beta.90
+22:freeze:string
+22:release:beta.91
+24:freeze:hard-code
+24:release:rc.92
+25:release:newstable.0
+25:freeze:hard-code-end
+28:release:newstable.1
