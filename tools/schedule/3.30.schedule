@@ -7,9 +7,9 @@ nextnewstable:3.32
 4:release:stable.1 mclasen
 5:release:unstable.1
 8:release:stable.2
-10:release:unstable.2
+10:release:unstable.2 jjardon
 14:release:unstable.3
-18:release:unstable.4
+18:release:unstable.4 jjardon
 2017-07-06:conference:GUADEC:http://www.guadec.org/
 2017-07-07:conference:GUADEC:http://www.guadec.org/
 2017-07-08:conference:GUADEC:http://www.guadec.org/
@@ -23,7 +23,7 @@ nextnewstable:3.32
 22:freeze:string
 22:release:beta.91
 24:freeze:hard-code
-24:release:rc.92
+24:release:rc.92 jjardon
 25:release:newstable.0
 25:freeze:hard-code-end
 28:release:newstable.1
