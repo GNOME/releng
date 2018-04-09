@@ -10,12 +10,12 @@ nextnewstable:3.32
 10:release:unstable.2 jjardon
 14:release:unstable.3 mcatanzaro
 18:release:unstable.4 jjardon
-2017-07-06:conference:GUADEC:http://www.guadec.org/
-2017-07-07:conference:GUADEC:http://www.guadec.org/
-2017-07-08:conference:GUADEC:http://www.guadec.org/
-2017-07-09:conference:GUADEC:http://www.guadec.org/
-2017-07-10:conference:GUADEC:http://www.guadec.org/
-2017-07-11:conference:GUADEC:http://www.guadec.org/
+2018-07-06:conference:GUADEC:http://www.guadec.org/
+2018-07-07:conference:GUADEC:http://www.guadec.org/
+2018-07-08:conference:GUADEC:http://www.guadec.org/
+2018-07-09:conference:GUADEC:http://www.guadec.org/
+2018-07-10:conference:GUADEC:http://www.guadec.org/
+2018-07-11:conference:GUADEC:http://www.guadec.org/
 20:task:api-doc
 20:task:release-notes-start
 20:freeze:the-freeze
