@@ -5,10 +5,10 @@ newstable:3.30
 nextnewstable:3.32
 0:release:stable.0 mclasen
 4:release:stable.1 mclasen
-5:release:unstable.1
-8:release:stable.2
+5:release:unstable.1 mcatanzaro
+8:release:stable.2 mclasen
 10:release:unstable.2 jjardon
-14:release:unstable.3
+14:release:unstable.3 mcatanzaro
 18:release:unstable.4 jjardon
 2017-07-06:conference:GUADEC:http://www.guadec.org/
 2017-07-07:conference:GUADEC:http://www.guadec.org/
@@ -19,11 +19,11 @@ nextnewstable:3.32
 20:task:api-doc
 20:task:release-notes-start
 20:freeze:the-freeze
-20:release:beta.90
+20:release:beta.90 mclasen
 22:freeze:string
-22:release:beta.91
+22:release:beta.91 mcatanzaro
 24:freeze:hard-code
 24:release:rc.92 jjardon
-25:release:newstable.0
+25:release:newstable.0 mclasen
 25:freeze:hard-code-end
-28:release:newstable.1
+28:release:newstable.1 mcatanzaro
