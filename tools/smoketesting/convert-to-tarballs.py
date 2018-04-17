@@ -717,9 +717,8 @@ class ConvertToTarballs:
             self.write_bst_file(fullpath, element, location, hash)
 
         except IOError:
-            print '**************************************************'
-            print 'Could not find site for ' + module_name
-            print '**************************************************'
+            print 'FATAL: Could not find site for ' + module_name
+            sys.exit(1)
 
     def process_bst_files(self, directory):
         for root, dirs, files in os.walk(directory):
