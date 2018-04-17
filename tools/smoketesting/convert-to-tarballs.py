@@ -658,6 +658,7 @@ class ConvertToTarballs:
         element['sources'][0]['kind'] = 'tar'
         element['sources'][0]['url'] = location
         element['sources'][0]['ref'] = sha
+        del element['sources'][0]['submodules']
         del element['sources'][0]['track']
 
         # Dump it now
