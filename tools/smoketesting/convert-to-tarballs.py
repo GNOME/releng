@@ -686,7 +686,9 @@ class ConvertToTarballs:
         if not sources:
             print("IGNORE element without sources {}".format(basename))
             return
-        if sources[0].get('kind', None) == 'tar':
+
+        kind = sources[0].get('kind', None)
+        if kind == 'tar' or kind == 'zip':
 
             #
             # The project already uses a tarball, this could be either a redundant
