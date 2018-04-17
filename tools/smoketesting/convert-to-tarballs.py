@@ -756,6 +756,7 @@ class ConvertToTarballs:
                                 done[triplet] = True
                     except:
                         print 'FATAL: module %s missing from BuildStream projects' % module
+                        os.remove('versions')
                         sys.exit(1)
                 subdirs_keys = subdirs.keys()
                 subdirs_keys.sort ()
