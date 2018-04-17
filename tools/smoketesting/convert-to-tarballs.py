@@ -654,14 +654,11 @@ class ConvertToTarballs:
         return location, version, hash, size
 
     def write_bst_file(self, fullpath, element, location, sha):
-        #
-        # Replace the source list with one tarball
-        #
-        element['sources'] = [{
-            'kind': 'tar',
-            'url': location,
-            'ref': sha
-        }]
+        # Replace the first source with a tarball
+        element['sources'][0]['kind'] = 'tar'
+        element['sources'][0]['url'] = location
+        element['sources'][0]['ref'] = sha
+        del element['sources'][0]['track']
 
         # Dump it now
         with open(fullpath, 'w') as f:
