@@ -69,7 +69,7 @@ core:gnome-user-docs:3.28.2:
 core:gnome-user-share:3.28.0:
 core:gnome-video-effects:0.4.3:
 core:gnome-weather:3.26.0:
-core:gobject-introspection:1.57.2:
+core:gobject-introspection:1.56.1:
 core:gom:0.3.3:
 core:graphene:1.8.2:
 core:grilo:0.3.6:
