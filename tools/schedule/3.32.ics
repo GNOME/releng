@@ -1,0 +1,656 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20180831T151118Z - 87620@ac
+DTSTART:20180903T230000Z
+DTEND:20180903T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2018-09-03 before 23:59 UTC for the GNOME\n
+ 3.30.0 stable release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.30.0. If you are not able to make a tar
+ ball before this deadline or\nif you think you'll be late\, please send a 
+ mail to the release team and\nwe'll find someone to roll the tarball for y
+ ou!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.30.0 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.30.0 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20180831T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 46286@ac
+DTSTART:20180905T230000Z
+DTEND:20180905T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.30.0 stable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.30.0 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.30.0 stable release
+TRIGGER;VALUE=DATE-TIME:20180905T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 64562@ac
+DTSTART:20180924T230000Z
+DTEND:20180924T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2018-09-24 before 23:59 UTC for the GNOME\n
+ 3.30.1 stable release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.30.1. If you are not able to make a tar
+ ball before this deadline or\nif you think you'll be late\, please send a 
+ mail to the release team and\nwe'll find someone to roll the tarball for y
+ ou!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.30.1 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.30.1 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20180921T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 26336@ac
+DTSTART:20180926T230000Z
+DTEND:20180926T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.30.1 stable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.30.1 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.30.1 stable release
+TRIGGER;VALUE=DATE-TIME:20180926T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 83950@ac
+DTSTART:20181008T230000Z
+DTEND:20181008T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2018-10-08 before 23:59 UTC for the GNOME\n
+ 3.31.1 unstable release\, which will be delivered on Wednesday.\nModules w
+ hich were proposed for inclusion should try to follow the unstable\nschedu
+ le so everyone can test them.\n\nPlease make sure that your tarballs will 
+ be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wi
+ ll probably be too late to get\nin 3.31.1. If you are not able to make a t
+ arball before this deadline or\nif you think you'll be late\, please send 
+ a mail to the release team and\nwe'll find someone to roll the tarball for
+  you!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.1 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.1 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20181005T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 27786@ac
+DTSTART:20181010T230000Z
+DTEND:20181010T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.1 unstable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.1 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.1 unstable release
+TRIGGER;VALUE=DATE-TIME:20181010T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 32318@ac
+DTSTART:20181022T230000Z
+DTEND:20181022T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2018-10-22 before 23:59 UTC for the GNOME\n
+ 3.30.2 stable release\, which will be delivered on Wednesday.\nModules whi
+ ch were proposed for inclusion should try to follow the unstable\nschedule
+  so everyone can test them.\n\nPlease make sure that your tarballs will be
+  uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will
+  probably be too late to get\nin 3.30.2. If you are not able to make a tar
+ ball before this deadline or\nif you think you'll be late\, please send a 
+ mail to the release team and\nwe'll find someone to roll the tarball for y
+ ou!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.30.2 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.30.2 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20181019T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 45561@ac
+DTSTART:20181024T230000Z
+DTEND:20181024T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.30.2 stable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.30.2 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.30.2 stable release
+TRIGGER;VALUE=DATE-TIME:20181024T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 51214@ac
+DTSTART:20181112T230000Z
+DTEND:20181112T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2018-11-12 before 23:59 UTC for the GNOME\n
+ 3.31.2 unstable release\, which will be delivered on Wednesday.\nModules w
+ hich were proposed for inclusion should try to follow the unstable\nschedu
+ le so everyone can test them.\n\nPlease make sure that your tarballs will 
+ be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wi
+ ll probably be too late to get\nin 3.31.2. If you are not able to make a t
+ arball before this deadline or\nif you think you'll be late\, please send 
+ a mail to the release team and\nwe'll find someone to roll the tarball for
+  you!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.2 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.2 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20181109T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 50184@ac
+DTSTART:20181114T230000Z
+DTEND:20181114T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.2 unstable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.2 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.2 unstable release
+TRIGGER;VALUE=DATE-TIME:20181114T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 80476@ac
+DTSTART:20181210T230000Z
+DTEND:20181210T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2018-12-10 before 23:59 UTC for the GNOME\n
+ 3.31.3 unstable release\, which will be delivered on Wednesday.\nModules w
+ hich were proposed for inclusion should try to follow the unstable\nschedu
+ le so everyone can test them.\n\nPlease make sure that your tarballs will 
+ be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wi
+ ll probably be too late to get\nin 3.31.3. If you are not able to make a t
+ arball before this deadline or\nif you think you'll be late\, please send 
+ a mail to the release team and\nwe'll find someone to roll the tarball for
+  you!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.3 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.3 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20181207T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 80868@ac
+DTSTART:20181212T230000Z
+DTEND:20181212T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.3 unstable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.3 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.3 unstable release
+TRIGGER;VALUE=DATE-TIME:20181212T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 64557@ac
+DTSTART:20190107T230000Z
+DTEND:20190107T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2019-01-07 before 23:59 UTC for the GNOME\n
+ 3.31.4 unstable release\, which will be delivered on Wednesday.\nModules w
+ hich were proposed for inclusion should try to follow the unstable\nschedu
+ le so everyone can test them.\n\nPlease make sure that your tarballs will 
+ be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that wi
+ ll probably be too late to get\nin 3.31.4. If you are not able to make a t
+ arball before this deadline or\nif you think you'll be late\, please send 
+ a mail to the release team and\nwe'll find someone to roll the tarball for
+  you!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.4 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.4 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20190104T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 75279@ac
+DTSTART:20190109T230000Z
+DTEND:20190109T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.4 unstable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.4 unstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.4 unstable release
+TRIGGER;VALUE=DATE-TIME:20190109T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 11472@ac
+DTSTART:20190204T230000Z
+DTEND:20190204T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2019-02-04 before 23:59 UTC for the GNOME\n
+ 3.31.90 beta release\, which will be delivered on Wednesday.\nModules whic
+ h were proposed for inclusion should try to follow the unstable\nschedule 
+ so everyone can test them.\n\nPlease make sure that your tarballs will be 
+ uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will 
+ probably be too late to get\nin 3.31.90. If you are not able to make a tar
+ ball before this deadline or\nif you think you'll be late\, please send a 
+ mail to the release team and\nwe'll find someone to roll the tarball for y
+ ou!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.90 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.90 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20190201T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 17862@ac
+DTSTART:20190204T230000Z
+DTEND:20190204T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:API/ABI\, UI and Feature Addition Freeze\; String Change Announceme
+ nt Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:API/ABI\, UI and Feature Addition Freeze\; String Change Announ
+ cement Period
+TRIGGER;VALUE=DATE-TIME:20190201T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 92117@ac
+DTSTART:20190204T230000Z
+DTEND:20190204T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:New APIs must be fully documented
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New APIs must be fully documented
+TRIGGER;VALUE=DATE-TIME:20190201T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 2439@ac
+DTSTART:20190204T230000Z
+DTEND:20190204T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:Writing of release notes begins
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Writing of release notes begins
+TRIGGER;VALUE=DATE-TIME:20190201T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 29067@ac
+DTSTART:20190206T230000Z
+DTEND:20190206T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.90 beta release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.90 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.90 beta release
+TRIGGER;VALUE=DATE-TIME:20190206T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 43976@ac
+DTSTART:20190218T230000Z
+DTEND:20190218T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2019-02-18 before 23:59 UTC for the GNOME\n
+ 3.31.91 beta release\, which will be delivered on Wednesday.\nModules whic
+ h were proposed for inclusion should try to follow the unstable\nschedule 
+ so everyone can test them.\n\nPlease make sure that your tarballs will be 
+ uploaded before Monday 23:59\nUTC: tarballs uploaded later than that will 
+ probably be too late to get\nin 3.31.91. If you are not able to make a tar
+ ball before this deadline or\nif you think you'll be late\, please send a 
+ mail to the release team and\nwe'll find someone to roll the tarball for y
+ ou!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.91 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.91 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20190215T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 77001@ac
+DTSTART:20190218T230000Z
+DTEND:20190218T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:No string changes may be made without confirmation from the i18
+ n team and notification to release team\, translation team\, and documenta
+ tion team.\nFrom this point\, developers can concentrate on stability and 
+ bug-fixing. Translators can work without worrying that the original Englis
+ h strings will change\, and documentation writers can take accurate screen
+ shots.\nFor the string freezes explained\, and to see which kind of change
+ s are not covered by freeze rules\, check https://wiki.gnome.org/Translati
+ onProject/HandlingStringFreezes. 
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:String Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Freeze
+TRIGGER;VALUE=DATE-TIME:20190215T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 8340@ac
+DTSTART:20190220T230000Z
+DTEND:20190220T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.91 beta release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.91 beta release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.91 beta release
+TRIGGER;VALUE=DATE-TIME:20190220T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 73670@ac
+DTSTART:20190304T230000Z
+DTEND:20190304T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2019-03-04 before 23:59 UTC for the GNOME\n
+ 3.31.92 rc release\, which will be delivered on Wednesday.\nModules which 
+ were proposed for inclusion should try to follow the unstable\nschedule so
+  everyone can test them.\n\nPlease make sure that your tarballs will be up
+ loaded before Monday 23:59\nUTC: tarballs uploaded later than that will pr
+ obably be too late to get\nin 3.31.92. If you are not able to make a tarba
+ ll before this deadline or\nif you think you'll be late\, please send a ma
+ il to the release team and\nwe'll find someone to roll the tarball for you
+ !
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.92 rc tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.92 rc tarballs due
+TRIGGER;VALUE=DATE-TIME:20190301T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 94694@ac
+DTSTART:20190304T230000Z
+DTEND:20190304T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:This is a late freeze to avoids sudden last-minute accidents wh
+ ich could risk the stability that should have been reached at this point. 
+ No source code changes are allowed without approval from the release team\
+ , but translation and documentation should continue. Simple build fixes ar
+ e\, of course\, allowed without asking. 
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:Hard Code Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze
+TRIGGER;VALUE=DATE-TIME:20190301T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 72426@ac
+DTSTART:20190306T230000Z
+DTEND:20190306T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.31.92 rc release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.31.92 rc release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.31.92 rc release
+TRIGGER;VALUE=DATE-TIME:20190306T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 61125@ac
+DTSTART:20190311T230000Z
+DTEND:20190311T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2019-03-11 before 23:59 UTC for the GNOME\n
+ 3.32.0 newstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.32.0. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.32.0 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.32.0 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20190308T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 78518@ac
+DTSTART:20190311T230000Z
+DTEND:20190311T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Hard Code Freeze ends\, but other freezes remain in effect for 
+ the stable branch.
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:Hard Code Freeze ends
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze ends
+TRIGGER;VALUE=DATE-TIME:20190308T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 84062@ac
+DTSTART:20190313T230000Z
+DTEND:20190313T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.32.0 newstable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.32.0 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.32.0 newstable release
+TRIGGER;VALUE=DATE-TIME:20190313T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 34745@ac
+DTSTART:20190408T230000Z
+DTEND:20190408T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:Tarballs are due on 2019-04-08 before 23:59 UTC for the GNOME\n
+ 3.32.1 newstable release\, which will be delivered on Wednesday.\nModules 
+ which were proposed for inclusion should try to follow the unstable\nsched
+ ule so everyone can test them.\n\nPlease make sure that your tarballs will
+  be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
+ ill probably be too late to get\nin 3.32.1. If you are not able to make a 
+ tarball before this deadline or\nif you think you'll be late\, please send
+  a mail to the release team and\nwe'll find someone to roll the tarball fo
+ r you!
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.32.1 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.32.1 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20190405T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20180831T151118Z - 69029@ac
+DTSTART:20190410T230000Z
+DTEND:20190410T235959Z
+CLASS:PUBLIC
+CREATED:20180831T151118
+DESCRIPTION:GNOME 3.32.1 newstable release
+DTSTAMP:20180831T151118
+LAST-MODIFIED:20180831T151118
+SEQUENCE:1
+SUMMARY:GNOME 3.32.1 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.32.1 newstable release
+TRIGGER;VALUE=DATE-TIME:20190410T220000Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+

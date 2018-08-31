@@ -1,0 +1,23 @@
+yearweek:201836
+stable:3.30
+unstable:3.31
+newstable:3.32
+nextnewstable:3.34
+0:release:stable.0 mclasen
+3:release:stable.1 mcatanzaro
+5:release:unstable.1
+7:release:stable.2
+10:release:unstable.2
+14:release:unstable.3
+18:release:unstable.4
+22:task:api-doc
+22:task:release-notes-start
+22:freeze:the-freeze
+22:release:beta.90
+24:freeze:string
+24:release:beta.91
+26:release:rc.92
+26:freeze:hard-code
+27:release:newstable.0
+27:freeze:hard-code-end
+31:release:newstable.1
