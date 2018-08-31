@@ -686,6 +686,10 @@ class ConvertToTarballs:
             return
 
         kind = sources[0].get('kind', None)
+        if kind == 'local':
+            print("IGNORE element with only local sources {}".format(basename))
+            return
+
         if kind == 'tar' or kind == 'zip':
 
             #
@@ -837,6 +841,7 @@ def main(args):
     convert = ConvertToTarballs(config, locator)
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core-deps'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core'))
+    convert.process_bst_files(os.path.join(options.directory, 'elements', 'sdk'))
     convert.create_versions_file()
 
 if __name__ == '__main__':
