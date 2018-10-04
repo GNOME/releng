@@ -20,6 +20,8 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
 # USA
 
+from __future__ import print_function
+
 import sys, string
 import re
 import optparse
@@ -374,7 +376,7 @@ class TarballLocator:
                 time.sleep(12)
 
             if not os.path.exists(newfile) or tries != MAX_TRIES:
-                print "Downloading", filename, newfile
+                print("Downloading", filename, newfile)
                 # one of those options will make Curl resume an existing download
                 # speed-limit ensures 1KB/s over 30sec average (in case of connection problems)
                 cmd = ['curl', '-C', '-', '-#kRfL', '--speed-limit', '1024', '--disable-epsv',  location, '-o', newfile]
@@ -551,7 +553,7 @@ class TarballLocator:
     _get_files_from_https = _get_files_from_http
 
     def find_tarball(self, baselocation, modulename, max_version):
-        print "LOOKING for " + modulename + " tarball at " + baselocation
+        print("LOOKING for " + modulename + " tarball at " + baselocation)
         u = urlparse.urlparse(baselocation)
 
         mirror = self.mirrors.get((u.scheme, u.hostname), None)
@@ -721,7 +723,7 @@ class ConvertToTarballs:
             self.write_bst_file(fullpath, element, location, hash)
 
         except IOError:
-            print 'FATAL: Could not find site for ' + module_name
+            print('FATAL: Could not find site for ' + module_name)
             sys.exit(1)
 
     def process_bst_files(self, directory):
@@ -731,7 +733,7 @@ class ConvertToTarballs:
                     self.process_one_file(root, name)
 
     def create_versions_file(self):
-        print '**************************************************'
+        print('**************************************************')
         versions = open('versions', 'w')
         done = {}
         for idx in range(len(self.options.release_sets)):
@@ -758,7 +760,7 @@ class ConvertToTarballs:
                                 versions.write(triplet)
                                 done[triplet] = True
                     except:
-                        print 'FATAL: module %s missing from BuildStream projects' % module
+                        print('FATAL: module %s missing from BuildStream projects' % module)
                         os.remove('versions')
                         sys.exit(1)
                 subdirs_keys = subdirs.keys()
