@@ -256,7 +256,7 @@ class TarballLocator:
     def __init__(self, tarballdir, mirrors, local_only=False):
         self.tarballdir = tarballdir
         self.have_sftp = self._test_sftp()
-        self.get_stats = True
+        self.get_stats = False
         self.local_only = local_only
         if hasattr(hashlib, 'sha256'):
             self.hash_algo = 'sha256'
@@ -655,11 +655,11 @@ class ConvertToTarballs:
 
         return location, version, hash, size
 
-    def write_bst_file(self, fullpath, element, location, sha):
+    def write_bst_file(self, fullpath, element, location):
         # Replace the first source with a tarball
         element['sources'][0]['kind'] = 'tar'
         element['sources'][0]['url'] = location
-        element['sources'][0]['ref'] = sha
+
         if 'submodules' in element['sources'][0]:
             del element['sources'][0]['submodules']
         del element['sources'][0]['track']
@@ -727,7 +727,7 @@ class ConvertToTarballs:
             print("REWRITE {}".format(basename))
             location, version, hash, size = self.find_tarball_by_name(module_name)
 
-            self.write_bst_file(fullpath, element, location, hash)
+            self.write_bst_file(fullpath, element, location)
 
         except IOError:
             print('FATAL: Could not find site for ' + module_name)
