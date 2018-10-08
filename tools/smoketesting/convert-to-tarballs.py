@@ -664,6 +664,12 @@ class ConvertToTarballs:
             del element['sources'][0]['submodules']
         del element['sources'][0]['track']
 
+        # special case rsvg for now, this will hopefully go away
+        # once we switch to bst 1.4
+        if fullpath.endswith('librsvg.bst'):
+            # keep only the tarball
+            element['sources'] = [element['sources'][0]]
+
         # Dump it now
         with open(fullpath, 'w') as f:
             yaml.round_trip_dump(element, f)
