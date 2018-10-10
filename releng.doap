@@ -5,8 +5,9 @@
          xmlns:gnome="http://api.gnome.org/doap-extensions#"
          xmlns="http://usefulinc.com/ns/doap#">
   <name>releng</name>
-  <shortname>jhbuild</shortname>
+  <shortname>releng</shortname>
   <shortdesc>Tools for GNOME release management</shortdesc>
+  <description>Tools for GNOME release management</description>
 
   <homepage rdf:resource="http://live.gnome.org/ReleasePlanning"/>
   <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/release-team" />
@@ -18,9 +19,9 @@
 
   <maintainer>
     <foaf:Person>
-      <foaf:name>Kjartan Maraas</foaf:name>
-      <foaf:mbox rdf:resource="mailto:kmaraas@gnome.org"/>
-      <gnome:userid>kmaraas</gnome:userid>
+      <foaf:name>GNOME Release Team</foaf:name>
+      <foaf:mbox rdf:resource="mailto:release-team@gnome.org" />
+      <gnome:userid>nobody</gnome:userid>
     </foaf:Person>
   </maintainer>
   <!-- to test ftpadmin -->
