@@ -631,18 +631,19 @@ class TarballLocator:
 
 
 class ConvertToTarballs:
-    def __init__(self, options, locator):
+    def __init__(self, options, locator, convert=True):
         self.options = options
         self.locator = locator
+        self.convert = convert
 
         self.all_tarballs = []
         self.all_versions = []
 
+        self.ignored_tarballs = []
+
     def find_tarball_by_name(self, name):
         translated_name = self.options.translate_name(name)
-        if not self.options.module_included(translated_name):
-            print("FATAL: module {} is missing from conversion script".format(translated_name))
-            sys.exit(1)
+
         real_name = self.options.get_real_name(translated_name)
         max_version = self.options.get_version_limit(translated_name)
         baselocation = self.options.get_download_site('gnome.org', real_name)
@@ -662,7 +663,10 @@ class ConvertToTarballs:
 
         if 'submodules' in element['sources'][0]:
             del element['sources'][0]['submodules']
-        del element['sources'][0]['track']
+
+        # we may not have track if we are updating for a stable release
+        if 'track' in  element['sources'][0]:
+            del element['sources'][0]['track']
 
         # special case rsvg for now, this will hopefully go away
         # once we switch to bst 1.4
@@ -699,28 +703,8 @@ class ConvertToTarballs:
             print("IGNORE element with only local sources {}".format(basename))
             return
 
-        if kind == 'tar' or kind == 'zip':
-
-            #
-            # The project already uses a tarball, this could be either a redundant
-            # run of convert-to-tarballs.py, or an element which explicitly uses
-            # tarballs
-            #
-            translated_name = self.options.translate_name(module_name)
-            real_name = self.options.get_real_name(translated_name)
-
-            tarball = sources[0].get('url', None)
-            tarball = os.path.basename(tarball)
-            if ':' in tarball:
-                tarball = tarball.split(':', 2)[1]
-        
-            re_tarball = r'^'+re.escape(real_name)+'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
-            version = re.sub(re_tarball, r'\1', tarball)
-
-            self.all_tarballs.append(translated_name)
-            self.all_versions.append(version)
-
-            print("IGNORE element {} (version: {}) which already uses tarball: {}".format(basename, version, tarball))
+        if not self.convert and kind == 'git':
+            print("IGNORE git element {} (not converting)".format(basename))
             return
 
         try:
@@ -730,8 +714,12 @@ class ConvertToTarballs:
             self.write_bst_file(fullpath, element, location)
 
         except IOError:
-            print('FATAL: Could not find site for ' + module_name)
-            sys.exit(1)
+            if kind == 'tar' or kind == 'zip':
+                print('IGNORE: Could not find site for ' + module_name)
+                self.ignored_tarballs.append(module_name)
+            else:
+                print('FATAL: Could not find site for ' + module_name)
+                sys.exit(1)
 
     def process_bst_files(self, directory):
         for root, dirs, files in os.walk(directory):
@@ -799,6 +787,8 @@ def main(args):
                       help="tarball-conversion config file", metavar="FILE")
     parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
                       default=False, help="only look for files on a local file system")
+    parser.add_option("", "--no-convert", action="store_false", dest="convert",
+                      default=True, help="do not convert, only try to update elements that already use tarballs")
     (options, args) = parser.parse_args()
 
     if not options.version:
@@ -847,11 +837,18 @@ def main(args):
         sys.exit(1)
 
     locator = TarballLocator(options.tarballdir, config.mirrors, options.local_only)
-    convert = ConvertToTarballs(config, locator)
+    convert = ConvertToTarballs(config, locator, options.convert)
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core-deps'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'sdk'))
-    convert.create_versions_file()
+
+    if options.convert:
+        convert.create_versions_file()
+
+    if convert.ignored_tarballs:
+        print("Could not find a download site for the following modules:")
+        for module_name in convert.ignored_tarballs:
+            print("- {}".format(module_name))
 
 if __name__ == '__main__':
     try:
