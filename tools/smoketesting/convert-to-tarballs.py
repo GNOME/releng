@@ -631,9 +631,10 @@ class TarballLocator:
 
 
 class ConvertToTarballs:
-    def __init__(self, options, locator):
+    def __init__(self, options, locator, update=False):
         self.options = options
         self.locator = locator
+        self.update = update
 
         self.all_tarballs = []
         self.all_versions = []
@@ -662,7 +663,10 @@ class ConvertToTarballs:
 
         if 'submodules' in element['sources'][0]:
             del element['sources'][0]['submodules']
-        del element['sources'][0]['track']
+
+        # we may not have track if we are updating for a stable release
+        if 'track' in  element['sources'][0]:
+            del element['sources'][0]['track']
 
         # special case rsvg for now, this will hopefully go away
         # once we switch to bst 1.4
@@ -707,21 +711,24 @@ class ConvertToTarballs:
             # tarballs
             #
             translated_name = self.options.translate_name(module_name)
-            real_name = self.options.get_real_name(translated_name)
 
-            tarball = sources[0].get('url', None)
-            tarball = os.path.basename(tarball)
-            if ':' in tarball:
-                tarball = tarball.split(':', 2)[1]
+            if not self.update or not self.options.module_included(translated_name):
+                real_name = self.options.get_real_name(translated_name)
+
+                tarball = sources[0].get('url', None)
+                tarball = os.path.basename(tarball)
+                if ':' in tarball:
+                    tarball = tarball.split(':', 2)[1]
         
-            re_tarball = r'^'+re.escape(real_name)+'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
-            version = re.sub(re_tarball, r'\1', tarball)
+                re_tarball = r'^'+re.escape(real_name)+'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
+                version = re.sub(re_tarball, r'\1', tarball)
 
-            self.all_tarballs.append(translated_name)
-            self.all_versions.append(version)
+                self.all_tarballs.append(translated_name)
+                self.all_versions.append(version)
 
-            print("IGNORE element {} (version: {}) which already uses tarball: {}".format(basename, version, tarball))
-            return
+                print("IGNORE element {} (version: {}) which already uses tarball: {}".format(basename, version, tarball))
+                return
+
 
         try:
             print("REWRITE {}".format(basename))
@@ -730,8 +737,11 @@ class ConvertToTarballs:
             self.write_bst_file(fullpath, element, location)
 
         except IOError:
-            print('FATAL: Could not find site for ' + module_name)
-            sys.exit(1)
+            if kind == 'tar' or kind == 'zip':
+                print('IGNORE: Could not find site for ' + module_name)
+            else:
+                print('FATAL: Could not find site for ' + module_name)
+                sys.exit(1)
 
     def process_bst_files(self, directory):
         for root, dirs, files in os.walk(directory):
@@ -799,6 +809,8 @@ def main(args):
                       help="tarball-conversion config file", metavar="FILE")
     parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
                       default=False, help="only look for files on a local file system")
+    parser.add_option("-u", "--update", action="store_true", dest="update",
+                      default=False, help="try to update elements that already use tarballs")
     (options, args) = parser.parse_args()
 
     if not options.version:
@@ -847,7 +859,7 @@ def main(args):
         sys.exit(1)
 
     locator = TarballLocator(options.tarballdir, config.mirrors, options.local_only)
-    convert = ConvertToTarballs(config, locator)
+    convert = ConvertToTarballs(config, locator, options.update)
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core-deps'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'sdk'))
