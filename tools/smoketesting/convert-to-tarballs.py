@@ -312,9 +312,39 @@ class TarballLocator:
 
         return do_sftp
 
+    def _extract_version(self, string):
+        version = re.sub(r'^([0-9\.]+)[^0-9\.]?(.*)$', r'\1', string)
+        suffix  = re.sub(r'^([0-9\.]+)[^0-9\.]?(.*)$', r'\2', string)
+        return [version.split('.'), suffix]
+
+    def _compare_suffixes(self, a, b):
+        if   a == '':
+            return 1
+        elif b == '':
+            return -1
+
+        # See https://semver.org/#spec-item-11
+        a_elems = a.split('.')
+        b_elems = b.split('.')
+        num_fields = min(len(a_elems), len(b_elems))
+        for i in range(0,num_fields):
+            if   a_elems[i].isdigit() and b_elems[i].is_digit():
+                if int(a_elems[i]) > int(b_elems[i]):
+                    return 1
+                else:
+                    return -1
+            elif a_elems[i] > b_elems[i]:
+                return 1
+            elif a_elems[i] < b_elems[i]:
+                return -1
+        if len(a_elems) > len(b_elems):
+            return 1
+        else:
+            return -1
+
     def _bigger_version(self, a, b):
-        a_nums = a.split('.')
-        b_nums = b.split('.')
+        [a_nums, a_suffix] = self._extract_version(a)
+        [b_nums, b_suffix] = self._extract_version(b)
         num_fields = min(len(a_nums), len(b_nums))
         for i in range(0,num_fields):
             if   int(a_nums[i]) > int(b_nums[i]):
@@ -322,6 +352,11 @@ class TarballLocator:
             elif int(a_nums[i]) < int(b_nums[i]):
                 return b
         if len(a_nums) > len(b_nums):
+            return a
+        elif len(a_nums) < len(b_nums):
+            return b
+
+        if self._compare_suffixes(a_suffix, b_suffix) > 0:
             return a
         else:
             return b
@@ -334,8 +369,8 @@ class TarballLocator:
     def _version_greater_or_equal_to_max(self, a, max_version):
         if not max_version:
             return False
-        a_nums = a.split('.')
-        b_nums = max_version.split('.')
+        [a_nums, a_suffix] = self._extract_version(a)
+        [b_nums, b_suffix] = self._extract_version(max_version)
         num_fields = min(len(a_nums), len(b_nums))
         for i in range(0,num_fields):
             if   int(a_nums[i]) > int(b_nums[i]):
