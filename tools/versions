@@ -129,11 +129,11 @@ core:pyatspi:2.30.0:
 core:pygobject:3.30.2:
 core:rygel:0.37.0:
 core:simple-scan:3.31.2:
-core:sushi:3.30.0:
+core:sushi:3.31.2:
 core:totem:3.26.2:
 core:totem-pl-parser:3.26.1:
-core:tracker:tracker-2.2.0-alpha1.tar.xz:
-core:tracker-miners:tracker-miners-2.2.0-alpha1.tar.xz:
+core:tracker:2.1.6:
+core:tracker-miners:2.1.5:
 core:vala:0.42.2:
 core:vino:3.22.0:
 core:vte:0.55.0:
