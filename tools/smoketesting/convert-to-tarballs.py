@@ -638,8 +638,9 @@ class TarballLocator:
         # Only include tarballs for the given module
         tarballs = [tarball for tarball in tarballs if modulename in tarball]
 
-        re_tarball = r'^'+re.escape(modulename)+'[_-](([0-9]+[\.\-])*[0-9]+[^0-9\.]?[^\.]*)(\.orig)?\.tar.*$'
-        ## filter tarballs that have a
+        re_tarball = r'^'+re.escape(modulename)+'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
+        ## Don't include -beta -installer -stub-installer and all kinds of
+        ## other stupid inane tarballs, and also filter tarballs that have a
         ## name that includes the module name but is different (eg, Gnome2-VFS
         ## instead of Gnome2)
         tarballs = filter(lambda t: re.search(re_tarball, t), tarballs)
