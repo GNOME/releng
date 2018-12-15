@@ -11,7 +11,7 @@
 
   <homepage rdf:resource="http://live.gnome.org/ReleasePlanning"/>
   <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/release-team" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=Release%20Engineering" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/releng/issues/" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#infrastructure" />
   <programming-language>Perl</programming-language>
   <programming-language>Python</programming-language>
