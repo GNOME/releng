@@ -1,0 +1,28 @@
+yearweek:201911
+stable:3.32
+unstable:3.33
+newstable:3.34
+nextnewstable:3.36
+0:release:stable.0 mclasen
+4:release:stable.1 mcatanzaro
+6:release:unstable.1
+8:release:stable.2
+11:release:unstable.2
+15:release:unstable.3
+19:task:api-doc
+19:task:release-notes-start
+19:freeze:the-freeze
+19:release:beta.90
+21:freeze:string
+21:release:beta.91
+23:freeze:hard-code
+23:release:rc.92
+2019-08-23:conference:GUADEC:https://www.guadec.org/
+2019-08-24:conference:GUADEC:https://www.guadec.org/
+2019-08-25:conference:GUADEC:https://www.guadec.org/
+2019-08-26:conference:GUADEC:https://www.guadec.org/
+2019-08-27:conference:GUADEC:https://www.guadec.org/
+2019-08-28:conference:GUADEC:https://www.guadec.org/
+25:release:newstable.0
+25:freeze:hard-code-end
+29:release:newstable.1
