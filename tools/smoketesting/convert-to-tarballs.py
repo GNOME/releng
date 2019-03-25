@@ -631,7 +631,7 @@ class TarballLocator:
 
 
 class ConvertToTarballs:
-    def __init__(self, options, locator, convert=True):
+    def __init__(self, options, locator, directory, convert=True):
         self.options = options
         self.locator = locator
         self.convert = convert
@@ -640,6 +640,10 @@ class ConvertToTarballs:
         self.all_versions = []
 
         self.ignored_tarballs = []
+
+        with open(os.path.join(directory, 'project.conf')) as f:
+            projectconf = yaml.load(f)
+            self.aliases = projectconf['aliases']
 
     def find_tarball_by_name(self, name):
         translated_name = self.options.translate_name(name)
@@ -710,6 +714,10 @@ class ConvertToTarballs:
         try:
             print("REWRITE {}".format(basename))
             location, version, hash, size = self.find_tarball_by_name(module_name)
+
+            for alias, url in self.aliases.items():
+                if location.startswith(url):
+                    location = alias + ':' + location[len(url):]
 
             self.write_bst_file(fullpath, element, location)
 
@@ -837,7 +845,7 @@ def main(args):
         sys.exit(1)
 
     locator = TarballLocator(options.tarballdir, config.mirrors, options.local_only)
-    convert = ConvertToTarballs(config, locator, options.convert)
+    convert = ConvertToTarballs(config, locator, options.directory, options.convert)
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core-deps'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'sdk'))
