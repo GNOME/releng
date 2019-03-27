@@ -832,12 +832,13 @@ def main(args):
         else:
             config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
-    if os.path.isfile('versions'):
-        if options.force:
-            os.unlink('versions')
-        else:
-            sys.stderr.write('Cannot proceed; would overwrite versions\n')
-            sys.exit(1)
+    if options.convert:
+        if os.path.isfile('versions'):
+            if options.force:
+                os.unlink('versions')
+            else:
+                sys.selftderr.write('Cannot proceed; would overwrite versions\n')
+                sys.exit(1)
 
     if not options.directory:
         sys.stderr.write('Must specify the directory of the GNOME buildstream project to convert\n\n')
