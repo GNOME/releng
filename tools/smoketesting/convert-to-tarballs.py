@@ -799,10 +799,6 @@ def main(args):
                       default=True, help="do not convert, only try to update elements that already use tarballs")
     (options, args) = parser.parse_args()
 
-    if not options.version:
-        parser.print_help()
-        sys.exit(1)
-
     if not options.tarballdir:
         tarballdir = os.path.join(os.getcwd(), 'tarballs')
         try:
@@ -810,11 +806,6 @@ def main(args):
         except OSError:
             pass
         options.tarballdir = tarballdir
-
-    splitted_version = options.version.split(".")
-    if (len(splitted_version) != 3):
-        sys.stderr.write("ERROR: Version number is not valid\n")
-        sys.exit(1)
 
     if options.config:
         try:
@@ -825,12 +816,19 @@ def main(args):
             except IOError:
                 sys.stderr.write("ERROR: Config file could not be loaded from file: {}\n".format(options.config))
                 sys.exit(1)
-    else:
+    elif options.version:
+        splitted_version = options.version.split(".")
+        if (len(splitted_version) != 3):
+            sys.stderr.write("ERROR: Version number is not valid\n")
+            sys.exit(1)
+
         is_stable = (int(splitted_version[1]) % 2 == 0)
         if is_stable:
             config = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
         else:
             config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
+    else:
+        config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
     if options.convert:
         if os.path.isfile('versions'):
