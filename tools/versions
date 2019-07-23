@@ -78,7 +78,7 @@ core:gspell:1.8.1:
 core:gssdp:1.2.1:
 core:gtk:3.96.0:
 core:gtk+:3.24.10:
-core:gtk-doc:1.30:
+core:gtk-doc:1.29:
 core:gtk-vnc:0.9.0:
 core:gtkmm:3.95.1:
 core:gtkmm:3.24.1:
