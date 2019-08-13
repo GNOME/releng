@@ -678,10 +678,6 @@ class ConvertToTarballs:
             # keep only the tarball
             element['sources'] = [element['sources'][0]]
 
-        # FIXME: never update intltool tarball, what to do here?
-        if fullpath.endswith('intltool.bst'):
-            return
-
         # Dump it now
         with open(fullpath, 'w') as f:
             yaml.round_trip_dump(element, f)
