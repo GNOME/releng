@@ -660,7 +660,7 @@ DTEND:20190909T235959Z
 CLASS:PUBLIC
 CREATED:20190309T093132
 DESCRIPTION:Tarballs are due on 2019-09-09 before 23:59 UTC for the GNOME\n
- 3.34.0 newstable release\, which will be delivered on Wednesday.\nModules 
+ 3.34.0 newstable release\, which will be delivered on Thursday.\nModules 
  which were proposed for inclusion should try to follow the unstable\nsched
  ule so everyone can test them.\n\nPlease make sure that your tarballs will
   be uploaded before Monday 23:59\nUTC: tarballs uploaded later than that w
@@ -669,7 +669,7 @@ DESCRIPTION:Tarballs are due on 2019-09-09 before 23:59 UTC for the GNOME\n
   a mail to the release team and\nwe'll find someone to roll the tarball fo
  r you!
 DTSTAMP:20190309T093132
-LAST-MODIFIED:20190309T093132
+LAST-MODIFIED:20190814T093132
 SEQUENCE:1
 SUMMARY:GNOME 3.34.0 newstable tarballs due
 TRANSP:OPAQUE
@@ -700,20 +700,20 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:20190309T093132Z - 81420@ac
-DTSTART:20190911T230000Z
-DTEND:20190911T235959Z
+DTSTART:20190912T230000Z
+DTEND:20190912T235959Z
 CLASS:PUBLIC
 CREATED:20190309T093132
 DESCRIPTION:GNOME 3.34.0 newstable release
 DTSTAMP:20190309T093132
-LAST-MODIFIED:20190309T093132
+LAST-MODIFIED:20190814T093132
 SEQUENCE:1
 SUMMARY:GNOME 3.34.0 newstable release
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:GNOME 3.34.0 newstable release
-TRIGGER;VALUE=DATE-TIME:20190911T220000Z
+TRIGGER;VALUE=DATE-TIME:20190912T220000Z
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
