@@ -732,7 +732,7 @@ class ConvertToTarballs:
     def process_bst_files(self, directory):
         for root, dirs, files in os.walk(directory):
             for name in files:
-                if name.endswith(".bst") and name != 'm4-common.bst':
+                if name.endswith(".bst"):
                     self.process_one_file(root, name)
 
     def create_versions_file(self):
