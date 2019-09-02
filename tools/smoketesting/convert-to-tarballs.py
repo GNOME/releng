@@ -853,6 +853,21 @@ def main(args):
     if options.convert:
         convert.create_versions_file()
 
+        # update variables in the .gitlab-ci.yml
+        if int(splitted_version[1]) % 2 == 0:
+               flatpak_branch = '{}.{}'.format(splitted_version[0], splitted_version[1])
+        elif int(splitted_version[2]) >= 90:
+               flatpak_branch = '{}.{}beta'.format(splitted_version[0], int(splitted_version[1]) + 1)
+
+        cifile = os.path.join(options.directory, '.gitlab-ci.yml')
+        with open(cifile) as f:
+            ci = yaml.round_trip_load(f, preserve_quotes=True)
+
+        ci['variables']['FLATPAK_BRANCH'] = flatpak_branch
+
+        with open(cifile, 'w') as f:
+            yaml.round_trip_dump(ci, f)
+
     if convert.ignored_tarballs:
         print("Could not find a download site for the following modules:")
         for module_name in convert.ignored_tarballs:
