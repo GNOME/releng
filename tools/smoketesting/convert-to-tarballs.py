@@ -864,6 +864,7 @@ def main(args):
             ci = yaml.round_trip_load(f, preserve_quotes=True)
 
         ci['variables']['FLATPAK_BRANCH'] = flatpak_branch
+        ci['variables']['BST_STRICT'] = '--strict'
 
         with open(cifile, 'w') as f:
             yaml.round_trip_dump(ci, f)
