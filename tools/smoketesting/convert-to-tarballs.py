@@ -869,6 +869,16 @@ def main(args):
         with open(cifile, 'w') as f:
             yaml.round_trip_dump(ci, f)
 
+        # update project.conf
+        projectconf = os.path.join(options.directory, 'project.conf')
+        with open(projectconf) as f:
+            conf = yaml.round_trip_load(f, preserve_quotes=True)
+
+        conf['variables']['branch'] = flatpak_branch
+
+        with open(projectconf, 'w') as f:
+            yaml.round_trip_dump(conf, f)
+
     if convert.ignored_tarballs:
         print("Could not find a download site for the following modules:")
         for module_name in convert.ignored_tarballs:
