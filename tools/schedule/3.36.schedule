@@ -1,0 +1,23 @@
+yearweek:201937
+stable:3.34
+unstable:3.35
+newstable:3.36
+nextnewstable:3.38
+0:release:stable.0 mclasen
+4:release:stable.1 mcatanzaro
+6:release:unstable.1
+8:release:stable.2
+10:release:unstable.2
+14:release:unstable.3
+18:release:unstable.4
+21:task:api-doc
+21:task:release-notes-start
+21:freeze:the-freeze
+21:release:beta.90
+23:freeze:string
+23:release:beta.91
+25:release:rc.92
+25:freeze:hard-code
+26:release:newstable.0
+26:freeze:hard-code-end
+30:release:newstable.1
