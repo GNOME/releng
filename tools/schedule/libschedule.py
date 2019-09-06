@@ -8,7 +8,7 @@ import os
 import os.path
 import sys
 
-DEFAULT_SCHEDULE='3.34.schedule'
+DEFAULT_SCHEDULE='3.36.schedule'
 
 class GnomeReleaseEvent:
     definitions = {}
@@ -25,11 +25,10 @@ class GnomeReleaseEvent:
             'summary_template': 'GNOME $version $detail tarballs due',
             "wiki_template": 'GNOME $version $detail tarballs due',
             "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
-$version $detail release, which will be delivered on Wednesday.
-Modules which were proposed for inclusion should try to follow the unstable
-schedule so everyone can test them.
+$version $detail release, which will be delivered next week. Core modules
+should try to follow the unstable schedule so everyone can test them.
 
-Please make sure that your tarballs will be uploaded before Monday 23:59
+Please make sure that your tarballs will be uploaded before Saturday 23:59
 UTC: tarballs uploaded later than that will probably be too late to get
 in $version. If you are not able to make a tarball before this deadline or
 if you think you'll be late, please send a mail to the release team and
@@ -44,33 +43,14 @@ we'll find someone to roll the tarball for you!""",
                 'string': 'String Freeze',
                 'hard-code': 'Hard Code Freeze',
                 'hard-code-end': 'Hard Code Freeze ends',
-                # not used anymore since 3.3:
-                'feature2': 'Feature Addition Freeze',
-                'string-announcement': 'String Change Announcement Period',
-                'ui-announcement': 'UI Change Announcement Period',
-                'api': 'API/ABI Freeze',
-                'module': 'Module Freeze',
-                'ui': 'UI Freeze'
             },
             "wiki_template": {
                 'feature': '[[ReleasePlanning/Freezes|Feature and Module Freeze]]: new system-wide functionality and modules are chosen now.',
-                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]] and notification to [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to both [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]] and [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
-                'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without confirmation from the l10n team ([[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]) and notification to both the release team and the GDP ([[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]]).',
+                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]].',
+                'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without approval from the i18n team ([[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]).',
                 'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]. Translation and documentation can continue.',
                 'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.',
-                # 'string-announcement' merged into 'the-freeze' for 3.3
-                'string-announcement': 'String Change Announcement Period: All string changes must be announced to both [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]] and [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
-                # 'ui-announcement' not used anymore since 3.3
-                'ui-announcement': 'UI Change Announcement Period: All user interface changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]].',
-                # 'api' merged into 'the-freeze' for 3.3
-                'api': '[[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: developer APIs should be frozen at this point.',
-                # 'module' not used anymore since 3.1, replaced by 'feature'
-                'module': '[[ReleasePlanning/Freezes|Module Freeze]]: new modules are chosen now.',
-                # 'feature2' merged into 'the-freeze' for 3.3
-                'feature2': '[[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now.',
-                # 'ui' merged into 'the-freeze' for 3.3
-                'ui': '[[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]] and notification to the GDP ([[https://mail.gnome.org/mailman/listinfo/gnome-doc-list|gnome-doc-list@]])'
-            },
+             },
             'description_template': {
                 'string-announcement': 'String Change Announcement Period',
                 'ui-announcement': 'UI Change Announcement Period',
@@ -84,84 +64,40 @@ API freeze is not required for non-platform libraries, but is recommended.""",
                 'feature': """Desktop and platform release module additions are finalised, major feature additions are listed. No new modules or features will be accepted for this release period. "Feature" should be interpreted as "Functionality" or "Ability". Bug fixes of existing features are not affected.
 
 This allows developers to concentrate on refining the new features instead of adding yet more functionality.""",
-                'ui': """No UI changes may be made at all without confirmation from the release team and notification to the documentation team.""",
-                'string': """No string changes may be made without confirmation from the i18n team and notification to release team, translation team, and documentation team.
-From this point, developers can concentrate on stability and bug-fixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots.
+                'ui': """No major UI changes may be made without confirmation from the release team. Small fixes do not require permission.""",
+                'string': """No string changes may be made without confirmation from the i18n team.
+From this point, developers can concentrate on stability and bugfixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots.
 For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check https://wiki.gnome.org/TranslationProject/HandlingStringFreezes. """,
                 'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
                 'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
             },
         },
-        "modules": {
+        "task": {
             "prio": 4,
             "automail": True,
             "summary_template": {
-                'proposals-start': 'New module proposal start',
-                'proposals-end': 'New module proposal end',
-                'discussion': 'Module inclusion discussion heats up',
-                'decision': 'Release Team decides on new modules'
-            },
-            "wiki_template": {
-                'proposals-start': 'Start of new module proposals period for $newstable',
-                'proposals-end': 'End of new module proposals period for $newstable',
-                'discussion': 'Module proposals discussion heats up.',
-                'decision': '[[https://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new module proposals for $newstable with community input up to this point.'
-            },
-            'description_template': {
-                'proposals-start': 'New module proposal start',
-                'proposals-end': 'New module proposal end',
-                'discussion': 'Module proposals discussion heats up',
-                'decision': 'Release Team decides on new modules'
-            },
-        },
-        "features": {
-            "prio": 5,
-            "automail": True,
-            "summary_template": {
-                'proposals-start': 'New feature proposals period start',
-                'proposals-end': 'New feature proposals period end',
-                'discussion': 'Feature proposals discussion heats up',
-                'decision': 'Release Team decides on new features',
-                'proposals-start-next': 'New feature proposals period start'
-            },
-            "wiki_template": {
-                'proposals-start': 'Start of new feature proposals period for $newstable',
-                'proposals-end': 'End of new feature proposals period for $newstable',
-                'discussion': 'Feature proposals discussion heats up.',
-                'decision': '[[https://mail.gnome.org/mailman/listinfo/release-team|Release Team]] meets about new feature proposals for $newstable with community input up to this point.',
-                'proposals-start-next': 'Start of new feature proposals period for $nextnewstable'
-            },
-            'description_template': {
-                'proposals-start': 'New feature proposals period start',
-                'proposals-end': 'New feature proposals period end',
-                'discussion': 'Feature proposals discussion heats up',
-                'decision': 'Release Team decides on new features',
-                'proposals-start-next': 'New feature proposals period start'
-            },
-        },
-        "task": {
-            "prio": 6,
-            "automail": True,
-            "summary_template": {
                 'api-doc': 'New APIs must be fully documented',
-                'release-notes-start': 'Writing of release notes begins'
+                'release-notes-start': 'Writing of release notes begins',
+                'translation-deadline': 'Soft translation deadline'
             },
             "wiki_template": {
                 'api-doc': '[[https://wiki.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df|New APIs must be fully documented]]',
-                'release-notes-start': '[[https://wiki.gnome.org/ReleaseNotes|Writing of release notes begins]]'
+                'release-notes-start': '[[https://wiki.gnome.org/ReleaseNotes|Writing of release notes begins]]',
+                'translation-deadline': 'Soft translation deadline: translations committed after this point may be too late to be included; maintainers should not release before this point.'
             },
             'description_template': {
                 'api-doc': 'New APIs must be fully documented',
-                'release-notes-start': 'Writing of release notes begins'
+                'release-notes-start': 'Writing of release notes begins',
+                'translation-deadline': 'Soft translation deadline'
             }
         },
         "conference": {
-            "prio": 7,
+            "prio": 5,
             "summary_template": '$detail conference',
             "wiki_template": '$detail conference',
         },
         "hackfest": {
-            "prio": 8,
+            "prio": 6,
             "summary_template": '$detail hackfest',
             "wiki_template": '$detail hackfest',
         },
@@ -284,7 +220,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
 
                 year = int(info[1][:4])
                 week = int(info[1][-2:])
-                if year < 2007 or year > 2020:
+                if year < 2007 or year > 2030:
                     print "Error: %s is not a valid year for the start date" % year
                     return None
                 if week > 54:
@@ -299,14 +235,17 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                 print "Error: Need yearweek, stable and unstable definitions before line '%s'" % line[0:-1]
                 return None
 
+            fixedDate = False
+
             if info[0].isdigit():
                 week = int(info[0])
                 if week < -10 or week > 53:
                     print "Error: %s is not a valid week for an event" % week
                     return None
-                date = start + datetime.timedelta(week * 7)
+                date = start + datetime.timedelta(week * 7) - datetime.timedelta(2)
             else:
                 date = datetime.date(*(time.strptime(info[0], '%Y-%m-%d')[0:3]))
+                fixedDate = True
             category = info[1].lower()
             event = info[2]
             if category not in cls.categories:
@@ -316,7 +255,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             # Expand event info
             version = None
             assignee = None
-            if category == 'release' and '.' in event:
+            if (category == 'release' or category == 'tarball') and '.' in event:
                 if ' ' in event:
                     i = event.split(' ', 1)
                     event = i[0]
@@ -328,14 +267,19 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                     event = i[0]
                     i[0] = definitions.get(i[0], definitions['unstable'])
                     version = '.'.join(i)
-            if category == 'release' and version is None:
+            if (category == 'release' or category == 'tarball') and version is None:
                 print "Error: line '%s' is not parsable" % line[0:-1]
                 return None
 
-            if category == 'release':
+            if event == 'translation-deadline' and not fixedDate:
+                date = date + datetime.timedelta(4)
+
+            if category == 'release' and event == 'newstable':
                 rel_event = cls(date, week, 'tarball', event, version, assignee)
                 events.append (rel_event)
-                date = date + datetime.timedelta(2)
+
+            if category == 'release' and not fixedDate:
+                date = date + datetime.timedelta(4)
 
             rel_event = cls(date, week, category, event, version, assignee)
             events.append (rel_event)
@@ -353,7 +297,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
 
 if __name__ == '__main__':
     d = datetime.date(1980,1,7)
-    end = datetime.date(2020,1,1)
+    end = datetime.date(2030,1,1)
     adv = datetime.timedelta(7)
     while d < end:
         yw = d.isocalendar()[:2]
