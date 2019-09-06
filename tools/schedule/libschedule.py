@@ -333,7 +333,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                 return None
 
             if category == 'release':
-                rel_event = cls(date, week, 'tarball', event, version, assignee)
+                rel_event = cls(date - datetime.timedelta(3), week, 'tarball', event, version, assignee)
                 events.append (rel_event)
                 date = date + datetime.timedelta(2)
 
