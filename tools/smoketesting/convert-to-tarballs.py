@@ -864,10 +864,22 @@ def main(args):
             ci = yaml.round_trip_load(f, preserve_quotes=True)
 
         ci['variables']['FLATPAK_BRANCH'] = flatpak_branch
-        ci['variables']['BST_STRICT'] = '--strict'
+
+        if 'BST_STRICT' in ci['variables']:
+            ci['variables']['BST_STRICT'] = '--strict'
 
         with open(cifile, 'w') as f:
             yaml.round_trip_dump(ci, f)
+
+        # update project.conf
+        projectconf = os.path.join(options.directory, 'project.conf')
+        with open(projectconf) as f:
+            conf = yaml.round_trip_load(f, preserve_quotes=True)
+
+        conf['variables']['branch'] = flatpak_branch
+
+        with open(projectconf, 'w') as f:
+            yaml.round_trip_dump(conf, f)
 
     if convert.ignored_tarballs:
         print("Could not find a download site for the following modules:")
