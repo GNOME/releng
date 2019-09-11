@@ -3,26 +3,26 @@ stable:3.34
 unstable:3.35
 newstable:3.36
 nextnewstable:3.38
-2019-09-09:tarball:stable.0
+2019-09-09:tarball:stable.0 mclasen
 2019-09-12:release:stable.0 mclasen
-2019-10-07:tarball:stable.1
+2019-10-07:tarball:stable.1 mcatanzaro
 2019-10-09:release:stable.1 mcatanzaro
-5:tarball:unstable.1
-11:tarball:unstable.2
-11:tarball:stable.2
-17:tarball:unstable.3
-17:tarball:stable.3
+5:tarball:unstable.1 jjardon
+11:tarball:unstable.2 mcatanzaro
+11:tarball:stable.2 alatiera
+17:tarball:unstable.3 alatiera
+17:tarball:stable.3 jjardon
 21:task:api-doc
 21:task:release-notes-start
 21:freeze:the-freeze
-21:tarball:beta.90
+21:tarball:beta.90 abderrahim
 23:freeze:string
-23:tarball:beta.91
-23:tarball:stable.4
-25:tarball:rc.92
+23:tarball:beta.91 mcatanzaro
+23:tarball:stable.4 mclasen
+25:tarball:rc.92 jjardon
 25:freeze:hard-code
 25:task:translation-deadline
-26:release:newstable.0
+26:release:newstable.0 mclasen
 26:freeze:hard-code-end
-29:tarball:stable.5
-29:tarball:newstable.1
+29:tarball:stable.5 abderrahim
+29:tarball:newstable.1 mcatanzaro
