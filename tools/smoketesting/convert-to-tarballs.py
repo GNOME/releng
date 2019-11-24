@@ -856,30 +856,35 @@ def main(args):
         # update variables in the .gitlab-ci.yml
         if int(splitted_version[1]) % 2 == 0:
                flatpak_branch = '{}.{}'.format(splitted_version[0], splitted_version[1])
+               update_flatpak_branch = True
         elif int(splitted_version[2]) >= 90:
                flatpak_branch = '{}.{}beta'.format(splitted_version[0], int(splitted_version[1]) + 1)
+               update_flatpak_branch = True
+        else:
+               update_flatpak_branch = False
 
-        cifile = os.path.join(options.directory, '.gitlab-ci.yml')
-        with open(cifile) as f:
-            ci = yaml.round_trip_load(f, preserve_quotes=True)
+        if update_flatpak_branch:
+            cifile = os.path.join(options.directory, '.gitlab-ci.yml')
+            with open(cifile) as f:
+                ci = yaml.round_trip_load(f, preserve_quotes=True)
 
-        ci['variables']['FLATPAK_BRANCH'] = flatpak_branch
+            ci['variables']['FLATPAK_BRANCH'] = flatpak_branch
 
-        if 'BST_STRICT' in ci['variables']:
-            ci['variables']['BST_STRICT'] = '--strict'
+            if 'BST_STRICT' in ci['variables']:
+                ci['variables']['BST_STRICT'] = '--strict'
 
-        with open(cifile, 'w') as f:
-            yaml.round_trip_dump(ci, f)
+            with open(cifile, 'w') as f:
+                yaml.round_trip_dump(ci, f)
 
-        # update project.conf
-        projectconf = os.path.join(options.directory, 'project.conf')
-        with open(projectconf) as f:
-            conf = yaml.round_trip_load(f, preserve_quotes=True)
+            # update project.conf
+            projectconf = os.path.join(options.directory, 'project.conf')
+            with open(projectconf) as f:
+                conf = yaml.round_trip_load(f, preserve_quotes=True)
 
-        conf['variables']['branch'] = flatpak_branch
+            conf['variables']['branch'] = flatpak_branch
 
-        with open(projectconf, 'w') as f:
-            yaml.round_trip_dump(conf, f)
+            with open(projectconf, 'w') as f:
+                yaml.round_trip_dump(conf, f)
 
     if convert.ignored_tarballs:
         print("Could not find a download site for the following modules:")
