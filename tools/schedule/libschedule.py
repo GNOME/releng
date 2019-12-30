@@ -83,7 +83,7 @@ For the string freezes explained, and to see which kind of changes are not cover
             "wiki_template": {
                 'api-doc': '[[https://wiki.gnome.org/ReleasePlanning/ModuleRequirements/Platform#head-2a21facd40d5bf2d73f088cd355aa98b6a2458df|New APIs must be fully documented]]',
                 'release-notes-start': '[[https://wiki.gnome.org/ReleaseNotes|Writing of release notes begins]]',
-                'translation-deadline': 'Soft translation deadline: translations committed after this point may be too late to be included; maintainers should not release before this point.'
+                'translation-deadline': 'Soft translation deadline: translations committed after this point may be too late to be included; maintainers should not release until after this day.'
             },
             'description_template': {
                 'api-doc': 'New APIs must be fully documented',
