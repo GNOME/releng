@@ -707,7 +707,7 @@ class ConvertToTarballs:
             print("IGNORE element with only local sources {}".format(basename))
             return
 
-        if not self.convert and kind == 'git':
+        if not self.convert and kind.startswith('git'):
             print("IGNORE git element {} (not converting)".format(basename))
             return
 
