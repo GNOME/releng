@@ -880,9 +880,29 @@ def main(args):
                 conf = yaml.round_trip_load(f, preserve_quotes=True)
 
             conf['variables']['branch'] = flatpak_branch
+            conf['ref-storage'] = 'inline'
 
             with open(projectconf, 'w') as f:
                 yaml.round_trip_dump(conf, f)
+
+            # move junction refs to the respective files
+            junctionrefs = os.path.join(options.directory, 'junction.refs')
+            with open(junctionrefs) as f:
+                refs = yaml.safe_load(f)['projects']['gnome']
+
+            for element in refs.keys():
+                elfile = os.path.join(options.directory, conf['element-path'], element)
+                with open(elfile) as f:
+                    eldata = yaml.round_trip_load(f, preserve_quotes=True)
+
+                for i in range(len(refs[element])):
+                    if not refs[element][i]: # source has no ref
+                        continue
+
+                    eldata['sources'][i]['ref'] = refs[element][i]['ref']
+
+                with open(elfile, 'w') as f:
+                    yaml.round_trip_dump(eldata, f)
 
     if convert.ignored_tarballs:
         print("Could not find a download site for the following modules:")
