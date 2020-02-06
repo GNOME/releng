@@ -672,11 +672,9 @@ class ConvertToTarballs:
         if 'track' in element['sources'][0]:
             del element['sources'][0]['track']
 
-        # special case rsvg for now, this will hopefully go away
-        # once we switch to bst 1.4
-        if fullpath.endswith('librsvg.bst'):
-            # keep only the tarball
-            element['sources'] = [element['sources'][0]]
+        # cargo sources shouldn't be needed in tarballs as tarballs should
+        # vendor their dependencies
+        element['sources'] = [source for source in element['sources'] if source['kind'] != 'cargo']
 
         # Dump it now
         with open(fullpath, 'w') as f:
