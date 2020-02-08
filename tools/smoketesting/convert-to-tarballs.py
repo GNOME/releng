@@ -872,7 +872,7 @@ def main(args):
                 ci['variables']['BST_STRICT'] = '--strict'
 
             with open(cifile, 'w') as f:
-                yaml.round_trip_dump(ci, f)
+                yaml.round_trip_dump(ci, f, width=200)
 
             # update project.conf
             projectconf = os.path.join(options.directory, 'project.conf')
@@ -883,7 +883,7 @@ def main(args):
             conf['ref-storage'] = 'inline'
 
             with open(projectconf, 'w') as f:
-                yaml.round_trip_dump(conf, f)
+                yaml.round_trip_dump(conf, f, width=200)
 
             # move junction refs to the respective files
             junctionrefs = os.path.join(options.directory, 'junction.refs')
