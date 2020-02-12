@@ -66,8 +66,8 @@ API freeze is not required for non-platform libraries, but is recommended.""",
 This allows developers to concentrate on refining the new features instead of adding yet more functionality.""",
                 'ui': """No major UI changes may be made without confirmation from the release team. Small fixes do not require permission.""",
                 'string': """No string changes may be made without confirmation from the i18n team.
-From this point, developers can concentrate on stability and bugfixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots.
-For the string freezes explained, and to see which kind of changes are not covered by freeze rules, check https://wiki.gnome.org/TranslationProject/HandlingStringFreezes. """,
+
+From this point, developers can concentrate on stability and bugfixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots. For explanation of the string freeze, and to see which kind of changes are not covered by freeze rules, check https://wiki.gnome.org/TranslationProject/HandlingStringFreezes. """,
                 'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
                 'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
             },
