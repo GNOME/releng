@@ -32,7 +32,7 @@ import signal
 import subprocess
 from ftplib import FTP
 from xml.dom import minidom, Node
-from sgmllib import SGMLParser
+from HTMLParser import HTMLParser
 import requests
 import urlparse
 if not hasattr(__builtins__, 'set'):
@@ -242,9 +242,9 @@ class Options:
                                  node.nodeName + '\n')
                 sys.exit(1)
 
-class urllister(SGMLParser):
+class urllister(HTMLParser):
     def reset(self):
-        SGMLParser.reset(self)
+        HTMLParser.reset(self)
         self.urls = []
 
     def start_a(self, attrs):
