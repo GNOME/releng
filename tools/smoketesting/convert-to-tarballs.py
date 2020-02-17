@@ -642,7 +642,7 @@ class ConvertToTarballs:
         self.ignored_tarballs = []
 
         with open(os.path.join(directory, 'project.conf')) as f:
-            projectconf = yaml.load(f)
+            projectconf = yaml.safe_load(f)
             self.aliases = projectconf['aliases']
 
     def find_tarball_by_name(self, name):
