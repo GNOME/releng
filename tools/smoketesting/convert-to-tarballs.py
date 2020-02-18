@@ -740,7 +740,7 @@ class ConvertToTarballs:
         for idx in range(len(self.options.release_sets)):
             release_set = self.options.release_sets[idx]
             if release_set != 'Other':
-                versions.write('## %s\n' % string.upper(release_set))
+                versions.write('## %s\n' % release_set.upper())
                 modules_sorted = self.options.release_set[idx]
                 modules_sorted.sort()
                 subdirs = {}
