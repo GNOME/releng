@@ -20,12 +20,12 @@ core:evolution-data-server:3.35.91:
 core:file-roller:3.35.91:
 core:folks:0.13.2:
 core:gcab:1.4:
-core:gcr:3.35.90:
+core:gcr:3.35.91:
 core:gdk-pixbuf:2.40.0:
 core:gdm:3.34.1:
 core:gedit:3.35.90:
 core:geocode-glib:3.26.1:
-core:gjs:1.63.90:
+core:gjs:1.63.91:
 core:glib:2.63.5:
 core:glib-networking:2.63.91:
 core:glibmm:2.63.1:
@@ -57,9 +57,9 @@ core:gnome-online-miners:3.34.0:
 core:gnome-photos:3.34.1:
 core:gnome-screenshot:3.34.0:
 core:gnome-session:3.35.3:
-core:gnome-settings-daemon:3.35.0:
-core:gnome-shell:3.35.90:
-core:gnome-shell-extensions:3.35.90:
+core:gnome-settings-daemon:3.35.91:
+core:gnome-shell:3.35.91:
+core:gnome-shell-extensions:3.35.91:
 core:gnome-software:3.35.2:
 core:gnome-system-monitor:3.35.90:
 core:gnome-terminal:3.35.91:
@@ -72,7 +72,7 @@ core:gobject-introspection:1.63.2:
 core:gom:0.4:
 core:grilo:0.3.12:
 core:grilo-plugins:0.3.11:
-core:gsettings-desktop-schemas:3.34.0:
+core:gsettings-desktop-schemas:3.35.91:
 core:gsound:1.0.2:
 core:gspell:1.8.3:
 core:gssdp:1.2.2:
@@ -111,7 +111,7 @@ core:libsigc++:2.10.2:
 core:libsoup:2.69.90:
 core:libzapojit:0.0.3:
 core:mm-common:1.0.0:
-core:mutter:3.35.90:
+core:mutter:3.35.91:
 core:nautilus:3.35.91.1:
 core:orca:3.35.3:
 core:pango:1.44.7:
