@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 # Copyright (c) 2005-2008, Elijah Newren
 # Copyright (c) 2007-2009, Olav Vitters
@@ -20,7 +20,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
 # USA
 
-
+from __future__ import print_function
 
 import sys, string
 import re
@@ -32,9 +32,9 @@ import signal
 import subprocess
 from ftplib import FTP
 from xml.dom import minidom, Node
-from html.parser import HTMLParser
+from HTMLParser import HTMLParser
 import requests
-import urllib.parse
+import urlparse
 if not hasattr(__builtins__, 'set'):
     from sets import Set as set
 import time
@@ -142,10 +142,10 @@ class Options:
                 if new.startswith('file://'):
                     if not node.attributes.get('host') or node.attributes.get('host').nodeValue != socket.getfqdn():
                         continue
-                u = urllib.parse.urlparse(old)
+                u = urlparse.urlparse(old)
                 # Only add the mirror if we don't have one or if it's a local
                 # mirror (in which case we replace what we had before)
-                if (u.scheme, u.hostname) not in self.mirrors or u.scheme == 'file':
+                if not self.mirrors.has_key((u.scheme, u.hostname)) or u.scheme == 'file':
                     self.mirrors[(u.scheme, u.hostname)] = (old, new)
             else:
                 sys.stderr.write('Bad mirror node\n')
@@ -263,10 +263,10 @@ class TarballLocator:
         else:
             raise Exception("sha256 hashing required")
         self.cache = {}
-        for key in list(mirrors.keys()):
+        for key in mirrors.keys():
             mirror = mirrors[key]
             if mirror[1].startswith('sftp://'):
-                hostname = urllib.parse.urlparse(mirror[1]).hostname
+                hostname = urlparse.urlparse(mirror[1]).hostname
                 if not self.have_sftp or not self._test_sftp_host(hostname):
                     sys.stderr.write("WARNING: Removing sftp mirror %s due to non-working sftp setup\n" % mirror[1])
                     del(mirrors[key])
@@ -277,10 +277,10 @@ class TarballLocator:
     def cleanup(self):
         """Clean connection cache, close any connections"""
         if 'ftp' in self.cache:
-            for connection in list(self.cache['ftp'].values()):
+            for connection in self.cache['ftp'].itervalues():
                 connection.quit()
         if 'sftp' in self.cache:
-            for connection in list(self.cache['sftp'].values()):
+            for connection in self.cache['sftp'].itervalues():
                 connection.sock.get_transport().close()
 
     def _test_sftp(self):
@@ -290,7 +290,7 @@ class TarballLocator:
 
         try:
             self.sftp_cfg = paramiko.SSHConfig()
-            self.sftp_cfg.parse(open(os.path.expanduser('~/.ssh/config'), 'r'))
+            self.sftp_cfg.parse(file(os.path.expanduser('~/.ssh/config'), 'r'))
 
             self.sftp_keys = paramiko.Agent().get_keys()
             if not len(self.sftp_keys): raise KeyError('no sftp_keys')
@@ -434,7 +434,7 @@ class TarballLocator:
         def hasdirs(x): return good_dir.search(x)
         while True:
             files = ftp.nlst()
-            newdirs = list(filter(hasdirs, files))
+            newdirs = filter(hasdirs, files)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
                 path = posixjoin(path, newdir)
@@ -445,7 +445,7 @@ class TarballLocator:
 
         newloc = list(parsed_url)
         newloc[2] = path
-        location = urllib.parse.urlunparse(newloc)
+        location = urlparse.urlunparse(newloc)
         return location, files
 
     def _get_files_from_file(self, parsed_url, max_version):
@@ -459,7 +459,7 @@ class TarballLocator:
             except OSError:
                 break
 
-            newdirs = list(filter(hasdirs, files))
+            newdirs = filter(hasdirs, files)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
                 path = posixjoin(path, newdir)
@@ -468,7 +468,7 @@ class TarballLocator:
 
         newloc = list(parsed_url)
         newloc[2] = path
-        location = urllib.parse.urlunparse(newloc)
+        location = urlparse.urlunparse(newloc)
         return location, files
 
     def _get_files_from_sftp(self, parsed_url, max_version):
@@ -477,7 +477,7 @@ class TarballLocator:
         if hostname in self.cache.setdefault('sftp', {}):
             sftp = self.cache['sftp'][hostname]
         else:
-            hostkeytype = list(self.sftp_hosts[hostname].keys())[0]
+            hostkeytype = self.sftp_hosts[hostname].keys()[0]
             hostkey = self.sftp_hosts[hostname][hostkeytype]
             cfg = self.sftp_cfg.lookup(hostname)
             hostname = cfg.get('hostname', hostname).replace('%h', hostname)
@@ -509,7 +509,7 @@ class TarballLocator:
         while True:
             files = sftp.listdir(path)
 
-            newdirs = list(filter(hasdirs, files))
+            newdirs = filter(hasdirs, files)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
                 path = posixjoin(path, newdir)
@@ -518,14 +518,14 @@ class TarballLocator:
 
         newloc = list(parsed_url)
         newloc[2] = path
-        location = urllib.parse.urlunparse(newloc)
+        location = urlparse.urlunparse(newloc)
         return location, files
 
     def _get_files_from_http(self, parsed_url, max_version):
         good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
-        location = urllib.parse.urlunparse(parsed_url)
+        location = urlparse.urlunparse(parsed_url)
         # Follow 302 codes when retrieving URLs, speeds up conversion by 60sec
         redirect_location = location
         while True:
@@ -535,13 +535,13 @@ class TarballLocator:
                 files = None
                 break
             parser = urllister()
-            parser.feed(str(req.content))
+            parser.feed(req.content)
             parser.close()
             files = parser.urls
 
             # Check to see if we need to descend to a subdirectory
-            newdirs = list(filter(hasdirs, files))
-            newdirs = list(map(fixdirs, newdirs))
+            newdirs = filter(hasdirs, files)
+            newdirs = map(fixdirs, newdirs)
             if newdirs:
                 newdir = self._get_latest_version(newdirs, max_version)
                 redirect_location = posixjoin(req.url, newdir, "")
@@ -554,12 +554,12 @@ class TarballLocator:
 
     def find_tarball(self, baselocation, modulename, max_version):
         print("LOOKING for " + modulename + " tarball at " + baselocation)
-        u = urllib.parse.urlparse(baselocation)
+        u = urlparse.urlparse(baselocation)
 
         mirror = self.mirrors.get((u.scheme, u.hostname), None)
         if mirror:
             baselocation = baselocation.replace(mirror[0], mirror[1], 1)
-            u = urllib.parse.urlparse(baselocation)
+            u = urlparse.urlparse(baselocation)
 
         if u.scheme != 'file' and self.local_only:
             return None, '', None, None
@@ -608,9 +608,9 @@ class TarballLocator:
         ## other stupid inane tarballs, and also filter tarballs that have a
         ## name that includes the module name but is different (eg, Gnome2-VFS
         ## instead of Gnome2)
-        tarballs = [t for t in tarballs if re.search(re_tarball, t)]
+        tarballs = filter(lambda t: re.search(re_tarball, t), tarballs)
 
-        versions = [re.sub(re_tarball, r'\1', t) for t in tarballs]
+        versions = map(lambda t: re.sub(re_tarball, r'\1', t), tarballs)
 
         if not len(versions):
             raise IOError('No versions found')
@@ -713,7 +713,7 @@ class ConvertToTarballs:
             print("REWRITE {}".format(basename))
             location, version, hash, size = self.find_tarball_by_name(module_name)
 
-            for alias, url in list(self.aliases.items()):
+            for alias, url in self.aliases.items():
                 if location.startswith(url):
                     location = alias + ':' + location[len(url):]
 
@@ -751,7 +751,7 @@ class ConvertToTarballs:
                         version = self.all_versions[index]
                         subdir = self.options.get_subdir(module)
                         if subdir != '':
-                            if subdir not in subdirs:
+                            if not subdirs.has_key(subdir):
                                 subdirs[subdir] = []
                             subdirs[subdir].append ('%s:%s:%s:%s\n' %
                                      (release_set, real_module, version, subdir))
@@ -764,7 +764,7 @@ class ConvertToTarballs:
                         print('FATAL: module %s missing from BuildStream projects' % module)
                         os.remove('versions')
                         sys.exit(1)
-                subdirs_keys = list(subdirs.keys())
+                subdirs_keys = subdirs.keys()
                 subdirs_keys.sort ()
                 for subdir in subdirs_keys:
                     versions.write('\n')
@@ -890,7 +890,7 @@ def main(args):
             with open(junctionrefs) as f:
                 refs = yaml.safe_load(f)['projects']['gnome']
 
-            for element in list(refs.keys()):
+            for element in refs.keys():
                 elfile = os.path.join(options.directory, conf['element-path'], element)
                 with open(elfile) as f:
                     eldata = yaml.round_trip_load(f, preserve_quotes=True)
