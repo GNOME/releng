@@ -5,7 +5,7 @@ RUN yum install -y epel-release git && \
 
 RUN git clone https://gitlab.gnome.org/GNOME/releng.git /opt/releng
 
-RUN groupadd releng -g 1000450000 
+RUN groupadd releng -g 1000450000 && \ 
     useradd releng -g 1000450000 -u 1000450000 -r -l -m
 
 RUN chown -R releng:releng /opt/releng
