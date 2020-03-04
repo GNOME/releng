@@ -1,0 +1,23 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: schedule-automail-cron
+spec:
+  schedule: '0 23 * * *'
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    metadata:
+      labels:
+        job: schedule-automail-cron
+    spec:
+      template:
+        spec:
+          containers:
+          - name: schedule-automail-cron
+            image: "docker-registry.default.svc:5000/releng-tools/releng-base"
+            command: ["/opt/releng/tools/schedule/automail.py"]
+            imagePullPolicy: Always
+          dnsPolicy: ClusterFirst
+          restartPolicy: Never
+          terminationGracePeriodSeconds: 30
