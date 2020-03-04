@@ -50,7 +50,7 @@ def mail_events(events):
     contents.write(string.Template(FOOTER).safe_substitute(events[0]))
 
     s = smtplib.SMTP()
-    s.connect()
+    s.connect(host='smtp-int.gnome.org')
     contents.seek(0)
     mime = MIMEText(contents.read())
     mime['Subject'] = subject
