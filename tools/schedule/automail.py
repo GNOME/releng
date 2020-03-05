@@ -63,7 +63,7 @@ def mail_events(events):
 
 events = parse_file()
 today = datetime.date.today()
-date_to_notify_for = today + datetime.timedelta (2)
+date_to_notify_for = today + datetime.timedelta (3)
 
 events_to_email = [event for event in events if event.automail and event.date == date_to_notify_for]
 
