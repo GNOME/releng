@@ -247,10 +247,11 @@ class urllister(HTMLParser):
         HTMLParser.reset(self)
         self.urls = []
 
-    def start_a(self, attrs):
-        href = [v for k, v in attrs if k=='href']
-        if href:
-            self.urls.extend(href)
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            href = [v for k, v in attrs if k=='href']
+            if href:
+                self.urls.extend(href)
 
 class TarballLocator:
     def __init__(self, tarballdir, mirrors, local_only=False):
