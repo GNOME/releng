@@ -8,7 +8,7 @@ import os
 import os.path
 import sys
 
-DEFAULT_SCHEDULE='3.36.schedule'
+DEFAULT_SCHEDULE='3.38.schedule'
 
 class GnomeReleaseEvent:
     definitions = {}
@@ -101,6 +101,10 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             "summary_template": '$detail hackfest',
             "wiki_template": '$detail hackfest',
         },
+        "eol": {
+            "summary_template": 'End of life for $oldstable',
+            "wiki_template": 'End of life for GNOME $oldstable. This will be the final update to the $oldstable runtime.',
+        }
     }
 
     def __init__ (self, date, week, category, detail, version=None, assignee=None):
