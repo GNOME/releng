@@ -825,7 +825,7 @@ def main(args):
     else:
         is_stable = (int(splitted_version[1]) % 2 == 0)
         if is_stable:
-            config = Options(os.path.join(program_dir, 'tarball-conversion-stable.config'))
+            config = Options(os.path.join(program_dir, 'tarball-conversion-{}-{}.config'.format(splitted_version[0], splitted_version[1])))
         else:
             config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
