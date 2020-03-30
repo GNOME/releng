@@ -7,15 +7,15 @@ nextnewstable:3.40
 0:release:stable.0 mclasen
 3:tarball:stable.1 mcatanzaro
 3:tarball:oldstable.5 abderrahim
-8:tarball:unstable.1
-8:tarball:stable.2
-8:tarball:oldstable.6
-13:tarball:unstable.2
-13:tarball:stable.3
-13:tarball:oldstable.7
-18:tarball:unstable.3
-18:tarball:stable.4
-18:tarball:oldstable.8
+7:tarball:unstable.1
+7:tarball:stable.2
+7:tarball:oldstable.6
+12:tarball:unstable.2
+12:tarball:stable.3
+12:tarball:oldstable.7
+17:tarball:unstable.3
+17:tarball:stable.4
+17:tarball:oldstable.8
 2020-07-22:conference:GUADEC:https://www.guadec.org/
 2020-07-23:conference:GUADEC:https://www.guadec.org/
 2020-07-24:conference:GUADEC:https://www.guadec.org/
@@ -23,18 +23,19 @@ nextnewstable:3.40
 2020-07-26:conference:GUADEC:https://www.guadec.org/
 2020-07-27:conference:GUADEC:https://www.guadec.org/
 2020-07-28:conference:GUADEC:https://www.guadec.org/
-23:task:api-doc
-23:task:release-notes-start
-23:freeze:the-freeze
-23:tarball:beta.90 abderrahim
-23:tarball:stable.5
-23:tarball:oldstable.9
-23:eol:oldstable
-25:freeze:string
-25:tarball:beta.91
-27:freeze:hard-code
-27:tarball:rc.92 jjardon
-28:release:newstable.0 mclasen
-28:freeze:hard-code-end
+22:task:api-doc
+22:task:release-notes-start
+22:freeze:the-freeze
+22:tarball:beta.90 abderrahim
+22:tarball:stable.5
+22:tarball:oldstable.9
+22:eol:oldstable
+24:freeze:string
+24:tarball:beta.91
+26:freeze:hard-code
+26:tarball:rc.92 jjardon
+26:tarball:stable.6
+27:release:newstable.0 mclasen
+27:freeze:hard-code-end
 30:tarball:newstable.1
-30:tarball:stable.6
+30:tarball:stable.7
