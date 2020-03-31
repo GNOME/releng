@@ -41,6 +41,67 @@ try:
     have_sftp = True
 except: pass
 
+# utility functions
+def get_links(html):
+    class urllister(HTMLParser):
+        def reset(self):
+            HTMLParser.reset(self)
+            self.urls = []
+
+        def handle_starttag(self, tag, attrs):
+            if tag == 'a':
+                href = [v for k, v in attrs if k=='href']
+                if href:
+                    self.urls.extend(href)
+
+    parser = urllister()
+    parser.feed(html)
+    parser.close()
+    return parser.urls
+
+def get_latest_version(versions, max_version):
+    def bigger_version(a, b):
+        a_nums = a.split('.')
+        b_nums = b.split('.')
+        num_fields = min(len(a_nums), len(b_nums))
+        for i in range(0,num_fields):
+            if   int(a_nums[i]) > int(b_nums[i]):
+                return a
+            elif int(a_nums[i]) < int(b_nums[i]):
+                return b
+        if len(a_nums) > len(b_nums):
+            return a
+        else:
+            return b
+
+    # This is nearly the same as _bigger_version, except that
+    #   - It returns a boolean value
+    #   - If max_version is None, it just returns False
+    #   - It treats 2.13 as == 2.13.0 instead of 2.13 as < 2.13.0
+    # The second property is particularly important with directory hierarchies
+    def version_greater_or_equal_to_max(a, max_version):
+        if not max_version:
+            return False
+        a_nums = a.split('.')
+        b_nums = max_version.split('.')
+        num_fields = min(len(a_nums), len(b_nums))
+        for i in range(num_fields):
+            if   int(a_nums[i]) > int(b_nums[i]):
+                return True
+            elif int(a_nums[i]) < int(b_nums[i]):
+                return False
+        return True
+
+    biggest = None
+    versions = [ v.rstrip(os.path.sep) for v in versions ]
+
+    for version in versions:
+        if ((biggest is None or version == bigger_version(biggest, version)) and \
+            not version_greater_or_equal_to_max(version, max_version)):
+            biggest = version
+    return biggest
+
+
 class Options:
     def __init__(self, filename):
         self.filename = filename
@@ -191,21 +252,9 @@ class Options:
                                  node.nodeName + '\n')
                 sys.exit(1)
 
-class urllister(HTMLParser):
-    def reset(self):
-        HTMLParser.reset(self)
-        self.urls = []
-
-    def handle_starttag(self, tag, attrs):
-        if tag == 'a':
-            href = [v for k, v in attrs if k=='href']
-            if href:
-                self.urls.extend(href)
-
 class TarballLocator:
     def __init__(self, mirrors):
         self.have_sftp = self._test_sftp()
-        self.get_stats = False
         self.cache = {}
         for key in list(mirrors.keys()):
             mirror = mirrors[key]
@@ -251,48 +300,6 @@ class TarballLocator:
 
         return do_sftp
 
-    def _bigger_version(self, a, b):
-        a_nums = a.split('.')
-        b_nums = b.split('.')
-        num_fields = min(len(a_nums), len(b_nums))
-        for i in range(0,num_fields):
-            if   int(a_nums[i]) > int(b_nums[i]):
-                return a
-            elif int(a_nums[i]) < int(b_nums[i]):
-                return b
-        if len(a_nums) > len(b_nums):
-            return a
-        else:
-            return b
-
-    # This is nearly the same as _bigger_version, except that
-    #   - It returns a boolean value
-    #   - If max_version is None, it just returns False
-    #   - It treats 2.13 as == 2.13.0 instead of 2.13 as < 2.13.0
-    # The second property is particularly important with directory hierarchies
-    def _version_greater_or_equal_to_max(self, a, max_version):
-        if not max_version:
-            return False
-        a_nums = a.split('.')
-        b_nums = max_version.split('.')
-        num_fields = min(len(a_nums), len(b_nums))
-        for i in range(0,num_fields):
-            if   int(a_nums[i]) > int(b_nums[i]):
-                return True
-            elif int(a_nums[i]) < int(b_nums[i]):
-                return False
-        return True
-
-    def _get_latest_version(self, versions, max_version):
-        biggest = None
-        versions = [ v.rstrip(os.path.sep) for v in versions ]
-
-        for version in versions:
-            if ((biggest is None or version == self._bigger_version(biggest, version)) and \
-                not self._version_greater_or_equal_to_max(version, max_version)):
-                biggest = version
-        return biggest
-
     def _get_files_from_sftp(self, parsed_url, max_version):
         hostname = parsed_url.hostname
 
@@ -333,7 +340,7 @@ class TarballLocator:
 
             newdirs = list(filter(hasdirs, files))
             if newdirs:
-                newdir = self._get_latest_version(newdirs, max_version)
+                newdir = get_latest_version(newdirs, max_version)
                 path = posixjoin(path, newdir)
             else:
                 break
@@ -351,20 +358,13 @@ class TarballLocator:
         # Follow 302 codes when retrieving URLs, speeds up conversion by 60sec
         redirect_location = location
         while True:
-            # Get the files
             req = requests.get(redirect_location)
-            if req.status_code != requests.codes.ok:
-                files = None
-                break
-            parser = urllister()
-            parser.feed(str(req.content))
-            parser.close()
-            files = parser.urls
+            files = get_links(req.text)
 
             # Check to see if we need to descend to a subdirectory
             newdirs = [fixdirs(dir) for dir in files if hasdirs(dir)]
             if newdirs:
-                newdir = self._get_latest_version(newdirs, max_version)
+                newdir = get_latest_version(newdirs, max_version)
                 redirect_location = posixjoin(req.url, newdir, "")
                 location = posixjoin(location, newdir, "")
             else:
@@ -432,7 +432,7 @@ class TarballLocator:
 
         if not len(versions):
             raise IOError('No versions found')
-        version = self._get_latest_version(versions, max_version)
+        version = get_latest_version(versions, max_version)
         index = versions.index(version)
 
         location = posixjoin(location, tarballs[index])
