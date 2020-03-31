@@ -22,29 +22,17 @@
 
 
 
-import sys, string
+import sys
 import re
 import optparse
 import os
-import os.path
 from posixpath import join as posixjoin # Handy for URLs
-import signal
-import subprocess
-from ftplib import FTP
 from xml.dom import minidom, Node
 from html.parser import HTMLParser
 import requests
 import urllib.parse
-if not hasattr(__builtins__, 'set'):
-    from sets import Set as set
-import time
 import socket
-try:
-    import hashlib
-except ImportError:
-    import md5 as hashlib
-try: import psyco
-except: pass
+from ruamel import yaml
 
 have_sftp = False
 try:
@@ -53,18 +41,11 @@ try:
     have_sftp = True
 except: pass
 
-try:
-    from ruamel import yaml
-except ImportError:
-    print("Converting to BuildStream requires the ruamel.yaml library.")
-    sys.exit(1)
-
 class Options:
     def __init__(self, filename):
         self.filename = filename
         self.mirrors = {}
         self.rename = {}
-        self.drop_prefix = []
         self.release_sets = []
         self.release_set = []
         self.subdir = {}
@@ -75,26 +56,7 @@ class Options:
         self._read_conversion_info()
 
     def translate_name(self, modulename):
-        # First, do the renames in the dictionary
-        newname = self.rename.get(modulename, modulename)
-
-        # Second, drop any given prefixes
-        for drop in self.drop_prefix:
-            newname = re.sub(r'^' + drop + '(.*)$', r'\1', newname)
-
-        return newname
-
-    def module_included(self, modulename):
-        index = None
-        realname = self.translate_name(modulename)
-        for idx in range(len(self.release_sets)):
-            try:
-                index = self.release_set[idx].index(realname)
-            except:
-                index = None
-            if index is not None:
-                return True
-        return False
+        return self.rename.get(modulename, modulename)
 
     def get_download_site(self, cvssite, modulename):
         for list in self.module_locations:
@@ -139,13 +101,10 @@ class Options:
             if node.nodeName == 'mirror':
                 old = node.attributes.get('location').nodeValue
                 new = node.attributes.get('alternate').nodeValue
-                if new.startswith('file://'):
-                    if not node.attributes.get('host') or node.attributes.get('host').nodeValue != socket.getfqdn():
-                        continue
                 u = urllib.parse.urlparse(old)
-                # Only add the mirror if we don't have one or if it's a local
-                # mirror (in which case we replace what we had before)
-                if (u.scheme, u.hostname) not in self.mirrors or u.scheme == 'file':
+
+                # Only add the mirror if we don't have one
+                if (u.scheme, u.hostname) not in self.mirrors:
                     self.mirrors[(u.scheme, u.hostname)] = (old, new)
             else:
                 sys.stderr.write('Bad mirror node\n')
@@ -159,9 +118,6 @@ class Options:
                 old = node.attributes.get('old').nodeValue
                 new = node.attributes.get('new').nodeValue
                 self.rename[old] = new
-            elif node.nodeName == 'drop':
-                prefix = node.attributes.get('prefix').nodeValue
-                self.drop_prefix.append(prefix)
             else:
                 sys.stderr.write('Bad rename node\n')
                 sys.exit(1)
@@ -208,15 +164,12 @@ class Options:
                 sys.exit(1)
 
     def get_version_limit(self, modulename):
-        # First, do the renames in the dictionary
         return self.version_limit.get(modulename, None)
 
     def get_real_name(self, modulename):
-        # First, do the renames in the dictionary
         return self.real_name.get(modulename, modulename)
 
     def get_subdir(self, modulename):
-        # First, do the renames in the dictionary
         return self.subdir.get(modulename, None)
 
     def _read_conversion_info(self):
@@ -250,15 +203,9 @@ class urllister(HTMLParser):
                 self.urls.extend(href)
 
 class TarballLocator:
-    def __init__(self, tarballdir, mirrors, local_only=False):
-        self.tarballdir = tarballdir
+    def __init__(self, mirrors):
         self.have_sftp = self._test_sftp()
         self.get_stats = False
-        self.local_only = local_only
-        if hasattr(hashlib, 'sha256'):
-            self.hash_algo = 'sha256'
-        else:
-            raise Exception("sha256 hashing required")
         self.cache = {}
         for key in list(mirrors.keys()):
             mirror = mirrors[key]
@@ -268,14 +215,9 @@ class TarballLocator:
                     sys.stderr.write("WARNING: Removing sftp mirror %s due to non-working sftp setup\n" % mirror[1])
                     del(mirrors[key])
         self.mirrors = mirrors
-        if not os.path.exists(tarballdir):
-            os.mkdir(tarballdir)
 
     def cleanup(self):
         """Clean connection cache, close any connections"""
-        if 'ftp' in self.cache:
-            for connection in self.cache['ftp'].values():
-                connection.quit()
         if 'sftp' in self.cache:
             for connection in self.cache['sftp'].values():
                 connection.sock.get_transport().close()
@@ -350,123 +292,6 @@ class TarballLocator:
                 not self._version_greater_or_equal_to_max(version, max_version)):
                 biggest = version
         return biggest
-
-    def _get_tarball_stats(self, location, filename):
-        def default_sigpipe():
-            "restore default signal handler (http://bugs.python.org/issue1652)"
-            signal.signal(signal.SIGPIPE, signal.SIG_DFL)
-
-        MAX_TRIES = 10
-        newfile = os.path.join(self.tarballdir, filename)
-        hashfile = newfile + '.' + self.hash_algo + 'sum'
-        if newfile.endswith('gz'):
-            flags = 'xfzO'
-        elif newfile.endswith('xz'):
-            flags = 'xfJO'
-        else:
-            flags = 'xfjO'
-
-        tries = MAX_TRIES
-        while tries:
-            if tries < MAX_TRIES:
-                sys.stderr.write('Trying again\n')
-                time.sleep(12)
-
-            if not os.path.exists(newfile) or tries != MAX_TRIES:
-                print("Downloading", filename, newfile)
-                # one of those options will make Curl resume an existing download
-                # speed-limit ensures 1KB/s over 30sec average (in case of connection problems)
-                cmd = ['curl', '-C', '-', '-#kRfL', '--speed-limit', '1024', '--disable-epsv',  location, '-o', newfile]
-                retcode = subprocess.call(cmd)
-                if retcode != 0:
-                    # Curl gives an error when an existing file cannot be continued
-                    # in which case the existing file is likely corrupt somehow
-                    try: os.unlink(newfile)
-                    except OSError: pass
-
-                    sys.stderr.write('Couldn\'t download ' + filename + '!\n')
-                    tries -= 1
-                    continue
-
-                if os.path.exists(hashfile):
-                    os.unlink(hashfile)
-
-            if not os.path.exists(hashfile):
-                time.sleep(1)
-                cmd = ['tar', flags, newfile]
-                devnull = file('/dev/null', 'wb')
-                retcode = subprocess.call(cmd, stdout=devnull, preexec_fn=default_sigpipe)
-                devnull.close()
-                if retcode:
-                    sys.stderr.write('Integrity check for ' + filename + ' failed!\n')
-                    tries -= 1
-                    continue
-
-            break
-        else:
-            sys.stderr.write('Too many tries. Aborting this attempt\n')
-            return '', ''
-
-        size = os.stat(newfile)[6]
-        if not os.path.exists(hashfile):
-            sum = getattr(hashlib, self.hash_algo)()
-            fp = open(newfile, 'rb')
-            data = fp.read(32768)
-            while data:
-                sum.update(data)
-                data = fp.read(32768)
-            fp.close()
-            hash = sum.hexdigest()
-            file(hashfile, 'w').write(hash)
-        else:
-            hash = file(hashfile).read()
-        return hash, str(size)
-
-    def _get_files_from_ftp(self, parsed_url, max_version):
-        ftp = FTP(parsed_url.hostname)
-        ftp.login(parsed_url.username or 'anonymous', parsed_url.password or '')
-        ftp.cwd(parsed_url.path)
-        path = parsed_url.path
-        good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
-        def hasdirs(x): return good_dir.search(x)
-        while True:
-            files = ftp.nlst()
-            newdirs = list(filter(hasdirs, files))
-            if newdirs:
-                newdir = self._get_latest_version(newdirs, max_version)
-                path = posixjoin(path, newdir)
-                ftp.cwd(newdir)
-            else:
-                break
-        ftp.quit()
-
-        newloc = list(parsed_url)
-        newloc[2] = path
-        location = urllib.parse.urlunparse(newloc)
-        return location, files
-
-    def _get_files_from_file(self, parsed_url, max_version):
-        files = []
-        path = parsed_url.path
-        good_dir = re.compile('^([0-9]+\.)*[0-9]+$')
-        def hasdirs(x): return good_dir.search(x)
-        while True:
-            try:
-                files = os.listdir(path)
-            except OSError:
-                break
-
-            newdirs = list(filter(hasdirs, files))
-            if newdirs:
-                newdir = self._get_latest_version(newdirs, max_version)
-                path = posixjoin(path, newdir)
-            else:
-                break
-
-        newloc = list(parsed_url)
-        newloc[2] = path
-        location = urllib.parse.urlunparse(newloc)
-        return location, files
 
     def _get_files_from_sftp(self, parsed_url, max_version):
         hostname = parsed_url.hostname
@@ -557,9 +382,6 @@ class TarballLocator:
             baselocation = baselocation.replace(mirror[0], mirror[1], 1)
             u = urllib.parse.urlparse(baselocation)
 
-        if u.scheme != 'file' and self.local_only:
-            return None, '', None, None
-
         # Determine which function handles the actual retrieving
         locator = getattr(self, '_get_files_from_%s' % u.scheme, None)
         if locator is None:
@@ -617,13 +439,7 @@ class TarballLocator:
         if mirror: # XXX - doesn't undo everything -- not needed
             location = location.replace(mirror[1], mirror[0], 1)
 
-        # Only get tarball stats if we're not in a hurry
-        if self.get_stats:
-            hash, size = self._get_tarball_stats(location, tarballs[index])
-        else:
-            hash = None
-            size = None
-        return location, version, hash, size
+        return location, version
 
 
 class ConvertToTarballs:
@@ -649,12 +465,12 @@ class ConvertToTarballs:
         baselocation = self.options.get_download_site('gnome.org', real_name)
 
         # Ask the locator to hunt down a tarball
-        location, version, hash, size = self.locator.find_tarball(baselocation, real_name, max_version)
+        location, version = self.locator.find_tarball(baselocation, real_name, max_version)
         # Save the versions
         self.all_tarballs.append(translated_name)
         self.all_versions.append(version)
 
-        return location, version, hash, size
+        return location, version
 
     def write_bst_file(self, fullpath, element, location):
         # Replace the first source with a tarball
@@ -707,7 +523,7 @@ class ConvertToTarballs:
 
         try:
             print("REWRITE {}".format(basename))
-            location, version, hash, size = self.find_tarball_by_name(module_name)
+            location, version = self.find_tarball_by_name(module_name)
 
             for alias, url in self.aliases.items():
                 if location.startswith(url):
@@ -776,8 +592,6 @@ def main(args):
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
 
     parser = optparse.OptionParser()
-    parser.add_option("-t", "--tarballdir", dest="tarballdir",
-                      help="location of tarballs", metavar="DIR")
     parser.add_option("-d", "--directory", dest="directory",
                       help="buildstream project directory", metavar="DIR")
     parser.add_option("-v", "--version", dest="version",
@@ -786,8 +600,6 @@ def main(args):
                       default=False, help="overwrite existing versions file")
     parser.add_option("-c", "--config", dest="config",
                       help="tarball-conversion config file", metavar="FILE")
-    parser.add_option("-l", "--local-only", action="store_true", dest="local_only",
-                      default=False, help="only look for files on a local file system")
     parser.add_option("", "--no-convert", action="store_false", dest="convert",
                       default=True, help="do not convert, only try to update elements that already use tarballs")
     (options, args) = parser.parse_args()
@@ -795,14 +607,6 @@ def main(args):
     if not options.version:
         parser.print_help()
         sys.exit(1)
-
-    if not options.tarballdir:
-        tarballdir = os.path.join(os.getcwd(), 'tarballs')
-        try:
-            os.mkdir(tarballdir)
-        except OSError:
-            pass
-        options.tarballdir = tarballdir
 
     splitted_version = options.version.split(".")
     if (len(splitted_version) != 3):
@@ -837,7 +641,7 @@ def main(args):
         parser.print_help()
         sys.exit(1)
 
-    locator = TarballLocator(options.tarballdir, config.mirrors, options.local_only)
+    locator = TarballLocator(config.mirrors)
     convert = ConvertToTarballs(config, locator, options.directory, options.convert)
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core-deps'))
     convert.process_bst_files(os.path.join(options.directory, 'elements', 'core'))
