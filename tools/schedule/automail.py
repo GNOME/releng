@@ -1,10 +1,10 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import datetime
 from libschedule import *
 import smtplib
 from email.MIMEText import MIMEText
-import StringIO
+import io
 import textwrap
 
 cat_task = set(('release', 'tarball'))
@@ -40,7 +40,7 @@ def mail_events(events):
     if assignees:
         subject += ' (responsible: %s)' % ', '.join(assignees)
 
-    contents = StringIO.StringIO()
+    contents = io.StringIO()
     contents.write("Hello all,\n\n")
     if len(events) > 1:
         contents.write("We would like to inform you about the following:\n* %s\n\n\n" % "\n* ".join([event.summary for event in events]))

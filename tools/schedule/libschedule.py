@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import datetime
 import time
@@ -121,7 +121,7 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         self.description_template = None
         self.summary_template = None
 
-        for name, value in self.categories[category].iteritems():
+        for name, value in self.categories[category].items():
             setattr(self, name, value)
 
     def __getitem__(self, item):
@@ -144,7 +144,7 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         text = self.make_text(self.wiki_template)
 
         if text is None:
-            return `self`
+            return repr(self)
         else:
             return text
 
@@ -153,7 +153,7 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         text = self.make_text(self.summary_template)
 
         if text is None:
-            return `self`
+            return repr(self)
         else:
             return text
 
@@ -179,8 +179,14 @@ From this point, developers can concentrate on stability and bugfixing. Translat
 
         return text
 
-    def __cmp__ (self, other):
-        return cmp(self.date, other.date) or cmp(self.prio, other.prio)
+    def __lt__ (self, other):
+        if self.date != other.date:
+            return self.date < other.date
+        if self.prio == None:
+            return True
+        if other.prio == None:
+            return False
+        return self.prio < other.prio
 
 def find_date(year, week):
     guessed = datetime.date(year, 2, 1)
@@ -211,7 +217,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             continue
 
         if not ':' in line:
-            print "Error: line '%s' is not parsable" % line[0:-1]
+            print("Error: line '%s' is not parsable" % line[0:-1])
             return None
 
         info = [item.strip() for item in line.split(':')]
@@ -219,16 +225,16 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
         if len(info) == 2:
             if info[0].lower() == 'yearweek':
                 if start:
-                    print "Error: more than one start date specified"
+                    print("Error: more than one start date specified")
                     return None
 
                 year = int(info[1][:4])
                 week = int(info[1][-2:])
                 if year < 2007 or year > 2030:
-                    print "Error: %s is not a valid year for the start date" % year
+                    print("Error: %s is not a valid year for the start date" % year)
                     return None
                 if week > 54:
-                    print "Error: %s is not a valid week for the start date" % week
+                    print("Error: %s is not a valid week for the start date" % week)
                     return None
                 start = find_date(year, week)
             else:
@@ -236,7 +242,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             continue
         else:
             if not start or 'unstable' not in definitions or 'stable' not in definitions:
-                print "Error: Need yearweek, stable and unstable definitions before line '%s'" % line[0:-1]
+                print("Error: Need yearweek, stable and unstable definitions before line '%s'" % line[0:-1])
                 return None
 
             fixedDate = False
@@ -244,7 +250,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             if info[0].isdigit():
                 week = int(info[0])
                 if week < -10 or week > 53:
-                    print "Error: %s is not a valid week for an event" % week
+                    print("Error: %s is not a valid week for an event" % week)
                     return None
                 date = start + datetime.timedelta(week * 7) - datetime.timedelta(2)
             else:
@@ -253,7 +259,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             category = info[1].lower()
             event = info[2]
             if category not in cls.categories:
-                print "Error: %s is not a valid category for an event" % category
+                print("Error: %s is not a valid category for an event" % category)
                 return None
 
             # Expand event info
@@ -272,7 +278,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                     i[0] = definitions.get(i[0], definitions['unstable'])
                     version = '.'.join(i)
             if (category == 'release' or category == 'tarball') and version is None:
-                print "Error: line '%s' is not parsable" % line[0:-1]
+                print("Error: line '%s' is not parsable" % line[0:-1])
                 return None
 
             if event == 'translation-deadline' and not fixedDate:
@@ -292,7 +298,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
     file.close ()
 
     if not start:
-        print "Error: empty data file"
+        print("Error: empty data file")
         return None
 
     events.sort()
@@ -306,6 +312,6 @@ if __name__ == '__main__':
     while d < end:
         yw = d.isocalendar()[:2]
         dcalc = find_date(yw[0], yw[1])
-        print yw, dcalc, d, "" if d == dcalc else "WRONG"
+        print(yw, dcalc, d, "" if d == dcalc else "WRONG")
 
         d += adv

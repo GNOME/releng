@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 from libschedule import *
 import itertools
@@ -57,10 +57,10 @@ for smonths in splitter(months, 4):
         cals.append(c)
 
     for r in zip(*cals):
-        print '||%s||' % '||'.join(("||".join(cells) for cells in r))
+        print('||%s||' % '||'.join(("||".join(cells) for cells in r)))
 
-print ""
-print "||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||"
+print("")
+print("||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||")
 year = None
 for month, events_month in itertools.groupby(events, by_month):
     events = list(events_month)
@@ -70,8 +70,8 @@ for month, events_month in itertools.groupby(events, by_month):
         year = events[0].date.year
     elif year != events[0].date.year:
         year = events[0].date.year
-        print "||<-4 rowbgcolor=\"#dddddd\"> '''%d''' ||" % year
-    print "||<-4 rowbgcolor=\"#dddddd\"> '''%s''' ||" % month_str
+        print("||<-4 rowbgcolor=\"#dddddd\"> '''%d''' ||" % year)
+    print("||<-4 rowbgcolor=\"#dddddd\"> '''%s''' ||" % month_str)
 
     for week, events_week in itertools.groupby(events, by_week):
         events = list(events_week)
@@ -79,21 +79,21 @@ for month, events_month in itertools.groupby(events, by_month):
 
         dates = list([(key, list(items)) for key, items in itertools.groupby(events, by_date)])
 
-        print "||<|%d ^ : #9db8d2> %s " % (len (dates), rel_week_str),
+        print("||<|%d ^ : #9db8d2> %s " % (len (dates), rel_week_str), end=' ')
         for date, items in dates:
             date_str = items[0].date.strftime("%a %d")
-            print "||<^ : #c5d2c8> %s %s" % (date_str, '<<Anchor(d%s)>>' % items[0].date.isoformat()),
+            print("||<^ : #c5d2c8> %s %s" % (date_str, '<<Anchor(d%s)>>' % items[0].date.isoformat()), end=' ')
 
 
             task_items = [item for item in items if item.category in cat_task]
             note_items = [item for item in items if item.category not in cat_task]
 
-            print "|| ", "<<BR>><<BR>>".join([i.wiki_text for i in task_items]),
+            print("|| ", "<<BR>><<BR>>".join([i.wiki_text for i in task_items]), end=' ')
             if len(note_items):
-                print "||<:#e0b6af> ", "<<BR>>".join([i.wiki_text for i in note_items]),
+                print("||<:#e0b6af> ", "<<BR>>".join([i.wiki_text for i in note_items]), end=' ')
             else:
-                print "|| ",
+                print("|| ", end=' ')
 
-            print "||"
+            print("||")
 
 

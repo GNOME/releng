@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import sys
 from libschedule import *
@@ -63,5 +63,5 @@ for event in events:
     else:
         x.value = start.value + datetime.timedelta(days=-3)
 
-print cal.serialize()
+print(cal.serialize())
 
