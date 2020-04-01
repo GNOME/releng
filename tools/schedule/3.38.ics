@@ -1,0 +1,807 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20200401T160614Z - 98786@chargestone-cave
+DTSTART:20200311T230000Z
+DTEND:20200311T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:GNOME 3.36.0 stable release
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.0 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.0 stable release
+TRIGGER;VALUE=DATE-TIME:20200311T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 52276@chargestone-cave
+DTSTART:20200328T230000Z
+DTEND:20200328T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-03-28 before 23:59 UTC for the GNOME\n
+ 3.36.1 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.1. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.1 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.1 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200325T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 83408@chargestone-cave
+DTSTART:20200328T230000Z
+DTEND:20200328T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-03-28 before 23:59 UTC for the GNOME\n
+ 3.34.5 oldstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.34.5. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.34.5 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.34.5 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200325T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 83638@chargestone-cave
+DTSTART:20200425T230000Z
+DTEND:20200425T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-04-25 before 23:59 UTC for the GNOME\n
+ 3.37.1 unstable release\, which will be delivered next week. Core modules\
+ nshould try to follow the unstable schedule so everyone can test them.\n\n
+ Please make sure that your tarballs will be uploaded before Saturday 23:59
+ \nUTC: tarballs uploaded later than that will probably be too late to get\
+ nin 3.37.1. If you are not able to make a tarball before this deadline or\
+ nif you think you'll be late\, please send a mail to the release team and\
+ nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.37.1 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.37.1 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200422T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 11392@chargestone-cave
+DTSTART:20200425T230000Z
+DTEND:20200425T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-04-25 before 23:59 UTC for the GNOME\n
+ 3.36.2 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.2. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.2 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.2 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200422T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 36063@chargestone-cave
+DTSTART:20200425T230000Z
+DTEND:20200425T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-04-25 before 23:59 UTC for the GNOME\n
+ 3.34.6 oldstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.34.6. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.34.6 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.34.6 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200422T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 43283@chargestone-cave
+DTSTART:20200530T230000Z
+DTEND:20200530T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-05-30 before 23:59 UTC for the GNOME\n
+ 3.37.2 unstable release\, which will be delivered next week. Core modules\
+ nshould try to follow the unstable schedule so everyone can test them.\n\n
+ Please make sure that your tarballs will be uploaded before Saturday 23:59
+ \nUTC: tarballs uploaded later than that will probably be too late to get\
+ nin 3.37.2. If you are not able to make a tarball before this deadline or\
+ nif you think you'll be late\, please send a mail to the release team and\
+ nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.37.2 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.37.2 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200527T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 71378@chargestone-cave
+DTSTART:20200530T230000Z
+DTEND:20200530T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-05-30 before 23:59 UTC for the GNOME\n
+ 3.36.3 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.3. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.3 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.3 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200527T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 68538@chargestone-cave
+DTSTART:20200530T230000Z
+DTEND:20200530T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-05-30 before 23:59 UTC for the GNOME\n
+ 3.34.7 oldstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.34.7. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.34.7 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.34.7 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200527T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 82274@chargestone-cave
+DTSTART:20200704T230000Z
+DTEND:20200704T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-07-04 before 23:59 UTC for the GNOME\n
+ 3.37.3 unstable release\, which will be delivered next week. Core modules\
+ nshould try to follow the unstable schedule so everyone can test them.\n\n
+ Please make sure that your tarballs will be uploaded before Saturday 23:59
+ \nUTC: tarballs uploaded later than that will probably be too late to get\
+ nin 3.37.3. If you are not able to make a tarball before this deadline or\
+ nif you think you'll be late\, please send a mail to the release team and\
+ nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.37.3 unstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.37.3 unstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200701T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 66236@chargestone-cave
+DTSTART:20200704T230000Z
+DTEND:20200704T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-07-04 before 23:59 UTC for the GNOME\n
+ 3.36.4 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.4. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.4 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.4 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200701T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 77516@chargestone-cave
+DTSTART:20200704T230000Z
+DTEND:20200704T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-07-04 before 23:59 UTC for the GNOME\n
+ 3.34.8 oldstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.34.8. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.34.8 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.34.8 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200701T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 49525@chargestone-cave
+DTSTART:20200722T230000Z
+DTEND:20200722T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200719T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 10321@chargestone-cave
+DTSTART:20200723T230000Z
+DTEND:20200723T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200720T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 93718@chargestone-cave
+DTSTART:20200724T230000Z
+DTEND:20200724T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200721T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 64474@chargestone-cave
+DTSTART:20200725T230000Z
+DTEND:20200725T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200722T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 20869@chargestone-cave
+DTSTART:20200726T230000Z
+DTEND:20200726T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200723T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 87942@chargestone-cave
+DTSTART:20200727T230000Z
+DTEND:20200727T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200724T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 91630@chargestone-cave
+DTSTART:20200728T230000Z
+DTEND:20200728T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GUADEC conference
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GUADEC conference
+TRIGGER;VALUE=DATE-TIME:20200725T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 48469@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:End of life for 3.34
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:End of life for 3.34
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 35705@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-08-08 before 23:59 UTC for the GNOME\n
+ 3.37.90 beta release\, which will be delivered next week. Core modules\nsh
+ ould try to follow the unstable schedule so everyone can test them.\n\nPle
+ ase make sure that your tarballs will be uploaded before Saturday 23:59\nU
+ TC: tarballs uploaded later than that will probably be too late to get\nin
+  3.37.90. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.37.90 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.37.90 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 97116@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-08-08 before 23:59 UTC for the GNOME\n
+ 3.36.5 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.5. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.5 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.5 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 79008@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-08-08 before 23:59 UTC for the GNOME\n
+ 3.34.9 oldstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.34.9. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.34.9 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.34.9 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 58234@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:API/ABI\, UI and Feature Addition Freeze\; String Change Announceme
+ nt Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:API/ABI\, UI and Feature Addition Freeze\; String Change Announ
+ cement Period
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 33538@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:New APIs must be fully documented
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New APIs must be fully documented
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 79243@chargestone-cave
+DTSTART:20200808T230000Z
+DTEND:20200808T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:Writing of release notes begins
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Writing of release notes begins
+TRIGGER;VALUE=DATE-TIME:20200805T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 19259@chargestone-cave
+DTSTART:20200822T230000Z
+DTEND:20200822T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-08-22 before 23:59 UTC for the GNOME\n
+ 3.37.91 beta release\, which will be delivered next week. Core modules\nsh
+ ould try to follow the unstable schedule so everyone can test them.\n\nPle
+ ase make sure that your tarballs will be uploaded before Saturday 23:59\nU
+ TC: tarballs uploaded later than that will probably be too late to get\nin
+  3.37.91. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.37.91 beta tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.37.91 beta tarballs due
+TRIGGER;VALUE=DATE-TIME:20200819T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 14896@chargestone-cave
+DTSTART:20200822T230000Z
+DTEND:20200822T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:No string changes may be made without confirmation from the i18
+ n team.\n\nFrom this point\, developers can concentrate on stability and b
+ ugfixing. Translators can work without worrying that the original English 
+ strings will change\, and documentation writers can take accurate screensh
+ ots. For explanation of the string freeze\, and to see which kind of chang
+ es are not covered by freeze rules\, check https://wiki.gnome.org/Translat
+ ionProject/HandlingStringFreezes. 
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:String Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Freeze
+TRIGGER;VALUE=DATE-TIME:20200819T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 63034@chargestone-cave
+DTSTART:20200905T230000Z
+DTEND:20200905T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-09-05 before 23:59 UTC for the GNOME\n
+ 3.37.92 rc release\, which will be delivered next week. Core modules\nshou
+ ld try to follow the unstable schedule so everyone can test them.\n\nPleas
+ e make sure that your tarballs will be uploaded before Saturday 23:59\nUTC
+ : tarballs uploaded later than that will probably be too late to get\nin 3
+ .37.92. If you are not able to make a tarball before this deadline or\nif 
+ you think you'll be late\, please send a mail to the release team and\nwe'
+ ll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.37.92 rc tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.37.92 rc tarballs due
+TRIGGER;VALUE=DATE-TIME:20200902T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 92759@chargestone-cave
+DTSTART:20200905T230000Z
+DTEND:20200905T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-09-05 before 23:59 UTC for the GNOME\n
+ 3.36.6 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.6. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.6 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.6 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200902T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 60666@chargestone-cave
+DTSTART:20200905T230000Z
+DTEND:20200905T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:This is a late freeze to avoids sudden last-minute accidents wh
+ ich could risk the stability that should have been reached at this point. 
+ No source code changes are allowed without approval from the release team\
+ , but translation and documentation should continue. Simple build fixes ar
+ e\, of course\, allowed without asking. 
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:Hard Code Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze
+TRIGGER;VALUE=DATE-TIME:20200902T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 95958@chargestone-cave
+DTSTART:20200912T230000Z
+DTEND:20200912T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-09-12 before 23:59 UTC for the GNOME\n
+ 3.38.0 newstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.38.0. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.38.0 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.0 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200909T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 6659@chargestone-cave
+DTSTART:20200912T230000Z
+DTEND:20200912T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Hard Code Freeze ends\, but other freezes remain in effect for 
+ the stable branch.
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:Hard Code Freeze ends
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze ends
+TRIGGER;VALUE=DATE-TIME:20200909T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 24715@chargestone-cave
+DTSTART:20200916T230000Z
+DTEND:20200916T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:GNOME 3.38.0 newstable release
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.38.0 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.0 newstable release
+TRIGGER;VALUE=DATE-TIME:20200916T220000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 2413@chargestone-cave
+DTSTART:20201003T230000Z
+DTEND:20201003T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-10-03 before 23:59 UTC for the GNOME\n
+ 3.38.1 newstable release\, which will be delivered next week. Core modules
+ \nshould try to follow the unstable schedule so everyone can test them.\n\
+ nPlease make sure that your tarballs will be uploaded before Saturday 23:5
+ 9\nUTC: tarballs uploaded later than that will probably be too late to get
+ \nin 3.38.1. If you are not able to make a tarball before this deadline or
+ \nif you think you'll be late\, please send a mail to the release team and
+ \nwe'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.38.1 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.1 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200930T230000Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200401T160614Z - 21281@chargestone-cave
+DTSTART:20201003T230000Z
+DTEND:20201003T235959Z
+CLASS:PUBLIC
+CREATED:20200401T160614
+DESCRIPTION:Tarballs are due on 2020-10-03 before 23:59 UTC for the GNOME\n
+ 3.36.7 stable release\, which will be delivered next week. Core modules\ns
+ hould try to follow the unstable schedule so everyone can test them.\n\nPl
+ ease make sure that your tarballs will be uploaded before Saturday 23:59\n
+ UTC: tarballs uploaded later than that will probably be too late to get\ni
+ n 3.36.7. If you are not able to make a tarball before this deadline or\ni
+ f you think you'll be late\, please send a mail to the release team and\nw
+ e'll find someone to roll the tarball for you!
+DTSTAMP:20200401T160614
+LAST-MODIFIED:20200401T160614
+SEQUENCE:1
+SUMMARY:GNOME 3.36.7 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.7 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200930T230000Z
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+

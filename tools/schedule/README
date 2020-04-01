@@ -4,7 +4,7 @@ To set the schedule for a new version of GNOME, after creating a new .schedule f
 * Run releng/tools/schedule/ical.py > 3.x.ics to create ICAL file
 * git add/commit/push that ics file into releng/tools/schedule/
 * Run releng/tools/schedule/wiki.py to create copy&paste schedule to paste into wikipage
-* Copy skeleton from https://wiki.gnome.org/ThreePointThirtyfive to https://wiki.gnome.org/ThreePointThirtyseven , update numbers, add the schedule
+* Copy skeleton from https://wiki.gnome.org/ThreePointThirtyseven to https://wiki.gnome.org/ThreePointThirtynine , update numbers, add the schedule
 * Copy ics file to Infrastructure/static-web/calendars and git commit/push it
 * Announce schedule on d-a-l
 ** Example: https://mail.gnome.org/archives/devel-announce-list/2019-September/msg00003.html
