@@ -886,22 +886,25 @@ def main(args):
 
             # move junction refs to the respective files
             junctionrefs = os.path.join(options.directory, 'junction.refs')
-            with open(junctionrefs) as f:
-                refs = yaml.safe_load(f)['projects']['gnome']
+            if os.path.exists(junctionrefs):
+                with open(junctionrefs) as f:
+                    refs = yaml.safe_load(f)['projects']['gnome']
 
-            for element in refs.keys():
-                elfile = os.path.join(options.directory, conf['element-path'], element)
-                with open(elfile) as f:
-                    eldata = yaml.round_trip_load(f, preserve_quotes=True)
+                for element in refs.keys():
+                    elfile = os.path.join(options.directory, conf['element-path'], element)
+                    with open(elfile) as f:
+                        eldata = yaml.round_trip_load(f, preserve_quotes=True)
 
-                for i in range(len(refs[element])):
-                    if not refs[element][i]: # source has no ref
-                        continue
+                    for i in range(len(refs[element])):
+                        if not refs[element][i]: # source has no ref
+                            continue
 
-                    eldata['sources'][i]['ref'] = refs[element][i]['ref']
+                        eldata['sources'][i]['ref'] = refs[element][i]['ref']
 
-                with open(elfile, 'w') as f:
-                    yaml.round_trip_dump(eldata, f)
+                    with open(elfile, 'w') as f:
+                        yaml.round_trip_dump(eldata, f)
+
+                os.unlink(junctionrefs)
 
     if convert.ignored_tarballs:
         print("Could not find a download site for the following modules:")
