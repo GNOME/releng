@@ -176,10 +176,6 @@ class Options:
                 # Determine whether we have a version limit for this package
                 if node.attributes.get('limit'):
                     max_version = node.attributes.get('limit').nodeValue
-                    if re.match(r'[0-9]+\.[0-9]+\.[0-9]+', max_version):
-                        sys.stderr.write('Bad limit for ' + name + ': ' + \
-                          max_version + '. x.y.z versions not allowed; drop z\n')
-                        sys.exit(1)
                     self.version_limit[name] = max_version
 
                 if node.attributes.get('module'):
