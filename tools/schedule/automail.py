@@ -3,7 +3,7 @@
 import datetime
 from libschedule import *
 import smtplib
-from email.MIMEText import MIMEText
+from email.mime.text import MIMEText
 import io
 import textwrap
 
@@ -18,7 +18,7 @@ For a quick overview of the GNOME schedule, please see:
    https://wiki.gnome.org/Schedule
 
 Thanks,
--- 
+--
 Automatically generated email. Source at:
 https://git.gnome.org/browse/releng/tree/tools/schedule/automail.py"""
 
