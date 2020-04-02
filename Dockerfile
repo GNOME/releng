@@ -1,7 +1,7 @@
-FROM centos:7
+FROM centos:8
 
-RUN yum install -y epel-release git && \
-    yum -y clean all --enablerepo='*'
+RUN dnf install -y git python3 && \
+    dnf -y clean all --enablerepo='*'
 
 RUN git clone https://gitlab.gnome.org/GNOME/releng.git /opt/releng
 
@@ -10,4 +10,4 @@ RUN groupadd releng -g 1000450000 && \
 
 RUN chown -R releng:releng /opt/releng
 
-ENTRYPOINT ["/usr/bin/python2"]
+ENTRYPOINT ["/usr/bin/python3"]
