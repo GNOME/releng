@@ -106,7 +106,6 @@ class Options:
     def __init__(self, filename):
         self.filename = filename
         self.mirrors = {}
-        self.rename = {}
         self.release_sets = []
         self.release_set = []
         self.subdir = {}
@@ -115,9 +114,6 @@ class Options:
         self.cvs_locations = []
         self.module_locations = []
         self._read_conversion_info()
-
-    def translate_name(self, modulename):
-        return self.rename.get(modulename, modulename)
 
     def get_download_site(self, cvssite, modulename):
         for list in self.module_locations:
@@ -169,18 +165,6 @@ class Options:
                     self.mirrors[(u.scheme, u.hostname)] = (old, new)
             else:
                 sys.stderr.write('Bad mirror node\n')
-                sys.exit(1)
-
-    def _get_renames(self, renames_node):
-        for node in renames_node.childNodes:
-            if node.nodeType != Node.ELEMENT_NODE:
-                continue
-            if node.nodeName == 'name':
-                old = node.attributes.get('old').nodeValue
-                new = node.attributes.get('new').nodeValue
-                self.rename[old] = new
-            else:
-                sys.stderr.write('Bad rename node\n')
                 sys.exit(1)
 
     def _get_modulelist(self, modulelist_node):
@@ -243,8 +227,6 @@ class Options:
                 self._get_locations(node)
             elif node.nodeName == 'mirrors':
                 self._get_mirrors(node)
-            elif node.nodeName == 'rename':
-                self._get_renames(node)
             elif node.nodeName == 'whitelist':
                 self._get_modulelist(node)
             else:
@@ -458,16 +440,14 @@ class ConvertToTarballs:
             self.aliases = projectconf['aliases']
 
     def find_tarball_by_name(self, name):
-        translated_name = self.options.translate_name(name)
-
-        real_name = self.options.get_real_name(translated_name)
-        max_version = self.options.get_version_limit(translated_name)
+        real_name = self.options.get_real_name(name)
+        max_version = self.options.get_version_limit(name)
         baselocation = self.options.get_download_site('gnome.org', real_name)
 
         # Ask the locator to hunt down a tarball
         location, version = self.locator.find_tarball(baselocation, real_name, max_version)
         # Save the versions
-        self.all_tarballs.append(translated_name)
+        self.all_tarballs.append(name)
         self.all_versions.append(version)
 
         return location, version
