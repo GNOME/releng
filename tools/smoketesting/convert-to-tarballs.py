@@ -108,7 +108,6 @@ class Options:
         self.mirrors = {}
         self.release_sets = []
         self.release_set = []
-        self.subdir = {}
         self.version_limit = {}
         self.real_name = {}
         self.cvs_locations = []
@@ -116,18 +115,13 @@ class Options:
         self._read_conversion_info()
 
     def get_download_site(self, cvssite, modulename):
-        for list in self.module_locations:
-            if list[0] == modulename:
-                subdir = ''
-                if len(list) == 3:
-                    subdir = re.sub(r'\$module', modulename, list[2])
-                return posixjoin(list[1], subdir)
-        for list in self.cvs_locations:
-            if re.search(list[0] + '$', cvssite):
-                subdir = ''
-                if len(list) == 3:
-                    subdir = re.sub(r'\$module', modulename, list[2])
-                return posixjoin(list[1], subdir)
+        for module, location in self.module_locations:
+            if module == modulename:
+                return re.sub(r'\$module', modulename, location)
+
+        for cvs, location in self.cvs_locations:
+            if cvs == cvssite:
+                return re.sub(r'\$module', modulename, location)
         raise IOError('No download site found!\n')
 
     def _get_locations(self, locations_node):
@@ -138,15 +132,10 @@ class Options:
                 location = node.attributes.get('location').nodeValue
                 if node.attributes.get('cvs') is not None:
                     cvs = node.attributes.get('cvs').nodeValue
-                    subdir = node.attributes.get('subdir').nodeValue
-                    self.cvs_locations.append([cvs, location, subdir])
+                    self.cvs_locations.append([cvs, location])
                 elif node.attributes.get('module') is not None:
                     module = node.attributes.get('module').nodeValue
-                    if node.attributes.get('subdir'):
-                        dir = node.attributes.get('subdir').nodeValue
-                        self.module_locations.append([module, location, dir])
-                    else:
-                        self.module_locations.append([module, location])
+                    self.module_locations.append([module, location])
             else:
                 sys.stderr.write('Bad location node\n')
                 sys.exit(1)
@@ -182,12 +171,6 @@ class Options:
                 if node.attributes.get('module'):
                     self.real_name[name] = node.attributes.get('module').nodeValue
 
-                # Determine if we have a specified subdir for this package
-                if node.attributes.get('subdir'):
-                    self.subdir[name] = node.attributes.get('subdir').nodeValue
-                else:
-                    self.subdir[name] = ''
-
                 # Find the appropriate release set
                 if node.attributes.get('set'):
                     release_set = node.attributes.get('set').nodeValue
@@ -213,9 +196,6 @@ class Options:
 
     def get_real_name(self, modulename):
         return self.real_name.get(modulename, modulename)
-
-    def get_subdir(self, modulename):
-        return self.subdir.get(modulename, None)
 
     def _read_conversion_info(self):
         document = minidom.parse(self.filename)
@@ -535,35 +515,19 @@ class ConvertToTarballs:
                 versions.write('## %s\n' % release_set.upper())
                 modules_sorted = self.options.release_set[idx]
                 modules_sorted.sort()
-                subdirs = {}
                 for module in modules_sorted:
                     try:
                         real_module = self.options.get_real_name(module)
                         index = self.all_tarballs.index(module)
                         version = self.all_versions[index]
-                        subdir = self.options.get_subdir(module)
-                        if subdir != '':
-                            if subdir not in subdirs:
-                                subdirs[subdir] = []
-                            subdirs[subdir].append ('%s:%s:%s:%s\n' %
-                                     (release_set, real_module, version, subdir))
-                        else:
-                            triplet = '%s:%s:%s:\n' % (release_set, real_module, version)
-                            if not triplet in done:
-                                versions.write(triplet)
-                                done[triplet] = True
+                        triplet = '%s:%s:%s:\n' % (release_set, real_module, version)
+                        if not triplet in done:
+                            versions.write(triplet)
+                            done[triplet] = True
                     except:
                         print('FATAL: module %s missing from BuildStream projects' % module)
                         os.remove('versions')
                         sys.exit(1)
-                subdirs_keys = sorted(subdirs.keys())
-                for subdir in subdirs_keys:
-                    versions.write('\n')
-                    versions.write('# %s\n' % subdir.title())
-                    modules_sorted = subdirs[subdir]
-                    modules_sorted.sort()
-                    for module in modules_sorted:
-                        versions.write(module)
                 versions.write('\n')
         versions.close()
 
