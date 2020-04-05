@@ -117,11 +117,11 @@ class Options:
     def get_download_site(self, cvssite, modulename):
         for module, location in self.module_locations:
             if module == modulename:
-                return re.sub(r'\$module', modulename, location)
+                return location.format(module=modulename)
 
         for cvs, location in self.cvs_locations:
             if cvs == cvssite:
-                return re.sub(r'\$module', modulename, location)
+                return location.format(module=modulename)
         raise IOError('No download site found!\n')
 
     def _get_locations(self, locations_node):
