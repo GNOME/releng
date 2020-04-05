@@ -110,18 +110,18 @@ class Options:
         self.release_set = []
         self.version_limit = {}
         self.real_name = {}
-        self.cvs_locations = []
+        self.default_site = None
         self.module_locations = []
         self._read_conversion_info()
 
-    def get_download_site(self, cvssite, modulename):
+    def get_download_site(self, modulename):
         for module, location in self.module_locations:
             if module == modulename:
                 return location.format(module=modulename)
 
-        for cvs, location in self.cvs_locations:
-            if cvs == cvssite:
-                return location.format(module=modulename)
+        if self.default_site:
+            return self.default_site.format(module=modulename)
+
         raise IOError('No download site found!\n')
 
     def _get_locations(self, locations_node):
@@ -130,9 +130,9 @@ class Options:
                 continue
             if node.nodeName == 'site':
                 location = node.attributes.get('location').nodeValue
-                if node.attributes.get('cvs') is not None:
-                    cvs = node.attributes.get('cvs').nodeValue
-                    self.cvs_locations.append([cvs, location])
+                if node.attributes.get('default') is not None:
+                    assert self.default_site is None, "only one default site can be specified"
+                    self.default_site = location
                 elif node.attributes.get('module') is not None:
                     module = node.attributes.get('module').nodeValue
                     self.module_locations.append([module, location])
@@ -422,7 +422,7 @@ class ConvertToTarballs:
     def find_tarball_by_name(self, name):
         real_name = self.options.get_real_name(name)
         max_version = self.options.get_version_limit(name)
-        baselocation = self.options.get_download_site('gnome.org', real_name)
+        baselocation = self.options.get_download_site(real_name)
 
         # Ask the locator to hunt down a tarball
         location, version = self.locator.find_tarball(baselocation, real_name, max_version)
