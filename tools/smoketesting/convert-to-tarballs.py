@@ -33,6 +33,7 @@ import requests
 import urllib.parse
 import socket
 from ruamel import yaml
+from collections import defaultdict
 
 have_sftp = False
 try:
@@ -106,8 +107,7 @@ class Options:
     def __init__(self, filename):
         self.filename = filename
         self.mirrors = {}
-        self.release_sets = []
-        self.release_set = []
+        self.release_sets = defaultdict(list)
         self.version_limit = {}
         self.real_name = {}
         self.default_site = None
@@ -178,15 +178,7 @@ class Options:
                     release_set = 'Other'
 
                 # Add it to the lists
-                try:
-                    index = self.release_sets.index(release_set)
-                except:
-                    index = None
-                if index is not None:
-                    self.release_set[index].append(name)
-                else:
-                    self.release_sets.append(release_set)
-                    self.release_set.append([ name ])
+                self.release_sets[release_set].append(name)
             else:
                 sys.stderr.write('Bad whitelist node\n')
                 sys.exit(1)
@@ -506,30 +498,25 @@ class ConvertToTarballs:
                     self.process_one_file(root, name)
 
     def create_versions_file(self):
-        print('**************************************************')
-        versions = open('versions', 'w')
-        done = {}
-        for idx in range(len(self.options.release_sets)):
-            release_set = self.options.release_sets[idx]
-            if release_set != 'Other':
-                versions.write('## %s\n' % release_set.upper())
-                modules_sorted = self.options.release_set[idx]
-                modules_sorted.sort()
-                for module in modules_sorted:
-                    try:
-                        real_module = self.options.get_real_name(module)
-                        index = self.all_tarballs.index(module)
-                        version = self.all_versions[index]
-                        triplet = '%s:%s:%s:\n' % (release_set, real_module, version)
-                        if not triplet in done:
-                            versions.write(triplet)
-                            done[triplet] = True
-                    except:
-                        print('FATAL: module %s missing from BuildStream projects' % module)
-                        os.remove('versions')
-                        sys.exit(1)
-                versions.write('\n')
-        versions.close()
+        versions = []
+
+        for release_set, modules in self.options.release_sets.items():
+            if release_set == 'Other':
+                continue
+
+            versions.append('## %s\n' % release_set.upper())
+
+            for module in sorted(modules):
+                real_module = self.options.get_real_name(module)
+                index = self.all_tarballs.index(module)
+                version = self.all_versions[index]
+
+                triplet = '%s:%s:%s:\n' % (release_set, real_module, version)
+                if triplet not in versions:
+                    versions.append(triplet)
+
+        with open('versions', 'w') as f:
+            f.writelines(versions)
 
 
 def main(args):
