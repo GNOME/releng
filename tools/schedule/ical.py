@@ -15,12 +15,6 @@ cal.add('calscale').value = 'GREGORIAN'
 now = datetime.datetime.utcnow()
 utc = vobject.icalendar.utc
 
-# Evolution seems to need specific timezones otherwise the 
-# alarms aren't set. However, haven't figured out how to create those
-# so that Evolution works.
-
-#mytz = dateutil.tz.tzoffset('FOO', 1)
-mytz = utc
 for event in events:
     vevent = cal.add('vevent')
 
@@ -37,12 +31,10 @@ for event in events:
     desc.value = event.description
 
     start = vevent.add('dtstart')
-    start.value = datetime.datetime(event.date.year, event.date.month, event.date.day, 23, 00, tzinfo = mytz)
-#    start.tzid_param = 'UTC' # Needed for Evolution
+    start.value = datetime.datetime(event.date.year, event.date.month, event.date.day)
 
     stop = vevent.add('dtend')
-    stop.value = datetime.datetime(event.date.year, event.date.month, event.date.day, 23, 59, 59, tzinfo = mytz)
-#    stop.tzid_param = 'UTC' # Needed for Evolution
+    stop.value = start.value + datetime.timedelta(days=1)
 
     dtstamp = vevent.add('dtstamp')
     dtstamp.value = now
@@ -54,10 +46,6 @@ for event in events:
     x.value = summary.value
     x = valarm.add('trigger')
 
-#    x.related_param = 'START'
-#    x.value_param = 'DURATION'
-#    x.related_param = 'DATE-TIME'
-#    x.value_param = 'DURATION'
     if event.category == 'release':
         x.value = start.value + datetime.timedelta(hours=-1)
     else:
