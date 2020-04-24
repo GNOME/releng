@@ -40,7 +40,7 @@ def splitter(l, n):
 
 events = parse_file()
 
-cat_task = set(('release', 'tarball'))
+cat_task = set(('release', 'tarball', 'develtarball', 'newstabletarball'))
 by_month = lambda val: val.date.month
 by_week = lambda val: val.isoweek
 by_date = lambda val: val.date

@@ -19,23 +19,49 @@ class GnomeReleaseEvent:
             'wiki_template': 'GNOME $version $detail release',
             'description_template': 'GNOME $version $detail release',
         },
-        "tarball": {
+        "newstabletarball": {
             "prio": 2,
             "automail": True,
             'summary_template': 'GNOME $version $detail tarballs due',
             "wiki_template": 'GNOME $version $detail tarballs due',
             "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
-$version $detail release, which will be delivered next week. Core modules
-should try to follow the unstable schedule so everyone can test them.
+$version $detail release, which will be delivered next week. All modules
+that had an unstable release during the current release cycle must
+release to ensure a stable version number, even if there have been no
+changes since the previous release.
 
 Please make sure that your tarballs will be uploaded before Saturday 23:59
-UTC: tarballs uploaded later than that will probably be too late to get
-in $version. If you are not able to make a tarball before this deadline or
-if you think you'll be late, please send a mail to the release team and
-we'll find someone to roll the tarball for you!""",
+UTC. Tarballs uploaded later than that will probably be too late. If
+you need help, please contact the release team and we'll find someone to
+handle the release for you.""",
+        },
+        "develtarball": {
+            "prio": 3,
+            "automail": True,
+            'summary_template': 'GNOME $version $detail tarballs due',
+            "wiki_template": 'GNOME $version $detail tarballs due',
+            "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
+$version $detail release, which will be delivered next week. In order to
+ensure adequate testing, core modules should try to release according to
+the unstable schedule if they have significant changes.
+
+Please make sure that your tarballs will be uploaded before Saturday 23:59
+UTC. Tarballs uploaded later than that will probably be too late.""",
+        },
+        "tarball": {
+            "prio": 4,
+            "automail": True,
+            'summary_template': 'GNOME $version $detail tarballs due',
+            "wiki_template": 'GNOME $version $detail tarballs due',
+            "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
+$version $detail release, which will be delivered next week. Core modules
+are not expected to follow the schedule for stable releases. Instead,
+please release when you judge that a new stable release is required.
+Modules released before this deadline will be included in the $version
+update of the GNOME runtime.""",
         },
         "freeze": {
-            "prio": 3,
+            "prio": 5,
             "automail": True,
             "summary_template": {
                 'feature': 'Feature and Module Freeze',
@@ -73,7 +99,7 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             },
         },
         "task": {
-            "prio": 4,
+            "prio": 6,
             "automail": True,
             "summary_template": {
                 'api-doc': 'New APIs must be fully documented',
@@ -92,16 +118,17 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             }
         },
         "conference": {
-            "prio": 5,
+            "prio": 7,
             "summary_template": '$detail conference',
             "wiki_template": '$detail conference',
         },
         "hackfest": {
-            "prio": 6,
+            "prio": 8,
             "summary_template": '$detail hackfest',
             "wiki_template": '$detail hackfest',
         },
         "eol": {
+            "prio": 9,
             "summary_template": 'End of life for $oldstable',
             "wiki_template": 'End of life for GNOME $oldstable. This will be the final update to the $oldstable runtime.',
         }
@@ -265,7 +292,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             # Expand event info
             version = None
             assignee = None
-            if (category == 'release' or category == 'tarball') and '.' in event:
+            if (category == 'release' or 'tarball' in category) and '.' in event:
                 if ' ' in event:
                     i = event.split(' ', 1)
                     event = i[0]
@@ -277,7 +304,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                     event = i[0]
                     i[0] = definitions.get(i[0], definitions['unstable'])
                     version = '.'.join(i)
-            if (category == 'release' or category == 'tarball') and version is None:
+            if (category == 'release' or 'tarball' in category) and version is None:
                 print("Error: line '%s' is not parsable" % line[0:-1])
                 return None
 
@@ -285,7 +312,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                 date = date + datetime.timedelta(4)
 
             if category == 'release' and event == 'newstable':
-                rel_event = cls(date, week, 'tarball', event, version, assignee)
+                rel_event = cls(date, week, 'newstabletarball', event, version, assignee)
                 events.append (rel_event)
 
             if category == 'release' and not fixedDate:

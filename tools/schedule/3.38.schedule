@@ -7,13 +7,13 @@ nextnewstable:3.40
 0:release:stable.0 mclasen
 3:tarball:stable.1 mcatanzaro
 3:tarball:oldstable.5 abderrahim
-7:tarball:unstable.1 alatiera
+7:develtarball:unstable.1 alatiera
 7:tarball:stable.2 mclasen
 7:tarball:oldstable.6 mcatanzaro
-12:tarball:unstable.2 abderrahim
+12:develtarball:unstable.2 abderrahim
 12:tarball:stable.3 jjardon
 12:tarball:oldstable.7 alatiera
-17:tarball:unstable.3 mcatanzaro
+17:develtarball:unstable.3 mcatanzaro
 17:tarball:stable.4 abderrahim
 17:tarball:oldstable.8 jjardon
 2020-07-22:conference:GUADEC:https://www.guadec.org/
@@ -26,14 +26,14 @@ nextnewstable:3.40
 22:task:api-doc
 22:task:release-notes-start
 22:freeze:the-freeze
-22:tarball:beta.90 abderrahim
+22:develtarball:beta.90 abderrahim
 22:tarball:stable.5 alatiera
 22:tarball:oldstable.9 jjardon
 22:eol:oldstable
 24:freeze:string
-24:tarball:beta.91 mcatanzaro
+24:develtarball:beta.91 mcatanzaro
 26:freeze:hard-code
-26:tarball:rc.92 jjardon
+26:develtarball:rc.92 jjardon
 26:tarball:stable.6 mclasen
 27:release:newstable.0 mclasen
 27:freeze:hard-code-end
