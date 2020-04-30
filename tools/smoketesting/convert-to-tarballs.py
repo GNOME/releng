@@ -26,7 +26,7 @@
 import sys
 import optparse
 import os
-from xml.dom import minidom, Node
+from xml.etree import ElementTree
 from ruamel import yaml
 from collections import defaultdict
 from tqdm import tqdm
@@ -56,71 +56,38 @@ class Options:
 
         return realname, limit, site
 
-    def _get_locations(self, locations_node):
-        for node in locations_node.childNodes:
-            if node.nodeType != Node.ELEMENT_NODE:
-                continue
-            if node.nodeName == 'site':
-                if node.attributes.get('kind'):
-                    kind = node.attributes.get('kind').nodeValue
-                else:
-                    kind = 'tarballs'
-
-                location = node.attributes.get('location').nodeValue
-                site = SITE_KINDS[kind](location)
-
-                if node.attributes.get('default') is not None:
-                    assert self.default_site is None, "only one default site can be specified"
-                    self.default_site = site
-                elif node.attributes.get('module') is not None:
-                    module = node.attributes.get('module').nodeValue
-                    self.module_locations.append([module, site])
-            else:
-                sys.stderr.write('Bad location node\n')
-                sys.exit(1)
-
-    def _get_modulelist(self, modulelist_node):
-        for node in modulelist_node.childNodes:
-            if node.nodeType != Node.ELEMENT_NODE:
-                continue
-            if node.nodeName == 'package':
-                name = node.attributes.get('name').nodeValue
-
-                # Determine whether we have a version limit for this package
-                if node.attributes.get('limit'):
-                    max_version = node.attributes.get('limit').nodeValue
-                    self.version_limit[name] = max_version
-
-                if node.attributes.get('module'):
-                    self.real_name[name] = node.attributes.get('module').nodeValue
-
-                # Find the appropriate release set
-                if node.attributes.get('set'):
-                    release_set = node.attributes.get('set').nodeValue
-                else:
-                    release_set = 'Other'
-
-                # Add it to the lists
-                self.release_sets[release_set].append(name)
-            else:
-                sys.stderr.write('Bad whitelist node\n')
-                sys.exit(1)
-
     def _read_conversion_info(self):
-        document = minidom.parse(self.filename)
-        conversion_stuff = document.documentElement
-        for node in conversion_stuff.childNodes:
-            if node.nodeType != Node.ELEMENT_NODE:
-                continue
-            if node.nodeName == 'locations':
-                self._get_locations(node)
-            elif node.nodeName == 'whitelist':
-                self._get_modulelist(node)
-            else:
-                sys.stderr.write('Unexpected conversion type: ' +
-                                 node.nodeName + '\n')
-                sys.exit(1)
+        document = ElementTree.parse(self.filename)
 
+        for element in document.findall('locations/site'):
+            kind = element.get('kind', default='tarballs')
+            location = element.get('location')
+            site = SITE_KINDS[kind](location)
+
+            if element.get('default') is not None:
+                assert self.default_site is None, "only one default site can be specified"
+                self.default_site = site
+            elif element.get('module') is not None:
+                module = element.get('module')
+                self.module_locations.append([module, site])
+
+        for element in document.findall('whitelist/package'):
+            name = element.get('name')
+
+            # Determine whether we have a version limit for this package
+            max_version = element.get('limit')
+            if max_version:
+                self.version_limit[name] = max_version
+
+            real_name = element.get('module')
+            if real_name:
+                self.real_name[name] = real_name
+
+            # Find the appropriate release set
+            release_set = element.get('set', default='Other')
+
+            # Add it to the lists
+            self.release_sets[release_set].append(name)
 
 class ConvertToTarballs:
     def __init__(self, options, directory, convert=True, refs=False):
