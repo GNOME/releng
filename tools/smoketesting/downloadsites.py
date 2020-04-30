@@ -89,9 +89,57 @@ class Tarballs(DownloadSite):
 
         return location, version, None
 
+class GNOME(DownloadSite):
+    def __init__(self, baseurl):
+        super().__init__(baseurl)
+
+        resp = requests.get(self.baseurl)
+        resp.raise_for_status()
+
+        moduleregex = re.compile('([^/]+)/')
+
+        for link in sorted(get_links(resp.text)):
+            m = moduleregex.match(link)
+            if m:
+                self.modules.add(m.group(1))
+
+    def find_tarball(self, modulename, max_version, wantchecksum):
+        if modulename not in self.modules:
+            return None, None, None
+
+        resp = requests.get(posixjoin(self.baseurl, modulename, 'cache.json'))
+        resp.raise_for_status()
+
+        versions = resp.json()[1][modulename]
+        latest = get_latest_version(versions.keys(), max_version)
+
+        extensions = ['tar.xz', 'tar.bz2', 'tar.gz']
+        for ext in extensions:
+            if ext in versions[latest]:
+                tarball = versions[latest][ext]
+                break
+        else:
+            # unknown extension
+            return None, None, None
+
+        checksum = None
+        if wantchecksum and 'sha256sum' in versions[latest]:
+            resp = requests.get(posixjoin(self.baseurl, modulename, versions[latest]['sha256sum']))
+            resp.raise_for_status()
+
+            basename = os.path.basename(tarball)
+            for l in resp.text.splitlines():
+                l = l.split()
+                if basename == l[1]:
+                    checksum = l[0]
+                    break
+
+        return posixjoin(self.baseurl, modulename, tarball), latest, checksum
+
 # mapping from name to DownloadSite subclasses
 SITE_KINDS = {
     'tarballs': Tarballs,
+    'gnome': GNOME,
 }
 
 # utility functions
