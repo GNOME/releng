@@ -29,6 +29,7 @@ import os
 from xml.etree import ElementTree
 from ruamel import yaml
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 from downloadsites import SITE_KINDS
@@ -175,8 +176,8 @@ class ConvertToTarballs:
             print("- Can't update tarball for module '{}'".format(module))
 
     def convert_modules(self, directories):
-        to_convert = []
-        to_update = []
+        to_convert = {}
+        to_update = {}
 
         for directory in directories:
             for filename in os.listdir(directory):
@@ -191,18 +192,34 @@ class ConvertToTarballs:
 
                 module_kind = self._get_module_kind(element)
                 if module_kind == 'git':
-                    to_convert.append((name, fullpath, element))
+                    to_convert[name] = fullpath, element
                 elif module_kind == 'tarball':
-                    to_update.append((name, fullpath, element))
+                    to_update[name] = fullpath, element
 
-        if self.convert and to_convert:
-            for name, fullpath, element in tqdm(to_convert, 'Converting git repos', unit=''):
-                location, checksum = self._convert_one_module(name, True)
+        executor = ThreadPoolExecutor()
+
+        converted = None
+        if self.convert:
+            converted = {executor.submit(self._convert_one_module, name, True): name for name in to_convert}
+
+        updated = {executor.submit(self._convert_one_module, name, False): name for name in to_update}
+
+        if converted:
+            for future in tqdm(as_completed(converted), 'Converting git repos',
+                               unit='', total=len(converted)):
+                name = converted[future]
+                fullpath, element = to_convert[name]
+                location, checksum = future.result()
+
                 if location:
                     self._write_bst_file(fullpath, element, location, checksum)
 
-        for name, fullpath, element in tqdm(to_update, 'Updating existing tarballs', unit=''):
-            location, checksum = self._convert_one_module(name, False)
+        for future in tqdm(as_completed(updated), 'Updating existing tarballs',
+                           unit='', total=len(updated)):
+            name = updated[future]
+            fullpath, element = to_update[name]
+            location, checksum = future.result()
+
             if location:
                 self._write_bst_file(fullpath, element, location, checksum)
 
