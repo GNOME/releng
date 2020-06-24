@@ -113,6 +113,9 @@ class GNOME(DownloadSite):
         versions = resp.json()[1][modulename]
         latest = get_latest_version(versions.keys(), max_version)
 
+        if not latest:
+            return None, None, None
+
         extensions = ['tar.xz', 'tar.bz2', 'tar.gz']
         for ext in extensions:
             if ext in versions[latest]:
