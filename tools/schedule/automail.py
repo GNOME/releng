@@ -20,7 +20,7 @@ For a quick overview of the GNOME schedule, please see:
 Thanks,
 --
 Automatically generated email. Source at:
-https://git.gnome.org/browse/releng/tree/tools/schedule/automail.py"""
+https://gitlab.gnome.org/GNOME/releng/-/blob/master/tools/schedule/automail.py"""
 
 def mail_events(events):
     if not events: return # sanity check
