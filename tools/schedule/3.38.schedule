@@ -33,6 +33,7 @@ nextnewstable:3.40
 24:freeze:string
 24:develtarball:beta.91 mcatanzaro
 26:freeze:hard-code
+26:task:translation-deadline
 26:develtarball:rc.92 jjardon
 26:tarball:stable.6 mclasen
 27:release:newstable.0 mclasen
