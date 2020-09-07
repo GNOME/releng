@@ -54,8 +54,7 @@ def mail_events(events):
     contents.seek(0)
     mime = MIMEText(contents.read())
     mime['Subject'] = subject
-    mime['From'] = 'Release Team <release-team@gnome.org>'
-    mime['Cc'] = 'Release Team <release-team@gnome.org>'
+    mime['From'] = 'Release Team <noreply@gnome.org>'
     mime['To'] = mail
     s.sendmail('accounts@gnome.org', [mail], mime.as_string())
 
