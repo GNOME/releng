@@ -114,7 +114,7 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             'description_template': {
                 'api-doc': 'New APIs must be fully documented',
                 'release-notes-start': 'Writing of release notes begins',
-                'translation-deadline': 'Soft translation deadline'
+                'translation-deadline': 'Soft translation deadline is $date at 23:59 UTC. Translations committed after this point may be too late to be included. Maintainers should not release stable tarballs until after this day.'
             }
         },
         "conference": {
