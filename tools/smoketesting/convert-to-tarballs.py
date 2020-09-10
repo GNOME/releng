@@ -300,9 +300,11 @@ def main(args):
 
     if int(splitted_version[1]) % 2 == 0:
         flatpak_branch = '{}.{}'.format(splitted_version[0], splitted_version[1])
+        qualifier = ''
         update_flatpak_branch = True
     elif int(splitted_version[2]) >= 90:
-        flatpak_branch = '{}.{}beta'.format(splitted_version[0], int(splitted_version[1]) + 1)
+        flatpak_branch = '{}.{}'.format(splitted_version[0], int(splitted_version[1]) + 1)
+        qualifier = 'beta'
         update_flatpak_branch = True
     else:
         update_flatpak_branch = False
@@ -327,7 +329,7 @@ def main(args):
             with open(cifile) as f:
                 ci = yaml.round_trip_load(f, preserve_quotes=True)
 
-            ci['variables']['FLATPAK_BRANCH'] = flatpak_branch
+            ci['variables']['FLATPAK_BRANCH'] = flatpak_branch + qualifier
 
             if 'BST_STRICT' in ci['variables']:
                 ci['variables']['BST_STRICT'] = '--strict'
@@ -341,6 +343,7 @@ def main(args):
                 conf = yaml.round_trip_load(f, preserve_quotes=True)
 
             conf['variables']['branch'] = flatpak_branch
+            conf['variables']['qualifier'] = qualifier
             conf['ref-storage'] = 'inline'
 
             with open(projectconf, 'w') as f:
