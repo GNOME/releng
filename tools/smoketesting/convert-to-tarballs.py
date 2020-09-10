@@ -311,7 +311,7 @@ def main(args):
 
     convert = ConvertToTarballs(config, options.directory, options.convert, update_flatpak_branch)
     convert.convert_modules([os.path.join(options.directory, 'elements', directory)
-                             for directory in ('core-deps', 'core', 'sdk')])
+                             for directory in ('core-deps', 'core', 'sdk-deps', 'sdk')])
 
     if convert.errors:
         convert.print_errors()
