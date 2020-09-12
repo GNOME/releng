@@ -117,7 +117,7 @@ class ConvertToTarballs:
         elif kind.startswith('git'):
             return 'git'
 
-        assert kind in ('tar', 'zip'), 'unexpected source kind {}'.format(kind)
+        assert kind in ('tar', 'zip', 'remote'), 'unexpected source kind {}'.format(kind)
         return 'tarball'
 
     def _convert_one_module(self, name, fatal):
