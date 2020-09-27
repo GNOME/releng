@@ -8,7 +8,7 @@ import os
 import os.path
 import sys
 
-DEFAULT_SCHEDULE='3.38.schedule'
+DEFAULT_SCHEDULE='40.schedule'
 
 class GnomeReleaseEvent:
     definitions = {}
@@ -72,7 +72,7 @@ update of the GNOME runtime.""",
             },
             "wiki_template": {
                 'feature': '[[ReleasePlanning/Freezes|Feature and Module Freeze]]: new system-wide functionality and modules are chosen now.',
-                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for $unstable.x: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]].',
+                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No significant UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for GNOME $newstable: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]].',
                 'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without approval from the i18n team ([[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]).',
                 'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]. Translation and documentation can continue.',
                 'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.',
@@ -268,8 +268,8 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                 definitions[info[0].lower()] = info[1]
             continue
         else:
-            if not start or 'unstable' not in definitions or 'stable' not in definitions:
-                print("Error: Need yearweek, stable and unstable definitions before line '%s'" % line[0:-1])
+            if not start or 'stable' not in definitions:
+                print("Error: Need yearweek and stable definitions before line '%s'" % line[0:-1])
                 return None
 
             fixedDate = False
@@ -302,7 +302,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                 i = event.split('.', 1)
                 if not '.' in i[1]:
                     event = i[0]
-                    i[0] = definitions.get(i[0], definitions['unstable'])
+                    i[0] = definitions.get(i[0])
                     version = '.'.join(i)
             if (category == 'release' or 'tarball' in category) and version is None:
                 print("Error: line '%s' is not parsable" % line[0:-1])

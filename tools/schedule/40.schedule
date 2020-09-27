@@ -1,0 +1,29 @@
+yearweek:202038
+oldstable:3.36
+stable:3.38
+newstable:40
+nextnewstable:41
+0:release:stable.0 mclasen
+3:tarball:stable.1 mcatanzaro
+3:tarball:oldstable.7 alatiera
+10:tarball:stable.2
+10:tarball:oldstable.8
+17:develtarball:newstable.alpha
+17:tarball:stable.3
+17:tarball:oldstable.9
+22:task:api-doc
+22:task:release-notes-start
+22:freeze:the-freeze
+22:develtarball:newstable.beta abderrahim
+22:tarball:stable.4
+22:tarball:oldstable.10
+22:eol:oldstable
+24:freeze:string
+26:freeze:hard-code
+26:task:translation-deadline
+26:develtarball:newstable.rc mcatanzaro
+27:release:newstable.0 mclasen
+27:tarball:stable.5
+27:freeze:hard-code-end
+33:tarball:newstable.1
+33:tarball:stable.6

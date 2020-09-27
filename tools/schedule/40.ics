@@ -1,0 +1,548 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20200927T213136Z - 24993@chargestone-cave
+DTSTART:20200916T000000
+DTEND:20200917T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:GNOME 3.38.0 stable release
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.0 stable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.0 stable release
+TRIGGER;VALUE=DATE-TIME:20200915T230000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 97623@chargestone-cave
+DTSTART:20201003T000000
+DTEND:20201004T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2020-10-03 before 23:59 UTC for the GNOME\n
+ 3.38.1 stable release\, which will be delivered next week. Core modules\na
+ re not expected to follow the schedule for stable releases. Instead\,\nple
+ ase release when you judge that a new stable release is required.\nModules
+  released before this deadline will be included in the 3.38.1\nupdate of t
+ he GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.1 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.1 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200930T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 4408@chargestone-cave
+DTSTART:20201003T000000
+DTEND:20201004T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2020-10-03 before 23:59 UTC for the GNOME\n
+ 3.36.7 oldstable release\, which will be delivered next week. Core modules
+ \nare not expected to follow the schedule for stable releases. Instead\,\n
+ please release when you judge that a new stable release is required.\nModu
+ les released before this deadline will be included in the 3.36.7\nupdate o
+ f the GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.36.7 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.7 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20200930T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 70275@chargestone-cave
+DTSTART:20201121T000000
+DTEND:20201122T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2020-11-21 before 23:59 UTC for the GNOME\n
+ 3.38.2 stable release\, which will be delivered next week. Core modules\na
+ re not expected to follow the schedule for stable releases. Instead\,\nple
+ ase release when you judge that a new stable release is required.\nModules
+  released before this deadline will be included in the 3.38.2\nupdate of t
+ he GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.2 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.2 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20201118T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 7519@chargestone-cave
+DTSTART:20201121T000000
+DTEND:20201122T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2020-11-21 before 23:59 UTC for the GNOME\n
+ 3.36.8 oldstable release\, which will be delivered next week. Core modules
+ \nare not expected to follow the schedule for stable releases. Instead\,\n
+ please release when you judge that a new stable release is required.\nModu
+ les released before this deadline will be included in the 3.36.8\nupdate o
+ f the GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.36.8 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.8 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20201118T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 33442@chargestone-cave
+DTSTART:20210109T000000
+DTEND:20210110T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-01-09 before 23:59 UTC for the GNOME\n
+ 40.alpha newstable release\, which will be delivered next week. In order t
+ o\nensure adequate testing\, core modules should try to release according 
+ to\nthe unstable schedule if they have significant changes.\n\nPlease make
+  sure that your tarballs will be uploaded before Saturday 23:59\nUTC. Tarb
+ alls uploaded later than that will probably be too late.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 40.alpha newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 40.alpha newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210106T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 34780@chargestone-cave
+DTSTART:20210109T000000
+DTEND:20210110T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-01-09 before 23:59 UTC for the GNOME\n
+ 3.38.3 stable release\, which will be delivered next week. Core modules\na
+ re not expected to follow the schedule for stable releases. Instead\,\nple
+ ase release when you judge that a new stable release is required.\nModules
+  released before this deadline will be included in the 3.38.3\nupdate of t
+ he GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.3 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.3 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210106T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 46739@chargestone-cave
+DTSTART:20210109T000000
+DTEND:20210110T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-01-09 before 23:59 UTC for the GNOME\n
+ 3.36.9 oldstable release\, which will be delivered next week. Core modules
+ \nare not expected to follow the schedule for stable releases. Instead\,\n
+ please release when you judge that a new stable release is required.\nModu
+ les released before this deadline will be included in the 3.36.9\nupdate o
+ f the GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.36.9 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.9 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210106T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 82699@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-02-13 before 23:59 UTC for the GNOME\n
+ 40.beta newstable release\, which will be delivered next week. In order to
+ \nensure adequate testing\, core modules should try to release according t
+ o\nthe unstable schedule if they have significant changes.\n\nPlease make 
+ sure that your tarballs will be uploaded before Saturday 23:59\nUTC. Tarba
+ lls uploaded later than that will probably be too late.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 40.beta newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 40.beta newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 62705@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-02-13 before 23:59 UTC for the GNOME\n
+ 3.38.4 stable release\, which will be delivered next week. Core modules\na
+ re not expected to follow the schedule for stable releases. Instead\,\nple
+ ase release when you judge that a new stable release is required.\nModules
+  released before this deadline will be included in the 3.38.4\nupdate of t
+ he GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.4 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.4 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 83502@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-02-13 before 23:59 UTC for the GNOME\n
+ 3.36.10 oldstable release\, which will be delivered next week. Core module
+ s\nare not expected to follow the schedule for stable releases. Instead\,\
+ nplease release when you judge that a new stable release is required.\nMod
+ ules released before this deadline will be included in the 3.36.10\nupdate
+  of the GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.36.10 oldstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.36.10 oldstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 74296@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:API/ABI\, UI and Feature Addition Freeze\; String Change Announceme
+ nt Period
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:API/ABI\, UI and Feature Addition Freeze\; String Change Announ
+ cement Period
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 49824@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:New APIs must be fully documented
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New APIs must be fully documented
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 55283@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:Writing of release notes begins
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Writing of release notes begins
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 64440@chargestone-cave
+DTSTART:20210213T000000
+DTEND:20210214T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:End of life for 3.36
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:End of life for 3.36
+TRIGGER;VALUE=DATE-TIME:20210210T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 46052@chargestone-cave
+DTSTART:20210227T000000
+DTEND:20210228T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:No string changes may be made without confirmation from the i18
+ n team.\n\nFrom this point\, developers can concentrate on stability and b
+ ugfixing. Translators can work without worrying that the original English 
+ strings will change\, and documentation writers can take accurate screensh
+ ots. For explanation of the string freeze\, and to see which kind of chang
+ es are not covered by freeze rules\, check https://wiki.gnome.org/Translat
+ ionProject/HandlingStringFreezes. 
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:String Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:String Freeze
+TRIGGER;VALUE=DATE-TIME:20210224T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 82388@chargestone-cave
+DTSTART:20210313T000000
+DTEND:20210314T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-03-13 before 23:59 UTC for the GNOME\n
+ 40.rc newstable release\, which will be delivered next week. In order to\n
+ ensure adequate testing\, core modules should try to release according to\
+ nthe unstable schedule if they have significant changes.\n\nPlease make su
+ re that your tarballs will be uploaded before Saturday 23:59\nUTC. Tarball
+ s uploaded later than that will probably be too late.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 40.rc newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 40.rc newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210310T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 12269@chargestone-cave
+DTSTART:20210313T000000
+DTEND:20210314T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:This is a late freeze to avoids sudden last-minute accidents wh
+ ich could risk the stability that should have been reached at this point. 
+ No source code changes are allowed without approval from the release team\
+ , but translation and documentation should continue. Simple build fixes ar
+ e\, of course\, allowed without asking. 
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:Hard Code Freeze
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze
+TRIGGER;VALUE=DATE-TIME:20210310T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 37198@chargestone-cave
+DTSTART:20210317T000000
+DTEND:20210318T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Soft translation deadline is 2021-03-17 at 23:59 UTC. Translati
+ ons committed after this point may be too late to be included. Maintainers
+  should not release stable tarballs until after this day.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:Soft translation deadline
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Soft translation deadline
+TRIGGER;VALUE=DATE-TIME:20210314T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 40316@chargestone-cave
+DTSTART:20210320T000000
+DTEND:20210321T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-03-20 before 23:59 UTC for the GNOME\n
+ 40.0 newstable release\, which will be delivered next week. All modules\nt
+ hat had an unstable release during the current release cycle must\nrelease
+  to ensure a stable version number\, even if there have been no\nchanges s
+ ince the previous release.\n\nPlease make sure that your tarballs will be 
+ uploaded before Saturday 23:59\nUTC. Tarballs uploaded later than that wil
+ l probably be too late. If\nyou need help\, please contact the release tea
+ m and we'll find someone to\nhandle the release for you.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 40.0 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 40.0 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210317T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 43912@chargestone-cave
+DTSTART:20210320T000000
+DTEND:20210321T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-03-20 before 23:59 UTC for the GNOME\n
+ 3.38.5 stable release\, which will be delivered next week. Core modules\na
+ re not expected to follow the schedule for stable releases. Instead\,\nple
+ ase release when you judge that a new stable release is required.\nModules
+  released before this deadline will be included in the 3.38.5\nupdate of t
+ he GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.5 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.5 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210317T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 34660@chargestone-cave
+DTSTART:20210320T000000
+DTEND:20210321T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Hard Code Freeze ends\, but other freezes remain in effect for 
+ the stable branch.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:Hard Code Freeze ends
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hard Code Freeze ends
+TRIGGER;VALUE=DATE-TIME:20210317T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 36148@chargestone-cave
+DTSTART:20210324T000000
+DTEND:20210325T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:GNOME 40.0 newstable release
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 40.0 newstable release
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 40.0 newstable release
+TRIGGER;VALUE=DATE-TIME:20210323T230000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 16026@chargestone-cave
+DTSTART:20210501T000000
+DTEND:20210502T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-05-01 before 23:59 UTC for the GNOME\n
+ 40.1 newstable release\, which will be delivered next week. Core modules\n
+ are not expected to follow the schedule for stable releases. Instead\,\npl
+ ease release when you judge that a new stable release is required.\nModule
+ s released before this deadline will be included in the 40.1\nupdate of th
+ e GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 40.1 newstable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 40.1 newstable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210428T000000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20200927T213136Z - 11214@chargestone-cave
+DTSTART:20210501T000000
+DTEND:20210502T000000
+CLASS:PUBLIC
+CREATED:20200927T213136
+DESCRIPTION:Tarballs are due on 2021-05-01 before 23:59 UTC for the GNOME\n
+ 3.38.6 stable release\, which will be delivered next week. Core modules\na
+ re not expected to follow the schedule for stable releases. Instead\,\nple
+ ase release when you judge that a new stable release is required.\nModules
+  released before this deadline will be included in the 3.38.6\nupdate of t
+ he GNOME runtime.
+DTSTAMP:20200927T213136
+LAST-MODIFIED:20200927T213136
+SEQUENCE:1
+SUMMARY:GNOME 3.38.6 stable tarballs due
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GNOME 3.38.6 stable tarballs due
+TRIGGER;VALUE=DATE-TIME:20210428T000000
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
