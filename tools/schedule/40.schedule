@@ -8,14 +8,14 @@ nextnewstable:41
 3:tarball:oldstable.7 alatiera
 10:tarball:stable.2 mcatanzaro
 10:tarball:oldstable.8 alatiera
-17:develtarball:newstable.alpha jjardon
+17:develtarball:newstable.alpha alatiera
 17:tarball:stable.3 abderrahim
 17:tarball:oldstable.9 mclasen
 22:task:api-doc
 22:task:release-notes-start
 22:freeze:the-freeze
 22:develtarball:newstable.beta abderrahim
-22:tarball:stable.4 alatiera
+22:tarball:stable.4 mclasen
 22:tarball:oldstable.10 jjardon
 22:eol:oldstable
 24:freeze:string
@@ -26,4 +26,4 @@ nextnewstable:41
 27:tarball:stable.5 mcatanzaro
 27:freeze:hard-code-end
 33:tarball:newstable.1 abderrahim
-33:tarball:stable.6 mclasen
+33:tarball:stable.6 alatiera
