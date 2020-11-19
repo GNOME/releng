@@ -9,12 +9,8 @@ import textwrap
 
 cat_task = set(('release', 'tarball'))
 
-FOOTER = """\n\n\nFor more information about $unstable, the full schedule, the official
-module lists and the proposed module lists, please see our colorful $unstable
-page:
-   http://www.gnome.org/start/unstable
-
-For a quick overview of the GNOME schedule, please see:
+FOOTER = """\n\n\nFor more information about the schedule for GNOME $newstable,
+please see:
    https://wiki.gnome.org/Schedule
 
 Thanks,
