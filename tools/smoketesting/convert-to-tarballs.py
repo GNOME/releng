@@ -91,10 +91,9 @@ class Options:
             self.release_sets[release_set].append(name)
 
 class ConvertToTarballs:
-    def __init__(self, options, directory, convert=True, refs=False):
+    def __init__(self, options, directory, convert=True):
         self.options = options
         self.convert = convert
-        self.refs = refs
 
         self.all_tarballs = []
         self.all_versions = []
@@ -128,7 +127,7 @@ class ConvertToTarballs:
             errors.append(name)
             return None, None
 
-        location, version, checksum = site.find_tarball(real_name, max_version, self.refs)
+        location, version, checksum = site.find_tarball(real_name, max_version, self.convert)
 
         if None in (location, version):
             errors.append(name)
@@ -255,61 +254,49 @@ def main(args):
                       help="GNOME version to build")
     parser.add_option("-f", "--force", action="store_true", dest="force",
                       default=False, help="overwrite existing versions file")
-    parser.add_option("-c", "--config", dest="config",
-                      help="tarball-conversion config file", metavar="FILE")
     parser.add_option("", "--no-convert", action="store_false", dest="convert",
                       default=True, help="do not convert, only try to update elements that already use tarballs")
     (options, args) = parser.parse_args()
 
-    if not options.version:
-        parser.print_help()
-        sys.exit(1)
+    if options.version:
+        splitted_version = options.version.split(".")
+        if len(splitted_version) == 3:
+            branch = "{}-{}".format(*splitted_version[:2])
+            flatpak_branch = "{}.{}".format(*splitted_version[:2])
+            is_stable = True
+            qualifier = ''
+        elif len(splitted_version) == 2:
+            flatpak_branch = branch = splitted_version[0]
+            is_stable = splitted_version[1].isnumeric()
+            qualifier = '' if is_stable else splitted_version[1]
+        else:
+            print("ERROR: Version number is not valid", file=sys.stderr)
+            exit(1)
 
-    splitted_version = options.version.split(".")
-    if (len(splitted_version) != 3):
-        sys.stderr.write("ERROR: Version number is not valid\n")
-        sys.exit(1)
-
-    if options.config:
-        try:
-            config = Options(os.path.join(program_dir, options.config))
-        except IOError:
-            try:
-                config = Options(options.config)
-            except IOError:
-                sys.stderr.write("ERROR: Config file could not be loaded from file: {}\n".format(options.config))
-                sys.exit(1)
-    else:
-        is_stable = (int(splitted_version[1]) % 2 == 0)
         if is_stable:
-            config = Options(os.path.join(program_dir, 'tarball-conversion-{}-{}.config'.format(splitted_version[0], splitted_version[1])))
+            config = Options(os.path.join(program_dir, 'tarball-conversion-{}.config'.format(branch)))
         else:
             config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
-    if os.path.isfile('versions'):
+    elif not options.convert:
+        config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
+    else:
+        print("ERROR: Need either --version or --no-convert", file=sys.stderr)
+        exit(1)
+
+    if options.convert and os.path.isfile('versions'):
         if options.force:
             os.unlink('versions')
         else:
-            sys.stderr.write('Cannot proceed; would overwrite versions\n')
-            sys.exit(1)
+            print('Cannot proceed; would overwrite versions', file=sys.stderr)
+            exit(1)
 
     if not options.directory:
-        sys.stderr.write('Must specify the directory of the GNOME buildstream project to convert\n\n')
+        print('Must specify the directory of the GNOME buildstream project to convert\n', file=sys.stderr)
         parser.print_help()
-        sys.exit(1)
+        exit(1)
 
-    if int(splitted_version[1]) % 2 == 0:
-        flatpak_branch = '{}.{}'.format(splitted_version[0], splitted_version[1])
-        qualifier = ''
-        update_flatpak_branch = True
-    elif int(splitted_version[2]) >= 90:
-        flatpak_branch = '{}.{}'.format(splitted_version[0], int(splitted_version[1]) + 1)
-        qualifier = 'beta'
-        update_flatpak_branch = True
-    else:
-        update_flatpak_branch = False
-
-    convert = ConvertToTarballs(config, options.directory, options.convert, update_flatpak_branch)
+    convert = ConvertToTarballs(config, options.directory, options.convert)
     convert.convert_modules([os.path.join(options.directory, 'elements', directory)
                              for directory in ('core-deps', 'core', 'sdk-deps', 'sdk')])
 
@@ -323,53 +310,52 @@ def main(args):
     if options.convert:
         convert.create_versions_file()
 
-        # update variables in the .gitlab-ci.yml
-        if update_flatpak_branch:
-            cifile = os.path.join(options.directory, '.gitlab-ci.yml')
-            with open(cifile) as f:
-                ci = yaml.round_trip_load(f, preserve_quotes=True)
+        # update variables in .gitlab-ci.yml
+        cifile = os.path.join(options.directory, '.gitlab-ci.yml')
+        with open(cifile) as f:
+            ci = yaml.round_trip_load(f, preserve_quotes=True)
 
-            ci['variables']['FLATPAK_BRANCH'] = flatpak_branch + qualifier
+        ci['variables']['FLATPAK_BRANCH'] = flatpak_branch + qualifier
 
-            if 'BST_STRICT' in ci['variables']:
-                ci['variables']['BST_STRICT'] = '--strict'
+        if 'BST_STRICT' in ci['variables']:
+            ci['variables']['BST_STRICT'] = '--strict'
 
-            with open(cifile, 'w') as f:
-                yaml.round_trip_dump(ci, f, width=200)
+        with open(cifile, 'w') as f:
+            yaml.round_trip_dump(ci, f, width=200)
 
-            # update project.conf
-            projectconf = os.path.join(options.directory, 'project.conf')
-            with open(projectconf) as f:
-                conf = yaml.round_trip_load(f, preserve_quotes=True)
+        # update project.conf
+        projectconf = os.path.join(options.directory, 'project.conf')
+        with open(projectconf) as f:
+            conf = yaml.round_trip_load(f, preserve_quotes=True)
 
-            conf['variables']['branch'] = flatpak_branch
-            conf['variables']['qualifier'] = qualifier
-            conf['ref-storage'] = 'inline'
+        conf['variables']['branch'] = flatpak_branch
+        conf['variables']['qualifier'] = qualifier
+        conf['ref-storage'] = 'inline'
 
-            with open(projectconf, 'w') as f:
-                yaml.round_trip_dump(conf, f, width=200)
+        with open(projectconf, 'w') as f:
+            yaml.round_trip_dump(conf, f, width=200)
 
-            # move junction refs to the respective files
-            junctionrefs = os.path.join(options.directory, 'junction.refs')
-            if os.path.exists(junctionrefs):
-                with open(junctionrefs) as f:
-                    refs = yaml.safe_load(f)['projects']['gnome']
+        # move junction refs to the respective files
+        junctionrefs = os.path.join(options.directory, 'junction.refs')
+        if os.path.exists(junctionrefs):
+            with open(junctionrefs) as f:
+                refs = yaml.safe_load(f)['projects']['gnome']
 
-                for element in refs.keys():
-                    elfile = os.path.join(options.directory, conf['element-path'], element)
-                    with open(elfile) as f:
-                        eldata = yaml.round_trip_load(f, preserve_quotes=True)
+            for element in refs.keys():
+                elfile = os.path.join(options.directory, conf['element-path'], element)
+                with open(elfile) as f:
+                    eldata = yaml.round_trip_load(f, preserve_quotes=True)
 
-                    for i in range(len(refs[element])):
-                        if not refs[element][i]: # source has no ref
-                            continue
+                for i in range(len(refs[element])):
+                    if not refs[element][i]: # source has no ref
+                        continue
 
-                        eldata['sources'][i]['ref'] = refs[element][i]['ref']
+                    eldata['sources'][i]['ref'] = refs[element][i]['ref']
 
-                    with open(elfile, 'w') as f:
-                        yaml.round_trip_dump(eldata, f)
+                with open(elfile, 'w') as f:
+                    yaml.round_trip_dump(eldata, f)
 
-                os.unlink(junctionrefs)
+            os.unlink(junctionrefs)
 
 if __name__ == '__main__':
     try:
