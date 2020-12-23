@@ -28,6 +28,7 @@ import os
 
 from html.parser import HTMLParser
 from posixpath import join as posixjoin # Handy for URLs
+from urllib.parse import unquote
 
 # Classes that define the different types of sites we can download from
 class DownloadSite:
@@ -154,7 +155,7 @@ def get_links(html):
 
         def handle_starttag(self, tag, attrs):
             if tag == 'a':
-                href = [v for k, v in attrs if k=='href']
+                href = [unquote(v) for k, v in attrs if k=='href']
                 if href:
                     self.urls.extend(href)
 
