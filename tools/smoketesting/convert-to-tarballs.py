@@ -24,7 +24,7 @@
 
 
 import sys
-import optparse
+import argparse
 import os
 from xml.etree import ElementTree
 from ruamel import yaml
@@ -247,19 +247,19 @@ class ConvertToTarballs:
 def main(args):
     program_dir = os.path.abspath(sys.path[0] or os.curdir)
 
-    parser = optparse.OptionParser()
-    parser.add_option("-d", "--directory", dest="directory",
-                      help="buildstream project directory", metavar="DIR")
-    parser.add_option("-v", "--version", dest="version",
-                      help="GNOME version to build")
-    parser.add_option("-f", "--force", action="store_true", dest="force",
-                      default=False, help="overwrite existing versions file")
-    parser.add_option("", "--no-convert", action="store_false", dest="convert",
-                      default=True, help="do not convert, only try to update elements that already use tarballs")
-    (options, args) = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("directory",
+                        help="buildstream project directory", metavar="DIR")
+    parser.add_argument("-v", "--version", dest="version",
+                        help="GNOME version to build")
+    parser.add_argument("-f", "--force", action="store_true", dest="force",
+                        default=False, help="overwrite existing versions file")
+    parser.add_argument("--no-convert", action="store_false", dest="convert",
+                        default=True, help="do not convert, only try to update elements that already use tarballs")
+    args = parser.parse_args()
 
-    if options.version:
-        splitted_version = options.version.split(".")
+    if args.version:
+        splitted_version = args.version.split(".")
         if len(splitted_version) == 3:
             branch = "{}-{}".format(*splitted_version[:2])
             flatpak_branch = "{}.{}".format(*splitted_version[:2])
@@ -278,26 +278,26 @@ def main(args):
         else:
             config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
-    elif not options.convert:
+    elif not args.convert:
         config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
     else:
         print("ERROR: Need either --version or --no-convert", file=sys.stderr)
         exit(1)
 
-    if options.convert and os.path.isfile('versions'):
-        if options.force:
+    if args.convert and os.path.isfile('versions'):
+        if args.force:
             os.unlink('versions')
         else:
             print('Cannot proceed; would overwrite versions', file=sys.stderr)
             exit(1)
 
-    if not options.directory:
+    if not args.directory:
         print('Must specify the directory of the GNOME buildstream project to convert\n', file=sys.stderr)
         parser.print_help()
         exit(1)
 
-    convert = ConvertToTarballs(config, options.directory, options.convert)
-    convert.convert_modules([os.path.join(options.directory, 'elements', directory)
+    convert = ConvertToTarballs(config, args.directory, args.convert)
+    convert.convert_modules([os.path.join(args.directory, 'elements', directory)
                              for directory in ('core-deps', 'core', 'sdk-deps', 'sdk')])
 
     if convert.errors:
@@ -307,11 +307,11 @@ def main(args):
     if convert.warnings:
         convert.print_warnings()
 
-    if options.convert:
+    if args.convert:
         convert.create_versions_file()
 
         # update variables in .gitlab-ci.yml
-        cifile = os.path.join(options.directory, '.gitlab-ci.yml')
+        cifile = os.path.join(args.directory, '.gitlab-ci.yml')
         with open(cifile) as f:
             ci = yaml.round_trip_load(f, preserve_quotes=True)
 
@@ -324,7 +324,7 @@ def main(args):
             yaml.round_trip_dump(ci, f, width=200)
 
         # update project.conf
-        projectconf = os.path.join(options.directory, 'project.conf')
+        projectconf = os.path.join(args.directory, 'project.conf')
         with open(projectconf) as f:
             conf = yaml.round_trip_load(f, preserve_quotes=True)
 
@@ -336,13 +336,13 @@ def main(args):
             yaml.round_trip_dump(conf, f, width=200)
 
         # move junction refs to the respective files
-        junctionrefs = os.path.join(options.directory, 'junction.refs')
+        junctionrefs = os.path.join(args.directory, 'junction.refs')
         if os.path.exists(junctionrefs):
             with open(junctionrefs) as f:
                 refs = yaml.safe_load(f)['projects']['gnome']
 
             for element in refs.keys():
-                elfile = os.path.join(options.directory, conf['element-path'], element)
+                elfile = os.path.join(args.directory, conf['element-path'], element)
                 with open(elfile) as f:
                     eldata = yaml.round_trip_load(f, preserve_quotes=True)
 
