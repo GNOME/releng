@@ -22,9 +22,10 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
 # USA
 
+import os
 import re
 import requests
-import os
+import time
 
 from html.parser import HTMLParser
 from posixpath import join as posixjoin # Handy for URLs
@@ -38,6 +39,17 @@ class DownloadSite:
     def find_tarball(self, modulename, max_version, wantchecksum):
         raise NotImplementedError
 
+def perform_request(location):
+    req = None
+    while True:
+        req = requests.get(location)
+        if req.status_code == 429:
+            # Too Many Requests: we hit a rate limit
+            time.sleep(1)
+            continue
+        req.raise_for_status()
+        return req
+
 class Tarballs(DownloadSite):
     def __init__(self, baseurl):
         super().__init__(baseurl)
@@ -50,8 +62,7 @@ class Tarballs(DownloadSite):
         location = self.baseurl.format(module=modulename)
 
         while True:
-            req = requests.get(location)
-            req.raise_for_status()
+            req = perform_request(location)
             files = get_links(req.text)
 
             # Check to see if we need to descend to a subdirectory
@@ -94,8 +105,7 @@ class GNOME(DownloadSite):
     def __init__(self, baseurl):
         super().__init__(baseurl)
 
-        resp = requests.get(self.baseurl)
-        resp.raise_for_status()
+        resp = perform_request(self.baseurl)
 
         moduleregex = re.compile('([^/]+)/')
 
@@ -108,8 +118,7 @@ class GNOME(DownloadSite):
         if modulename not in self.modules:
             return None, None, None
 
-        resp = requests.get(posixjoin(self.baseurl, modulename, 'cache.json'))
-        resp.raise_for_status()
+        resp = perform_request(posixjoin(self.baseurl, modulename, 'cache.json'))
 
         versions = resp.json()[1][modulename]
         latest = get_latest_version(versions.keys(), max_version)
@@ -128,8 +137,7 @@ class GNOME(DownloadSite):
 
         checksum = None
         if wantchecksum and 'sha256sum' in versions[latest]:
-            resp = requests.get(posixjoin(self.baseurl, modulename, versions[latest]['sha256sum']))
-            resp.raise_for_status()
+            resp = perform_request(posixjoin(self.baseurl, modulename, versions[latest]['sha256sum']))
 
             basename = os.path.basename(tarball)
             for l in resp.text.splitlines():
