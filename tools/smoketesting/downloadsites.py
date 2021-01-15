@@ -119,7 +119,6 @@ class GNOME(DownloadSite):
             return None, None, None
 
         resp = perform_request(posixjoin(self.baseurl, modulename, 'cache.json'))
-
         versions = resp.json()[1][modulename]
         latest = get_latest_version(versions.keys(), max_version)
 
@@ -172,44 +171,75 @@ def get_links(html):
     parser.close()
     return parser.urls
 
-def get_latest_version(versions, max_version):
-    def bigger_version(a, b):
-        a_nums = a.split('.')
-        b_nums = b.split('.')
-        num_fields = min(len(a_nums), len(b_nums))
-        for i in range(0,num_fields):
-            if   int(a_nums[i]) > int(b_nums[i]):
-                return a
-            elif int(a_nums[i]) < int(b_nums[i]):
-                return b
-        if len(a_nums) > len(b_nums):
-            return a
+
+re_version = re.compile(r'([-.]|\d+|[^-.\d]+)')
+
+
+# https://docs.python.org/3.0/whatsnew/3.0.html#ordering-comparisons
+def cmp(a, b):
+    return (a > b) - (a < b)
+
+
+def version_cmp(a, b):
+    """Compares two versions
+
+    Returns
+    -1 if a < b
+    0  if a == b
+    1  if a > b
+
+    Logic from Bugzilla::Install::Util::vers_cmp
+
+    Logic actually carbon copied from ftpadmin
+    https://gitlab.gnome.org/Infrastructure/sysadmin-bin/-/blob/78880cd100f6a73acc9dbd8c0dc3cb9a52e6fc23/ftpadmin#L88-141
+    """
+    assert(a is not None)
+    assert(b is not None)
+
+    A = re_version.findall(a.lstrip('0'))
+    B = re_version.findall(b.lstrip('0'))
+
+    while A and B:
+        a = A.pop(0)
+        b = B.pop(0)
+
+        if a == b:
+            continue
+        elif a == '-':
+            return -1
+        elif b == '-':
+            return 1
+        elif a == '.':
+            return -1
+        elif b == '.':
+            return 1
+        elif a.isdigit() and b.isdigit():
+            c = cmp(a, b) if (a.startswith('0') or b.startswith('0')) else cmp(int(a, 10), int(b, 10))
+            if c:
+                return c
+        elif a.isalpha() and b.isdigit():
+            if a == 'alpha' or a == 'beta' or a == 'rc':
+                return -1
+        elif a.isdigit() and b.isalpha():
+            if b == 'alpha' or b == 'beta' or b == 'rc':
+                return 1
         else:
-            return b
+            c = cmp(a.upper(), b.upper())
+            if c:
+                return c
 
-    # This is nearly the same as _bigger_version, except that
-    #   - It returns a boolean value
-    #   - If max_version is None, it just returns False
-    #   - It treats 2.13 as == 2.13.0 instead of 2.13 as < 2.13.0
-    # The second property is particularly important with directory hierarchies
-    def version_greater_or_equal_to_max(a, max_version):
-        if not max_version:
-            return False
-        a_nums = a.split('.')
-        b_nums = max_version.split('.')
-        num_fields = min(len(a_nums), len(b_nums))
-        for i in range(num_fields):
-            if   int(a_nums[i]) > int(b_nums[i]):
-                return True
-            elif int(a_nums[i]) < int(b_nums[i]):
-                return False
-        return True
+    return cmp(len(A), len(B))
 
-    biggest = None
+
+def get_latest_version(versions, max_version=None):
+    """Gets the latest version number
+
+    if max_version is specified, gets the latest version number before
+    max_version"""
+    latest = None
     versions = [ v.rstrip(os.path.sep) for v in versions ]
-
     for version in versions:
-        if ((biggest is None or version == bigger_version(biggest, version)) and \
-            not version_greater_or_equal_to_max(version, max_version)):
-            biggest = version
-    return biggest
+        if ( latest is None or version_cmp(version, latest) > 0 ) \
+           and ( max_version is None or version_cmp(version, max_version) < 0 ):
+            latest = version
+    return latest
