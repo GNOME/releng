@@ -228,6 +228,28 @@ def version_cmp(a, b):
 
     return cmp(len(A), len(B))
 
+
+def version_greater_or_equal_to_max(a, max_version) -> bool:
+    print(f"version: {a}, max_version: {max_version}")
+
+    if not max_version:
+        return False
+
+    res = version_cmp(a, max_version)
+    if res == 0:
+        # This doesn't ever run atm casue version_cmp treats 3.36.0 and 3.36 as equal
+        assert(False)
+        # FIXME: check for .0
+        return True
+    elif res == 1:
+        return True
+    elif res == -1:
+        return False
+    # This should never happen
+    else:
+        assert(False)
+
+
 def get_latest_version(versions, max_version=None):
     """Gets the latest version number
 
@@ -237,6 +259,6 @@ def get_latest_version(versions, max_version=None):
     versions = [ v.rstrip(os.path.sep) for v in versions ]
     for version in versions:
         if ( latest is None or version_cmp(version, latest) > 0 ) \
-           and ( max_version is None or version_cmp(version, max_version) < 0 ):
+           and ( max_version is None or version_greater_or_equal_to_max(version, max_version) ):
             latest = version
     return latest
