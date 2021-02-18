@@ -15,7 +15,7 @@ core:cogl:1.22.8:
 core:dconf:0.36.0:
 core:eog:3.36.4:
 core:epiphany:3.36.4:
-core:evince:3.36.7:
+core:evince:3.36.10:
 core:evolution-data-server:3.36.5:
 core:file-roller:3.36.3:
 core:folks:0.14.0:
@@ -45,11 +45,11 @@ core:gnome-control-center:3.36.5:
 core:gnome-desktop:3.36.9:
 core:gnome-disk-utility:3.36.3:
 core:gnome-font-viewer:3.34.0:
-core:gnome-getting-started-docs:3.36.2:
+core:gnome-getting-started-docs:3.36.3:
 core:gnome-initial-setup:3.36.4:
 core:gnome-keyring:3.36.0:
 core:gnome-logs:3.36.0:
-core:gnome-maps:3.36.5:
+core:gnome-maps:3.36.6:
 core:gnome-menus:3.36.0:
 core:gnome-music:3.36.7:
 core:gnome-online-accounts:3.36.0:
@@ -58,11 +58,11 @@ core:gnome-photos:3.34.2:
 core:gnome-screenshot:3.36.0:
 core:gnome-session:3.36.0:
 core:gnome-settings-daemon:3.36.1:
-core:gnome-shell:3.36.7:
+core:gnome-shell:3.36.8:
 core:gnome-shell-extensions:3.36.7:
 core:gnome-software:3.36.1:
 core:gnome-system-monitor:3.36.1:
-core:gnome-terminal:3.36.2:
+core:gnome-terminal:3.36.3:
 core:gnome-themes-extra:3.28:
 core:gnome-user-docs:3.36.6:
 core:gnome-user-share:3.34.0:
@@ -76,9 +76,9 @@ core:gsettings-desktop-schemas:3.36.1:
 core:gsound:1.0.2:
 core:gspell:1.8.4:
 core:gssdp:1.2.3:
-core:gtk:4.0.1:
-core:gtk+:3.24.24:
-core:gtk-doc:1.33.1:
+core:gtk:4.0.3:
+core:gtk+:3.24.25:
+core:gtk-doc:1.33.2:
 core:gtk-vnc:1.0.0:
 core:gtkmm:4.0.0:
 core:gtkmm:3.24.3:
@@ -90,7 +90,7 @@ core:gvfs:1.44.1:
 core:json-glib:1.4.4:
 core:libchamplain:0.12.20:
 core:libdazzle:3.36.0:
-core:libgdata:0.17.13:
+core:libgdata:0.18.0:
 core:libgee:0.20.3:
 core:gfbgraph:0.2.4:
 core:libgnomekbd:3.26.1:
@@ -111,7 +111,7 @@ core:libsigc++:2.10.6:
 core:libsoup:2.70.0:
 core:libzapojit:0.0.3:
 core:mm-common:1.0.2:
-core:mutter:3.36.7:
+core:mutter:3.36.8:
 core:nautilus:3.36.3:
 core:orca:3.36.6:
 core:pango:1.44.7:
@@ -132,5 +132,5 @@ core:vala:0.48.13:
 core:vte:0.60.3:
 core:yelp:3.36.2:
 core:yelp-tools:3.32.2:
-core:yelp-xsl:3.36.0:
+core:yelp-xsl:3.36.1:
 core:zenity:3.32.0:
