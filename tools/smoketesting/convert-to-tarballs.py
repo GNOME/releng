@@ -273,8 +273,9 @@ def main(args):
             print("ERROR: Version number is not valid", file=sys.stderr)
             exit(1)
 
-        if is_stable:
-            config = Options(os.path.join(program_dir, 'tarball-conversion-{}.config'.format(branch)))
+        branch_config = 'tarball-conversion-{}.config'.format(branch)
+        if is_stable or os.path.exists(branch_config):
+            config = Options(os.path.join(program_dir, branch_config))
         else:
             config = Options(os.path.join(program_dir, 'tarball-conversion.config'))
 
