@@ -72,9 +72,9 @@ update of the GNOME runtime.""",
             },
             "wiki_template": {
                 'feature': '[[ReleasePlanning/Freezes|Feature and Module Freeze]]: new system-wide functionality and modules are chosen now.',
-                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No significant UI changes may be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for GNOME $newstable: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]].',
+                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No significant UI changes may be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for GNOME $newstable: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]].',
                 'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without approval from the i18n team ([[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]).',
-                'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://mail.gnome.org/mailman/listinfo/release-team|release-team]]. Translation and documentation can continue.',
+                'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]. Translation and documentation can continue.',
                 'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.',
              },
             'description_template': {
