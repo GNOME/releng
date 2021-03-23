@@ -12,7 +12,7 @@ core:clutter-gst:3.0.27:
 core:clutter-gtk:1.8.4:
 core:cogl:1.22.8:
 core:dconf:0.38.0:
-core:dconf-editor:3.38.2:
+core:dconf-editor:3.38.3:
 core:devhelp:3.38.1:
 core:eog:3.38.2:
 core:epiphany:3.38.3:
@@ -33,7 +33,7 @@ core:glibmm:2.64.5:
 core:gmime:3.2.7:
 core:gnome-autoar:0.2.4:
 core:gnome-backgrounds:3.38.0:
-core:gnome-bluetooth:3.34.4:
+core:gnome-bluetooth:3.34.5:
 core:gnome-boxes:3.38.2:
 core:gnome-builder:3.38.2:
 core:gnome-calculator:3.38.2:
@@ -65,6 +65,7 @@ core:gnome-shell-extensions:3.38.2:
 core:gnome-software:3.38.2:
 core:gnome-system-monitor:3.38.0:
 core:gnome-terminal:3.38.3:
+core:gnome-tour:3.38.0:
 core:gnome-user-docs:3.38.5:
 core:gnome-user-share:3.34.0:
 core:gnome-video-effects:0.5.0:
@@ -128,7 +129,7 @@ core:tracker:3.0.3:
 core:tracker:2.3.6:
 core:tracker-miners:3.0.4:
 core:tracker-miners:2.3.5:
-core:vala:0.48.15:
+core:vala:0.50.5:
 core:vte:0.62.3:
 core:wpebackend-fdo:1.8.2:
 core:yelp:3.38.3:
