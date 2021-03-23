@@ -109,7 +109,6 @@ core:librsvg:2.50.3:
 core:libsecret:0.20.4:
 core:libsigc++:2.10.6:
 core:libsoup:2.72.0:
-core:libwpe:1.8.0:
 core:mm-common:1.0.2:
 core:mutter:3.38.4:
 core:nautilus:3.38.2:
@@ -131,7 +130,6 @@ core:tracker-miners:3.0.4:
 core:tracker-miners:2.3.5:
 core:vala:0.50.5:
 core:vte:0.62.3:
-core:wpebackend-fdo:1.8.2:
 core:yelp:3.38.3:
 core:yelp-tools:3.38.0:
 core:yelp-xsl:3.38.3:
