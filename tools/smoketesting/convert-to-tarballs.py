@@ -180,10 +180,10 @@ class ConvertToTarballs:
 
         for directory in directories:
             for filename in os.listdir(directory):
-                if not filename.endswith('.bst'):
+                name, ext = os.path.splitext(filename)
+                if ext not in ('.bst', '.inc'):
                     continue
 
-                name = filename[:-len('.bst')]
                 fullpath = os.path.join(directory, filename)
 
                 with open(fullpath) as f:
