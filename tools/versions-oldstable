@@ -15,7 +15,7 @@ core:dconf:0.38.0:
 core:dconf-editor:3.38.3:
 core:devhelp:3.38.1:
 core:eog:3.38.3:
-core:epiphany:3.38.5:
+core:epiphany:3.38.6:
 core:evince:3.38.3:
 core:evolution-data-server:3.38.4:
 core:file-roller:3.38.1:
@@ -60,7 +60,7 @@ core:gnome-remote-desktop:0.1.9:
 core:gnome-screenshot:3.38.0:
 core:gnome-session:3.38.0:
 core:gnome-settings-daemon:3.38.2:
-core:gnome-shell:3.38.5:
+core:gnome-shell:3.38.6:
 core:gnome-shell-extensions:3.38.2:
 core:gnome-software:3.38.2:
 core:gnome-system-monitor:3.38.0:
@@ -75,7 +75,7 @@ core:gom:0.4:
 core:grilo:0.3.13:
 core:grilo-plugins:0.3.13:
 core:gsettings-desktop-schemas:3.38.0:
-core:gsound:1.0.2:
+core:gsound:1.0.3:
 core:gspell:1.8.4:
 core:gssdp:1.2.3:
 core:gtk:4.2.1:
@@ -88,7 +88,7 @@ core:gupnp:1.2.7:
 core:gupnp-av:0.12.11:
 core:gupnp-dlna:0.10.5:
 core:gvfs:1.46.2:
-core:json-glib:1.6.2:
+core:json-glib:1.6.4:
 core:libchamplain:0.12.20:
 core:libdazzle:3.38.0:
 core:libgdata:0.18.1:
@@ -110,7 +110,7 @@ core:libsecret:0.20.4:
 core:libsigc++:2.10.7:
 core:libsoup:2.72.0:
 core:mm-common:1.0.3:
-core:mutter:3.38.5:
+core:mutter:3.38.6:
 core:nautilus:3.38.2:
 core:orca:3.38.2:
 core:pango:1.46.2:
