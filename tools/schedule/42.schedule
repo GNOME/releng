@@ -4,7 +4,6 @@ stable:41
 newstable:42
 nextnewstable:43
 0:release:stable.0 mclasen
-0:tarball:oldstable.5 mcatanzaro
 6:tarball:stable.1 abderrahim
 6:tarball:oldstable.6 mcatanzaro
 11:tarball:stable.2
