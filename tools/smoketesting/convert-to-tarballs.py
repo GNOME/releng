@@ -268,7 +268,7 @@ def main(args):
         elif len(splitted_version) == 2:
             flatpak_branch = branch = splitted_version[0]
             is_stable = splitted_version[1].isnumeric()
-            qualifier = '' if is_stable else splitted_version[1]
+            qualifier = '' if is_stable else 'beta'
         else:
             print("ERROR: Version number is not valid", file=sys.stderr)
             exit(1)
