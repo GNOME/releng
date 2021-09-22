@@ -4,7 +4,7 @@ core:at-spi2-atk:2.38.0:
 core:at-spi2-core:2.42.0:
 core:atk:2.36.0:
 core:atkmm:2.28.2:
-core:baobab:40.0:
+core:baobab:41.0:
 core:calls:41.0:
 core:cantarell-fonts:0.301:
 core:cheese:41.0:
@@ -22,7 +22,7 @@ core:folks:0.15.3:
 core:gcab:1.4:
 core:gcr:3.40.0:
 core:gdk-pixbuf:2.42.6:
-core:gdm:41.rc:
+core:gdm:41.0:
 core:gedit:41.alpha:
 core:geocode-glib:3.26.2:
 core:gfbgraph:0.2.4:
@@ -38,7 +38,7 @@ core:gnome-boxes:41.1:
 core:gnome-builder:41.0:
 core:gnome-calculator:41.0:
 core:gnome-calendar:41.0:
-core:gnome-characters:40.0:
+core:gnome-characters:41.0:
 core:gnome-clocks:40.0:
 core:gnome-color-manager:3.36.0:
 core:gnome-connections:41.0:
@@ -46,7 +46,7 @@ core:gnome-contacts:41.beta:
 core:gnome-control-center:41.0:
 core:gnome-desktop:41.0:
 core:gnome-disk-utility:41.0:
-core:gnome-font-viewer:40.0:
+core:gnome-font-viewer:41.0:
 core:gnome-initial-setup:41.0:
 core:gnome-keyring:40.0:
 core:gnome-logs:3.36.0:
@@ -68,7 +68,7 @@ core:gnome-tour:41.rc:
 core:gnome-user-docs:41.0:
 core:gnome-user-share:3.34.0:
 core:gnome-video-effects:0.5.0:
-core:gnome-weather:40.1:
+core:gnome-weather:41.0:
 core:gobject-introspection:1.70.0:
 core:gom:0.4:
 core:grilo:0.3.13:
@@ -118,13 +118,13 @@ core:pyatspi:2.38.1:
 core:pygobject:3.42.0:
 core:rygel:0.40.2:
 core:simple-scan:40.1:
-core:sushi:3.38.1:
+core:sushi:41.0:
 core:sysprof:3.40.1:
 core:totem:3.38.1:
 core:totem-pl-parser:3.26.6:
 core:tracker:3.2.0.rc:
 core:tracker-miners:3.2.0.rc:
-core:vala:0.54.0:
+core:vala:0.54.1:
 core:vte:0.64.2:
 core:yelp:41.0:
 core:yelp-tools:41.0:
