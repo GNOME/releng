@@ -25,7 +25,6 @@ core:gdk-pixbuf:2.42.6:
 core:gdm:40.1:
 core:gedit:40.1:
 core:geocode-glib:3.26.2:
-core:gexiv2:0.12.3:
 core:gfbgraph:0.2.5:
 core:gjs:1.68.4:
 core:glib:2.68.4:
@@ -89,7 +88,6 @@ core:gupnp-av:0.12.11:
 core:gupnp-dlna:0.10.5:
 core:gvfs:1.48.1:
 core:json-glib:1.6.6:
-core:jsonrpc-glib:3.38.0:
 core:libchamplain:0.12.20:
 core:libdazzle:3.40.0:
 core:libgdata:0.18.1:
