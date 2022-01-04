@@ -101,9 +101,15 @@ class ConvertToTarballs:
         self.errors = []
         self.warnings = []
 
-        with open(os.path.join(directory, 'project.conf')) as f:
-            projectconf = yaml.safe_load(f)
-            self.aliases = projectconf['aliases']
+        if os.path.exists(os.path.join(directory, 'include/aliases.yml')):
+            fname = 'include/aliases.yml'
+        else:
+            fname = 'project.conf'
+
+        with open(os.path.join(directory, fname)) as f:
+            conf = yaml.safe_load(f)
+
+        self.aliases = conf['aliases']
 
     def _get_module_kind(self, element):
         if 'sources' not in element:
