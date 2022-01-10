@@ -27,7 +27,7 @@ import sys
 import argparse
 import os
 from xml.etree import ElementTree
-from ruamel import yaml
+from ruamel.yaml import YAML
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
@@ -91,9 +91,10 @@ class Options:
             self.release_sets[release_set].append(name)
 
 class ConvertToTarballs:
-    def __init__(self, options, directory, convert=True):
+    def __init__(self, options, directory, yaml, convert=True):
         self.options = options
         self.convert = convert
+        self.yaml = yaml
 
         self.all_tarballs = []
         self.all_versions = []
@@ -107,7 +108,7 @@ class ConvertToTarballs:
             fname = 'project.conf'
 
         with open(os.path.join(directory, fname)) as f:
-            conf = yaml.safe_load(f)
+            conf = yaml.load(f)
 
         self.aliases = conf['aliases']
 
@@ -168,7 +169,7 @@ class ConvertToTarballs:
 
         # Dump it now
         with open(fullpath, 'w') as f:
-            yaml.round_trip_dump(element, f)
+            self.yaml.dump(element, f)
 
     def print_errors(self):
         print("\033[91mErrors:\033[0m") # in red
@@ -193,7 +194,7 @@ class ConvertToTarballs:
                 fullpath = os.path.join(directory, filename)
 
                 with open(fullpath) as f:
-                    element = yaml.round_trip_load(f)
+                    element = self.yaml.load(f)
 
                 module_kind = self._get_module_kind(element)
                 if module_kind == 'git':
@@ -303,7 +304,11 @@ def main(args):
         parser.print_help()
         exit(1)
 
-    convert = ConvertToTarballs(config, args.directory, args.convert)
+    yaml = YAML()
+    yaml.preserve_quotes = True
+    yaml.width = 200
+
+    convert = ConvertToTarballs(config, args.directory, yaml, args.convert)
     convert.convert_modules([os.path.join(args.directory, 'elements', directory)
                              for directory in ('core-deps', 'core', 'sdk-deps', 'sdk')])
 
@@ -320,7 +325,7 @@ def main(args):
         # update variables in .gitlab-ci.yml
         cifile = os.path.join(args.directory, '.gitlab-ci.yml')
         with open(cifile) as f:
-            ci = yaml.round_trip_load(f, preserve_quotes=True)
+            ci = yaml.load(f)
 
         ci['variables']['FLATPAK_BRANCH'] = flatpak_branch + qualifier
 
@@ -328,30 +333,30 @@ def main(args):
             ci['variables']['BST_STRICT'] = '--strict'
 
         with open(cifile, 'w') as f:
-            yaml.round_trip_dump(ci, f, width=200)
+            yaml.dump(ci, f)
 
         # update project.conf
         projectconf = os.path.join(args.directory, 'project.conf')
         with open(projectconf) as f:
-            conf = yaml.round_trip_load(f, preserve_quotes=True)
+            conf = yaml.load(f)
 
         conf['variables']['branch'] = flatpak_branch
         conf['variables']['qualifier'] = qualifier
         conf['ref-storage'] = 'inline'
 
         with open(projectconf, 'w') as f:
-            yaml.round_trip_dump(conf, f, width=200)
+            yaml.dump(conf, f)
 
         # move junction refs to the respective files
         junctionrefs = os.path.join(args.directory, 'junction.refs')
         if os.path.exists(junctionrefs):
             with open(junctionrefs) as f:
-                refs = yaml.safe_load(f)['projects']['gnome']
+                refs = yaml.load(f)['projects']['gnome']
 
             for element in refs.keys():
                 elfile = os.path.join(args.directory, conf['element-path'], element)
                 with open(elfile) as f:
-                    eldata = yaml.round_trip_load(f, preserve_quotes=True)
+                    eldata = yaml.load(f)
 
                 for i in range(len(refs[element])):
                     if not refs[element][i]: # source has no ref
@@ -360,7 +365,7 @@ def main(args):
                     eldata['sources'][i]['ref'] = refs[element][i]['ref']
 
                 with open(elfile, 'w') as f:
-                    yaml.round_trip_dump(eldata, f)
+                    yaml.dump(eldata, f)
 
             os.unlink(junctionrefs)
 
