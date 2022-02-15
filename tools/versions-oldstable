@@ -18,7 +18,7 @@ core:epiphany:40.6:
 core:evince:40.4:
 core:evolution-data-server:3.40.4:
 core:file-roller:3.40.0:
-core:folks:0.15.3:
+core:folks:0.15.4:
 core:gcab:1.4:
 core:gcr:3.40.0:
 core:gdk-pixbuf:2.42.6:
@@ -26,7 +26,7 @@ core:gdm:40.1:
 core:gedit:40.1:
 core:geocode-glib:3.26.2:
 core:gfbgraph:0.2.5:
-core:gjs:1.68.4:
+core:gjs:1.68.5:
 core:glib:2.68.4:
 core:glib-networking:2.68.3:
 core:glibmm:2.66.2:
@@ -42,7 +42,7 @@ core:gnome-characters:40.0:
 core:gnome-clocks:40.0:
 core:gnome-color-manager:3.36.0:
 core:gnome-contacts:40.0:
-core:gnome-control-center:40.7:
+core:gnome-control-center:40.9:
 core:gnome-desktop:40.7:
 core:gnome-disk-utility:40.2:
 core:gnome-font-viewer:40.0:
@@ -65,7 +65,7 @@ core:gnome-software:40.4:
 core:gnome-system-monitor:40.1:
 core:gnome-terminal:3.40.3:
 core:gnome-tour:40.0:
-core:gnome-user-docs:40.5:
+core:gnome-user-docs:40.6:
 core:gnome-user-share:3.34.0:
 core:gnome-video-effects:0.5.0:
 core:gnome-weather:40.1:
@@ -91,7 +91,7 @@ core:json-glib:1.6.6:
 core:libchamplain:0.12.20:
 core:libdazzle:3.40.0:
 core:libgdata:0.18.1:
-core:libgee:0.20.4:
+core:libgee:0.20.5:
 core:libgnomekbd:3.26.1:
 core:libgsf:1.14.48:
 core:libgtop:2.40.0:
@@ -99,18 +99,18 @@ core:libgweather:40.0:
 core:libgxps:0.3.2:
 core:libhandy:1.2.3:
 core:libmediaart:1.9.5:
-core:libnma:1.8.32:
+core:libnma:1.8.34:
 core:libnotify:0.7.9:
 core:libpeas:1.30.0:
 core:rest:0.8.1:
 core:librsvg:2.50.7:
 core:libsecret:0.20.4:
-core:libsigc++:2.10.7:
+core:libsigc++:2.10.8:
 core:libsoup:2.72.0:
-core:mm-common:1.0.3:
+core:mm-common:1.0.4:
 core:mutter:40.8:
 core:nautilus:40.2:
-core:orca:40.1:
+core:orca:40.2:
 core:pango:1.48.11:
 core:pangomm:2.46.2:
 core:phodav:2.5:
