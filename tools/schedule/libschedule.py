@@ -64,37 +64,27 @@ update of the GNOME runtime.""",
             "prio": 5,
             "automail": True,
             "summary_template": {
-                'feature': 'Feature and Module Freeze',
                 'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period',
                 'string': 'String Freeze',
                 'hard-code': 'Hard Code Freeze',
                 'hard-code-end': 'Hard Code Freeze ends',
             },
             "wiki_template": {
-                'feature': '[[ReleasePlanning/Freezes|Feature and Module Freeze]]: new system-wide functionality and modules are chosen now.',
                 'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No significant UI changes may be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for GNOME $newstable: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]].',
                 'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without approval from the i18n team ([[https://mail.gnome.org/mailman/listinfo/gnome-i18n|gnome-i18n@]]).',
                 'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]. Translation and documentation can continue.',
                 'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.',
              },
             'description_template': {
-                'string-announcement': 'String Change Announcement Period',
-                'ui-announcement': 'UI Change Announcement Period',
-                'api': """No API or ABI changes should be made in the platform libraries. For instance, no new functions, no changed function signatures or struct fields.
+                'the-freeze': """API freeze begins on $date at 23:59 UTC. No API or ABI changes should be made in the platform libraries. This provides a stable development platform for the rest of the schedule.
 
-This provides a stable development platform for the rest of the schedule.
+Feature freeze begins on $date at 23:59 UTC. No new modules or features will be accepted for this release period. Bug fixes of existing features are not affected. This allows developers to concentrate on refining the new features instead of adding yet more functionality.
 
-There should usually be a "Slushy" API/ABI Freeze before the Hard API/ABI Freeze, to encourage developers to think about API problems while they have a chance to correct them.
-
-API freeze is not required for non-platform libraries, but is recommended.""",
-                'feature': """Desktop and platform release module additions are finalised, major feature additions are listed. No new modules or features will be accepted for this release period. "Feature" should be interpreted as "Functionality" or "Ability". Bug fixes of existing features are not affected.
-
-This allows developers to concentrate on refining the new features instead of adding yet more functionality.""",
-                'ui': """No major UI changes may be made without confirmation from the release team. Small fixes do not require permission.""",
+UI freeze begins on $date at 23:59 UTC. No major UI changes may be made without confirmation from the release team. Small fixes do not require permission.""",
                 'string': """No string changes may be made without confirmation from the i18n team.
 
 From this point, developers can concentrate on stability and bugfixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots. For explanation of the string freeze, and to see which kind of changes are not covered by freeze rules, check https://wiki.gnome.org/TranslationProject/HandlingStringFreezes. """,
-                'hard-code': """This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
+                'hard-code': """Hard code freeze begins on $date at 23:59 UTC. This is a late freeze to avoids sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
                 'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
             },
         },
