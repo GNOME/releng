@@ -8,7 +8,7 @@ import os
 import os.path
 import sys
 
-DEFAULT_SCHEDULE='42.schedule'
+DEFAULT_SCHEDULE='43.schedule'
 
 class GnomeReleaseEvent:
     definitions = {}
