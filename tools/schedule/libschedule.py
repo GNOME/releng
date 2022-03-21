@@ -43,7 +43,7 @@ handle the release for you.""",
             "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
 $version $detail release, which will be delivered next week. In order to
 ensure adequate testing, core modules should try to release according to
-the unstable schedule if they have significant changes.
+the unstable schedule if they have nontrivial changes.
 
 Please make sure that your tarballs will be uploaded before Saturday 23:59
 UTC. Tarballs uploaded later than that will probably be too late.""",
