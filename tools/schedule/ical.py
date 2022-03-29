@@ -39,17 +39,5 @@ for event in events:
     dtstamp = vevent.add('dtstamp')
     dtstamp.value = now
 
-    valarm = vevent.add('valarm')
-    x = valarm.add('action')
-    x.value = 'DISPLAY'
-    x = valarm.add('description')
-    x.value = summary.value
-    x = valarm.add('trigger')
-
-    if event.category == 'release':
-        x.value = start.value + datetime.timedelta(hours=-1)
-    else:
-        x.value = start.value + datetime.timedelta(days=-3)
-
 print(cal.serialize())
 
