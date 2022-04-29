@@ -134,6 +134,6 @@ core:vala:0.56.1:
 core:vte:0.68.0:
 core:xdg-desktop-portal-gnome:42.1:
 core:yelp:42.1:
-core:yelp-tools:41.0:
-core:yelp-xsl:41.1:
+core:yelp-tools:42.0:
+core:yelp-xsl:42.0:
 core:zenity:3.42.1:
