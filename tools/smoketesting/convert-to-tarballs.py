@@ -155,9 +155,6 @@ class ConvertToTarballs:
             if checksum:
                 element['sources'][0]['ref'] = checksum
 
-            # cargo sources shouldn't be needed in tarballs as tarballs should
-            # vendor their dependencies
-            element['sources'] = [source for source in element['sources'] if source['kind'] != 'cargo']
         elif element['sources'][0]['url'] == location:
             # only change existing tarballs if the url changed. this allows us to invalidate the
             # ref if we don't have a new one
