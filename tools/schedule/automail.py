@@ -21,7 +21,7 @@ https://gitlab.gnome.org/GNOME/releng/-/blob/master/tools/schedule/automail.py""
 def mail_events(events):
     if not events: return # sanity check
 
-    mail = 'devel-announce-list@gnome.org'
+    mail = 'desktop@discourse.gnome.org'
 
     subject = ""
     tasks = [event for event in events if event.category in cat_task]
