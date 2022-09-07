@@ -6,6 +6,7 @@ import smtplib
 from email.mime.text import MIMEText
 import io
 import textwrap
+import email.utils
 
 cat_task = set(('release', 'tarball'))
 
@@ -50,9 +51,10 @@ def mail_events(events):
     contents.seek(0)
     mime = MIMEText(contents.read())
     mime['Subject'] = subject
-    mime['From'] = 'Release Team <noreply@gnome.org>'
+    mime['From'] = 'GNOME Release Team <noreply@gnome.org>'
+    mime['Date'] = email.utils.formatdate()
     mime['To'] = mail
-    s.sendmail('accounts@gnome.org', [mail], mime.as_string())
+    s.sendmail('noreply@gnome.org', [mail], mime.as_string())
 
 
 
