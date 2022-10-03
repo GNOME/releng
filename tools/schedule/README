@@ -6,6 +6,6 @@ To set the schedule for a new version of GNOME, after creating a new .schedule f
 * Run releng/tools/schedule/wiki.py to create copy&paste schedule to paste into wikipage
 * Copy skeleton from e.g. https://wiki.gnome.org/Forty to e.g. https://wiki.gnome.org/FortyOne, update numbers, add the schedule
 * Copy ics file to Infrastructure/static-web/calendars and git commit/push it. Example: https://gitlab.gnome.org/Infrastructure/static-web/-/commit/a887c9e44b36dfa6c96db093356f3222bef7d977
-* Announce schedule on d-a-l
-** Example: https://mail.gnome.org/archives/devel-announce-list/2019-September/msg00003.html
-* Update version numbers on https://wiki.gnome.org/Schedule
+* Announce schedule on Discourse using the announcement tag
+** Example: https://discourse.gnome.org/t/gnome-44-release-schedule-available/11386
+* Update version numbers and dates on https://wiki.gnome.org/Schedule
