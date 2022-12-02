@@ -51,7 +51,7 @@ def mail_events(events):
     contents.seek(0)
     mime = MIMEText(contents.read())
     mime['Subject'] = subject
-    mime['From'] = 'GNOME Release Team <noreply@gnome.org>'
+    mime['From'] = 'GNOME Release Team <releng@gnome.org>'
     mime['Date'] = email.utils.formatdate()
     mime['To'] = mail
     s.sendmail('noreply@gnome.org', [mail], mime.as_string())
