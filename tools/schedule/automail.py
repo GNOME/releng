@@ -8,6 +8,15 @@ import io
 import textwrap
 import email.utils
 
+# Flip this to True to print to console instead of sending email.
+test_mode = False
+
+# Notify for events scheduled on this date.
+# Example: date_to_notify_for = datetime.datetime(2022, 2, 22).date()
+date_to_notify_for = datetime.date.today() + datetime.timedelta(3)
+
+recipient = 'desktop@discourse.gnome.org'
+
 cat_task = set(('release', 'tarball', 'develtarball'))
 
 FOOTER = """\n\n\nFor more information about the schedule for GNOME $newstable,
@@ -26,10 +35,6 @@ def build_subject(events):
     return ', '.join([summary for summary in summaries])
 
 def mail_events(events):
-    if not events: return # sanity check
-
-    mail = 'desktop@discourse.gnome.org'
-
     subject = ""
     tasks = [event for event in events if event.category in cat_task]
     notes = [event for event in events if event.category not in cat_task]
@@ -43,39 +48,26 @@ def mail_events(events):
     contents.write("Hello all,\n\n")
     if len(events) > 1:
         contents.write("We would like to inform you about the following:\n* %s\n\n\n" % "\n* ".join([event.summary for event in events]))
-
     contents.write("\n\n\n".join([textwrap.fill(event.description) for event in events]))
-
     contents.write(string.Template(FOOTER).safe_substitute(events[0]))
 
-    s = smtplib.SMTP()
-    s.connect(host='smtp-int.gnome.org')
-    contents.seek(0)
-    mime = MIMEText(contents.read())
-    mime['Subject'] = subject
-    mime['From'] = 'GNOME Release Team <releng@gnome.org>'
-    mime['Date'] = email.utils.formatdate()
-    mime['To'] = mail
-    s.sendmail('noreply@gnome.org', [mail], mime.as_string())
+    if test_mode:
+        print(f'Subject: {subject}')
+        print('From: GNOME Release Team <releng@gnome.org>')
+        print(f'Date: {email.utils.formatdate()}')
+        print(f'To: {recipient}')
+        print(f'\n{contents.getvalue()}')
+    else:
+        s = smtplib.SMTP()
+        s.connect(host='smtp-int.gnome.org')
+        contents.seek(0)
+        mime = MIMEText(contents.read())
+        mime['Subject'] = subject
+        mime['From'] = 'GNOME Release Team <releng@gnome.org>'
+        mime['Date'] = email.utils.formatdate()
+        mime['To'] = recipient
+        s.sendmail('noreply@gnome.org', [mail], mime.as_string())
 
-
-
-events = parse_file()
-today = datetime.date.today()
-date_to_notify_for = today + datetime.timedelta (3)
-
-events_to_email = [event for event in events if event.automail and event.date == date_to_notify_for]
-
-if events_to_email:
-    mail_events(events_to_email)
-
-# For testing purposes
-#dates = set()
-#for event in events:
-#    dates.add(event.date)
-#
-#for date in dates:
-#    events_to_email = [event for event in events if event.date == date]
-#    mail_events(events_to_email)
-
-
+events = ([event for event in parse_file() if event.automail and event.date == date_to_notify_for])
+if events:
+    mail_events(events)
