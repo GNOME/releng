@@ -93,7 +93,7 @@ core:gvfs:1.50.3:
 core:json-glib:1.6.6:
 core:jsonrpc-glib:3.42.0:
 core:libadwaita:1.1.6:
-core:libchamplain:0.12.21:
+core:libchamplain:0.12.20:
 core:libdazzle:3.44.0:
 core:libgdata:0.18.1:
 core:libgee:0.20.6:
