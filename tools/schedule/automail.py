@@ -19,6 +19,12 @@ Thanks,
 Automatically generated email. Source at:
 https://gitlab.gnome.org/GNOME/releng/-/blob/master/tools/schedule/automail.py"""
 
+def build_subject(events):
+    summaries = []
+    for event in events:
+        summaries.append(event.summary if not event.assignee else f'{event.summary} (responsible: {event.assignee})')
+    return ', '.join([summary for summary in summaries])
+
 def mail_events(events):
     if not events: return # sanity check
 
@@ -28,14 +34,10 @@ def mail_events(events):
     tasks = [event for event in events if event.category in cat_task]
     notes = [event for event in events if event.category not in cat_task]
     if (tasks and not notes) or (notes and not tasks):
-        subject = ', '.join([event.summary for event in events])
+        subject = build_subject(events)
     else:
         # Show tasks only, even if we have notes
-        subject = "%s (and more)" % ', '.join([task.summary for task in tasks])
-
-    assignees = set(event.assignee for event in events if event.assignee)
-    if assignees:
-        subject += ' (responsible: %s)' % ', '.join(assignees)
+        subject = f'{build_subject(tasks)} (and more)'
 
     contents = io.StringIO()
     contents.write("Hello all,\n\n")
