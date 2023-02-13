@@ -218,7 +218,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             continue
 
         if not ':' in line:
-            print("Error: line '%s' is not parsable" % line[0:-1])
+            print(f"Error: line '{line[0:-1]}' is not parseable")
             return None
 
         info = [item.strip() for item in line.split(':')]
@@ -279,7 +279,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                     i[0] = definitions.get(i[0])
                     version = '.'.join(i)
             if category in ['release', 'tarball', 'develtarball'] and version is None:
-                print("Error: line '%s' is not parseable" % line[0:-1])
+                print(f"Error: line '{line[0:-1]}' is not parseable")
                 return None
 
             if event == 'translation-deadline' and not fixedDate:
