@@ -266,7 +266,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
             # Expand event info
             version = None
             assignee = None
-            if (category == 'release' or 'tarball' in category) and '.' in event:
+            if (category == 'release' or category == 'tarball' or category == 'develtarball') and '.' in event:
                 if ' ' in event:
                     i = event.split(' ', 1)
                     event = i[0]
@@ -278,7 +278,7 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
                     event = i[0]
                     i[0] = definitions.get(i[0])
                     version = '.'.join(i)
-            if (category == 'release' or 'tarball' in category) and version is None:
+            if (category == 'release' or category == 'tarball' or category == 'develtarball') and version is None:
                 print("Error: line '%s' is not parsable" % line[0:-1])
                 return None
 

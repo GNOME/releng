@@ -8,7 +8,7 @@ import io
 import textwrap
 import email.utils
 
-cat_task = set(('release', 'tarball'))
+cat_task = set(('release', 'tarball', 'develtarball'))
 
 FOOTER = """\n\n\nFor more information about the schedule for GNOME $newstable,
 please see:
