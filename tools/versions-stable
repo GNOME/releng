@@ -3,7 +3,7 @@ core:adwaita-icon-theme:43.beta.1:
 core:at-spi2-core:2.46.0:
 core:atkmm:2.28.3:
 core:baobab:43.0:
-core:calls:43.2:
+core:calls:43.3:
 core:cantarell-fonts:0.303.1:
 core:cheese:43.0:
 core:clutter:1.26.4:
@@ -16,7 +16,7 @@ core:devhelp:43.0:
 core:eog:43.2:
 core:epiphany:43.0:
 core:evince:43.1:
-core:evolution-data-server:3.46.3:
+core:evolution-data-server:3.46.4:
 core:folks:0.15.5:
 core:gcab:1.5:
 core:gcr:4.0.0:
@@ -26,7 +26,7 @@ core:gdm:43.0:
 core:geocode-glib:3.26.4:
 core:gexiv2:0.14.0:
 core:gjs:1.74.1:
-core:glib:2.74.4:
+core:glib:2.74.5:
 core:glib-networking:2.74.0:
 core:glibmm:2.66.5:
 core:gmime:3.2.7:
@@ -34,7 +34,7 @@ core:gnome-autoar:0.4.3:
 core:gnome-backgrounds:43.rc:
 core:gnome-bluetooth:42.5:
 core:gnome-boxes:43.2:
-core:gnome-builder:43.4:
+core:gnome-builder:43.6:
 core:gnome-calculator:43.0.1:
 core:gnome-calendar:43.1:
 core:gnome-characters:43.1:
@@ -42,15 +42,15 @@ core:gnome-clocks:43.0:
 core:gnome-color-manager:3.36.0:
 core:gnome-connections:43.0:
 core:gnome-console:43.0:
-core:gnome-contacts:43.0:
-core:gnome-control-center:43.2:
-core:gnome-desktop:43.rc:
+core:gnome-contacts:43.1:
+core:gnome-control-center:43.4.1:
+core:gnome-desktop:43.1:
 core:gnome-disk-utility:43.0:
 core:gnome-font-viewer:43.0:
 core:gnome-initial-setup:43.2:
 core:gnome-keyring:42.1:
 core:gnome-logs:43.0:
-core:gnome-maps:43.3:
+core:gnome-maps:43.4:
 core:gnome-menus:3.36.0:
 core:gnome-music:42.1:
 core:gnome-online-accounts:3.46.0:
@@ -60,7 +60,7 @@ core:gnome-session:43.0:
 core:gnome-settings-daemon:43.0:
 core:gnome-shell:43.2:
 core:gnome-shell-extensions:43.1:
-core:gnome-software:43.3:
+core:gnome-software:43.4:
 core:gnome-system-monitor:42.0:
 core:gnome-text-editor:43.2:
 core:gnome-tour:43.0:
@@ -89,7 +89,7 @@ core:gupnp-dlna:0.12.0:
 core:gvfs:1.50.3:
 core:json-glib:1.6.6:
 core:jsonrpc-glib:3.42.0:
-core:libadwaita:1.2.1:
+core:libadwaita:1.2.2:
 core:libdazzle:3.44.0:
 core:libgdata:0.18.1:
 core:libgee:0.20.6:
@@ -98,7 +98,7 @@ core:libgsf:1.14.50:
 core:libgtop:2.40.0:
 core:libgweather:4.2.0:
 core:libgxps:0.3.2:
-core:libhandy:1.8.0:
+core:libhandy:1.8.1:
 core:libmediaart:1.9.6:
 core:libnma:1.10.6:
 core:libnotify:0.8.1:
@@ -120,7 +120,7 @@ core:pangomm:2.46.3:
 core:phodav:3.0:
 core:pyatspi:2.46.0:
 core:pygobject:3.42.2:
-core:rygel:0.42.0:
+core:rygel:0.42.1:
 core:simple-scan:42.5:
 core:sushi:43.0:
 core:sysprof:3.46.0:
@@ -128,8 +128,8 @@ core:template-glib:3.36.0:
 core:totem:43.0:
 core:totem-pl-parser:3.26.6:
 core:tracker:3.4.2:
-core:tracker-miners:3.4.2:
-core:vala:0.56.3:
+core:tracker-miners:3.4.3:
+core:vala:0.56.4:
 core:vte:0.70.2:
 core:xdg-desktop-portal-gnome:43.1:
 core:yelp:42.2:
