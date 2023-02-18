@@ -161,8 +161,10 @@ class ConvertToTarballs:
             return
         else:
             element['sources'][0]['url'] = location
-            if checksum or 'ref' in element['sources'][0]:
+            if checksum:
                 element['sources'][0]['ref'] = checksum
+            elif 'ref' in element['sources'][0]:
+                del element['sources'][0]['ref']
 
         # Dump it now
         with open(fullpath, 'w') as f:
@@ -339,7 +341,6 @@ def main(args):
 
         conf['variables']['branch'] = flatpak_branch
         conf['variables']['qualifier'] = qualifier
-        conf['ref-storage'] = 'inline'
 
         with open(projectconf, 'w') as f:
             yaml.dump(conf, f)
