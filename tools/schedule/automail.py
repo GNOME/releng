@@ -66,7 +66,7 @@ def mail_events(events):
         mime['From'] = 'GNOME Release Team <releng@gnome.org>'
         mime['Date'] = email.utils.formatdate()
         mime['To'] = recipient
-        s.sendmail('noreply@gnome.org', [mail], mime.as_string())
+        s.sendmail('noreply@gnome.org', [recipient], mime.as_string())
 
 events = ([event for event in parse_file() if event.automail and event.date == date_to_notify_for])
 if events:
