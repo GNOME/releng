@@ -17,7 +17,7 @@ date_to_notify_for = datetime.date.today() + datetime.timedelta(3)
 
 recipient = 'desktop@discourse.gnome.org'
 
-cat_task = set(('release', 'tarball', 'develtarball'))
+cat_task = set(('release', 'tarball', 'develtarball', 'newstabletarball'))
 
 FOOTER = """\n\n\nFor more information about the schedule for GNOME $newstable,
 please see:
