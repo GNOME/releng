@@ -19,8 +19,24 @@ class GnomeReleaseEvent:
             'wiki_template': 'GNOME $version $detail release',
             'description_template': 'GNOME $version $detail release',
         },
-        "develtarball": {
+        "newstabletarball": {
             "prio": 2,
+            "automail": True,
+            'summary_template': 'GNOME $version $detail tarballs due',
+            "wiki_template": 'GNOME $version $detail tarballs due',
+            "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
+$version $detail release, which will be delivered next week. All modules
+that had an unstable release during the current release cycle must
+release to ensure a stable version number, even if there have been no
+changes since the previous release.
+
+Please make sure that your tarballs will be uploaded before Saturday 23:59
+UTC. Tarballs uploaded later than that will probably be too late. If
+you need help, please contact the release team and we'll find someone to
+handle the release for you.""",
+        },
+        "develtarball": {
+            "prio": 3,
             "automail": True,
             'summary_template': 'GNOME $version $detail tarballs due',
             "wiki_template": 'GNOME $version $detail tarballs due',
@@ -33,7 +49,7 @@ Please make sure that your tarballs will be uploaded before Saturday 23:59
 UTC. Tarballs uploaded later than that will probably be too late.""",
         },
         "tarball": {
-            "prio": 3,
+            "prio": 4,
             "automail": True,
             'summary_template': 'GNOME $version $detail tarballs due',
             "wiki_template": 'GNOME $version $detail tarballs due',
@@ -45,7 +61,7 @@ Modules released before this deadline will be included in the $version
 update of the GNOME runtime.""",
         },
         "freeze": {
-            "prio": 4,
+            "prio": 5,
             "automail": True,
             "summary_template": {
                 'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period',
@@ -73,7 +89,7 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             },
         },
         "task": {
-            "prio": 5,
+            "prio": 6,
             "automail": True,
             "summary_template": {
                 'api-doc': 'New APIs must be fully documented',
@@ -92,17 +108,17 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             }
         },
         "conference": {
-            "prio": 6,
+            "prio": 7,
             "summary_template": '$detail conference',
             "wiki_template": '$detail conference',
         },
         "hackfest": {
-            "prio": 7,
+            "prio": 8,
             "summary_template": '$detail hackfest',
             "wiki_template": '$detail hackfest',
         },
         "eol": {
-            "prio": 8,
+            "prio": 9,
             "summary_template": 'End of life for $oldstable',
             "wiki_template": 'End of life for GNOME $oldstable. This will be the final update to the $oldstable runtime.',
         }
@@ -284,6 +300,10 @@ def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
 
             if event == 'translation-deadline' and not fixedDate:
                 date = date + datetime.timedelta(4)
+
+            if category == 'release' and event == 'newstable':
+                rel_event = cls(date, week, 'newstabletarball', event, version, assignee)
+                events.append (rel_event)
 
             if category == 'release' and not fixedDate:
                 date = date + datetime.timedelta(4)
