@@ -1,0 +1,36 @@
+yearweek:202312
+oldstable:43
+stable:44
+newstable:45
+nextnewstable:46
+0:release:stable.0 mclasen
+5:tarball:stable.1 jbicha
+5:tarball:oldstable.6
+10:tarball:stable.2
+10:tarball:oldstable.7
+15:develtarball:newstable.alpha alatiera
+15:tarball:stable.3
+15:tarball:oldstable.8
+2023-07-26:conference:GUADEC:https://www.guadec.org/
+2023-07-27:conference:GUADEC:https://www.guadec.org/
+2023-07-28:conference:GUADEC:https://www.guadec.org/
+2023-07-29:conference:GUADEC:https://www.guadec.org/
+2023-07-30:conference:GUADEC:https://www.guadec.org/
+2023-07-31:conference:GUADEC:https://www.guadec.org/
+20:task:api-doc
+20:task:release-notes-start
+20:freeze:the-freeze
+20:develtarball:newstable.beta abderrahim
+20:tarball:stable.4
+20:tarball:oldstable.9
+23:freeze:string
+24:freeze:hard-code
+24:develtarball:newstable.rc jjardon
+25:task:translation-deadline
+26:release:newstable.0 mclasen
+26:tarball:stable.5
+26:tarball:oldstable.10
+26:freeze:hard-code-end
+26:eol:oldstable
+31:tarball:newstable.1
+31:tarball:stable.6
