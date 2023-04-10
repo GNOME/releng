@@ -24,13 +24,11 @@ nextnewstable:46
 20:tarball:stable.4 alatiera
 20:tarball:oldstable.9 jbicha
 23:freeze:string
-24:freeze:hard-code
 24:develtarball:newstable.rc jjardon
 25:task:translation-deadline
 26:release:newstable.0 mclasen
 26:tarball:stable.5 jbicha
 26:tarball:oldstable.10 jjardon
-26:freeze:hard-code-end
 26:eol:oldstable
 31:tarball:newstable.1 jbicha
 31:tarball:stable.6 mclasen
