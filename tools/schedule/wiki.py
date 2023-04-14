@@ -60,7 +60,7 @@ for smonths in splitter(months, 4):
         print('||%s||' % '||'.join(("||".join(cells) for cells in r)))
 
 print("")
-print("||<:> '''Week''' ||<:> '''Date''' || '''Task''' || '''Notes''' ||")
+print("||<:> '''Date''' || '''Task''' || '''Notes''' ||")
 year = None
 for month, events_month in itertools.groupby(events, by_month):
     events = list(events_month)
@@ -73,17 +73,13 @@ for month, events_month in itertools.groupby(events, by_month):
         print("||<-4 rowbgcolor=\"#dddddd\"> '''%d''' ||" % year)
     print("||<-4 rowbgcolor=\"#dddddd\"> '''%s''' ||" % month_str)
 
-    for week, events_week in itertools.groupby(events, by_week):
+    for _, events_week in itertools.groupby(events, by_week):
         events = list(events_week)
-        rel_week_str = "%s" % (events[0].isoweek % 100)
-
         dates = list([(key, list(items)) for key, items in itertools.groupby(events, by_date)])
 
-        print("||<|%d ^ : #9db8d2> %s " % (len (dates), rel_week_str), end=' ')
         for date, items in dates:
             date_str = items[0].date.strftime("%a %d")
             print("||<^ : #c5d2c8> %s %s" % (date_str, '<<Anchor(d%s)>>' % items[0].date.isoformat()), end=' ')
-
 
             task_items = [item for item in items if item.category in cat_task]
             note_items = [item for item in items if item.category not in cat_task]
