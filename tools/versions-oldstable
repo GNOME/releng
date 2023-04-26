@@ -10,6 +10,7 @@ core:clutter:1.26.4:
 core:clutter-gst:3.0.27:
 core:clutter-gtk:1.8.4:
 core:cogl:1.22.8:
+core:d-spy:1.4.0:
 core:dconf:0.40.0:
 core:dconf-editor:43.0:
 core:devhelp:43.0:
@@ -26,7 +27,7 @@ core:gdm:43.0:
 core:geocode-glib:3.26.4:
 core:gexiv2:0.14.0:
 core:gjs:1.74.2:
-core:glib:2.74.6:
+core:glib:2.74.7:
 core:glib-networking:2.74.0:
 core:glibmm:2.66.6:
 core:gmime:3.2.7:
@@ -34,7 +35,7 @@ core:gnome-autoar:0.4.4:
 core:gnome-backgrounds:43.1:
 core:gnome-bluetooth:42.5:
 core:gnome-boxes:43.4:
-core:gnome-builder:43.6:
+core:gnome-builder:43.7:
 core:gnome-calculator:43.0.1:
 core:gnome-calendar:43.1:
 core:gnome-characters:43.1:
@@ -58,7 +59,7 @@ core:gnome-photos:43.0:
 core:gnome-remote-desktop:43.4:
 core:gnome-session:43.0:
 core:gnome-settings-daemon:43.0:
-core:gnome-shell:43.4:
+core:gnome-shell:43.5:
 core:gnome-shell-extensions:43.1:
 core:gnome-software:43.5:
 core:gnome-system-monitor:42.0:
@@ -71,7 +72,7 @@ core:gnome-weather:43.0:
 core:gobject-introspection:1.74.0:
 core:gom:0.4:
 core:grilo:0.3.15:
-core:grilo-plugins:0.3.15:
+core:grilo-plugins:0.3.16:
 core:gsettings-desktop-schemas:43.0:
 core:gsound:1.0.3:
 core:gspell:1.12.0:
@@ -112,15 +113,15 @@ core:libsigc++:2.12.0:
 core:libsoup:3.2.2:
 core:libsoup:2.74.3:
 core:mm-common:1.0.5:
-core:mutter:43.4:
-core:nautilus:43.3:
+core:mutter:43.5:
+core:nautilus:43.4:
 core:orca:43.1:
 core:pango:1.50.14:
 core:pangomm:2.46.3:
 core:phodav:3.0:
 core:pyatspi:2.46.0:
 core:pygobject:3.42.2:
-core:rygel:0.42.1:
+core:rygel:0.42.3:
 core:simple-scan:42.5:
 core:sushi:43.0:
 core:sysprof:3.46.0:
@@ -129,7 +130,7 @@ core:totem:43.0:
 core:totem-pl-parser:3.26.6:
 core:tracker:3.4.2:
 core:tracker-miners:3.4.3:
-core:vala:0.56.4:
+core:vala:0.56.7:
 core:vte:0.70.3:
 core:xdg-desktop-portal-gnome:43.1:
 core:yelp:42.2:
