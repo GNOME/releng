@@ -127,7 +127,7 @@ core:sysprof:3.48.0:
 core:template-glib:3.36.1:
 core:totem:43.0:
 core:totem-pl-parser:3.26.6:
-core:tracker:3.5.2:
+core:tracker:3.5.1:
 core:tracker-miners:3.5.2:
 core:vala:0.56.8:
 core:vte:0.72.1:
