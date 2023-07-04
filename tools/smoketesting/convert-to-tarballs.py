@@ -150,6 +150,14 @@ class ConvertToTarballs:
                 location = alias + ':' + location[len(url):]
 
         if self._get_module_kind(element) == 'git':
+            # check if there any git_module sources and
+            # remove them since we are converting to tarballs
+            element["sources"] = [
+                source
+                for source in element["sources"]
+                if source.get("kind") != "git_module"
+            ]
+
             # Replace the first source with a tarball
             element['sources'][0] = { 'kind': 'tar', 'url': location}
             if checksum:
