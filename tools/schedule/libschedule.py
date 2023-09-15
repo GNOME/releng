@@ -8,6 +8,8 @@ import os
 import os.path
 import sys
 
+# Careful! Don't push any changes to DEFAULT_SCHEDULE until after the release
+# cycle has ended, or you will break Discourse release reminders.
 DEFAULT_SCHEDULE='46.schedule'
 
 class GnomeReleaseEvent:
