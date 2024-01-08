@@ -26,6 +26,7 @@ core:gdk-pixbuf:2.42.10:
 core:gdm:44.1:
 core:geocode-glib:3.26.4:
 core:gexiv2:0.14.2:
+core:gi-docgen:2023.1:
 core:gjs:1.76.2:
 core:glib:2.76.6:
 core:glib-networking:2.76.1:
@@ -59,7 +60,7 @@ core:gnome-photos:44.0:
 core:gnome-remote-desktop:44.2:
 core:gnome-session:44.0:
 core:gnome-settings-daemon:44.1:
-core:gnome-shell:44.7:
+core:gnome-shell:44.8:
 core:gnome-shell-extensions:44.0:
 core:gnome-software:44.5:
 core:gnome-system-monitor:44.0:
@@ -78,7 +79,7 @@ core:gsound:1.0.3:
 core:gspell:1.12.2:
 core:gssdp:1.6.3:
 core:gtk:4.10.5:
-core:gtk+:3.24.38:
+core:gtk+:3.24.39:
 core:gtk-doc:1.33.2:
 core:gtk-vnc:1.3.1:
 core:gtkmm:3.24.8:
@@ -112,16 +113,16 @@ core:libshumate:1.0.5:
 core:libsigc++:2.12.1:
 core:libsoup:3.4.4:
 core:libsoup:2.74.3:
-core:mm-common:1.0.5:
-core:mutter:44.7:
+core:mm-common:1.0.6:
+core:mutter:44.8:
 core:nautilus:44.3.1:
 core:orca:44.2:
 core:pango:1.50.14:
 core:pangomm:2.46.3:
 core:phodav:3.0:
-core:pyatspi:2.46.0:
+core:pyatspi:2.46.1:
 core:pygobject:3.44.2:
-core:rygel:0.42.4:
+core:rygel:0.42.5:
 core:simple-scan:44.0:
 core:sushi:44.2:
 core:sysprof:3.48.0:
@@ -131,7 +132,7 @@ core:totem-pl-parser:3.26.6:
 core:tracker:3.5.3:
 core:tracker-miners:3.5.4:
 core:vala:0.56.14:
-core:vte:0.72.3:
+core:vte:0.72.4:
 core:xdg-desktop-portal-gnome:44.2:
 core:yelp:42.2:
 core:yelp-tools:42.1:
