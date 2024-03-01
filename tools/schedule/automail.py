@@ -53,7 +53,7 @@ def mail_events(events):
 
     if test_mode:
         print(f'Subject: {subject}')
-        print('From: noreply@gnome.org')
+        print('From: GNOME Release Team <releng@gnome.org>')
         print(f'Date: {email.utils.formatdate()}')
         print(f'To: {recipient}')
         print(f'\n{contents.getvalue()}')
@@ -63,7 +63,7 @@ def mail_events(events):
         contents.seek(0)
         mime = MIMEText(contents.read())
         mime['Subject'] = subject
-        mime['From'] = 'noreply@gnome.org'
+        mime['From'] = 'GNOME Release Team <releng@gnome.org>'
         mime['Date'] = email.utils.formatdate()
         mime['To'] = recipient
         s.sendmail('noreply@gnome.org', [recipient], mime.as_string())
