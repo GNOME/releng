@@ -21,7 +21,7 @@ cat_task = set(('release', 'tarball', 'develtarball', 'newstabletarball'))
 
 FOOTER = """\n\n\nFor more information about the schedule for GNOME $newstable,
 please see:
-   https://wiki.gnome.org/Schedule
+   https://release.gnome.org/calendar/
 
 Thanks,
 --
