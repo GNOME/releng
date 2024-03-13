@@ -12,6 +12,8 @@ import sys
 # cycle has ended, or you will break Discourse release reminders.
 DEFAULT_SCHEDULE='46.schedule'
 
+# Careful! The summary has to contain the GNOME version number to ensure a
+# unique subject line, or Discourse will silently drop the mail.
 class GnomeReleaseEvent:
     definitions = {}
     categories = {
@@ -66,10 +68,10 @@ update of the GNOME runtime.""",
             "prio": 5,
             "automail": True,
             "summary_template": {
-                'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period',
-                'string': 'String Freeze',
-                'hard-code': 'Hard Code Freeze',
-                'hard-code-end': 'Hard Code Freeze ends',
+                'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period for GNOME $stable',
+                'string': 'String Freeze for GNOME $stable',
+                'hard-code': 'Hard Code Freeze for GNOME $stable',
+                'hard-code-end': 'Hard Code Freeze for GNOME $stable ends',
             },
             "wiki_template": {
                 'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No significant UI changes may be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for GNOME $newstable: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://discourse.gnome.org/|Discourse with the i18n tag]].',
@@ -94,9 +96,9 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             "prio": 6,
             "automail": True,
             "summary_template": {
-                'api-doc': 'New APIs must be fully documented',
-                'release-notes-start': 'Writing of release notes begins',
-                'translation-deadline': 'Soft translation deadline'
+                'api-doc': 'New APIs for GNOME $stable must be fully documented',
+                'release-notes-start': 'Writing of GNOME $stable release notes begins',
+                'translation-deadline': 'Soft translation deadline for GNOME $stable'
             },
             "wiki_template": {
                 'api-doc': 'New APIs must be fully documented',
@@ -111,12 +113,12 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         },
         "conference": {
             "prio": 7,
-            "summary_template": '$detail conference',
+            "summary_template": '$detail conference ($date)',
             "wiki_template": '$detail conference',
         },
         "hackfest": {
             "prio": 8,
-            "summary_template": '$detail hackfest',
+            "summary_template": '$detail hackfest ($date)',
             "wiki_template": '$detail hackfest',
         },
         "eol": {

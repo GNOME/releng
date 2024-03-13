@@ -12,7 +12,8 @@ import email.utils
 test_mode = False
 
 # Notify for events scheduled on this date.
-# Example: date_to_notify_for = datetime.datetime(2022, 2, 22).date()
+# Change this for testing the script. Example:
+#date_to_notify_for = datetime.datetime(2022, 2, 22).date()
 date_to_notify_for = datetime.date.today() + datetime.timedelta(3)
 
 recipient = 'desktop@discourse.gnome.org'
