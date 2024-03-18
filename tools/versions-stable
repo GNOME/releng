@@ -112,7 +112,7 @@ core:mm-common:1.0.6:
 core:mutter:45.5:
 core:nautilus:45.2.1:
 core:orca:45.2:
-core:pango:1.52.1:
+core:pango:1.51.2:
 core:pangomm:2.46.4:
 core:phodav:3.0:
 core:pyatspi:2.46.1:
