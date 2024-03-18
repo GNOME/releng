@@ -18,7 +18,7 @@ core:eog:44.3:
 core:epiphany:44.8:
 core:evince:44.3:
 core:evolution-data-server:3.48.4:
-core:folks:0.15.7:
+core:folks:0.15.8:
 core:gcab:1.5:
 core:gcr:4.1.0:
 core:gcr:3.41.2:
@@ -55,12 +55,12 @@ core:gnome-logs:43.0:
 core:gnome-maps:44.5:
 core:gnome-menus:3.36.0:
 core:gnome-music:44.0:
-core:gnome-online-accounts:3.48.0:
+core:gnome-online-accounts:3.48.1:
 core:gnome-photos:44.0:
 core:gnome-remote-desktop:44.2:
 core:gnome-session:44.0:
 core:gnome-settings-daemon:44.1:
-core:gnome-shell:44.9:
+core:gnome-shell:44.10:
 core:gnome-shell-extensions:44.0:
 core:gnome-software:44.5:
 core:gnome-system-monitor:44.0:
@@ -82,7 +82,7 @@ core:gtk:4.10.5:
 core:gtk+:3.24.41:
 core:gtk-doc:1.33.2:
 core:gtk-vnc:1.3.1:
-core:gtkmm:3.24.8:
+core:gtkmm:3.24.9:
 core:gtksourceview:5.8.0:
 core:gtksourceview:4.8.4:
 core:gupnp:1.6.6:
@@ -126,12 +126,12 @@ core:rygel:0.42.5:
 core:simple-scan:44.0:
 core:sushi:44.2:
 core:sysprof:3.48.0:
-core:template-glib:3.36.1:
+core:template-glib:3.36.2:
 core:totem:43.0:
 core:totem-pl-parser:3.26.6:
 core:tracker:3.5.3:
 core:tracker-miners:3.5.4:
-core:vala:0.56.14:
+core:vala:0.56.16:
 core:vte:0.72.4:
 core:xdg-desktop-portal-gnome:44.2:
 core:yelp:42.2:
