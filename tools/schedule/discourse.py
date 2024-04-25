@@ -17,8 +17,7 @@ please see the [release calendar](https://release.gnome.org/calendar/).
 
 Thanks,
 GNOME Release Team
-
-Automatically generated message ([source](https://gitlab.gnome.org/GNOME/releng/-/blob/master/tools/schedule/automail.py))"""
+([source](https://gitlab.gnome.org/GNOME/releng/-/blob/master/tools/schedule/discourse.py))"""
 
 
 def create_discourse_post(content, title, category_id, tags):
