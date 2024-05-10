@@ -1,7 +1,8 @@
-To set the schedule for a new version of GNOME, after creating a new .schedule file:
+To set the schedule for a new version of GNOME:
 
+* Create a new .schedule file. It's easiest to use last year's spring or fall schedule as a template
 * Bump version number for DEFAULT_SCHEDULE in releng/tools/schedule/libschedule.py
-* Run releng/tools/schedule/ical.py > 3.x.ics to create ICAL file
+* Run releng/tools/schedule/ical.py > 40.ics (replace 40 with the version you are working on) to create the ICAL file
 * git add/commit/push that ics file into releng/tools/schedule/
 * Run releng/tools/schedule/wiki.py to create copy&paste schedule to paste into wikipage
 * Copy skeleton from e.g. https://wiki.gnome.org/Forty to e.g. https://wiki.gnome.org/FortyOne, update numbers, add the schedule
