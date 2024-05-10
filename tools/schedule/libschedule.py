@@ -10,7 +10,7 @@ import sys
 
 # Careful! Don't push any changes to DEFAULT_SCHEDULE until after the release
 # cycle has ended, or you will break Discourse release reminders.
-DEFAULT_SCHEDULE='46.schedule'
+DEFAULT_SCHEDULE='47.schedule'
 
 # Careful! The summary has to contain the GNOME version number to ensure a
 # unique subject line, or Discourse will silently drop the mail.
