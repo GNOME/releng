@@ -12,8 +12,9 @@ import sys
 # cycle has ended, or you will break Discourse release reminders.
 DEFAULT_SCHEDULE='47.schedule'
 
-# Careful! The summary has to contain the GNOME version number to ensure a
-# unique subject line, or Discourse will silently drop the mail.
+# Careful! The summary should contain the GNOME version number to ensure a
+# unique subject line so it doesn't fail if Discourse is configured to disallow
+# topics with duplicate titles.
 class GnomeReleaseEvent:
     definitions = {}
     categories = {
