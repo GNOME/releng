@@ -20,14 +20,12 @@ class GnomeReleaseEvent:
         "release": {
             "prio": 1,
             "summary_template": 'GNOME $version $detail release',
-            'wiki_template': 'GNOME $version $detail release',
             'description_template': 'GNOME $version $detail release',
         },
         "newstabletarball": {
             "prio": 2,
             "automail": True,
             'summary_template': 'GNOME $version $detail tarballs due',
-            "wiki_template": 'GNOME $version $detail tarballs due',
             "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
 $version $detail release, which will be delivered next week. All modules
 that had an unstable release during the current release cycle must
@@ -43,7 +41,6 @@ handle the release for you.""",
             "prio": 3,
             "automail": True,
             'summary_template': 'GNOME $version $detail tarballs due',
-            "wiki_template": 'GNOME $version $detail tarballs due',
             "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
 $version $detail release, which will be delivered next week. In order to
 ensure adequate testing, core modules should try to release according to
@@ -56,7 +53,6 @@ UTC. Tarballs uploaded later than that will probably be too late.""",
             "prio": 4,
             "automail": True,
             'summary_template': 'GNOME $version $detail tarballs due',
-            "wiki_template": 'GNOME $version $detail tarballs due',
             "description_template": """Tarballs are due on $date before 23:59 UTC for the GNOME
 $version $detail release, which will be delivered next week. Core modules
 are not expected to follow the schedule for stable releases. Instead,
@@ -73,12 +69,6 @@ update of the GNOME runtime.""",
                 'hard-code': 'Hard Code Freeze for GNOME $stable',
                 'hard-code-end': 'Hard Code Freeze for GNOME $stable ends',
             },
-            "wiki_template": {
-                'the-freeze': 'The Freeze: [[ReleasePlanning/Freezes|UI Freeze]]: No significant UI changes may be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]; [[ReleasePlanning/Freezes|Feature Freeze]]: new functionality is implemented now; [[ReleasePlanning/Freezes|API/ABI Freeze]] for GNOME $newstable: Developer APIs should be frozen at this point; String Change Announcement Period: All string changes must be announced to [[https://discourse.gnome.org/|Discourse with the i18n tag]].',
-                'string': '[[ReleasePlanning/Freezes|String Freeze]]: no string changes may be made without approval from the i18n team ([[https://gitlab.gnome.org/Teams/Translation/Coordination/-/issues/new?issuable_template=String%20Freeze%20exception%20request|GitLab]]).',
-                'hard-code': '[[ReleasePlanning/Freezes|Hard Code Freeze]]: no source code changes can be made without approval from the [[https://gitlab.gnome.org/Teams/Releng/freeze-breaks|release-team]]. Translation and documentation can continue.',
-                'hard-code-end': 'Hard Code Freeze ends, but other freezes remain in effect for the stable branch.',
-             },
             'description_template': {
                 'the-freeze': """API freeze begins on $date at 23:59 UTC. No API or ABI changes should be made in the platform libraries. This provides a stable development platform for the rest of the schedule.
 
@@ -100,11 +90,6 @@ From this point, developers can concentrate on stability and bugfixing. Translat
                 'release-notes-start': 'Writing of GNOME $stable release notes begins',
                 'translation-deadline': 'Soft translation deadline for GNOME $stable'
             },
-            "wiki_template": {
-                'api-doc': 'New APIs must be fully documented',
-                'release-notes-start': '[[https://gitlab.gnome.org/Teams/Websites/release.gnome.org|Writing of release notes begins]]',
-                'translation-deadline': 'Soft translation deadline: translations committed after this point may be too late to be included; maintainers should not release until after this day.'
-            },
             'description_template': {
                 'api-doc': 'New APIs must be fully documented',
                 'release-notes-start': 'Writing of release notes begins',
@@ -114,17 +99,14 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         "conference": {
             "prio": 7,
             "summary_template": '$detail conference ($date)',
-            "wiki_template": '$detail conference',
         },
         "hackfest": {
             "prio": 8,
             "summary_template": '$detail hackfest ($date)',
-            "wiki_template": '$detail hackfest',
         },
         "eol": {
             "prio": 9,
             "summary_template": 'End of life for $oldstable',
-            "wiki_template": 'End of life for GNOME $oldstable. This will be the final update to the $oldstable runtime.',
         }
     }
 
@@ -138,7 +120,6 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         self.assignee = assignee
         self.prio = None
         self.automail = False
-        self.wiki_template = None
         self.description_template = None
         self.summary_template = None
 
@@ -159,15 +140,6 @@ From this point, developers can concentrate on stability and bugfixing. Translat
         else:
             v = ' ' + v
         return "<%s: %s %s %s%s>" % (self.__class__, self.date, self.category, self.detail, v)
-
-    @property
-    def wiki_text(self):
-        text = self.make_text(self.wiki_template)
-
-        if text is None:
-            return repr(self)
-        else:
-            return text
 
     @property
     def summary(self):
