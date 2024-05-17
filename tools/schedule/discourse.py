@@ -4,7 +4,7 @@ import datetime
 import io
 from libschedule import *
 
-# Flip this to True to print to console instead of sending email.
+# Flip this to True to print to console instead of actually posting to Discourse.
 test_mode = False
 
 # Notify for events scheduled on this date.
