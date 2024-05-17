@@ -8,9 +8,9 @@ import os
 import os.path
 import sys
 
-# Careful! Don't push any changes to DEFAULT_SCHEDULE until after the release
+# Careful! Don't push any changes to NEWSTABLE_RELEASE until after the release
 # cycle has ended, or you will break Discourse release reminders.
-DEFAULT_SCHEDULE='47.schedule'
+NEWSTABLE_RELEASE=47
 
 # Careful! The summary should contain the GNOME version number to ensure a
 # unique subject line so it doesn't fail if Discourse is configured to disallow
@@ -194,7 +194,7 @@ def line_input (file):
         else:
             yield line
 
-def parse_file (filename=DEFAULT_SCHEDULE, cls=GnomeReleaseEvent):
+def parse_file (filename=f'{NEWSTABLE_RELEASE}.schedule', cls=GnomeReleaseEvent):
     try:
         file = open(filename, 'r')
     except IOError:
