@@ -55,7 +55,7 @@ class Tarballs(DownloadSite):
         super().__init__(baseurl)
 
     def find_tarball(self, modulename, max_version, wantchecksum):
-        good_dir = re.compile('^([0-9]+\.)*[0-9]+/?$')
+        good_dir = re.compile(r'^([0-9]+\.)*[0-9]+/?$')
         def hasdirs(x): return good_dir.search(x)
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
 
@@ -86,7 +86,7 @@ class Tarballs(DownloadSite):
                     basenames.add(basename)
                     tarballs.append(file)
 
-        re_tarball = r'^'+re.escape(modulename)+'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
+        re_tarball = r'^'+re.escape(modulename)+r'[_-](([0-9]+[\.\-])*[0-9]+)(\.orig)?\.tar.*$'
 
         tarballs = [t for t in tarballs if re.search(re_tarball, t)]
         versions = [re.sub(re_tarball, r'\1', t) for t in tarballs]
