@@ -42,7 +42,7 @@ class DownloadSite:
 def perform_request(location):
     req = None
     while True:
-        req = requests.get(location, headers={'user-agent': 'org.gnome.Releng/0.0.1'})
+        req = requests.get(location, headers={'user-agent': 'org.gnome.Releng/0.0.1'}, timeout=15.0)
         if req.status_code == 429:
             # Too Many Requests: we hit a rate limit
             time.sleep(1)
