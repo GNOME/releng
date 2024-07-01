@@ -17,10 +17,10 @@ core:folks:0.15.9:
 core:gcab:1.6:
 core:gcr:4.1.0:
 core:gcr:3.41.2:
-core:gdk-pixbuf:2.42.11:
+core:gdk-pixbuf:2.42.12:
 core:gdm:45.0.1:
 core:geocode-glib:3.26.4:
-core:gexiv2:0.14.2:
+core:gexiv2:0.14.3:
 core:gi-docgen:2023.1:
 core:gjs:1.78.5:
 core:glib:2.78.6:
@@ -45,7 +45,7 @@ core:gnome-control-center:45.5:
 core:gnome-desktop:44.0:
 core:gnome-disk-utility:45.1:
 core:gnome-font-viewer:45.0:
-core:gnome-initial-setup:45.4.1:
+core:gnome-initial-setup:45.5:
 core:gnome-keyring:42.1:
 core:gnome-logs:45.0:
 core:gnome-maps:45.5:
@@ -55,7 +55,7 @@ core:gnome-online-accounts:3.48.1:
 core:gnome-remote-desktop:45.1:
 core:gnome-session:45.0:
 core:gnome-settings-daemon:45.1:
-core:gnome-shell:45.7:
+core:gnome-shell:45.8.1:
 core:gnome-shell-extensions:45.2:
 core:gnome-software:45.3:
 core:gnome-system-monitor:45.0.2:
@@ -85,7 +85,7 @@ core:gupnp-dlna:0.12.0:
 core:gvfs:1.52.3:
 core:json-glib:1.8.0:
 core:jsonrpc-glib:3.44.0:
-core:libadwaita:1.4.5:
+core:libadwaita:1.4.6:
 core:libdazzle:3.44.0:
 core:libdex:0.4.3:
 core:libgee:0.20.6:
@@ -98,7 +98,7 @@ core:libmediaart:1.9.6:
 core:libnma:1.10.6:
 core:libnotify:0.8.3:
 core:libpanel:1.4.1:
-core:libpeas:2.0.2:
+core:libpeas:2.0.3:
 core:libpeas:1.36.0:
 core:rest:0.9.1:
 core:librsvg:2.57.3:
