@@ -335,6 +335,10 @@ def main(args):
             ci = yaml.load(f)
 
         ci['variables']['FLATPAK_BRANCH'] = flatpak_branch + qualifier
+        # flatpak_branch here is actually just the major version, ex: 47
+        # which is what we want for OCI_BRANCH
+        # https://gitlab.gnome.org/GNOME/gnome-build-meta/-/merge_requests/2739
+        ci['variables']['OCI_BRANCH'] = flatpak_branch
 
         if 'BST_STRICT' in ci['variables']:
             ci['variables']['BST_STRICT'] = '--strict'
