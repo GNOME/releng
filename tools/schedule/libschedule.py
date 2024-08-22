@@ -67,8 +67,6 @@ update of the GNOME runtime.""",
             "summary_template": {
                 'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period for GNOME $newstable',
                 'string': 'String Freeze for GNOME $newstable',
-                'hard-code': 'Hard Code Freeze for GNOME $newstable',
-                'hard-code-end': 'Hard Code Freeze for GNOME $newstable ends',
             },
             'description_template': {
                 'the-freeze': """API freeze begins on $date at 23:59 UTC. No API or ABI changes should be made in the platform libraries. This provides a stable development platform for the rest of the schedule.
@@ -79,8 +77,6 @@ UI freeze begins on $date at 23:59 UTC. No major UI changes may be made without 
                 'string': """String freeze begins on $date at 23:59 UTC. No string changes may be made without confirmation from the i18n team.
 
 From this point, developers can concentrate on stability and bugfixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots. [[https://handbook.gnome.org/release-planning/freezes.html#string-freeze|Explanation of the string freeze]]""",
-                'hard-code': """Hard code freeze begins on $date at 23:59 UTC. This is a late freeze to avoid sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
-                'hard-code-end': """Hard Code Freeze ends, but other freezes remain in effect for the stable branch."""
             },
         },
         "task": {
