@@ -65,10 +65,10 @@ update of the GNOME runtime.""",
             "prio": 5,
             "automail": True,
             "summary_template": {
-                'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period for GNOME $stable',
-                'string': 'String Freeze for GNOME $stable',
-                'hard-code': 'Hard Code Freeze for GNOME $stable',
-                'hard-code-end': 'Hard Code Freeze for GNOME $stable ends',
+                'the-freeze': 'API/ABI, UI and Feature Addition Freeze; String Change Announcement Period for GNOME $newstable',
+                'string': 'String Freeze for GNOME $newstable',
+                'hard-code': 'Hard Code Freeze for GNOME $newstable',
+                'hard-code-end': 'Hard Code Freeze for GNOME $newstable ends',
             },
             'description_template': {
                 'the-freeze': """API freeze begins on $date at 23:59 UTC. No API or ABI changes should be made in the platform libraries. This provides a stable development platform for the rest of the schedule.
