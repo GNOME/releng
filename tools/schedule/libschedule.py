@@ -76,7 +76,7 @@ update of the GNOME runtime.""",
 Feature freeze begins on $date at 23:59 UTC. No new modules or features will be accepted for this release period. Bug fixes of existing features are not affected. This allows developers to concentrate on refining the new features instead of adding yet more functionality.
 
 UI freeze begins on $date at 23:59 UTC. No major UI changes may be made without confirmation from the release team. Small fixes do not require permission.""",
-                'string': """No string changes may be made without confirmation from the i18n team.
+                'string': """String freeze begins on $date at 23:59 UTC. No string changes may be made without confirmation from the i18n team.
 
 From this point, developers can concentrate on stability and bugfixing. Translators can work without worrying that the original English strings will change, and documentation writers can take accurate screenshots. [[https://handbook.gnome.org/release-planning/freezes.html#string-freeze|Explanation of the string freeze]]""",
                 'hard-code': """Hard code freeze begins on $date at 23:59 UTC. This is a late freeze to avoid sudden last-minute accidents which could risk the stability that should have been reached at this point. No source code changes are allowed without approval from the release team, but translation and documentation should continue. Simple build fixes are, of course, allowed without asking. """,
