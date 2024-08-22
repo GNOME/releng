@@ -87,9 +87,9 @@ From this point, developers can concentrate on stability and bugfixing. Translat
             "prio": 6,
             "automail": True,
             "summary_template": {
-                'api-doc': 'New APIs for GNOME $stable must be fully documented',
-                'release-notes-start': 'Writing of GNOME $stable release notes begins',
-                'translation-deadline': 'Soft translation deadline for GNOME $stable'
+                'api-doc': 'New APIs for GNOME $newstable must be fully documented',
+                'release-notes-start': 'Writing of GNOME $newstable release notes begins',
+                'translation-deadline': 'Soft translation deadline for GNOME $newstable'
             },
             'description_template': {
                 'api-doc': 'New APIs must be fully documented',
