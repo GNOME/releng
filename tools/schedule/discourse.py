@@ -6,7 +6,7 @@ import io
 from libschedule import *
 
 # Flip this to True to print to console instead of actually posting to Discourse.
-test_mode = False
+test_mode = True
 
 # Notify for events scheduled on this date.
 # Change this for testing the script. Example:
@@ -75,3 +75,5 @@ if events:
         # 6 is the ID of the Desktop category on GNOME Discourse
         # https://discourse.gnome.org/c/desktop/6
         create_discourse_post(contents.getvalue(), subject, 6, ['announcement', 'release-team'])
+else:
+    print('no events')
