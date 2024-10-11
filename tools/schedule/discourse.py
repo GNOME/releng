@@ -6,7 +6,9 @@ import io
 from libschedule import *
 
 # Flip this to True to print to console instead of actually posting to Discourse.
-test_mode = True
+# Make sure to leave this False when pushing, because changes to the tools/schedule code
+# are immediately deployed by OpenShift.
+test_mode = False
 
 # Notify for events scheduled on this date.
 # Change this for testing the script. Example:
