@@ -19,3 +19,7 @@
 
 * git add, commit, and push your changes in this repo
 * Announce the new schedule on Discourse using the announcement tag ([example](https://discourse.gnome.org/t/gnome-44-release-schedule-available/11386))!
+
+# Warning
+
+* The code in this repo is immediately deployed to OpenShift after you push your changes. Anything you change could break Discourse release reminders. Be careful!
