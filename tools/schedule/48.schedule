@@ -14,14 +14,14 @@ newstable:48
 20:task:release-notes-start
 20:freeze:the-freeze
 20:develtarball:newstable.beta abderrahim
-20:tarball:stable.4 alatiera
-20:tarball:oldstable.9 jbicha
+20:tarball:stable.4 jbicha
+20:tarball:oldstable.9 alatiera
 23:freeze:string
 24:develtarball:newstable.rc jjardon
 25:task:translation-deadline
 26:release:newstable.0 mclasen
 26:tarball:stable.5 jbicha
-26:tarball:oldstable.10 jjardon
+26:tarball:oldstable.10 alatiera
 26:eol:oldstable
 30:tarball:newstable.1 jbicha
 30:tarball:stable.6 mclasen
