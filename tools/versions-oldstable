@@ -38,7 +38,7 @@ core:gnome-color-manager:3.36.2:
 core:gnome-connections:46.0:
 core:gnome-console:46.0:
 core:gnome-contacts:46.0:
-core:gnome-control-center:46.7:
+core:gnome-control-center:46.8:
 core:gnome-desktop:44.1:
 core:gnome-disk-utility:46.1:
 core:gnome-font-viewer:46.0:
@@ -52,8 +52,8 @@ core:gnome-online-accounts:3.50.8.1:
 core:gnome-remote-desktop:46.5:
 core:gnome-session:46.0:
 core:gnome-settings-daemon:46.0:
-core:gnome-shell:46.8:
-core:gnome-shell-extensions:46.4:
+core:gnome-shell:46.9:
+core:gnome-shell-extensions:46.5:
 core:gnome-software:46.5:
 core:gnome-system-monitor:46.0:
 core:gnome-text-editor:46.3:
@@ -82,7 +82,7 @@ core:gupnp-dlna:0.12.0:
 core:gvfs:1.54.4:
 core:json-glib:1.8.0:
 core:jsonrpc-glib:3.44.1:
-core:libadwaita:1.5.6:
+core:libadwaita:1.5.7:
 core:libdex:0.6.1:
 core:libgee:0.20.8:
 core:libgsf:1.14.53:
@@ -103,10 +103,10 @@ core:libshumate:1.2.3:
 core:libsigc++:3.6.0:
 core:libsoup:3.4.5:
 core:loupe:46.2:
-core:malcontent:0.12.0:
 core:mm-common:1.0.6:
+core:msgraph:0.2.3:
 core:mutter:46.8:
-core:nautilus:46.3.1:
+core:nautilus:46.4:
 core:orca:46.2:
 core:pango:1.52.2:
 core:pangomm:2.52.0:
@@ -125,7 +125,7 @@ core:totem-pl-parser:3.26.6:
 core:tracker:3.7.3:
 core:tracker-miners:3.7.4:
 core:vala:0.56.17:
-core:vte:0.76.4:
+core:vte:0.76.6:
 core:xdg-desktop-portal-gnome:46.2:
 core:yelp:42.2:
 core:yelp-tools:42.1:
