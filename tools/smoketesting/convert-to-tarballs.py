@@ -321,7 +321,7 @@ def main(args):
 
     convert = ConvertToTarballs(config, args.directory, yaml, args.convert)
     convert.convert_modules([os.path.join(args.directory, 'elements', directory)
-                             for directory in ('core-deps', 'core', 'sdk-deps', 'sdk')])
+                             for directory in ('core-deps', 'core', 'incubator', 'sdk-deps', 'sdk')])
 
     if convert.errors:
         convert.print_errors()
