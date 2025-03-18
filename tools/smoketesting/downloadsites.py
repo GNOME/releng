@@ -60,8 +60,12 @@ class Tarballs(DownloadSite):
         def fixdirs(x): return re.sub(r'^([0-9]+\.[0-9]+)/?$', r'\1', x)
 
         location = self.baseurl.format(module=modulename)
+        files = []
 
         while True:
+            if "freedesktop.org" in location:
+                break
+
             req = perform_request(location)
             files = get_links(req.text)
 
