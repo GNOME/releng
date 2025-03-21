@@ -4,16 +4,14 @@
 * The .1 stable release is included in both the previous release schedule and the new schedule, so be sure that the release date is the same in both schedules
 * Bump version number for NEWSTABLE_RELEASE in releng/tools/schedule/libschedule.py
 
-# Creating and upload the iCalendar file
-
-* Run ./ical.py > n.ics (replace n with the version you are working on)
-* Copy ics file to Infrastructure/static-web/calendars and git commit/push it ([example](https://gitlab.gnome.org/Infrastructure/static-web/-/commit/a887c9e44b36dfa6c96db093356f3222bef7d977))
-
 # Update release.gnome.org
 
+* Run ./ical.py > n.ics (replace n with the version you are working on)
+* Copy n.ics to Teams/Websites/release.gnome.org/calendar/schedule.ics
 * Add last release to past-release.json
 * Run ./rgo-json.py > calendar.json
-* Copy calendar.json to Teams/Websites/release.gnome.org/_data and open a merge request ([example](https://gitlab.gnome.org/Teams/Websites/release.gnome.org/-/commit/3e0912d27b234ed64cb13ae875d1bfb34ac85054))
+* Copy calendar.json to Teams/Websites/release.gnome.org/_data
+* Open a merge request ([example](https://gitlab.gnome.org/Teams/Websites/release.gnome.org/-/commit/3e0912d27b234ed64cb13ae875d1bfb34ac85054))
 
 # Final steps
 
