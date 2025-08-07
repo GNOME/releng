@@ -18,7 +18,7 @@ core:gcr:3.41.2:
 core:gdk-pixbuf:2.42.12:
 core:gdm:47.0:
 core:geocode-glib:3.26.4:
-core:gexiv2:0.14.5:
+core:gexiv2:0.14.6:
 core:gi-docgen:2024.1:
 core:gjs:1.82.3:
 core:glib:2.82.5:
@@ -44,14 +44,14 @@ core:gnome-font-viewer:47.0:
 core:gnome-initial-setup:47.5:
 core:gnome-keyring:46.2:
 core:gnome-logs:45.0:
-core:gnome-maps:47.7:
+core:gnome-maps:47.8:
 core:gnome-menus:3.36.0:
 core:gnome-music:47.1:
-core:gnome-online-accounts:3.52.8:
+core:gnome-online-accounts:3.52.9:
 core:gnome-remote-desktop:47.3:
 core:gnome-session:47.0.1:
 core:gnome-settings-daemon:47.2:
-core:gnome-shell:47.8:
+core:gnome-shell:47.9:
 core:gnome-shell-extensions:47.6:
 core:gnome-software:47.5:
 core:gnome-system-monitor:47.1:
@@ -81,7 +81,7 @@ core:gupnp-dlna:0.12.0:
 core:gvfs:1.56.1:
 core:json-glib:1.10.6:
 core:jsonrpc-glib:3.44.2:
-core:libadwaita:1.6.8:
+core:libadwaita:1.6.9:
 core:libdex:0.8.1:
 core:libgee:0.20.8:
 core:libgsf:1.14.53:
