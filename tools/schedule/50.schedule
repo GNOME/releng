@@ -1,0 +1,27 @@
+yearweek:202538
+oldstable:48
+stable:49
+newstable:50
+0:release:stable.0 mclasen
+4:tarball:stable.1 jbicha
+4:tarball:oldstable.6 mclasen
+10:tarball:stable.2 mcatanzaro
+10:tarball:oldstable.7 mclasen
+16:develtarball:newstable.alpha alatiera
+16:tarball:stable.3 abderrahim
+16:tarball:oldstable.8 mcatanzaro
+20:task:api-doc
+20:task:release-notes-start
+20:freeze:the-freeze
+20:develtarball:newstable.beta abderrahim
+20:tarball:stable.4 jbicha
+20:tarball:oldstable.9 alatiera
+23:freeze:string
+24:develtarball:newstable.rc jjardon
+25:task:translation-deadline
+26:release:newstable.0 mclasen
+26:tarball:stable.5 jbicha
+26:tarball:oldstable.10 alatiera
+26:eol:oldstable
+30:tarball:newstable.1 jbicha
+30:tarball:stable.6 mclasen

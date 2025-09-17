@@ -10,7 +10,7 @@ import sys
 
 # Careful! Don't push any changes to NEWSTABLE_RELEASE until after the release
 # cycle has ended, or you will break Discourse release reminders.
-NEWSTABLE_RELEASE=49
+NEWSTABLE_RELEASE=50
 
 # Careful! The summary should contain the GNOME version number to ensure a
 # unique subject line so it doesn't fail if Discourse is configured to disallow
