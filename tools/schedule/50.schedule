@@ -5,11 +5,11 @@ newstable:50
 0:release:stable.0 mclasen
 4:tarball:stable.1 jbicha
 4:tarball:oldstable.6 mclasen
-10:tarball:stable.2 mcatanzaro
+10:tarball:stable.2 avovk
 10:tarball:oldstable.7 mclasen
 16:develtarball:newstable.alpha alatiera
 16:tarball:stable.3 abderrahim
-16:tarball:oldstable.8 mcatanzaro
+16:tarball:oldstable.8 avovk
 20:task:api-doc
 20:task:release-notes-start
 20:freeze:the-freeze
