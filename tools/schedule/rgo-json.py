@@ -100,6 +100,7 @@ def releases():
             'version': release.version,
             'type': release_type,
             'tarballs_due_date': str(release.date),
+            'assignee': release.assignee,
         }
 
         if release.version == str(f'{NEWSTABLE_RELEASE - 1}.0'):
