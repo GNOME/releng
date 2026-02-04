@@ -130,10 +130,6 @@ class ConvertToTarballs:
         errors = self.errors if fatal else self.warnings
         real_name, max_version, site = self.options.get_module_info(name)
 
-        # https://gitlab.freedesktop.org/cairo/cairo/-/issues/828
-        if name == 'cairo' or name == 'cairomm':
-            return None, None
-
         if site.modules and real_name not in site.modules:
             errors.append(name)
             return None, None
