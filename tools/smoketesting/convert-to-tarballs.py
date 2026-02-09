@@ -91,9 +91,10 @@ class Options:
             self.release_sets[release_set].append(name)
 
 class ConvertToTarballs:
-    def __init__(self, options, directory, yaml, convert=True):
+    def __init__(self, options, directory, yaml, convert, convert_all):
         self.options = options
         self.convert = convert
+        self.convert_all = convert_all
         self.yaml = yaml
 
         self.all_tarballs = []
@@ -121,6 +122,10 @@ class ConvertToTarballs:
         if kind == 'local':
             return 'skip'
         elif kind.startswith('git'):
+            url = element['sources'][0]['url']
+            if url.startswith('gnome:'):
+                return 'gnome'
+
             return 'git'
 
         assert kind in ('tar', 'zip', 'remote'), 'unexpected source kind {}'.format(kind)
@@ -149,7 +154,7 @@ class ConvertToTarballs:
             if location.startswith(url):
                 location = alias + ':' + location[len(url):]
 
-        if self._get_module_kind(element) == 'git':
+        if self._get_module_kind(element) in ('git', 'gnome'):
             # check if there any git_module sources and
             # remove them since we are converting to tarballs
             element["sources"] = [
@@ -204,7 +209,7 @@ class ConvertToTarballs:
                     element = self.yaml.load(f)
 
                 module_kind = self._get_module_kind(element)
-                if module_kind == 'git':
+                if module_kind == 'gnome' or (module_kind == 'git' and self.convert_all):
                     to_convert[name] = fullpath, element
                 elif module_kind == 'tarball':
                     to_update[name] = fullpath, element
@@ -270,6 +275,8 @@ def main(args):
                         default=False, help="overwrite existing versions file")
     parser.add_argument("--no-convert", action="store_false", dest="convert",
                         default=True, help="do not convert, only try to update elements that already use tarballs")
+    parser.add_argument("--convert-all", action="store_true", dest="convert_all",
+                        default=False, help="convert all git elements (including non-GNOME ones)")
     args = parser.parse_args()
 
     if args.version:
@@ -315,7 +322,7 @@ def main(args):
     yaml.preserve_quotes = True
     yaml.width = 200
 
-    convert = ConvertToTarballs(config, args.directory, yaml, args.convert)
+    convert = ConvertToTarballs(config, args.directory, yaml, args.convert, args.convert_all)
     convert.convert_modules([os.path.join(args.directory, 'elements', directory)
                              for directory in ('core-deps', 'core', 'incubator', 'sdk-deps', 'sdk')])
 
