@@ -31,10 +31,7 @@ for event in events:
     desc.value = event.description
 
     start = vevent.add('dtstart')
-    start.value = datetime.datetime(event.date.year, event.date.month, event.date.day)
-
-    stop = vevent.add('dtend')
-    stop.value = start.value + datetime.timedelta(days=1)
+    start.value = datetime.date(event.date.year, event.date.month, event.date.day)
 
     dtstamp = vevent.add('dtstamp')
     dtstamp.value = now
