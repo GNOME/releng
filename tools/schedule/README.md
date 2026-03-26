@@ -8,6 +8,7 @@
 
 * Run ./ical.py > n.ics (replace n with the version you are working on)
 * Copy ics file to Infrastructure/static-web/calendars and git commit/push it ([example](https://gitlab.gnome.org/Infrastructure/static-web/-/commit/a887c9e44b36dfa6c96db093356f3222bef7d977))
+* Copy ics file to Teams/Websites/release.gnome.org/calendar/schedule.ics and commit/push it
 
 # Update release.gnome.org
 
