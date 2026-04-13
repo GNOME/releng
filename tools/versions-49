@@ -1,14 +1,14 @@
 ## CORE
 core:adwaita-fonts:49.0:
 core:adwaita-icon-theme:49.0:
-core:at-spi2-core:2.58.4:
+core:at-spi2-core:2.58.5:
 core:baobab:49.1:
 core:blueprint-compiler:0.18.0:
 core:calls:49.1.1:
 core:d-spy:49.2:
 core:dconf:0.49.0:
 core:dconf-editor:49.0:
-core:decibels:49.0:
+core:decibels:49.6.1:
 core:epiphany:49.7:
 core:evince:48.1:
 core:evolution-data-server:3.58.3:
@@ -17,13 +17,13 @@ core:foundry:1.0.1:
 core:gcab:1.6:
 core:gcr:4.4.0.1:
 core:gcr:3.41.2:
-core:gdk-pixbuf:2.44.5:
+core:gdk-pixbuf:2.44.6:
 core:gdm:49.2:
 core:geocode-glib:3.26.4:
 core:gexiv2:0.14.6:
 core:gi-docgen:2025.5:
 core:gjs:1.86.0:
-core:glib:2.86.4:
+core:glib:2.86.5:
 core:glib-networking:2.80.1:
 core:glibmm:2.86.0:
 core:glycin:2.0.8:
@@ -40,7 +40,7 @@ core:gnome-color-manager:3.36.2:
 core:gnome-connections:49.0:
 core:gnome-console:49.2:
 core:gnome-contacts:49.0:
-core:gnome-control-center:49.6:
+core:gnome-control-center:49.7:
 core:gnome-desktop:44.5:
 core:gnome-disk-utility:46.1:
 core:gnome-font-viewer:49.0:
@@ -70,7 +70,7 @@ core:gsettings-desktop-schemas:49.1:
 core:gsound:1.0.3:
 core:gspell:1.14.3:
 core:gssdp:1.6.4:
-core:gtk:4.20.3:
+core:gtk:4.20.4:
 core:gtk:3.24.52:
 core:gtk-doc:1.35.1:
 core:gtk-vnc:1.5.0:
@@ -110,8 +110,8 @@ core:manuals:49.0:
 core:mm-common:1.0.7:
 core:msgraph:0.3.4:
 core:mutter:49.5:
-core:nautilus:49.5:
-core:orca:49.6:
+core:nautilus:49.6:
+core:orca:49.7:
 core:pango:1.57.1:
 core:pangomm:2.56.1:
 core:papers:49.6:
@@ -127,8 +127,8 @@ core:sysprof:49.0:
 core:tecla:49.0:
 core:template-glib:3.38.0:
 core:tinysparql:3.10.1:
-core:totem-pl-parser:3.26.6:
-core:vala:0.56.18:
+core:totem-pl-parser:3.26.7:
+core:vala:0.56.19:
 core:vte:0.82.3:
 core:xdg-desktop-portal-gnome:49.0:
 core:yelp:49.0:
