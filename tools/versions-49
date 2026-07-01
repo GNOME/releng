@@ -1,7 +1,7 @@
 ## CORE
 core:adwaita-fonts:49.0:
 core:adwaita-icon-theme:49.0:
-core:at-spi2-core:2.58.6:
+core:at-spi2-core:2.58.7:
 core:baobab:49.1:
 core:blueprint-compiler:0.18.0:
 core:calls:49.1.1:
@@ -17,8 +17,8 @@ core:foundry:1.0.1:
 core:gcab:1.6:
 core:gcr:4.4.0.1:
 core:gcr:3.41.2:
-core:gdk-pixbuf:2.44.6:
-core:gdm:49.2:
+core:gdk-pixbuf:2.44.7:
+core:gdm:49.3:
 core:geocode-glib:3.26.4:
 core:gexiv2:0.14.6:
 core:gi-docgen:2025.5:
@@ -40,7 +40,7 @@ core:gnome-color-manager:3.36.2:
 core:gnome-connections:49.0:
 core:gnome-console:49.2:
 core:gnome-contacts:49.0:
-core:gnome-control-center:49.7:
+core:gnome-control-center:49.8:
 core:gnome-desktop:44.5:
 core:gnome-disk-utility:46.1:
 core:gnome-font-viewer:49.0:
@@ -52,9 +52,9 @@ core:gnome-menus:3.38.1:
 core:gnome-music:49.1:
 core:gnome-online-accounts:3.56.5:
 core:gnome-remote-desktop:49.3:
-core:gnome-session:49.2:
+core:gnome-session:49.3:
 core:gnome-settings-daemon:49.1:
-core:gnome-shell:49.7:
+core:gnome-shell:49.8:
 core:gnome-software:49.4:
 core:gnome-system-monitor:49.1:
 core:gnome-text-editor:49.2:
@@ -68,8 +68,8 @@ core:grilo:0.3.19:
 core:grilo-plugins:0.3.18:
 core:gsettings-desktop-schemas:49.1:
 core:gsound:1.0.3:
-core:gspell:1.14.3:
-core:gssdp:1.6.5:
+core:gspell:1.14.4:
+core:gssdp:1.6.6:
 core:gtk:4.20.4:
 core:gtk:3.24.52:
 core:gtk-doc:1.35.1:
@@ -101,19 +101,19 @@ core:libpeas:2.2.1:
 core:librest:0.10.2:
 core:librsvg:2.61.4:
 core:libsecret:0.21.7:
-core:libshumate:1.5.3:
+core:libshumate:1.5.4:
 core:libsigc++:3.6.0:
 core:libsoup:3.6.6:
 core:localsearch:3.10.2:
 core:loupe:49.2:
 core:manuals:49.0:
-core:mm-common:1.0.7:
+core:mm-common:1.0.8:
 core:msgraph:0.3.4:
-core:mutter:49.5:
+core:mutter:49.6:
 core:nautilus:49.6:
 core:orca:49.7:
 core:pango:1.57.1:
-core:pangomm:2.56.1:
+core:pangomm:2.56.2:
 core:papers:49.7:
 core:phodav:3.0:
 core:pyatspi:2.58.2:
