@@ -363,6 +363,14 @@ def main(args):
         conf['variables']['branch'] = flatpak_branch
         conf['variables']['qualifier'] = qualifier
 
+        # Change the default value in the conf for the channel
+        # so we will filter all the nightly staff out.
+        # We only have Nightly or Stable atm and we treat Alpha/Beta
+        # as stable candidates in this specific case. Maybe we will have
+        # a use for a channel=beta later on, but for now it's the same as stable
+        if int(args.version.split(".")[0]) >= 51:
+            conf['options']['channel']['default'] = "stable"
+
         with open(projectconf, 'w') as f:
             yaml.dump(conf, f)
 
