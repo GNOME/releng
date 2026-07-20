@@ -63,9 +63,6 @@ class Tarballs(DownloadSite):
         files = []
 
         while True:
-            if "freedesktop.org" in location:
-                break
-
             req = perform_request(location)
             files = get_links(req.text)
 
