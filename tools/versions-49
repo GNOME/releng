@@ -1,7 +1,7 @@
 ## CORE
 core:adwaita-fonts:49.0:
 core:adwaita-icon-theme:49.0:
-core:at-spi2-core:2.58.7:
+core:at-spi2-core:2.58.8:
 core:baobab:49.1:
 core:blueprint-compiler:0.18.0:
 core:calls:49.1.1:
@@ -18,9 +18,9 @@ core:gcab:1.6:
 core:gcr:4.4.0.1:
 core:gcr:3.41.2:
 core:gdk-pixbuf:2.44.7:
-core:gdm:49.3:
+core:gdm:49.4:
 core:geocode-glib:3.26.4:
-core:gexiv2:0.14.6:
+core:gexiv2:0.14.7:
 core:gi-docgen:2025.5:
 core:gjs:1.86.0:
 core:glib:2.86.5:
@@ -40,11 +40,11 @@ core:gnome-color-manager:3.36.2:
 core:gnome-connections:49.0:
 core:gnome-console:49.2:
 core:gnome-contacts:49.0:
-core:gnome-control-center:49.8:
+core:gnome-control-center:49.9:
 core:gnome-desktop:44.5:
 core:gnome-disk-utility:46.1:
 core:gnome-font-viewer:49.0:
-core:gnome-initial-setup:49.0:
+core:gnome-initial-setup:49.1:
 core:gnome-keyring:48.0:
 core:gnome-logs:49.0:
 core:gnome-maps:49.5:
@@ -54,12 +54,12 @@ core:gnome-online-accounts:3.56.5:
 core:gnome-remote-desktop:49.3:
 core:gnome-session:49.3:
 core:gnome-settings-daemon:49.1:
-core:gnome-shell:49.8:
+core:gnome-shell:49.9:
 core:gnome-software:49.4:
 core:gnome-system-monitor:49.1:
 core:gnome-text-editor:49.2:
 core:gnome-tour:49.0:
-core:gnome-user-docs:49.7:
+core:gnome-user-docs:49.9:
 core:gnome-user-share:48.3:
 core:gnome-weather:49.0:
 core:gobject-introspection:1.86.0:
@@ -83,7 +83,7 @@ core:gupnp-dlna:0.12.0:
 core:gvfs:1.58.4:
 core:json-glib:1.10.8:
 core:jsonrpc-glib:3.44.2:
-core:libadwaita:1.8.6:
+core:libadwaita:1.8.7:
 core:libcloudproviders:0.3.6:
 core:libdex:1.0.0:
 core:libgee:0.20.8:
@@ -101,7 +101,7 @@ core:libpeas:2.2.1:
 core:librest:0.10.2:
 core:librsvg:2.61.4:
 core:libsecret:0.21.7:
-core:libshumate:1.5.4:
+core:libshumate:1.5.5:
 core:libsigc++:3.6.0:
 core:libsoup:3.6.6:
 core:localsearch:3.10.2:
@@ -109,7 +109,7 @@ core:loupe:49.2:
 core:manuals:49.0:
 core:mm-common:1.0.8:
 core:msgraph:0.3.4:
-core:mutter:49.6:
+core:mutter:49.7:
 core:nautilus:49.6:
 core:orca:49.7:
 core:pango:1.57.1:
@@ -129,7 +129,7 @@ core:template-glib:3.38.0:
 core:tinysparql:3.10.1:
 core:totem-pl-parser:3.26.7:
 core:vala:0.56.19:
-core:vte:0.82.3:
+core:vte:0.82.4:
 core:xdg-desktop-portal-gnome:49.0:
 core:yelp:49.1:
 core:yelp-tools:42.1:
