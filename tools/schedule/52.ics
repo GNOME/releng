@@ -1,0 +1,393 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//PYVOBJECT//NONSGML Version 1//EN
+BEGIN:VEVENT
+UID:20260929T165033Z - 53073@fedora
+DTSTART;VALUE=DATE:20260916
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:GNOME 51.0 stable release
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.0 stable release
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 17650@fedora
+DTSTART;VALUE=DATE:20261010
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2026-10-10 before 23:59 UTC for the GNOME\n
+ 51.1 stable release\, which will be delivered next week. Core modules\nare
+  not expected to follow the schedule for stable releases. Instead\,\npleas
+ e release when you judge that a new stable release is required.\nModules r
+ eleased before this deadline will be included in the 51.1\nupdate of the G
+ NOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.1 stable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 1840@fedora
+DTSTART;VALUE=DATE:20261010
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2026-10-10 before 23:59 UTC for the GNOME\n
+ 50.6 oldstable release\, which will be delivered next week. Core modules\n
+ are not expected to follow the schedule for stable releases. Instead\,\npl
+ ease release when you judge that a new stable release is required.\nModule
+ s released before this deadline will be included in the 50.6\nupdate of th
+ e GNOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 50.6 oldstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 89863@fedora
+DTSTART;VALUE=DATE:20261121
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2026-11-21 before 23:59 UTC for the GNOME\n
+ 51.2 stable release\, which will be delivered next week. Core modules\nare
+  not expected to follow the schedule for stable releases. Instead\,\npleas
+ e release when you judge that a new stable release is required.\nModules r
+ eleased before this deadline will be included in the 51.2\nupdate of the G
+ NOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.2 stable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 36584@fedora
+DTSTART;VALUE=DATE:20261121
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2026-11-21 before 23:59 UTC for the GNOME\n
+ 50.7 oldstable release\, which will be delivered next week. Core modules\n
+ are not expected to follow the schedule for stable releases. Instead\,\npl
+ ease release when you judge that a new stable release is required.\nModule
+ s released before this deadline will be included in the 50.7\nupdate of th
+ e GNOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 50.7 oldstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 6824@fedora
+DTSTART;VALUE=DATE:20270102
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-01-02 before 23:59 UTC for the GNOME\n
+ 52.alpha newstable release\, which will be delivered next week. In order t
+ o\nensure adequate testing\, core modules should try to release according 
+ to\nthe unstable schedule if they have nontrivial changes.\n\nPlease make 
+ sure that your tarballs will be uploaded before Saturday 23:59\nUTC. Tarba
+ lls uploaded later than that will probably be too late.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 52.alpha newstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 94191@fedora
+DTSTART;VALUE=DATE:20270102
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-01-02 before 23:59 UTC for the GNOME\n
+ 51.3 stable release\, which will be delivered next week. Core modules\nare
+  not expected to follow the schedule for stable releases. Instead\,\npleas
+ e release when you judge that a new stable release is required.\nModules r
+ eleased before this deadline will be included in the 51.3\nupdate of the G
+ NOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.3 stable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 17624@fedora
+DTSTART;VALUE=DATE:20270102
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-01-02 before 23:59 UTC for the GNOME\n
+ 50.8 oldstable release\, which will be delivered next week. Core modules\n
+ are not expected to follow the schedule for stable releases. Instead\,\npl
+ ease release when you judge that a new stable release is required.\nModule
+ s released before this deadline will be included in the 50.8\nupdate of th
+ e GNOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 50.8 oldstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 72886@fedora
+DTSTART;VALUE=DATE:20270130
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-01-30 before 23:59 UTC for the GNOME\n
+ 52.beta newstable release\, which will be delivered next week. In order to
+ \nensure adequate testing\, core modules should try to release according t
+ o\nthe unstable schedule if they have nontrivial changes.\n\nPlease make s
+ ure that your tarballs will be uploaded before Saturday 23:59\nUTC. Tarbal
+ ls uploaded later than that will probably be too late.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 52.beta newstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 45111@fedora
+DTSTART;VALUE=DATE:20270130
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-01-30 before 23:59 UTC for the GNOME\n
+ 51.4 stable release\, which will be delivered next week. Core modules\nare
+  not expected to follow the schedule for stable releases. Instead\,\npleas
+ e release when you judge that a new stable release is required.\nModules r
+ eleased before this deadline will be included in the 51.4\nupdate of the G
+ NOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.4 stable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 36831@fedora
+DTSTART;VALUE=DATE:20270130
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-01-30 before 23:59 UTC for the GNOME\n
+ 50.9 oldstable release\, which will be delivered next week. Core modules\n
+ are not expected to follow the schedule for stable releases. Instead\,\npl
+ ease release when you judge that a new stable release is required.\nModule
+ s released before this deadline will be included in the 50.9\nupdate of th
+ e GNOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 50.9 oldstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 1453@fedora
+DTSTART;VALUE=DATE:20270130
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:API freeze begins on 2027-01-30 at 23:59 UTC. No API or ABI cha
+ nges should be made in the platform libraries. This provides a stable deve
+ lopment platform for the rest of the schedule.\n\nFeature freeze begins on
+  2027-01-30 at 23:59 UTC. No new modules or features will be accepted for 
+ this release period. Bug fixes of existing features are not affected. This
+  allows developers to concentrate on refining the new features instead of 
+ adding yet more functionality.\n\nUI freeze begins on 2027-01-30 at 23:59 
+ UTC. No major UI changes may be made without confirmation from the release
+  team. Small fixes do not require permission.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:API/ABI\, UI and Feature Addition Freeze\; String Change Announceme
+ nt Period for GNOME 52
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 3954@fedora
+DTSTART;VALUE=DATE:20270130
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:New APIs must be fully documented
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:New APIs for GNOME 52 must be fully documented
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 96278@fedora
+DTSTART;VALUE=DATE:20270130
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Writing of release notes begins
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:Writing of GNOME 52 release notes begins
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 50035@fedora
+DTSTART;VALUE=DATE:20270220
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:String freeze begins on 2027-02-20 at 23:59 UTC. No string chan
+ ges may be made without confirmation from the i18n team.\n\nFrom this poin
+ t\, developers can concentrate on stability and bugfixing. Translators can
+  work without worrying that the original English strings will change\, and
+  documentation writers can take accurate screenshots. [[https://handbook.g
+ nome.org/release-planning/freezes.html#string-freeze|Explanation of the st
+ ring freeze]]
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:String Freeze for GNOME 52
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 61459@fedora
+DTSTART;VALUE=DATE:20270227
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-02-27 before 23:59 UTC for the GNOME\n
+ 52.rc newstable release\, which will be delivered next week. In order to\n
+ ensure adequate testing\, core modules should try to release according to\
+ nthe unstable schedule if they have nontrivial changes.\n\nPlease make sur
+ e that your tarballs will be uploaded before Saturday 23:59\nUTC. Tarballs
+  uploaded later than that will probably be too late.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 52.rc newstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 23165@fedora
+DTSTART;VALUE=DATE:20270310
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Soft translation deadline is 2027-03-10 at 23:59 UTC. Translati
+ ons committed after this point may be too late to be included. Maintainers
+  should not release stable tarballs until after this day.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:Soft translation deadline for GNOME 52
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 48097@fedora
+DTSTART;VALUE=DATE:20270313
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-03-13 before 23:59 UTC for the GNOME\n
+ 52.0 newstable release\, which will be delivered next week. All modules\nt
+ hat had an unstable release during the current release cycle must\nrelease
+  to ensure a stable version number\, even if there have been no\nchanges s
+ ince the previous release.\n\nPlease make sure that your tarballs will be 
+ uploaded before Saturday 23:59\nUTC. Tarballs uploaded later than that wil
+ l probably be too late. If\nyou need help\, please contact the release tea
+ m and we'll find someone to\nhandle the release for you.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 52.0 newstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 23609@fedora
+DTSTART;VALUE=DATE:20270313
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-03-13 before 23:59 UTC for the GNOME\n
+ 51.5 stable release\, which will be delivered next week. Core modules\nare
+  not expected to follow the schedule for stable releases. Instead\,\npleas
+ e release when you judge that a new stable release is required.\nModules r
+ eleased before this deadline will be included in the 51.5\nupdate of the G
+ NOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.5 stable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 88011@fedora
+DTSTART;VALUE=DATE:20270313
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-03-13 before 23:59 UTC for the GNOME\n
+ 50.10 oldstable release\, which will be delivered next week. Core modules\
+ nare not expected to follow the schedule for stable releases. Instead\,\np
+ lease release when you judge that a new stable release is required.\nModul
+ es released before this deadline will be included in the 50.10\nupdate of 
+ the GNOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 50.10 oldstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 76317@fedora
+DTSTART;VALUE=DATE:20270313
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:End of life for 50
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 34681@fedora
+DTSTART;VALUE=DATE:20270317
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:GNOME 52.0 newstable release
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 52.0 newstable release
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 90719@fedora
+DTSTART;VALUE=DATE:20270410
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-04-10 before 23:59 UTC for the GNOME\n
+ 52.1 newstable release\, which will be delivered next week. Core modules\n
+ are not expected to follow the schedule for stable releases. Instead\,\npl
+ ease release when you judge that a new stable release is required.\nModule
+ s released before this deadline will be included in the 52.1\nupdate of th
+ e GNOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 52.1 newstable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929T165033Z - 4203@fedora
+DTSTART;VALUE=DATE:20270410
+CLASS:PUBLIC
+CREATED:20260929T165033
+DESCRIPTION:Tarballs are due on 2027-04-10 before 23:59 UTC for the GNOME\n
+ 51.6 stable release\, which will be delivered next week. Core modules\nare
+  not expected to follow the schedule for stable releases. Instead\,\npleas
+ e release when you judge that a new stable release is required.\nModules r
+ eleased before this deadline will be included in the 51.6\nupdate of the G
+ NOME runtime.
+DTSTAMP:20260929T165033
+LAST-MODIFIED:20260929T165033
+SEQUENCE:1
+SUMMARY:GNOME 51.6 stable tarballs due
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
