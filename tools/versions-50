@@ -23,7 +23,7 @@ core:geocode-glib:3.26.4:
 core:gexiv2:0.16.2:
 core:gi-docgen:2026.1:
 core:gjs:1.88.1:
-core:glib:2.88.3:
+core:glib:2.88.4:
 core:glib-networking:2.80.1:
 core:glibmm:2.88.1:
 core:glycin:2.1.5:
@@ -54,7 +54,7 @@ core:gnome-online-accounts:3.58.1:
 core:gnome-remote-desktop:50.2:
 core:gnome-session:50.1:
 core:gnome-settings-daemon:50.1:
-core:gnome-shell:50.5:
+core:gnome-shell:50.6:
 core:gnome-software:50.4:
 core:gnome-system-monitor:50.0:
 core:gnome-text-editor:50.1:
@@ -87,7 +87,7 @@ core:libadwaita:1.9.4:
 core:libcloudproviders:0.4.1:
 core:libdex:1.1.0:
 core:libgee:0.20.8:
-core:libgsf:1.14.59:
+core:libgsf:1.14.60:
 core:libgtop:2.41.3:
 core:libgweather:4.6.0:
 core:libgxps:0.3.2:
@@ -108,9 +108,9 @@ core:loupe:50.0:
 core:manuals:50.1:
 core:mm-common:1.0.8:
 core:msgraph:0.3.5:
-core:mutter:50.5:
-core:nautilus:50.3.1:
-core:orca:50.2:
+core:mutter:50.6:
+core:nautilus:50.4:
+core:orca:50.3:
 core:pango:1.57.1:
 core:pangomm:2.56.2:
 core:papers:50.3:
