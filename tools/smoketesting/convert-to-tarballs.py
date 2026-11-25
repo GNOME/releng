@@ -45,6 +45,12 @@ class Options:
         self.module_locations = []
         self._read_conversion_info()
 
+    def is_allowlisted(self, modulename):
+        for release_set, modules in self.release_sets.items():
+            if modulename in modules:
+                return True
+        return False
+
     def get_module_info(self, modulename):
         realname = self.real_name.get(modulename, modulename)
         limit = self.version_limit.get(modulename, None)
@@ -102,6 +108,7 @@ class ConvertToTarballs:
 
         self.errors = []
         self.warnings = []
+        self.unknown = []
 
         if os.path.exists(os.path.join(directory, 'include/aliases.yml')):
             fname = 'include/aliases.yml'
@@ -136,6 +143,10 @@ class ConvertToTarballs:
     def _convert_one_module(self, name, fatal):
         errors = self.errors if fatal else self.warnings
         real_name, max_version, site = self.options.get_module_info(name)
+
+        if not self.options.is_allowlisted(name):
+            self.unknown.append(name)
+            return None, None
 
         if site.modules and real_name not in site.modules:
             errors.append(name)
@@ -194,6 +205,8 @@ class ConvertToTarballs:
         print("Warnings:")
         for module in self.warnings:
             print("- Can't update tarball for module '{}'".format(module))
+        for module in self.unknown:
+            print("- Unknown module '{}'".format(module))
 
     def convert_modules(self, directories):
         to_convert = {}
@@ -332,7 +345,7 @@ def main(args):
         convert.print_errors()
         exit(1)
 
-    if convert.warnings:
+    if convert.warnings or convert.unknown:
         convert.print_warnings()
 
     if args.convert:
