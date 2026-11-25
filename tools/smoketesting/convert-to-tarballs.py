@@ -121,6 +121,8 @@ class ConvertToTarballs:
 
         if kind == 'local':
             return 'skip'
+        elif kind in ('pypi', 'anitya'):
+            return 'trackable'
         elif kind.startswith('git'):
             url = element['sources'][0]['url']
             if url.startswith('gnome:'):
