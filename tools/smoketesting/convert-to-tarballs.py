@@ -72,7 +72,7 @@ class Options:
                 module = element.get('module')
                 self.module_locations.append([module, site])
 
-        for element in document.findall('whitelist/package'):
+        for element in document.findall('allowlist/package'):
             name = element.get('name')
 
             # Determine whether we have a version limit for this package
